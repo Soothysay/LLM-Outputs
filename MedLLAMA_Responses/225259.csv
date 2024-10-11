@@ -1,0 +1,2963 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+160747.0,225259,2161-12-23 06:52:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ CARDIAC CATH - At [**2161-12-22**] 09:15 PM
+ NASAL SWAB - At [**2161-12-22**] 11:00 PM
+ EKG - At [**2161-12-23**] 06:05 AM
+   - High anxiety, difficulty sleeping, in tears, has had nausea all night
+   without other symptoms - per nursing, she responded better to IV ativan
+   than to zofran.  EKG showed small Twave inversions in V3, no other
+   changes. Given compazine 6:20am
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Eptifibatide (Integrilin) - 2 mcg/Kg/min
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2161-12-23**] 01:30 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-12-23**] 06:49 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.9
+C (98.5
+   HR: 86 (86 - 103) bpm
+   BP: 97/61(68) {88/51(58) - 119/83(90)} mmHg
+   RR: 17 (14 - 24) insp/min
+   SpO2: 94%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+             Total In:
+                                                                    948 mL
+                                                                    609 mL
+   PO:
+                                                                    150 mL
+                                                                    150 mL
+   TF:
+   IVF:
+                                                                    798 mL
+                                                                    459 mL
+   Blood products:
+   Total out:
+                                                                    850 mL
+                                                                    775 mL
+   Urine:
+                                                                    650 mL
+                                                                    775 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     98 mL
+                                                                   -166 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 94%
+   ABG: ///21/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   220 K/uL
+   11.3 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   4.1 mEq/L
+   14 mg/dL
+   104 mEq/L
+   137 mEq/L
+   34.9 %
+   7.8 K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+   WBC
+   7.8
+   Hct
+   34.9
+   Plt
+   249
+   220
+   Cr
+   0.5
+   TropT
+   10.60
+   6.29
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:2705/333/6.29, Ca++:8.5 mg/dL,
+   Mg++:2.0 mg/dL
+   Assessment and Plan
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   .
+   # Posterior STEMI
+   Patient was transferred to [**Hospital1 19**] for Cath.  PTCA was done and DES
+   placed in OM.  Resolution of ST changes on ECG post intervention.
+   Troponin at OSH not yet elevated.
+   - aspirin, plavix,
+   - eftifibatide x 18 hours
+   - start low dose beta blocker today
+   - statin
+   - trend cardiac enzymes
+   - Echo to evaluate for new wall motion abnormalities and for MR
+   - start low dose ACE inhibitor prior to Discharge if BP tolerates
+   .
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history and are
+   current smokers.
+   - counsel on smoking cessation
+   .
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   -          compazine for nausea/anxiety as needed
+   .
+   # Hyperlipidemia
+   - continue simvastatin
+   .
+   FEN:  cardiac diet
+   .
+   ACCESS: PIV's
+   .
+   PROPHYLAXIS:
+   -DVT ppx with integrilin overnight, heparin sq in AM
+   -Bowel regimen with prn colace and senna
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-12-22**] 10:00 PM
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:  Full
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ CARDIAC CATH - At [**2161-12-22**] 09:15 PM
+ NASAL SWAB - At [**2161-12-22**] 11:00 PM
+ EKG - At [**2161-12-23**] 06:05 AM
+   - High anxiety, difficulty sleeping, in tears, has had nausea all night
+   without other symptoms - per nursing, she responded better to IV ativan
+   than to zofran.  EKG showed small Twave inversions in V3, no other
+   changes. Given compazine 6:20am
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Eptifibatide (Integrilin) - 2 mcg/Kg/min
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2161-12-23**] 01:30 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-12-23**] 06:49 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.9
+C (98.5
+   HR: 86 (86 - 103) bpm
+   BP: 97/61(68) {88/51(58) - 119/83(90)} mmHg
+   RR: 17 (14 - 24) insp/min
+   SpO2: 94%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+             Total In:
+                                                                    948 mL
+                                                                    609 mL
+   PO:
+                                                                    150 mL
+                                                                    150 mL
+   TF:
+   IVF:
+                                                                    798 mL
+                                                                    459 mL
+   Blood products:
+   Total out:
+                                                                    850 mL
+                                                                    775 mL
+   Urine:
+                                                                    650 mL
+                                                                    775 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     98 mL
+                                                                   -166 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 94%
+   ABG: ///21/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   220 K/uL
+   11.3 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   4.1 mEq/L
+   14 mg/dL
+   104 mEq/L
+   137 mEq/L
+   34.9 %
+   7.8 K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+   WBC
+   7.8
+   Hct
+   34.9
+   Plt
+   249
+   220
+   Cr
+   0.5
+   TropT
+   10.60
+   6.29
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:2705/333/6.29, Ca++:8.5 mg/dL,
+   Mg++:2.0 mg/dL
+   Assessment and Plan
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   .
+   # Posterior STEMI
+   Patient was transferred to [**Hospital1 19**] for Cath.  PTCA was done and DES
+   placed in OM.  Resolution of ST changes on ECG post intervention.
+   Troponin at OSH not yet elevated.
+   - aspirin, plavix,
+   - eftifibatide x 18 hours
+   - start low dose beta blocker today
+   - statin
+   - trend cardiac enzymes
+   - Echo to evaluate for new wall motion abnormalities and for MR
+   - start low dose ACE inhibitor prior to Discharge if BP tolerates
+   .
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history and are
+   current smokers.
+   - counsel on smoking cessation
+   .
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   -          compazine for nausea/anxiety as needed
+   .
+   # Hyperlipidemia
+   - continue simvastatin
+   .
+   FEN:  cardiac diet
+   .
+   ACCESS: PIV's
+   .
+   PROPHYLAXIS:
+   -DVT ppx with integrilin overnight, heparin sq in AM
+   -Bowel regimen with prn colace and senna
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-12-22**] 10:00 PM
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:  Full
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, I summarize the patient's health progress in the ICU as follows:
+
+The patient, a 47-year-old woman with a past medical history of hyperlipidemia, smoking, and recent STEMI, underwent PCI with stenting in the OM. She was transferred to the ICU for further monitoring and management. 
+
+The patient's vital signs are stable, with a Tmax of 36.9°C, HR of 86 bpm, BP of 97/61 mmHg, RR of 17 inspirations per minute, and SpO2 of 94%. Her EKG shows small Twave inversions in V3, but no other changes. 
+
+The patient has been experiencing high anxiety, difficulty sleeping, and nausea, which have responded better to IV ativan than zofran. She was given compazine at 6:20 am. 
+
+Lab results show elevated cardiac enzymes, including CK, CKMB, and Troponin-T, indicating ongoing cardiac damage. Her WBC count is 7.8 K/uL, Hct is 34.9%, and Plt is 249 K/uL. 
+
+The patient's medical plan includes continuation of eptifibatide, aspirin, and plavix, as well as initiation of low-dose beta blocker, statin, and ACE inhibitor. She will also undergo an echo to evaluate for new wall motion abnormalities and for MR. 
+
+Potential medical complications that can arise include:
+
+1. Cardiac arrhythmias: Given the patient's history of STEMI and ongoing cardiac damage, there is a risk of developing cardiac arrhythmias, such as atrial fibrillation or ventricular tachycardia.
+2. Respiratory complications: The patient's history of smoking and recent cardiac event may increase her risk of developing respiratory complications, such as pneumonia or acute respiratory distress syndrome.
+3. Gastrointestinal complications: The patient's experience of nausea and vomiting may increase her risk of developing gastrointestinal complications, such as gastrointestinal bleeding or perforation.
+4. Infection: The patient's history of smoking and recent cardiac event may increase her risk of developing infections, such as sepsis or ventilator-associated pneumonia.
+5. Thrombotic complications: The patient's history of STEMI and ongoing cardiac damage may increase her risk of developing thrombotic complications, such as deep vein thrombosis or pulmonary embolism.
+6. Renal insufficiency: The patient's history of cardiac event and ongoing cardiac damage may increase her risk of developing renal insufficiency or acute kidney injury.
+7. Neurological complications: The patient's history of smoking and recent cardiac event may increase her risk of developing neurological complications, such as stroke or transient ischemic attack."
+160747.0,225259,2161-12-23 06:52:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ CARDIAC CATH - At [**2161-12-22**] 09:15 PM
+ NASAL SWAB - At [**2161-12-22**] 11:00 PM
+ EKG - At [**2161-12-23**] 06:05 AM
+   - High anxiety, difficulty sleeping, in tears, has had nausea all night
+   without other symptoms - per nursing, she responded better to IV ativan
+   than to zofran.  EKG showed small Twave inversions in V3, no other
+   changes. Given compazine 6:20am
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Eptifibatide (Integrilin) - 2 mcg/Kg/min
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2161-12-23**] 01:30 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-12-23**] 06:49 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.9
+C (98.5
+   HR: 86 (86 - 103) bpm
+   BP: 97/61(68) {88/51(58) - 119/83(90)} mmHg
+   RR: 17 (14 - 24) insp/min
+   SpO2: 94%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+             Total In:
+                                                                    948 mL
+                                                                    609 mL
+   PO:
+                                                                    150 mL
+                                                                    150 mL
+   TF:
+   IVF:
+                                                                    798 mL
+                                                                    459 mL
+   Blood products:
+   Total out:
+                                                                    850 mL
+                                                                    775 mL
+   Urine:
+                                                                    650 mL
+                                                                    775 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     98 mL
+                                                                   -166 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 94%
+   ABG: ///21/
+   Physical Examination
+   GENERAL: WDWN in NAD, calm. Oriented x3.
+   HEENT: NCAT. Sclera anicteric. mucus membranes mildly dry.
+   NECK: Supple with JVP of 8 cm.
+   CARDIAC:  Regular Rhythm, Rate 80s, normal S1, S2. No
+   murmurs/rubs/gallops appreciated. No thrills, lifts. No S3 or S4.
+   LUNGS: Resp unlabored, no accessory muscle use. CTAB, no crackles,
+   wheezes or rhonchi
+   ABDOMEN: Soft, NTND. No HSM or tenderness.
+   EXTREMITIES: No c/c/e. Right sided groin bandage with some blood.
+   SKIN: No stasis dermatitis, ulcers, scars, or xanthomas.
+   PULSES:
+   Right: Carotid 2+ DP 2+
+   Left: Carotid 2+ DP 2+
+   Labs / Radiology
+   220 K/uL
+   11.3 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   4.1 mEq/L
+   14 mg/dL
+   104 mEq/L
+   137 mEq/L
+   34.9 %
+   7.8 K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+   WBC
+   7.8
+   Hct
+   34.9
+   Plt
+   249
+   220
+   Cr
+   0.5
+   TropT
+   10.60
+   6.29
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:2705/333/6.29, Ca++:8.5 mg/dL,
+   Mg++:2.0 mg/dL
+   Assessment and Plan
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   .
+   # Posterior STEMI
+   s/p PTCA and DES placed in OM.  ECG this AM with no ST changes.  MB
+   peaked in 300s, and enzymes trending down this AM.
+   - aspirin, plavix,
+   - eftifibatide x 18 hours finishes this afternoon
+   - start low dose metoprolol this AM
+   - statin
+   - Echo to evaluate for new wall motion abnormalities and for MR this AM
+   - start low dose ACE inhibitor prior to Discharge if BP tolerates
+   .
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history and are
+   current smokers.
+   -          counsel on smoking cessation
+   -          Social Work consult
+   .
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   -          compazine for nausea/anxiety as needed
+   .
+   # Hyperlipidemia
+   - continue simvastatin
+   .
+   FEN:  cardiac diet
+   .
+   ACCESS: PIV's
+   .
+   PROPHYLAXIS:
+   -DVT ppx with heparin sq
+   -Bowel regimen with prn colace and senna
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-12-22**] 10:00 PM
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:  Full
+   Disposition:  callout to floor today
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ CARDIAC CATH - At [**2161-12-22**] 09:15 PM
+ NASAL SWAB - At [**2161-12-22**] 11:00 PM
+ EKG - At [**2161-12-23**] 06:05 AM
+   - High anxiety, difficulty sleeping, in tears, has had nausea all night
+   without other symptoms - per nursing, she responded better to IV ativan
+   than to zofran.  EKG showed small Twave inversions in V3, no other
+   changes. Given compazine 6:20am
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Eptifibatide (Integrilin) - 2 mcg/Kg/min
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2161-12-23**] 01:30 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-12-23**] 06:49 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.9
+C (98.5
+   HR: 86 (86 - 103) bpm
+   BP: 97/61(68) {88/51(58) - 119/83(90)} mmHg
+   RR: 17 (14 - 24) insp/min
+   SpO2: 94%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+             Total In:
+                                                                    948 mL
+                                                                    609 mL
+   PO:
+                                                                    150 mL
+                                                                    150 mL
+   TF:
+   IVF:
+                                                                    798 mL
+                                                                    459 mL
+   Blood products:
+   Total out:
+                                                                    850 mL
+                                                                    775 mL
+   Urine:
+                                                                    650 mL
+                                                                    775 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     98 mL
+                                                                   -166 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 94%
+   ABG: ///21/
+   Physical Examination
+   GENERAL: WDWN in NAD, calm. Oriented x3.
+   HEENT: NCAT. Sclera anicteric. mucus membranes mildly dry.
+   NECK: Supple with JVP of 8 cm.
+   CARDIAC:  Regular Rhythm, Rate 80s, normal S1, S2. No
+   murmurs/rubs/gallops appreciated. No thrills, lifts. No S3 or S4.
+   LUNGS: Resp unlabored, no accessory muscle use. CTAB, no crackles,
+   wheezes or rhonchi
+   ABDOMEN: Soft, NTND. No HSM or tenderness.
+   EXTREMITIES: No c/c/e. Right sided groin bandage with some blood.
+   SKIN: No stasis dermatitis, ulcers, scars, or xanthomas.
+   PULSES:
+   Right: Carotid 2+ DP 2+
+   Left: Carotid 2+ DP 2+
+   Labs / Radiology
+   220 K/uL
+   11.3 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   4.1 mEq/L
+   14 mg/dL
+   104 mEq/L
+   137 mEq/L
+   34.9 %
+   7.8 K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+   WBC
+   7.8
+   Hct
+   34.9
+   Plt
+   249
+   220
+   Cr
+   0.5
+   TropT
+   10.60
+   6.29
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:2705/333/6.29, Ca++:8.5 mg/dL,
+   Mg++:2.0 mg/dL
+   Assessment and Plan
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   .
+   # Posterior STEMI
+   s/p PTCA and DES placed in OM.  ECG this AM with no ST changes.  MB
+   peaked in 300s, and enzymes trending down this AM.
+   - aspirin, plavix,
+   - eftifibatide x 18 hours finishes this afternoon
+   - start low dose metoprolol this AM
+   - statin
+   - Echo to evaluate for new wall motion abnormalities and for MR this AM
+   - start low dose ACE inhibitor prior to Discharge if BP tolerates
+   .
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history and are
+   current smokers.
+   -          counsel on smoking cessation
+   -          Social Work consult
+   .
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   -          compazine for nausea/anxiety as needed
+   .
+   # Hyperlipidemia
+   - continue simvastatin
+   .
+   FEN:  cardiac diet
+   .
+   ACCESS: PIV's
+   .
+   PROPHYLAXIS:
+   -DVT ppx with heparin sq
+   -Bowel regimen with prn colace and senna
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-12-22**] 10:00 PM
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:  Full
+   Disposition:  callout to floor today<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, here is a summary of the information:
+
+The patient is a 47-year-old woman who presented with a STEMI and underwent PCI with stenting to the OM. She has a history of hyperlipidemia, smoking, and is currently a smoker. She has been experiencing anxiety, nausea, and difficulty sleeping, which has been managed with IV ativan and compazine.
+
+The patient's vital signs are stable, with a heart rate of 86 bpm, blood pressure of 97/61 mmHg, and oxygen saturation of 94%. Her cardiac rhythm is normal sinus rhythm, and her lungs are clear. She has a small amount of blood in her right groin, but otherwise, her physical examination is normal.
+
+The patient's laboratory results show elevated troponin levels, but her enzymes are trending down. Her creatinine and blood urea nitrogen (BUN) levels are normal, and her liver function tests are within normal limits.
+
+The patient is currently receiving aspirin, plavix, and eptifibatide, and will start low-dose metoprolol and statin therapy. She will also undergo an echocardiogram to evaluate for new wall motion abnormalities and mitral regurgitation.
+
+Potential medical complications that may arise include:
+
+* Cardiac arrhythmias or ventricular tachycardia due to the patient's history of STEMI and stenting
+* Acute kidney injury or worsening renal function due to the patient's history of hypertension and hyperlipidemia
+* Pneumonia or ventilator-associated pneumonia due to the patient's prolonged ICU stay
+* Deep vein thrombosis or pulmonary embolism due to the patient's history of smoking and immobilization
+* Gastrointestinal bleeding or perforation due to the patient's history of smoking and use of anticoagulant medications
+* Respiratory failure or acute respiratory distress syndrome due to the patient's history of smoking and underlying lung disease."
+160747.0,225259,2161-12-24 07:49:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2161-12-23**] 01:30 PM
+ ULTRASOUND - At [**2161-12-23**] 09:30 PM
+   - complained of persistent nausea yesterday, EKG without change ;
+   nausea responsive to compazine
+   - given ativan PO for anxiety
+   - c/o of mid lower back pain - hct stable, low suspicison of RP bleed
+   so no CT done
+   - continued groin bleeding yesterday, hct 36.2 - stable, no hematoma, +
+   bruit.
+   - R groin u/s - resident read - normal no fistula, pseudoaneurysm,
+   other
+   - CE downtrending
+   - TTE done yesterday
+   - Nausea resolved by this AM
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2161-12-23**] 02:00 PM
+   Heparin Sodium (Prophylaxis) - [**2161-12-23**] 10:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: thirsty
+   Ear, Nose, Throat: No(t) Dry mouth
+   Flowsheet Data as of  [**2161-12-24**] 07:46 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37.5
+C (99.5
+   HR: 95 (68 - 110) bpm
+   BP: 100/65(73) {85/52(58) - 105/69(78)} mmHg
+   RR: 26 (10 - 26) insp/min
+   SpO2: 95%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+                  Total In:
+                                                                  1,581 mL
+                                                                    120 mL
+   PO:
+                                                                  1,050 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                    531 mL
+   Blood products:
+   Total out:
+                                                                  2,925 mL
+                                                                    500 mL
+   Urine:
+                                                                  2,925 mL
+                                                                    500 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,344 mL
+                                                                   -380 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 95%
+   ABG: ////
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: Normocephalic, slightly dry mucus membranes
+   Neck:  JVP not elevated
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Diastolic), No
+   murmurs, rubs or gallops appreciated
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Present), (Left DP pulse:
+   Present), DP pulses 2+ bilaterally
+   Respiratory / Chest: (Breath Sounds: Clear : bilaterally), no crackles,
+   rhonchi, or wheezes
+   Abdominal: Soft, Non-tender, nondistended
+   Extremities: no peripheral edema
+   Skin:  Warm, right groin ecchymosis
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): ,
+   Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   241 K/uL
+   12.4 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   4.1 mEq/L
+   14 mg/dL
+   104 mEq/L
+   137 mEq/L
+   37.2 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+                             [**2161-12-23**]  05:00 PM
+                             [**2161-12-24**]  05:34 AM
+   WBC
+   7.8
+   8.1
+   Hct
+   34.9
+   36.2
+   37.2
+   Plt
+   249
+   220
+   241
+   Cr
+   0.5
+   TropT
+   10.60
+   6.29
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:1605/125/6.29, Ca++:8.5 mg/dL,
+   Mg++:2.0 mg/dL
+   Imaging: TTE final read: The left atrium is normal in size. Left
+   ventricular wall thicknesses are normal. The left ventricular cavity
+   size is normal. There is mild regional left ventricular systolic
+   dysfunction with basal to mid inferolateral hypokinesis/akinesis.
+   Overall left ventricular systolic function is normal (LVEF>55%). Tissue
+   Doppler imaging suggests a normal left ventricular filling pressure
+   (PCWP<12mmHg). Right ventricular chamber size and free wall motion are
+   normal. The aortic valve leaflets are mildly thickened (?#). There is
+   no aortic valve stenosis. No aortic regurgitation is seen. The mitral
+   valve leaflets are mildly thickened.
+   Compared with the prior study (images reviewed) of [**2161-12-22**], there is
+   no definite change although image quality is suboptimal for comparison.
+   Assessment and Plan
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   .
+   # Posterior STEMI
+   s/p PTCA and DES placed in OM.  Cardiac enzymes continue to trend
+   down.  No further chest pain. No shortness of breath.  Finished 18hrs
+   eftifibatide yesterday afternoon.  Echo showedmild regional LV systolic
+   dysfunction w basal to mid inferolateral hypokinesis/akinesis with
+   normal RV wall motion and chamber size.
+   - continue aspirin, plavix, low dose metoprolol, statin
+   - start low dose ACE inhibitor prior to Discharge if BP tolerates
+   .
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history and are
+   current smokers.
+   -          counsel on smoking cessation
+   -          Social Work consult
+   .
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   -          compazine for nausea/anxiety as needed
+   .
+   # Hyperlipidemia
+   - continue simvastatin
+   ICU Care
+   Nutrition: Cardiac Healthy Diet
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-12-22**] 10:00 PM
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:   FULL
+   Disposition:  floor
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2161-12-23**] 01:30 PM
+ ULTRASOUND - At [**2161-12-23**] 09:30 PM
+   - complained of persistent nausea yesterday, EKG without change ;
+   nausea responsive to compazine
+   - given ativan PO for anxiety
+   - c/o of mid lower back pain - hct stable, low suspicison of RP bleed
+   so no CT done
+   - continued groin bleeding yesterday, hct 36.2 - stable, no hematoma, +
+   bruit.
+   - R groin u/s - resident read - normal no fistula, pseudoaneurysm,
+   other
+   - CE downtrending
+   - TTE done yesterday
+   - Nausea resolved by this AM
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2161-12-23**] 02:00 PM
+   Heparin Sodium (Prophylaxis) - [**2161-12-23**] 10:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: thirsty
+   Ear, Nose, Throat: No(t) Dry mouth
+   Flowsheet Data as of  [**2161-12-24**] 07:46 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37.5
+C (99.5
+   HR: 95 (68 - 110) bpm
+   BP: 100/65(73) {85/52(58) - 105/69(78)} mmHg
+   RR: 26 (10 - 26) insp/min
+   SpO2: 95%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+                  Total In:
+                                                                  1,581 mL
+                                                                    120 mL
+   PO:
+                                                                  1,050 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                    531 mL
+   Blood products:
+   Total out:
+                                                                  2,925 mL
+                                                                    500 mL
+   Urine:
+                                                                  2,925 mL
+                                                                    500 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,344 mL
+                                                                   -380 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 95%
+   ABG: ////
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: Normocephalic, slightly dry mucus membranes
+   Neck:  JVP not elevated
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Diastolic), No
+   murmurs, rubs or gallops appreciated
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Present), (Left DP pulse:
+   Present), DP pulses 2+ bilaterally
+   Respiratory / Chest: (Breath Sounds: Clear : bilaterally), no crackles,
+   rhonchi, or wheezes
+   Abdominal: Soft, Non-tender, nondistended
+   Extremities: no peripheral edema
+   Skin:  Warm, right groin ecchymosis
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): ,
+   Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   241 K/uL
+   12.4 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   4.1 mEq/L
+   14 mg/dL
+   104 mEq/L
+   137 mEq/L
+   37.2 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+                             [**2161-12-23**]  05:00 PM
+                             [**2161-12-24**]  05:34 AM
+   WBC
+   7.8
+   8.1
+   Hct
+   34.9
+   36.2
+   37.2
+   Plt
+   249
+   220
+   241
+   Cr
+   0.5
+   TropT
+   10.60
+   6.29
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:1605/125/6.29, Ca++:8.5 mg/dL,
+   Mg++:2.0 mg/dL
+   Imaging: TTE final read: The left atrium is normal in size. Left
+   ventricular wall thicknesses are normal. The left ventricular cavity
+   size is normal. There is mild regional left ventricular systolic
+   dysfunction with basal to mid inferolateral hypokinesis/akinesis.
+   Overall left ventricular systolic function is normal (LVEF>55%). Tissue
+   Doppler imaging suggests a normal left ventricular filling pressure
+   (PCWP<12mmHg). Right ventricular chamber size and free wall motion are
+   normal. The aortic valve leaflets are mildly thickened (?#). There is
+   no aortic valve stenosis. No aortic regurgitation is seen. The mitral
+   valve leaflets are mildly thickened.
+   Compared with the prior study (images reviewed) of [**2161-12-22**], there is
+   no definite change although image quality is suboptimal for comparison.
+   Assessment and Plan
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   .
+   # Posterior STEMI
+   s/p PTCA and DES placed in OM.  Cardiac enzymes continue to trend
+   down.  No further chest pain. No shortness of breath.  Finished 18hrs
+   eftifibatide yesterday afternoon.  Echo showedmild regional LV systolic
+   dysfunction w basal to mid inferolateral hypokinesis/akinesis with
+   normal RV wall motion and chamber size.
+   - continue aspirin, plavix, low dose metoprolol, statin
+   - start low dose ACE inhibitor prior to Discharge if BP tolerates
+   .
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history and are
+   current smokers.
+   -          counsel on smoking cessation
+   -          Social Work consult
+   .
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   -          compazine for nausea/anxiety as needed
+   .
+   # Hyperlipidemia
+   - continue simvastatin
+   ICU Care
+   Nutrition: Cardiac Healthy Diet
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-12-22**] 10:00 PM
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:   FULL
+   Disposition:  floor<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient, a 47-year-old woman with a history of hyperlipidemia and smoking, is currently in the ICU following a STEMI and PCI with stent placement in the OM. She has been experiencing nausea, which has been responsive to compazine, and has a history of anxiety, for which she is being treated with lorazepam. Her cardiac enzymes are trending down, and her echo shows mild regional LV systolic dysfunction with normal RV wall motion and chamber size. She has been counseled on smoking cessation and is being treated with aspirin, plavix, low-dose metoprolol, and statin.
+
+Potential Medical Complications:
+
+1. Continued nausea and vomiting, which could lead to dehydration and electrolyte imbalances.
+2. Anxiety, which could worsen and lead to panic attacks or other complications.
+3. Hyperlipidemia, which could increase the risk of cardiovascular events.
+4. Smoking, which could worsen the patient's cardiovascular disease and increase the risk of complications.
+5. LV systolic dysfunction, which could lead to heart failure or other cardiac complications.
+6. DVT, which could occur due to the patient's history of smoking and hyperlipidemia.
+7. VAP, which could occur due to the patient's ICU stay and the use of invasive lines and devices.
+8. Stress ulcer, which could occur due to the patient's ICU stay and the use of invasive lines and devices.
+9. Medication interactions, which could occur due to the patient's use of multiple medications.
+
+Recommendations:
+
+1. Continue to monitor the patient's nausea and vomiting and adjust her medication regimen as necessary.
+2. Continue to counsel the patient on smoking cessation and provide support for her quit attempt.
+3. Continue to monitor the patient's cardiac enzymes and adjust her medication regimen as necessary.
+4. Consider starting the patient on a low-dose ACE inhibitor prior to discharge, if her blood pressure tolerates it.
+5. Continue to monitor the patient's LV systolic dysfunction and adjust her medication regimen as necessary.
+6. Consider starting the patient on anticoagulation therapy to reduce the risk of DVT.
+7. Continue to monitor the patient's VAP and stress ulcer risk and adjust her medication regimen as necessary.
+8. Monitor the patient's medication interactions and adjust her regimen as necessary.
+9. Consider discharging the patient to the floor once her condition stabilizes and her medical needs are met."
+160747.0,225259,2161-12-24 07:49:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2161-12-23**] 01:30 PM
+ ULTRASOUND - At [**2161-12-23**] 09:30 PM
+   - complained of persistent nausea yesterday, EKG without change ;
+   nausea responsive to compazine
+   - given ativan PO for anxiety
+   - c/o of mid lower back pain - hct stable, low suspicison of RP bleed
+   so no CT done
+   - continued groin bleeding yesterday, hct 36.2 - stable, no hematoma, +
+   bruit.
+   - R groin u/s - resident read - normal no fistula, pseudoaneurysm,
+   other
+   - CE downtrending
+   - TTE done yesterday
+   - Nausea resolved by this AM
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2161-12-23**] 02:00 PM
+   Heparin Sodium (Prophylaxis) - [**2161-12-23**] 10:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: thirsty
+   Ear, Nose, Throat: No(t) Dry mouth
+   Flowsheet Data as of  [**2161-12-24**] 07:46 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37.5
+C (99.5
+   HR: 95 (68 - 110) bpm
+   BP: 100/65(73) {85/52(58) - 105/69(78)} mmHg
+   RR: 26 (10 - 26) insp/min
+   SpO2: 95%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+                  Total In:
+                                                                  1,581 mL
+                                                                    120 mL
+   PO:
+                                                                  1,050 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                    531 mL
+   Blood products:
+   Total out:
+                                                                  2,925 mL
+                                                                    500 mL
+   Urine:
+                                                                  2,925 mL
+                                                                    500 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,344 mL
+                                                                   -380 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 95%
+   ABG: ////
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: Normocephalic, slightly dry mucus membranes
+   Neck:  JVP not elevated
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Diastolic), No
+   murmurs, rubs or gallops appreciated
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Present), (Left DP pulse:
+   Present), DP pulses 2+ bilaterally, could not appreciate R femoral
+   bruit heard yesterday
+   Respiratory / Chest: (Breath Sounds: Clear : bilaterally), no crackles,
+   rhonchi, or wheezes
+   Abdominal: Soft, Non-tender, nondistended
+   Extremities: no peripheral edema
+   Skin:  Warm, right groin ecchymosis
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): ,
+   Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   241 K/uL
+   12.4 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   4.1 mEq/L
+   14 mg/dL
+   104 mEq/L
+   137 mEq/L
+   37.2 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+                             [**2161-12-23**]  05:00 PM
+                             [**2161-12-24**]  05:34 AM
+   WBC
+   7.8
+   8.1
+   Hct
+   34.9
+   36.2
+   37.2
+   Plt
+   249
+   220
+   241
+   Cr
+   0.5
+   TropT
+   10.60
+   6.29
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:1605/125/6.29, Ca++:8.5 mg/dL,
+   Mg++:2.0 mg/dL
+   Imaging: TTE final read: The left atrium is normal in size. Left
+   ventricular wall thicknesses are normal. The left ventricular cavity
+   size is normal. There is mild regional left ventricular systolic
+   dysfunction with basal to mid inferolateral hypokinesis/akinesis.
+   Overall left ventricular systolic function is normal (LVEF>55%). Tissue
+   Doppler imaging suggests a normal left ventricular filling pressure
+   (PCWP<12mmHg). Right ventricular chamber size and free wall motion are
+   normal. The aortic valve leaflets are mildly thickened (?#). There is
+   no aortic valve stenosis. No aortic regurgitation is seen. The mitral
+   valve leaflets are mildly thickened.
+   Compared with the prior study (images reviewed) of [**2161-12-22**], there is
+   no definite change although image quality is suboptimal for comparison.
+   Assessment and Plan
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   # Posterior STEMI
+   s/p PTCA and DES placed in OM.  Cardiac enzymes continue to trend
+   down.  No further chest pain. No shortness of breath.  Finished 18hrs
+   eftifibatide yesterday afternoon.  Echo showed mild regional LV
+   systolic dysfunction w basal to mid inferolateral hypokinesis/akinesis
+   with normal RV wall motion and chamber size.
+   - continue aspirin, plavix, low dose metoprolol, statin
+   - start low dose ACE inhibitor as outpatient if BP tolerates
+   - outpt f/u w Dr. [**Last Name (STitle) 3494**] 2 weeks
+   # Hypotension
+   Beta blocker held this AM due to hypotension.  Patient w poor PO intake
+   - IVF bolus and encourage POs
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history and are
+   current smokers.
+   -          counsel on smoking cessation
+   -          Social Work consult
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   -          compazine for nausea/anxiety as needed
+   .
+   # Hyperlipidemia
+   - continue simvastatin
+   - fluids IV
+   ICU Care
+   Nutrition: Cardiac Healthy Diet
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-12-22**] 10:00 PM
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:   FULL
+   Disposition:  floor
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2161-12-23**] 01:30 PM
+ ULTRASOUND - At [**2161-12-23**] 09:30 PM
+   - complained of persistent nausea yesterday, EKG without change ;
+   nausea responsive to compazine
+   - given ativan PO for anxiety
+   - c/o of mid lower back pain - hct stable, low suspicison of RP bleed
+   so no CT done
+   - continued groin bleeding yesterday, hct 36.2 - stable, no hematoma, +
+   bruit.
+   - R groin u/s - resident read - normal no fistula, pseudoaneurysm,
+   other
+   - CE downtrending
+   - TTE done yesterday
+   - Nausea resolved by this AM
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2161-12-23**] 02:00 PM
+   Heparin Sodium (Prophylaxis) - [**2161-12-23**] 10:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: thirsty
+   Ear, Nose, Throat: No(t) Dry mouth
+   Flowsheet Data as of  [**2161-12-24**] 07:46 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37.5
+C (99.5
+   HR: 95 (68 - 110) bpm
+   BP: 100/65(73) {85/52(58) - 105/69(78)} mmHg
+   RR: 26 (10 - 26) insp/min
+   SpO2: 95%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+                  Total In:
+                                                                  1,581 mL
+                                                                    120 mL
+   PO:
+                                                                  1,050 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                    531 mL
+   Blood products:
+   Total out:
+                                                                  2,925 mL
+                                                                    500 mL
+   Urine:
+                                                                  2,925 mL
+                                                                    500 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,344 mL
+                                                                   -380 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 95%
+   ABG: ////
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: Normocephalic, slightly dry mucus membranes
+   Neck:  JVP not elevated
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Diastolic), No
+   murmurs, rubs or gallops appreciated
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Present), (Left DP pulse:
+   Present), DP pulses 2+ bilaterally, could not appreciate R femoral
+   bruit heard yesterday
+   Respiratory / Chest: (Breath Sounds: Clear : bilaterally), no crackles,
+   rhonchi, or wheezes
+   Abdominal: Soft, Non-tender, nondistended
+   Extremities: no peripheral edema
+   Skin:  Warm, right groin ecchymosis
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): ,
+   Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   241 K/uL
+   12.4 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   4.1 mEq/L
+   14 mg/dL
+   104 mEq/L
+   137 mEq/L
+   37.2 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+                             [**2161-12-23**]  05:00 PM
+                             [**2161-12-24**]  05:34 AM
+   WBC
+   7.8
+   8.1
+   Hct
+   34.9
+   36.2
+   37.2
+   Plt
+   249
+   220
+   241
+   Cr
+   0.5
+   TropT
+   10.60
+   6.29
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:1605/125/6.29, Ca++:8.5 mg/dL,
+   Mg++:2.0 mg/dL
+   Imaging: TTE final read: The left atrium is normal in size. Left
+   ventricular wall thicknesses are normal. The left ventricular cavity
+   size is normal. There is mild regional left ventricular systolic
+   dysfunction with basal to mid inferolateral hypokinesis/akinesis.
+   Overall left ventricular systolic function is normal (LVEF>55%). Tissue
+   Doppler imaging suggests a normal left ventricular filling pressure
+   (PCWP<12mmHg). Right ventricular chamber size and free wall motion are
+   normal. The aortic valve leaflets are mildly thickened (?#). There is
+   no aortic valve stenosis. No aortic regurgitation is seen. The mitral
+   valve leaflets are mildly thickened.
+   Compared with the prior study (images reviewed) of [**2161-12-22**], there is
+   no definite change although image quality is suboptimal for comparison.
+   Assessment and Plan
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   # Posterior STEMI
+   s/p PTCA and DES placed in OM.  Cardiac enzymes continue to trend
+   down.  No further chest pain. No shortness of breath.  Finished 18hrs
+   eftifibatide yesterday afternoon.  Echo showed mild regional LV
+   systolic dysfunction w basal to mid inferolateral hypokinesis/akinesis
+   with normal RV wall motion and chamber size.
+   - continue aspirin, plavix, low dose metoprolol, statin
+   - start low dose ACE inhibitor as outpatient if BP tolerates
+   - outpt f/u w Dr. [**Last Name (STitle) 3494**] 2 weeks
+   # Hypotension
+   Beta blocker held this AM due to hypotension.  Patient w poor PO intake
+   - IVF bolus and encourage POs
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history and are
+   current smokers.
+   -          counsel on smoking cessation
+   -          Social Work consult
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   -          compazine for nausea/anxiety as needed
+   .
+   # Hyperlipidemia
+   - continue simvastatin
+   - fluids IV
+   ICU Care
+   Nutrition: Cardiac Healthy Diet
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-12-22**] 10:00 PM
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:   FULL
+   Disposition:  floor<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 47-year-old woman with a past medical history significant for hyperlipidemia, smoking, who presented with a ST-segment elevation myocardial infarction (STEMI) and underwent percutaneous coronary intervention (PCI) with stenting in the obtuse marginal (OM) artery.
+
+The patient's current condition is stable, with cardiac enzymes trending down, and no further chest pain or shortness of breath. The electrocardiogram (EKG) and ultrasound results are normal, and the echocardiogram shows mild regional left ventricular systolic dysfunction with basal to mid-inferolateral hypokinesis/akinesis.
+
+The patient has experienced some complications, including:
+
+1. Hypotension: The patient's blood pressure has been fluctuating, and the beta blocker was held due to hypotension.
+2. Nausea and vomiting: The patient has been experiencing nausea, which has been managed with compazine, and has also had a bout of vomiting.
+3. Mid-lower back pain: The patient has reported mid-lower back pain, which is suspected to be related to a possible retroperitoneal bleed, but has not been confirmed with a computed tomography (CT) scan.
+4. Groin bleeding: The patient has been experiencing groin bleeding, which has been managed with compression and has not resulted in a hematoma or pseudoaneurysm.
+
+The patient is currently receiving various medications, including aspirin, clopidogrel, metoprolol, simvastatin, and low-dose heparin for prophylaxis against deep vein thrombosis (DVT). She is also receiving IV fluids and has been counseled on smoking cessation.
+
+Potential medical complications that may arise include:
+
+1. Cardiac complications: The patient's cardiac enzymes are still trending down, but she may be at risk for cardiac complications such as heart failure or arrhythmias.
+2. Bleeding complications: The patient's groin bleeding may continue to pose a risk for bleeding complications, such as hematoma or pseudoaneurysm.
+3. Infection: The patient is at risk for infection due to her central venous catheter and the possibility of vascular access site infections.
+4. Respiratory complications: The patient may be at risk for respiratory complications, such as pneumonia or acute respiratory distress syndrome (ARDS), given her history of smoking and her current condition.
+5. Gastrointestinal complications: The patient's nausea and vomiting may continue to pose a risk for gastrointestinal complications, such as bowel obstruction or perforation.
+
+In conclusion, the patient's condition is stable, but she is at risk for various medical complications. Close monitoring and management of her condition will be necessary to prevent and manage these complications."
+160747.0,225259,2161-12-24 07:49:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2161-12-23**] 01:30 PM
+ ULTRASOUND - At [**2161-12-23**] 09:30 PM
+   - complained of persistent nausea yesterday, EKG without change ;
+   nausea responsive to compazine
+   - given ativan PO for anxiety
+   - c/o of mid lower back pain - hct stable, low suspicison of RP bleed
+   so no CT done
+   - continued groin bleeding yesterday, hct 36.2 - stable, no hematoma, +
+   bruit.
+   - R groin u/s - resident read - normal no fistula, pseudoaneurysm,
+   other
+   - CE downtrending
+   - TTE done yesterday
+   - Nausea resolved by this AM
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2161-12-23**] 02:00 PM
+   Heparin Sodium (Prophylaxis) - [**2161-12-23**] 10:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: thirsty
+   Ear, Nose, Throat: No(t) Dry mouth
+   Flowsheet Data as of  [**2161-12-24**] 07:46 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37.5
+C (99.5
+   HR: 95 (68 - 110) bpm
+   BP: 100/65(73) {85/52(58) - 105/69(78)} mmHg
+   RR: 26 (10 - 26) insp/min
+   SpO2: 95%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+                  Total In:
+                                                                  1,581 mL
+                                                                    120 mL
+   PO:
+                                                                  1,050 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                    531 mL
+   Blood products:
+   Total out:
+                                                                  2,925 mL
+                                                                    500 mL
+   Urine:
+                                                                  2,925 mL
+                                                                    500 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,344 mL
+                                                                   -380 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 95%
+   ABG: ////
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: Normocephalic, slightly dry mucus membranes
+   Neck:  JVP not elevated
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Diastolic), No
+   murmurs, rubs or gallops appreciated
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Present), (Left DP pulse:
+   Present), DP pulses 2+ bilaterally, could not appreciate R femoral
+   bruit heard yesterday
+   Respiratory / Chest: (Breath Sounds: Clear : bilaterally), no crackles,
+   rhonchi, or wheezes
+   Abdominal: Soft, Non-tender, nondistended
+   Extremities: no peripheral edema
+   Skin:  Warm, right groin ecchymosis
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): ,
+   Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   241 K/uL
+   12.4 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   4.1 mEq/L
+   14 mg/dL
+   104 mEq/L
+   137 mEq/L
+   37.2 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+                             [**2161-12-23**]  05:00 PM
+                             [**2161-12-24**]  05:34 AM
+   WBC
+   7.8
+   8.1
+   Hct
+   34.9
+   36.2
+   37.2
+   Plt
+   249
+   220
+   241
+   Cr
+   0.5
+   TropT
+   10.60
+   6.29
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:1605/125/6.29, Ca++:8.5 mg/dL,
+   Mg++:2.0 mg/dL
+   Imaging: TTE final read: The left atrium is normal in size. Left
+   ventricular wall thicknesses are normal. The left ventricular cavity
+   size is normal. There is mild regional left ventricular systolic
+   dysfunction with basal to mid inferolateral hypokinesis/akinesis.
+   Overall left ventricular systolic function is normal (LVEF>55%). Tissue
+   Doppler imaging suggests a normal left ventricular filling pressure
+   (PCWP<12mmHg). Right ventricular chamber size and free wall motion are
+   normal. The aortic valve leaflets are mildly thickened (?#). There is
+   no aortic valve stenosis. No aortic regurgitation is seen. The mitral
+   valve leaflets are mildly thickened.
+   Compared with the prior study (images reviewed) of [**2161-12-22**], there is
+   no definite change although image quality is suboptimal for comparison.
+   Assessment and Plan
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   # Posterior STEMI
+   s/p PTCA and DES placed in OM.  Cardiac enzymes continue to trend
+   down.  No further chest pain. No shortness of breath.  Finished 18hrs
+   eftifibatide yesterday afternoon.  Echo showed mild regional LV
+   systolic dysfunction w basal to mid inferolateral hypokinesis/akinesis
+   with normal RV wall motion and chamber size.
+   - continue aspirin, plavix, low dose metoprolol, statin
+   - start low dose ACE inhibitor as outpatient if BP tolerates
+   - outpt f/u w Dr. [**Last Name (STitle) 3494**] 2 weeks
+   # Hypotension
+   Beta blocker held this AM due to hypotension.  Patient w poor PO intake
+   - IVF bolus and encourage POs
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history and are
+   current smokers.
+   -          counsel on smoking cessation
+   -          Social Work consult
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   -          compazine for nausea/anxiety as needed
+   .
+   # Hyperlipidemia
+   - continue simvastatin
+   - fluids IV
+   ICU Care
+   Nutrition: Cardiac Healthy Diet
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-12-22**] 10:00 PM
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:   FULL
+   Disposition:  floor
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2161-12-23**] 01:30 PM
+ ULTRASOUND - At [**2161-12-23**] 09:30 PM
+   - complained of persistent nausea yesterday, EKG without change ;
+   nausea responsive to compazine
+   - given ativan PO for anxiety
+   - c/o of mid lower back pain - hct stable, low suspicison of RP bleed
+   so no CT done
+   - continued groin bleeding yesterday, hct 36.2 - stable, no hematoma, +
+   bruit.
+   - R groin u/s - resident read - normal no fistula, pseudoaneurysm,
+   other
+   - CE downtrending
+   - TTE done yesterday
+   - Nausea resolved by this AM
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2161-12-23**] 02:00 PM
+   Heparin Sodium (Prophylaxis) - [**2161-12-23**] 10:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: thirsty
+   Ear, Nose, Throat: No(t) Dry mouth
+   Flowsheet Data as of  [**2161-12-24**] 07:46 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37.5
+C (99.5
+   HR: 95 (68 - 110) bpm
+   BP: 100/65(73) {85/52(58) - 105/69(78)} mmHg
+   RR: 26 (10 - 26) insp/min
+   SpO2: 95%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+                  Total In:
+                                                                  1,581 mL
+                                                                    120 mL
+   PO:
+                                                                  1,050 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                    531 mL
+   Blood products:
+   Total out:
+                                                                  2,925 mL
+                                                                    500 mL
+   Urine:
+                                                                  2,925 mL
+                                                                    500 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,344 mL
+                                                                   -380 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 95%
+   ABG: ////
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: Normocephalic, slightly dry mucus membranes
+   Neck:  JVP not elevated
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Diastolic), No
+   murmurs, rubs or gallops appreciated
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Present), (Left DP pulse:
+   Present), DP pulses 2+ bilaterally, could not appreciate R femoral
+   bruit heard yesterday
+   Respiratory / Chest: (Breath Sounds: Clear : bilaterally), no crackles,
+   rhonchi, or wheezes
+   Abdominal: Soft, Non-tender, nondistended
+   Extremities: no peripheral edema
+   Skin:  Warm, right groin ecchymosis
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): ,
+   Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   241 K/uL
+   12.4 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   4.1 mEq/L
+   14 mg/dL
+   104 mEq/L
+   137 mEq/L
+   37.2 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+                             [**2161-12-23**]  05:00 PM
+                             [**2161-12-24**]  05:34 AM
+   WBC
+   7.8
+   8.1
+   Hct
+   34.9
+   36.2
+   37.2
+   Plt
+   249
+   220
+   241
+   Cr
+   0.5
+   TropT
+   10.60
+   6.29
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:1605/125/6.29, Ca++:8.5 mg/dL,
+   Mg++:2.0 mg/dL
+   Imaging: TTE final read: The left atrium is normal in size. Left
+   ventricular wall thicknesses are normal. The left ventricular cavity
+   size is normal. There is mild regional left ventricular systolic
+   dysfunction with basal to mid inferolateral hypokinesis/akinesis.
+   Overall left ventricular systolic function is normal (LVEF>55%). Tissue
+   Doppler imaging suggests a normal left ventricular filling pressure
+   (PCWP<12mmHg). Right ventricular chamber size and free wall motion are
+   normal. The aortic valve leaflets are mildly thickened (?#). There is
+   no aortic valve stenosis. No aortic regurgitation is seen. The mitral
+   valve leaflets are mildly thickened.
+   Compared with the prior study (images reviewed) of [**2161-12-22**], there is
+   no definite change although image quality is suboptimal for comparison.
+   Assessment and Plan
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   # Posterior STEMI
+   s/p PTCA and DES placed in OM.  Cardiac enzymes continue to trend
+   down.  No further chest pain. No shortness of breath.  Finished 18hrs
+   eftifibatide yesterday afternoon.  Echo showed mild regional LV
+   systolic dysfunction w basal to mid inferolateral hypokinesis/akinesis
+   with normal RV wall motion and chamber size.
+   - continue aspirin, plavix, low dose metoprolol, statin
+   - start low dose ACE inhibitor as outpatient if BP tolerates
+   - outpt f/u w Dr. [**Last Name (STitle) 3494**] 2 weeks
+   # Hypotension
+   Beta blocker held this AM due to hypotension.  Patient w poor PO intake
+   - IVF bolus and encourage POs
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history and are
+   current smokers.
+   -          counsel on smoking cessation
+   -          Social Work consult
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   -          compazine for nausea/anxiety as needed
+   .
+   # Hyperlipidemia
+   - continue simvastatin
+   - fluids IV
+   ICU Care
+   Nutrition: Cardiac Healthy Diet
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-12-22**] 10:00 PM
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:   FULL
+   Disposition:  floor<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 47-year-old woman with a past medical history of hyperlipidemia, smoking, who presented with a ST-segment elevation myocardial infarction (STEMI) and was treated with percutaneous coronary intervention (PCI) and placement of a drug-eluting stent in the obtuse marginal (OM) artery. She is currently in the ICU for further management.
+
+The patient's vital signs are stable, with a temperature of 37.7°C, heart rate of 95 beats per minute, and blood pressure of 100/65 mmHg. She is receiving IV fluids and has a normal white blood cell count, platelet count, and creatinine level.
+
+The patient's cardiac enzymes are trending down, and her echocardiogram shows mild regional left ventricular systolic dysfunction with basal to mid-inferolateral hypokinesis/akinesis, with normal right ventricular wall motion and chamber size.
+
+The patient has been experiencing nausea, which has been responsive to compazine, and is receiving IV fluids and prophylactic antibiotics. She is also receiving low-dose aspirin, clopidogrel, and metoprolol.
+
+Potential medical complications:
+
+1. Bleeding: The patient has been experiencing groin bleeding, which may be a sign of bleeding complications related to the PCI procedure or anticoagulation therapy.
+2. Infection: The patient is at risk for developing infections, particularly respiratory and urinary tract infections, due to her immunosuppressed state and presence of indwelling catheters.
+3. Cardiac arrhythmias: The patient's cardiac enzymes are trending down, but she may still be at risk for developing cardiac arrhythmias, particularly given her history of STEMI and PCI.
+4. Renal insufficiency: The patient's creatinine level is normal, but she may be at risk for developing renal insufficiency due to her age, hypertension, and use of nephrotoxic medications.
+5. Pulmonary embolism: The patient is at risk for developing pulmonary embolism due to her immobility and presence of indwelling catheters.
+6. Ventricular dysfunction: The patient's echocardiogram shows mild regional left ventricular systolic dysfunction, which may be a sign of ventricular dysfunction and increased risk of cardiac complications.
+7. Nausea and vomiting: The patient's nausea and vomiting may be a sign of gastrointestinal complications, such as pancreatitis or cholecystitis, or may be related to medication side effects.
+
+Assessment and plan:
+
+1. Continue IV fluids and prophylactic antibiotics.
+2. Monitor the patient's cardiac enzymes and echocardiogram to assess for any changes in cardiac function.
+3. Continue low-dose aspirin, clopidogrel, and metoprolol.
+4. Consider starting a low-dose ACE inhibitor as an outpatient if the patient's blood pressure tolerates it.
+5. Counsel the patient and her husband on smoking cessation and refer them to social work for support.
+6. Continue to monitor the patient's nausea and vomiting and adjust medication as needed.
+7. Monitor the patient's renal function and adjust medication accordingly.
+8. Consider ordering a pulmonary embolism protocol if the patient is at high risk for developing pulmonary embolism."
+160747.0,225259,2161-12-25 06:57:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   Pt feeling well, but bp in 85-90 systolic range.
+   Patient given 1.5L, then another 1L NS boluses.
+   Called out to floor, but kept in ICU because continued to be
+   hypotensive overnight.
+   Pt sleeping, pressure 78/42(58). Given another 500cc bolus.
+   BPs in AM still in 70s systolic while sleeping but elevated to 90s
+   while awake and alert.
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-12-25**] 06:55 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 36.6
+C (97.8
+   Tcurrent: 36.6
+C (97.8
+   HR: 80 (80 - 101) bpm
+   BP: 85/49(58) {72/42(50) - 101/70(77)} mmHg
+   RR: 23 (12 - 26) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+             Total In:
+                                                                  4,460 mL
+                                                                    500 mL
+   PO:
+                                                                  1,960 mL
+             TF:
+   IVF:
+                                                                  2,500 mL
+                                                                    500 mL
+   Blood products:
+   Total out:
+                                                                  3,400 mL
+                                                                      0 mL
+   Urine:
+                                                                  3,400 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,060 mL
+                                                                    500 mL
+   Respiratory support
+   SpO2: 98%
+   ABG: ////
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: Normocephalic, slightly dry mucus membranes
+   Neck:  JVP not elevated
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Diastolic), No
+   murmurs, rubs or gallops appreciated
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Present), (Left DP pulse:
+   Present), DP pulses 2+ bilaterally, could not appreciate R femoral
+   bruit heard yesterday
+   Respiratory / Chest: (Breath Sounds: Clear : bilaterally), no crackles,
+   rhonchi, or wheezes
+   Abdominal: Soft, Non-tender, nondistended
+   Extremities: no peripheral edema
+   Skin:  Warm, right groin ecchymosis
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): ,
+   Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   241 K/uL
+   12.4 g/dL
+   105 mg/dL
+   0.6 mg/dL
+   25 mEq/L
+   4.1 mEq/L
+   15 mg/dL
+   108 mEq/L
+   142 mEq/L
+   37.2 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+                             [**2161-12-23**]  05:00 PM
+                             [**2161-12-24**]  05:34 AM
+   WBC
+   7.8
+   8.1
+   Hct
+   34.9
+   36.2
+   37.2
+   Plt
+   249
+   220
+   241
+   Cr
+   0.5
+   0.6
+   TropT
+   10.60
+   6.29
+   3.19
+   Glucose
+   134
+   105
+   Other labs: CK / CKMB / Troponin-T:795/36/3.19, Ca++:8.5 mg/dL,
+   Mg++:1.9 mg/dL
+   Assessment and Plan
+ KNOWLEDGE DEFICIT
+ MYOCARDIAL INFARCTION, ACUTE (AMI, STEMI, NSTEMI)
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   # Posterior STEMI
+   s/p PTCA and DES placed in OM.  Cardiac enzymes continue to trend
+   down.  No further chest pain. No shortness of breath.  Finished 18hrs
+   eftifibatide yesterday afternoon.  Echo showed mild regional LV
+   systolic dysfunction w basal to mid inferolateral hypokinesis/akinesis
+   with normal RV wall motion and chamber size.
+   - continue aspirin, plavix, low dose metoprolol, statin
+   - start low dose ACE inhibitor as outpatient if BP tolerates
+   - outpt f/u w Dr. [**Last Name (STitle) 3494**] 2 weeks
+   # Hypotension
+   Patient with persistent hypotension,
+   - IVF bolus and encourage POs
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history and are
+   current smokers.
+   -          counsel on smoking cessation
+   -          Social Work consult
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   -          compazine for nausea/anxiety as needed
+   .
+   # Hyperlipidemia
+   - continue simvastatin
+   - fluids IV
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:   FULL
+   Disposition:  floor
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   Pt feeling well, but bp in 85-90 systolic range.
+   Patient given 1.5L, then another 1L NS boluses.
+   Called out to floor, but kept in ICU because continued to be
+   hypotensive overnight.
+   Pt sleeping, pressure 78/42(58). Given another 500cc bolus.
+   BPs in AM still in 70s systolic while sleeping but elevated to 90s
+   while awake and alert.
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-12-25**] 06:55 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 36.6
+C (97.8
+   Tcurrent: 36.6
+C (97.8
+   HR: 80 (80 - 101) bpm
+   BP: 85/49(58) {72/42(50) - 101/70(77)} mmHg
+   RR: 23 (12 - 26) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+             Total In:
+                                                                  4,460 mL
+                                                                    500 mL
+   PO:
+                                                                  1,960 mL
+             TF:
+   IVF:
+                                                                  2,500 mL
+                                                                    500 mL
+   Blood products:
+   Total out:
+                                                                  3,400 mL
+                                                                      0 mL
+   Urine:
+                                                                  3,400 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,060 mL
+                                                                    500 mL
+   Respiratory support
+   SpO2: 98%
+   ABG: ////
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: Normocephalic, slightly dry mucus membranes
+   Neck:  JVP not elevated
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Diastolic), No
+   murmurs, rubs or gallops appreciated
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Present), (Left DP pulse:
+   Present), DP pulses 2+ bilaterally, could not appreciate R femoral
+   bruit heard yesterday
+   Respiratory / Chest: (Breath Sounds: Clear : bilaterally), no crackles,
+   rhonchi, or wheezes
+   Abdominal: Soft, Non-tender, nondistended
+   Extremities: no peripheral edema
+   Skin:  Warm, right groin ecchymosis
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): ,
+   Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   241 K/uL
+   12.4 g/dL
+   105 mg/dL
+   0.6 mg/dL
+   25 mEq/L
+   4.1 mEq/L
+   15 mg/dL
+   108 mEq/L
+   142 mEq/L
+   37.2 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+                             [**2161-12-23**]  05:00 PM
+                             [**2161-12-24**]  05:34 AM
+   WBC
+   7.8
+   8.1
+   Hct
+   34.9
+   36.2
+   37.2
+   Plt
+   249
+   220
+   241
+   Cr
+   0.5
+   0.6
+   TropT
+   10.60
+   6.29
+   3.19
+   Glucose
+   134
+   105
+   Other labs: CK / CKMB / Troponin-T:795/36/3.19, Ca++:8.5 mg/dL,
+   Mg++:1.9 mg/dL
+   Assessment and Plan
+ KNOWLEDGE DEFICIT
+ MYOCARDIAL INFARCTION, ACUTE (AMI, STEMI, NSTEMI)
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   # Posterior STEMI
+   s/p PTCA and DES placed in OM.  Cardiac enzymes continue to trend
+   down.  No further chest pain. No shortness of breath.  Finished 18hrs
+   eftifibatide yesterday afternoon.  Echo showed mild regional LV
+   systolic dysfunction w basal to mid inferolateral hypokinesis/akinesis
+   with normal RV wall motion and chamber size.
+   - continue aspirin, plavix, low dose metoprolol, statin
+   - start low dose ACE inhibitor as outpatient if BP tolerates
+   - outpt f/u w Dr. [**Last Name (STitle) 3494**] 2 weeks
+   # Hypotension
+   Patient with persistent hypotension,
+   - IVF bolus and encourage POs
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history and are
+   current smokers.
+   -          counsel on smoking cessation
+   -          Social Work consult
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   -          compazine for nausea/anxiety as needed
+   .
+   # Hyperlipidemia
+   - continue simvastatin
+   - fluids IV
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:   FULL
+   Disposition:  floor<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 47-year-old woman with a past medical history of hyperlipidemia, smoking, who presented with a STEMI and was treated with PCI and stenting in the OM. She has been in the ICU for several days, with persistent hypotension requiring IVF boluses. Her cardiac enzymes are trending down, and she has no further chest pain or shortness of breath. She is being treated with aspirin, plavix, low-dose metoprolol, and statin, and will be started on a low-dose ACE inhibitor as an outpatient if her blood pressure tolerates it.
+
+The patient has several medical complications, including:
+
+* Hypotension: The patient's blood pressure remains in the 70s systolic while sleeping, but elevates to the 90s while awake and alert. She has been given IVF boluses to manage her hypotension.
+* Myocardial Infarction: The patient has a history of STEMI and has undergone PCI and stenting in the OM. She has mild regional LV systolic dysfunction with basal to mid-inferolateral hypokinesis/akinesis.
+* Tobacco Abuse: The patient and her husband are both current smokers and have significant smoking histories. They will be counseled on smoking cessation and a social work consult will be arranged.
+* Anxiety: The patient is experiencing anxiety, which is being managed with home doses of lorazepam as needed and compazine for nausea/anxiety as needed.
+* Hyperlipidemia: The patient has a history of hyperlipidemia and is being treated with simvastatin.
+* Other: The patient has a right groin ecchymosis, and her DP pulses are 2+ bilaterally.
+
+Potential medical complications that may arise include:
+
+* Cardiac complications: The patient's history of STEMI and ongoing hypotension may increase her risk of cardiac complications, such as arrhythmias or cardiac failure.
+* Respiratory complications: The patient's hypotension may lead to decreased perfusion of the lungs, increasing her risk of respiratory complications such as pneumonia or acute respiratory distress syndrome.
+* Infection: The patient's history of smoking and ongoing hypotension may increase her risk of infection, particularly respiratory or urinary tract infections.
+* Fluid imbalance: The patient's ongoing hypotension and fluid administration may lead to fluid imbalance and electrolyte disturbances.
+* Medication side effects: The patient's treatment with various medications, including aspirin, plavix, and statin, may cause side effects, such as bleeding or gastrointestinal disturbances."
+160747.0,225259,2161-12-25 06:57:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   Pt feeling well, but bp in 85-90 systolic range.
+   Patient given 1.5L, then another 1L NS boluses.
+   Called out to floor, but kept in ICU because continued to be
+   hypotensive overnight.
+   Pt sleeping, pressure 78/42(58). Given another 500cc bolus.
+   BPs in AM still in 70s systolic while sleeping but elevated to 90s
+   while awake and alert.
+   -          no further nausea over last 24hrs, no complaints of chest
+   pain, sob
+   -          denies lightheadedness/dizziness w ambulation or standing,
+   despite low BPs
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-12-25**] 06:55 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 36.6
+C (97.8
+   Tcurrent: 36.6
+C (97.8
+   HR: 80 (80 - 101) bpm
+   BP: 85/49(58) {72/42(50) - 101/70(77)} mmHg
+   RR: 23 (12 - 26) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+             Total In:
+                                                                  4,460 mL
+                                                                    500 mL
+   PO:
+                                                                  1,960 mL
+             TF:
+   IVF:
+                                                                  2,500 mL
+                                                                    500 mL
+   Blood products:
+   Total out:
+                                                                  3,400 mL
+                                                                      0 mL
+   Urine:
+                                                                  3,400 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,060 mL
+                                                                    500 mL
+   Respiratory support
+   SpO2: 98%
+   ABG: ////
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: Normocephalic, moist mucus membranes
+   Neck:  JVP not elevated
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Diastolic), No
+   murmurs, rubs or gallops appreciated
+   Peripheral Vascular:  DP pulses 2+ bilaterally, could not appreciate R
+   femoral bruit
+   Respiratory / Chest: (Breath Sounds: Clear : bilaterally), no crackles,
+   rhonchi, or wheezes
+   Abdominal: Soft, Non-tender, nondistended
+   Extremities: no peripheral edema
+   Skin:  Warm, right groin ecchymosis
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): ,
+   Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   FEMORAL VASCULAR US RIGHT
+   Study Date of [**2161-12-23**] 9:22 PM
+   Preliminary Report
+   No evidence of pseudoaneurysm or arteriovenous fistula. No soft tissue
+   hematoma at the site of puncture in the right groin.
+      196  K/uL
+    10.4     10.4g/dL
+   91 mg/dL
+   0.5 0.5mg/dL
+   21 mEq/L
+   3.7 mEq/L
+   13
+   112 mEq/L
+   142 mEq/L
+   30.3   %
+   6.0 6.0K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+                             [**2161-12-23**]  05:00 PM
+                             [**2161-12-24**]  05:34 AM
+   WBC
+   7.8
+   8.1
+   Hct
+   34.9
+   36.2
+   37.2
+   Plt
+   249
+   220
+   241
+   Cr
+   0.5
+   0.6
+   TropT
+   10.60
+   6.29
+   3.19
+   Glucose
+   134
+   105
+   Other labs: CK / CKMB / Troponin-T:795/36/3.19, Ca++:8.5 mg/dL,
+   Mg++:1.9 mg/dL
+   Assessment and Plan
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   # Hypotension
+   Patient with persistent hypotension, particularly while sleeping,
+   despite 3L of IVFs in last 24hrs.  Systolic pressures in upper 70s
+   while sleeping, increased to 90s while awake.  Did not get all doses of
+   metoprolol yesterday due to low blood pressures.  Patient w increased
+   po intake in last 24 hrs though still not significant.  Denies symptoms
+   of lightheadedness of dizziness while standing or walking.  Ambulated
+   well in hallways yesterday.
+   - check orthostatic pressures
+   # Posterior STEMI
+   s/p PTCA and DES placed in OM.  Cardiac enzymes continue to trend
+   down.  No further chest pain. No shortness of breath.    Finished 18hrs
+   eftifibatide after cath.  Echo showed mild regional LV systolic
+   dysfunction w basal to mid inferolateral hypokinesis/akinesis with
+   normal RV wall motion and chamber size.
+   - continue aspirin, plavix, statin
+   - metoprolol if blood pressures can tolerate
+   - start low dose ACE inhibitor as outpatient if BP tolerates
+   - outpt f/u w Dr. [**Last Name (STitle) 3494**] 2 weeks
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history; pt has
+   been counseled significantly by CCU staff and housestaff about the
+   importance of smoking cessation.
+   -          continue to counsel on smoking cessation
+   -          Social Work consult
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   # Hyperlipidemia
+   - continue simvastatin
+   ICU Care
+   Nutrition: cardiac diet
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:   FULL
+   Disposition:  floor
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   Pt feeling well, but bp in 85-90 systolic range.
+   Patient given 1.5L, then another 1L NS boluses.
+   Called out to floor, but kept in ICU because continued to be
+   hypotensive overnight.
+   Pt sleeping, pressure 78/42(58). Given another 500cc bolus.
+   BPs in AM still in 70s systolic while sleeping but elevated to 90s
+   while awake and alert.
+   -          no further nausea over last 24hrs, no complaints of chest
+   pain, sob
+   -          denies lightheadedness/dizziness w ambulation or standing,
+   despite low BPs
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-12-25**] 06:55 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 36.6
+C (97.8
+   Tcurrent: 36.6
+C (97.8
+   HR: 80 (80 - 101) bpm
+   BP: 85/49(58) {72/42(50) - 101/70(77)} mmHg
+   RR: 23 (12 - 26) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+             Total In:
+                                                                  4,460 mL
+                                                                    500 mL
+   PO:
+                                                                  1,960 mL
+             TF:
+   IVF:
+                                                                  2,500 mL
+                                                                    500 mL
+   Blood products:
+   Total out:
+                                                                  3,400 mL
+                                                                      0 mL
+   Urine:
+                                                                  3,400 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,060 mL
+                                                                    500 mL
+   Respiratory support
+   SpO2: 98%
+   ABG: ////
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: Normocephalic, moist mucus membranes
+   Neck:  JVP not elevated
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Diastolic), No
+   murmurs, rubs or gallops appreciated
+   Peripheral Vascular:  DP pulses 2+ bilaterally, could not appreciate R
+   femoral bruit
+   Respiratory / Chest: (Breath Sounds: Clear : bilaterally), no crackles,
+   rhonchi, or wheezes
+   Abdominal: Soft, Non-tender, nondistended
+   Extremities: no peripheral edema
+   Skin:  Warm, right groin ecchymosis
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): ,
+   Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   FEMORAL VASCULAR US RIGHT
+   Study Date of [**2161-12-23**] 9:22 PM
+   Preliminary Report
+   No evidence of pseudoaneurysm or arteriovenous fistula. No soft tissue
+   hematoma at the site of puncture in the right groin.
+      196  K/uL
+    10.4     10.4g/dL
+   91 mg/dL
+   0.5 0.5mg/dL
+   21 mEq/L
+   3.7 mEq/L
+   13
+   112 mEq/L
+   142 mEq/L
+   30.3   %
+   6.0 6.0K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+                             [**2161-12-23**]  05:00 PM
+                             [**2161-12-24**]  05:34 AM
+   WBC
+   7.8
+   8.1
+   Hct
+   34.9
+   36.2
+   37.2
+   Plt
+   249
+   220
+   241
+   Cr
+   0.5
+   0.6
+   TropT
+   10.60
+   6.29
+   3.19
+   Glucose
+   134
+   105
+   Other labs: CK / CKMB / Troponin-T:795/36/3.19, Ca++:8.5 mg/dL,
+   Mg++:1.9 mg/dL
+   Assessment and Plan
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   # Hypotension
+   Patient with persistent hypotension, particularly while sleeping,
+   despite 3L of IVFs in last 24hrs.  Systolic pressures in upper 70s
+   while sleeping, increased to 90s while awake.  Did not get all doses of
+   metoprolol yesterday due to low blood pressures.  Patient w increased
+   po intake in last 24 hrs though still not significant.  Denies symptoms
+   of lightheadedness of dizziness while standing or walking.  Ambulated
+   well in hallways yesterday.
+   - check orthostatic pressures
+   # Posterior STEMI
+   s/p PTCA and DES placed in OM.  Cardiac enzymes continue to trend
+   down.  No further chest pain. No shortness of breath.    Finished 18hrs
+   eftifibatide after cath.  Echo showed mild regional LV systolic
+   dysfunction w basal to mid inferolateral hypokinesis/akinesis with
+   normal RV wall motion and chamber size.
+   - continue aspirin, plavix, statin
+   - metoprolol if blood pressures can tolerate
+   - start low dose ACE inhibitor as outpatient if BP tolerates
+   - outpt f/u w Dr. [**Last Name (STitle) 3494**] 2 weeks
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history; pt has
+   been counseled significantly by CCU staff and housestaff about the
+   importance of smoking cessation.
+   -          continue to counsel on smoking cessation
+   -          Social Work consult
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   # Hyperlipidemia
+   - continue simvastatin
+   ICU Care
+   Nutrition: cardiac diet
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:   FULL
+   Disposition:  floor<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 47-year-old woman with a past medical history of hyperlipidemia, smoking, and STEMI, who underwent PCI with stenting in the OM. She has been experiencing persistent hypotension, particularly while sleeping, despite receiving 3L of IV fluids in the last 24 hours. Her systolic pressures are in the upper 70s while sleeping and increase to the 90s while awake. She denies symptoms of lightheadedness or dizziness while standing or walking. She has been ambulating well in the hallways. Her cardiac enzymes continue to trend down, and she has been experiencing no further chest pain or shortness of breath.
+
+Potential Medical Complications:
+
+1. Hypovolemic Shock: The patient's persistent hypotension, particularly while sleeping, may be indicative of hypovolemic shock. This is a life-threatening condition that requires immediate attention and treatment.
+2. Cardiac Ischemia: The patient's past medical history of STEMI and ongoing cardiac dysfunction may increase her risk of cardiac ischemia. This could lead to further complications, such as arrhythmias, heart failure, or even cardiac arrest.
+3. Respiratory Failure: The patient's respiratory status is stable, but her hypotension and cardiac dysfunction may increase her risk of respiratory failure. This could be exacerbated by factors such as pneumonia, pleural effusion, or other respiratory complications.
+4. Sepsis: The patient's hypotension and cardiac dysfunction may increase her risk of sepsis, particularly if she develops a secondary infection. This could lead to further complications, such as organ failure, septic shock, or even death.
+5. Anemia: The patient's anemia, as evidenced by her low hemoglobin levels, may exacerbate her hypotension and cardiac dysfunction. This could lead to further complications, such as heart failure, arrhythmias, or even cardiac arrest.
+6. Electrolyte Imbalance: The patient's electrolyte imbalance, as evidenced by her abnormal potassium, magnesium, and calcium levels, may exacerbate her cardiac dysfunction and hypotension. This could lead to further complications, such as arrhythmias, muscle weakness, or even cardiac arrest.
+7. Infection: The patient's past medical history of smoking and STEMI may increase her risk of infection. This could lead to further complications, such as sepsis, pneumonia, or other respiratory or cardiovascular complications.
+8. Pulmonary Embolism: The patient's history of smoking and her current cardiac dysfunction may increase her risk of pulmonary embolism. This could lead to further complications, such as respiratory failure, arrhythmias, or even death.
+
+Recommendations:
+
+1. Continue to monitor the patient's blood pressure and cardiac function closely.
+2. Administer additional IV fluids as needed to manage hypotension.
+3. Consider the use of vasopressors or inotropes to manage hypotension and cardiac dysfunction.
+4. Monitor the patient's electrolyte levels closely and adjust her medication regimen as needed to manage electrolyte imbalance.
+5. Continue to counsel the patient on smoking cessation and provide support for her nicotine addiction.
+6. Consider the use of anticoagulation therapy to prevent thrombotic complications.
+7. Monitor the patient's respiratory status closely and consider the use of non-invasive ventilation or mechanical ventilation as needed.
+8. Consider the use of antibiotics to prevent secondary infection and manage any signs of infection that may arise."
+160747.0,225259,2161-12-25 06:57:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   Pt feeling well, but bp in 85-90 systolic range.
+   Patient given 1.5L, then another 1L NS boluses.
+   Called out to floor, but kept in ICU because continued to be
+   hypotensive overnight.
+   Pt sleeping, pressure 78/42(58). Given another 500cc bolus.
+   BPs in AM still in 70s systolic while sleeping but elevated to 90s
+   while awake and alert.
+   -          no further nausea over last 24hrs, no complaints of chest
+   pain, sob
+   -          denies lightheadedness/dizziness w ambulation or standing,
+   despite low BPs
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-12-25**] 06:55 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 36.6
+C (97.8
+   Tcurrent: 36.6
+C (97.8
+   HR: 80 (80 - 101) bpm
+   BP: 85/49(58) {72/42(50) - 101/70(77)} mmHg
+   RR: 23 (12 - 26) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+             Total In:
+                                                                  4,460 mL
+                                                                    500 mL
+   PO:
+                                                                  1,960 mL
+             TF:
+   IVF:
+                                                                  2,500 mL
+                                                                    500 mL
+   Blood products:
+   Total out:
+                                                                  3,400 mL
+                                                                      0 mL
+   Urine:
+                                                                  3,400 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,060 mL
+                                                                    500 mL
+   Respiratory support
+   SpO2: 98%
+   ABG: ////
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: Normocephalic, moist mucus membranes
+   Neck:  JVP not elevated
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Diastolic), No
+   murmurs, rubs or gallops appreciated
+   Peripheral Vascular:  DP pulses 2+ bilaterally, could not appreciate R
+   femoral bruit
+   Respiratory / Chest: (Breath Sounds: Clear : bilaterally), no crackles,
+   rhonchi, or wheezes
+   Abdominal: Soft, Non-tender, nondistended
+   Extremities: no peripheral edema
+   Skin:  Warm, right groin ecchymosis
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): ,
+   Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   FEMORAL VASCULAR US RIGHT
+   Study Date of [**2161-12-23**] 9:22 PM
+                             Preliminary Report
+   No evidence of pseudoaneurysm or arteriovenous fistula. No soft tissue
+   hematoma at the site of puncture in the right groin.
+        K/uL
+         g/dL
+    mg/dL
+    mg/dL
+    mEq/L
+    mEq/L
+    mg/dL
+    mEq/L
+    mEq/L
+        %
+    K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+                             [**2161-12-23**]  05:00 PM
+                             [**2161-12-24**]  05:34 AM
+   WBC
+   7.8
+   8.1
+   Hct
+   34.9
+   36.2
+   37.2
+   Plt
+   249
+   220
+   241
+   Cr
+   0.5
+   0.6
+   TropT
+   10.60
+   6.29
+   3.19
+   Glucose
+   134
+   105
+   Other labs: CK / CKMB / Troponin-T:795/36/3.19, Ca++:8.5 mg/dL,
+   Mg++:1.9 mg/dL
+   Assessment and Plan
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   # Hypotension
+   Patient with persistent hypotension, particularly while sleeping,
+   despite 3L of IVFs in last 24hrs.  Systolic pressures in upper 70s
+   while sleeping, increased to 90s while awake.  Has not been able to get
+   metoprolol doses due to low blood pressures.  Patient w increased po
+   intake in last 24 hrs though still not significant.  Denies symptoms of
+   lightheadedness of dizziness while standing or walking.
+   - hold metoprolol for SBP<100
+   # Posterior STEMI
+   s/p PTCA and DES placed in OM.  Cardiac enzymes continue to trend
+   down.  No further chest pain. No shortness of breath.    Finished 18hrs
+   eftifibatide after cath.  Echo showed mild regional LV systolic
+   dysfunction w basal to mid inferolateral hypokinesis/akinesis with
+   normal RV wall motion and chamber size.
+   - continue aspirin, plavix, statin
+   - holding metoprolol while BPs still low, but will start as outpatient
+   - start low dose ACE inhibitor as outpatient if BP tolerates
+   - outpt f/u w Dr. [**Last Name (STitle) 3494**] 2 weeks
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history; pt has
+   been counseled significantly by CCU staff and housestaff about the
+   importance of smoking cessation.
+   -          counsel on smoking cessation
+   -          Social Work consult
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   # Hyperlipidemia
+   - continue simvastatin
+   - fluids IV
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:   FULL
+   Disposition:  floor
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   Pt feeling well, but bp in 85-90 systolic range.
+   Patient given 1.5L, then another 1L NS boluses.
+   Called out to floor, but kept in ICU because continued to be
+   hypotensive overnight.
+   Pt sleeping, pressure 78/42(58). Given another 500cc bolus.
+   BPs in AM still in 70s systolic while sleeping but elevated to 90s
+   while awake and alert.
+   -          no further nausea over last 24hrs, no complaints of chest
+   pain, sob
+   -          denies lightheadedness/dizziness w ambulation or standing,
+   despite low BPs
+   Allergies:
+   Sulfa (Sulfonamide Antibiotics)
+   Anaphylaxis;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-12-25**] 06:55 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**63**] AM
+   Tmax: 36.6
+C (97.8
+   Tcurrent: 36.6
+C (97.8
+   HR: 80 (80 - 101) bpm
+   BP: 85/49(58) {72/42(50) - 101/70(77)} mmHg
+   RR: 23 (12 - 26) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 55.3 kg (admission): 55.3 kg
+   Height: 63 Inch
+             Total In:
+                                                                  4,460 mL
+                                                                    500 mL
+   PO:
+                                                                  1,960 mL
+             TF:
+   IVF:
+                                                                  2,500 mL
+                                                                    500 mL
+   Blood products:
+   Total out:
+                                                                  3,400 mL
+                                                                      0 mL
+   Urine:
+                                                                  3,400 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,060 mL
+                                                                    500 mL
+   Respiratory support
+   SpO2: 98%
+   ABG: ////
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: Normocephalic, moist mucus membranes
+   Neck:  JVP not elevated
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Diastolic), No
+   murmurs, rubs or gallops appreciated
+   Peripheral Vascular:  DP pulses 2+ bilaterally, could not appreciate R
+   femoral bruit
+   Respiratory / Chest: (Breath Sounds: Clear : bilaterally), no crackles,
+   rhonchi, or wheezes
+   Abdominal: Soft, Non-tender, nondistended
+   Extremities: no peripheral edema
+   Skin:  Warm, right groin ecchymosis
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): ,
+   Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   FEMORAL VASCULAR US RIGHT
+   Study Date of [**2161-12-23**] 9:22 PM
+                             Preliminary Report
+   No evidence of pseudoaneurysm or arteriovenous fistula. No soft tissue
+   hematoma at the site of puncture in the right groin.
+        K/uL
+         g/dL
+    mg/dL
+    mg/dL
+    mEq/L
+    mEq/L
+    mg/dL
+    mEq/L
+    mEq/L
+        %
+    K/uL
+        [image002.jpg]
+                             [**2161-12-22**]  11:21 PM
+                             [**2161-12-23**]  04:52 AM
+                             [**2161-12-23**]  05:00 PM
+                             [**2161-12-24**]  05:34 AM
+   WBC
+   7.8
+   8.1
+   Hct
+   34.9
+   36.2
+   37.2
+   Plt
+   249
+   220
+   241
+   Cr
+   0.5
+   0.6
+   TropT
+   10.60
+   6.29
+   3.19
+   Glucose
+   134
+   105
+   Other labs: CK / CKMB / Troponin-T:795/36/3.19, Ca++:8.5 mg/dL,
+   Mg++:1.9 mg/dL
+   Assessment and Plan
+   47 year old woman with past medical history significant for
+   hyperlipidemia, smoking, who presented with STEMI, now s/p PCI with
+   stent to OM.
+   # Hypotension
+   Patient with persistent hypotension, particularly while sleeping,
+   despite 3L of IVFs in last 24hrs.  Systolic pressures in upper 70s
+   while sleeping, increased to 90s while awake.  Has not been able to get
+   metoprolol doses due to low blood pressures.  Patient w increased po
+   intake in last 24 hrs though still not significant.  Denies symptoms of
+   lightheadedness of dizziness while standing or walking.
+   - hold metoprolol for SBP<100
+   # Posterior STEMI
+   s/p PTCA and DES placed in OM.  Cardiac enzymes continue to trend
+   down.  No further chest pain. No shortness of breath.    Finished 18hrs
+   eftifibatide after cath.  Echo showed mild regional LV systolic
+   dysfunction w basal to mid inferolateral hypokinesis/akinesis with
+   normal RV wall motion and chamber size.
+   - continue aspirin, plavix, statin
+   - holding metoprolol while BPs still low, but will start as outpatient
+   - start low dose ACE inhibitor as outpatient if BP tolerates
+   - outpt f/u w Dr. [**Last Name (STitle) 3494**] 2 weeks
+   # Tobacco Abuse
+   Both patient and her husband have significant smoking history; pt has
+   been counseled significantly by CCU staff and housestaff about the
+   importance of smoking cessation.
+   -          counsel on smoking cessation
+   -          Social Work consult
+   # Anxiety
+   -          continue home dose lorazepam as needed
+   # Hyperlipidemia
+   - continue simvastatin
+   - fluids IV
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2161-12-22**] 10:00 PM
+   Prophylaxis:
+   DVT:  subq heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:   FULL
+   Disposition:  floor<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 47-year-old woman with a past medical history of hyperlipidemia, smoking, who presented with STEMI and underwent PCI with stent placement in the OM. Currently, she is in the ICU due to persistent hypotension, particularly while sleeping, despite receiving 3L of IV fluids in the last 24 hours.
+
+The patient's vital signs are as follows:
+
+* Temperature: 36.6°C (97.8°F)
+* Heart rate: 80-101 bpm
+* Blood pressure: 85/49 mmHg (58%) while sleeping, increasing to 90s while awake
+* Respiratory rate: 23 inspirations per minute
+* SpO2: 98%
+* Heart rhythm: Sinus rhythm
+
+The patient's physical examination is unremarkable, except for a right groin ecchymosis.
+
+Laboratory results show:
+
+* WBC: 7.8-8.1 K/uL
+* Hct: 34.9-36.2%
+* Plt: 249-241 K/uL
+* Cr: 0.5-0.6 mg/dL
+* TropT: 10.60-3.19 ng/mL
+* Glucose: 134-105 mg/dL
+
+The patient's medical conditions and potential complications include:
+
+* Hypotension: The patient's persistent hypotension, particularly while sleeping, is a concern. This could be due to various factors, including hypovolemia, vasodilation, or cardiac dysfunction. Further evaluation is needed to determine the underlying cause of the hypotension.
+* Posterior STEMI: The patient has had a STEMI, which has been treated with PCI and stent placement. Cardiac enzymes are trending down, and the patient has not reported any further chest pain or shortness of breath. However, the patient may still be at risk for cardiac complications, such as arrhythmias or cardiac failure.
+* Tobacco abuse: The patient and her husband have a significant smoking history, which is a concern. Smoking cessation counseling and social work consultation are recommended.
+* Anxiety: The patient is taking home dose lorazepam as needed, which may need to be adjusted based on her condition.
+* Hyperlipidemia: The patient has a history of hyperlipidemia, which is being managed with simvastatin. Further evaluation and management are needed to optimize her lipid profile.
+
+Potential medical complications that could arise from the patient's conditions include:
+
+* Cardiac failure: The patient's hypotension and cardiac dysfunction could lead to cardiac failure.
+* Arrhythmias: The patient's cardiac enzymes are trending down, but she may still be at risk for arrhythmias, particularly atrial fibrillation.
+* Pulmonary edema: The patient's hypotension and cardiac dysfunction could lead to pulmonary edema.
+* Infection: The patient's indwelling lines and catheters increase her risk for infection.
+* Bleeding: The patient's anticoagulation therapy and recent PCI procedure increase her risk for bleeding.
+
+Overall, the patient requires close monitoring and management of her hypotension, cardiac function, and other medical conditions to prevent potential complications."

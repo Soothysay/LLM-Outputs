@@ -1,0 +1,3374 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+133724.0,200711,2195-11-20 06:11:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint: Management of post op patient
+   24 Hour Events:
+   Persistent sinus tachycardia all night. With adequate BP. Not
+   responding to fluid boluses. Maintiaing adequate uop. Hct stable.
+   Thought to be due to post op pain. Increased dilaudid pca to 0.25.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2195-11-20**] 12:30 AM
+   Heparin Sodium (Prophylaxis) - [**2195-11-20**] 12:30 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2195-11-20**] 05:53 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.8
+C (98.3
+   Tcurrent: 36.8
+C (98.3
+   HR: 114 (103 - 124) bpm
+   BP: 132/89(98) {129/85(95) - 138/91(103)} mmHg
+   RR: 17 (16 - 22) insp/min
+   SpO2: 100%
+             Total In:
+                                                                  3,000 mL
+                                                                    869 mL
+   PO:
+             TF:
+   IVF:
+   869 mL
+   Blood products:
+   Total out:
+                                                                    150 mL
+                                                                    130 mL
+   Urine:
+   130 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,850 mL
+                                                                    739 mL
+   Respiratory support
+   O2 Delivery Device: Medium conc mask
+   SpO2: 100%
+   ABG: ///23/
+   Physical Examination
+   Gen: somnolent but arousable, NAD
+   HEENT: eomi, face mask present
+   Lungs: CTA b/l anteriorly
+   CV: Tachycardic, no m/r/g
+   Abd: midline surgical scar with dressing in place, diffuse abdominal
+   tenderness, soft abdomen, decreased bowel sounds, no guarding or
+   rebound, 1 cm lap wounds bilaterally that are uncovered.
+   GU: foley present
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   129 mg/dL
+   0.5 mg/dL
+   23 mEq/L
+   4.2 mEq/L
+   11 mg/dL
+   104 mEq/L
+   133 mEq/L
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+   Cr
+   0.5
+   Glucose
+   129
+   Other labs: Ca++:8.3 mg/dL, Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   Ms. [**Known lastname **] is a 46 yo female with h/o uterine fibroids, hyperlipidemia, who
+   was admitted for hyesterectomy complicated by bowel perforation, now
+   s/p bowel resection.
+   .
+   1.  Bowel perforation.  Patient with bowel perforation following
+   hysterectomy with evidence of stool in abdomen during surgery, now s/p
+   resection of bowel.  Patient is currently hemodynamically stable with
+   the exception of tachycardia.  She received levo/flagyl pre-operatively
+   and will broaden to vanco/zosyn.  Anticipate long post-operative course
+   and at high risk for post-op ileus.
+   - Vanco/Zosyn
+   - f/u blood cultures
+   - f/u urine output with goal of 30-50 cc/hour
+   - IVFs to keep MAPs > 60
+   - NPO with NGT to suction
+   - Surgery & Ob/Gyn following
+   - pain management with dilaudid IV prn and will institute bowel reg
+   when able to take POs
+   .
+   2.  Pain.  Patient's pain is likely secondary abdominal discomfort from
+   sugery and bowel perforation.  CTA did not show PE earlier today.
+   - dilaudid pca for pain control
+   .
+   3.  Uterine fibroids.  Patient is s/p hysterectomy complicated by bowel
+   perforation.
+   - Ob/gyn following
+   - post-operative pain management with dialudid IV prn
+   .
+   4.  Tachycardia.  Patient noted to be newly tachycardic following
+   surgery.  Likely secondary to to abdominal discomfort from sugery and
+   bowel perforation.  CTA did not show PE earlier today.  Patient is
+   afebrile.  EBL of only 50 cc.
+   - monitor on telementry
+   - dilaudid PCA for pain management
+   - consider fluid boluses if there is no response to pain control
+   - serial Hcts
+   .
+   5.  Hyperlipidemia.
+   - resume simvastatin when tolerating POs
+   ICU Care
+   Nutrition:
+   Glycemic Control: Comments: not needed
+   Lines:
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   Prophylaxis:
+   DVT: Boots, SQ UF Heparin
+   Stress ulcer: PPI
+   VAP: HOB elevation
+   Comments:
+   Communication:  Comments: unable to obtain ICU consent due to sedation
+   Code status: Full code
+   Disposition: ICU for now
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint: Management of post op patient
+   24 Hour Events:
+   Persistent sinus tachycardia all night. With adequate BP. Not
+   responding to fluid boluses. Maintiaing adequate uop. Hct stable.
+   Thought to be due to post op pain. Increased dilaudid pca to 0.25.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2195-11-20**] 12:30 AM
+   Heparin Sodium (Prophylaxis) - [**2195-11-20**] 12:30 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2195-11-20**] 05:53 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.8
+C (98.3
+   Tcurrent: 36.8
+C (98.3
+   HR: 114 (103 - 124) bpm
+   BP: 132/89(98) {129/85(95) - 138/91(103)} mmHg
+   RR: 17 (16 - 22) insp/min
+   SpO2: 100%
+             Total In:
+                                                                  3,000 mL
+                                                                    869 mL
+   PO:
+             TF:
+   IVF:
+   869 mL
+   Blood products:
+   Total out:
+                                                                    150 mL
+                                                                    130 mL
+   Urine:
+   130 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,850 mL
+                                                                    739 mL
+   Respiratory support
+   O2 Delivery Device: Medium conc mask
+   SpO2: 100%
+   ABG: ///23/
+   Physical Examination
+   Gen: somnolent but arousable, NAD
+   HEENT: eomi, face mask present
+   Lungs: CTA b/l anteriorly
+   CV: Tachycardic, no m/r/g
+   Abd: midline surgical scar with dressing in place, diffuse abdominal
+   tenderness, soft abdomen, decreased bowel sounds, no guarding or
+   rebound, 1 cm lap wounds bilaterally that are uncovered.
+   GU: foley present
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   129 mg/dL
+   0.5 mg/dL
+   23 mEq/L
+   4.2 mEq/L
+   11 mg/dL
+   104 mEq/L
+   133 mEq/L
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+   Cr
+   0.5
+   Glucose
+   129
+   Other labs: Ca++:8.3 mg/dL, Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   Ms. [**Known lastname **] is a 46 yo female with h/o uterine fibroids, hyperlipidemia, who
+   was admitted for hyesterectomy complicated by bowel perforation, now
+   s/p bowel resection.
+   .
+   1.  Bowel perforation.  Patient with bowel perforation following
+   hysterectomy with evidence of stool in abdomen during surgery, now s/p
+   resection of bowel.  Patient is currently hemodynamically stable with
+   the exception of tachycardia.  She received levo/flagyl pre-operatively
+   and will broaden to vanco/zosyn.  Anticipate long post-operative course
+   and at high risk for post-op ileus.
+   - Vanco/Zosyn
+   - f/u blood cultures
+   - f/u urine output with goal of 30-50 cc/hour
+   - IVFs to keep MAPs > 60
+   - NPO with NGT to suction
+   - Surgery & Ob/Gyn following
+   - pain management with dilaudid IV prn and will institute bowel reg
+   when able to take POs
+   .
+   2.  Pain.  Patient's pain is likely secondary abdominal discomfort from
+   sugery and bowel perforation.  CTA did not show PE earlier today.
+   - dilaudid pca for pain control
+   .
+   3.  Uterine fibroids.  Patient is s/p hysterectomy complicated by bowel
+   perforation.
+   - Ob/gyn following
+   - post-operative pain management with dialudid IV prn
+   .
+   4.  Tachycardia.  Patient noted to be newly tachycardic following
+   surgery.  Likely secondary to to abdominal discomfort from sugery and
+   bowel perforation.  CTA did not show PE earlier today.  Patient is
+   afebrile.  EBL of only 50 cc.
+   - monitor on telementry
+   - dilaudid PCA for pain management
+   - consider fluid boluses if there is no response to pain control
+   - serial Hcts
+   .
+   5.  Hyperlipidemia.
+   - resume simvastatin when tolerating POs
+   ICU Care
+   Nutrition:
+   Glycemic Control: Comments: not needed
+   Lines:
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   Prophylaxis:
+   DVT: Boots, SQ UF Heparin
+   Stress ulcer: PPI
+   VAP: HOB elevation
+   Comments:
+   Communication:  Comments: unable to obtain ICU consent due to sedation
+   Code status: Full code
+   Disposition: ICU for now<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the progress note, the patient, a 46-year-old female, is a post-operative patient following a hysterectomy complicated by bowel perforation and subsequent bowel resection. She is currently being managed in the ICU for several concerns.
+
+The patient's vital signs are stable, with a temperature of 36.8°C (98.3°F), heart rate of 114 beats per minute, and blood pressure of 132/89 mmHg. She is receiving oxygen therapy via a medium concentration mask and has a SpO2 of 100%.
+
+The patient's physical examination reveals somnolence but is arousable, with no signs of meningitis or rash. Her lungs are clear, and her cardiovascular examination is normal. Her abdomen is tender, with decreased bowel sounds, and she has a midline surgical scar with a dressing in place.
+
+Laboratory results show elevated white blood cell count (23,000 cells/μL), and her serum creatinine is slightly elevated at 1.29 mg/dL. Her blood urea nitrogen (BUN) is 11 mg/dL, and her serum glucose is 129 mg/dL.
+
+The patient is receiving several medications, including pantoprazole, heparin, and dilaudid for pain management. She is also receiving IV fluids and antibiotics, including vancomycin and zosyn.
+
+Potential medical complications that can arise include:
+
+1. Post-operative ileus: The patient is at high risk for developing post-operative ileus due to the bowel perforation and resection.
+2. Sepsis: The patient's elevated white blood cell count and BUN levels suggest the possibility of sepsis, particularly given the presence of stool in the abdomen during surgery.
+3. Respiratory complications: The patient's tachycardia and somnolence may indicate respiratory compromise, and her SpO2 of 100% suggests possible hypoxia.
+4. Cardiac complications: The patient's tachycardia may be a sign of cardiac compromise, particularly given her elevated heart rate.
+5. Infection: The patient's surgical site is at risk for infection, and her antibiotic regimen should be closely monitored to prevent infection.
+6. Fluid imbalance: The patient's fluid balance is being closely monitored, but she may be at risk for fluid overload or dehydration due to her fluid therapy and potential ongoing fluid losses.
+
+Overall, the patient requires close monitoring and management in the ICU to address these potential complications and ensure her safe recovery."
+133724.0,200711,2195-11-20 06:11:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint: Management of post op patient
+   24 Hour Events:
+   Persistent sinus tachycardia all night. With adequate BP. Not
+   responding to fluid boluses. Maintiaing adequate uop. Hct stable.
+   Thought to be due to post op pain. Increased dilaudid pca to 0.25.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2195-11-20**] 12:30 AM
+   Heparin Sodium (Prophylaxis) - [**2195-11-20**] 12:30 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2195-11-20**] 05:53 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.8
+C (98.3
+   Tcurrent: 36.8
+C (98.3
+   HR: 114 (103 - 124) bpm
+   BP: 132/89(98) {129/85(95) - 138/91(103)} mmHg
+   RR: 17 (16 - 22) insp/min
+   SpO2: 100%
+             Total In:
+                                                                  3,000 mL
+                                                                    869 mL
+   PO:
+             TF:
+   IVF:
+   869 mL
+   Blood products:
+   Total out:
+                                                                    150 mL
+                                                                    130 mL
+   Urine:
+   130 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,850 mL
+                                                                    739 mL
+   Respiratory support
+   O2 Delivery Device: Medium conc mask
+   SpO2: 100%
+   ABG: ///23/
+   Physical Examination
+   Gen: somnolent but arousable, NAD
+   HEENT: eomi, face mask present
+   Lungs: CTA b/l anteriorly
+   CV: Tachycardic, no m/r/g
+   Abd: midline surgical scar with dressing in place, diffuse abdominal
+   tenderness, soft abdomen, decreased bowel sounds, no guarding or
+   rebound, 1 cm lap wounds bilaterally that are uncovered.
+   GU: foley present
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   129 mg/dL
+   0.5 mg/dL
+   23 mEq/L
+   4.2 mEq/L
+   11 mg/dL
+   104 mEq/L
+   133 mEq/L
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+   Cr
+   0.5
+   Glucose
+   129
+   Other labs: Ca++:8.3 mg/dL, Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   Ms. [**Known lastname **] is a 46 yo female with h/o uterine fibroids, hyperlipidemia, who
+   was admitted for hyesterectomy complicated by bowel perforation, now
+   s/p bowel resection.
+   .
+   1.  Bowel perforation.  Patient with bowel perforation following
+   hysterectomy with evidence of stool in abdomen during surgery, now s/p
+   resection of bowel.  Patient is currently hemodynamically stable with
+   the exception of tachycardia.  She received levo/flagyl pre-operatively
+   and will broaden to vanco/zosyn.  Anticipate long post-operative course
+   and at high risk for post-op ileus.
+   - Vanco/Zosyn
+   - f/u blood cultures
+   - f/u urine output with goal of 30-50 cc/hour
+   - IVFs to keep MAPs > 60
+   - NPO with NGT to suction
+   - Surgery & Ob/Gyn following
+   - pain management with dilaudid IV prn and will institute bowel reg
+   when able to take POs
+   .
+   2.  Pain.  Patient's pain is likely secondary abdominal discomfort from
+   sugery and bowel perforation.  CTA did not show PE earlier today.
+   - dilaudid pca for pain control
+   .
+   3.  Uterine fibroids.  Patient is s/p hysterectomy complicated by bowel
+   perforation.
+   - Ob/gyn following
+   - post-operative pain management with dialudid IV prn
+   .
+   4.  Tachycardia.  Patient noted to be newly tachycardic following
+   surgery.  Likely secondary to to abdominal discomfort from sugery and
+   bowel perforation.  CTA did not show PE earlier today.  Patient is
+   afebrile.  EBL of only 50 cc.
+   - monitor on telementry
+   - dilaudid PCA for pain management
+   - consider fluid boluses if there is no response to pain control
+   - serial Hcts
+   .
+   5.  Hyperlipidemia.
+   - resume simvastatin when tolerating POs
+   ICU Care
+   Nutrition:
+   Glycemic Control: Comments: not needed
+   Lines:
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   Prophylaxis:
+   DVT: Boots, SQ UF Heparin
+   Stress ulcer: PPI
+   VAP: HOB elevation
+   Comments:
+   Communication:  Comments: unable to obtain ICU consent due to sedation
+   Code status: Full code
+   Disposition: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint: Management of post op patient
+   24 Hour Events:
+   Persistent sinus tachycardia all night. With adequate BP. Not
+   responding to fluid boluses. Maintiaing adequate uop. Hct stable.
+   Thought to be due to post op pain. Increased dilaudid pca to 0.25.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2195-11-20**] 12:30 AM
+   Heparin Sodium (Prophylaxis) - [**2195-11-20**] 12:30 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2195-11-20**] 05:53 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.8
+C (98.3
+   Tcurrent: 36.8
+C (98.3
+   HR: 114 (103 - 124) bpm
+   BP: 132/89(98) {129/85(95) - 138/91(103)} mmHg
+   RR: 17 (16 - 22) insp/min
+   SpO2: 100%
+             Total In:
+                                                                  3,000 mL
+                                                                    869 mL
+   PO:
+             TF:
+   IVF:
+   869 mL
+   Blood products:
+   Total out:
+                                                                    150 mL
+                                                                    130 mL
+   Urine:
+   130 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,850 mL
+                                                                    739 mL
+   Respiratory support
+   O2 Delivery Device: Medium conc mask
+   SpO2: 100%
+   ABG: ///23/
+   Physical Examination
+   Gen: somnolent but arousable, NAD
+   HEENT: eomi, face mask present
+   Lungs: CTA b/l anteriorly
+   CV: Tachycardic, no m/r/g
+   Abd: midline surgical scar with dressing in place, diffuse abdominal
+   tenderness, soft abdomen, decreased bowel sounds, no guarding or
+   rebound, 1 cm lap wounds bilaterally that are uncovered.
+   GU: foley present
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   129 mg/dL
+   0.5 mg/dL
+   23 mEq/L
+   4.2 mEq/L
+   11 mg/dL
+   104 mEq/L
+   133 mEq/L
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+   Cr
+   0.5
+   Glucose
+   129
+   Other labs: Ca++:8.3 mg/dL, Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   Ms. [**Known lastname **] is a 46 yo female with h/o uterine fibroids, hyperlipidemia, who
+   was admitted for hyesterectomy complicated by bowel perforation, now
+   s/p bowel resection.
+   .
+   1.  Bowel perforation.  Patient with bowel perforation following
+   hysterectomy with evidence of stool in abdomen during surgery, now s/p
+   resection of bowel.  Patient is currently hemodynamically stable with
+   the exception of tachycardia.  She received levo/flagyl pre-operatively
+   and will broaden to vanco/zosyn.  Anticipate long post-operative course
+   and at high risk for post-op ileus.
+   - Vanco/Zosyn
+   - f/u blood cultures
+   - f/u urine output with goal of 30-50 cc/hour
+   - IVFs to keep MAPs > 60
+   - NPO with NGT to suction
+   - Surgery & Ob/Gyn following
+   - pain management with dilaudid IV prn and will institute bowel reg
+   when able to take POs
+   .
+   2.  Pain.  Patient's pain is likely secondary abdominal discomfort from
+   sugery and bowel perforation.  CTA did not show PE earlier today.
+   - dilaudid pca for pain control
+   .
+   3.  Uterine fibroids.  Patient is s/p hysterectomy complicated by bowel
+   perforation.
+   - Ob/gyn following
+   - post-operative pain management with dialudid IV prn
+   .
+   4.  Tachycardia.  Patient noted to be newly tachycardic following
+   surgery.  Likely secondary to to abdominal discomfort from sugery and
+   bowel perforation.  CTA did not show PE earlier today.  Patient is
+   afebrile.  EBL of only 50 cc.
+   - monitor on telementry
+   - dilaudid PCA for pain management
+   - consider fluid boluses if there is no response to pain control
+   - serial Hcts
+   .
+   5.  Hyperlipidemia.
+   - resume simvastatin when tolerating POs
+   ICU Care
+   Nutrition:
+   Glycemic Control: Comments: not needed
+   Lines:
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   Prophylaxis:
+   DVT: Boots, SQ UF Heparin
+   Stress ulcer: PPI
+   VAP: HOB elevation
+   Comments:
+   Communication:  Comments: unable to obtain ICU consent due to sedation
+   Code status: Full code
+   Disposition: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient, a 46-year-old female, was admitted for hysterectomy complicated by bowel perforation and subsequent bowel resection. She is currently in the ICU for post-operative management. Her vital signs are stable, with the exception of persistent sinus tachycardia, which is thought to be secondary to abdominal discomfort from surgery and bowel perforation. She is receiving pain management with dilaudid PCA and has had fluid boluses to maintain adequate blood pressure. Her urine output is stable, and her hemoglobin level is stable.
+
+Potential Medical Complications:
+
+1. Post-operative ileus: The patient is at high risk for post-operative ileus due to bowel perforation and resection. Close monitoring of bowel sounds and stool output is necessary to prevent complications.
+2. Infection: The patient has a high risk of developing an infection due to bowel perforation and the presence of stool in the abdomen. Close monitoring of vital signs and laboratory results is necessary to detect any signs of infection.
+3. Tachycardia: The patient's tachycardia may be a sign of pain or discomfort, and close monitoring of her vital signs and pain management is necessary to prevent complications.
+4. Hemodynamic instability: The patient's fluid boluses may not be sufficient to maintain adequate blood pressure, and close monitoring of her vital signs and hemodynamic status is necessary to prevent complications.
+5. Hyperlipidemia: The patient's hyperlipidemia may increase her risk of developing cardiovascular complications, and close monitoring of her lipid levels is necessary to prevent complications.
+6. Uterine fibroids: The patient's uterine fibroids may cause chronic pain and discomfort, and close monitoring of her pain management and bowel function is necessary to prevent complications.
+7. DVT: The patient is at high risk of developing DVT due to her surgery and immobilization, and close monitoring of her lower extremities is necessary to detect any signs of DVT.
+8. VAP: The patient is at high risk of developing VAP due to her intubation and immobility, and close monitoring of her respiratory status is necessary to detect any signs of VAP."
+133724.0,200711,2195-11-20 10:00:00,Physician ,Physician Attending Progress Note,"Chief Complaint: Peritonitis, tachycardia
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   AFebrile overnight. HR varying from 103-130 with stable BP; no clear
+   correlation between fluid boluses and HR. PCA increased with some
+   response in HR. O2 sats excellent.
+   UO 30-50 cc/hr.
+   24 Hour Events:
+   History obtained from [**Hospital 15**] Medical records
+   Patient unable to provide history: Language barrier
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2195-11-20**] 12:30 AM
+   Heparin Sodium (Prophylaxis) - [**2195-11-20**] 12:30 AM
+   Other medications:
+   Dilaudid PCA, vancomycin, zosyn
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2195-11-20**] 09:59 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.8
+C (98.3
+   Tcurrent: 36.7
+C (98
+   HR: 113 (103 - 126) bpm
+   BP: 133/89(99) {125/81(94) - 138/91(103)} mmHg
+   RR: 18 (16 - 23) insp/min
+   SpO2: 97%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+                                                                  3,000 mL
+                                                                    906 mL
+   PO:
+             TF:
+   IVF:
+   906 mL
+   Blood products:
+   Total out:
+                                                                    150 mL
+                                                                    475 mL
+   Urine:
+   475 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,850 mL
+                                                                    431 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: Well nourished, No acute distress, No(t) Overweight
+   / Obese, Thin, Anxious, No(t) Diaphoretic
+   Eyes / Conjunctiva: PERRL, No(t) Pupils dilated, No(t) Conjunctiva
+   pale, No(t) Sclera edema
+   Head, Ears, Nose, Throat: Normocephalic, No(t) Poor dentition, No(t)
+   Endotracheal tube, NG tube, No(t) OG tube
+   Cardiovascular: (PMI Normal, No(t) Hyperdynamic), (S1: Normal, No(t)
+   Absent), (S2: Normal, No(t) Distant, No(t) Loud, No(t) Widely split ,
+   No(t) Fixed), No(t) S3, No(t) S4, No(t) Rub, (Murmur: No(t) Systolic,
+   No(t) Diastolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric, No(t) Paradoxical), (Breath
+   Sounds: Clear : Clear anterior and lateral)
+   Abdominal: Soft, No(t) Non-tender, No(t) Bowel sounds present, No(t)
+   Distended, Tender: , No(t) Obese
+   Extremities: Right lower extremity edema: Absent edema, Left lower
+   extremity edema: Absent, No(t) Cyanosis, No(t) Clubbing, Negative
+   Homans bilaterally
+   Skin:  Warm, No(t) Rash: , No(t) Jaundice
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, Oriented (to): X 3, Movement: Purposeful, No(t) Sedated, No(t)
+   Paralyzed, Tone: Not assessed
+   Labs / Radiology
+   9.1 g/dL
+   290 K/uL
+   130 mg/dL
+   0.5 mg/dL
+   25 mEq/L
+   4.2 mEq/L
+   11 mg/dL
+   102 mEq/L
+   131 mEq/L
+   27.5 %
+   13.6 K/uL
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+                             [**2195-11-20**]  05:22 AM
+                             [**2195-11-20**]  07:50 AM
+   WBC
+   13.6
+   Hct
+   27.5
+   Plt
+   290
+   Cr
+   0.5
+   0.5
+   Glucose
+   129
+   130
+   Other labs: Differential-Neuts:93.0 %, Band:0.0 %, Lymph:2.0 %,
+   Mono:4.0 %, Eos:1.0 %, Ca++:7.4 mg/dL, Mg++:2.2 mg/dL, PO4:2.8 mg/dL
+   Assessment and Plan
+ PERITONITIS, SPONTANEOUS BACTERIAL (SBP)
+ PAIN CONTROL (ACUTE PAIN, CHRONIC PAIN)
+   TACHYCARDIA
+   ANEMIA
+   =========================
+   Tachycardia consistent with a sinus tachycardia (mild slowing with
+   carotid sinus massage).  Continue fluid boluses to keep UO above 50
+   cc/hr. Patient is anxious (will get social work to help confirm care
+   for her son); consider mild benzodiazepine. No evidence for DVT on
+   exam; no chest discomfort. Denies dyspnea.
+   Maintain antibiotics for peritonitis.
+   Hct down post-operatively. No evidence of active bleeding. Not at
+   transfusion threshold.
+   ICU Care
+   Nutrition: NPO
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication: Patient discussed on interdisciplinary rounds , ICU
+   Code status: Full code
+   Disposition :ICU
+   Total time spent: 30 minutes
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: Peritonitis, tachycardia
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   AFebrile overnight. HR varying from 103-130 with stable BP; no clear
+   correlation between fluid boluses and HR. PCA increased with some
+   response in HR. O2 sats excellent.
+   UO 30-50 cc/hr.
+   24 Hour Events:
+   History obtained from [**Hospital 15**] Medical records
+   Patient unable to provide history: Language barrier
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2195-11-20**] 12:30 AM
+   Heparin Sodium (Prophylaxis) - [**2195-11-20**] 12:30 AM
+   Other medications:
+   Dilaudid PCA, vancomycin, zosyn
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2195-11-20**] 09:59 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.8
+C (98.3
+   Tcurrent: 36.7
+C (98
+   HR: 113 (103 - 126) bpm
+   BP: 133/89(99) {125/81(94) - 138/91(103)} mmHg
+   RR: 18 (16 - 23) insp/min
+   SpO2: 97%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+                                                                  3,000 mL
+                                                                    906 mL
+   PO:
+             TF:
+   IVF:
+   906 mL
+   Blood products:
+   Total out:
+                                                                    150 mL
+                                                                    475 mL
+   Urine:
+   475 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,850 mL
+                                                                    431 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: Well nourished, No acute distress, No(t) Overweight
+   / Obese, Thin, Anxious, No(t) Diaphoretic
+   Eyes / Conjunctiva: PERRL, No(t) Pupils dilated, No(t) Conjunctiva
+   pale, No(t) Sclera edema
+   Head, Ears, Nose, Throat: Normocephalic, No(t) Poor dentition, No(t)
+   Endotracheal tube, NG tube, No(t) OG tube
+   Cardiovascular: (PMI Normal, No(t) Hyperdynamic), (S1: Normal, No(t)
+   Absent), (S2: Normal, No(t) Distant, No(t) Loud, No(t) Widely split ,
+   No(t) Fixed), No(t) S3, No(t) S4, No(t) Rub, (Murmur: No(t) Systolic,
+   No(t) Diastolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric, No(t) Paradoxical), (Breath
+   Sounds: Clear : Clear anterior and lateral)
+   Abdominal: Soft, No(t) Non-tender, No(t) Bowel sounds present, No(t)
+   Distended, Tender: , No(t) Obese
+   Extremities: Right lower extremity edema: Absent edema, Left lower
+   extremity edema: Absent, No(t) Cyanosis, No(t) Clubbing, Negative
+   Homans bilaterally
+   Skin:  Warm, No(t) Rash: , No(t) Jaundice
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, Oriented (to): X 3, Movement: Purposeful, No(t) Sedated, No(t)
+   Paralyzed, Tone: Not assessed
+   Labs / Radiology
+   9.1 g/dL
+   290 K/uL
+   130 mg/dL
+   0.5 mg/dL
+   25 mEq/L
+   4.2 mEq/L
+   11 mg/dL
+   102 mEq/L
+   131 mEq/L
+   27.5 %
+   13.6 K/uL
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+                             [**2195-11-20**]  05:22 AM
+                             [**2195-11-20**]  07:50 AM
+   WBC
+   13.6
+   Hct
+   27.5
+   Plt
+   290
+   Cr
+   0.5
+   0.5
+   Glucose
+   129
+   130
+   Other labs: Differential-Neuts:93.0 %, Band:0.0 %, Lymph:2.0 %,
+   Mono:4.0 %, Eos:1.0 %, Ca++:7.4 mg/dL, Mg++:2.2 mg/dL, PO4:2.8 mg/dL
+   Assessment and Plan
+ PERITONITIS, SPONTANEOUS BACTERIAL (SBP)
+ PAIN CONTROL (ACUTE PAIN, CHRONIC PAIN)
+   TACHYCARDIA
+   ANEMIA
+   =========================
+   Tachycardia consistent with a sinus tachycardia (mild slowing with
+   carotid sinus massage).  Continue fluid boluses to keep UO above 50
+   cc/hr. Patient is anxious (will get social work to help confirm care
+   for her son); consider mild benzodiazepine. No evidence for DVT on
+   exam; no chest discomfort. Denies dyspnea.
+   Maintain antibiotics for peritonitis.
+   Hct down post-operatively. No evidence of active bleeding. Not at
+   transfusion threshold.
+   ICU Care
+   Nutrition: NPO
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication: Patient discussed on interdisciplinary rounds , ICU
+   Code status: Full code
+   Disposition :ICU
+   Total time spent: 30 minutes<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 36-year-old female with spontaneous bacterial peritonitis (SBP) who is being treated in the Intensive Care Unit (ICU). She has a history of tachycardia, with a heart rate varying between 103-130 beats per minute, and is being managed with fluid boluses and pain control medications. The patient is anemic, with a hemoglobin level of 9.1 g/dL, and is receiving antibiotics for her peritonitis. She is also being treated for acute and chronic pain.
+
+The patient's vital signs are stable, with a temperature of 36.8°C (98.3°F), blood pressure of 133/89 mmHg, and oxygen saturation of 97%. She is receiving oxygen therapy through a nasal cannula and has a central venous catheter for fluid administration.
+
+The patient's physical examination is notable for soft and non-tender abdomen, with bowel sounds present. She has no evidence of peripheral edema or cyanosis.
+
+Laboratory results show a white blood cell count of 13.6 K/uL, hemoglobin level of 9.1 g/dL, and platelet count of 290 K/uL. The patient's electrolyte levels are within normal limits, with a glucose level of 129 mg/dL.
+
+Potential medical complications:
+
+1. Sepsis: The patient has a high risk of developing sepsis due to her spontaneous bacterial peritonitis and tachycardia.
+2. Respiratory failure: The patient's tachycardia and possible sepsis may lead to respiratory failure, which could require mechanical ventilation.
+3. Cardiovascular instability: The patient's tachycardia and possible sepsis may lead to cardiovascular instability, which could require vasopressors and other cardiovascular medications.
+4. Gastrointestinal bleeding: The patient's anemia and possible sepsis may lead to gastrointestinal bleeding, which could require transfusions and other interventions.
+5. Infection: The patient's peritonitis and possible sepsis may lead to further infections, which could require additional antibiotics and other treatments.
+
+Overall, the patient requires close monitoring and management in the ICU to prevent and treat potential complications."
+133724.0,200711,2195-11-21 07:32:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - OB wants to start TPN, put pt. in for PICC
+   - afebrile, tachycardic-->likely related to pain/anxiety
+   - on vanc/zosyn
+   - f/u pain/anxiety control-->started toradol
+   - IVF for tachycardia-->titrating to UOP of 50cc's/hr, but pt had
+   increasing oxygen requirement, so balancing fluid with O2 sats
+   - Na increasing with IVF resuscitation, likely hypovolemic hyponatremia
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2195-11-20**] 07:47 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2195-11-20**] 11:04 PM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2195-11-20**] 11:37 PM
+   Heparin Sodium (Prophylaxis) - [**2195-11-20**] 11:37 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems: Says that pain is currently well controlled
+   Flowsheet Data as of  [**2195-11-21**] 07:25 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.3
+   Tcurrent: 37.3
+C (99.2
+   HR: 100 (99 - 122) bpm
+   BP: 116/63(74) {110/61(73) - 133/89(99)} mmHg
+   RR: 15 (15 - 30) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 61 Inch
+             Total In:
+                                                                  5,642 mL
+                                                                  1,116 mL
+   PO:
+             TF:
+   IVF:
+                                                                  5,642 mL
+                                                                  1,116 mL
+   Blood products:
+   Total out:
+                                                                    896 mL
+                                                                    265 mL
+   Urine:
+                                                                    896 mL
+                                                                    215 mL
+   NG:
+   50 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  4,746 mL
+                                                                    851 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///24/
+   Physical Examination
+   Gen: somnolent but arousable, NAD
+   HEENT: eomi, face mask present
+   Lungs: CTA b/l anteriorly, decreased BS at bases with some crackles
+   CV: Tachycardic, no m/r/g
+   Abd: midline surgical scar with dressing in place, diffuse abdominal
+   tenderness, soft abdomen, decreased bowel sounds, no guarding or
+   rebound, 1 cm lap wounds bilaterally that are uncovered.
+   GU: foley present
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   266 K/uL
+   6.7 g/dL
+   99 mg/dL
+   0.5 mg/dL
+   24 mEq/L
+   3.3 mEq/L
+   12 mg/dL
+   108 mEq/L
+   138 mEq/L
+   20.8 %
+   11.9 K/uL
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+                             [**2195-11-20**]  05:22 AM
+                             [**2195-11-20**]  07:50 AM
+                             [**2195-11-20**]  03:43 PM
+                            [**2195-11-21**]  03:20 AM
+   WBC
+   13.6
+   11.9
+   Hct
+   27.5
+   20.8
+   Plt
+   290
+   266
+   Cr
+   0.5
+   0.5
+   0.5
+   0.5
+   Glucose
+   129
+   130
+   127
+   99
+   Other labs: PT / PTT / INR:12.4/34.2/1.0, ALT / AST:[**9-25**], Alk Phos / T
+   Bili:37/0.5, Differential-Neuts:93.0 %, Band:0.0 %, Lymph:2.0 %,
+   Mono:4.0 %, Eos:1.0 %, Ca++:6.4 mg/dL, Mg++:2.0 mg/dL, PO4:2.1 mg/dL
+   Assessment and Plan
+   Ms. [**Known lastname **] is a 46 yo female with h/o uterine fibroids, hyperlipidemia, who
+   was admitted for hyesterectomy complicated by bowel perforation, now
+   s/p bowel resection.
+   .
+   1.  Bowel perforation.  Patient with bowel perforation following
+   hysterectomy with evidence of stool in abdomen during surgery, now s/p
+   resection of bowel.  Patient is currently hemodynamically stable with
+   the exception of tachycardia.  She received levo/flagyl pre-operatively
+   and will broaden to vanco/zosyn.  Anticipate long post-operative course
+   and at high risk for post-op ileus.
+   - Vanco/Zosyn-leukocytosis improving
+   - f/u blood cultures
+NGTD
+   - f/u urine output with goal of 30-50 cc/hour
+   - IVFs to keep MAPs > 60
+   - NPO with NGT to suction-will start  TPN, will not advance diet until
+   patient is passing gas and having BM
+   - Surgery & Ob/Gyn following, surgery changing bandages for post-op
+   wound care
+   - pain management with dilaudid PCA and standing toradol and will
+   institute bowel reg when able to take POs
+   .
+   2.  Tachycardia.  Patient noted to be newly tachycardic following
+   surgery.  Likely secondary to to abdominal discomfort, anemia, and
+   intravascular volume depletion.  CTA negative for PE.  Patient remains
+   afebrile, tachycardia improving with increased PCA use and IVF
+   hydration.
+   - monitor on telementry
+   - dilaudid PCA and toradol for pain management
+   - patient aggressively hydrated with IVF with some improvement in
+   tachycardia and urine output
+   - serial Hcts
+patient with HCT=20.8 today, will type and screen and
+   transfuse 1unti PRBC
+   .
+   3.  Uterine fibroids.  Patient is s/p hysterectomy complicated by bowel
+   perforation.
+   - Ob/gyn following
+   - post-operative pain management with dialudid PCA and toradol x 3 days
+   .
+   4.  Hyperlipidemia.
+   - resume simvastatin when tolerating POs
+   ICU Care
+   Nutrition: NPO, PICC line placed for TPN
+   -replete potassium IV, hyponatremia resolving with IVF hydration
+   Glycemic Control:
+   Lines:  PICC line
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   Prophylaxis:
+   DVT: Heparin SQ
+   Stress ulcer: IV PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: Likely call out to the floor today as long as her HCT
+   remains stable post transfusion
+   ------ Protected Section ------
+   MICU Attending Addendum
+   On this day I examined the patient and reviewed the history and
+   relevant lab and imaging data.  I was present for the key portions of
+   the services provided. I have reviewed Dr [**Last Name (STitle) 10627**]
+s note and agree with
+   her findings and plan of care.   The patient seems to be doing better
+   following bowel resection for peritonitis and bowel perf following
+   hysterectomy.  WBC is lower, she
+s hemodynamically stable, and pain
+   seems under reasonable control.  She
+s received lots of fluids and has
+   L>R effusions, but is in no resp distress.  We
+ll transfuse 1 unit prbc
+   for what we think is largely dilutional anemia. If stable Hct after
+   that she can likely go to floor.  As per OB/GYN, we
+ll commence TPN via
+   PICC.
+   [**First Name8 (NamePattern2) 1620**] [**Last Name (NamePattern1) 1621**], MD
+   35 min spent in this patient
+s direct care
+   ------ Protected Section Addendum Entered By:[**Name (NI) 1620**] [**Last Name (NamePattern1) 1621**], MD
+   on:[**2195-11-21**] 14:04 ------
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - OB wants to start TPN, put pt. in for PICC
+   - afebrile, tachycardic-->likely related to pain/anxiety
+   - on vanc/zosyn
+   - f/u pain/anxiety control-->started toradol
+   - IVF for tachycardia-->titrating to UOP of 50cc's/hr, but pt had
+   increasing oxygen requirement, so balancing fluid with O2 sats
+   - Na increasing with IVF resuscitation, likely hypovolemic hyponatremia
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2195-11-20**] 07:47 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2195-11-20**] 11:04 PM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2195-11-20**] 11:37 PM
+   Heparin Sodium (Prophylaxis) - [**2195-11-20**] 11:37 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems: Says that pain is currently well controlled
+   Flowsheet Data as of  [**2195-11-21**] 07:25 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.3
+   Tcurrent: 37.3
+C (99.2
+   HR: 100 (99 - 122) bpm
+   BP: 116/63(74) {110/61(73) - 133/89(99)} mmHg
+   RR: 15 (15 - 30) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 61 Inch
+             Total In:
+                                                                  5,642 mL
+                                                                  1,116 mL
+   PO:
+             TF:
+   IVF:
+                                                                  5,642 mL
+                                                                  1,116 mL
+   Blood products:
+   Total out:
+                                                                    896 mL
+                                                                    265 mL
+   Urine:
+                                                                    896 mL
+                                                                    215 mL
+   NG:
+   50 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  4,746 mL
+                                                                    851 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///24/
+   Physical Examination
+   Gen: somnolent but arousable, NAD
+   HEENT: eomi, face mask present
+   Lungs: CTA b/l anteriorly, decreased BS at bases with some crackles
+   CV: Tachycardic, no m/r/g
+   Abd: midline surgical scar with dressing in place, diffuse abdominal
+   tenderness, soft abdomen, decreased bowel sounds, no guarding or
+   rebound, 1 cm lap wounds bilaterally that are uncovered.
+   GU: foley present
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   266 K/uL
+   6.7 g/dL
+   99 mg/dL
+   0.5 mg/dL
+   24 mEq/L
+   3.3 mEq/L
+   12 mg/dL
+   108 mEq/L
+   138 mEq/L
+   20.8 %
+   11.9 K/uL
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+                             [**2195-11-20**]  05:22 AM
+                             [**2195-11-20**]  07:50 AM
+                             [**2195-11-20**]  03:43 PM
+                            [**2195-11-21**]  03:20 AM
+   WBC
+   13.6
+   11.9
+   Hct
+   27.5
+   20.8
+   Plt
+   290
+   266
+   Cr
+   0.5
+   0.5
+   0.5
+   0.5
+   Glucose
+   129
+   130
+   127
+   99
+   Other labs: PT / PTT / INR:12.4/34.2/1.0, ALT / AST:[**9-25**], Alk Phos / T
+   Bili:37/0.5, Differential-Neuts:93.0 %, Band:0.0 %, Lymph:2.0 %,
+   Mono:4.0 %, Eos:1.0 %, Ca++:6.4 mg/dL, Mg++:2.0 mg/dL, PO4:2.1 mg/dL
+   Assessment and Plan
+   Ms. [**Known lastname **] is a 46 yo female with h/o uterine fibroids, hyperlipidemia, who
+   was admitted for hyesterectomy complicated by bowel perforation, now
+   s/p bowel resection.
+   .
+   1.  Bowel perforation.  Patient with bowel perforation following
+   hysterectomy with evidence of stool in abdomen during surgery, now s/p
+   resection of bowel.  Patient is currently hemodynamically stable with
+   the exception of tachycardia.  She received levo/flagyl pre-operatively
+   and will broaden to vanco/zosyn.  Anticipate long post-operative course
+   and at high risk for post-op ileus.
+   - Vanco/Zosyn-leukocytosis improving
+   - f/u blood cultures
+NGTD
+   - f/u urine output with goal of 30-50 cc/hour
+   - IVFs to keep MAPs > 60
+   - NPO with NGT to suction-will start  TPN, will not advance diet until
+   patient is passing gas and having BM
+   - Surgery & Ob/Gyn following, surgery changing bandages for post-op
+   wound care
+   - pain management with dilaudid PCA and standing toradol and will
+   institute bowel reg when able to take POs
+   .
+   2.  Tachycardia.  Patient noted to be newly tachycardic following
+   surgery.  Likely secondary to to abdominal discomfort, anemia, and
+   intravascular volume depletion.  CTA negative for PE.  Patient remains
+   afebrile, tachycardia improving with increased PCA use and IVF
+   hydration.
+   - monitor on telementry
+   - dilaudid PCA and toradol for pain management
+   - patient aggressively hydrated with IVF with some improvement in
+   tachycardia and urine output
+   - serial Hcts
+patient with HCT=20.8 today, will type and screen and
+   transfuse 1unti PRBC
+   .
+   3.  Uterine fibroids.  Patient is s/p hysterectomy complicated by bowel
+   perforation.
+   - Ob/gyn following
+   - post-operative pain management with dialudid PCA and toradol x 3 days
+   .
+   4.  Hyperlipidemia.
+   - resume simvastatin when tolerating POs
+   ICU Care
+   Nutrition: NPO, PICC line placed for TPN
+   -replete potassium IV, hyponatremia resolving with IVF hydration
+   Glycemic Control:
+   Lines:  PICC line
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   Prophylaxis:
+   DVT: Heparin SQ
+   Stress ulcer: IV PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: Likely call out to the floor today as long as her HCT
+   remains stable post transfusion
+   ------ Protected Section ------
+   MICU Attending Addendum
+   On this day I examined the patient and reviewed the history and
+   relevant lab and imaging data.  I was present for the key portions of
+   the services provided. I have reviewed Dr [**Last Name (STitle) 10627**]
+s note and agree with
+   her findings and plan of care.   The patient seems to be doing better
+   following bowel resection for peritonitis and bowel perf following
+   hysterectomy.  WBC is lower, she
+s hemodynamically stable, and pain
+   seems under reasonable control.  She
+s received lots of fluids and has
+   L>R effusions, but is in no resp distress.  We
+ll transfuse 1 unit prbc
+   for what we think is largely dilutional anemia. If stable Hct after
+   that she can likely go to floor.  As per OB/GYN, we
+ll commence TPN via
+   PICC.
+   [**First Name8 (NamePattern2) 1620**] [**Last Name (NamePattern1) 1621**], MD
+   35 min spent in this patient
+s direct care
+   ------ Protected Section Addendum Entered By:[**Name (NI) 1620**] [**Last Name (NamePattern1) 1621**], MD
+   on:[**2195-11-21**] 14:04 ------<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 46-year-old female who underwent a hysterectomy complicated by bowel perforation and subsequent bowel resection. She is currently in the ICU due to ongoing medical complications.
+
+The patient's current condition is as follows:
+
+* Hemodynamically stable with the exception of tachycardia
+* Tachycardia likely secondary to abdominal discomfort, anemia, and intravascular volume depletion
+* Afebrile with increasing oxygen requirement
+* Hyponatremia resolving with IVF hydration
+* WBC improving with broad-spectrum antibiotics
+* HCT=20.8, with plans to transfuse 1 unit of PRBC
+* Pain well-controlled with dilaudid PCA and standing toradol
+* NGT in place for suction and TPN via PICC line planned
+* Patient at high risk for post-op ileus
+
+Potential medical complications that can arise include:
+
+* Post-op ileus
+* Respiratory complications due to pneumonia or atelectasis
+* Sepsis or septic shock due to uncontrolled infection
+* Gastrointestinal bleeding or perforation
+* Cardiac complications due to tachycardia or anemia
+* Renal failure due to dehydration or hypovolemia
+* Neurological complications due to hypoxia or anemia
+* Wound infection or dehiscence
+
+The patient's laboratory results indicate the following:
+
+* WBC: 13.6-11.9 K/uL
+* Hct: 27.5-20.8%
+* Plt: 290-266 K/uL
+* Cr: 0.5-0.5 mg/dL
+* Glucose: 129-99 mg/dL
+* Other labs: PT/PTT/INR: 12.4/34.2/1.0, ALT/AST: 9-25 IU/L, Alk Phos/T Bili: 37/0.5 mg/dL, Differential-Neuts: 93.0%, Band: 0.0%, Lymph: 2.0%, Mono: 4.0%, Eos: 1.0%, Ca++: 6.4 mg/dL, Mg++: 2.0 mg/dL, PO4: 2.1 mg/dL
+
+Based on the patient's condition and laboratory results, further monitoring and management are necessary to prevent and address potential complications."
+133724.0,200711,2195-11-21 07:32:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - OB wants to start TPN, put pt. in for PICC
+   - afebrile, tachycardic-->likely related to pain/anxiety
+   - on vanc/zosyn
+   - f/u pain/anxiety control-->started toradol
+   - IVF for tachycardia-->titrating to UOP of 50cc's/hr, but pt had
+   increasing oxygen requirement, so balancing fluid with O2 sats
+   - Na increasing with IVF resuscitation, likely hypovolemic hyponatremia
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2195-11-20**] 07:47 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2195-11-20**] 11:04 PM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2195-11-20**] 11:37 PM
+   Heparin Sodium (Prophylaxis) - [**2195-11-20**] 11:37 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems: Says that pain is currently well controlled
+   Flowsheet Data as of  [**2195-11-21**] 07:25 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.3
+   Tcurrent: 37.3
+C (99.2
+   HR: 100 (99 - 122) bpm
+   BP: 116/63(74) {110/61(73) - 133/89(99)} mmHg
+   RR: 15 (15 - 30) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 61 Inch
+             Total In:
+                                                                  5,642 mL
+                                                                  1,116 mL
+   PO:
+             TF:
+   IVF:
+                                                                  5,642 mL
+                                                                  1,116 mL
+   Blood products:
+   Total out:
+                                                                    896 mL
+                                                                    265 mL
+   Urine:
+                                                                    896 mL
+                                                                    215 mL
+   NG:
+   50 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  4,746 mL
+                                                                    851 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///24/
+   Physical Examination
+   Gen: somnolent but arousable, NAD
+   HEENT: eomi, face mask present
+   Lungs: CTA b/l anteriorly, decreased BS at bases with some crackles
+   CV: Tachycardic, no m/r/g
+   Abd: midline surgical scar with dressing in place, diffuse abdominal
+   tenderness, soft abdomen, decreased bowel sounds, no guarding or
+   rebound, 1 cm lap wounds bilaterally that are uncovered.
+   GU: foley present
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   266 K/uL
+   6.7 g/dL
+   99 mg/dL
+   0.5 mg/dL
+   24 mEq/L
+   3.3 mEq/L
+   12 mg/dL
+   108 mEq/L
+   138 mEq/L
+   20.8 %
+   11.9 K/uL
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+                             [**2195-11-20**]  05:22 AM
+                             [**2195-11-20**]  07:50 AM
+                             [**2195-11-20**]  03:43 PM
+                            [**2195-11-21**]  03:20 AM
+   WBC
+   13.6
+   11.9
+   Hct
+   27.5
+   20.8
+   Plt
+   290
+   266
+   Cr
+   0.5
+   0.5
+   0.5
+   0.5
+   Glucose
+   129
+   130
+   127
+   99
+   Other labs: PT / PTT / INR:12.4/34.2/1.0, ALT / AST:[**9-25**], Alk Phos / T
+   Bili:37/0.5, Differential-Neuts:93.0 %, Band:0.0 %, Lymph:2.0 %,
+   Mono:4.0 %, Eos:1.0 %, Ca++:6.4 mg/dL, Mg++:2.0 mg/dL, PO4:2.1 mg/dL
+   Assessment and Plan
+   Ms. [**Known lastname **] is a 46 yo female with h/o uterine fibroids, hyperlipidemia, who
+   was admitted for hyesterectomy complicated by bowel perforation, now
+   s/p bowel resection.
+   .
+   1.  Bowel perforation.  Patient with bowel perforation following
+   hysterectomy with evidence of stool in abdomen during surgery, now s/p
+   resection of bowel.  Patient is currently hemodynamically stable with
+   the exception of tachycardia.  She received levo/flagyl pre-operatively
+   and will broaden to vanco/zosyn.  Anticipate long post-operative course
+   and at high risk for post-op ileus.
+   - Vanco/Zosyn-leukocytosis improving
+   - f/u blood cultures
+NGTD
+   - f/u urine output with goal of 30-50 cc/hour
+   - IVFs to keep MAPs > 60
+   - NPO with NGT to suction-will start  TPN, will not advance diet until
+   patient is passing gas and having BM
+   - Surgery & Ob/Gyn following, surgery changing bandages for post-op
+   wound care
+   - pain management with dilaudid PCA and standing toradol and will
+   institute bowel reg when able to take POs
+   .
+   2.  Tachycardia.  Patient noted to be newly tachycardic following
+   surgery.  Likely secondary to to abdominal discomfort, anemia, and
+   intravascular volume depletion.  CTA negative for PE.  Patient remains
+   afebrile, tachycardia improving with increased PCA use and IVF
+   hydration.
+   - monitor on telementry
+   - dilaudid PCA and toradol for pain management
+   - patient aggressively hydrated with IVF with some improvement in
+   tachycardia and urine output
+   - serial Hcts
+patient with HCT=20.8 today, will type and screen and
+   transfuse 1unti PRBC
+   .
+   3.  Uterine fibroids.  Patient is s/p hysterectomy complicated by bowel
+   perforation.
+   - Ob/gyn following
+   - post-operative pain management with dialudid PCA and toradol x 3 days
+   .
+   4.  Hyperlipidemia.
+   - resume simvastatin when tolerating POs
+   ICU Care
+   Nutrition: NPO, PICC line placed for TPN
+   -replete potassium IV, hyponatremia resolving with IVF hydration
+   Glycemic Control:
+   Lines:  PICC line
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   Prophylaxis:
+   DVT: Heparin SQ
+   Stress ulcer: IV PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: Likely call out to the floor today as long as her HCT
+   remains stable post transfusion
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - OB wants to start TPN, put pt. in for PICC
+   - afebrile, tachycardic-->likely related to pain/anxiety
+   - on vanc/zosyn
+   - f/u pain/anxiety control-->started toradol
+   - IVF for tachycardia-->titrating to UOP of 50cc's/hr, but pt had
+   increasing oxygen requirement, so balancing fluid with O2 sats
+   - Na increasing with IVF resuscitation, likely hypovolemic hyponatremia
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2195-11-20**] 07:47 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2195-11-20**] 11:04 PM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2195-11-20**] 11:37 PM
+   Heparin Sodium (Prophylaxis) - [**2195-11-20**] 11:37 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems: Says that pain is currently well controlled
+   Flowsheet Data as of  [**2195-11-21**] 07:25 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.3
+   Tcurrent: 37.3
+C (99.2
+   HR: 100 (99 - 122) bpm
+   BP: 116/63(74) {110/61(73) - 133/89(99)} mmHg
+   RR: 15 (15 - 30) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 61 Inch
+             Total In:
+                                                                  5,642 mL
+                                                                  1,116 mL
+   PO:
+             TF:
+   IVF:
+                                                                  5,642 mL
+                                                                  1,116 mL
+   Blood products:
+   Total out:
+                                                                    896 mL
+                                                                    265 mL
+   Urine:
+                                                                    896 mL
+                                                                    215 mL
+   NG:
+   50 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  4,746 mL
+                                                                    851 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///24/
+   Physical Examination
+   Gen: somnolent but arousable, NAD
+   HEENT: eomi, face mask present
+   Lungs: CTA b/l anteriorly, decreased BS at bases with some crackles
+   CV: Tachycardic, no m/r/g
+   Abd: midline surgical scar with dressing in place, diffuse abdominal
+   tenderness, soft abdomen, decreased bowel sounds, no guarding or
+   rebound, 1 cm lap wounds bilaterally that are uncovered.
+   GU: foley present
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   266 K/uL
+   6.7 g/dL
+   99 mg/dL
+   0.5 mg/dL
+   24 mEq/L
+   3.3 mEq/L
+   12 mg/dL
+   108 mEq/L
+   138 mEq/L
+   20.8 %
+   11.9 K/uL
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+                             [**2195-11-20**]  05:22 AM
+                             [**2195-11-20**]  07:50 AM
+                             [**2195-11-20**]  03:43 PM
+                            [**2195-11-21**]  03:20 AM
+   WBC
+   13.6
+   11.9
+   Hct
+   27.5
+   20.8
+   Plt
+   290
+   266
+   Cr
+   0.5
+   0.5
+   0.5
+   0.5
+   Glucose
+   129
+   130
+   127
+   99
+   Other labs: PT / PTT / INR:12.4/34.2/1.0, ALT / AST:[**9-25**], Alk Phos / T
+   Bili:37/0.5, Differential-Neuts:93.0 %, Band:0.0 %, Lymph:2.0 %,
+   Mono:4.0 %, Eos:1.0 %, Ca++:6.4 mg/dL, Mg++:2.0 mg/dL, PO4:2.1 mg/dL
+   Assessment and Plan
+   Ms. [**Known lastname **] is a 46 yo female with h/o uterine fibroids, hyperlipidemia, who
+   was admitted for hyesterectomy complicated by bowel perforation, now
+   s/p bowel resection.
+   .
+   1.  Bowel perforation.  Patient with bowel perforation following
+   hysterectomy with evidence of stool in abdomen during surgery, now s/p
+   resection of bowel.  Patient is currently hemodynamically stable with
+   the exception of tachycardia.  She received levo/flagyl pre-operatively
+   and will broaden to vanco/zosyn.  Anticipate long post-operative course
+   and at high risk for post-op ileus.
+   - Vanco/Zosyn-leukocytosis improving
+   - f/u blood cultures
+NGTD
+   - f/u urine output with goal of 30-50 cc/hour
+   - IVFs to keep MAPs > 60
+   - NPO with NGT to suction-will start  TPN, will not advance diet until
+   patient is passing gas and having BM
+   - Surgery & Ob/Gyn following, surgery changing bandages for post-op
+   wound care
+   - pain management with dilaudid PCA and standing toradol and will
+   institute bowel reg when able to take POs
+   .
+   2.  Tachycardia.  Patient noted to be newly tachycardic following
+   surgery.  Likely secondary to to abdominal discomfort, anemia, and
+   intravascular volume depletion.  CTA negative for PE.  Patient remains
+   afebrile, tachycardia improving with increased PCA use and IVF
+   hydration.
+   - monitor on telementry
+   - dilaudid PCA and toradol for pain management
+   - patient aggressively hydrated with IVF with some improvement in
+   tachycardia and urine output
+   - serial Hcts
+patient with HCT=20.8 today, will type and screen and
+   transfuse 1unti PRBC
+   .
+   3.  Uterine fibroids.  Patient is s/p hysterectomy complicated by bowel
+   perforation.
+   - Ob/gyn following
+   - post-operative pain management with dialudid PCA and toradol x 3 days
+   .
+   4.  Hyperlipidemia.
+   - resume simvastatin when tolerating POs
+   ICU Care
+   Nutrition: NPO, PICC line placed for TPN
+   -replete potassium IV, hyponatremia resolving with IVF hydration
+   Glycemic Control:
+   Lines:  PICC line
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   Prophylaxis:
+   DVT: Heparin SQ
+   Stress ulcer: IV PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: Likely call out to the floor today as long as her HCT
+   remains stable post transfusion<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient, a 46-year-old female, is a post-operative patient who underwent hysterectomy complicated by bowel perforation and subsequent bowel resection. She is currently in the ICU due to tachycardia, hypovolemic hyponatremia, and abdominal discomfort. She is receiving TPN, and her pain is being managed with dilaudid PCA and toradol. Her laboratory results show leukocytosis, anemia, and hyponatremia. She is at risk for post-operative ileus and has a high risk of developing complications such as pneumonia, DVT, and stress ulcers.
+
+Potential Medical Complications:
+
+1. Post-operative ileus: The patient is at high risk for developing post-operative ileus, which can lead to prolonged hospitalization and increased risk of complications.
+2. Pneumonia: The patient's respiratory support and risk of aspiration due to her bowel perforation and resection make her susceptible to developing pneumonia.
+3. Deep Vein Thrombosis (DVT): The patient's prolonged immobility and increased risk of bleeding due to her anemia and hypovolemic hyponatremia make her at risk for developing DVT.
+4. Stress ulcers: The patient's prolonged use of IV PPI and her risk of bleeding due to her anemia and hypovolemic hyponatremia make her susceptible to developing stress ulcers.
+5. Hyponatremia: The patient's hyponatremia is likely due to her IVF hydration, and it is essential to monitor her sodium levels closely to prevent further complications.
+6. Anemia: The patient's anemia is likely due to her blood loss during surgery, and it is essential to monitor her hemoglobin levels closely to prevent further complications.
+7. Leukocytosis: The patient's leukocytosis is likely due to her surgical procedure and infection, and it is essential to monitor her white blood cell count closely to prevent further complications."
+133724.0,200711,2195-11-21 07:32:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - OB wants to start TPN, put pt. in for PICC
+   - afebrile, tachycardic-->likely related to pain/anxiety
+   - on vanc/zosyn
+   - f/u pain/anxiety control-->started toradol
+   - IVF for tachycardia-->titrating to UOP of 50cc's/hr, but pt had
+   increasing oxygen requirement, so balancing fluid with O2 sats
+   - Na increasing with IVF resuscitation, likely hypovolemic hyponatremia
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2195-11-20**] 07:47 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2195-11-20**] 11:04 PM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2195-11-20**] 11:37 PM
+   Heparin Sodium (Prophylaxis) - [**2195-11-20**] 11:37 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2195-11-21**] 07:25 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.3
+   Tcurrent: 37.3
+C (99.2
+   HR: 100 (99 - 122) bpm
+   BP: 116/63(74) {110/61(73) - 133/89(99)} mmHg
+   RR: 15 (15 - 30) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 61 Inch
+             Total In:
+                                                                  5,642 mL
+                                                                  1,116 mL
+   PO:
+             TF:
+   IVF:
+                                                                  5,642 mL
+                                                                  1,116 mL
+   Blood products:
+   Total out:
+                                                                    896 mL
+                                                                    265 mL
+   Urine:
+                                                                    896 mL
+                                                                    215 mL
+   NG:
+   50 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  4,746 mL
+                                                                    851 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///24/
+   Physical Examination
+   Gen: somnolent but arousable, NAD
+   HEENT: eomi, face mask present
+   Lungs: CTA b/l anteriorly
+   CV: Tachycardic, no m/r/g
+   Abd: midline surgical scar with dressing in place, diffuse abdominal
+   tenderness, soft abdomen, decreased bowel sounds, no guarding or
+   rebound, 1 cm lap wounds bilaterally that are uncovered.
+   GU: foley present
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   266 K/uL
+   6.7 g/dL
+   99 mg/dL
+   0.5 mg/dL
+   24 mEq/L
+   3.3 mEq/L
+   12 mg/dL
+   108 mEq/L
+   138 mEq/L
+   20.8 %
+   11.9 K/uL
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+                             [**2195-11-20**]  05:22 AM
+                             [**2195-11-20**]  07:50 AM
+                             [**2195-11-20**]  03:43 PM
+                            [**2195-11-21**]  03:20 AM
+   WBC
+   13.6
+   11.9
+   Hct
+   27.5
+   20.8
+   Plt
+   290
+   266
+   Cr
+   0.5
+   0.5
+   0.5
+   0.5
+   Glucose
+   129
+   130
+   127
+   99
+   Other labs: PT / PTT / INR:12.4/34.2/1.0, ALT / AST:[**9-25**], Alk Phos / T
+   Bili:37/0.5, Differential-Neuts:93.0 %, Band:0.0 %, Lymph:2.0 %,
+   Mono:4.0 %, Eos:1.0 %, Ca++:6.4 mg/dL, Mg++:2.0 mg/dL, PO4:2.1 mg/dL
+   Assessment and Plan
+   Ms. [**Known lastname **] is a 46 yo female with h/o uterine fibroids, hyperlipidemia, who
+   was admitted for hyesterectomy complicated by bowel perforation, now
+   s/p bowel resection.
+   .
+   1.  Bowel perforation.  Patient with bowel perforation following
+   hysterectomy with evidence of stool in abdomen during surgery, now s/p
+   resection of bowel.  Patient is currently hemodynamically stable with
+   the exception of tachycardia.  She received levo/flagyl pre-operatively
+   and will broaden to vanco/zosyn.  Anticipate long post-operative course
+   and at high risk for post-op ileus.
+   - Vanco/Zosyn
+   - f/u blood cultures
+   - f/u urine output with goal of 30-50 cc/hour
+   - IVFs to keep MAPs > 60
+   - NPO with NGT to suction
+   - Surgery & Ob/Gyn following
+   - pain management with dilaudid IV prn and standing toradol and will
+   institute bowel reg when able to take POs
+   .
+   2.  Pain.  Patient's pain is likely secondary abdominal discomfort from
+   sugery and bowel perforation.  CTA did not show PE earlier today.
+   - dilaudid pca and standing toradol for pain control
+   .
+   3.  Uterine fibroids.  Patient is s/p hysterectomy complicated by bowel
+   perforation.
+   - Ob/gyn following
+   - post-operative pain management with dialudid IV prn
+   .
+   4.  Tachycardia.  Patient noted to be newly tachycardic following
+   surgery.  Likely secondary to to abdominal discomfort from sugery and
+   bowel perforation.  CTA did not show PE earlier today.  Patient is
+   afebrile.  EBL of only 50 cc.
+   - monitor on telementry
+   - dilaudid PCA and toradol for pain management
+   - patient aggressively hydrated with IVF with some improvement in
+   tachycardia and urine output
+   - serial Hcts
+patient with HCT=20.8 today, will type and screen and
+   transfuse 1unti PRBC
+   .
+   5.  Hyperlipidemia.
+   - resume simvastatin when tolerating POs
+   ICU Care
+   Nutrition: NPO
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   Prophylaxis:
+   DVT: Heparin SQ
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: Likely call out to the floor today
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - OB wants to start TPN, put pt. in for PICC
+   - afebrile, tachycardic-->likely related to pain/anxiety
+   - on vanc/zosyn
+   - f/u pain/anxiety control-->started toradol
+   - IVF for tachycardia-->titrating to UOP of 50cc's/hr, but pt had
+   increasing oxygen requirement, so balancing fluid with O2 sats
+   - Na increasing with IVF resuscitation, likely hypovolemic hyponatremia
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2195-11-20**] 07:47 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2195-11-20**] 11:04 PM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2195-11-20**] 11:37 PM
+   Heparin Sodium (Prophylaxis) - [**2195-11-20**] 11:37 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2195-11-21**] 07:25 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.3
+   Tcurrent: 37.3
+C (99.2
+   HR: 100 (99 - 122) bpm
+   BP: 116/63(74) {110/61(73) - 133/89(99)} mmHg
+   RR: 15 (15 - 30) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 61 Inch
+             Total In:
+                                                                  5,642 mL
+                                                                  1,116 mL
+   PO:
+             TF:
+   IVF:
+                                                                  5,642 mL
+                                                                  1,116 mL
+   Blood products:
+   Total out:
+                                                                    896 mL
+                                                                    265 mL
+   Urine:
+                                                                    896 mL
+                                                                    215 mL
+   NG:
+   50 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  4,746 mL
+                                                                    851 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///24/
+   Physical Examination
+   Gen: somnolent but arousable, NAD
+   HEENT: eomi, face mask present
+   Lungs: CTA b/l anteriorly
+   CV: Tachycardic, no m/r/g
+   Abd: midline surgical scar with dressing in place, diffuse abdominal
+   tenderness, soft abdomen, decreased bowel sounds, no guarding or
+   rebound, 1 cm lap wounds bilaterally that are uncovered.
+   GU: foley present
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   266 K/uL
+   6.7 g/dL
+   99 mg/dL
+   0.5 mg/dL
+   24 mEq/L
+   3.3 mEq/L
+   12 mg/dL
+   108 mEq/L
+   138 mEq/L
+   20.8 %
+   11.9 K/uL
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+                             [**2195-11-20**]  05:22 AM
+                             [**2195-11-20**]  07:50 AM
+                             [**2195-11-20**]  03:43 PM
+                            [**2195-11-21**]  03:20 AM
+   WBC
+   13.6
+   11.9
+   Hct
+   27.5
+   20.8
+   Plt
+   290
+   266
+   Cr
+   0.5
+   0.5
+   0.5
+   0.5
+   Glucose
+   129
+   130
+   127
+   99
+   Other labs: PT / PTT / INR:12.4/34.2/1.0, ALT / AST:[**9-25**], Alk Phos / T
+   Bili:37/0.5, Differential-Neuts:93.0 %, Band:0.0 %, Lymph:2.0 %,
+   Mono:4.0 %, Eos:1.0 %, Ca++:6.4 mg/dL, Mg++:2.0 mg/dL, PO4:2.1 mg/dL
+   Assessment and Plan
+   Ms. [**Known lastname **] is a 46 yo female with h/o uterine fibroids, hyperlipidemia, who
+   was admitted for hyesterectomy complicated by bowel perforation, now
+   s/p bowel resection.
+   .
+   1.  Bowel perforation.  Patient with bowel perforation following
+   hysterectomy with evidence of stool in abdomen during surgery, now s/p
+   resection of bowel.  Patient is currently hemodynamically stable with
+   the exception of tachycardia.  She received levo/flagyl pre-operatively
+   and will broaden to vanco/zosyn.  Anticipate long post-operative course
+   and at high risk for post-op ileus.
+   - Vanco/Zosyn
+   - f/u blood cultures
+   - f/u urine output with goal of 30-50 cc/hour
+   - IVFs to keep MAPs > 60
+   - NPO with NGT to suction
+   - Surgery & Ob/Gyn following
+   - pain management with dilaudid IV prn and standing toradol and will
+   institute bowel reg when able to take POs
+   .
+   2.  Pain.  Patient's pain is likely secondary abdominal discomfort from
+   sugery and bowel perforation.  CTA did not show PE earlier today.
+   - dilaudid pca and standing toradol for pain control
+   .
+   3.  Uterine fibroids.  Patient is s/p hysterectomy complicated by bowel
+   perforation.
+   - Ob/gyn following
+   - post-operative pain management with dialudid IV prn
+   .
+   4.  Tachycardia.  Patient noted to be newly tachycardic following
+   surgery.  Likely secondary to to abdominal discomfort from sugery and
+   bowel perforation.  CTA did not show PE earlier today.  Patient is
+   afebrile.  EBL of only 50 cc.
+   - monitor on telementry
+   - dilaudid PCA and toradol for pain management
+   - patient aggressively hydrated with IVF with some improvement in
+   tachycardia and urine output
+   - serial Hcts
+patient with HCT=20.8 today, will type and screen and
+   transfuse 1unti PRBC
+   .
+   5.  Hyperlipidemia.
+   - resume simvastatin when tolerating POs
+   ICU Care
+   Nutrition: NPO
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   Prophylaxis:
+   DVT: Heparin SQ
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: Likely call out to the floor today<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 46-year-old female who underwent a hysterectomy complicated by bowel perforation and subsequent bowel resection. She is currently in the ICU, receiving treatment for bowel perforation, pain management, and tachycardia. Her vital signs are stable, with a temperature of 37.3°C, heart rate of 100 bpm, and blood pressure of 116/63 mmHg. She is receiving IV fluids to manage her tachycardia and has been started on vancomycin and piperacillin/tazobactam for antibiotic coverage.
+
+Potential Medical Complications:
+
+1. Post-operative ileus: Given the patient's history of bowel perforation and resection, she is at high risk for developing post-operative ileus, which can lead to prolonged hospitalization and increased risk of complications.
+2. Sepsis: The patient's bowel perforation and resection increase her risk of developing sepsis, particularly if the perforation is not adequately managed.
+3. Respiratory complications: The patient's history of bowel perforation and resection may increase her risk of developing respiratory complications, such as pneumonia or acute respiratory distress syndrome.
+4. Bleeding complications: The patient's history of bowel perforation and resection may increase her risk of bleeding complications, particularly if the perforation is not adequately managed.
+5. Hyperlipidemia: The patient's history of hyperlipidemia may increase her risk of developing cardiovascular complications, such as myocardial infarction or stroke.
+6. Tachycardia: The patient's tachycardia may be a sign of underlying cardiovascular instability or sepsis, and requires close monitoring and management.
+7. Hyponatremia: The patient's hyponatremia may be a sign of underlying hypovolemic shock or sepsis, and requires close monitoring and management.
+8. Wound complications: The patient's lap wounds may be at risk for developing complications, such as infection or dehiscence, particularly if they are not adequately managed.
+
+Overall, the patient's condition is complex and requires close monitoring and management to prevent potential complications."
+133724.0,200711,2195-11-22 06:52:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ PICC LINE - START [**2195-11-21**] 12:27 PM
+   - POD#2, covered broadly w vanc/zosyn, WBC trending down, Bld Cx Neg to
+   date
+   - dilaudid PCA and toradol, pt states pain controlled
+   - NPO.  TPN per Ob/Gyn
+   - Hct 20.8 this AM; transfuse 1u pRBCs
+   - consider hemolysis labs if Hct keeps dropping
+   - callout to gyn floor in evening if Hct stable
+   - was having chest tightness around 2:30pm, lasting for a few minutes,
+   and palpitations; no changes in vital signs, denied SOB. No EKG
+   changes.  not likely cardiac, but cardiac enzymes sent for 2:30pm today
+   and 02:30am  --> cardiac enzymes Neg first set
+   - 7:30pm: pt complaining of increased SOB (no incr O2 requirement) and
+   abdominal bloating;  has hyperactive bowel sounds, lungs clear, reports
+   new cough --> portable CXR and abdominal XRay done at 8:30pm
+   - Abdom CT shows ileus (expected after surgery)
+   - CXR shows increased fluid, particularly right side and in fissure-->
+   tried 10mg IV lasix... put out good urine(starting at 2300) and is net
+   Neg 850cc for the morning
+   - Hct did not bump appropriately after 2u pRBCs (20.8-->24.9)--> follow
+   Q4h Hct
+   - has some bruising on L lower back and a little on right lateral back;
+   Ob/Gyn chief not concerned about retroperitoneal bleeding --> if pt
+   were going to bleed it'd be intraperitoneal, and she would already have
+   post-op ascites, so it'd be difficult to evaluate on CT
+   - Midnight HCT stable at 24.4  --> if midnight Hct dropped further,
+   then would have considered abd/pelv CT to look for bleed;  AM Hct
+   stable as well
+   - complained again of chest and abdominal pain ([**5-22**] for both)--
+   awakened for nursing assessment; chest pain not reproducible; last
+   enzymes negative, another set pending for 3AM; morphine brought pain
+   down to 2/10, and she went back to sleep; second set cardiac enzymes
+   Negative
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2195-11-21**] 08:59 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2195-11-22**] 12:02 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2195-11-21**] 10:17 PM
+   Pantoprazole (Protonix) - [**2195-11-22**] 12:02 AM
+   Heparin Sodium (Prophylaxis) - [**2195-11-22**] 12:15 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2195-11-22**] 06:51 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.9
+C (98.4
+   HR: 96 (93 - 101) bpm
+   BP: 107/72(79) {107/64(74) - 142/94(103)} mmHg
+   RR: 16 (15 - 26) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 61 Inch
+             Total In:
+                                                                  3,046 mL
+                                                                    534 mL
+   PO:
+             TF:
+   IVF:
+                                                                  2,454 mL
+                                                                    247 mL
+   Blood products:
+                                                                    350 mL
+   Total out:
+                                                                  2,630 mL
+                                                                  1,530 mL
+   Urine:
+                                                                  2,580 mL
+                                                                  1,530 mL
+   NG:
+                                                                     50 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                    416 mL
+                                                                   -996 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///28/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   301 K/uL
+   8.1 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   28 mEq/L
+   3.4 mEq/L
+   12 mg/dL
+   105 mEq/L
+   137 mEq/L
+   24.6 %
+   9.2 K/uL
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+                             [**2195-11-20**]  05:22 AM
+                             [**2195-11-20**]  07:50 AM
+                             [**2195-11-20**]  03:43 PM
+                            [**2195-11-21**]  03:20 AM
+                            [**2195-11-21**]  09:19 AM
+                            [**2195-11-21**]  02:42 PM
+                            [**2195-11-21**]  08:04 PM
+                            [**2195-11-22**]  12:01 AM
+                            [**2195-11-22**]  03:29 AM
+   WBC
+   13.6
+   11.9
+   12.3
+   11.2
+   9.2
+   Hct
+   27.5
+   20.8
+   20.8
+   24.9
+   24.4
+   24.6
+   Plt
+   290
+   266
+   292
+   303
+   301
+   Cr
+   0.5
+   0.5
+   0.5
+   0.5
+   0.5
+   TropT
+   <0.01
+   <0.01
+   Glucose
+   129
+   130
+   127
+   99
+   134
+   Other labs: PT / PTT / INR:12.4/34.2/1.0, CK / CKMB /
+   Troponin-T:91/2/<0.01, ALT / AST:[**12-28**], Alk Phos / T Bili:43/0.6,
+   Differential-Neuts:93.0 %, Band:0.0 %, Lymph:2.0 %, Mono:4.0 %, Eos:1.0
+   %, LDH:158 IU/L, Ca++:6.8 mg/dL, Mg++:2.0 mg/dL, PO4:2.4 mg/dL
+   Assessment and Plan
+ [**Last Name 12**] PROBLEM - ENTER DESCRIPTION IN COMMENTS
+ INEFFECTIVE COPING
+ PERITONITIS, SPONTANEOUS BACTERIAL (SBP)
+ PAIN CONTROL (ACUTE PAIN, CHRONIC PAIN)
+   ICU Care
+   Nutrition:
+   TPN without Lipids - [**2195-11-21**] 06:15 PM 42 mL/hour
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   PICC Line - [**2195-11-21**] 12:27 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ PICC LINE - START [**2195-11-21**] 12:27 PM
+   - POD#2, covered broadly w vanc/zosyn, WBC trending down, Bld Cx Neg to
+   date
+   - dilaudid PCA and toradol, pt states pain controlled
+   - NPO.  TPN per Ob/Gyn
+   - Hct 20.8 this AM; transfuse 1u pRBCs
+   - consider hemolysis labs if Hct keeps dropping
+   - callout to gyn floor in evening if Hct stable
+   - was having chest tightness around 2:30pm, lasting for a few minutes,
+   and palpitations; no changes in vital signs, denied SOB. No EKG
+   changes.  not likely cardiac, but cardiac enzymes sent for 2:30pm today
+   and 02:30am  --> cardiac enzymes Neg first set
+   - 7:30pm: pt complaining of increased SOB (no incr O2 requirement) and
+   abdominal bloating;  has hyperactive bowel sounds, lungs clear, reports
+   new cough --> portable CXR and abdominal XRay done at 8:30pm
+   - Abdom CT shows ileus (expected after surgery)
+   - CXR shows increased fluid, particularly right side and in fissure-->
+   tried 10mg IV lasix... put out good urine(starting at 2300) and is net
+   Neg 850cc for the morning
+   - Hct did not bump appropriately after 2u pRBCs (20.8-->24.9)--> follow
+   Q4h Hct
+   - has some bruising on L lower back and a little on right lateral back;
+   Ob/Gyn chief not concerned about retroperitoneal bleeding --> if pt
+   were going to bleed it'd be intraperitoneal, and she would already have
+   post-op ascites, so it'd be difficult to evaluate on CT
+   - Midnight HCT stable at 24.4  --> if midnight Hct dropped further,
+   then would have considered abd/pelv CT to look for bleed;  AM Hct
+   stable as well
+   - complained again of chest and abdominal pain ([**5-22**] for both)--
+   awakened for nursing assessment; chest pain not reproducible; last
+   enzymes negative, another set pending for 3AM; morphine brought pain
+   down to 2/10, and she went back to sleep; second set cardiac enzymes
+   Negative
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2195-11-21**] 08:59 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2195-11-22**] 12:02 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2195-11-21**] 10:17 PM
+   Pantoprazole (Protonix) - [**2195-11-22**] 12:02 AM
+   Heparin Sodium (Prophylaxis) - [**2195-11-22**] 12:15 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2195-11-22**] 06:51 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.9
+C (98.4
+   HR: 96 (93 - 101) bpm
+   BP: 107/72(79) {107/64(74) - 142/94(103)} mmHg
+   RR: 16 (15 - 26) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 61 Inch
+             Total In:
+                                                                  3,046 mL
+                                                                    534 mL
+   PO:
+             TF:
+   IVF:
+                                                                  2,454 mL
+                                                                    247 mL
+   Blood products:
+                                                                    350 mL
+   Total out:
+                                                                  2,630 mL
+                                                                  1,530 mL
+   Urine:
+                                                                  2,580 mL
+                                                                  1,530 mL
+   NG:
+                                                                     50 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                    416 mL
+                                                                   -996 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///28/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   301 K/uL
+   8.1 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   28 mEq/L
+   3.4 mEq/L
+   12 mg/dL
+   105 mEq/L
+   137 mEq/L
+   24.6 %
+   9.2 K/uL
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+                             [**2195-11-20**]  05:22 AM
+                             [**2195-11-20**]  07:50 AM
+                             [**2195-11-20**]  03:43 PM
+                            [**2195-11-21**]  03:20 AM
+                            [**2195-11-21**]  09:19 AM
+                            [**2195-11-21**]  02:42 PM
+                            [**2195-11-21**]  08:04 PM
+                            [**2195-11-22**]  12:01 AM
+                            [**2195-11-22**]  03:29 AM
+   WBC
+   13.6
+   11.9
+   12.3
+   11.2
+   9.2
+   Hct
+   27.5
+   20.8
+   20.8
+   24.9
+   24.4
+   24.6
+   Plt
+   290
+   266
+   292
+   303
+   301
+   Cr
+   0.5
+   0.5
+   0.5
+   0.5
+   0.5
+   TropT
+   <0.01
+   <0.01
+   Glucose
+   129
+   130
+   127
+   99
+   134
+   Other labs: PT / PTT / INR:12.4/34.2/1.0, CK / CKMB /
+   Troponin-T:91/2/<0.01, ALT / AST:[**12-28**], Alk Phos / T Bili:43/0.6,
+   Differential-Neuts:93.0 %, Band:0.0 %, Lymph:2.0 %, Mono:4.0 %, Eos:1.0
+   %, LDH:158 IU/L, Ca++:6.8 mg/dL, Mg++:2.0 mg/dL, PO4:2.4 mg/dL
+   Assessment and Plan
+ [**Last Name 12**] PROBLEM - ENTER DESCRIPTION IN COMMENTS
+ INEFFECTIVE COPING
+ PERITONITIS, SPONTANEOUS BACTERIAL (SBP)
+ PAIN CONTROL (ACUTE PAIN, CHRONIC PAIN)
+   ICU Care
+   Nutrition:
+   TPN without Lipids - [**2195-11-21**] 06:15 PM 42 mL/hour
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   PICC Line - [**2195-11-21**] 12:27 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+The patient is a [age] year-old female admitted to the ICU for ongoing management of peritonitis and pain control. She has a history of spontaneous bacterial peritonitis (SBP) and is currently receiving treatment with vancomycin and piperacillin/tazobactam.
+
+Over the past 24 hours, the patient's WBC count has been trending down, and her blood cultures have remained negative. She has been experiencing chest tightness and palpitations, which have been attributed to her underlying condition and are not likely to be cardiac in origin.
+
+The patient has been complaining of increased shortness of breath (SOB) and abdominal bloating, with hyperactive bowel sounds and clear lungs. A portable chest X-ray and abdominal X-ray were performed, showing increased fluid in the right side and in the fissure. The patient was treated with 10mg IV lasix, which resulted in a good urine output and a net negative fluid balance of 850cc for the morning.
+
+The patient's Hct has been dropping, with a current level of 24.4%. She has been transfused with 1u pRBCs, and her Hct has stabilized at 24.4%. The patient has also been experiencing some bruising on her lower back and lateral back, but the Ob/Gyn chief is not concerned about retroperitoneal bleeding.
+
+The patient's cardiac enzymes have been sent, and the first set was negative. She has been complaining of chest and abdominal pain, which has been managed with morphine and has been brought under control.
+
+The patient's respiratory status is stable, with an SpO2 of 99% and a respiratory rate of 16 breaths per minute. Her hemodynamic monitoring is stable, with a heart rate of 96 beats per minute and a blood pressure of 107/72 mmHg.
+
+The patient's lab results show a WBC count of 9.2 K/uL, a Hct of 24.6%, and a platelet count of 301. Her electrolyte levels are within normal range, with the exception of a slightly elevated creatinine level of 0.5 mg/dL.
+
+Based on the patient's current condition, potential medical complications that may arise include:
+
+1. Sepsis: Given the patient's history of SBP and her current symptoms of chest tightness and palpitations, there is a risk of sepsis developing.
+2. Respiratory failure: The patient's increased SOB and abdominal bloating may indicate respiratory compromise, which could lead to respiratory failure.
+3. Cardiac complications: Although the patient's cardiac enzymes have been negative, there is still a risk of cardiac complications developing, particularly given her history of peritonitis and pain control.
+4. Hemorrhage: The patient's dropping Hct and bruising on her lower back and lateral back may indicate a risk of hemorrhage, particularly if her Hct continues to drop.
+5. Infection: The patient's history of SBP and her current symptoms of chest tightness and palpitations may indicate a risk of infection developing.
+
+In terms of management, the patient should continue to receive treatment with vancomycin and piperacillin/tazobactam, as well as close monitoring of her respiratory and hemodynamic status. She should also be closely monitored for signs of sepsis, respiratory failure, and cardiac complications."
+133724.0,200711,2195-11-22 06:52:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ PICC LINE - START [**2195-11-21**] 12:27 PM
+   - POD#2 on [**11-21**] covered broadly w vanc/zosyn, WBC trending down, Bld
+   Cx Neg to date
+   - dilaudid PCA and toradol, pt states pain controlled
+   - NPO.  Starting TPN per Ob/Gyn
+   - Hct 20.8 [**11-21**] AM; transfused 1u pRBCs
+   - consider hemolysis labs if Hct keeps dropping
+   - callout to gyn floor in evening if Hct stable
+   - was having chest tightness around 2:30pm, lasting for a few minutes,
+   and palpitations; no changes in vital signs, denied SOB. No EKG
+   changes.  not likely cardiac, but cardiac enzymes sent for 2:30pm today
+   and 02:30am  --> cardiac enzymes Neg first set
+   - 7:30pm: pt complaining of increased SOB (no incr O2 requirement) and
+   abdominal bloating;  has hyperactive bowel sounds, lungs clear, reports
+   new cough --> portable CXR and abdominal XRay done at 8:30pm
+   - Abdom CT shows ileus (expected after surgery)
+   - CXR shows increased fluid, particularly right side and in fissure-->
+   tried 10mg IV lasix... put out good urine(starting at 2300) and is net
+   Neg 850cc for the morning
+   - Hct did not bump appropriately after 2u pRBCs (20.8-->24.9)--> follow
+   Q4h Hct
+   - has some bruising on L lower back and a little on right lateral back;
+   Ob/Gyn chief not concerned about retroperitoneal bleeding --> if pt
+   were going to bleed it'd be intraperitoneal, and she would already have
+   post-op ascites, so it'd be difficult to evaluate on CT
+   - Midnight HCT stable at 24.4  --> if midnight Hct dropped further,
+   then would have considered abd/pelv CT to look for bleed;  AM Hct
+   stable as well
+   - complained again of chest and abdominal pain ([**5-22**] for both)--
+   awakened for nursing assessment; chest pain not reproducible; last
+   enzymes negative, another set pending for 3AM; morphine brought pain
+   down to 2/10, and she went back to sleep; second set cardiac enzymes
+   Negative
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2195-11-21**] 08:59 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2195-11-22**] 12:02 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2195-11-21**] 10:17 PM
+   Pantoprazole (Protonix) - [**2195-11-22**] 12:02 AM
+   Heparin Sodium (Prophylaxis) - [**2195-11-22**] 12:15 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2195-11-22**] 06:51 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.9
+C (98.4
+   HR: 96 (93 - 101) bpm
+   BP: 107/72(79) {107/64(74) - 142/94(103)} mmHg
+   RR: 16 (15 - 26) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 61 Inch
+             Total In:
+                                                                  3,046 mL
+                                                                    534 mL
+   PO:
+             TF:
+   IVF:
+                                                                  2,454 mL
+                                                                    247 mL
+   Blood products:
+                                                                    350 mL
+   Total out:
+                                                                  2,630 mL
+                                                                  1,530 mL
+   Urine:
+                                                                  2,580 mL
+                                                                  1,530 mL
+   NG:
+                                                                     50 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                    416 mL
+                                                                   -996 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///28/
+   Physical Examination
+   Gen: alert when awakened, does not appear to be in acute distress
+   HEENT: eomi
+   Lungs: CTA b/l anteriorly, decreased BS at bases with some crackles
+   CV: Tachycardic w rate 90s, regular rhythm, no m/r/g
+   Abd: midline surgical scar with dressing in place dry, diffuse
+   abdominal tenderness, soft abdomen, hyperactive bowel sounds, no
+   guarding or rebound, 1 cm lap wounds bilaterally that are uncovered.
+   Back: some bruising in right lower lateral back
+   GU: foley present
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   301 K/uL
+   8.1 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   28 mEq/L
+   3.4 mEq/L
+   12 mg/dL
+   105 mEq/L
+   137 mEq/L
+   24.6 %
+   9.2 K/uL
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+                             [**2195-11-20**]  05:22 AM
+                             [**2195-11-20**]  07:50 AM
+                             [**2195-11-20**]  03:43 PM
+                            [**2195-11-21**]  03:20 AM
+                            [**2195-11-21**]  09:19 AM
+                            [**2195-11-21**]  02:42 PM
+                            [**2195-11-21**]  08:04 PM
+                            [**2195-11-22**]  12:01 AM
+                            [**2195-11-22**]  03:29 AM
+   WBC
+   13.6
+   11.9
+   12.3
+   11.2
+   9.2
+   Hct
+   27.5
+   20.8
+   20.8
+   24.9
+   24.4
+   24.6
+   Plt
+   290
+   266
+   292
+   303
+   301
+   Cr
+   0.5
+   0.5
+   0.5
+   0.5
+   0.5
+   TropT
+   <0.01
+   <0.01
+   Glucose
+   129
+   130
+   127
+   99
+   134
+   Other labs: PT / PTT / INR:12.4/34.2/1.0, CK / CKMB /
+   Troponin-T:91/2/<0.01, ALT / AST:[**12-28**], Alk Phos / T Bili:43/0.6,
+   Differential-Neuts:93.0 %, Band:0.0 %, Lymph:2.0 %, Mono:4.0 %, Eos:1.0
+   %, LDH:158 IU/L, Ca++:6.8 mg/dL, Mg++:2.0 mg/dL, PO4:2.4 mg/dL
+   Assessment and Plan
+   Ms. [**Known lastname **] is a 46 yo female with h/o uterine fibroids, hyperlipidemia, who
+   was admitted for hyesterectomy complicated by bowel perforation, now
+   s/p bowel resection.
+   .
+   1.  Bowel perforation.
+   POD#3 s/p resection and repair of bowel.  Hemodynamically stable but
+   has persistent tachycardia.  On vanco/zosyn.  Has Post-op ileus by
+   abdominal Xray but hyperactive bowel sounds.  Urine output good and
+   blood pressures stable overnight.
+   - Vanco/Zosyn-leukocytosis improving
+   - f/u blood cultures
+NGTD
+   - NPO with NGT to suction-will start  TPN, will not advance diet until
+   patient is passing gas and having BM
+   - Surgery & Ob/Gyn following, surgery changing bandages for post-op
+   wound care
+   - pain management with dilaudid PCA and standing toradol
+   - needs bowel reg when able to take POs
+   .
+   2. Anemia:
+   Post-operative.  Stable in last 12 hours, but was concern for possible
+   intraabdominal bleed overnight.  If there were a bleed, it would not
+   likely be a retroperitoneal bleed.  Consider CT abd/pelvis if Hct drops
+   further
+   - cont to monitor Hct
+   .
+   3.  Tachycardia.  Patient noted to be newly tachycardic following
+   surgery.  Likely secondary to abdominal discomfort, anemia, and
+   intravascular volume depletion.  CTA negative for PE.  Patient remains
+   afebrile, appears adequately hydrated. States that pain controlled by
+   PCA pump and toradol.
+   - monitor on telemetry
+   - monitor renal function w standing toradol
+ do not use for more than
+   3 days
+check w pharmacy
+   - serial Hcts stable for last 12 hours
+   .
+   4.  Uterine fibroids.  Patient is s/p hysterectomy complicated by bowel
+   perforation.
+   - Ob/gyn following
+   - post-operative pain management with dialudid PCA and toradol x 3 days
+   .
+   5.  Hyperlipidemia.
+   - resume simvastatin when tolerating POs
+   ICU Care
+   Nutrition: TPN
+   TPN without Lipids - [**2195-11-21**] 06:15 PM 42 mL/hour
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   PICC Line - [**2195-11-21**] 12:27 PM
+   Prophylaxis:
+   DVT: subq heparin
+   Stress ulcer: IV PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ PICC LINE - START [**2195-11-21**] 12:27 PM
+   - POD#2 on [**11-21**] covered broadly w vanc/zosyn, WBC trending down, Bld
+   Cx Neg to date
+   - dilaudid PCA and toradol, pt states pain controlled
+   - NPO.  Starting TPN per Ob/Gyn
+   - Hct 20.8 [**11-21**] AM; transfused 1u pRBCs
+   - consider hemolysis labs if Hct keeps dropping
+   - callout to gyn floor in evening if Hct stable
+   - was having chest tightness around 2:30pm, lasting for a few minutes,
+   and palpitations; no changes in vital signs, denied SOB. No EKG
+   changes.  not likely cardiac, but cardiac enzymes sent for 2:30pm today
+   and 02:30am  --> cardiac enzymes Neg first set
+   - 7:30pm: pt complaining of increased SOB (no incr O2 requirement) and
+   abdominal bloating;  has hyperactive bowel sounds, lungs clear, reports
+   new cough --> portable CXR and abdominal XRay done at 8:30pm
+   - Abdom CT shows ileus (expected after surgery)
+   - CXR shows increased fluid, particularly right side and in fissure-->
+   tried 10mg IV lasix... put out good urine(starting at 2300) and is net
+   Neg 850cc for the morning
+   - Hct did not bump appropriately after 2u pRBCs (20.8-->24.9)--> follow
+   Q4h Hct
+   - has some bruising on L lower back and a little on right lateral back;
+   Ob/Gyn chief not concerned about retroperitoneal bleeding --> if pt
+   were going to bleed it'd be intraperitoneal, and she would already have
+   post-op ascites, so it'd be difficult to evaluate on CT
+   - Midnight HCT stable at 24.4  --> if midnight Hct dropped further,
+   then would have considered abd/pelv CT to look for bleed;  AM Hct
+   stable as well
+   - complained again of chest and abdominal pain ([**5-22**] for both)--
+   awakened for nursing assessment; chest pain not reproducible; last
+   enzymes negative, another set pending for 3AM; morphine brought pain
+   down to 2/10, and she went back to sleep; second set cardiac enzymes
+   Negative
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2195-11-21**] 08:59 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2195-11-22**] 12:02 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2195-11-21**] 10:17 PM
+   Pantoprazole (Protonix) - [**2195-11-22**] 12:02 AM
+   Heparin Sodium (Prophylaxis) - [**2195-11-22**] 12:15 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2195-11-22**] 06:51 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.9
+C (98.4
+   HR: 96 (93 - 101) bpm
+   BP: 107/72(79) {107/64(74) - 142/94(103)} mmHg
+   RR: 16 (15 - 26) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 61 Inch
+             Total In:
+                                                                  3,046 mL
+                                                                    534 mL
+   PO:
+             TF:
+   IVF:
+                                                                  2,454 mL
+                                                                    247 mL
+   Blood products:
+                                                                    350 mL
+   Total out:
+                                                                  2,630 mL
+                                                                  1,530 mL
+   Urine:
+                                                                  2,580 mL
+                                                                  1,530 mL
+   NG:
+                                                                     50 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                    416 mL
+                                                                   -996 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///28/
+   Physical Examination
+   Gen: alert when awakened, does not appear to be in acute distress
+   HEENT: eomi
+   Lungs: CTA b/l anteriorly, decreased BS at bases with some crackles
+   CV: Tachycardic w rate 90s, regular rhythm, no m/r/g
+   Abd: midline surgical scar with dressing in place dry, diffuse
+   abdominal tenderness, soft abdomen, hyperactive bowel sounds, no
+   guarding or rebound, 1 cm lap wounds bilaterally that are uncovered.
+   Back: some bruising in right lower lateral back
+   GU: foley present
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   301 K/uL
+   8.1 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   28 mEq/L
+   3.4 mEq/L
+   12 mg/dL
+   105 mEq/L
+   137 mEq/L
+   24.6 %
+   9.2 K/uL
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+                             [**2195-11-20**]  05:22 AM
+                             [**2195-11-20**]  07:50 AM
+                             [**2195-11-20**]  03:43 PM
+                            [**2195-11-21**]  03:20 AM
+                            [**2195-11-21**]  09:19 AM
+                            [**2195-11-21**]  02:42 PM
+                            [**2195-11-21**]  08:04 PM
+                            [**2195-11-22**]  12:01 AM
+                            [**2195-11-22**]  03:29 AM
+   WBC
+   13.6
+   11.9
+   12.3
+   11.2
+   9.2
+   Hct
+   27.5
+   20.8
+   20.8
+   24.9
+   24.4
+   24.6
+   Plt
+   290
+   266
+   292
+   303
+   301
+   Cr
+   0.5
+   0.5
+   0.5
+   0.5
+   0.5
+   TropT
+   <0.01
+   <0.01
+   Glucose
+   129
+   130
+   127
+   99
+   134
+   Other labs: PT / PTT / INR:12.4/34.2/1.0, CK / CKMB /
+   Troponin-T:91/2/<0.01, ALT / AST:[**12-28**], Alk Phos / T Bili:43/0.6,
+   Differential-Neuts:93.0 %, Band:0.0 %, Lymph:2.0 %, Mono:4.0 %, Eos:1.0
+   %, LDH:158 IU/L, Ca++:6.8 mg/dL, Mg++:2.0 mg/dL, PO4:2.4 mg/dL
+   Assessment and Plan
+   Ms. [**Known lastname **] is a 46 yo female with h/o uterine fibroids, hyperlipidemia, who
+   was admitted for hyesterectomy complicated by bowel perforation, now
+   s/p bowel resection.
+   .
+   1.  Bowel perforation.
+   POD#3 s/p resection and repair of bowel.  Hemodynamically stable but
+   has persistent tachycardia.  On vanco/zosyn.  Has Post-op ileus by
+   abdominal Xray but hyperactive bowel sounds.  Urine output good and
+   blood pressures stable overnight.
+   - Vanco/Zosyn-leukocytosis improving
+   - f/u blood cultures
+NGTD
+   - NPO with NGT to suction-will start  TPN, will not advance diet until
+   patient is passing gas and having BM
+   - Surgery & Ob/Gyn following, surgery changing bandages for post-op
+   wound care
+   - pain management with dilaudid PCA and standing toradol
+   - needs bowel reg when able to take POs
+   .
+   2. Anemia:
+   Post-operative.  Stable in last 12 hours, but was concern for possible
+   intraabdominal bleed overnight.  If there were a bleed, it would not
+   likely be a retroperitoneal bleed.  Consider CT abd/pelvis if Hct drops
+   further
+   - cont to monitor Hct
+   .
+   3.  Tachycardia.  Patient noted to be newly tachycardic following
+   surgery.  Likely secondary to abdominal discomfort, anemia, and
+   intravascular volume depletion.  CTA negative for PE.  Patient remains
+   afebrile, appears adequately hydrated. States that pain controlled by
+   PCA pump and toradol.
+   - monitor on telemetry
+   - monitor renal function w standing toradol
+ do not use for more than
+   3 days
+check w pharmacy
+   - serial Hcts stable for last 12 hours
+   .
+   4.  Uterine fibroids.  Patient is s/p hysterectomy complicated by bowel
+   perforation.
+   - Ob/gyn following
+   - post-operative pain management with dialudid PCA and toradol x 3 days
+   .
+   5.  Hyperlipidemia.
+   - resume simvastatin when tolerating POs
+   ICU Care
+   Nutrition: TPN
+   TPN without Lipids - [**2195-11-21**] 06:15 PM 42 mL/hour
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   PICC Line - [**2195-11-21**] 12:27 PM
+   Prophylaxis:
+   DVT: subq heparin
+   Stress ulcer: IV PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, here is a summary of the information and potential medical complications that can arise:
+
+**Summary:**
+
+The patient is a 46-year-old female who underwent a hysterectomy complicated by bowel perforation and subsequent bowel resection. She is currently in the ICU for post-operative care. Her vital signs are stable, with a heart rate of 96 bpm, blood pressure of 107/72 mmHg, and oxygen saturation of 99%. She is receiving vancomycin and piperacillin/tazobactam for antibiotic coverage. Her WBC count is trending down, and her Hct is stable at 24.6%. She is experiencing some abdominal pain and discomfort, which is being managed with pain medication. She is also experiencing some bruising on her lower back and has a possible ileus.
+
+**Potential Medical Complications:**
+
+1. **Intra-abdominal bleeding:** The patient's Hct is stable, but there is concern for possible intra-abdominal bleeding, especially given her history of bowel perforation and resection. If the Hct drops further, a CT scan of the abdomen and pelvis may be considered.
+2. **Tachycardia:** The patient's tachycardia is likely secondary to abdominal discomfort, anemia, and intravascular volume depletion. It is essential to monitor her renal function and adjust her medication as needed.
+3. **Anemia:** The patient's anemia is post-operative and stable for the last 12 hours. However, it is crucial to continue monitoring her Hct levels and consider a CT scan of the abdomen and pelvis if the Hct drops further.
+4. **Pain management:** The patient is experiencing some abdominal pain and discomfort, which is being managed with pain medication. It is essential to continue monitoring her pain levels and adjusting her medication as needed.
+5. **Ileus:** The patient has a possible ileus, which may be contributing to her abdominal pain and discomfort. It is essential to monitor her bowel sounds and consider nasogastric suctioning if necessary.
+6. **Wound infection:** The patient's wound is at risk for infection, especially given her history of bowel perforation and resection. It is essential to monitor her wound for signs of infection and adjust her antibiotic coverage as needed.
+7. **Deep vein thrombosis (DVT):** The patient is at risk for DVT due to her prolonged immobility and history of bowel perforation and resection. It is essential to monitor her for signs of DVT and adjust her prophylaxis as needed.
+
+Overall, the patient is at risk for several medical complications, including intra-abdominal bleeding, tachycardia, anemia, pain management issues, ileus, wound infection, and DVT. It is essential to continue monitoring her closely and adjusting her treatment plan as needed to prevent or manage these complications."
+133724.0,200711,2195-11-22 06:52:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ PICC LINE - START [**2195-11-21**] 12:27 PM
+   - POD#2 on [**11-21**] covered broadly w vanc/zosyn, WBC trending down, Bld
+   Cx Neg to date
+   - dilaudid PCA and toradol, pt states pain controlled
+   - NPO.  Starting TPN per Ob/Gyn
+   - Hct 20.8 [**11-21**] AM; transfused 1u pRBCs
+   - callout to gyn floor in evening if Hct stable
+   - was having chest tightness around 2:30pm, lasting for a few minutes,
+   and palpitations; no changes in vital signs, denied SOB. No EKG
+   changes.  not likely cardiac, but cardiac enzymes sent for 2:30pm today
+   and 02:30am  --> cardiac enzymes Neg first set
+   - 7:30pm: pt complaining of increased SOB (no incr O2 requirement) and
+   abdominal bloating;  has hyperactive bowel sounds, lungs clear, reports
+   new cough --> portable CXR and abdominal XRay done at 8:30pm
+   - Abdom XRay shows ileus (expected after surgery)
+   - CXR shows increased fluid, particularly right side and in fissure-->
+   tried 10mg IV lasix... put out good urine(starting at 2300) and is net
+   Neg 850cc for the morning
+   - Hct did bump appropriately after 1u pRBCs (20.8-->24.9)
+   - complained again of chest and abdominal pain ([**5-22**] for both)--
+   awakened for nursing assessment; chest pain not reproducible; last
+   enzymes negative, another set pending for 3AM; morphine brought pain
+   down to 2/10, and she went back to sleep; second set cardiac enzymes
+   Negative
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2195-11-21**] 08:59 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2195-11-22**] 12:02 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2195-11-21**] 10:17 PM
+   Pantoprazole (Protonix) - [**2195-11-22**] 12:02 AM
+   Heparin Sodium (Prophylaxis) - [**2195-11-22**] 12:15 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2195-11-22**] 06:51 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.9
+C (98.4
+   HR: 96 (93 - 101) bpm
+   BP: 107/72(79) {107/64(74) - 142/94(103)} mmHg
+   RR: 16 (15 - 26) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 61 Inch
+             Total In:
+                                                                  3,046 mL
+                                                                    534 mL
+   PO:
+             TF:
+   IVF:
+                                                                  2,454 mL
+                                                                    247 mL
+   Blood products:
+                                                                    350 mL
+   Total out:
+                                                                  2,630 mL
+                                                                  1,530 mL
+   Urine:
+                                                                  2,580 mL
+                                                                  1,530 mL
+   NG:
+                                                                     50 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                    416 mL
+                                                                   -996 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///28/
+   Physical Examination
+   Gen: alert when awakened, not in acute distress
+   HEENT: eomi
+   Lungs: CTA b/l anteriorly, decreased BS at bases with some crackles
+   CV: Tachycardic w rate 90s, regular rhythm, no m/r/g
+   Abd: midline surgical scar with dressing in place dry, diffuse
+   abdominal tenderness, soft abdomen, hyperactive bowel sounds, 1 cm lap
+   wounds bilaterally that are uncovered.
+   Back: some bruising in right lower lateral back
+   GU: foley present
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   301 K/uL
+   8.1 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   28 mEq/L
+   3.4 mEq/L
+   12 mg/dL
+   105 mEq/L
+   137 mEq/L
+   24.6 %
+   9.2 K/uL
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+                             [**2195-11-20**]  05:22 AM
+                             [**2195-11-20**]  07:50 AM
+                             [**2195-11-20**]  03:43 PM
+                            [**2195-11-21**]  03:20 AM
+                            [**2195-11-21**]  09:19 AM
+                            [**2195-11-21**]  02:42 PM
+                            [**2195-11-21**]  08:04 PM
+                            [**2195-11-22**]  12:01 AM
+                            [**2195-11-22**]  03:29 AM
+   WBC
+   13.6
+   11.9
+   12.3
+   11.2
+   9.2
+   Hct
+   27.5
+   20.8
+   20.8
+   24.9
+   24.4
+   24.6
+   Plt
+   290
+   266
+   292
+   303
+   301
+   Cr
+   0.5
+   0.5
+   0.5
+   0.5
+   0.5
+   TropT
+   <0.01
+   <0.01
+   Glucose
+   129
+   130
+   127
+   99
+   134
+   Other labs: PT / PTT / INR:12.4/34.2/1.0, CK / CKMB /
+   Troponin-T:91/2/<0.01, ALT / AST:[**12-28**], Alk Phos / T Bili:43/0.6,
+   Differential-Neuts:93.0 %, Band:0.0 %, Lymph:2.0 %, Mono:4.0 %, Eos:1.0
+   %, LDH:158 IU/L, Ca++:6.8 mg/dL, Mg++:2.0 mg/dL, PO4:2.4 mg/dL
+   Assessment and Plan
+   Ms. [**Known lastname **] is a 46 yo female with h/o uterine fibroids, hyperlipidemia, who
+   was admitted for hyesterectomy complicated by bowel perforation, now
+   s/p bowel resection.
+   .
+   1.  Bowel perforation.
+   POD#3 s/p resection and repair of bowel.  Hemodynamically stable but
+   has persistent tachycardia.  On vanco/zosyn.  Has Post-op ileus by
+   abdominal Xray but hyperactive bowel sounds.  Urine output good and
+   blood pressures stable overnight.
+   - Vanco/Zosyn-leukocytosis improving
+   - f/u blood cultures
+NGTD
+   - NPO with NGT to suction-will start  TPN, will not advance diet until
+   patient is passing gas and having BM
+   - Surgery & Ob/Gyn following, surgery changing bandages for post-op
+   wound care
+   - pain management with dilaudid PCA and standing toradol
+   - needs bowel reg when able to take POs
+   .
+   2. Anemia:
+   Post-operative.  Stable in last 12 hours, but was concern for possible
+   intraabdominal bleed overnight.  If there were a bleed, it would not
+   likely be a retroperitoneal bleed.  Consider CT abd/pelvis if Hct drops
+   further
+   - cont to monitor Hct
+   .
+   3.  Tachycardia.  Patient noted to be newly tachycardic following
+   surgery.  Likely secondary to abdominal discomfort, anemia, and
+   intravascular volume depletion.  CTA negative for PE.  Patient remains
+   afebrile, appears adequately hydrated. States that pain controlled by
+   PCA pump and toradol.
+   - monitor on telemetry
+   - monitor renal function w standing toradol
+ do not use for more than
+   3 days
+check w pharmacy
+   - serial Hcts stable for last 12 hours
+   .
+   4.  Uterine fibroids.  Patient is s/p hysterectomy complicated by bowel
+   perforation.
+   - Ob/gyn following
+   - post-operative pain management with dialudid PCA and toradol x 3 days
+   .
+   5.  Hyperlipidemia.
+   - resume simvastatin when tolerating POs
+   ICU Care
+   Nutrition: TPN
+   TPN without Lipids - [**2195-11-21**] 06:15 PM 42 mL/hour
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   PICC Line - [**2195-11-21**] 12:27 PM
+   Prophylaxis:
+   DVT: subq heparin
+   Stress ulcer: IV PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:transfer to Gyn floor today
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ PICC LINE - START [**2195-11-21**] 12:27 PM
+   - POD#2 on [**11-21**] covered broadly w vanc/zosyn, WBC trending down, Bld
+   Cx Neg to date
+   - dilaudid PCA and toradol, pt states pain controlled
+   - NPO.  Starting TPN per Ob/Gyn
+   - Hct 20.8 [**11-21**] AM; transfused 1u pRBCs
+   - callout to gyn floor in evening if Hct stable
+   - was having chest tightness around 2:30pm, lasting for a few minutes,
+   and palpitations; no changes in vital signs, denied SOB. No EKG
+   changes.  not likely cardiac, but cardiac enzymes sent for 2:30pm today
+   and 02:30am  --> cardiac enzymes Neg first set
+   - 7:30pm: pt complaining of increased SOB (no incr O2 requirement) and
+   abdominal bloating;  has hyperactive bowel sounds, lungs clear, reports
+   new cough --> portable CXR and abdominal XRay done at 8:30pm
+   - Abdom XRay shows ileus (expected after surgery)
+   - CXR shows increased fluid, particularly right side and in fissure-->
+   tried 10mg IV lasix... put out good urine(starting at 2300) and is net
+   Neg 850cc for the morning
+   - Hct did bump appropriately after 1u pRBCs (20.8-->24.9)
+   - complained again of chest and abdominal pain ([**5-22**] for both)--
+   awakened for nursing assessment; chest pain not reproducible; last
+   enzymes negative, another set pending for 3AM; morphine brought pain
+   down to 2/10, and she went back to sleep; second set cardiac enzymes
+   Negative
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2195-11-21**] 08:59 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2195-11-22**] 12:02 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2195-11-21**] 10:17 PM
+   Pantoprazole (Protonix) - [**2195-11-22**] 12:02 AM
+   Heparin Sodium (Prophylaxis) - [**2195-11-22**] 12:15 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2195-11-22**] 06:51 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.9
+C (98.4
+   HR: 96 (93 - 101) bpm
+   BP: 107/72(79) {107/64(74) - 142/94(103)} mmHg
+   RR: 16 (15 - 26) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 61 Inch
+             Total In:
+                                                                  3,046 mL
+                                                                    534 mL
+   PO:
+             TF:
+   IVF:
+                                                                  2,454 mL
+                                                                    247 mL
+   Blood products:
+                                                                    350 mL
+   Total out:
+                                                                  2,630 mL
+                                                                  1,530 mL
+   Urine:
+                                                                  2,580 mL
+                                                                  1,530 mL
+   NG:
+                                                                     50 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                    416 mL
+                                                                   -996 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///28/
+   Physical Examination
+   Gen: alert when awakened, not in acute distress
+   HEENT: eomi
+   Lungs: CTA b/l anteriorly, decreased BS at bases with some crackles
+   CV: Tachycardic w rate 90s, regular rhythm, no m/r/g
+   Abd: midline surgical scar with dressing in place dry, diffuse
+   abdominal tenderness, soft abdomen, hyperactive bowel sounds, 1 cm lap
+   wounds bilaterally that are uncovered.
+   Back: some bruising in right lower lateral back
+   GU: foley present
+   Ext: warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   301 K/uL
+   8.1 g/dL
+   134 mg/dL
+   0.5 mg/dL
+   28 mEq/L
+   3.4 mEq/L
+   12 mg/dL
+   105 mEq/L
+   137 mEq/L
+   24.6 %
+   9.2 K/uL
+        [image002.jpg]
+                             [**2195-11-19**]  11:44 PM
+                             [**2195-11-20**]  05:22 AM
+                             [**2195-11-20**]  07:50 AM
+                             [**2195-11-20**]  03:43 PM
+                            [**2195-11-21**]  03:20 AM
+                            [**2195-11-21**]  09:19 AM
+                            [**2195-11-21**]  02:42 PM
+                            [**2195-11-21**]  08:04 PM
+                            [**2195-11-22**]  12:01 AM
+                            [**2195-11-22**]  03:29 AM
+   WBC
+   13.6
+   11.9
+   12.3
+   11.2
+   9.2
+   Hct
+   27.5
+   20.8
+   20.8
+   24.9
+   24.4
+   24.6
+   Plt
+   290
+   266
+   292
+   303
+   301
+   Cr
+   0.5
+   0.5
+   0.5
+   0.5
+   0.5
+   TropT
+   <0.01
+   <0.01
+   Glucose
+   129
+   130
+   127
+   99
+   134
+   Other labs: PT / PTT / INR:12.4/34.2/1.0, CK / CKMB /
+   Troponin-T:91/2/<0.01, ALT / AST:[**12-28**], Alk Phos / T Bili:43/0.6,
+   Differential-Neuts:93.0 %, Band:0.0 %, Lymph:2.0 %, Mono:4.0 %, Eos:1.0
+   %, LDH:158 IU/L, Ca++:6.8 mg/dL, Mg++:2.0 mg/dL, PO4:2.4 mg/dL
+   Assessment and Plan
+   Ms. [**Known lastname **] is a 46 yo female with h/o uterine fibroids, hyperlipidemia, who
+   was admitted for hyesterectomy complicated by bowel perforation, now
+   s/p bowel resection.
+   .
+   1.  Bowel perforation.
+   POD#3 s/p resection and repair of bowel.  Hemodynamically stable but
+   has persistent tachycardia.  On vanco/zosyn.  Has Post-op ileus by
+   abdominal Xray but hyperactive bowel sounds.  Urine output good and
+   blood pressures stable overnight.
+   - Vanco/Zosyn-leukocytosis improving
+   - f/u blood cultures
+NGTD
+   - NPO with NGT to suction-will start  TPN, will not advance diet until
+   patient is passing gas and having BM
+   - Surgery & Ob/Gyn following, surgery changing bandages for post-op
+   wound care
+   - pain management with dilaudid PCA and standing toradol
+   - needs bowel reg when able to take POs
+   .
+   2. Anemia:
+   Post-operative.  Stable in last 12 hours, but was concern for possible
+   intraabdominal bleed overnight.  If there were a bleed, it would not
+   likely be a retroperitoneal bleed.  Consider CT abd/pelvis if Hct drops
+   further
+   - cont to monitor Hct
+   .
+   3.  Tachycardia.  Patient noted to be newly tachycardic following
+   surgery.  Likely secondary to abdominal discomfort, anemia, and
+   intravascular volume depletion.  CTA negative for PE.  Patient remains
+   afebrile, appears adequately hydrated. States that pain controlled by
+   PCA pump and toradol.
+   - monitor on telemetry
+   - monitor renal function w standing toradol
+ do not use for more than
+   3 days
+check w pharmacy
+   - serial Hcts stable for last 12 hours
+   .
+   4.  Uterine fibroids.  Patient is s/p hysterectomy complicated by bowel
+   perforation.
+   - Ob/gyn following
+   - post-operative pain management with dialudid PCA and toradol x 3 days
+   .
+   5.  Hyperlipidemia.
+   - resume simvastatin when tolerating POs
+   ICU Care
+   Nutrition: TPN
+   TPN without Lipids - [**2195-11-21**] 06:15 PM 42 mL/hour
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2195-11-19**] 11:11 PM
+   PICC Line - [**2195-11-21**] 12:27 PM
+   Prophylaxis:
+   DVT: subq heparin
+   Stress ulcer: IV PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:transfer to Gyn floor today<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, I summarize the patient's health progress in the ICU as follows:
+
+The patient, a 46-year-old female, was admitted for hysterectomy complicated by bowel perforation and subsequent bowel resection. She is currently on post-operative day (POD) #3 and is hemodynamically stable. Her vital signs are stable, with a heart rate of 96 bpm and a blood pressure of 107/72 mmHg. She is receiving vancomycin and piperacillin/tazobactam (Zosyn) for infection prophylaxis.
+
+The patient is experiencing tachycardia, which is likely secondary to abdominal discomfort, anemia, and intravascular volume depletion. Her anemia is post-operative, and her hemoglobin (Hct) levels have stabilized in the last 12 hours. She is receiving transfusions as needed.
+
+The patient is also experiencing chest tightness and palpitations, which are not likely cardiac in origin. Her cardiac enzymes have been sent and are negative.
+
+She has developed post-operative ileus, as evidenced by abdominal X-ray, and is receiving total parenteral nutrition (TPN). Her urine output is good, and her blood pressures are stable overnight.
+
+The patient's pain is controlled with dilaudid PCA and toradol, and she is scheduled for wound care and dressing changes by the surgery team.
+
+Potential medical complications that can arise from this patient's condition include:
+
+1. Sepsis: The patient is at risk for developing sepsis due to the bowel perforation and subsequent infection.
+2. Anemia: The patient's anemia is post-operative, and further bleeding or hemorrhage could exacerbate her condition.
+3. Tachycardia: The patient's tachycardia could progress to tachyarrhythmias or even cardiac arrest if not managed properly.
+4. Respiratory complications: The patient's post-operative ileus could lead to respiratory complications, such as pneumonia or respiratory failure.
+5. Wound complications: The patient's surgical wounds are at risk for infection, dehiscence, or other complications.
+
+It is essential to continue monitoring the patient's vital signs, lab results, and clinical condition to prevent and manage these potential complications."

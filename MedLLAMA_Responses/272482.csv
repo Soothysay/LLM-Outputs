@@ -1,0 +1,3207 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+131051.0,272482,2158-01-08 05:47:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ MAGNETIC RESONANCE IMAGING - At [**2158-1-7**] 04:30 PM
+   head without/with contrast
+   [**2158-1-7**] Events
+   - ID did not approve Zosyn, instead switched to Vanc, ceftriaxone and
+   flagyl for pneumonia coverage
+   - Heme/Onc recommended starting pamidronate for hypercalcemia, however
+   pharmacy did not want to start for calcium less than 13.5, so
+   discontinued, but then Heme/Onc requested for treatment of metastatic
+   bone lesions
+   - Restarted metoprolol 25mg [**Hospital1 7**] given rapid A fib, pt takes carvedilol
+   at home
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Levofloxacin - [**2158-1-7**] 09:20 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-7**] 09:00 PM
+   Metronidazole - [**2158-1-8**] 12:50 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2158-1-8**] 12:50 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-8**] 05:47 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.5
+C (97.7
+   Tcurrent: 36.5
+C (97.7
+   HR: 103 (90 - 130) bpm
+   BP: 114/62(74) {90/37(48) - 146/87(91)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 92%
+   Heart rhythm: AF (Atrial Fibrillation)
+    CVP: 8 (4 - 8)mmHg
+   Total In:
+                                                                 10,973 mL
+                                                                  1,104 mL
+   PO:
+                                                                    450 mL
+                                                                     60 mL
+   TF:
+   IVF:
+                                                                  3,523 mL
+                                                                  1,044 mL
+   Blood products:
+   Total out:
+                                                                    805 mL
+                                                                    185 mL
+   Urine:
+                                                                    805 mL
+                                                                    185 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 10,168 mL
+                                                                    919 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 92%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   164 K/uL
+   10.6 g/dL
+   87 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   104 mEq/L
+   138 mEq/L
+   30.8 %
+   19.4 K/uL
+        [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+   WBC
+   18.7
+   19.4
+   Hct
+   30.8
+   30.8
+   Plt
+   160
+   164
+   Cr
+   0.7
+   0.8
+   0.7
+   Glucose
+   85
+   78
+   87
+   Other labs: PT / PTT / INR:14.3/28.0/1.2, Lactic Acid:4.3 mmol/L,
+   Ca++:10.4 mg/dL, Mg++:1.8 mg/dL, PO4:2.0 mg/dL
+   Assessment and Plan
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+ CANCER (MALIGNANT NEOPLASM), BONE
+ CANCER (MALIGNANT NEOPLASM), RENAL (KIDNEY)
+ CANCER (MALIGNANT NEOPLASM), LUNG
+ ATRIAL FIBRILLATION (AFIB)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ ALTERATION IN NUTRITION
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ MAGNETIC RESONANCE IMAGING - At [**2158-1-7**] 04:30 PM
+   head without/with contrast
+   [**2158-1-7**] Events
+   - ID did not approve Zosyn, instead switched to Vanc, ceftriaxone and
+   flagyl for pneumonia coverage
+   - Heme/Onc recommended starting pamidronate for hypercalcemia, however
+   pharmacy did not want to start for calcium less than 13.5, so
+   discontinued, but then Heme/Onc requested for treatment of metastatic
+   bone lesions
+   - Restarted metoprolol 25mg [**Hospital1 7**] given rapid A fib, pt takes carvedilol
+   at home
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Levofloxacin - [**2158-1-7**] 09:20 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-7**] 09:00 PM
+   Metronidazole - [**2158-1-8**] 12:50 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2158-1-8**] 12:50 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-8**] 05:47 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.5
+C (97.7
+   Tcurrent: 36.5
+C (97.7
+   HR: 103 (90 - 130) bpm
+   BP: 114/62(74) {90/37(48) - 146/87(91)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 92%
+   Heart rhythm: AF (Atrial Fibrillation)
+    CVP: 8 (4 - 8)mmHg
+   Total In:
+                                                                 10,973 mL
+                                                                  1,104 mL
+   PO:
+                                                                    450 mL
+                                                                     60 mL
+   TF:
+   IVF:
+                                                                  3,523 mL
+                                                                  1,044 mL
+   Blood products:
+   Total out:
+                                                                    805 mL
+                                                                    185 mL
+   Urine:
+                                                                    805 mL
+                                                                    185 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 10,168 mL
+                                                                    919 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 92%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   164 K/uL
+   10.6 g/dL
+   87 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   104 mEq/L
+   138 mEq/L
+   30.8 %
+   19.4 K/uL
+        [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+   WBC
+   18.7
+   19.4
+   Hct
+   30.8
+   30.8
+   Plt
+   160
+   164
+   Cr
+   0.7
+   0.8
+   0.7
+   Glucose
+   85
+   78
+   87
+   Other labs: PT / PTT / INR:14.3/28.0/1.2, Lactic Acid:4.3 mmol/L,
+   Ca++:10.4 mg/dL, Mg++:1.8 mg/dL, PO4:2.0 mg/dL
+   Assessment and Plan
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+ CANCER (MALIGNANT NEOPLASM), BONE
+ CANCER (MALIGNANT NEOPLASM), RENAL (KIDNEY)
+ CANCER (MALIGNANT NEOPLASM), LUNG
+ ATRIAL FIBRILLATION (AFIB)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ ALTERATION IN NUTRITION
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 24-hour-old ICU admission with a diagnosis of pneumonia, hypercalcemia, and metastatic bone lesions. The patient's vital signs are stable, with a heart rate of 103 bpm, blood pressure of 114/62 mmHg, and oxygen saturation of 92%. The patient is receiving antibiotics, including Vanc, ceftriaxone, and flagyl, as well as heparin sodium for prophylaxis. The patient's laboratory results show mild anemia, thrombocytopenia, and elevated creatinine levels. The patient's abdomen is tender, and the patient has altered mental status.
+
+Potential Medical Complications:
+
+1. Sepsis: The patient's pneumonia and altered mental status may increase the risk of sepsis.
+2. Hypercalcemia: The patient's calcium levels are elevated, which may lead to complications such as cardiac arrhythmias, kidney damage, and bone pain.
+3. Metastatic bone lesions: The patient's bone lesions may lead to complications such as bone pain, spinal cord compression, and pathologic fractures.
+4. Atrial fibrillation: The patient's atrial fibrillation may increase the risk of stroke, heart failure, and arrhythmias.
+5. Malnutrition: The patient's altered nutrition and increased caloric needs may lead to malnutrition and decreased immune function.
+6. Venous thromboembolism (VTE): The patient's immobilization and hypercoagulable state may increase the risk of VTE.
+7. Stress ulcer: The patient's critical illness and altered mental status may increase the risk of stress ulcer and bleeding.
+8. Ventilator-associated pneumonia (VAP): The patient's respiratory support and prolonged intubation may increase the risk of VAP.
+9. Kidney injury: The patient's elevated creatinine levels may indicate kidney injury, which may worsen with continued hypercalcemia and dehydration.
+10. Delirium: The patient's altered mental status may progress to delirium, which may worsen with continued immobility and altered nutrition."
+131051.0,272482,2158-01-08 05:47:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ MAGNETIC RESONANCE IMAGING - At [**2158-1-7**] 04:30 PM
+   head without/with contrast
+   [**2158-1-7**] Events
+   - ID did not approve Zosyn, instead switched to Vanc, ceftriaxone and
+   flagyl for pneumonia coverage
+   - Heme/Onc recommended starting pamidronate for hypercalcemia, however
+   pharmacy did not want to start for calcium less than 13.5, so
+   discontinued, but then Heme/Onc requested for treatment of metastatic
+   bone lesions
+   - Restarted metoprolol 25mg [**Hospital1 7**] given rapid A fib, pt takes carvedilol
+   at home
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Levofloxacin - [**2158-1-7**] 09:20 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-7**] 09:00 PM
+   Metronidazole - [**2158-1-8**] 12:50 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2158-1-8**] 12:50 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-8**] 05:47 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.5
+C (97.7
+   Tcurrent: 36.5
+C (97.7
+   HR: 103 (90 - 130) bpm
+   BP: 114/62(74) {90/37(48) - 146/87(91)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 92%
+   Heart rhythm: AF (Atrial Fibrillation)
+    CVP: 8 (4 - 8)mmHg
+   Total In:
+                                                                 10,973 mL
+                                                                  1,104 mL
+   PO:
+                                                                    450 mL
+                                                                     60 mL
+   TF:
+   IVF:
+                                                                  3,523 mL
+                                                                  1,044 mL
+   Blood products:
+   Total out:
+                                                                    805 mL
+                                                                    185 mL
+   Urine:
+                                                                    805 mL
+                                                                    185 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 10,168 mL
+                                                                    919 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 92%
+   ABG: ///19/
+   Physical Examination
+   General: Somewhat toxic appearing, lethargic, NAD, breathing
+   comfortably
+   HEENT: Dry MM, pupils unequal (R pupil irregular), EOMI but eyes appear
+   to be dysconjugate
+   Neck: supple, JVP not elevated, no LAD, RIJ in place
+   Lungs: + occasional rhonchi bilaterally with poor air movement
+   throughout
+   CV: tachycardic, irregular, no murmurs, rubs, gallops
+   Back: Vertical midline scar w/ minimal erythema, mild R CVA tenderness
+   Abdomen:  soft, minimally tender in RLQ, non-distended, bowel sounds
+   present, no rebound tenderness or guarding, no organomegaly
+   Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   164 K/uL
+   10.6 g/dL
+   87 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   104 mEq/L
+   138 mEq/L
+   30.8 %
+   19.4 K/uL
+        [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+   WBC
+   18.7
+   19.4
+   Hct
+   30.8
+   30.8
+   Plt
+   160
+   164
+   Cr
+   0.7
+   0.8
+   0.7
+   Glucose
+   85
+   78
+   87
+   Other labs: PT / PTT / INR:14.3/28.0/1.2, Lactic Acid:4.3 mmol/L,
+   Ca++:10.4 mg/dL, Mg++:1.8 mg/dL, PO4:2.0 mg/dL
+   Assessment and Plan
+   A 48 yo M with metastatic renal cell carcinoma s/p R nephrectomy and
+   debulking surgery presents w/ altered mental status, hypercalcemia,
+   leukocytosis and hypoxia.
+   .
+   # Altered mental status: Most concerning for metastatic disease given
+   known metastatic renal cell carcinoma.  CT head today w/o obvious acute
+   process.  Will likely need an MRI brain in future.  Could also be from
+   infection, although no obvious source.  UA bland.  CXR with bilateral
+   infiltrates but no significant cough to suggest PNA.  Could also be
+   from hypercalcemia.
+   - treat hypercalcemia as below
+   - MRI brain when stable
+   - f/u blood and urine cx
+   .
+   # Hypoxia: Likley from metastatic renal cell carcinoma given CT Torso.
+   No PE per wet read.  Could also be secondary to post-obstructive PNA.
+   - treat for possible MRSA PNA w/ Vanc and possible pseu
+   .
+   # Hypercalcemia: Likely from metastatic disease.  Currently treating
+   with IVF w/ good urine OP.
+   - trend calcium
+   - consider adding calcitonin if calcium does not come down
+   - follow QT
+   .
+   # Elevated lactate: Unclear etiology.  Concerning for sepsis but BP not
+   low.  Demonstrates anaerobic metabolism but unclear location.
+   - trend for now
+   - treat for possible infection
+   - IVF
+   .
+   # Leukocytosis: Unclear etiology.  Will continue to look for source of
+   infection and treat with broad-spectrum antibiotics as above.
+   .
+   # Anemia: Normocytic.  Likely drop from 36 to 30 was [**1-30**] 7 L IVF he
+   received in the ED.
+   - trend for now
+   - guiac stools
+   - T&S
+   .
+   # Afib w/ rvr: Likley from increased adrenergic tone, currently on dig
+   - check dig level
+   .
+   # Metastatic renal cell carcinoma: treatment per Onc
+   .
+   # FEN: IVF, replete electrolytes, sips for now w/ concern for worsening
+   respiratory status
+   # Prophylaxis: Subcutaneous heparin
+   # Access: peripherals, RIJ
+   # Code: full for now, pt wishes to speak w/ his sister
+   # Communication: Patient and HCP sister
+   # Disposition: ICU for now
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+ CANCER (MALIGNANT NEOPLASM), BONE
+ CANCER (MALIGNANT NEOPLASM), RENAL (KIDNEY)
+ CANCER (MALIGNANT NEOPLASM), LUNG
+ ATRIAL FIBRILLATION (AFIB)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ ALTERATION IN NUTRITION
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ MAGNETIC RESONANCE IMAGING - At [**2158-1-7**] 04:30 PM
+   head without/with contrast
+   [**2158-1-7**] Events
+   - ID did not approve Zosyn, instead switched to Vanc, ceftriaxone and
+   flagyl for pneumonia coverage
+   - Heme/Onc recommended starting pamidronate for hypercalcemia, however
+   pharmacy did not want to start for calcium less than 13.5, so
+   discontinued, but then Heme/Onc requested for treatment of metastatic
+   bone lesions
+   - Restarted metoprolol 25mg [**Hospital1 7**] given rapid A fib, pt takes carvedilol
+   at home
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Levofloxacin - [**2158-1-7**] 09:20 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-7**] 09:00 PM
+   Metronidazole - [**2158-1-8**] 12:50 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2158-1-8**] 12:50 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-8**] 05:47 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.5
+C (97.7
+   Tcurrent: 36.5
+C (97.7
+   HR: 103 (90 - 130) bpm
+   BP: 114/62(74) {90/37(48) - 146/87(91)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 92%
+   Heart rhythm: AF (Atrial Fibrillation)
+    CVP: 8 (4 - 8)mmHg
+   Total In:
+                                                                 10,973 mL
+                                                                  1,104 mL
+   PO:
+                                                                    450 mL
+                                                                     60 mL
+   TF:
+   IVF:
+                                                                  3,523 mL
+                                                                  1,044 mL
+   Blood products:
+   Total out:
+                                                                    805 mL
+                                                                    185 mL
+   Urine:
+                                                                    805 mL
+                                                                    185 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 10,168 mL
+                                                                    919 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 92%
+   ABG: ///19/
+   Physical Examination
+   General: Somewhat toxic appearing, lethargic, NAD, breathing
+   comfortably
+   HEENT: Dry MM, pupils unequal (R pupil irregular), EOMI but eyes appear
+   to be dysconjugate
+   Neck: supple, JVP not elevated, no LAD, RIJ in place
+   Lungs: + occasional rhonchi bilaterally with poor air movement
+   throughout
+   CV: tachycardic, irregular, no murmurs, rubs, gallops
+   Back: Vertical midline scar w/ minimal erythema, mild R CVA tenderness
+   Abdomen:  soft, minimally tender in RLQ, non-distended, bowel sounds
+   present, no rebound tenderness or guarding, no organomegaly
+   Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   164 K/uL
+   10.6 g/dL
+   87 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   104 mEq/L
+   138 mEq/L
+   30.8 %
+   19.4 K/uL
+        [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+   WBC
+   18.7
+   19.4
+   Hct
+   30.8
+   30.8
+   Plt
+   160
+   164
+   Cr
+   0.7
+   0.8
+   0.7
+   Glucose
+   85
+   78
+   87
+   Other labs: PT / PTT / INR:14.3/28.0/1.2, Lactic Acid:4.3 mmol/L,
+   Ca++:10.4 mg/dL, Mg++:1.8 mg/dL, PO4:2.0 mg/dL
+   Assessment and Plan
+   A 48 yo M with metastatic renal cell carcinoma s/p R nephrectomy and
+   debulking surgery presents w/ altered mental status, hypercalcemia,
+   leukocytosis and hypoxia.
+   .
+   # Altered mental status: Most concerning for metastatic disease given
+   known metastatic renal cell carcinoma.  CT head today w/o obvious acute
+   process.  Will likely need an MRI brain in future.  Could also be from
+   infection, although no obvious source.  UA bland.  CXR with bilateral
+   infiltrates but no significant cough to suggest PNA.  Could also be
+   from hypercalcemia.
+   - treat hypercalcemia as below
+   - MRI brain when stable
+   - f/u blood and urine cx
+   .
+   # Hypoxia: Likley from metastatic renal cell carcinoma given CT Torso.
+   No PE per wet read.  Could also be secondary to post-obstructive PNA.
+   - treat for possible MRSA PNA w/ Vanc and possible pseu
+   .
+   # Hypercalcemia: Likely from metastatic disease.  Currently treating
+   with IVF w/ good urine OP.
+   - trend calcium
+   - consider adding calcitonin if calcium does not come down
+   - follow QT
+   .
+   # Elevated lactate: Unclear etiology.  Concerning for sepsis but BP not
+   low.  Demonstrates anaerobic metabolism but unclear location.
+   - trend for now
+   - treat for possible infection
+   - IVF
+   .
+   # Leukocytosis: Unclear etiology.  Will continue to look for source of
+   infection and treat with broad-spectrum antibiotics as above.
+   .
+   # Anemia: Normocytic.  Likely drop from 36 to 30 was [**1-30**] 7 L IVF he
+   received in the ED.
+   - trend for now
+   - guiac stools
+   - T&S
+   .
+   # Afib w/ rvr: Likley from increased adrenergic tone, currently on dig
+   - check dig level
+   .
+   # Metastatic renal cell carcinoma: treatment per Onc
+   .
+   # FEN: IVF, replete electrolytes, sips for now w/ concern for worsening
+   respiratory status
+   # Prophylaxis: Subcutaneous heparin
+   # Access: peripherals, RIJ
+   # Code: full for now, pt wishes to speak w/ his sister
+   # Communication: Patient and HCP sister
+   # Disposition: ICU for now
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+ CANCER (MALIGNANT NEOPLASM), BONE
+ CANCER (MALIGNANT NEOPLASM), RENAL (KIDNEY)
+ CANCER (MALIGNANT NEOPLASM), LUNG
+ ATRIAL FIBRILLATION (AFIB)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ ALTERATION IN NUTRITION
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 48-year-old male with metastatic renal cell carcinoma, who presents with altered mental status, hypercalcemia, leukocytosis, and hypoxia. The patient has a complex medical history, including recent surgery and multiple comorbidities.
+
+The patient's current condition is characterized by:
+
+1. Altered mental status: The patient's mental status is altered, and it is unclear whether this is due to metastatic disease, infection, or hypercalcemia.
+2. Hypercalcemia: The patient has hypercalcemia, likely due to metastatic disease. Treatment includes IV fluids and consideration of adding calcitonin if calcium levels do not come down.
+3. Hypoxia: The patient has hypoxia, which may be related to metastatic disease or post-obstructive pneumonia.
+4. Leukocytosis: The patient has leukocytosis, which may be due to infection or other underlying conditions.
+5. Anemia: The patient has anemia, which may be related to blood loss or other underlying conditions.
+6. Afib with RVR: The patient has atrial fibrillation with rapid ventricular response, which may be related to increased adrenergic tone.
+7. Metastatic renal cell carcinoma: The patient has metastatic renal cell carcinoma, which is being treated per oncology recommendations.
+
+Potential medical complications that can arise include:
+
+1. Sepsis: The patient's elevated lactate levels and leukocytosis may indicate sepsis, which could worsen their condition.
+2. Respiratory failure: The patient's hypoxia and hypercalcemia may increase their risk of respiratory failure.
+3. Cardiac arrhythmias: The patient's atrial fibrillation with rapid ventricular response may worsen and lead to cardiac arrhythmias.
+4. Renal failure: The patient's hypercalcemia and dehydration may increase their risk of renal failure.
+5. Infection: The patient's leukocytosis and altered mental status may indicate infection, which could worsen their condition.
+
+The patient's treatment plan includes:
+
+1. IV fluids to treat hypercalcemia and hypoxia
+2. Antibiotics to treat possible infection
+3. Calcitonin to treat hypercalcemia
+4. Digoxin to treat atrial fibrillation
+5. IVF to treat anemia
+6. Prophylactic anticoagulation with subcutaneous heparin
+7. Monitoring for sepsis, respiratory failure, and cardiac arrhythmias
+
+The patient's disposition is currently in the ICU, where they will continue to receive close monitoring and treatment for their complex medical condition."
+131051.0,272482,2158-01-08 05:47:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ MAGNETIC RESONANCE IMAGING - At [**2158-1-7**] 04:30 PM
+   head without/with contrast
+   [**2158-1-7**] Events
+   - ID did not approve Zosyn, instead switched to Vanc, ceftriaxone and
+   flagyl for pneumonia coverage
+   - Heme/Onc recommended starting pamidronate for hypercalcemia, however
+   pharmacy did not want to start for calcium less than 13.5, so
+   discontinued, but then Heme/Onc requested for treatment of metastatic
+   bone lesions
+   - Restarted metoprolol 25mg [**Hospital1 7**] given rapid A fib, pt takes carvedilol
+   at home
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Levofloxacin - [**2158-1-7**] 09:20 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-7**] 09:00 PM
+   Metronidazole - [**2158-1-8**] 12:50 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2158-1-8**] 12:50 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-8**] 05:47 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.5
+C (97.7
+   Tcurrent: 36.5
+C (97.7
+   HR: 103 (90 - 130) bpm
+   BP: 114/62(74) {90/37(48) - 146/87(91)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 92%
+   Heart rhythm: AF (Atrial Fibrillation)
+    CVP: 8 (4 - 8)mmHg
+   Total In:
+                                                                 10,973 mL
+                                                                  1,104 mL
+   PO:
+                                                                    450 mL
+                                                                     60 mL
+   TF:
+   IVF:
+                                                                  3,523 mL
+                                                                  1,044 mL
+   Blood products:
+   Total out:
+                                                                    805 mL
+                                                                    185 mL
+   Urine:
+                                                                    805 mL
+                                                                    185 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 10,168 mL
+                                                                    919 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 92%
+   ABG: ///19/
+   Physical Examination
+   General: Ill appearing man but in NAD, breathing comfortably
+   HEENT: Dry MM, pupils unequal (R pupil irregular), EOMI but eyes appear
+   to be dysconjugate
+   Neck: supple, JVP not elevated, no LAD, RIJ in place
+   Lungs: + occasional rhonchi bilaterally with poor air movement
+   throughout
+   CV: tachycardic, irregular, no murmurs, rubs, gallops
+   Back: Vertical midline scar w/ minimal erythema, mild R CVA tenderness
+   Abdomen:  soft, minimally tender in RLQ, non-distended, bowel sounds
+   present, no rebound tenderness or guarding, no organomegaly
+   Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   164 K/uL
+   10.6 g/dL
+   87 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   104 mEq/L
+   138 mEq/L
+   30.8 %
+   19.4 K/uL
+         [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+   WBC
+   18.7
+   19.4
+   Hct
+   30.8
+   30.8
+   Plt
+   160
+   164
+   Cr
+   0.7
+   0.8
+   0.7
+   Glucose
+   85
+   78
+   87
+   Other labs: PT / PTT / INR:14.3/28.0/1.2, Lactic Acid:4.3 mmol/L,
+   Ca++:10.4 mg/dL, Mg++:1.8 mg/dL, PO4:2.0 mg/dL
+   Assessment and Plan
+   A 48 yo M with metastatic renal cell carcinoma s/p R nephrectomy and
+   debulking surgery presents w/ altered mental status, hypercalcemia,
+   leukocytosis and hypoxia.
+   .
+   # Altered mental status:  Most likely secondary to hypercalcemia.
+   However definitely concerned for metastatic disease given known
+   metastatic renal cell carcinoma.  CT head yesterday did not show
+   evidence of metastatic disease.  MRI of the brain with gad done
+   yesterday, final read not available.  The patient also has a
+   leukocytosis without sign of infection, therefore less likely to be
+   etiology.
+   - Continue to treat hypercalcemia as below
+   - f/u MRI brain results
+   - f/u blood and urine cx
+   .
+   # Hypoxia: Likley from metastatic lesions in the lungs from renal cell
+   carcinoma given CT Torso.  CT ruled out PE.   Could also be secondary
+   to post-obstructive PNA.
+   - treat for possible MRSA PNA w/ Vanc and possible pseu
+   .
+   # Hypercalcemia: Likely from metastatic disease.  Currently treating
+   with IVF w/ good urine OP.
+   - trend calcium
+   - consider adding calcitonin if calcium does not come down
+   - follow QT
+   .
+   # Elevated lactate: Unclear etiology.  Concerning for sepsis but BP not
+   low.  Demonstrates anaerobic metabolism but unclear location.
+   - trend for now
+   - treat for possible infection
+   - IVF
+   .
+   # Leukocytosis: Unclear etiology.  Will continue to look for source of
+   infection and treat with broad-spectrum antibiotics as above.
+   .
+   # Anemia: Normocytic.  Likely drop from 36 to 30 was [**1-30**] 7 L IVF he
+   received in the ED.
+   - trend for now
+   - guiac stools
+   - T&S
+   .
+   # Afib w/ rvr: Likley from increased adrenergic tone, currently on dig
+   - check dig level
+   .
+   # Metastatic renal cell carcinoma: treatment per Onc
+   .
+   # FEN: IVF, replete electrolytes, sips for now w/ concern for worsening
+   respiratory status
+   # Prophylaxis: Subcutaneous heparin
+   # Access: peripherals, RIJ
+   # Code: full for now, pt wishes to speak w/ his sister
+   # Communication: Patient and HCP sister
+   # Disposition: ICU for now
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+ CANCER (MALIGNANT NEOPLASM), BONE
+ CANCER (MALIGNANT NEOPLASM), RENAL (KIDNEY)
+ CANCER (MALIGNANT NEOPLASM), LUNG
+ ATRIAL FIBRILLATION (AFIB)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ ALTERATION IN NUTRITION
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ MAGNETIC RESONANCE IMAGING - At [**2158-1-7**] 04:30 PM
+   head without/with contrast
+   [**2158-1-7**] Events
+   - ID did not approve Zosyn, instead switched to Vanc, ceftriaxone and
+   flagyl for pneumonia coverage
+   - Heme/Onc recommended starting pamidronate for hypercalcemia, however
+   pharmacy did not want to start for calcium less than 13.5, so
+   discontinued, but then Heme/Onc requested for treatment of metastatic
+   bone lesions
+   - Restarted metoprolol 25mg [**Hospital1 7**] given rapid A fib, pt takes carvedilol
+   at home
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Levofloxacin - [**2158-1-7**] 09:20 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-7**] 09:00 PM
+   Metronidazole - [**2158-1-8**] 12:50 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2158-1-8**] 12:50 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-8**] 05:47 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.5
+C (97.7
+   Tcurrent: 36.5
+C (97.7
+   HR: 103 (90 - 130) bpm
+   BP: 114/62(74) {90/37(48) - 146/87(91)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 92%
+   Heart rhythm: AF (Atrial Fibrillation)
+    CVP: 8 (4 - 8)mmHg
+   Total In:
+                                                                 10,973 mL
+                                                                  1,104 mL
+   PO:
+                                                                    450 mL
+                                                                     60 mL
+   TF:
+   IVF:
+                                                                  3,523 mL
+                                                                  1,044 mL
+   Blood products:
+   Total out:
+                                                                    805 mL
+                                                                    185 mL
+   Urine:
+                                                                    805 mL
+                                                                    185 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 10,168 mL
+                                                                    919 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 92%
+   ABG: ///19/
+   Physical Examination
+   General: Ill appearing man but in NAD, breathing comfortably
+   HEENT: Dry MM, pupils unequal (R pupil irregular), EOMI but eyes appear
+   to be dysconjugate
+   Neck: supple, JVP not elevated, no LAD, RIJ in place
+   Lungs: + occasional rhonchi bilaterally with poor air movement
+   throughout
+   CV: tachycardic, irregular, no murmurs, rubs, gallops
+   Back: Vertical midline scar w/ minimal erythema, mild R CVA tenderness
+   Abdomen:  soft, minimally tender in RLQ, non-distended, bowel sounds
+   present, no rebound tenderness or guarding, no organomegaly
+   Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   164 K/uL
+   10.6 g/dL
+   87 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   104 mEq/L
+   138 mEq/L
+   30.8 %
+   19.4 K/uL
+         [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+   WBC
+   18.7
+   19.4
+   Hct
+   30.8
+   30.8
+   Plt
+   160
+   164
+   Cr
+   0.7
+   0.8
+   0.7
+   Glucose
+   85
+   78
+   87
+   Other labs: PT / PTT / INR:14.3/28.0/1.2, Lactic Acid:4.3 mmol/L,
+   Ca++:10.4 mg/dL, Mg++:1.8 mg/dL, PO4:2.0 mg/dL
+   Assessment and Plan
+   A 48 yo M with metastatic renal cell carcinoma s/p R nephrectomy and
+   debulking surgery presents w/ altered mental status, hypercalcemia,
+   leukocytosis and hypoxia.
+   .
+   # Altered mental status:  Most likely secondary to hypercalcemia.
+   However definitely concerned for metastatic disease given known
+   metastatic renal cell carcinoma.  CT head yesterday did not show
+   evidence of metastatic disease.  MRI of the brain with gad done
+   yesterday, final read not available.  The patient also has a
+   leukocytosis without sign of infection, therefore less likely to be
+   etiology.
+   - Continue to treat hypercalcemia as below
+   - f/u MRI brain results
+   - f/u blood and urine cx
+   .
+   # Hypoxia: Likley from metastatic lesions in the lungs from renal cell
+   carcinoma given CT Torso.  CT ruled out PE.   Could also be secondary
+   to post-obstructive PNA.
+   - treat for possible MRSA PNA w/ Vanc and possible pseu
+   .
+   # Hypercalcemia: Likely from metastatic disease.  Currently treating
+   with IVF w/ good urine OP.
+   - trend calcium
+   - consider adding calcitonin if calcium does not come down
+   - follow QT
+   .
+   # Elevated lactate: Unclear etiology.  Concerning for sepsis but BP not
+   low.  Demonstrates anaerobic metabolism but unclear location.
+   - trend for now
+   - treat for possible infection
+   - IVF
+   .
+   # Leukocytosis: Unclear etiology.  Will continue to look for source of
+   infection and treat with broad-spectrum antibiotics as above.
+   .
+   # Anemia: Normocytic.  Likely drop from 36 to 30 was [**1-30**] 7 L IVF he
+   received in the ED.
+   - trend for now
+   - guiac stools
+   - T&S
+   .
+   # Afib w/ rvr: Likley from increased adrenergic tone, currently on dig
+   - check dig level
+   .
+   # Metastatic renal cell carcinoma: treatment per Onc
+   .
+   # FEN: IVF, replete electrolytes, sips for now w/ concern for worsening
+   respiratory status
+   # Prophylaxis: Subcutaneous heparin
+   # Access: peripherals, RIJ
+   # Code: full for now, pt wishes to speak w/ his sister
+   # Communication: Patient and HCP sister
+   # Disposition: ICU for now
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+ CANCER (MALIGNANT NEOPLASM), BONE
+ CANCER (MALIGNANT NEOPLASM), RENAL (KIDNEY)
+ CANCER (MALIGNANT NEOPLASM), LUNG
+ ATRIAL FIBRILLATION (AFIB)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ ALTERATION IN NUTRITION
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, I summarize the patient's health status as follows:
+
+The patient is a 48-year-old male with a history of metastatic renal cell carcinoma, s/p right nephrectomy and debulking surgery. He is currently in the ICU due to altered mental status, hypercalcemia, leukocytosis, and hypoxia.
+
+The patient's vital signs are:
+
+* Temperature: 36.5°C (97.7°F)
+* Heart rate: 103 beats per minute (bpm)
+* Blood pressure: 114/62 mmHg
+* Respiratory rate: 18 breaths per minute (bpm)
+* Oxygen saturation: 92%
+* Heart rhythm: Atrial fibrillation
+
+The patient's physical examination reveals:
+
+* Dry mucous membranes
+* Unequal pupils with an irregular right pupil
+* Eyes appear dysconjugate
+* Supple neck with no jugular venous distension
+* Occasional rhonchi bilaterally with poor air movement
+* Tachycardic with no murmurs, rubs, or gallops
+* Soft and minimally tender abdomen with normal bowel sounds
+
+The patient's laboratory results show:
+
+* White blood cell count: 18.7-19.4 x 10^9/L
+* Hemoglobin: 10.6 g/dL
+* Platelet count: 160-164 x 10^9/L
+* Creatinine: 0.7-0.8 mg/dL
+* Calcium: 10.4 mg/dL
+* Magnesium: 1.8 mg/dL
+* Phosphate: 2.0 mg/dL
+* Lactic acid: 4.3 mmol/L
+* Glucose: 85-87 mg/dL
+
+Potential medical complications that may arise based on the patient's condition include:
+
+* Sepsis due to the unclear etiology of leukocytosis
+* Respiratory failure due to hypoxia and possible post-obstructive pneumonia
+* Cardiac arrhythmias due to atrial fibrillation and potential electrolyte imbalances
+* Metastatic disease progression due to the patient's history of renal cell carcinoma
+* Hypercalcemia-related complications, such as cardiac arrest or renal failure
+* Anemia-related complications, such as fatigue or decreased oxygen delivery to tissues
+
+The patient's treatment plan includes:
+
+* Continuing treatment for hypercalcemia with IV fluids and possible calcitonin
+* Monitoring and treating for possible infection with broad-spectrum antibiotics
+* Trending lactate levels and considering sepsis workup
+* Treating atrial fibrillation with digoxin and monitoring digoxin levels
+* Monitoring and treating for possible post-obstructive pneumonia
+* Considering adding calcitonin if calcium levels do not decrease
+* Trending calcium levels and following QT interval
+* Monitoring for signs of sepsis and potential complications of metastatic disease"
+131051.0,272482,2158-01-08 05:47:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ MAGNETIC RESONANCE IMAGING - At [**2158-1-7**] 04:30 PM
+   head without/with contrast
+   [**2158-1-7**] Events
+   - ID did not approve Zosyn, instead switched to Vanc, ceftriaxone and
+   flagyl for pneumonia coverage
+   - Heme/Onc recommended starting pamidronate for hypercalcemia, however
+   pharmacy did not want to start for calcium less than 13.5, so
+   discontinued, but then Heme/Onc requested for treatment of metastatic
+   bone lesions
+   - Restarted metoprolol 25mg [**Hospital1 7**] given rapid A fib, pt takes carvedilol
+   at home
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Levofloxacin - [**2158-1-7**] 09:20 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-7**] 09:00 PM
+   Metronidazole - [**2158-1-8**] 12:50 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2158-1-8**] 12:50 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-8**] 05:47 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.5
+C (97.7
+   Tcurrent: 36.5
+C (97.7
+   HR: 103 (90 - 130) bpm
+   BP: 114/62(74) {90/37(48) - 146/87(91)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 92%
+   Heart rhythm: AF (Atrial Fibrillation)
+    CVP: 8 (4 - 8)mmHg
+   Total In:
+                                                                 10,973 mL
+                                                                  1,104 mL
+   PO:
+                                                                    450 mL
+                                                                     60 mL
+   TF:
+   IVF:
+                                                                  3,523 mL
+                                                                  1,044 mL
+   Blood products:
+   Total out:
+                                                                    805 mL
+                                                                    185 mL
+   Urine:
+                                                                    805 mL
+                                                                    185 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 10,168 mL
+                                                                    919 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 92%
+   ABG: ///19/
+   Physical Examination
+   General: Ill appearing man but in NAD, breathing comfortably
+   HEENT: Dry MM, pupils unequal (R pupil irregular), EOMI but eyes appear
+   to be dysconjugate
+   Neck: supple, JVP not elevated, no LAD, RIJ in place
+   Lungs: + occasional rhonchi bilaterally with poor air movement
+   throughout
+   CV: tachycardic, irregular, no murmurs, rubs, gallops
+   Back: Vertical midline scar w/ minimal erythema, mild R CVA tenderness
+   Abdomen:  soft, minimally tender in RLQ, non-distended, bowel sounds
+   present, no rebound tenderness or guarding, no organomegaly
+   Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   164 K/uL
+   10.6 g/dL
+   87 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   104 mEq/L
+   138 mEq/L
+   30.8 %
+   19.4 K/uL
+         [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+   WBC
+   18.7
+   19.4
+   Hct
+   30.8
+   30.8
+   Plt
+   160
+   164
+   Cr
+   0.7
+   0.8
+   0.7
+   Glucose
+   85
+   78
+   87
+   Other labs: PT / PTT / INR:14.3/28.0/1.2, Lactic Acid:4.3 mmol/L,
+   Ca++:10.4 mg/dL, Mg++:1.8 mg/dL, PO4:2.0 mg/dL
+   Assessment and Plan
+   A 48 yo M with metastatic renal cell carcinoma s/p R nephrectomy and
+   debulking surgery presents w/ altered mental status, hypercalcemia,
+   leukocytosis and hypoxia.
+   .
+   # Altered mental status:  Most likely secondary to hypercalcemia.
+   However definitely concerned for metastatic disease given known
+   metastatic renal cell carcinoma.  CT head yesterday did not show
+   evidence of metastatic disease.  MRI of the brain with gad done
+   yesterday, final read not available.  The patient also has a
+   leukocytosis without sign of infection, therefore less likely to be
+   etiology.
+   - Continue to treat hypercalcemia as below
+   - f/u MRI brain results
+   - f/u blood and urine cx
+   .
+   # Hypoxia: Likley from metastatic lesions in the lungs from renal cell
+   carcinoma given CT Torso.  CT ruled out PE.   Could also be secondary
+   to post-obstructive PNA.  The patient has leukocytosis, but afebrile,
+   however may not mount appropriate fever response in the setting of
+   malignancy.  Lactate elevated yesterday and bandemia present, likely
+   infected.
+   - treat for possible HAP/CAP PNA now with vancomycin, levofloxacin and
+   flagyl
+   - follow culture data and adjust as needed
+   .
+   # Hypercalcemia: Likely from metastatic disease.  Treated yesterday
+   with aggressive fluid resuscitation.  Today, will continue IV fluids
+   however will also start IV lasix to assist with hypercalcemia and to
+   diurese some of the 10 L he was given yesterday which may be
+   contributing to his hypoxia.
+   - trend calcium [**Hospital1 7**]
+   - received one dose of pamidronate
+   - follow QT interval
+   .
+   # Anemia: Normocytic.  Likely drop from 36 to 30 was [**1-30**] 7 L IVF he
+   received in the ED.
+   - trend for now
+   - guiac stools
+   - T&S
+   .
+   # Afib w/ rvr: Likley from increased adrenergic tone, currently on dig
+   - continue digoxin
+   - continue metoprolol 25mg TID
+   .
+   # Metastatic renal cell carcinoma:  The patient was scheduled to meet
+   with his primary oncologist Dr. [**Last Name (STitle) 2231**] on Monday to discuss
+   treatment options.  Will transfer the patient to OMED today so that his
+   care can be coordinated.
+   # FEN: IVF, replete electrolytes,  regular soft diet as tolerated with
+   ensure
+   # Prophylaxis: Subcutaneous heparin
+   # Access: peripherals, RIJ
+   # Code: full code confirmed with sister
+   # Communication: Patient and HCP sister
+   # Disposition: transfer to OMED today
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+ CANCER (MALIGNANT NEOPLASM), BONE
+ CANCER (MALIGNANT NEOPLASM), RENAL (KIDNEY)
+ CANCER (MALIGNANT NEOPLASM), LUNG
+ ATRIAL FIBRILLATION (AFIB)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ ALTERATION IN NUTRITION
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ MAGNETIC RESONANCE IMAGING - At [**2158-1-7**] 04:30 PM
+   head without/with contrast
+   [**2158-1-7**] Events
+   - ID did not approve Zosyn, instead switched to Vanc, ceftriaxone and
+   flagyl for pneumonia coverage
+   - Heme/Onc recommended starting pamidronate for hypercalcemia, however
+   pharmacy did not want to start for calcium less than 13.5, so
+   discontinued, but then Heme/Onc requested for treatment of metastatic
+   bone lesions
+   - Restarted metoprolol 25mg [**Hospital1 7**] given rapid A fib, pt takes carvedilol
+   at home
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Levofloxacin - [**2158-1-7**] 09:20 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-7**] 09:00 PM
+   Metronidazole - [**2158-1-8**] 12:50 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2158-1-8**] 12:50 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-8**] 05:47 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.5
+C (97.7
+   Tcurrent: 36.5
+C (97.7
+   HR: 103 (90 - 130) bpm
+   BP: 114/62(74) {90/37(48) - 146/87(91)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 92%
+   Heart rhythm: AF (Atrial Fibrillation)
+    CVP: 8 (4 - 8)mmHg
+   Total In:
+                                                                 10,973 mL
+                                                                  1,104 mL
+   PO:
+                                                                    450 mL
+                                                                     60 mL
+   TF:
+   IVF:
+                                                                  3,523 mL
+                                                                  1,044 mL
+   Blood products:
+   Total out:
+                                                                    805 mL
+                                                                    185 mL
+   Urine:
+                                                                    805 mL
+                                                                    185 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 10,168 mL
+                                                                    919 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 92%
+   ABG: ///19/
+   Physical Examination
+   General: Ill appearing man but in NAD, breathing comfortably
+   HEENT: Dry MM, pupils unequal (R pupil irregular), EOMI but eyes appear
+   to be dysconjugate
+   Neck: supple, JVP not elevated, no LAD, RIJ in place
+   Lungs: + occasional rhonchi bilaterally with poor air movement
+   throughout
+   CV: tachycardic, irregular, no murmurs, rubs, gallops
+   Back: Vertical midline scar w/ minimal erythema, mild R CVA tenderness
+   Abdomen:  soft, minimally tender in RLQ, non-distended, bowel sounds
+   present, no rebound tenderness or guarding, no organomegaly
+   Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   164 K/uL
+   10.6 g/dL
+   87 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   104 mEq/L
+   138 mEq/L
+   30.8 %
+   19.4 K/uL
+         [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+   WBC
+   18.7
+   19.4
+   Hct
+   30.8
+   30.8
+   Plt
+   160
+   164
+   Cr
+   0.7
+   0.8
+   0.7
+   Glucose
+   85
+   78
+   87
+   Other labs: PT / PTT / INR:14.3/28.0/1.2, Lactic Acid:4.3 mmol/L,
+   Ca++:10.4 mg/dL, Mg++:1.8 mg/dL, PO4:2.0 mg/dL
+   Assessment and Plan
+   A 48 yo M with metastatic renal cell carcinoma s/p R nephrectomy and
+   debulking surgery presents w/ altered mental status, hypercalcemia,
+   leukocytosis and hypoxia.
+   .
+   # Altered mental status:  Most likely secondary to hypercalcemia.
+   However definitely concerned for metastatic disease given known
+   metastatic renal cell carcinoma.  CT head yesterday did not show
+   evidence of metastatic disease.  MRI of the brain with gad done
+   yesterday, final read not available.  The patient also has a
+   leukocytosis without sign of infection, therefore less likely to be
+   etiology.
+   - Continue to treat hypercalcemia as below
+   - f/u MRI brain results
+   - f/u blood and urine cx
+   .
+   # Hypoxia: Likley from metastatic lesions in the lungs from renal cell
+   carcinoma given CT Torso.  CT ruled out PE.   Could also be secondary
+   to post-obstructive PNA.  The patient has leukocytosis, but afebrile,
+   however may not mount appropriate fever response in the setting of
+   malignancy.  Lactate elevated yesterday and bandemia present, likely
+   infected.
+   - treat for possible HAP/CAP PNA now with vancomycin, levofloxacin and
+   flagyl
+   - follow culture data and adjust as needed
+   .
+   # Hypercalcemia: Likely from metastatic disease.  Treated yesterday
+   with aggressive fluid resuscitation.  Today, will continue IV fluids
+   however will also start IV lasix to assist with hypercalcemia and to
+   diurese some of the 10 L he was given yesterday which may be
+   contributing to his hypoxia.
+   - trend calcium [**Hospital1 7**]
+   - received one dose of pamidronate
+   - follow QT interval
+   .
+   # Anemia: Normocytic.  Likely drop from 36 to 30 was [**1-30**] 7 L IVF he
+   received in the ED.
+   - trend for now
+   - guiac stools
+   - T&S
+   .
+   # Afib w/ rvr: Likley from increased adrenergic tone, currently on dig
+   - continue digoxin
+   - continue metoprolol 25mg TID
+   .
+   # Metastatic renal cell carcinoma:  The patient was scheduled to meet
+   with his primary oncologist Dr. [**Last Name (STitle) 2231**] on Monday to discuss
+   treatment options.  Will transfer the patient to OMED today so that his
+   care can be coordinated.
+   # FEN: IVF, replete electrolytes,  regular soft diet as tolerated with
+   ensure
+   # Prophylaxis: Subcutaneous heparin
+   # Access: peripherals, RIJ
+   # Code: full code confirmed with sister
+   # Communication: Patient and HCP sister
+   # Disposition: transfer to OMED today
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+ CANCER (MALIGNANT NEOPLASM), BONE
+ CANCER (MALIGNANT NEOPLASM), RENAL (KIDNEY)
+ CANCER (MALIGNANT NEOPLASM), LUNG
+ ATRIAL FIBRILLATION (AFIB)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ ALTERATION IN NUTRITION
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 48-year-old male with a history of metastatic renal cell carcinoma, who presented with altered mental status, hypercalcemia, leukocytosis, and hypoxia. The patient has undergone various treatments, including aggressive fluid resuscitation, IV lasix, and IV antibiotics.
+
+Potential medical complications that can arise from the patient's conditions include:
+
+1. Respiratory failure: The patient's hypoxia and leukocytosis may lead to respiratory failure, which can be exacerbated by the patient's metastatic lung lesions.
+2. Sepsis: The patient's leukocytosis and lactate elevation may indicate the presence of sepsis, which can be life-threatening if not treated promptly.
+3. Hypercalcemia-related complications: The patient's hypercalcemia can lead to various complications, such as cardiac arrhythmias, kidney damage, and gastrointestinal issues.
+4. Metastatic disease progression: The patient's metastatic renal cell carcinoma may continue to progress, leading to further complications and decreased quality of life.
+5. Infection: The patient's presence of leukocytosis and lactate elevation may indicate the presence of an infection, which can be challenging to diagnose and treat in the setting of malignancy.
+6. Cardiac arrhythmias: The patient's atrial fibrillation and rapid ventricular rate may lead to cardiac arrhythmias, which can be life-threatening if not treated promptly.
+7. Gastrointestinal complications: The patient's hypercalcemia and metastatic disease may lead to gastrointestinal complications, such as nausea, vomiting, and constipation.
+8. Kidney damage: The patient's hypercalcemia and dehydration may lead to kidney damage, which can further compromise the patient's overall health.
+
+It is essential to closely monitor the patient's condition and adjust treatment accordingly to prevent and manage these potential complications."
+131051.0,272482,2158-01-08 09:54:00,Physician ,Physician Attending Progress Note,"Chief Complaint: Altered Mental Status
+   Pneumonia
+   Hypercalcemia
+   Metastatic Renal Cell Cancer
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+ MAGNETIC RESONANCE IMAGING - At [**2158-1-7**] 04:30 PM
+   head without/with contrast--final read is pending
+   History obtained from [**Hospital 15**] Medical records
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Levofloxacin - [**2158-1-7**] 09:20 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-8**] 08:03 AM
+   Metronidazole - [**2158-1-8**] 09:29 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2158-1-8**] 12:50 AM
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-8**] 09:44 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.5
+C (97.7
+   Tcurrent: 35.4
+C (95.8
+   HR: 83 (83 - 130) bpm
+   BP: 101/69(76) {90/55(66) - 146/87(91)} mmHg
+   RR: 19 (17 - 27) insp/min
+   SpO2: 91%
+   Heart rhythm: AF (Atrial Fibrillation)
+   CVP: 8 (6 - 8)mmHg
+   Total In:
+                                                                 10,974 mL
+                                                                  2,999 mL
+   PO:
+                                                                    450 mL
+                                                                    220 mL
+   TF:
+   IVF:
+                                                                  3,524 mL
+                                                                  2,779 mL
+   Blood products:
+   Total out:
+                                                                    805 mL
+                                                                    254 mL
+   Urine:
+                                                                    805 mL
+                                                                    254 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 10,169 mL
+                                                                  2,745 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 91%
+   ABG: ///19/
+   Physical Examination
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Distant)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Percussion: Dullness : ),
+   (Breath Sounds: Diminished: , Rhonchorous: )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   10.6 g/dL
+   164 K/uL
+   87 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   104 mEq/L
+   138 mEq/L
+   30.8 %
+   19.4 K/uL
+        [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+   WBC
+   18.7
+   19.4
+   Hct
+   30.8
+   30.8
+   Plt
+   160
+   164
+   Cr
+   0.7
+   0.8
+   0.7
+   Glucose
+   85
+   78
+   87
+   Other labs: PT / PTT / INR:14.3/28.0/1.2, Lactic Acid:4.3 mmol/L,
+   Ca++:10.4 mg/dL, Mg++:1.8 mg/dL, PO4:2.0 mg/dL
+   Imaging: no CXR this morning
+   Microbiology: No new culture results
+   Assessment and Plan
+   48 yo male with widely metastatic renal cell cancer and has had
+   fixation of spinal instability secondary to mets and is s/p
+   nephrectomy.  In the setting of consideration of chemotherapy options
+   patient admitted to ICU with altered mental status.  He comes in with
+   consideration of possible CNS mets, metabolic derangements, sepsis also
+   considered.  The extent of his metastatic disease to lung is quite
+   extensive and would not be unexpected to be associated with significant
+   hypoxemia--radiographically it is difficult to determine the absence or
+   presence of pneumonia.
+   1)Altered Mental Status-The differential remains the same.  Given
+   relative improvement with patient oriented clearly this morning
+   hypercalcemia may well be primary driver.
+   -Follow Up MRI findings
+   -Continue with Ca++ rx
+   -avoid sedating medications
+   -follow exam
+   2)Lactic Acidosis-Do not see evolution of significant sepsis over first
+   24 hours.  Is likely related to tumor burden but in the setting of
+   possible pneumonia and significant co-morbid disease and bandemia will
+   continue Rx.
+   -Vanco/Levofloxacin/Flagyl for possible pneumonia
+   -Sputum GS C+S if obtained
+   3)Atrial Fibrillation-
+   Digoxin
+   4)Hypercalcemia--
+   -Improved to 10.4
+   -Pamidronate started
+   -Lasix today
+   5)Renal Cell Ca-
+   -Medical oncology input essential to aid in patient and family decision
+   making
+   -Question is possible start of systemic chemotherapy
+this may be a
+   challenge in the setting of acute illness.  The only confounding issue
+   is that it is unclear how truly independent of his underlying
+   malignancy his current clinical decline is.
+   -Consult to oncology today for eval.
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+ CANCER (MALIGNANT NEOPLASM), BONE
+ CANCER (MALIGNANT NEOPLASM), RENAL (KIDNEY)
+ CANCER (MALIGNANT NEOPLASM), LUNG
+ ATRIAL FIBRILLATION (AFIB)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ ALTERATION IN NUTRITION
+   ICU Care
+   Nutrition: PO diet
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition :ICU
+   Total time spent: 45 minutes
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: Altered Mental Status
+   Pneumonia
+   Hypercalcemia
+   Metastatic Renal Cell Cancer
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+ MAGNETIC RESONANCE IMAGING - At [**2158-1-7**] 04:30 PM
+   head without/with contrast--final read is pending
+   History obtained from [**Hospital 15**] Medical records
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Levofloxacin - [**2158-1-7**] 09:20 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-8**] 08:03 AM
+   Metronidazole - [**2158-1-8**] 09:29 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2158-1-8**] 12:50 AM
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-8**] 09:44 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.5
+C (97.7
+   Tcurrent: 35.4
+C (95.8
+   HR: 83 (83 - 130) bpm
+   BP: 101/69(76) {90/55(66) - 146/87(91)} mmHg
+   RR: 19 (17 - 27) insp/min
+   SpO2: 91%
+   Heart rhythm: AF (Atrial Fibrillation)
+   CVP: 8 (6 - 8)mmHg
+   Total In:
+                                                                 10,974 mL
+                                                                  2,999 mL
+   PO:
+                                                                    450 mL
+                                                                    220 mL
+   TF:
+   IVF:
+                                                                  3,524 mL
+                                                                  2,779 mL
+   Blood products:
+   Total out:
+                                                                    805 mL
+                                                                    254 mL
+   Urine:
+                                                                    805 mL
+                                                                    254 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 10,169 mL
+                                                                  2,745 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 91%
+   ABG: ///19/
+   Physical Examination
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Distant)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Percussion: Dullness : ),
+   (Breath Sounds: Diminished: , Rhonchorous: )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   10.6 g/dL
+   164 K/uL
+   87 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   104 mEq/L
+   138 mEq/L
+   30.8 %
+   19.4 K/uL
+        [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+   WBC
+   18.7
+   19.4
+   Hct
+   30.8
+   30.8
+   Plt
+   160
+   164
+   Cr
+   0.7
+   0.8
+   0.7
+   Glucose
+   85
+   78
+   87
+   Other labs: PT / PTT / INR:14.3/28.0/1.2, Lactic Acid:4.3 mmol/L,
+   Ca++:10.4 mg/dL, Mg++:1.8 mg/dL, PO4:2.0 mg/dL
+   Imaging: no CXR this morning
+   Microbiology: No new culture results
+   Assessment and Plan
+   48 yo male with widely metastatic renal cell cancer and has had
+   fixation of spinal instability secondary to mets and is s/p
+   nephrectomy.  In the setting of consideration of chemotherapy options
+   patient admitted to ICU with altered mental status.  He comes in with
+   consideration of possible CNS mets, metabolic derangements, sepsis also
+   considered.  The extent of his metastatic disease to lung is quite
+   extensive and would not be unexpected to be associated with significant
+   hypoxemia--radiographically it is difficult to determine the absence or
+   presence of pneumonia.
+   1)Altered Mental Status-The differential remains the same.  Given
+   relative improvement with patient oriented clearly this morning
+   hypercalcemia may well be primary driver.
+   -Follow Up MRI findings
+   -Continue with Ca++ rx
+   -avoid sedating medications
+   -follow exam
+   2)Lactic Acidosis-Do not see evolution of significant sepsis over first
+   24 hours.  Is likely related to tumor burden but in the setting of
+   possible pneumonia and significant co-morbid disease and bandemia will
+   continue Rx.
+   -Vanco/Levofloxacin/Flagyl for possible pneumonia
+   -Sputum GS C+S if obtained
+   3)Atrial Fibrillation-
+   Digoxin
+   4)Hypercalcemia--
+   -Improved to 10.4
+   -Pamidronate started
+   -Lasix today
+   5)Renal Cell Ca-
+   -Medical oncology input essential to aid in patient and family decision
+   making
+   -Question is possible start of systemic chemotherapy
+this may be a
+   challenge in the setting of acute illness.  The only confounding issue
+   is that it is unclear how truly independent of his underlying
+   malignancy his current clinical decline is.
+   -Consult to oncology today for eval.
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+ CANCER (MALIGNANT NEOPLASM), BONE
+ CANCER (MALIGNANT NEOPLASM), RENAL (KIDNEY)
+ CANCER (MALIGNANT NEOPLASM), LUNG
+ ATRIAL FIBRILLATION (AFIB)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ ALTERATION IN NUTRITION
+   ICU Care
+   Nutrition: PO diet
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition :ICU
+   Total time spent: 45 minutes<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, the following information can be summarized:
+
+The patient is a 48-year-old male with widely metastatic renal cell cancer, who has undergone nephrectomy and is currently admitted to the ICU with altered mental status. The patient's condition is complicated by hypercalcemia, pneumonia, and lactic acidosis. He has a history of spinal instability secondary to metastatic disease.
+
+The patient's vital signs are:
+
+* Temperature: 36.5°C (97.7°F)
+* Heart rate: 83 beats per minute (bpm)
+* Blood pressure: 101/69 mmHg
+* Respiratory rate: 19 breaths per minute
+* Oxygen saturation: 91%
+* Heart rhythm: Atrial fibrillation
+
+The patient's laboratory results show:
+
+* White blood cell count: 18.7-19.4 x 10^9/L
+* Hematocrit: 30.8%
+* Platelet count: 160-164 x 10^9/L
+* Creatinine: 0.7-0.8 mg/dL
+* Blood urea nitrogen: 21 mg/dL
+* Glucose: 85-87 mg/dL
+* Calcium: 10.4 mg/dL
+* Magnesium: 1.8 mg/dL
+* Phosphate: 2.0 mg/dL
+* Lactic acid: 4.3 mmol/L
+
+The patient's physical examination reveals:
+
+* Head, ears, nose, and throat: Normocephalic
+* Cardiovascular: Normal S1 and distant S2 sounds
+* Respiratory/chest: Symmetric expansion, dull percussion, and diminished breath sounds
+* Abdominal: Soft, non-tender, and bowel sounds present
+* Extremities: Absent pulses in both radial and digital arteries
+* Skin: Not assessed
+* Neurologic: Attentive, follows simple commands, and responds to verbal stimuli
+
+The patient's medical complications include:
+
+* Altered mental status
+* Hypercalcemia
+* Lactic acidosis
+* Atrial fibrillation
+* Pneumonia
+* Renal cell cancer
+
+Potential medical complications that can arise include:
+
+* Worsening of hypercalcemia, leading to cardiac arrhythmias, seizures, or renal failure
+* Progression of pneumonia, leading to respiratory failure or septic shock
+* Development of sepsis, leading to organ dysfunction or death
+* Complications related to chemotherapy, such as neutropenia, thrombocytopenia, or gastrointestinal toxicity
+* Cardiovascular complications, such as heart failure or arrhythmias, related to atrial fibrillation or hypercalcemia
+* Neurological complications, such as seizures or encephalopathy, related to hypercalcemia, lactic acidosis, or sepsis."
+131051.0,272482,2158-01-09 07:22:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2158-1-8**] 12:00 PM
+ EKG - At [**2158-1-8**] 12:15 PM
+ BLOOD CULTURED - At [**2158-1-8**] 01:45 PM
+   from central line
+ CALLED OUT
+   - Called out to OMED, held for staffing
+   - Disoriented o/n after room change, no focal neurologic exam
+   -MR: There is no evidence for intracranial metastatic disease. There is
+   no mass, mass effect or midline shift. There are mild presumed small
+   vessel ischemic sequela in the subcortical white matter.
+   -SW consult for family(son) coping
+   -[**Name (NI) **] and Flagyl changed to IV given nursing concern about patient
+   ability to handle the pill size
+   -K replacement in 500 cc fluid for UOP of 16
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-8**] 08:30 PM
+   Levofloxacin - [**2158-1-8**] 10:30 PM
+   Metronidazole - [**2158-1-9**] 12:30 AM
+   Infusions:
+   Heparin Sodium - 1,850 units/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2158-1-8**] 12:10 PM
+   Metoprolol - [**2158-1-8**] 12:57 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-9**] 07:21 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.4
+C (97.6
+   HR: 109 (82 - 123) bpm
+   BP: 119/68(78) {79/39(46) - 124/74(87)} mmHg
+   RR: 29 (19 - 31) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+    CVP: 8 (4 - 8)mmHg
+   Total In:
+                                                                  6,902 mL
+                                                                    948 mL
+   PO:
+                                                                    600 mL
+   TF:
+   IVF:
+                                                                  6,302 mL
+                                                                    948 mL
+   Blood products:
+   Total out:
+                                                                  1,984 mL
+                                                                    238 mL
+   Urine:
+                                                                  1,984 mL
+                                                                    238 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  4,918 mL
+                                                                    710 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: 7.42/30/62/19/-3
+   Physical Examination
+   General: Ill appearing man but in NAD, breathing comfortably
+   HEENT: Dry MM, pupils unequal (R pupil irregular), EOMI but eyes appear
+   to be dysconjugate
+   Neck: supple, JVP not elevated, no LAD, RIJ in place
+   Lungs: + occasional rhonchi bilaterally with poor air movement
+   throughout
+   CV: tachycardic, irregular, no murmurs, rubs, gallops
+   Back: Vertical midline scar w/ minimal erythema, mild R CVA tenderness
+   Abdomen:  soft, minimally tender in RLQ, non-distended, bowel sounds
+   present, no rebound tenderness or guarding, no organomegaly
+   Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   166 K/uL
+   10.8 g/dL
+   98 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   108 mEq/L
+   141 mEq/L
+   31.9 %
+   24.5 K/uL
+        [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+                             [**2158-1-8**]  10:20 AM
+                             [**2158-1-8**]  01:23 PM
+                             [**2158-1-8**]  01:45 PM
+                             [**2158-1-8**]  03:25 PM
+                             [**2158-1-8**]  09:23 PM
+                             [**2158-1-9**]  04:17 AM
+   WBC
+   18.7
+   19.4
+   24.5
+   Hct
+   30.8
+   30.8
+   31.9
+   Plt
+   160
+   164
+   166
+   Cr
+   0.7
+   0.8
+   0.7
+   0.8
+   0.9
+   0.8
+   0.7
+   TropT
+   <0.01
+   TCO2
+   20
+   Glucose
+   85
+   78
+   87
+   92
+   110
+   105
+   98
+   Other labs: PT / PTT / INR:13.7/51.9/1.2, CK / CKMB /
+   Troponin-T:17//<0.01, Differential-Neuts:93.9 %, Band:0.0 %, Lymph:2.3
+   %, Mono:2.8 %, Eos:0.9 %, Lactic Acid:6.5 mmol/L, Ca++:10.2 mg/dL,
+   Mg++:1.9 mg/dL, PO4:2.9 mg/dL
+   Imaging: CXR: Improved R lung inflation, blurred diaphragms bilaterally
+   Microbiology: BCx Pending
+   UCx Negative
+   Assessment and Plan
+   A 48 yo M with metastatic renal cell carcinoma s/p R nephrectomy and
+   debulking surgery presents w/ altered mental status, hypercalcemia,
+   leukocytosis and hypoxia.
+   # Altered mental status:  Persists despite correction of
+   hypercalcemia.  Likely due to underlying pneumonia or metastatic
+   process.  Still no head mets.  UCx negative
+   -          Continue to treat hypercalcemia as below
+   -          Goals of care per DISPO below.
+   # Hypoxia: Likley from metastatic lesions in the lungs from renal cell
+   carcinoma given CT Torso.  Lactate elevated and bandemia present,
+   likely infected.
+   - treat for possible HAP/CAP PNA now with vancomycin, levofloxacin and
+   flagyl
+   - follow culture data and adjust as needed
+   # Hypercalcemia: Resolving. Likely from metastatic disease.  Treated
+   yesterday with aggressive fluid resuscitation.
+   - trend calcium [**Hospital1 7**]
+   - received one dose of pamidronate
+   - follow QT interval
+   # Anemia: Normocytic.  Likely drop from 36 to 30 was [**1-30**] 7 L IVF he
+   received in the ED.
+   - trend for now
+   - guiac stools
+   - T&S
+   # Afib w/ rvr: Likley from increased adrenergic tone, currently on dig
+   - continue digoxin
+   - continue metoprolol 25mg TID
+   .
+   # Metastatic renal cell carcinoma:  The patient was scheduled to meet
+   with his primary oncologist Dr. [**Last Name (STitle) 2231**] on Monday to discuss
+   treatment options.  Will transfer the patient to OMED today so that his
+   care can be coordinated.
+   # FEN: IVF, replete electrolytes,  regular soft diet as tolerated with
+   ensure
+   # Prophylaxis: Subcutaneous heparin
+   # Access: peripherals, RIJ
+   # Code: DNR/DNI
+   # Communication: Patient and HCP sister
+   # Disposition: transfer to OMED today for comfort care
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2158-1-8**] 12:00 PM
+ EKG - At [**2158-1-8**] 12:15 PM
+ BLOOD CULTURED - At [**2158-1-8**] 01:45 PM
+   from central line
+ CALLED OUT
+   - Called out to OMED, held for staffing
+   - Disoriented o/n after room change, no focal neurologic exam
+   -MR: There is no evidence for intracranial metastatic disease. There is
+   no mass, mass effect or midline shift. There are mild presumed small
+   vessel ischemic sequela in the subcortical white matter.
+   -SW consult for family(son) coping
+   -[**Name (NI) **] and Flagyl changed to IV given nursing concern about patient
+   ability to handle the pill size
+   -K replacement in 500 cc fluid for UOP of 16
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-8**] 08:30 PM
+   Levofloxacin - [**2158-1-8**] 10:30 PM
+   Metronidazole - [**2158-1-9**] 12:30 AM
+   Infusions:
+   Heparin Sodium - 1,850 units/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2158-1-8**] 12:10 PM
+   Metoprolol - [**2158-1-8**] 12:57 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-9**] 07:21 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.4
+C (97.6
+   HR: 109 (82 - 123) bpm
+   BP: 119/68(78) {79/39(46) - 124/74(87)} mmHg
+   RR: 29 (19 - 31) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+    CVP: 8 (4 - 8)mmHg
+   Total In:
+                                                                  6,902 mL
+                                                                    948 mL
+   PO:
+                                                                    600 mL
+   TF:
+   IVF:
+                                                                  6,302 mL
+                                                                    948 mL
+   Blood products:
+   Total out:
+                                                                  1,984 mL
+                                                                    238 mL
+   Urine:
+                                                                  1,984 mL
+                                                                    238 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  4,918 mL
+                                                                    710 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: 7.42/30/62/19/-3
+   Physical Examination
+   General: Ill appearing man but in NAD, breathing comfortably
+   HEENT: Dry MM, pupils unequal (R pupil irregular), EOMI but eyes appear
+   to be dysconjugate
+   Neck: supple, JVP not elevated, no LAD, RIJ in place
+   Lungs: + occasional rhonchi bilaterally with poor air movement
+   throughout
+   CV: tachycardic, irregular, no murmurs, rubs, gallops
+   Back: Vertical midline scar w/ minimal erythema, mild R CVA tenderness
+   Abdomen:  soft, minimally tender in RLQ, non-distended, bowel sounds
+   present, no rebound tenderness or guarding, no organomegaly
+   Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   166 K/uL
+   10.8 g/dL
+   98 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   108 mEq/L
+   141 mEq/L
+   31.9 %
+   24.5 K/uL
+        [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+                             [**2158-1-8**]  10:20 AM
+                             [**2158-1-8**]  01:23 PM
+                             [**2158-1-8**]  01:45 PM
+                             [**2158-1-8**]  03:25 PM
+                             [**2158-1-8**]  09:23 PM
+                             [**2158-1-9**]  04:17 AM
+   WBC
+   18.7
+   19.4
+   24.5
+   Hct
+   30.8
+   30.8
+   31.9
+   Plt
+   160
+   164
+   166
+   Cr
+   0.7
+   0.8
+   0.7
+   0.8
+   0.9
+   0.8
+   0.7
+   TropT
+   <0.01
+   TCO2
+   20
+   Glucose
+   85
+   78
+   87
+   92
+   110
+   105
+   98
+   Other labs: PT / PTT / INR:13.7/51.9/1.2, CK / CKMB /
+   Troponin-T:17//<0.01, Differential-Neuts:93.9 %, Band:0.0 %, Lymph:2.3
+   %, Mono:2.8 %, Eos:0.9 %, Lactic Acid:6.5 mmol/L, Ca++:10.2 mg/dL,
+   Mg++:1.9 mg/dL, PO4:2.9 mg/dL
+   Imaging: CXR: Improved R lung inflation, blurred diaphragms bilaterally
+   Microbiology: BCx Pending
+   UCx Negative
+   Assessment and Plan
+   A 48 yo M with metastatic renal cell carcinoma s/p R nephrectomy and
+   debulking surgery presents w/ altered mental status, hypercalcemia,
+   leukocytosis and hypoxia.
+   # Altered mental status:  Persists despite correction of
+   hypercalcemia.  Likely due to underlying pneumonia or metastatic
+   process.  Still no head mets.  UCx negative
+   -          Continue to treat hypercalcemia as below
+   -          Goals of care per DISPO below.
+   # Hypoxia: Likley from metastatic lesions in the lungs from renal cell
+   carcinoma given CT Torso.  Lactate elevated and bandemia present,
+   likely infected.
+   - treat for possible HAP/CAP PNA now with vancomycin, levofloxacin and
+   flagyl
+   - follow culture data and adjust as needed
+   # Hypercalcemia: Resolving. Likely from metastatic disease.  Treated
+   yesterday with aggressive fluid resuscitation.
+   - trend calcium [**Hospital1 7**]
+   - received one dose of pamidronate
+   - follow QT interval
+   # Anemia: Normocytic.  Likely drop from 36 to 30 was [**1-30**] 7 L IVF he
+   received in the ED.
+   - trend for now
+   - guiac stools
+   - T&S
+   # Afib w/ rvr: Likley from increased adrenergic tone, currently on dig
+   - continue digoxin
+   - continue metoprolol 25mg TID
+   .
+   # Metastatic renal cell carcinoma:  The patient was scheduled to meet
+   with his primary oncologist Dr. [**Last Name (STitle) 2231**] on Monday to discuss
+   treatment options.  Will transfer the patient to OMED today so that his
+   care can be coordinated.
+   # FEN: IVF, replete electrolytes,  regular soft diet as tolerated with
+   ensure
+   # Prophylaxis: Subcutaneous heparin
+   # Access: peripherals, RIJ
+   # Code: DNR/DNI
+   # Communication: Patient and HCP sister
+   # Disposition: transfer to OMED today for comfort care
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 48-year-old male with metastatic renal cell carcinoma, who was admitted to the ICU with altered mental status, hypercalcemia, leukocytosis, and hypoxia. The patient has a history of nephrectomy and debulking surgery. His condition has been managed with various medications, including vancomycin, levofloxacin, and Flagyl, for possible HAP/CAP pneumonia. The patient's hypercalcemia is resolving, and his anemia is normocytic. He has atrial fibrillation with rapid ventricular response and is being treated with digoxin and metoprolol. The patient's metastatic disease is being managed with a multidisciplinary approach, including a meeting with his primary oncologist to discuss treatment options.
+
+Potential Medical Complications:
+
+1. Pneumonia: The patient's hypoxia and elevated lactate levels suggest the possibility of pneumonia, which could worsen his condition if not treated promptly.
+2. Sepsis: The patient's leukocytosis and bandemia suggest the possibility of sepsis, which could lead to organ dysfunction and death if not treated promptly.
+3. Cardiac arrhythmias: The patient's atrial fibrillation with rapid ventricular response could worsen if not managed properly, leading to cardiac complications such as heart failure or cardiac arrest.
+4. Respiratory failure: The patient's hypoxia and respiratory acidosis could worsen if not managed properly, leading to respiratory failure and the need for mechanical ventilation.
+5. Renal failure: The patient's hypercalcemia could lead to kidney damage and renal failure if not managed properly.
+6. Gastrointestinal complications: The patient's anemia and possible gastrointestinal bleeding could lead to gastrointestinal complications such as perforation or obstruction if not managed properly.
+7. Metastatic disease progression: The patient's metastatic renal cell carcinoma could progress if not managed properly, leading to further complications and poor outcomes.
+
+Recommendations:
+
+1. Continue to monitor the patient's vital signs and laboratory results closely to detect any changes or complications early.
+2. Adjust the patient's medications as needed to manage his conditions effectively.
+3. Consider adding antibiotics to the patient's regimen if his pneumonia or sepsis worsens.
+4. Monitor the patient's cardiac status closely and adjust his medications as needed to manage his atrial fibrillation and rapid ventricular response.
+5. Consider adding a diuretic to the patient's regimen if his hypercalcemia persists.
+6. Monitor the patient's respiratory status closely and adjust his oxygen therapy as needed to manage his hypoxia.
+7. Consider adding a gastrointestinal protectant to the patient's regimen if his anemia persists.
+8. Consider referring the patient to a palliative care team to manage his symptoms and improve his quality of life.
+9. Continue to coordinate the patient's care with his primary oncologist and other healthcare providers to ensure that he receives the best possible care."
+131051.0,272482,2158-01-09 07:22:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2158-1-8**] 12:00 PM
+ EKG - At [**2158-1-8**] 12:15 PM
+ BLOOD CULTURED - At [**2158-1-8**] 01:45 PM
+   from central line
+ CALLED OUT
+   - Called out to OMED, held for staffing
+   - Disoriented o/n after room change, no focal neurologic exam
+   -MR: There is no evidence for intracranial metastatic disease. There is
+   no mass, mass effect or midline shift. There are mild presumed small
+   vessel ischemic sequela in the subcortical white matter.
+   -SW consult for family(son) coping
+   -[**Name (NI) **] and Flagyl changed to IV given nursing concern about patient
+   ability to handle the pill size
+   -K replacement in 500 cc fluid for UOP of 16
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-8**] 08:30 PM
+   Levofloxacin - [**2158-1-8**] 10:30 PM
+   Metronidazole - [**2158-1-9**] 12:30 AM
+   Infusions:
+   Heparin Sodium - 1,850 units/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2158-1-8**] 12:10 PM
+   Metoprolol - [**2158-1-8**] 12:57 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-9**] 07:21 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.4
+C (97.6
+   HR: 109 (82 - 123) bpm
+   BP: 119/68(78) {79/39(46) - 124/74(87)} mmHg
+   RR: 29 (19 - 31) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+    CVP: 8 (4 - 8)mmHg
+   Total In:
+                                                                  6,902 mL
+                                                                    948 mL
+   PO:
+                                                                    600 mL
+   TF:
+   IVF:
+                                                                  6,302 mL
+                                                                    948 mL
+   Blood products:
+   Total out:
+                                                                  1,984 mL
+                                                                    238 mL
+   Urine:
+                                                                  1,984 mL
+                                                                    238 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  4,918 mL
+                                                                    710 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: 7.42/30/62/19/-3
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   166 K/uL
+   10.8 g/dL
+   98 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   108 mEq/L
+   141 mEq/L
+   31.9 %
+   24.5 K/uL
+        [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+                             [**2158-1-8**]  10:20 AM
+                             [**2158-1-8**]  01:23 PM
+                             [**2158-1-8**]  01:45 PM
+                             [**2158-1-8**]  03:25 PM
+                             [**2158-1-8**]  09:23 PM
+                             [**2158-1-9**]  04:17 AM
+   WBC
+   18.7
+   19.4
+   24.5
+   Hct
+   30.8
+   30.8
+   31.9
+   Plt
+   160
+   164
+   166
+   Cr
+   0.7
+   0.8
+   0.7
+   0.8
+   0.9
+   0.8
+   0.7
+   TropT
+   <0.01
+   TCO2
+   20
+   Glucose
+   85
+   78
+   87
+   92
+   110
+   105
+   98
+   Other labs: PT / PTT / INR:13.7/51.9/1.2, CK / CKMB /
+   Troponin-T:17//<0.01, Differential-Neuts:93.9 %, Band:0.0 %, Lymph:2.3
+   %, Mono:2.8 %, Eos:0.9 %, Lactic Acid:6.5 mmol/L, Ca++:10.2 mg/dL,
+   Mg++:1.9 mg/dL, PO4:2.9 mg/dL
+   Imaging: CXR: Improved R lung inflation, blurred diaphragms bilaterally
+   Microbiology: BCx Pending
+   UCx Negative
+   Assessment and Plan
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2158-1-8**] 12:00 PM
+ EKG - At [**2158-1-8**] 12:15 PM
+ BLOOD CULTURED - At [**2158-1-8**] 01:45 PM
+   from central line
+ CALLED OUT
+   - Called out to OMED, held for staffing
+   - Disoriented o/n after room change, no focal neurologic exam
+   -MR: There is no evidence for intracranial metastatic disease. There is
+   no mass, mass effect or midline shift. There are mild presumed small
+   vessel ischemic sequela in the subcortical white matter.
+   -SW consult for family(son) coping
+   -[**Name (NI) **] and Flagyl changed to IV given nursing concern about patient
+   ability to handle the pill size
+   -K replacement in 500 cc fluid for UOP of 16
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-8**] 08:30 PM
+   Levofloxacin - [**2158-1-8**] 10:30 PM
+   Metronidazole - [**2158-1-9**] 12:30 AM
+   Infusions:
+   Heparin Sodium - 1,850 units/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2158-1-8**] 12:10 PM
+   Metoprolol - [**2158-1-8**] 12:57 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-9**] 07:21 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.4
+C (97.6
+   HR: 109 (82 - 123) bpm
+   BP: 119/68(78) {79/39(46) - 124/74(87)} mmHg
+   RR: 29 (19 - 31) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+    CVP: 8 (4 - 8)mmHg
+   Total In:
+                                                                  6,902 mL
+                                                                    948 mL
+   PO:
+                                                                    600 mL
+   TF:
+   IVF:
+                                                                  6,302 mL
+                                                                    948 mL
+   Blood products:
+   Total out:
+                                                                  1,984 mL
+                                                                    238 mL
+   Urine:
+                                                                  1,984 mL
+                                                                    238 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  4,918 mL
+                                                                    710 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: 7.42/30/62/19/-3
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   166 K/uL
+   10.8 g/dL
+   98 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   108 mEq/L
+   141 mEq/L
+   31.9 %
+   24.5 K/uL
+        [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+                             [**2158-1-8**]  10:20 AM
+                             [**2158-1-8**]  01:23 PM
+                             [**2158-1-8**]  01:45 PM
+                             [**2158-1-8**]  03:25 PM
+                             [**2158-1-8**]  09:23 PM
+                             [**2158-1-9**]  04:17 AM
+   WBC
+   18.7
+   19.4
+   24.5
+   Hct
+   30.8
+   30.8
+   31.9
+   Plt
+   160
+   164
+   166
+   Cr
+   0.7
+   0.8
+   0.7
+   0.8
+   0.9
+   0.8
+   0.7
+   TropT
+   <0.01
+   TCO2
+   20
+   Glucose
+   85
+   78
+   87
+   92
+   110
+   105
+   98
+   Other labs: PT / PTT / INR:13.7/51.9/1.2, CK / CKMB /
+   Troponin-T:17//<0.01, Differential-Neuts:93.9 %, Band:0.0 %, Lymph:2.3
+   %, Mono:2.8 %, Eos:0.9 %, Lactic Acid:6.5 mmol/L, Ca++:10.2 mg/dL,
+   Mg++:1.9 mg/dL, PO4:2.9 mg/dL
+   Imaging: CXR: Improved R lung inflation, blurred diaphragms bilaterally
+   Microbiology: BCx Pending
+   UCx Negative
+   Assessment and Plan
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 24-hour-old ICU admission with a chief complaint of chest pain. The patient has a history of atrial fibrillation, and their vital signs are stable, with a heart rate of 109 bpm, blood pressure of 119/68 mmHg, and oxygen saturation of 95% on nasal cannula.
+
+The patient's laboratory results show elevated white blood cell count (24.5 K/uL), hemoglobin (10.8 g/dL), and creatinine (0.7 mg/dL) levels. Their platelet count is within normal limits (166 K/uL). The troponin-T level is less than 0.01 ng/mL, indicating no cardiac damage. The patient's blood cultures are pending, and their urine output is 1,984 mL over the past 24 hours.
+
+The patient's physical examination is limited due to disorientation and inability to assess certain vital signs. The patient's skin, peripheral vascular, and neurologic examinations are not assessed.
+
+The patient is receiving various medications, including antibiotics (piperacillin, ceftriaxone, vancomycin, levofloxacin, and metronidazole), anticoagulants (heparin sodium), and vasodilators (furosemide and metoprolol).
+
+Potential medical complications that may arise include:
+
+1. Sepsis: Given the patient's elevated white blood cell count and pending blood cultures, there is a risk of developing sepsis.
+2. Cardiac arrhythmias: The patient's atrial fibrillation may worsen, leading to cardiac complications.
+3. Renal dysfunction: The patient's elevated creatinine level may indicate kidney damage or dysfunction, which could worsen over time.
+4. Respiratory failure: The patient's respiratory status is stable, but there is a risk of developing respiratory failure if their oxygen saturation decreases or their lung function deteriorates.
+5. Bloodstream infections: The patient's central line and multiple lumens increase the risk of bloodstream infections.
+6. Deep vein thrombosis (DVT) and pulmonary embolism (PE): The patient is at risk of developing DVT and PE due to immobility and the presence of central lines.
+7. Stress ulcer: The patient's critical illness may lead to stress ulceration, which could worsen their clinical status.
+8. Ventilator-associated pneumonia (VAP): The patient's prolonged mechanical ventilation increases the risk of developing VAP.
+
+It is essential to closely monitor the patient's vital signs, laboratory results, and clinical status to address these potential complications promptly and prevent further deterioration."
+131051.0,272482,2158-01-09 07:22:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2158-1-8**] 12:00 PM
+ EKG - At [**2158-1-8**] 12:15 PM
+ BLOOD CULTURED - At [**2158-1-8**] 01:45 PM
+   from central line
+ CALLED OUT
+   - Called out to OMED, held for staffing
+   - Disoriented o/n after room change, no focal neurologic exam
+   -MR: There is no evidence for intracranial metastatic disease. There is
+   no mass, mass effect or midline shift. There are mild presumed small
+   vessel ischemic sequela in the subcortical white matter.
+   -SW consult for family(son) coping
+   -[**Name (NI) **] and Flagyl changed to IV given nursing concern about patient
+   ability to handle the pill size
+   -K replacement in 500 cc fluid for UOP of 16
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-8**] 08:30 PM
+   Levofloxacin - [**2158-1-8**] 10:30 PM
+   Metronidazole - [**2158-1-9**] 12:30 AM
+   Infusions:
+   Heparin Sodium - 1,850 units/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2158-1-8**] 12:10 PM
+   Metoprolol - [**2158-1-8**] 12:57 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-9**] 07:21 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.4
+C (97.6
+   HR: 109 (82 - 123) bpm
+   BP: 119/68(78) {79/39(46) - 124/74(87)} mmHg
+   RR: 29 (19 - 31) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+    CVP: 8 (4 - 8)mmHg
+   Total In:
+                                                                  6,902 mL
+                                                                    948 mL
+   PO:
+                                                                    600 mL
+   TF:
+   IVF:
+                                                                  6,302 mL
+                                                                    948 mL
+   Blood products:
+   Total out:
+                                                                  1,984 mL
+                                                                    238 mL
+   Urine:
+                                                                  1,984 mL
+                                                                    238 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  4,918 mL
+                                                                    710 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: 7.42/30/62/19/-3
+   Physical Examination
+   General: Ill appearing man but in NAD, breathing comfortably
+   HEENT: Dry MM, pupils unequal (R pupil irregular), EOMI but eyes appear
+   to be dysconjugate
+   Neck: supple, JVP not elevated, no LAD, RIJ in place
+   Lungs: + occasional rhonchi bilaterally with poor air movement
+   throughout
+   CV: tachycardic, irregular, no murmurs, rubs, gallops
+   Back: Vertical midline scar w/ minimal erythema, mild R CVA tenderness
+   Abdomen:  soft, minimally tender in RLQ, non-distended, bowel sounds
+   present, no rebound tenderness or guarding, no organomegaly
+   Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   166 K/uL
+   10.8 g/dL
+   98 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   108 mEq/L
+   141 mEq/L
+   31.9 %
+   24.5 K/uL
+        [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+                             [**2158-1-8**]  10:20 AM
+                             [**2158-1-8**]  01:23 PM
+                             [**2158-1-8**]  01:45 PM
+                             [**2158-1-8**]  03:25 PM
+                             [**2158-1-8**]  09:23 PM
+                             [**2158-1-9**]  04:17 AM
+   WBC
+   18.7
+   19.4
+   24.5
+   Hct
+   30.8
+   30.8
+   31.9
+   Plt
+   160
+   164
+   166
+   Cr
+   0.7
+   0.8
+   0.7
+   0.8
+   0.9
+   0.8
+   0.7
+   TropT
+   <0.01
+   TCO2
+   20
+   Glucose
+   85
+   78
+   87
+   92
+   110
+   105
+   98
+   Other labs: PT / PTT / INR:13.7/51.9/1.2, CK / CKMB /
+   Troponin-T:17//<0.01, Differential-Neuts:93.9 %, Band:0.0 %, Lymph:2.3
+   %, Mono:2.8 %, Eos:0.9 %, Lactic Acid:6.5 mmol/L, Ca++:10.2 mg/dL,
+   Mg++:1.9 mg/dL, PO4:2.9 mg/dL
+   Imaging: CXR: Improved R lung inflation, blurred diaphragms bilaterally
+   Microbiology: BCx Pending
+   UCx Negative
+   Assessment and Plan
+   A 48 yo M with metastatic renal cell carcinoma s/p R nephrectomy and
+   debulking surgery presents w/ altered mental status, hypercalcemia,
+   leukocytosis and hypoxia.
+   # Altered mental status:  Most likely secondary to hypercalcemia.  UCx
+   negative
+   - Continue to treat hypercalcemia as below
+   - f/u MRI brain results
+   - f/u blood Cx
+   # Hypoxia: Likley from metastatic lesions in the lungs from renal cell
+   carcinoma given CT Torso.  Lactate elevated and bandemia present,
+   likely infected.
+   - treat for possible HAP/CAP PNA now with vancomycin, levofloxacin and
+   flagyl
+   - follow culture data and adjust as needed
+   # Hypercalcemia: Likely from metastatic disease.  Treated yesterday
+   with aggressive fluid resuscitation.
+   - trend calcium [**Hospital1 7**]
+   - received one dose of pamidronate
+   - follow QT interval
+   # Anemia: Normocytic.  Likely drop from 36 to 30 was [**1-30**] 7 L IVF he
+   received in the ED.
+   - trend for now
+   - guiac stools
+   - T&S
+   # Afib w/ rvr: Likley from increased adrenergic tone, currently on dig
+   - continue digoxin
+   - continue metoprolol 25mg TID
+   .
+   # Metastatic renal cell carcinoma:  The patient was scheduled to meet
+   with his primary oncologist Dr. [**Last Name (STitle) 2231**] on Monday to discuss
+   treatment options.  Will transfer the patient to OMED today so that his
+   care can be coordinated.
+   # FEN: IVF, replete electrolytes,  regular soft diet as tolerated with
+   ensure
+   # Prophylaxis: Subcutaneous heparin
+   # Access: peripherals, RIJ
+   # Code: full code confirmed with sister
+   # Communication: Patient and HCP sister
+   # Disposition: transfer to OMED today
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2158-1-8**] 12:00 PM
+ EKG - At [**2158-1-8**] 12:15 PM
+ BLOOD CULTURED - At [**2158-1-8**] 01:45 PM
+   from central line
+ CALLED OUT
+   - Called out to OMED, held for staffing
+   - Disoriented o/n after room change, no focal neurologic exam
+   -MR: There is no evidence for intracranial metastatic disease. There is
+   no mass, mass effect or midline shift. There are mild presumed small
+   vessel ischemic sequela in the subcortical white matter.
+   -SW consult for family(son) coping
+   -[**Name (NI) **] and Flagyl changed to IV given nursing concern about patient
+   ability to handle the pill size
+   -K replacement in 500 cc fluid for UOP of 16
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Piperacillin - [**2158-1-7**] 08:28 AM
+   Ceftriaxone - [**2158-1-7**] 06:33 PM
+   Vancomycin - [**2158-1-8**] 08:30 PM
+   Levofloxacin - [**2158-1-8**] 10:30 PM
+   Metronidazole - [**2158-1-9**] 12:30 AM
+   Infusions:
+   Heparin Sodium - 1,850 units/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2158-1-8**] 12:10 PM
+   Metoprolol - [**2158-1-8**] 12:57 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2158-1-9**] 07:21 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.4
+C (97.6
+   HR: 109 (82 - 123) bpm
+   BP: 119/68(78) {79/39(46) - 124/74(87)} mmHg
+   RR: 29 (19 - 31) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+    CVP: 8 (4 - 8)mmHg
+   Total In:
+                                                                  6,902 mL
+                                                                    948 mL
+   PO:
+                                                                    600 mL
+   TF:
+   IVF:
+                                                                  6,302 mL
+                                                                    948 mL
+   Blood products:
+   Total out:
+                                                                  1,984 mL
+                                                                    238 mL
+   Urine:
+                                                                  1,984 mL
+                                                                    238 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  4,918 mL
+                                                                    710 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: 7.42/30/62/19/-3
+   Physical Examination
+   General: Ill appearing man but in NAD, breathing comfortably
+   HEENT: Dry MM, pupils unequal (R pupil irregular), EOMI but eyes appear
+   to be dysconjugate
+   Neck: supple, JVP not elevated, no LAD, RIJ in place
+   Lungs: + occasional rhonchi bilaterally with poor air movement
+   throughout
+   CV: tachycardic, irregular, no murmurs, rubs, gallops
+   Back: Vertical midline scar w/ minimal erythema, mild R CVA tenderness
+   Abdomen:  soft, minimally tender in RLQ, non-distended, bowel sounds
+   present, no rebound tenderness or guarding, no organomegaly
+   Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   166 K/uL
+   10.8 g/dL
+   98 mg/dL
+   0.7 mg/dL
+   19 mEq/L
+   4.1 mEq/L
+   21 mg/dL
+   108 mEq/L
+   141 mEq/L
+   31.9 %
+   24.5 K/uL
+        [image002.jpg]
+                             [**2158-1-7**]  06:50 AM
+                             [**2158-1-7**]  03:15 PM
+                             [**2158-1-8**]  03:48 AM
+                             [**2158-1-8**]  10:20 AM
+                             [**2158-1-8**]  01:23 PM
+                             [**2158-1-8**]  01:45 PM
+                             [**2158-1-8**]  03:25 PM
+                             [**2158-1-8**]  09:23 PM
+                             [**2158-1-9**]  04:17 AM
+   WBC
+   18.7
+   19.4
+   24.5
+   Hct
+   30.8
+   30.8
+   31.9
+   Plt
+   160
+   164
+   166
+   Cr
+   0.7
+   0.8
+   0.7
+   0.8
+   0.9
+   0.8
+   0.7
+   TropT
+   <0.01
+   TCO2
+   20
+   Glucose
+   85
+   78
+   87
+   92
+   110
+   105
+   98
+   Other labs: PT / PTT / INR:13.7/51.9/1.2, CK / CKMB /
+   Troponin-T:17//<0.01, Differential-Neuts:93.9 %, Band:0.0 %, Lymph:2.3
+   %, Mono:2.8 %, Eos:0.9 %, Lactic Acid:6.5 mmol/L, Ca++:10.2 mg/dL,
+   Mg++:1.9 mg/dL, PO4:2.9 mg/dL
+   Imaging: CXR: Improved R lung inflation, blurred diaphragms bilaterally
+   Microbiology: BCx Pending
+   UCx Negative
+   Assessment and Plan
+   A 48 yo M with metastatic renal cell carcinoma s/p R nephrectomy and
+   debulking surgery presents w/ altered mental status, hypercalcemia,
+   leukocytosis and hypoxia.
+   # Altered mental status:  Most likely secondary to hypercalcemia.  UCx
+   negative
+   - Continue to treat hypercalcemia as below
+   - f/u MRI brain results
+   - f/u blood Cx
+   # Hypoxia: Likley from metastatic lesions in the lungs from renal cell
+   carcinoma given CT Torso.  Lactate elevated and bandemia present,
+   likely infected.
+   - treat for possible HAP/CAP PNA now with vancomycin, levofloxacin and
+   flagyl
+   - follow culture data and adjust as needed
+   # Hypercalcemia: Likely from metastatic disease.  Treated yesterday
+   with aggressive fluid resuscitation.
+   - trend calcium [**Hospital1 7**]
+   - received one dose of pamidronate
+   - follow QT interval
+   # Anemia: Normocytic.  Likely drop from 36 to 30 was [**1-30**] 7 L IVF he
+   received in the ED.
+   - trend for now
+   - guiac stools
+   - T&S
+   # Afib w/ rvr: Likley from increased adrenergic tone, currently on dig
+   - continue digoxin
+   - continue metoprolol 25mg TID
+   .
+   # Metastatic renal cell carcinoma:  The patient was scheduled to meet
+   with his primary oncologist Dr. [**Last Name (STitle) 2231**] on Monday to discuss
+   treatment options.  Will transfer the patient to OMED today so that his
+   care can be coordinated.
+   # FEN: IVF, replete electrolytes,  regular soft diet as tolerated with
+   ensure
+   # Prophylaxis: Subcutaneous heparin
+   # Access: peripherals, RIJ
+   # Code: full code confirmed with sister
+   # Communication: Patient and HCP sister
+   # Disposition: transfer to OMED today
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2158-1-7**] 04:27 AM
+   20 Gauge - [**2158-1-7**] 09:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 48-year-old male with metastatic renal cell carcinoma, presenting with altered mental status, hypercalcemia, leukocytosis, and hypoxia. The patient's condition is complex, and several potential medical complications can arise. 
+
+The patient's altered mental status is likely secondary to hypercalcemia, which is a common complication of metastatic cancer. The patient's hypercalcemia is treated with aggressive fluid resuscitation and pamidronate. 
+
+The patient's hypoxia is likely due to metastatic lesions in the lungs, as evident from the CT Torso scan. The patient is treated for possible HAP/CAP PNA with vancomycin, levofloxacin, and flagyl, and the culture data will be followed to adjust treatment as needed.
+
+The patient's anemia is normocytic and likely due to blood loss from the nephrectomy and debulking surgery. The patient's hemoglobin levels will be trended, and guiac stools and T&S will be performed to monitor the anemia.
+
+The patient's atrial fibrillation with rapid ventricular response (AFib w/ RVR) is likely due to increased adrenergic tone. The patient is currently on digoxin and metoprolol, and the digoxin will be continued.
+
+The patient's metastatic renal cell carcinoma is being treated with a multidisciplinary approach, including oncology, surgery, and palliative care. The patient will meet with his primary oncologist on Monday to discuss treatment options.
+
+Potential medical complications that can arise include:
+
+1. Respiratory failure: The patient's hypoxia and metastatic lesions in the lungs increase the risk of respiratory failure.
+
+2. Sepsis: The patient's leukocytosis and bandemia increase the risk of sepsis, which can lead to organ dysfunction and death.
+
+3. Cardiac arrhythmias: The patient's AFib w/ RVR increases the risk of cardiac arrhythmias, which can lead to cardiac arrest.
+
+4. Renal failure: The patient's hypercalcemia and metastatic disease increase the risk of renal failure.
+
+5. Gastrointestinal bleeding: The patient's anemia and metastatic disease increase the risk of gastrointestinal bleeding.
+
+6. Infection: The patient's immunocompromised state and metastatic disease increase the risk of infection.
+
+7. Pulmonary embolism: The patient's cancer and immobility increase the risk of pulmonary embolism.
+
+8. Anemia: The patient's anemia can worsen and lead to organ dysfunction and death.
+
+9. Hypercalcemia: The patient's hypercalcemia can worsen and lead to organ dysfunction and death.
+
+10. Metastatic disease progression: The patient's metastatic disease can progress and lead to organ dysfunction and death.
+
+In conclusion, the patient's condition is complex, and several potential medical complications can arise. Close monitoring and aggressive treatment are necessary to prevent and manage these complications."

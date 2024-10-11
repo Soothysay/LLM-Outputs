@@ -1,0 +1,2713 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+184430.0,295623,2101-01-24 08:08:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2101-1-23**] 09:05 AM
+ EKG - At [**2101-1-24**] 04:16 AM
+   Got NS both continuous (starting ~6pm) and bolus
+   Rapid respiratory viral screen and culture + influenza dfa sent
+   Called out
+   At ~4 am, SBP in 200s; patient wheezing diffusely, feeling
+   uncomfortable and dyspneic. Given metoprolol IV 5mg x2; lasix 40 iv x1.
+   EKG done = no signif changes. CXR done = significant progression of
+   pulm edema (intern read). Put out urine well to the lasix (>300cc in
+   first hour), BPs coming down gradually.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Ear, Nose, Throat: Dry mouth
+   Respiratory: No(t) Dyspnea
+   Gastrointestinal: No(t) Abdominal pain
+   Flowsheet Data as of  [**2101-1-24**] 08:07 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 35.6
+C (96
+   HR: 84 (71 - 101) bpm
+   BP: 178/85(108){84/54(62) - 216/116(141)} mmHg
+   RR: 19 (12 - 29) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+                  Total In:
+                                                                  9,362 mL
+                  PO:
+                                                                    300 mL
+                  TF:
+   IVF:
+                                                                  2,562 mL
+   Blood products:
+   Total out:
+                                                                    250 mL
+                                                                  1,178 mL
+   Urine:
+                                                                    190 mL
+                                                                  1,178 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  9,112 mL
+                                                                 -1,178 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///24/
+   Physical Examination
+   General Appearance: No acute distress, Thin, No(t) Diaphoretic
+   Eyes / Conjunctiva: pupils small, equal
+   Head, Ears, Nose, Throat: mucous membranes moist
+   Cardiovascular: (S1: Normal), (S2: Normal, Distant), (Murmur: No(t)
+   Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   , Wheezes : )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: none, Left: none, No(t) Cyanosis
+   Skin:  Not assessed, No(t) Rash: , No(t) Jaundice
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): self, [**Location (un) **], but thinks it's fall, Movement:
+   Purposeful, No(t) Sedated, Tone: Not assessed, left eye drooping
+   Labs / Radiology
+   228 K/uL
+   11.3 g/dL
+   146 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   21 mg/dL
+   108 mEq/L
+   141 mEq/L
+   34.9 %
+   16.2 K/uL
+        [image002.jpg]
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+   WBC
+   16.2
+   Hct
+   34.9
+   Plt
+   228
+   Cr
+   0.8
+   TropT
+   0.14
+   0.16
+   Glucose
+   146
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:78/7/0.16, Ca++:8.3 mg/dL, Mg++:1.9 mg/dL, PO4:2.9 mg/dL
+   Assessment and Plan
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+ COUGH
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT)
+ DEPRESSION
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2101-1-23**] 09:05 AM
+ EKG - At [**2101-1-24**] 04:16 AM
+   Got NS both continuous (starting ~6pm) and bolus
+   Rapid respiratory viral screen and culture + influenza dfa sent
+   Called out
+   At ~4 am, SBP in 200s; patient wheezing diffusely, feeling
+   uncomfortable and dyspneic. Given metoprolol IV 5mg x2; lasix 40 iv x1.
+   EKG done = no signif changes. CXR done = significant progression of
+   pulm edema (intern read). Put out urine well to the lasix (>300cc in
+   first hour), BPs coming down gradually.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Ear, Nose, Throat: Dry mouth
+   Respiratory: No(t) Dyspnea
+   Gastrointestinal: No(t) Abdominal pain
+   Flowsheet Data as of  [**2101-1-24**] 08:07 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 35.6
+C (96
+   HR: 84 (71 - 101) bpm
+   BP: 178/85(108){84/54(62) - 216/116(141)} mmHg
+   RR: 19 (12 - 29) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+                  Total In:
+                                                                  9,362 mL
+                  PO:
+                                                                    300 mL
+                  TF:
+   IVF:
+                                                                  2,562 mL
+   Blood products:
+   Total out:
+                                                                    250 mL
+                                                                  1,178 mL
+   Urine:
+                                                                    190 mL
+                                                                  1,178 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  9,112 mL
+                                                                 -1,178 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///24/
+   Physical Examination
+   General Appearance: No acute distress, Thin, No(t) Diaphoretic
+   Eyes / Conjunctiva: pupils small, equal
+   Head, Ears, Nose, Throat: mucous membranes moist
+   Cardiovascular: (S1: Normal), (S2: Normal, Distant), (Murmur: No(t)
+   Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   , Wheezes : )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: none, Left: none, No(t) Cyanosis
+   Skin:  Not assessed, No(t) Rash: , No(t) Jaundice
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): self, [**Location (un) **], but thinks it's fall, Movement:
+   Purposeful, No(t) Sedated, Tone: Not assessed, left eye drooping
+   Labs / Radiology
+   228 K/uL
+   11.3 g/dL
+   146 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   21 mg/dL
+   108 mEq/L
+   141 mEq/L
+   34.9 %
+   16.2 K/uL
+        [image002.jpg]
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+   WBC
+   16.2
+   Hct
+   34.9
+   Plt
+   228
+   Cr
+   0.8
+   TropT
+   0.14
+   0.16
+   Glucose
+   146
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:78/7/0.16, Ca++:8.3 mg/dL, Mg++:1.9 mg/dL, PO4:2.9 mg/dL
+   Assessment and Plan
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+ COUGH
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT)
+ DEPRESSION
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 65-inch tall, 80.9 kg individual who was admitted to the ICU with altered mental status, hypotension, atrial fibrillation, cough, dementia, and depression. The patient's vital signs are as follows: temperature 37.1°C, heart rate 84 bpm, blood pressure 178/85 mmHg, respiratory rate 19 breaths per minute, and oxygen saturation 99%. The patient's physical examination is notable for diffuse wheezing, and the patient is experiencing discomfort and dyspnea. The patient's laboratory results show a white blood cell count of 16.2 K/uL, hemoglobin of 11.3 g/dL, and platelet count of 228 K/uL. The patient's electrocardiogram shows atrial fibrillation, and the patient's chest X-ray shows significant progression of pulmonary edema.
+
+Potential Medical Complications:
+
+1. Respiratory failure: The patient's diffuse wheezing and pulmonary edema on chest X-ray may indicate respiratory failure, which could worsen if not properly managed.
+2. Cardiac complications: The patient's atrial fibrillation and hypotension may increase the risk of cardiac complications, such as heart failure, cardiogenic shock, or arrhythmias.
+3. Infection: The patient's altered mental status and respiratory symptoms may indicate an underlying infection, which could worsen if not properly treated.
+4. Neurological complications: The patient's dementia and altered mental status may increase the risk of neurological complications, such as seizures, stroke, or increased intracranial pressure.
+5. Fluid overload: The patient's fluid balance data shows a significant amount of fluid intake and output, which may indicate fluid overload, which could worsen if not properly managed.
+6. Gastrointestinal complications: The patient's cough and respiratory symptoms may indicate gastrointestinal complications, such as aspiration pneumonia or gastroesophageal reflux disease.
+7. Sepsis: The patient's altered mental status, respiratory symptoms, and laboratory results may indicate sepsis, which could worsen if not properly treated."
+184430.0,295623,2101-01-24 08:08:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   Got NS both continuous (starting ~6pm) and bolus
+   Rapid respiratory viral screen and culture + influenza dfa sent
+   Called out, but then, at 4am SBP in 200s; patient wheezing diffusely,
+   feeling uncomfortable and dyspneic. Given metoprolol IV 5mg x2; lasix
+   40 iv x1. EKG done = no signif changes. CXR done = significant
+   progression of pulm edema (intern read). Put out urine well to the
+   lasix (>300cc in first hour), BPs coming down gradually.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Ear, Nose, Throat: Dry mouth
+   Respiratory: No(t) Dyspnea
+   Gastrointestinal: No(t) Abdominal pain
+   Flowsheet Data as of  [**2101-1-24**] 08:07 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 35.6
+C (96
+   HR: 84 (71 - 101) bpm
+   BP: 178/85(108){84/54(62) - 216/116(141)} mmHg
+   RR: 19 (12 - 29) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+                  Total In:
+                                                                  9,362 mL
+                  PO:
+                                                                    300 mL
+                  TF:
+   IVF:
+                                                                  2,562 mL
+   Blood products:
+   Total out:
+                                                                    250 mL
+                                                                  1,178 mL
+   Urine:
+                                                                    190 mL
+                                                                  1,178 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  9,112 mL
+                                                                 -1,178 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///24/
+   Physical Examination
+   General Appearance: No acute distress, Thin, No(t) Diaphoretic
+   Eyes / Conjunctiva: pupils small, equal
+   Head, Ears, Nose, Throat: mucous membranes moist
+   Cardiovascular: (S1: Normal), (S2: Normal, Distant), (Murmur: No(t)
+   Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   , Wheezes : )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: none, Left: none, No(t) Cyanosis
+   Skin:  Not assessed, No(t) Rash: , No(t) Jaundice
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): self, [**Location (un) **], but thinks it's fall, Movement:
+   Purposeful, No(t) Sedated, Tone: Not assessed, left eye drooping
+   Labs / Radiology
+   228 K/uL
+   11.3 g/dL
+   146 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   21 mg/dL
+   108 mEq/L
+   141 mEq/L
+   34.9 %
+   16.2 K/uL
+        [image002.jpg]
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+   WBC
+   16.2
+   Hct
+   34.9
+   Plt
+   228
+   Cr
+   0.8
+   TropT
+   0.14
+   0.16
+   Glucose
+   146
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:78/7/0.16, Ca++:8.3 mg/dL, Mg++:1.9 mg/dL, PO4:2.9 mg/dL
+   CXR [**1-24**]:
+   Bilateral small pleural effusions, bilateral perihilar haziness,
+   both suggestive of mild-to-moderate fluid overload.  Retrocardiac atele
+   ctasis.
+   Assessment and Plan
+   [**Age over 90 52**] yo woman with dementia admitted with mental status change, fever,
+   and hypotension.  Developed pulmonary edema and HTN overnight.
+ ALTERED MENTAL STATUS
+           -      likely delirium superimposed on dementia
+   -          continues to have waxing and [**Doctor Last Name 42**] mental status; per
+   nursing report, less oriented this morning than yesterday
+   -          DDx includes infection or hypoperfusion in the setting of
+   recent hypotension and AFib
+   -          Treat possible infection and maintain SBP around 140
+ HYPOTENSION (NOT SHOCK)
+   -          resolved, ? secondary to infection
+   # Hypertension:
+   -          most likely due to agitation and fluid overload
+   -          diurese with IV lasix
+   -          hydralazine and diltiazem as needed to maintain SBP around
+   140
+   # Pulmonary Edema:
+   -          in the setting of receiving 9L of fluid yesterday
+   -          diurese with IV lasix
+   -          obtain TTE to assess for vavular abnormality
+   -          continue to follow cardiac enzymes
+ ATRIAL FIBRILLATION (AFIB): s/p episode on presentation, now resolved
+   -          preferentially use nodal blocking agents to control HTN
+   -          monitor
+ COUGH and FEVER
+   -          suspect pulmonary or possible sinus source of infection
+   -          continue levofloxacin (day 1 = [**1-23**])
+   -          will f/u influenza results given fever to 104; will contact
+   PCP [**Last Name (NamePattern4) **]: whether she had flu vaccine
+   -          UA negative
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT)
+   -          continue home meds, including namenda and donepezil
+ DEPRESSION
+   -          continue mirtazipine
+   # Psoriasis:
+   - continue outpatient lactic acid, triamcinolone, and clobetasol
+   ICU Care
+   Nutrition: regular diet
+   Glycemic Control:  SSI
+   Lines: PIV
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT: heparin SubQ
+   Stress ulcer: ranitidine
+   VAP:  not ventilated
+   Comments: bowel regimen
+   Communication:  Comments: with son [**Name (NI) 297**] [**Name (NI) 274**] [**Telephone/Fax (1) 298**]
+   Code status: Full
+ confirmed with PCP
+   [**Name Initial (PRE) 374**]: ICU until blood pressure better controlled
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   Got NS both continuous (starting ~6pm) and bolus
+   Rapid respiratory viral screen and culture + influenza dfa sent
+   Called out, but then, at 4am SBP in 200s; patient wheezing diffusely,
+   feeling uncomfortable and dyspneic. Given metoprolol IV 5mg x2; lasix
+   40 iv x1. EKG done = no signif changes. CXR done = significant
+   progression of pulm edema (intern read). Put out urine well to the
+   lasix (>300cc in first hour), BPs coming down gradually.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Ear, Nose, Throat: Dry mouth
+   Respiratory: No(t) Dyspnea
+   Gastrointestinal: No(t) Abdominal pain
+   Flowsheet Data as of  [**2101-1-24**] 08:07 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 35.6
+C (96
+   HR: 84 (71 - 101) bpm
+   BP: 178/85(108){84/54(62) - 216/116(141)} mmHg
+   RR: 19 (12 - 29) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+                  Total In:
+                                                                  9,362 mL
+                  PO:
+                                                                    300 mL
+                  TF:
+   IVF:
+                                                                  2,562 mL
+   Blood products:
+   Total out:
+                                                                    250 mL
+                                                                  1,178 mL
+   Urine:
+                                                                    190 mL
+                                                                  1,178 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  9,112 mL
+                                                                 -1,178 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///24/
+   Physical Examination
+   General Appearance: No acute distress, Thin, No(t) Diaphoretic
+   Eyes / Conjunctiva: pupils small, equal
+   Head, Ears, Nose, Throat: mucous membranes moist
+   Cardiovascular: (S1: Normal), (S2: Normal, Distant), (Murmur: No(t)
+   Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   , Wheezes : )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: none, Left: none, No(t) Cyanosis
+   Skin:  Not assessed, No(t) Rash: , No(t) Jaundice
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): self, [**Location (un) **], but thinks it's fall, Movement:
+   Purposeful, No(t) Sedated, Tone: Not assessed, left eye drooping
+   Labs / Radiology
+   228 K/uL
+   11.3 g/dL
+   146 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   21 mg/dL
+   108 mEq/L
+   141 mEq/L
+   34.9 %
+   16.2 K/uL
+        [image002.jpg]
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+   WBC
+   16.2
+   Hct
+   34.9
+   Plt
+   228
+   Cr
+   0.8
+   TropT
+   0.14
+   0.16
+   Glucose
+   146
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:78/7/0.16, Ca++:8.3 mg/dL, Mg++:1.9 mg/dL, PO4:2.9 mg/dL
+   CXR [**1-24**]:
+   Bilateral small pleural effusions, bilateral perihilar haziness,
+   both suggestive of mild-to-moderate fluid overload.  Retrocardiac atele
+   ctasis.
+   Assessment and Plan
+   [**Age over 90 52**] yo woman with dementia admitted with mental status change, fever,
+   and hypotension.  Developed pulmonary edema and HTN overnight.
+ ALTERED MENTAL STATUS
+           -      likely delirium superimposed on dementia
+   -          continues to have waxing and [**Doctor Last Name 42**] mental status; per
+   nursing report, less oriented this morning than yesterday
+   -          DDx includes infection or hypoperfusion in the setting of
+   recent hypotension and AFib
+   -          Treat possible infection and maintain SBP around 140
+ HYPOTENSION (NOT SHOCK)
+   -          resolved, ? secondary to infection
+   # Hypertension:
+   -          most likely due to agitation and fluid overload
+   -          diurese with IV lasix
+   -          hydralazine and diltiazem as needed to maintain SBP around
+   140
+   # Pulmonary Edema:
+   -          in the setting of receiving 9L of fluid yesterday
+   -          diurese with IV lasix
+   -          obtain TTE to assess for vavular abnormality
+   -          continue to follow cardiac enzymes
+ ATRIAL FIBRILLATION (AFIB): s/p episode on presentation, now resolved
+   -          preferentially use nodal blocking agents to control HTN
+   -          monitor
+ COUGH and FEVER
+   -          suspect pulmonary or possible sinus source of infection
+   -          continue levofloxacin (day 1 = [**1-23**])
+   -          will f/u influenza results given fever to 104; will contact
+   PCP [**Last Name (NamePattern4) **]: whether she had flu vaccine
+   -          UA negative
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT)
+   -          continue home meds, including namenda and donepezil
+ DEPRESSION
+   -          continue mirtazipine
+   # Psoriasis:
+   - continue outpatient lactic acid, triamcinolone, and clobetasol
+   ICU Care
+   Nutrition: regular diet
+   Glycemic Control:  SSI
+   Lines: PIV
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT: heparin SubQ
+   Stress ulcer: ranitidine
+   VAP:  not ventilated
+   Comments: bowel regimen
+   Communication:  Comments: with son [**Name (NI) 297**] [**Name (NI) 274**] [**Telephone/Fax (1) 298**]
+   Code status: Full
+ confirmed with PCP
+   [**Name Initial (PRE) 374**]: ICU until blood pressure better controlled<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided medical progress note, the patient is a 52-year-old woman with dementia admitted to the ICU for mental status change, fever, and hypotension. Overnight, she developed pulmonary edema and hypertension.
+
+The patient's vital signs are:
+
+* Temperature: 37.1°C (98.8°F)
+* Heart rate: 84 beats per minute (bpm)
+* Blood pressure: 178/85 mmHg
+* Respiratory rate: 19 breaths per minute (bpm)
+* SpO2: 99%
+* Weight: 80.9 kg
+
+The patient's physical examination revealed:
+
+* General appearance: No acute distress, thin, not diaphoretic
+* Cardiovascular: Normal S1 and S2 heart sounds, no murmur
+* Respiratory: Crackles and wheezes in the lungs
+* Abdominal: Soft, non-tender, bowel sounds present
+* Neurologic: Attentive, follows simple commands, oriented to self and location, but has a delusional thought about falling
+
+Laboratory results:
+
+* White blood cell count: 16.2 K/uL
+* Hemoglobin: 11.3 g/dL
+* Platelet count: 228 K/uL
+* Creatinine: 0.8 mg/dL
+* Troponin-T: 0.14 ng/mL
+* Glucose: 146 mg/dL
+* Other labs: PT/PTT/INR, CK/CKMB/Troponin-T, Ca++/Mg++/PO4
+
+The patient's conditions and plan include:
+
+* Altered mental status: likely delirium superimposed on dementia, with a differential diagnosis of infection or hypoperfusion
+* Hypotension: resolved, possibly secondary to infection
+* Hypertension: likely due to agitation and fluid overload, with a plan to diurese with IV lasix and use hydralazine and diltiazem as needed
+* Pulmonary edema: in the setting of receiving 9L of fluid yesterday, with a plan to diurese with IV lasix and obtain a TTE to assess for valvular abnormality
+* Atrial fibrillation: resolved, with a plan to preferentially use nodal blocking agents to control hypertension
+* Cough and fever: suspect pulmonary or possible sinus source of infection, with a plan to continue levofloxacin and follow up on influenza results
+* Dementia: continue home meds, including namenda and donepezil
+* Depression: continue mirtazipine
+* Psoriasis: continue outpatient lactic acid, triamcinolone, and clobetasol
+
+Potential medical complications that can arise include:
+
+* Infection: the patient's fever and cough suggest a possible pulmonary or sinus source of infection, which can lead to pneumonia, sepsis, or other complications
+* Hypertension: if not controlled, hypertension can lead to cardiac complications, such as heart failure or stroke
+* Pulmonary edema: if not treated, pulmonary edema can lead to respiratory failure or cardiac complications
+* Delirium: the patient's altered mental status can worsen if not addressed, leading to increased risk of falls, respiratory complications, or other adverse outcomes
+* Fluid overload: the patient's recent fluid administration and ongoing fluid imbalance can lead to further complications, such as respiratory distress or cardiac failure."
+184430.0,295623,2101-01-24 10:06:00,Physician ,Physician Attending Progress Note,"Chief Complaint: Hypotension
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   Remains lethargic but MS back to baseline per PCP
+   24 Hour Events:
+ EKG - At [**2101-1-23**] 09:05 AM
+ EKG - At [**2101-1-24**] 04:16 AM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: Fatigue
+   Flowsheet Data as of  [**2101-1-24**] 10:05 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 36.4
+C (97.5
+   HR: 84 (71 - 101) bpm
+   BP: 178/85(108){84/54(62) - 216/116(141)} mmHg
+   RR: 19 (12 - 29) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+                  Total In:
+                                                                  9,362 mL
+                                                                    100 mL
+   PO:
+                                                                    300 mL
+                                                                    100 mL
+   TF:
+   IVF:
+                                                                  2,562 mL
+   Blood products:
+   Total out:
+                                                                    250 mL
+                                                                  1,918 mL
+   Urine:
+                                                                    190 mL
+                                                                  1,918 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  9,112 mL
+                                                                 -1,818 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///24/
+   Physical Examination
+   General Appearance: Well nourished
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Lymphatic: Cervical WNL
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   )
+   Abdominal: Soft
+   Extremities: Right: Trace, Left: Trace
+   Musculoskeletal: Unable to stand
+   Skin:  Not assessed
+   Neurologic: Follows simple commands, Responds to: Not assessed,
+   Oriented (to): self, Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   11.3 g/dL
+   228 K/uL
+   146 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   21 mg/dL
+   108 mEq/L
+   141 mEq/L
+   34.9 %
+   16.2 K/uL
+        [image002.jpg]
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+   WBC
+   16.2
+   Hct
+   34.9
+   Plt
+   228
+   Cr
+   0.8
+   TropT
+   0.14
+   0.16
+   Glucose
+   146
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:78/7/0.16, Ca++:8.3 mg/dL, Mg++:1.9 mg/dL, PO4:2.9 mg/dL
+   Assessment and Plan
+ ALTERED MENTAL STATUS (NOT DELIRIUM) - in setting of T 104. Now
+   improved but not at baseline per son
+ HYPOTENSION (NOT SHOCK) resolved. Likely related to fever
+ ATRIAL FIBRILLATION (AFIB) - will control rate and hypertension with
+   diltiazem
+ COUGH
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT) - MS now at baseline
+ DEPRESSION
+   Pulmonary edema - in setting of 9l IVF - now diuresing. Will check echo
+   for valvular abnormalties. R/O for MI
+   Fever - etiol unclear. [**Name2 (NI) 59**] evidence PNA or UTI. No bands on diff. Will
+   r/o for influenza
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: H2 blocker
+   VAP:
+   Comments:
+   Communication: Patient discussed on interdisciplinary rounds  Comments:
+   Code status: Full code
+   Disposition :ICU
+   Total time spent:
+   Patient is critically ill
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: Hypotension
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   Remains lethargic but MS back to baseline per PCP
+   24 Hour Events:
+ EKG - At [**2101-1-23**] 09:05 AM
+ EKG - At [**2101-1-24**] 04:16 AM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: Fatigue
+   Flowsheet Data as of  [**2101-1-24**] 10:05 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 36.4
+C (97.5
+   HR: 84 (71 - 101) bpm
+   BP: 178/85(108){84/54(62) - 216/116(141)} mmHg
+   RR: 19 (12 - 29) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+                  Total In:
+                                                                  9,362 mL
+                                                                    100 mL
+   PO:
+                                                                    300 mL
+                                                                    100 mL
+   TF:
+   IVF:
+                                                                  2,562 mL
+   Blood products:
+   Total out:
+                                                                    250 mL
+                                                                  1,918 mL
+   Urine:
+                                                                    190 mL
+                                                                  1,918 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  9,112 mL
+                                                                 -1,818 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///24/
+   Physical Examination
+   General Appearance: Well nourished
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Lymphatic: Cervical WNL
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   )
+   Abdominal: Soft
+   Extremities: Right: Trace, Left: Trace
+   Musculoskeletal: Unable to stand
+   Skin:  Not assessed
+   Neurologic: Follows simple commands, Responds to: Not assessed,
+   Oriented (to): self, Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   11.3 g/dL
+   228 K/uL
+   146 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   21 mg/dL
+   108 mEq/L
+   141 mEq/L
+   34.9 %
+   16.2 K/uL
+        [image002.jpg]
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+   WBC
+   16.2
+   Hct
+   34.9
+   Plt
+   228
+   Cr
+   0.8
+   TropT
+   0.14
+   0.16
+   Glucose
+   146
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:78/7/0.16, Ca++:8.3 mg/dL, Mg++:1.9 mg/dL, PO4:2.9 mg/dL
+   Assessment and Plan
+ ALTERED MENTAL STATUS (NOT DELIRIUM) - in setting of T 104. Now
+   improved but not at baseline per son
+ HYPOTENSION (NOT SHOCK) resolved. Likely related to fever
+ ATRIAL FIBRILLATION (AFIB) - will control rate and hypertension with
+   diltiazem
+ COUGH
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT) - MS now at baseline
+ DEPRESSION
+   Pulmonary edema - in setting of 9l IVF - now diuresing. Will check echo
+   for valvular abnormalties. R/O for MI
+   Fever - etiol unclear. [**Name2 (NI) 59**] evidence PNA or UTI. No bands on diff. Will
+   r/o for influenza
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: H2 blocker
+   VAP:
+   Comments:
+   Communication: Patient discussed on interdisciplinary rounds  Comments:
+   Code status: Full code
+   Disposition :ICU
+   Total time spent:
+   Patient is critically ill<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient remains critically ill with altered mental status, hypotension, atrial fibrillation, cough, dementia, depression, and pulmonary edema. The patient's temperature has improved, but not at baseline. The patient is receiving ICU care, including nutrition, glycemic control, and prophylaxis for DVT, stress ulcer, and VAP.
+
+Potential Medical Complications:
+
+1. Respiratory failure: The patient's pulmonary edema and hypotension may worsen respiratory function, leading to respiratory failure.
+2. Cardiac complications: The patient's atrial fibrillation and hypertension may lead to cardiac complications, such as heart failure or arrhythmias.
+3. Infection: The patient's fever and cough may indicate an underlying infection, such as pneumonia or urinary tract infection, which may spread to other parts of the body.
+4. Neurological complications: The patient's altered mental status and dementia may worsen, leading to increased risk of falls, aspiration, or other neurological complications.
+5. Hemodynamic instability: The patient's hypotension and fluid imbalance may lead to further hemodynamic instability, including cardiac arrest or organ failure.
+6. Gastrointestinal complications: The patient's pulmonary edema and hypotension may lead to gastrointestinal complications, such as ileus or gastrointestinal bleeding.
+7. Renal failure: The patient's fluid imbalance and hypotension may lead to renal failure, requiring dialysis.
+8. Sepsis: The patient's fever and infection may lead to sepsis, a life-threatening condition that requires prompt recognition and treatment.
+9. Cardiovascular complications: The patient's atrial fibrillation and hypertension may lead to cardiovascular complications, such as myocardial infarction or stroke.
+
+Given the patient's complex medical condition, it is essential to closely monitor their vital signs, laboratory results, and clinical status to prevent or identify potential complications and provide timely interventions."
+184430.0,295623,2101-01-24 10:06:00,Physician ,Physician Attending Progress Note,"Chief Complaint: Hypotension
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   Remains lethargic but MS back to baseline per PCP
+   24 Hour Events:
+ EKG - At [**2101-1-23**] 09:05 AM
+ EKG - At [**2101-1-24**] 04:16 AM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: Fatigue
+   Flowsheet Data as of  [**2101-1-24**] 10:05 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 36.4
+C (97.5
+   HR: 84 (71 - 101) bpm
+   BP: 178/85(108){84/54(62) - 216/116(141)} mmHg
+   RR: 19 (12 - 29) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+                  Total In:
+                                                                  9,362 mL
+                                                                    100 mL
+   PO:
+                                                                    300 mL
+                                                                    100 mL
+   TF:
+   IVF:
+                                                                  2,562 mL
+   Blood products:
+   Total out:
+                                                                    250 mL
+                                                                  1,918 mL
+   Urine:
+                                                                    190 mL
+                                                                  1,918 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  9,112 mL
+                                                                 -1,818 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///24/
+   Physical Examination
+   General Appearance: Well nourished
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Lymphatic: Cervical WNL
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   )
+   Abdominal: Soft
+   Extremities: Right: Trace, Left: Trace
+   Musculoskeletal: Unable to stand
+   Skin:  Not assessed
+   Neurologic: Follows simple commands, Responds to: Not assessed,
+   Oriented (to): self, Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   11.3 g/dL
+   228 K/uL
+   146 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   21 mg/dL
+   108 mEq/L
+   141 mEq/L
+   34.9 %
+   16.2 K/uL
+        [image002.jpg]
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+   WBC
+   16.2
+   Hct
+   34.9
+   Plt
+   228
+   Cr
+   0.8
+   TropT
+   0.14
+   0.16
+   Glucose
+   146
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:78/7/0.16, Ca++:8.3 mg/dL, Mg++:1.9 mg/dL, PO4:2.9 mg/dL
+   Assessment and Plan
+ ALTERED MENTAL STATUS (NOT DELIRIUM) - in setting of T 104. Now
+   improved but not at baseline per son
+ HYPOTENSION (NOT SHOCK) resolved. Likely related to fever
+ ATRIAL FIBRILLATION (AFIB) - will control rate and hypertension with
+   diltiazem
+ COUGH
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT) - MS now at baseline
+ DEPRESSION
+   Pulmonary edema - in setting of 9l IVF - now diuresing. Will check echo
+   for valvular abnormalties. R/O for MI
+   Fever - etiol unclear. [**Name2 (NI) 59**] evidence PNA or UTI. No bands on diff. Will
+   r/o for influenza
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: H2 blocker
+   VAP:
+   Comments:
+   Communication: Patient discussed on interdisciplinary rounds  Comments:
+   Code status: Full code
+   Disposition :ICU
+   Total time spent:
+   Patient is critically ill 35
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: Hypotension
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   Remains lethargic but MS back to baseline per PCP
+   24 Hour Events:
+ EKG - At [**2101-1-23**] 09:05 AM
+ EKG - At [**2101-1-24**] 04:16 AM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: Fatigue
+   Flowsheet Data as of  [**2101-1-24**] 10:05 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 36.4
+C (97.5
+   HR: 84 (71 - 101) bpm
+   BP: 178/85(108){84/54(62) - 216/116(141)} mmHg
+   RR: 19 (12 - 29) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+                  Total In:
+                                                                  9,362 mL
+                                                                    100 mL
+   PO:
+                                                                    300 mL
+                                                                    100 mL
+   TF:
+   IVF:
+                                                                  2,562 mL
+   Blood products:
+   Total out:
+                                                                    250 mL
+                                                                  1,918 mL
+   Urine:
+                                                                    190 mL
+                                                                  1,918 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  9,112 mL
+                                                                 -1,818 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///24/
+   Physical Examination
+   General Appearance: Well nourished
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Lymphatic: Cervical WNL
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   )
+   Abdominal: Soft
+   Extremities: Right: Trace, Left: Trace
+   Musculoskeletal: Unable to stand
+   Skin:  Not assessed
+   Neurologic: Follows simple commands, Responds to: Not assessed,
+   Oriented (to): self, Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   11.3 g/dL
+   228 K/uL
+   146 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   21 mg/dL
+   108 mEq/L
+   141 mEq/L
+   34.9 %
+   16.2 K/uL
+        [image002.jpg]
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+   WBC
+   16.2
+   Hct
+   34.9
+   Plt
+   228
+   Cr
+   0.8
+   TropT
+   0.14
+   0.16
+   Glucose
+   146
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:78/7/0.16, Ca++:8.3 mg/dL, Mg++:1.9 mg/dL, PO4:2.9 mg/dL
+   Assessment and Plan
+ ALTERED MENTAL STATUS (NOT DELIRIUM) - in setting of T 104. Now
+   improved but not at baseline per son
+ HYPOTENSION (NOT SHOCK) resolved. Likely related to fever
+ ATRIAL FIBRILLATION (AFIB) - will control rate and hypertension with
+   diltiazem
+ COUGH
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT) - MS now at baseline
+ DEPRESSION
+   Pulmonary edema - in setting of 9l IVF - now diuresing. Will check echo
+   for valvular abnormalties. R/O for MI
+   Fever - etiol unclear. [**Name2 (NI) 59**] evidence PNA or UTI. No bands on diff. Will
+   r/o for influenza
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: H2 blocker
+   VAP:
+   Comments:
+   Communication: Patient discussed on interdisciplinary rounds  Comments:
+   Code status: Full code
+   Disposition :ICU
+   Total time spent:
+   Patient is critically ill 35<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 59-year-old male admitted to the ICU with hypotension, altered mental status, atrial fibrillation, and pulmonary edema. His vital signs are stable, with a temperature of 37.1°C (98.8°F), heart rate of 84 beats per minute, and blood pressure of 178/85 mmHg. He is receiving diltiazem to control his heart rate and hypertension. He is also receiving IV fluids, antibiotics, and anticoagulation therapy. His neurological status is improved, but he is still lethargic and unable to stand. His lab results show elevated white blood cell count, platelet count, and troponin levels, suggesting an inflammatory response and potential cardiac injury.
+
+Potential medical complications:
+
+1. Cardiac complications: The patient's atrial fibrillation and elevated troponin levels suggest potential cardiac injury. He is at risk for cardiac arrhythmias, cardiogenic shock, and cardiac failure.
+2. Respiratory complications: The patient's pulmonary edema and respiratory support with oxygen therapy may lead to respiratory failure and hypoxemia.
+3. Neurological complications: The patient's altered mental status and inability to stand may indicate potential neurological complications, such as stroke, seizures, or cerebral edema.
+4. Infectious complications: The patient's fever and elevated white blood cell count suggest potential infections, such as pneumonia, urinary tract infection, or sepsis.
+5. Hemorrhagic complications: The patient's coagulopathy and anticoagulation therapy may increase the risk of bleeding, including gastrointestinal bleeding, intracranial hemorrhage, or hematuria.
+6. Renal complications: The patient's fluid overload and potential cardiac failure may lead to acute kidney injury or chronic kidney disease.
+
+Recommendations:
+
+1. Continue close monitoring of the patient's vital signs, cardiac rhythm, and neurological status.
+2. Adjust his medication regimen to optimize his cardiac function and blood pressure control.
+3. Consider invasive monitoring, such as arterial lines or central venous catheters, to optimize his hemodynamic status.
+4. Continue antibiotic therapy and anticoagulation therapy as indicated.
+5. Monitor his respiratory status closely and consider non-invasive ventilation or invasive mechanical ventilation if necessary.
+6. Consider echocardiography to assess his cardiac function and valvular abnormalities.
+7. Monitor his renal function closely and consider dialysis if necessary."
+184430.0,295623,2101-01-25 07:15:00,Physician ,Physician Resident Progress Note,"Chief Complaint: mental status change; hypotension; fever
+   24 Hour Events:
+   Very agitated during day, received multiple doses of haldol IV,
+   diltiazem, and hydralazine with modest improvement in BPs.
+   Code status confirmed with PCP as FULL.
+   Troponins continued to climb slowly
+   Influenza and respiratory virus antigen test negative; viral Cx pending
+   Huge diuresis to 40mg IV lasix x 3 doses
+   TTE done--2+ MR
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Metoprolol - [**2101-1-24**] 09:45 AM
+   Diltiazem - [**2101-1-24**] 11:39 AM
+   Furosemide (Lasix) - [**2101-1-24**] 06:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: sleepy
+   Flowsheet Data as of  [**2101-1-25**] 07:07 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 36.1
+C (97
+   HR: 76 (56 - 90) bpm
+   BP: 175/89(107){106/41(59) - 207/132(165)} mmHg
+   RR: 18 (16 - 21) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+             Total In:
+                                                                    150 mL
+                                                                    230 mL
+   PO:
+                                                                    100 mL
+                                                                    180 mL
+   TF:
+   IVF:
+                                                                     50 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  5,328 mL
+                                                                    380 mL
+   Urine:
+                                                                  5,328 mL
+                                                                    380 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -5,178 mL
+                                                                   -150 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 96%
+   ABG: ////
+   Physical Examination
+   General Appearance: Thin, sleeping
+   Eyes / Conjunctiva: pupils equal and small b/l
+   Head, Ears, Nose, Throat: MMM
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic), RRR
+   with I/VI systolic murmur
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Wheezes :
+   ), transmitted upper airway sounds
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   215 K/uL
+   10.8 g/dL
+   146 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   3.2 mEq/L
+   21 mg/dL
+   102 mEq/L
+   140 mEq/L
+   32.1 %
+   11.5 K/uL
+        [image002.jpg]
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+                             [**2101-1-24**]  11:35 AM
+                             [**2101-1-24**]  07:22 PM
+                             [**2101-1-25**]  04:55 AM
+   WBC
+   16.2
+   11.5
+   Hct
+   34.9
+   32.1
+   Plt
+   228
+   215
+   Cr
+   0.8
+   TropT
+   0.14
+   0.16
+   0.12
+   0.18
+   0.20
+   Glucose
+   146
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:110/8/0.20, Ca++:8.3 mg/dL, Mg++:1.8 mg/dL, PO4:2.9 mg/dL
+   TTE [**1-24**]:
+   The left atrium is elongated. There is mild symmetric left ventricular
+   hypertrophy with normal cavity size and systolic function (LVEF>55%).
+   Tissue Doppler imaging suggests an increased left ventricular filling
+   pressure (PCWP>18mmHg). The aortic valve leaflets (3) are mildly
+   thickened but aortic stenosis is not present. No aortic regurgitation
+   is seen. The mitral valve leaflets are mildly thickened. There is no
+   mitral valve prolapse. Moderate (2+) mitral regurgitation is seen.
+   There is borderline pulmonary artery systolic hypertension. There is no
+   pericardial effusion. There is an anterior space which most likely
+   represents a fat pad.
+   IMPRESSION: Moderate mitral regurgitation. Preserved left ventricular
+   systolic function. The right ventricle is not well seen but may be
+   dilated and mildly hypokinetic.
+   Assessment and Plan
+   [**Age over 90 52**]yo woman with dementia admitted with mental status changes, fever,
+   and hypotension.  Now with continued agitation and elevated blood
+   pressures.
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN)
+   -          fevers resolved, but reportedly as high as 104
+   -          rapid viral antigen negative for influenza; viral cx pending
+   -          suspect possible pulmonary or sinus source of infection;
+   empiric treatment with levofloxacin day 3
+   -          UA negative
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+   -          continues to have delirium superimposed on baseline dementia
+   -          contributing factors include likely infection, labile BP,
+   ICU psychosis
+   -          will try to limit tubes and restraints and reinforce
+   sleep/wake cycle
+   -          haldol IV
+ HYPOTENSION (NOT SHOCK)
+   -          resolved
+   # Hypertension:  BP more elevated in the setting of agitation and fluid
+   overload.
+ ATRIAL FIBRILLATION (AFIB)
+   -          s/p episode in setting of infection
+   -          2+ MR [**First Name (Titles) **] [**Last Name (Titles) 399**]
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT)
+   -          continue namenda and donepezil
+ DEPRESSION
+   -          continue mirtazipine
+   # Psoriasis:
+   - continue outpatient lactic acid, triamcinolone, and clobetasol
+   ICU Care
+   Nutrition: regular diet
+   Glycemic Control:  SSI
+   Lines: PIV
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT: heparin SubQ
+   Stress ulcer: ranitidine
+   VAP:  not on vent
+   Comments: bowel regimen
+   Communication:  Comments: son [**Name (NI) 297**] [**Name (NI) 274**] [**Telephone/Fax (1) 298**]
+   Code status: Full
+confirmed with PCP
+   [**Name Initial (PRE) 374**]:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: mental status change; hypotension; fever
+   24 Hour Events:
+   Very agitated during day, received multiple doses of haldol IV,
+   diltiazem, and hydralazine with modest improvement in BPs.
+   Code status confirmed with PCP as FULL.
+   Troponins continued to climb slowly
+   Influenza and respiratory virus antigen test negative; viral Cx pending
+   Huge diuresis to 40mg IV lasix x 3 doses
+   TTE done--2+ MR
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Metoprolol - [**2101-1-24**] 09:45 AM
+   Diltiazem - [**2101-1-24**] 11:39 AM
+   Furosemide (Lasix) - [**2101-1-24**] 06:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: sleepy
+   Flowsheet Data as of  [**2101-1-25**] 07:07 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 36.1
+C (97
+   HR: 76 (56 - 90) bpm
+   BP: 175/89(107){106/41(59) - 207/132(165)} mmHg
+   RR: 18 (16 - 21) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+             Total In:
+                                                                    150 mL
+                                                                    230 mL
+   PO:
+                                                                    100 mL
+                                                                    180 mL
+   TF:
+   IVF:
+                                                                     50 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  5,328 mL
+                                                                    380 mL
+   Urine:
+                                                                  5,328 mL
+                                                                    380 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -5,178 mL
+                                                                   -150 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 96%
+   ABG: ////
+   Physical Examination
+   General Appearance: Thin, sleeping
+   Eyes / Conjunctiva: pupils equal and small b/l
+   Head, Ears, Nose, Throat: MMM
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic), RRR
+   with I/VI systolic murmur
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Wheezes :
+   ), transmitted upper airway sounds
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   215 K/uL
+   10.8 g/dL
+   146 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   3.2 mEq/L
+   21 mg/dL
+   102 mEq/L
+   140 mEq/L
+   32.1 %
+   11.5 K/uL
+        [image002.jpg]
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+                             [**2101-1-24**]  11:35 AM
+                             [**2101-1-24**]  07:22 PM
+                             [**2101-1-25**]  04:55 AM
+   WBC
+   16.2
+   11.5
+   Hct
+   34.9
+   32.1
+   Plt
+   228
+   215
+   Cr
+   0.8
+   TropT
+   0.14
+   0.16
+   0.12
+   0.18
+   0.20
+   Glucose
+   146
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:110/8/0.20, Ca++:8.3 mg/dL, Mg++:1.8 mg/dL, PO4:2.9 mg/dL
+   TTE [**1-24**]:
+   The left atrium is elongated. There is mild symmetric left ventricular
+   hypertrophy with normal cavity size and systolic function (LVEF>55%).
+   Tissue Doppler imaging suggests an increased left ventricular filling
+   pressure (PCWP>18mmHg). The aortic valve leaflets (3) are mildly
+   thickened but aortic stenosis is not present. No aortic regurgitation
+   is seen. The mitral valve leaflets are mildly thickened. There is no
+   mitral valve prolapse. Moderate (2+) mitral regurgitation is seen.
+   There is borderline pulmonary artery systolic hypertension. There is no
+   pericardial effusion. There is an anterior space which most likely
+   represents a fat pad.
+   IMPRESSION: Moderate mitral regurgitation. Preserved left ventricular
+   systolic function. The right ventricle is not well seen but may be
+   dilated and mildly hypokinetic.
+   Assessment and Plan
+   [**Age over 90 52**]yo woman with dementia admitted with mental status changes, fever,
+   and hypotension.  Now with continued agitation and elevated blood
+   pressures.
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN)
+   -          fevers resolved, but reportedly as high as 104
+   -          rapid viral antigen negative for influenza; viral cx pending
+   -          suspect possible pulmonary or sinus source of infection;
+   empiric treatment with levofloxacin day 3
+   -          UA negative
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+   -          continues to have delirium superimposed on baseline dementia
+   -          contributing factors include likely infection, labile BP,
+   ICU psychosis
+   -          will try to limit tubes and restraints and reinforce
+   sleep/wake cycle
+   -          haldol IV
+ HYPOTENSION (NOT SHOCK)
+   -          resolved
+   # Hypertension:  BP more elevated in the setting of agitation and fluid
+   overload.
+ ATRIAL FIBRILLATION (AFIB)
+   -          s/p episode in setting of infection
+   -          2+ MR [**First Name (Titles) **] [**Last Name (Titles) 399**]
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT)
+   -          continue namenda and donepezil
+ DEPRESSION
+   -          continue mirtazipine
+   # Psoriasis:
+   - continue outpatient lactic acid, triamcinolone, and clobetasol
+   ICU Care
+   Nutrition: regular diet
+   Glycemic Control:  SSI
+   Lines: PIV
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT: heparin SubQ
+   Stress ulcer: ranitidine
+   VAP:  not on vent
+   Comments: bowel regimen
+   Communication:  Comments: son [**Name (NI) 297**] [**Name (NI) 274**] [**Telephone/Fax (1) 298**]
+   Code status: Full
+confirmed with PCP
+   [**Name Initial (PRE) 374**]:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 52-year-old woman with dementia, admitted to the ICU with mental status changes, fever, and hypotension. The patient has been experiencing agitation, which has been managed with multiple doses of haldol IV, diltiazem, and hydralazine.
+
+The patient's vital signs are stable, with a temperature of 36.4°C, heart rate of 76 bpm, and blood pressure of 175/89 mmHg. The patient is receiving oxygen therapy and is on a nasal cannula.
+
+The patient's lab results show a rising troponin level, indicating possible cardiac injury. The electrocardiogram (ECG) shows sinus rhythm, and the echocardiogram (TTE) reveals moderate mitral regurgitation, preserved left ventricular systolic function, and possible right ventricular dilatation.
+
+The patient's medical history includes dementia, depression, and psoriasis. She is receiving treatment for her conditions, including namenda, donepezil, mirtazipine, and lactic acid, triamcinolone, and clobetasol.
+
+Potential medical complications that can arise from the patient's condition include:
+
+1. Cardiac complications: The patient's rising troponin level and moderate mitral regurgitation may indicate cardiac injury or dysfunction, which could lead to cardiac arrest, arrhythmias, or heart failure.
+2. Respiratory complications: The patient's fever and possible pulmonary or sinus source of infection may lead to respiratory complications, such as pneumonia or acute respiratory distress syndrome (ARDS).
+3. Neurological complications: The patient's altered mental status, which may be caused by infection, labile blood pressure, or ICU psychosis, may lead to neurological complications, such as seizures or stroke.
+4. Gastrointestinal complications: The patient's fever and possible infection may lead to gastrointestinal complications, such as nausea, vomiting, or diarrhea.
+5. Infectious complications: The patient's empiric treatment with levofloxacin may not cover all possible pathogens, and the patient may be at risk of developing secondary infections.
+
+Based on the patient's condition, it is essential to continue close monitoring and management of her vital signs, lab results, and medical treatment. The patient's code status has been confirmed as full, and the family has been informed."
+184430.0,295623,2101-01-25 07:15:00,Physician ,Physician Resident Progress Note,"Chief Complaint: mental status change; hypotension; fever
+   24 Hour Events:
+   Very agitated during day, received multiple doses of haldol IV,
+   diltiazem, and hydralazine with modest improvement in BPs.
+   Code status confirmed with PCP as FULL.
+   Troponins continued to climb slowly
+   Influenza and respiratory virus antigen test negative; viral Cx pending
+   Huge diuresis to 40mg IV lasix x 3 doses
+   TTE done--2+ MR
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Metoprolol - [**2101-1-24**] 09:45 AM
+   Diltiazem - [**2101-1-24**] 11:39 AM
+   Furosemide (Lasix) - [**2101-1-24**] 06:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: sleepy, otherwise no complaints
+   Flowsheet Data as of  [**2101-1-25**] 07:07 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 36.1
+C (97
+   HR: 76 (56 - 90) bpm
+   BP: 175/89(107){106/41(59) - 207/132(165)} mmHg
+   RR: 18 (16 - 21) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+             Total In:
+                                                                    150 mL
+                                                                    230 mL
+   PO:
+                                                                    100 mL
+                                                                    180 mL
+   TF:
+   IVF:
+                                                                     50 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  5,328 mL
+                                                                    380 mL
+   Urine:
+                                                                  5,328 mL
+                                                                    380 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -5,178 mL
+                                                                   -150 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 96%
+   ABG: ////
+   Physical Examination
+   General Appearance: Thin, sleeping
+   Eyes / Conjunctiva: pupils equal and small b/l
+   Head, Ears, Nose, Throat: MMM
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic), RRR
+   with I/VI systolic murmur
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Wheezes :
+   ), transmitted upper airway sounds; +wheeze b/l
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: no LE edema b/l
+   Skin:  + psoriatic plaques on back and UE.
+   Neurologic: Recognizes examiner, but not able to sustain conversation,
+   attention wanders.  Very hard of hearing.  Has poor energy.
+   Labs / Radiology
+   215 K/uL
+   10.8 g/dL
+   112
+   0.6 mg/dL
+   28 mEq/L
+   3.7 mEq/L
+   16          mg/dL
+   104 mEq/L
+   144 mEq/L
+   32.1 %
+   11.5 K/uL
+        [image002.jpg] Mg 2.1
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+                             [**2101-1-24**]  11:35 AM
+                             [**2101-1-24**]  07:22 PM
+                             [**2101-1-25**]  04:55 AM
+   WBC
+   16.2
+   11.5
+   Hct
+   34.9
+   32.1
+   Plt
+   228
+   215
+   Cr
+   0.8
+   TropT
+   0.14
+   0.16
+   0.12
+   0.18
+   0.20
+   Glucose
+   146
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:110/8/0.20, Ca++:8.3 mg/dL, Mg++:1.8 mg/dL, PO4:2.9 mg/dL
+   TTE [**1-24**]:
+   The left atrium is elongated. There is mild symmetric left ventricular
+   hypertrophy with normal cavity size and systolic function (LVEF>55%).
+   Tissue Doppler imaging suggests an increased left ventricular filling
+   pressure (PCWP>18mmHg). The aortic valve leaflets (3) are mildly
+   thickened but aortic stenosis is not present. No aortic regurgitation
+   is seen. The mitral valve leaflets are mildly thickened. There is no
+   mitral valve prolapse. Moderate (2+) mitral regurgitation is seen.
+   There is borderline pulmonary artery systolic hypertension. There is no
+   pericardial effusion. There is an anterior space which most likely
+   represents a fat pad.
+   IMPRESSION: Moderate mitral regurgitation. Preserved left ventricular
+   systolic function. The right ventricle is not well seen but may be
+   dilated and mildly hypokinetic.
+   Assessment and Plan
+   [**Age over 90 52**]yo woman with dementia admitted with mental status changes, fever,
+   and hypotension.  Now with continued agitation and elevated blood
+   pressures.
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN)
+   -          fevers resolved, but reportedly as high as 104
+   -          rapid viral antigen negative for influenza; viral cx pending
+   -          suspect possible pulmonary or sinus source of infection;
+   empiric treatment with levofloxacin day 3
+   -          UA negative
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+   -          continues to have delirium superimposed on baseline dementia
+   -          contributing factors include likely infection, labile BP,
+   ICU psychosis
+   -          will try to limit tubes and restraints and reinforce
+   sleep/wake cycle
+   -          will limit use of haldol IV
+ HYPOTENSION (NOT SHOCK)
+   -          resolved
+   # Hypertension:  BP more elevated in the setting of agitation and fluid
+   overload.  Has better response to anti-hypertensives today and is less
+   agitated.
+   -          continue metoprolol, hydralazine, and diltiazem
+   -          suspect she will need smaller doses as she becomes less
+   agitated
+   -          do not find medication on her home list that might have
+   triggered withdrawal response
+   -          TTE shows evidence of chronic HTN (symmetric LVH)
+   # Elevated Cardiac Enzymes:
+   -          do not believe that she has ACS; rather, suspect slow rise
+   is due to demand ischemia
+   -          continue to control BP as above
+ ATRIAL FIBRILLATION (AFIB)
+   -          s/p episode in setting of infection; TSH wnl
+   -          2+ MR [**First Name (Titles) **] [**Last Name (Titles) 399**]
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT)
+   -          continue namenda and donepezil
+ DEPRESSION
+   -          continue mirtazipine
+   # Psoriasis:
+   -          continue outpatient lactic acid, triamcinolone, and
+   clobetasol
+   -          suspect lesions on back noted by PCP are psoriatic and not
+   shingles
+   ICU Care
+   Nutrition: regular diet
+   Glycemic Control:  SSI
+   Lines: PIV
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT: heparin SubQ
+   Stress ulcer: ranitidine
+   VAP:  not on vent
+   Comments: bowel regimen
+   Communication:  Comments: son [**Name (NI) 297**] [**Name (NI) 274**] [**Telephone/Fax (1) 298**]
+   Code status: Family wants patient to be DNR per PCP
+[**Name Initial (PRE) **] note; will
+   clarify with family before changing code status
+   Disposition: Callout to floor
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: mental status change; hypotension; fever
+   24 Hour Events:
+   Very agitated during day, received multiple doses of haldol IV,
+   diltiazem, and hydralazine with modest improvement in BPs.
+   Code status confirmed with PCP as FULL.
+   Troponins continued to climb slowly
+   Influenza and respiratory virus antigen test negative; viral Cx pending
+   Huge diuresis to 40mg IV lasix x 3 doses
+   TTE done--2+ MR
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Metoprolol - [**2101-1-24**] 09:45 AM
+   Diltiazem - [**2101-1-24**] 11:39 AM
+   Furosemide (Lasix) - [**2101-1-24**] 06:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: sleepy, otherwise no complaints
+   Flowsheet Data as of  [**2101-1-25**] 07:07 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 36.1
+C (97
+   HR: 76 (56 - 90) bpm
+   BP: 175/89(107){106/41(59) - 207/132(165)} mmHg
+   RR: 18 (16 - 21) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+             Total In:
+                                                                    150 mL
+                                                                    230 mL
+   PO:
+                                                                    100 mL
+                                                                    180 mL
+   TF:
+   IVF:
+                                                                     50 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  5,328 mL
+                                                                    380 mL
+   Urine:
+                                                                  5,328 mL
+                                                                    380 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -5,178 mL
+                                                                   -150 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 96%
+   ABG: ////
+   Physical Examination
+   General Appearance: Thin, sleeping
+   Eyes / Conjunctiva: pupils equal and small b/l
+   Head, Ears, Nose, Throat: MMM
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic), RRR
+   with I/VI systolic murmur
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Wheezes :
+   ), transmitted upper airway sounds; +wheeze b/l
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: no LE edema b/l
+   Skin:  + psoriatic plaques on back and UE.
+   Neurologic: Recognizes examiner, but not able to sustain conversation,
+   attention wanders.  Very hard of hearing.  Has poor energy.
+   Labs / Radiology
+   215 K/uL
+   10.8 g/dL
+   112
+   0.6 mg/dL
+   28 mEq/L
+   3.7 mEq/L
+   16          mg/dL
+   104 mEq/L
+   144 mEq/L
+   32.1 %
+   11.5 K/uL
+        [image002.jpg] Mg 2.1
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+                             [**2101-1-24**]  11:35 AM
+                             [**2101-1-24**]  07:22 PM
+                             [**2101-1-25**]  04:55 AM
+   WBC
+   16.2
+   11.5
+   Hct
+   34.9
+   32.1
+   Plt
+   228
+   215
+   Cr
+   0.8
+   TropT
+   0.14
+   0.16
+   0.12
+   0.18
+   0.20
+   Glucose
+   146
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:110/8/0.20, Ca++:8.3 mg/dL, Mg++:1.8 mg/dL, PO4:2.9 mg/dL
+   TTE [**1-24**]:
+   The left atrium is elongated. There is mild symmetric left ventricular
+   hypertrophy with normal cavity size and systolic function (LVEF>55%).
+   Tissue Doppler imaging suggests an increased left ventricular filling
+   pressure (PCWP>18mmHg). The aortic valve leaflets (3) are mildly
+   thickened but aortic stenosis is not present. No aortic regurgitation
+   is seen. The mitral valve leaflets are mildly thickened. There is no
+   mitral valve prolapse. Moderate (2+) mitral regurgitation is seen.
+   There is borderline pulmonary artery systolic hypertension. There is no
+   pericardial effusion. There is an anterior space which most likely
+   represents a fat pad.
+   IMPRESSION: Moderate mitral regurgitation. Preserved left ventricular
+   systolic function. The right ventricle is not well seen but may be
+   dilated and mildly hypokinetic.
+   Assessment and Plan
+   [**Age over 90 52**]yo woman with dementia admitted with mental status changes, fever,
+   and hypotension.  Now with continued agitation and elevated blood
+   pressures.
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN)
+   -          fevers resolved, but reportedly as high as 104
+   -          rapid viral antigen negative for influenza; viral cx pending
+   -          suspect possible pulmonary or sinus source of infection;
+   empiric treatment with levofloxacin day 3
+   -          UA negative
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+   -          continues to have delirium superimposed on baseline dementia
+   -          contributing factors include likely infection, labile BP,
+   ICU psychosis
+   -          will try to limit tubes and restraints and reinforce
+   sleep/wake cycle
+   -          will limit use of haldol IV
+ HYPOTENSION (NOT SHOCK)
+   -          resolved
+   # Hypertension:  BP more elevated in the setting of agitation and fluid
+   overload.  Has better response to anti-hypertensives today and is less
+   agitated.
+   -          continue metoprolol, hydralazine, and diltiazem
+   -          suspect she will need smaller doses as she becomes less
+   agitated
+   -          do not find medication on her home list that might have
+   triggered withdrawal response
+   -          TTE shows evidence of chronic HTN (symmetric LVH)
+   # Elevated Cardiac Enzymes:
+   -          do not believe that she has ACS; rather, suspect slow rise
+   is due to demand ischemia
+   -          continue to control BP as above
+ ATRIAL FIBRILLATION (AFIB)
+   -          s/p episode in setting of infection; TSH wnl
+   -          2+ MR [**First Name (Titles) **] [**Last Name (Titles) 399**]
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT)
+   -          continue namenda and donepezil
+ DEPRESSION
+   -          continue mirtazipine
+   # Psoriasis:
+   -          continue outpatient lactic acid, triamcinolone, and
+   clobetasol
+   -          suspect lesions on back noted by PCP are psoriatic and not
+   shingles
+   ICU Care
+   Nutrition: regular diet
+   Glycemic Control:  SSI
+   Lines: PIV
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT: heparin SubQ
+   Stress ulcer: ranitidine
+   VAP:  not on vent
+   Comments: bowel regimen
+   Communication:  Comments: son [**Name (NI) 297**] [**Name (NI) 274**] [**Telephone/Fax (1) 298**]
+   Code status: Family wants patient to be DNR per PCP
+[**Name Initial (PRE) **] note; will
+   clarify with family before changing code status
+   Disposition: Callout to floor<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 52-year-old woman with dementia, admitted with mental status changes, fever, and hypotension. She has been experiencing agitation, with multiple doses of Haldol IV, Diltiazem, and Hydralazine administered to control her blood pressure. Her troponins have been slowly climbing, but it is suspected that the elevated cardiac enzymes are due to demand ischemia rather than acute coronary syndrome. She has moderate mitral regurgitation and preserved left ventricular systolic function. Her fever has resolved, but the viral culture is pending. She has been treated empirically with levofloxacin for a possible pulmonary or sinus source of infection.
+
+Potential Medical Complications:
+
+1. Infection: The patient's fever and elevated cardiac enzymes suggest that she may have an underlying infection. Further testing, such as blood cultures and imaging studies, is needed to determine the source and severity of the infection.
+2. Cardiac Complications: The patient's moderate mitral regurgitation and preserved left ventricular systolic function may increase her risk of cardiac complications, such as heart failure or arrhythmias.
+3. Neurological Complications: The patient's dementia and altered mental status may increase her risk of neurological complications, such as seizures or stroke.
+4. Respiratory Complications: The patient's wheezing and moderate mitral regurgitation may increase her risk of respiratory complications, such as pneumonia or acute respiratory distress syndrome.
+5. Gastrointestinal Complications: The patient's bowel regimen and potential infection may increase her risk of gastrointestinal complications, such as diarrhea or constipation.
+6. Psychiatric Complications: The patient's agitation and altered mental status may increase her risk of psychiatric complications, such as delirium or psychosis.
+7. Hemodynamic Instability: The patient's hypotension and hypertension may increase her risk of hemodynamic instability, which can lead to cardiac arrest or other life-threatening complications.
+
+Recommendations:
+
+1. Continue to monitor the patient's vital signs, including blood pressure, heart rate, and oxygen saturation.
+2. Continue to administer antibiotics empirically for a possible pulmonary or sinus source of infection.
+3. Consider further testing, such as blood cultures and imaging studies, to determine the source and severity of the infection.
+4. Monitor the patient's cardiac enzymes and troponins to assess the severity of her cardiac condition.
+5. Consider consulting a cardiologist or intensivist to further evaluate and manage the patient's cardiac condition.
+6. Continue to monitor the patient's neurological and psychiatric status, and consider consulting a neurologist or psychiatrist if necessary.
+7. Consider implementing a bowel regimen to prevent constipation and gastrointestinal complications."
+184430.0,295623,2101-01-25 10:58:00,Physician ,Physician Attending Progress Note,"Chief Complaint: Hypotension
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+   Agitated, confused overnight.  BP elevated
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Diltiazem - [**2101-1-24**] 11:39 AM
+   Furosemide (Lasix) - [**2101-1-24**] 06:00 PM
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Integumentary (skin): Psoriasis
+   Psychiatric / Sleep: Agitated, Delirious
+   Flowsheet Data as of  [**2101-1-25**] 10:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.7
+C (98.1
+   Tcurrent: 36.7
+C (98.1
+   HR: 75 (56 - 90) bpm
+   BP: 162/59(84){106/41(59) - 207/132(120)} mmHg
+   RR: 18 (16 - 21) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+             Total In:
+                                                                    150 mL
+                                                                    330 mL
+   PO:
+                                                                    100 mL
+                                                                    280 mL
+   TF:
+   IVF:
+                                                                     50 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  5,328 mL
+                                                                    560 mL
+   Urine:
+                                                                  5,328 mL
+                                                                    560 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -5,178 mL
+                                                                   -230 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ///28/
+   Physical Examination
+   General Appearance: Well nourished
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Lymphatic: Cervical WNL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Not assessed), (Left DP pulse: Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft
+   Extremities: Right: Trace, Left: Trace
+   Musculoskeletal: Unable to stand
+   Skin:  Not assessed, Psoriasis
+   Neurologic: Responds to: Verbal stimuli, Movement: Not assessed, Tone:
+   Not assessed, Confused
+   Labs / Radiology
+   10.8 g/dL
+   215 K/uL
+   112 mg/dL
+   0.6 mg/dL
+   28 mEq/L
+   3.7 mEq/L
+   16 mg/dL
+   104 mEq/L
+   144 mEq/L
+   32.1 %
+   11.5 K/uL
+        [image002.jpg]
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+                             [**2101-1-24**]  11:35 AM
+                             [**2101-1-24**]  07:22 PM
+                             [**2101-1-25**]  04:55 AM
+   WBC
+   16.2
+   11.5
+   Hct
+   34.9
+   32.1
+   Plt
+   228
+   215
+   Cr
+   0.8
+   0.6
+   TropT
+   0.14
+   0.16
+   0.12
+   0.18
+   0.20
+   Glucose
+   146
+   112
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:110/8/0.20, Ca++:8.8 mg/dL, Mg++:2.1 mg/dL, PO4:2.0 mg/dL
+   Assessment and Plan
+ ALTERED MENTAL STATUS (NOT DELIRIUM) remains confused. Will decrease
+   Haldol.  Family wants to make her DNR
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN) resolved
+ HYPERTENSION, BENIGN -
+ ATRIAL FIBRILLATION (AFIB) now in sinus
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT)
+ very confused
+   overnight
+ DEPRESSION
+ [**Last Name 121**] PROBLEM - ENTER DESCRIPTION IN COMMENTS
+   Psoriasis
+   ICU Care
+   Nutrition:
+   Glycemic Control:  SSI
+   Lines:
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:  DNR
+   Disposition :
+   Total time spent:  35 min
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: Hypotension
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+   Agitated, confused overnight.  BP elevated
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Diltiazem - [**2101-1-24**] 11:39 AM
+   Furosemide (Lasix) - [**2101-1-24**] 06:00 PM
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Integumentary (skin): Psoriasis
+   Psychiatric / Sleep: Agitated, Delirious
+   Flowsheet Data as of  [**2101-1-25**] 10:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.7
+C (98.1
+   Tcurrent: 36.7
+C (98.1
+   HR: 75 (56 - 90) bpm
+   BP: 162/59(84){106/41(59) - 207/132(120)} mmHg
+   RR: 18 (16 - 21) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+             Total In:
+                                                                    150 mL
+                                                                    330 mL
+   PO:
+                                                                    100 mL
+                                                                    280 mL
+   TF:
+   IVF:
+                                                                     50 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  5,328 mL
+                                                                    560 mL
+   Urine:
+                                                                  5,328 mL
+                                                                    560 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -5,178 mL
+                                                                   -230 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ///28/
+   Physical Examination
+   General Appearance: Well nourished
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Lymphatic: Cervical WNL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Not assessed), (Left DP pulse: Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft
+   Extremities: Right: Trace, Left: Trace
+   Musculoskeletal: Unable to stand
+   Skin:  Not assessed, Psoriasis
+   Neurologic: Responds to: Verbal stimuli, Movement: Not assessed, Tone:
+   Not assessed, Confused
+   Labs / Radiology
+   10.8 g/dL
+   215 K/uL
+   112 mg/dL
+   0.6 mg/dL
+   28 mEq/L
+   3.7 mEq/L
+   16 mg/dL
+   104 mEq/L
+   144 mEq/L
+   32.1 %
+   11.5 K/uL
+        [image002.jpg]
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+                             [**2101-1-24**]  11:35 AM
+                             [**2101-1-24**]  07:22 PM
+                             [**2101-1-25**]  04:55 AM
+   WBC
+   16.2
+   11.5
+   Hct
+   34.9
+   32.1
+   Plt
+   228
+   215
+   Cr
+   0.8
+   0.6
+   TropT
+   0.14
+   0.16
+   0.12
+   0.18
+   0.20
+   Glucose
+   146
+   112
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:110/8/0.20, Ca++:8.8 mg/dL, Mg++:2.1 mg/dL, PO4:2.0 mg/dL
+   Assessment and Plan
+ ALTERED MENTAL STATUS (NOT DELIRIUM) remains confused. Will decrease
+   Haldol.  Family wants to make her DNR
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN) resolved
+ HYPERTENSION, BENIGN -
+ ATRIAL FIBRILLATION (AFIB) now in sinus
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT)
+ very confused
+   overnight
+ DEPRESSION
+ [**Last Name 121**] PROBLEM - ENTER DESCRIPTION IN COMMENTS
+   Psoriasis
+   ICU Care
+   Nutrition:
+   Glycemic Control:  SSI
+   Lines:
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:  DNR
+   Disposition :
+   Total time spent:  35 min<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient's current condition is as follows:
+
+* The patient has altered mental status, remaining confused and agitated, with a recent episode of increased agitation and confusion overnight.
+* The patient has hypertension, which is currently under control.
+* The patient has atrial fibrillation, which has resolved and is now in sinus rhythm.
+* The patient has dementia, which is causing confusion and disorientation.
+* The patient has depression.
+* The patient has psoriasis, which is an ongoing condition.
+* The patient has a history of hypotension, with a current blood pressure of 162/59 mmHg.
+* The patient has a fever, which has resolved.
+* The patient has a nasogastric tube in place.
+* The patient is receiving various medications, including diltiazem, furosemide, and Haldol.
+* The patient's laboratory results show:
+	+ Hemoglobin: 10.8 g/dL
+	+ White blood cell count: 16.2 K/uL
+	+ Platelet count: 228 K/uL
+	+ Creatinine: 0.8 mg/dL
+	+ Troponin-T: 0.14 ng/mL
+	+ Glucose: 146 mg/dL
+	+ Calcium: 8.8 mg/dL
+	+ Magnesium: 2.1 mg/dL
+	+ Phosphate: 2.0 mg/dL
+
+Potential medical complications that can arise from the patient's current condition include:
+
+* Increased risk of falls due to altered mental status and decreased mobility
+* Increased risk of pressure ulcers due to immobility and poor skin integrity
+* Increased risk of respiratory complications due to hypoxia and respiratory failure
+* Increased risk of sepsis due to fever and altered immune function
+* Increased risk of bleeding due to platelet dysfunction and anticoagulation therapy
+* Increased risk of electrolyte imbalance due to kidney dysfunction and medication use
+* Increased risk of cardiac complications due to atrial fibrillation and hypertension
+
+The patient's code status is DNR, indicating that the patient's family has chosen not to pursue life-sustaining interventions in the event of cardiac arrest or respiratory failure."
+184430.0,295623,2101-01-25 10:58:00,Physician ,Physician Attending Progress Note,"Chief Complaint: Hypotension
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+   Agitated, confused overnight.  BP elevated
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Diltiazem - [**2101-1-24**] 11:39 AM
+   Furosemide (Lasix) - [**2101-1-24**] 06:00 PM
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Integumentary (skin): Psoriasis
+   Psychiatric / Sleep: Agitated, Delirious
+   Flowsheet Data as of  [**2101-1-25**] 10:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.7
+C (98.1
+   Tcurrent: 36.7
+C (98.1
+   HR: 75 (56 - 90) bpm
+   BP: 162/59(84){106/41(59) - 207/132(120)} mmHg
+   RR: 18 (16 - 21) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+             Total In:
+                                                                    150 mL
+                                                                    330 mL
+   PO:
+                                                                    100 mL
+                                                                    280 mL
+   TF:
+   IVF:
+                                                                     50 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  5,328 mL
+                                                                    560 mL
+   Urine:
+                                                                  5,328 mL
+                                                                    560 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -5,178 mL
+                                                                   -230 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ///28/
+   Physical Examination
+   General Appearance: Well nourished
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Lymphatic: Cervical WNL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Not assessed), (Left DP pulse: Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft
+   Extremities: Right: Trace, Left: Trace
+   Musculoskeletal: Unable to stand
+   Skin:  Not assessed, Psoriasis
+   Neurologic: Responds to: Verbal stimuli, Movement: Not assessed, Tone:
+   Not assessed, Confused
+   Labs / Radiology
+   10.8 g/dL
+   215 K/uL
+   112 mg/dL
+   0.6 mg/dL
+   28 mEq/L
+   3.7 mEq/L
+   16 mg/dL
+   104 mEq/L
+   144 mEq/L
+   32.1 %
+   11.5 K/uL
+        [image002.jpg]
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+                             [**2101-1-24**]  11:35 AM
+                             [**2101-1-24**]  07:22 PM
+                             [**2101-1-25**]  04:55 AM
+   WBC
+   16.2
+   11.5
+   Hct
+   34.9
+   32.1
+   Plt
+   228
+   215
+   Cr
+   0.8
+   0.6
+   TropT
+   0.14
+   0.16
+   0.12
+   0.18
+   0.20
+   Glucose
+   146
+   112
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:110/8/0.20, Ca++:8.8 mg/dL, Mg++:2.1 mg/dL, PO4:2.0 mg/dL
+   Assessment and Plan
+ ALTERED MENTAL STATUS (NOT DELIRIUM) remains confused. Will decrease
+   Haldol.  Family wants to make her DNR
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN) resolved
+ HYPERTENSION, BENIGN -
+ ATRIAL FIBRILLATION (AFIB) now in sinus
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT)
+ DEPRESSION
+ [**Last Name 121**] PROBLEM - ENTER DESCRIPTION IN COMMENTS
+   Psoriasis
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition :
+   Total time spent:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: Hypotension
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+   Agitated, confused overnight.  BP elevated
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Diltiazem - [**2101-1-24**] 11:39 AM
+   Furosemide (Lasix) - [**2101-1-24**] 06:00 PM
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Integumentary (skin): Psoriasis
+   Psychiatric / Sleep: Agitated, Delirious
+   Flowsheet Data as of  [**2101-1-25**] 10:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.7
+C (98.1
+   Tcurrent: 36.7
+C (98.1
+   HR: 75 (56 - 90) bpm
+   BP: 162/59(84){106/41(59) - 207/132(120)} mmHg
+   RR: 18 (16 - 21) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 80.9 kg (admission): 80.9 kg
+   Height: 65 Inch
+             Total In:
+                                                                    150 mL
+                                                                    330 mL
+   PO:
+                                                                    100 mL
+                                                                    280 mL
+   TF:
+   IVF:
+                                                                     50 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  5,328 mL
+                                                                    560 mL
+   Urine:
+                                                                  5,328 mL
+                                                                    560 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -5,178 mL
+                                                                   -230 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ///28/
+   Physical Examination
+   General Appearance: Well nourished
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Lymphatic: Cervical WNL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Not assessed), (Left DP pulse: Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft
+   Extremities: Right: Trace, Left: Trace
+   Musculoskeletal: Unable to stand
+   Skin:  Not assessed, Psoriasis
+   Neurologic: Responds to: Verbal stimuli, Movement: Not assessed, Tone:
+   Not assessed, Confused
+   Labs / Radiology
+   10.8 g/dL
+   215 K/uL
+   112 mg/dL
+   0.6 mg/dL
+   28 mEq/L
+   3.7 mEq/L
+   16 mg/dL
+   104 mEq/L
+   144 mEq/L
+   32.1 %
+   11.5 K/uL
+        [image002.jpg]
+                             [**2101-1-23**]  10:30 AM
+                             [**2101-1-23**]  07:00 PM
+                             [**2101-1-24**]  04:47 AM
+                             [**2101-1-24**]  11:35 AM
+                             [**2101-1-24**]  07:22 PM
+                             [**2101-1-25**]  04:55 AM
+   WBC
+   16.2
+   11.5
+   Hct
+   34.9
+   32.1
+   Plt
+   228
+   215
+   Cr
+   0.8
+   0.6
+   TropT
+   0.14
+   0.16
+   0.12
+   0.18
+   0.20
+   Glucose
+   146
+   112
+   Other labs: PT / PTT / INR:13.9/31.4/1.2, CK / CKMB /
+   Troponin-T:110/8/0.20, Ca++:8.8 mg/dL, Mg++:2.1 mg/dL, PO4:2.0 mg/dL
+   Assessment and Plan
+ ALTERED MENTAL STATUS (NOT DELIRIUM) remains confused. Will decrease
+   Haldol.  Family wants to make her DNR
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN) resolved
+ HYPERTENSION, BENIGN -
+ ATRIAL FIBRILLATION (AFIB) now in sinus
+ DEMENTIA (INCLUDING ALZHEIMER'S, MULTI INFARCT)
+ DEPRESSION
+ [**Last Name 121**] PROBLEM - ENTER DESCRIPTION IN COMMENTS
+   Psoriasis
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2101-1-23**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition :
+   Total time spent:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 65-inch tall, 80.9 kg individual admitted to the ICU with a chief complaint of hypotension. The patient's 24-hour events include agitated and confused behavior overnight, with elevated blood pressure. The patient has a history of psoriasis, and their review of systems is unchanged from admission except for the noted psychiatric/sleep issues. The patient's vital signs are stable, with a temperature of 36.7°C, heart rate of 75 bpm, and blood pressure of 162/59 mmHg. The patient's laboratory results show an elevated white blood cell count, hematocrit, and platelet count, as well as elevated troponin-T and creatinine levels.
+
+Potential Medical Complications:
+
+1. Delirium: The patient's altered mental status and confusion could lead to delirium, which is a common complication in critically ill patients.
+2. Hypertension: The patient's blood pressure remains elevated, which could lead to complications such as cardiac arrhythmias, heart failure, and stroke.
+3. Infection: The patient's elevated white blood cell count and troponin-T levels could indicate an underlying infection, which could lead to sepsis and organ failure.
+4. Cardiac Complications: The patient's atrial fibrillation and elevated troponin-T levels could indicate cardiac complications, such as myocardial infarction or cardiogenic shock.
+5. Nutritional Deficiencies: The patient's inability to stand and lack of detailed nutritional information could lead to nutritional deficiencies, which could exacerbate their underlying conditions.
+6. DVT and Pulmonary Embolism: The patient's immobility and elevated D-dimer levels could increase their risk of developing deep vein thrombosis (DVT) and pulmonary embolism.
+7. Gastrointestinal Complications: The patient's inability to stand and lack of detailed gastrointestinal information could lead to gastrointestinal complications, such as constipation, diarrhea, or gastrointestinal bleeding.
+8. Skin Complications: The patient's psoriasis and immobility could increase their risk of developing skin complications, such as pressure ulcers or skin infections."

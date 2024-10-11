@@ -1,0 +1,2003 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+124021.0,217462,2144-10-04 06:27:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ ENDOSCOPY - At [**2144-10-3**] 07:45 PM
+   - Underwent EGD
+   - received 3 pRBCs without appropriate bump (AM Hct of 29 from 29,
+   repeat 32)
+   - Hemodynamically stable otherwise
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Pantoprazole (Protonix) - 8 mg/hour
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history: None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems: Feeling well. Mild chest discomfort. No SOB.
+   Flowsheet Data as of  [**2144-10-4**] 06:26 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.6
+C (97.9
+   HR: 70 (58 - 76) bpm
+   BP: 107/64(73) {90/46(55) - 137/85(97)} mmHg
+   RR: 15 (12 - 25) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 70 Inch
+           Total In:
+                                                                  3,808 mL
+                                                                    545 mL
+   PO:
+           TF:
+   IVF:
+                                                                    225 mL
+                                                                    129 mL
+   Blood products:
+                                                                    583 mL
+                                                                    417 mL
+   Total out:
+                                                                    500 mL
+                                                                    200 mL
+   Urine:
+                                                                    500 mL
+                                                                    200 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,308 mL
+                                                                    345 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///24/
+   Physical Examination
+   GEN: Well-appearing, well-nourished, NAD, Improved color
+   HEENT:  MMM, EOMI, PERRL, sclera anicteric without pallor.
+   NECK: JVP to 5cm, carotid pulses brisk
+   COR: normal S1 S2, No M/R/G, Radial pulses +2
+   PULM: Lungs CTAB, no W/R/R
+   ABD: Soft, NT, ND, +BS, no HSM, no masses
+   EXT: No C/C/E, Good Capillary Refill no palpable cords
+   NEURO: AoX3, CN II
+ XII grossly intact. Resting RUE tremor.
+   SKIN: No jaundice, cyanosis or ecchymoses.
+   Labs / Radiology
+   249 K/uL
+   10.4 g/dL
+   97 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   4.0 mEq/L
+   19 mg/dL
+   108 mEq/L
+   138 mEq/L
+   29.9 %
+   11.3 K/uL
+        [image002.jpg]
+                            [**2144-10-4**]  03:56 AM
+   WBC
+   11.3
+   Hct
+   29.9
+   Plt
+   249
+   Cr
+   0.8
+   Glucose
+   97
+   Other labs: PT / PTT / INR:13.6/23.8/1.2, ALT / AST:55/17, Alk Phos / T
+   Bili:59/1.1, Albumin:3.5 g/dL, LDH:118 IU/L, Ca++:8.6 mg/dL, Mg++:2.1
+   mg/dL, PO4:3.0 mg/dL
+   EGD:
+   There was evidence of friable mucosa at the GE junction at area of
+   previous BARRYX therapy. There was evidence of 4 visible vessels. There
+   was no clot and no active bleeding. (injection)
+   Otherwise normal EGD to second part of the duodenum
+   Assessment and Plan
+   44yM with Parkinsons, Barrett Esophagitis, s/p recent esophageal
+   scrapping, presenting with melena, lightheadedness, fatigue and likely
+   Hct drop.
+   .
+   # GIB: Inappropriate bump following 3 pRBCs. 4 additional units
+   cross-matched.
+   - f/u GI Recs reguarding potential re-scoping if needed
+   - PIVx2
+   - Serial Hcts
+   - IV PPi
+   - Carafate
+   - IV hydration while NPO
+   .
+   # Parkinsons Disease: Symptoms stable
+   - Cont Rasagaline, Requip (Home meds brought in by wife)
+   ICU [**Name (NI) 232**]
+   Nutrition: NPO will provide IVF maintenance
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2144-10-3**] 06:59 PM
+   Prophylaxis:
+   DVT:  Pneumoboots
+   Stress ulcer:  PPi
+   Communication:  Patient and wife
+   [**Name (NI) 129**] status: Full code
+   Disposition: [**Hospital Unit Name 10**]
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ ENDOSCOPY - At [**2144-10-3**] 07:45 PM
+   - Underwent EGD
+   - received 3 pRBCs without appropriate bump (AM Hct of 29 from 29,
+   repeat 32)
+   - Hemodynamically stable otherwise
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Pantoprazole (Protonix) - 8 mg/hour
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history: None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems: Feeling well. Mild chest discomfort. No SOB.
+   Flowsheet Data as of  [**2144-10-4**] 06:26 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.6
+C (97.9
+   HR: 70 (58 - 76) bpm
+   BP: 107/64(73) {90/46(55) - 137/85(97)} mmHg
+   RR: 15 (12 - 25) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 70 Inch
+           Total In:
+                                                                  3,808 mL
+                                                                    545 mL
+   PO:
+           TF:
+   IVF:
+                                                                    225 mL
+                                                                    129 mL
+   Blood products:
+                                                                    583 mL
+                                                                    417 mL
+   Total out:
+                                                                    500 mL
+                                                                    200 mL
+   Urine:
+                                                                    500 mL
+                                                                    200 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,308 mL
+                                                                    345 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///24/
+   Physical Examination
+   GEN: Well-appearing, well-nourished, NAD, Improved color
+   HEENT:  MMM, EOMI, PERRL, sclera anicteric without pallor.
+   NECK: JVP to 5cm, carotid pulses brisk
+   COR: normal S1 S2, No M/R/G, Radial pulses +2
+   PULM: Lungs CTAB, no W/R/R
+   ABD: Soft, NT, ND, +BS, no HSM, no masses
+   EXT: No C/C/E, Good Capillary Refill no palpable cords
+   NEURO: AoX3, CN II
+ XII grossly intact. Resting RUE tremor.
+   SKIN: No jaundice, cyanosis or ecchymoses.
+   Labs / Radiology
+   249 K/uL
+   10.4 g/dL
+   97 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   4.0 mEq/L
+   19 mg/dL
+   108 mEq/L
+   138 mEq/L
+   29.9 %
+   11.3 K/uL
+        [image002.jpg]
+                            [**2144-10-4**]  03:56 AM
+   WBC
+   11.3
+   Hct
+   29.9
+   Plt
+   249
+   Cr
+   0.8
+   Glucose
+   97
+   Other labs: PT / PTT / INR:13.6/23.8/1.2, ALT / AST:55/17, Alk Phos / T
+   Bili:59/1.1, Albumin:3.5 g/dL, LDH:118 IU/L, Ca++:8.6 mg/dL, Mg++:2.1
+   mg/dL, PO4:3.0 mg/dL
+   EGD:
+   There was evidence of friable mucosa at the GE junction at area of
+   previous BARRYX therapy. There was evidence of 4 visible vessels. There
+   was no clot and no active bleeding. (injection)
+   Otherwise normal EGD to second part of the duodenum
+   Assessment and Plan
+   44yM with Parkinsons, Barrett Esophagitis, s/p recent esophageal
+   scrapping, presenting with melena, lightheadedness, fatigue and likely
+   Hct drop.
+   .
+   # GIB: Inappropriate bump following 3 pRBCs. 4 additional units
+   cross-matched.
+   - f/u GI Recs reguarding potential re-scoping if needed
+   - PIVx2
+   - Serial Hcts
+   - IV PPi
+   - Carafate
+   - IV hydration while NPO
+   .
+   # Parkinsons Disease: Symptoms stable
+   - Cont Rasagaline, Requip (Home meds brought in by wife)
+   ICU [**Name (NI) 232**]
+   Nutrition: NPO will provide IVF maintenance
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2144-10-3**] 06:59 PM
+   Prophylaxis:
+   DVT:  Pneumoboots
+   Stress ulcer:  PPi
+   Communication:  Patient and wife
+   [**Name (NI) 129**] status: Full code
+   Disposition: [**Hospital Unit Name 10**]<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 44-year-old male with Parkinson's disease, Barrett esophagitis, and a history of esophageal scraping, presenting with melena, lightheadedness, and fatigue. He underwent an EGD procedure, which showed evidence of friable mucosa at the GE junction and 4 visible vessels. He received 3 pRBCs without an appropriate bump, and his hemoglobin level remained stable at 29%. He is currently hemodynamically stable, with vital signs within normal limits.
+
+Potential Medical Complications:
+
+1. Gastrointestinal bleeding (GIB): The patient's EGD revealed friable mucosa and visible vessels, which may indicate ongoing bleeding. The lack of clot and active bleeding suggests that the bleeding may have stopped, but it is essential to monitor the patient's hemoglobin levels and watch for signs of recurrent bleeding.
+2. Anemia: The patient's hemoglobin level is 29%, which is lower than normal. His anemia may be due to ongoing bleeding, and it is essential to monitor his hemoglobin levels and transfuse as needed.
+3. Fluid overload: The patient received 3 pRBCs, which may have contributed to fluid overload. His fluid balance is 3,308 mL, which is higher than normal. It is essential to monitor his fluid balance and adjust his fluid intake accordingly.
+4. Hypokalemia: The patient's potassium level is 3.0 mg/dL, which is lower than normal. Hypokalemia can occur due to gastrointestinal losses, and it is essential to monitor his potassium levels and adjust his potassium supplementation accordingly.
+5. Electrolyte imbalance: The patient's sodium level is 138 mg/dL, which is higher than normal. His chloride level is 108 mg/dL, which is lower than normal. Electrolyte imbalances can occur due to gastrointestinal losses and fluid overload. It is essential to monitor his electrolyte levels and adjust his electrolyte supplementation accordingly.
+6. Infection: The patient's WBC count is 11.3 K/uL, which is higher than normal. This may indicate an underlying infection, and it is essential to monitor his WBC count and watch for signs of infection.
+7. Thrombocytopenia: The patient's platelet count is 249 K/uL, which is lower than normal. This may be due to the patient's underlying medical condition or the EGD procedure. It is essential to monitor his platelet count and watch for signs of bleeding.
+8. Stress ulcer: The patient's stress ulcer prophylaxis with pantoprazole is appropriate, given his history of Barrett esophagitis and recent esophageal scraping. It is essential to monitor his gastric pH and adjust his stress ulcer prophylaxis as needed.
+9. Parkinson's disease: The patient's Parkinson's disease symptoms are stable, but it is essential to monitor his symptoms and adjust his medications as needed.
+
+In conclusion, the patient is at risk for various medical complications, including gastrointestinal bleeding, anemia, fluid overload, hypokalemia, electrolyte imbalance, infection, thrombocytopenia, stress ulcer, and Parkinson's disease symptoms. It is essential to monitor his vital signs, laboratory results, and clinical symptoms closely and adjust his treatment plan accordingly."
+124021.0,217462,2144-10-04 06:27:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ ENDOSCOPY - At [**2144-10-3**] 07:45 PM
+   - Underwent EGD
+   - received 3 pRBCs without appropriate bump
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Pantoprazole (Protonix) - 8 mg/hour
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2144-10-4**] 06:26 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.6
+C (97.9
+   HR: 70 (58 - 76) bpm
+   BP: 107/64(73) {90/46(55) - 137/85(97)} mmHg
+   RR: 15 (12 - 25) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 70 Inch
+           Total In:
+                                                                  3,808 mL
+                                                                    545 mL
+   PO:
+           TF:
+   IVF:
+                                                                    225 mL
+                                                                    129 mL
+   Blood products:
+                                                                    583 mL
+                                                                    417 mL
+   Total out:
+                                                                    500 mL
+                                                                    200 mL
+   Urine:
+                                                                    500 mL
+                                                                    200 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,308 mL
+                                                                    345 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///24/
+   Physical Examination
+   GEN: Well-appearing, well-nourished, NAD, No pallor
+   HEENT:  MMM, EOMI, PERRL, sclera anicteric without pallor.
+   NECK: JVP to 5cm, carotid pulses brisk, no bruits, no cervical
+   lymphadenopathy, trachea midline
+   COR: normal S1 S2, No M/R/G, Radial pulses +2
+   PULM: Lungs CTAB, no W/R/R
+   ABD: Soft, NT, ND, +BS, no HSM, no masses
+   EXT: No C/C/E, Good Capillary Refill no palpable cords
+   NEURO: AoX3, CN II
+ XII grossly intact. Resting RUE tremor.
+   SKIN: No jaundice, cyanosis or ecchymoses.
+   Labs / Radiology
+   249 K/uL
+   10.4 g/dL
+   97 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   4.0 mEq/L
+   19 mg/dL
+   108 mEq/L
+   138 mEq/L
+   29.9 %
+   11.3 K/uL
+        [image002.jpg]
+                            [**2144-10-4**]  03:56 AM
+   WBC
+   11.3
+   Hct
+   29.9
+   Plt
+   249
+   Cr
+   0.8
+   Glucose
+   97
+   Other labs: PT / PTT / INR:13.6/23.8/1.2, ALT / AST:55/17, Alk Phos / T
+   Bili:59/1.1, Albumin:3.5 g/dL, LDH:118 IU/L, Ca++:8.6 mg/dL, Mg++:2.1
+   mg/dL, PO4:3.0 mg/dL
+   EGD:
+   There was evidence of friable mucosa at the GE junction at area of
+   previous BARRYX therapy. There was evidence of 4 visible vessels. There
+   was no clot and no active bleeding. (injection)
+   Otherwise normal EGD to second part of the duodenum
+   Assessment and Plan
+   44yM with Parkinsons, Barrett Esophagitis, s/p recent esophageal
+   scrapping, presenting with melena, lightheadedness, fatigue and likely
+   Hct drop.
+   .
+   # GIB: Likely upper in origin given the patients presentation of Melena
+   and increased BUn. In addition pt orthostastatic with a hct of 29. DDx
+   includes esophageal ulceration, peptic ulcer. Seen by GI in ED.
+   - To receive 1pRBCs, 3 more cross matched
+   - PIVx2
+   - Serial Hcts
+   - Type and Screen
+   - IV PPi
+   - NPO for EGD tonight
+   .
+   # Parkinsons Disease: Symptoms stable
+   - Cont Rasagaline, Requip
+   ICU Care
+   Nutrition: NPO
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2144-10-3**] 06:59 PM
+   Prophylaxis:
+   DVT:  Pneumoboots
+   Stress ulcer:  PPi
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: [**Hospital Unit Name 10**]
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ ENDOSCOPY - At [**2144-10-3**] 07:45 PM
+   - Underwent EGD
+   - received 3 pRBCs without appropriate bump
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Pantoprazole (Protonix) - 8 mg/hour
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2144-10-4**] 06:26 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.6
+C (97.9
+   HR: 70 (58 - 76) bpm
+   BP: 107/64(73) {90/46(55) - 137/85(97)} mmHg
+   RR: 15 (12 - 25) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 70 Inch
+           Total In:
+                                                                  3,808 mL
+                                                                    545 mL
+   PO:
+           TF:
+   IVF:
+                                                                    225 mL
+                                                                    129 mL
+   Blood products:
+                                                                    583 mL
+                                                                    417 mL
+   Total out:
+                                                                    500 mL
+                                                                    200 mL
+   Urine:
+                                                                    500 mL
+                                                                    200 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,308 mL
+                                                                    345 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///24/
+   Physical Examination
+   GEN: Well-appearing, well-nourished, NAD, No pallor
+   HEENT:  MMM, EOMI, PERRL, sclera anicteric without pallor.
+   NECK: JVP to 5cm, carotid pulses brisk, no bruits, no cervical
+   lymphadenopathy, trachea midline
+   COR: normal S1 S2, No M/R/G, Radial pulses +2
+   PULM: Lungs CTAB, no W/R/R
+   ABD: Soft, NT, ND, +BS, no HSM, no masses
+   EXT: No C/C/E, Good Capillary Refill no palpable cords
+   NEURO: AoX3, CN II
+ XII grossly intact. Resting RUE tremor.
+   SKIN: No jaundice, cyanosis or ecchymoses.
+   Labs / Radiology
+   249 K/uL
+   10.4 g/dL
+   97 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   4.0 mEq/L
+   19 mg/dL
+   108 mEq/L
+   138 mEq/L
+   29.9 %
+   11.3 K/uL
+        [image002.jpg]
+                            [**2144-10-4**]  03:56 AM
+   WBC
+   11.3
+   Hct
+   29.9
+   Plt
+   249
+   Cr
+   0.8
+   Glucose
+   97
+   Other labs: PT / PTT / INR:13.6/23.8/1.2, ALT / AST:55/17, Alk Phos / T
+   Bili:59/1.1, Albumin:3.5 g/dL, LDH:118 IU/L, Ca++:8.6 mg/dL, Mg++:2.1
+   mg/dL, PO4:3.0 mg/dL
+   EGD:
+   There was evidence of friable mucosa at the GE junction at area of
+   previous BARRYX therapy. There was evidence of 4 visible vessels. There
+   was no clot and no active bleeding. (injection)
+   Otherwise normal EGD to second part of the duodenum
+   Assessment and Plan
+   44yM with Parkinsons, Barrett Esophagitis, s/p recent esophageal
+   scrapping, presenting with melena, lightheadedness, fatigue and likely
+   Hct drop.
+   .
+   # GIB: Likely upper in origin given the patients presentation of Melena
+   and increased BUn. In addition pt orthostastatic with a hct of 29. DDx
+   includes esophageal ulceration, peptic ulcer. Seen by GI in ED.
+   - To receive 1pRBCs, 3 more cross matched
+   - PIVx2
+   - Serial Hcts
+   - Type and Screen
+   - IV PPi
+   - NPO for EGD tonight
+   .
+   # Parkinsons Disease: Symptoms stable
+   - Cont Rasagaline, Requip
+   ICU Care
+   Nutrition: NPO
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2144-10-3**] 06:59 PM
+   Prophylaxis:
+   DVT:  Pneumoboots
+   Stress ulcer:  PPi
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: [**Hospital Unit Name 10**]<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 44-year-old male with Parkinson's disease, Barrett esophagitis, and a history of esophageal scraping, presenting with melena, lightheadedness, fatigue, and likely Hct drop. He underwent an endoscopy (EGD) with evidence of friable mucosa at the GE junction and four visible vessels. The patient is likely experiencing a gastrointestinal bleed (GIB) of upper origin, and the differential diagnosis includes esophageal ulceration and peptic ulcer. The patient is receiving IV pantoprazole and has been transfused with 3 pRBCs without appropriate bump.
+
+Potential Medical Complications:
+
+1. Gastrointestinal bleeding (GIB): The patient's presentation with melena, lightheadedness, and fatigue suggests a significant bleeding episode, which may lead to hypovolemic shock, anemia, and potential organ failure.
+2. Hypovolemic shock: The patient's hypotension (107/64 mmHg) and tachycardia (70 bpm) may indicate a volume deficit, which can lead to organ dysfunction and failure if not promptly addressed.
+3. Anemia: The patient's Hct of 29.9% suggests a significant anemia, which may exacerbate the patient's symptoms and increase the risk of cardiovascular complications.
+4. Respiratory complications: The patient's oxygen saturation is 100%, but the patient's respiratory rate is slightly elevated (15 breaths/min), which may indicate early signs of respiratory distress.
+5. Neurological complications: The patient's Parkinson's disease may increase the risk of neurological complications, such as worsening tremors, rigidity, and bradykinesia, which can impact the patient's quality of life and functional status.
+6. Infection: The patient's recent esophageal scraping and EGD may have introduced bacteria into the patient's system, increasing the risk of infection, particularly pneumonia or sepsis.
+7. Venous thromboembolism (VTE): The patient's immobility and underlying medical conditions may increase the risk of VTE, which can lead to pulmonary embolism and potentially life-threatening complications."
+124021.0,217462,2144-10-04 06:27:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ ENDOSCOPY - At [**2144-10-3**] 07:45 PM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Pantoprazole (Protonix) - 8 mg/hour
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2144-10-4**] 06:26 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.6
+C (97.9
+   HR: 70 (58 - 76) bpm
+   BP: 107/64(73) {90/46(55) - 137/85(97)} mmHg
+   RR: 15 (12 - 25) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 70 Inch
+           Total In:
+                                                                  3,808 mL
+                                                                    545 mL
+   PO:
+           TF:
+   IVF:
+                                                                    225 mL
+                                                                    129 mL
+   Blood products:
+                                                                    583 mL
+                                                                    417 mL
+   Total out:
+                                                                    500 mL
+                                                                    200 mL
+   Urine:
+                                                                    500 mL
+                                                                    200 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,308 mL
+                                                                    345 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///24/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   249 K/uL
+   10.4 g/dL
+   97 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   4.0 mEq/L
+   19 mg/dL
+   108 mEq/L
+   138 mEq/L
+   29.9 %
+   11.3 K/uL
+        [image002.jpg]
+                            [**2144-10-4**]  03:56 AM
+   WBC
+   11.3
+   Hct
+   29.9
+   Plt
+   249
+   Cr
+   0.8
+   Glucose
+   97
+   Other labs: PT / PTT / INR:13.6/23.8/1.2, ALT / AST:55/17, Alk Phos / T
+   Bili:59/1.1, Albumin:3.5 g/dL, LDH:118 IU/L, Ca++:8.6 mg/dL, Mg++:2.1
+   mg/dL, PO4:3.0 mg/dL
+   Assessment and Plan
+ .H/O PARKINSON'S DISEASE
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2144-10-3**] 06:59 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ ENDOSCOPY - At [**2144-10-3**] 07:45 PM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Pantoprazole (Protonix) - 8 mg/hour
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2144-10-4**] 06:26 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.6
+C (97.9
+   HR: 70 (58 - 76) bpm
+   BP: 107/64(73) {90/46(55) - 137/85(97)} mmHg
+   RR: 15 (12 - 25) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 70 Inch
+           Total In:
+                                                                  3,808 mL
+                                                                    545 mL
+   PO:
+           TF:
+   IVF:
+                                                                    225 mL
+                                                                    129 mL
+   Blood products:
+                                                                    583 mL
+                                                                    417 mL
+   Total out:
+                                                                    500 mL
+                                                                    200 mL
+   Urine:
+                                                                    500 mL
+                                                                    200 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,308 mL
+                                                                    345 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///24/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   249 K/uL
+   10.4 g/dL
+   97 mg/dL
+   0.8 mg/dL
+   24 mEq/L
+   4.0 mEq/L
+   19 mg/dL
+   108 mEq/L
+   138 mEq/L
+   29.9 %
+   11.3 K/uL
+        [image002.jpg]
+                            [**2144-10-4**]  03:56 AM
+   WBC
+   11.3
+   Hct
+   29.9
+   Plt
+   249
+   Cr
+   0.8
+   Glucose
+   97
+   Other labs: PT / PTT / INR:13.6/23.8/1.2, ALT / AST:55/17, Alk Phos / T
+   Bili:59/1.1, Albumin:3.5 g/dL, LDH:118 IU/L, Ca++:8.6 mg/dL, Mg++:2.1
+   mg/dL, PO4:3.0 mg/dL
+   Assessment and Plan
+ .H/O PARKINSON'S DISEASE
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2144-10-3**] 06:59 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 24-hour-old ICU admission with a history of Parkinson's disease and gastrointestinal bleed (melena, GI bleed, GIB). The patient is receiving pantoprazole (Protonix) infusion for stress ulcer prophylaxis. The patient's vital signs are stable, with a temperature of 36.6°C, heart rate of 70 bpm, and blood pressure of 107/64 mmHg. The patient is receiving oxygen therapy with an SpO2 of 100%. The patient's fluid balance is stable, with a total input of 3,808 mL and a total output of 500 mL. The patient's laboratory results show a white blood cell count of 11.3 K/uL, hemoglobin of 10.4 g/dL, and platelet count of 249 K/uL. The patient's liver enzymes are elevated, with an aspartate aminotransferase (AST) of 55 IU/L and alanine aminotransferase (ALT) of 17 IU/L. The patient's blood chemistry results show an elevated creatinine of 0.8 mg/dL and a low albumin of 3.5 g/dL.
+
+Potential Medical Complications:
+
+1. Gastrointestinal bleeding: The patient's history of gastrointestinal bleed and melena puts them at risk for further bleeding, which can lead to hypovolemic shock and multi-organ failure.
+2. Stress ulcer: The patient's receipt of pantoprazole infusion for stress ulcer prophylaxis may not be sufficient to prevent stress ulcers, which can lead to bleeding and perforation.
+3. Respiratory failure: The patient's SpO2 of 100% on oxygen therapy suggests that they may be at risk for respiratory failure, particularly if they develop pneumonia or other respiratory complications.
+4. Sepsis: The patient's elevated white blood cell count and liver enzymes suggest that they may be at risk for sepsis, particularly if they develop a nosocomial infection.
+5. Acute kidney injury: The patient's elevated creatinine and low albumin suggest that they may be at risk for acute kidney injury, particularly if they develop sepsis or other systemic inflammatory response syndrome (SIRS).
+6. Nutritional deficiencies: The patient's receipt of enteral nutrition may not be sufficient to meet their nutritional needs, particularly if they have a history of malnutrition or are at risk for malnutrition.
+7. Pressure ulcers: The patient's immobility and potential for prolonged hospitalization put them at risk for pressure ulcers, particularly if they are not properly turned and repositioned."
+124021.0,217462,2144-10-05 06:09:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   -GI would like pt to stay in ICU overnight again in setting of high
+   risk for rebleed.
+   -5p Hct down to 31 from 34 so pt remains NPO
+   -Am call out planned if Hct remains stable
+   -Cont maintenance fluids with D5 1/2NS
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2144-10-5**] 06:09 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.4
+C (97.6
+   HR: 62 (56 - 72) bpm
+   BP: 116/74(83) {99/58(69) - 134/80(92)} mmHg
+   RR: 19 (15 - 26) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 70 Inch
+             Total In:
+                                                                  1,740 mL
+                                                                     61 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,323 mL
+                                                                     61 mL
+   Blood products:
+                                                                    417 mL
+   Total out:
+                                                                  2,200 mL
+                                                                    300 mL
+   Urine:
+                                                                  2,200 mL
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -460 mL
+                                                                   -239 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///28/
+   Physical Examination
+   GEN: Well-appearing, well-nourished, NAD, Improved color
+   HEENT:  MMM, EOMI, PERRL, sclera anicteric without pallor.
+   NECK: JVP to 5cm, carotid pulses brisk
+   COR: normal S1 S2, No M/R/G, Radial pulses +2
+   PULM: Lungs CTAB, no W/R/R
+   ABD: Soft, NT, ND, +BS, no HSM, no masses
+   EXT: No C/C/E, Good Capillary Refill no palpable cords
+   NEURO: AoX3, CN II
+ XII grossly intact. Resting RUE tremor.
+   SKIN: No jaundice, cyanosis or ecchymoses.
+   Labs / Radiology
+   262 K/uL
+   10.4 g/dL
+   99 mg/dL
+   1.0 mg/dL
+   28 mEq/L
+   4.1 mEq/L
+   19 mg/dL
+   104 mEq/L
+   139 mEq/L
+   29.8 %
+   10.1 K/uL
+        [image002.jpg]
+                            [**2144-10-4**]  03:56 AM
+                            [**2144-10-4**]  07:48 AM
+                            [**2144-10-4**]  11:54 AM
+                            [**2144-10-4**]  05:14 PM
+                            [**2144-10-4**]  11:42 PM
+                            [**2144-10-5**]  04:59 AM
+   WBC
+   11.3
+   10.1
+   Hct
+   29.9
+   32.6
+   34.2
+   31.2
+   31.6
+   29.8
+   Plt
+   249
+   262
+   Cr
+   0.8
+   1.0
+   Glucose
+   97
+   99
+   Other labs: PT / PTT / INR:13.5/23.3/1.2, ALT / AST:55/17, Alk Phos / T
+   Bili:59/1.1, Albumin:3.5 g/dL, LDH:118 IU/L, Ca++:9.0 mg/dL, Mg++:2.0
+   mg/dL, PO4:3.5 mg/dL
+   Assessment and Plan
+   44yM with Parkinsons, Barrett Esophagitis, s/p recent esophageal
+   scrapping, presenting with melena, lightheadedness, fatigue and likely
+   Hct drop.
+   .
+   # GIB: Inappropriate bump following 3 pRBCs. 4 additional units
+   cross-matched.
+   - f/u GI Recs reguarding potential re-scoping if needed
+   - PIVx2
+   - Serial Hcts
+   - IV PPi
+   - Carafate
+   - IV hydration while NPO
+   .
+   # Parkinsons Disease: Symptoms stable
+   - Cont Rasagaline, Requip (Home meds brought in by wife)
+   ICU [**Name (NI) 232**]
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2144-10-3**] 06:59 PM
+   Prophylaxis:
+   DVT:  Pneumoboots
+   Stress ulcer:  PPi
+   Communication:  Patient and wife
+   [**Name (NI) 129**] status: Full code
+   Disposition: [**Hospital Unit Name 10**]
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   -GI would like pt to stay in ICU overnight again in setting of high
+   risk for rebleed.
+   -5p Hct down to 31 from 34 so pt remains NPO
+   -Am call out planned if Hct remains stable
+   -Cont maintenance fluids with D5 1/2NS
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2144-10-5**] 06:09 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.4
+C (97.6
+   HR: 62 (56 - 72) bpm
+   BP: 116/74(83) {99/58(69) - 134/80(92)} mmHg
+   RR: 19 (15 - 26) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 70 Inch
+             Total In:
+                                                                  1,740 mL
+                                                                     61 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,323 mL
+                                                                     61 mL
+   Blood products:
+                                                                    417 mL
+   Total out:
+                                                                  2,200 mL
+                                                                    300 mL
+   Urine:
+                                                                  2,200 mL
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -460 mL
+                                                                   -239 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///28/
+   Physical Examination
+   GEN: Well-appearing, well-nourished, NAD, Improved color
+   HEENT:  MMM, EOMI, PERRL, sclera anicteric without pallor.
+   NECK: JVP to 5cm, carotid pulses brisk
+   COR: normal S1 S2, No M/R/G, Radial pulses +2
+   PULM: Lungs CTAB, no W/R/R
+   ABD: Soft, NT, ND, +BS, no HSM, no masses
+   EXT: No C/C/E, Good Capillary Refill no palpable cords
+   NEURO: AoX3, CN II
+ XII grossly intact. Resting RUE tremor.
+   SKIN: No jaundice, cyanosis or ecchymoses.
+   Labs / Radiology
+   262 K/uL
+   10.4 g/dL
+   99 mg/dL
+   1.0 mg/dL
+   28 mEq/L
+   4.1 mEq/L
+   19 mg/dL
+   104 mEq/L
+   139 mEq/L
+   29.8 %
+   10.1 K/uL
+        [image002.jpg]
+                            [**2144-10-4**]  03:56 AM
+                            [**2144-10-4**]  07:48 AM
+                            [**2144-10-4**]  11:54 AM
+                            [**2144-10-4**]  05:14 PM
+                            [**2144-10-4**]  11:42 PM
+                            [**2144-10-5**]  04:59 AM
+   WBC
+   11.3
+   10.1
+   Hct
+   29.9
+   32.6
+   34.2
+   31.2
+   31.6
+   29.8
+   Plt
+   249
+   262
+   Cr
+   0.8
+   1.0
+   Glucose
+   97
+   99
+   Other labs: PT / PTT / INR:13.5/23.3/1.2, ALT / AST:55/17, Alk Phos / T
+   Bili:59/1.1, Albumin:3.5 g/dL, LDH:118 IU/L, Ca++:9.0 mg/dL, Mg++:2.0
+   mg/dL, PO4:3.5 mg/dL
+   Assessment and Plan
+   44yM with Parkinsons, Barrett Esophagitis, s/p recent esophageal
+   scrapping, presenting with melena, lightheadedness, fatigue and likely
+   Hct drop.
+   .
+   # GIB: Inappropriate bump following 3 pRBCs. 4 additional units
+   cross-matched.
+   - f/u GI Recs reguarding potential re-scoping if needed
+   - PIVx2
+   - Serial Hcts
+   - IV PPi
+   - Carafate
+   - IV hydration while NPO
+   .
+   # Parkinsons Disease: Symptoms stable
+   - Cont Rasagaline, Requip (Home meds brought in by wife)
+   ICU [**Name (NI) 232**]
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2144-10-3**] 06:59 PM
+   Prophylaxis:
+   DVT:  Pneumoboots
+   Stress ulcer:  PPi
+   Communication:  Patient and wife
+   [**Name (NI) 129**] status: Full code
+   Disposition: [**Hospital Unit Name 10**]<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient, a 44-year-old male with Parkinson's disease and Barrett esophagitis, is being monitored in the ICU after undergoing esophageal scraping and presenting with melena, lightheadedness, fatigue, and likely hemoglobin (Hb) drop. He is receiving maintenance fluids with D5 1/2NS and is NPO due to a recent Hb drop from 34 to 31. His vital signs are stable, with a temperature of 36.9°C, heart rate of 62 beats per minute, and blood pressure of 116/74 mmHg. His respiratory support is minimal, with an oxygen saturation of 100% and normal ABG values.
+
+Potential Medical Complications:
+
+1. Rebleeding: Given the patient's high risk of rebleed, close monitoring of his Hb levels and fluid status is crucial to prevent further bleeding.
+2. Hypovolemic Shock: The patient's Hb drop and ongoing bleeding may lead to hypovolemic shock, which can be life-threatening if not addressed promptly.
+3. Infection: The patient's recent esophageal scraping and possible bleeding may increase his risk of infection, particularly if his gut is not properly sealed.
+4. Respiratory Complications: The patient's respiratory status is currently stable, but his history of Parkinson's disease and recent bleeding may increase his risk of respiratory complications, such as pneumonia or aspiration.
+5. Nutritional Deficits: The patient's NPO status and possible malabsorption due to bleeding may lead to nutritional deficits, which can worsen his overall condition.
+6. Cardiovascular Complications: The patient's recent bleeding and possible hypovolemic shock may increase his risk of cardiovascular complications, such as arrhythmias or cardiac arrest.
+7. Neurological Complications: The patient's Parkinson's disease and possible bleeding may increase his risk of neurological complications, such as seizures or stroke.
+
+Recommendations:
+
+1. Continue close monitoring of the patient's Hb levels, fluid status, and vital signs.
+2. Administer additional blood products as needed to maintain a stable Hb level.
+3. Consider re-scoping the patient's esophagus if bleeding persists or worsens.
+4. Monitor the patient's respiratory status closely and consider providing respiratory support if necessary.
+5. Provide nutritional support, such as total parenteral nutrition (TPN), if the patient is unable to tolerate oral intake.
+6. Monitor the patient's cardiovascular status closely and consider administering medications to prevent cardiovascular complications.
+7. Monitor the patient's neurological status closely and consider administering medications to prevent neurological complications."
+124021.0,217462,2144-10-05 06:09:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2144-10-5**] 06:09 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.4
+C (97.6
+   HR: 62 (56 - 72) bpm
+   BP: 116/74(83) {99/58(69) - 134/80(92)} mmHg
+   RR: 19 (15 - 26) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 70 Inch
+             Total In:
+                                                                  1,740 mL
+                                                                     61 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,323 mL
+                                                                     61 mL
+   Blood products:
+                                                                    417 mL
+   Total out:
+                                                                  2,200 mL
+                                                                    300 mL
+   Urine:
+                                                                  2,200 mL
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -460 mL
+                                                                   -239 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///28/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   262 K/uL
+   10.4 g/dL
+   99 mg/dL
+   1.0 mg/dL
+   28 mEq/L
+   4.1 mEq/L
+   19 mg/dL
+   104 mEq/L
+   139 mEq/L
+   29.8 %
+   10.1 K/uL
+        [image002.jpg]
+                            [**2144-10-4**]  03:56 AM
+                            [**2144-10-4**]  07:48 AM
+                            [**2144-10-4**]  11:54 AM
+                            [**2144-10-4**]  05:14 PM
+                            [**2144-10-4**]  11:42 PM
+                            [**2144-10-5**]  04:59 AM
+   WBC
+   11.3
+   10.1
+   Hct
+   29.9
+   32.6
+   34.2
+   31.2
+   31.6
+   29.8
+   Plt
+   249
+   262
+   Cr
+   0.8
+   1.0
+   Glucose
+   97
+   99
+   Other labs: PT / PTT / INR:13.5/23.3/1.2, ALT / AST:55/17, Alk Phos / T
+   Bili:59/1.1, Albumin:3.5 g/dL, LDH:118 IU/L, Ca++:9.0 mg/dL, Mg++:2.0
+   mg/dL, PO4:3.5 mg/dL
+   Assessment and Plan
+ .H/O PARKINSON'S DISEASE
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2144-10-3**] 06:59 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2144-10-5**] 06:09 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.4
+C (97.6
+   HR: 62 (56 - 72) bpm
+   BP: 116/74(83) {99/58(69) - 134/80(92)} mmHg
+   RR: 19 (15 - 26) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 70 Inch
+             Total In:
+                                                                  1,740 mL
+                                                                     61 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,323 mL
+                                                                     61 mL
+   Blood products:
+                                                                    417 mL
+   Total out:
+                                                                  2,200 mL
+                                                                    300 mL
+   Urine:
+                                                                  2,200 mL
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -460 mL
+                                                                   -239 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///28/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   262 K/uL
+   10.4 g/dL
+   99 mg/dL
+   1.0 mg/dL
+   28 mEq/L
+   4.1 mEq/L
+   19 mg/dL
+   104 mEq/L
+   139 mEq/L
+   29.8 %
+   10.1 K/uL
+        [image002.jpg]
+                            [**2144-10-4**]  03:56 AM
+                            [**2144-10-4**]  07:48 AM
+                            [**2144-10-4**]  11:54 AM
+                            [**2144-10-4**]  05:14 PM
+                            [**2144-10-4**]  11:42 PM
+                            [**2144-10-5**]  04:59 AM
+   WBC
+   11.3
+   10.1
+   Hct
+   29.9
+   32.6
+   34.2
+   31.2
+   31.6
+   29.8
+   Plt
+   249
+   262
+   Cr
+   0.8
+   1.0
+   Glucose
+   97
+   99
+   Other labs: PT / PTT / INR:13.5/23.3/1.2, ALT / AST:55/17, Alk Phos / T
+   Bili:59/1.1, Albumin:3.5 g/dL, LDH:118 IU/L, Ca++:9.0 mg/dL, Mg++:2.0
+   mg/dL, PO4:3.5 mg/dL
+   Assessment and Plan
+ .H/O PARKINSON'S DISEASE
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2144-10-3**] 06:59 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 70-inch tall individual with an unknown age and sex, admitted to the ICU with a chief complaint of gastrointestinal bleeding (melena, GI bleed, GIB). The patient has a history of Parkinson's disease and has received various treatments, including antibiotics, infusions, and other medications. The patient's vital signs are stable, with a temperature of 36.9°C (98.4°F), heart rate of 62 beats per minute, blood pressure of 116/74 mmHg, respiratory rate of 19 breaths per minute, and oxygen saturation of 100%. The patient is receiving respiratory support, but no oxygen delivery device is in use.
+
+The patient's laboratory results show a white blood cell count of 11.3, hemoglobin level of 10.4 g/dL, and platelet count of 249. The patient's creatinine level is 0.8 mg/dL, and glucose level is 97 mg/dL.
+
+The patient's physical examination is limited due to lack of assessment of peripheral vascular, skin, neurologic, and other systems.
+
+Potential Medical Complications:
+
+1. Gastrointestinal bleeding: The patient's history of gastrointestinal bleeding and melena may lead to further bleeding, hemorrhage, or perforation of the gastrointestinal tract.
+2. Infection: The patient's high white blood cell count and prolonged hospital stay increase the risk of developing infections, such as sepsis or pneumonia.
+3. Respiratory failure: The patient's respiratory rate of 19 breaths per minute and oxygen saturation of 100% may indicate respiratory distress or failure, which could lead to further complications.
+4. Cardiac complications: The patient's blood pressure of 116/74 mmHg may indicate hypertension, which could lead to cardiac complications, such as cardiac arrhythmias or heart failure.
+5. Neurological complications: The patient's history of Parkinson's disease and lack of assessment of neurologic systems may indicate neurological complications, such as increased intracranial pressure or seizures.
+6. Kidney injury: The patient's creatinine level of 0.8 mg/dL may indicate kidney injury or damage, which could lead to further complications, such as acute kidney injury or chronic kidney disease.
+7. Hyperglycemia: The patient's glucose level of 97 mg/dL may indicate hyperglycemia, which could lead to further complications, such as diabetic ketoacidosis or hyperosmolar hyperglycemic nonketotic syndrome."
+124021.0,217462,2144-10-05 06:09:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   -GI would like pt to stay in ICU overnight again in setting of high
+   risk for rebleed.
+   -5p Hct down to 31 from 34 so pt remains NPO
+   -Am call out planned if Hct remains stable
+   -Cont maintenance fluids with D5 1/2NS
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2144-10-5**] 06:09 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.4
+C (97.6
+   HR: 62 (56 - 72) bpm
+   BP: 116/74(83) {99/58(69) - 134/80(92)} mmHg
+   RR: 19 (15 - 26) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 70 Inch
+   Lying 115/66 HR 66
+   Sitting 114 / 61 HR 86
+   Standing 106 / 67 HR 82
+   Total In:
+                                                                  1,740 mL
+                                                                     61 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,323 mL
+                                                                     61 mL
+   Blood products:
+                                                                    417 mL
+   Total out:
+                                                                  2,200 mL
+                                                                    300 mL
+   Urine:
+                                                                  2,200 mL
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -460 mL
+                                                                   -239 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///28/
+   Physical Examination
+   GEN: NAD, A)x3 Improved color
+   HEENT:  MMM, EOMI, PERRL, sclera anicteric without pallor.
+   NECK: JVP to 5cm, carotid pulses brisk
+   COR: normal S1 S2, No M/R/G, Radial pulses +2
+   PULM: Lungs CTAB, no W/R/R
+   ABD: Soft, NT, ND, +BS, no HSM, no masses
+   EXT: No C/C/E, Good Capillary Refill no palpable cords
+   NEURO: AoX3, CN II
+ XII grossly intact. Improved RUE tremor.
+   SKIN: No jaundice, cyanosis or ecchymoses.
+   Labs / Radiology
+   262 K/uL
+   10.4 g/dL
+   99 mg/dL
+   1.0 mg/dL
+   28 mEq/L
+   4.1 mEq/L
+   19 mg/dL
+   104 mEq/L
+   139 mEq/L
+   29.8 %
+   10.1 K/uL
+        [image002.jpg]
+                            [**2144-10-4**]  03:56 AM
+                            [**2144-10-4**]  07:48 AM
+                            [**2144-10-4**]  11:54 AM
+                            [**2144-10-4**]  05:14 PM
+                            [**2144-10-4**]  11:42 PM
+                            [**2144-10-5**]  04:59 AM
+   WBC
+   11.3
+   10.1
+   Hct
+   29.9
+   32.6
+   34.2
+   31.2
+   31.6
+   29.8
+   Plt
+   249
+   262
+   Cr
+   0.8
+   1.0
+   Glucose
+   97
+   99
+   Other labs: PT / PTT / INR:13.5/23.3/1.2, ALT / AST:55/17, Alk Phos / T
+   Bili:59/1.1, Albumin:3.5 g/dL, LDH:118 IU/L, Ca++:9.0 mg/dL, Mg++:2.0
+   mg/dL, PO4:3.5 mg/dL
+   Assessment and Plan
+   44yM with Parkinsons, Barrett Esophagitis, s/p recent esophageal
+   scrapping, presenting with melena, lightheadedness, fatigue and likely
+   Hct drop.
+   .
+   # GIB: Hct has remained stable. 4 additional units cross-matched.
+   - f/u GI Recs
+   - PIVx2
+   - Serial Hcts spacing out
+   - IV PPi will change to [**Hospital1 **]
+   - Carafate
+   - IV hydration while NPO (will give NS given that pt was orthostatic
+   mildy tachy compared to baseline)
+   .
+   # Parkinsons Disease: Symptoms stable
+   - Cont Rasagaline, Requip (Home meds brought in by wife)
+   ICU [**Name (NI) 232**]
+   Nutrition: Clears
+   Glycemic Control:
+   Lines:
+   PIV x2
+   Prophylaxis:
+   DVT:  Pneumoboots
+   Stress ulcer:  PPi
+   Communication:  Patient and wife
+   [**Name (NI) 129**] status: Full code
+   Disposition: [**Hospital Unit Name 10**]
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   -GI would like pt to stay in ICU overnight again in setting of high
+   risk for rebleed.
+   -5p Hct down to 31 from 34 so pt remains NPO
+   -Am call out planned if Hct remains stable
+   -Cont maintenance fluids with D5 1/2NS
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2144-10-5**] 06:09 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.4
+C (97.6
+   HR: 62 (56 - 72) bpm
+   BP: 116/74(83) {99/58(69) - 134/80(92)} mmHg
+   RR: 19 (15 - 26) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 70 Inch
+   Lying 115/66 HR 66
+   Sitting 114 / 61 HR 86
+   Standing 106 / 67 HR 82
+   Total In:
+                                                                  1,740 mL
+                                                                     61 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,323 mL
+                                                                     61 mL
+   Blood products:
+                                                                    417 mL
+   Total out:
+                                                                  2,200 mL
+                                                                    300 mL
+   Urine:
+                                                                  2,200 mL
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -460 mL
+                                                                   -239 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///28/
+   Physical Examination
+   GEN: NAD, A)x3 Improved color
+   HEENT:  MMM, EOMI, PERRL, sclera anicteric without pallor.
+   NECK: JVP to 5cm, carotid pulses brisk
+   COR: normal S1 S2, No M/R/G, Radial pulses +2
+   PULM: Lungs CTAB, no W/R/R
+   ABD: Soft, NT, ND, +BS, no HSM, no masses
+   EXT: No C/C/E, Good Capillary Refill no palpable cords
+   NEURO: AoX3, CN II
+ XII grossly intact. Improved RUE tremor.
+   SKIN: No jaundice, cyanosis or ecchymoses.
+   Labs / Radiology
+   262 K/uL
+   10.4 g/dL
+   99 mg/dL
+   1.0 mg/dL
+   28 mEq/L
+   4.1 mEq/L
+   19 mg/dL
+   104 mEq/L
+   139 mEq/L
+   29.8 %
+   10.1 K/uL
+        [image002.jpg]
+                            [**2144-10-4**]  03:56 AM
+                            [**2144-10-4**]  07:48 AM
+                            [**2144-10-4**]  11:54 AM
+                            [**2144-10-4**]  05:14 PM
+                            [**2144-10-4**]  11:42 PM
+                            [**2144-10-5**]  04:59 AM
+   WBC
+   11.3
+   10.1
+   Hct
+   29.9
+   32.6
+   34.2
+   31.2
+   31.6
+   29.8
+   Plt
+   249
+   262
+   Cr
+   0.8
+   1.0
+   Glucose
+   97
+   99
+   Other labs: PT / PTT / INR:13.5/23.3/1.2, ALT / AST:55/17, Alk Phos / T
+   Bili:59/1.1, Albumin:3.5 g/dL, LDH:118 IU/L, Ca++:9.0 mg/dL, Mg++:2.0
+   mg/dL, PO4:3.5 mg/dL
+   Assessment and Plan
+   44yM with Parkinsons, Barrett Esophagitis, s/p recent esophageal
+   scrapping, presenting with melena, lightheadedness, fatigue and likely
+   Hct drop.
+   .
+   # GIB: Hct has remained stable. 4 additional units cross-matched.
+   - f/u GI Recs
+   - PIVx2
+   - Serial Hcts spacing out
+   - IV PPi will change to [**Hospital1 **]
+   - Carafate
+   - IV hydration while NPO (will give NS given that pt was orthostatic
+   mildy tachy compared to baseline)
+   .
+   # Parkinsons Disease: Symptoms stable
+   - Cont Rasagaline, Requip (Home meds brought in by wife)
+   ICU [**Name (NI) 232**]
+   Nutrition: Clears
+   Glycemic Control:
+   Lines:
+   PIV x2
+   Prophylaxis:
+   DVT:  Pneumoboots
+   Stress ulcer:  PPi
+   Communication:  Patient and wife
+   [**Name (NI) 129**] status: Full code
+   Disposition: [**Hospital Unit Name 10**]<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 44-year-old male with Parkinson's disease, Barrett Esophagitis, and a history of recent esophageal scraping, presenting with melena, lightheadedness, fatigue, and likely Hct drop. He is currently in the ICU for close monitoring.
+
+The patient's vital signs are stable, with a temperature of 36.9°C (98.4°F), heart rate of 62-72 beats per minute, and blood pressure of 116/74 mmHg. His respiratory support is minimal, with an SpO2 of 100% and no oxygen delivery device.
+
+The patient's physical examination reveals normal S1 and S2 heart sounds, no murmurs or gallop, and normal radial pulses. His lungs are clear, and his abdomen is soft and non-tender. His neurological examination is unchanged from admission, except for improved color and reduced tremor in the right upper extremity.
+
+Laboratory results show a stable Hct, with a current value of 31%. The patient's platelet count is 249,000/μL, and his creatinine is 0.8 mg/dL. His glucose level is 97 mg/dL, and his albumin is 3.5 g/dL.
+
+The patient's plan includes:
+
+* Close monitoring in the ICU for potential rebleed
+* IV hydration while NPO
+* Serial Hcts to monitor Hct levels
+* IV PPI to prevent stress ulcer
+* Prophylactic anticoagulation for DVT
+* Continuation of home medications, including Rasagaline and Requip
+
+Potential medical complications that can arise include:
+
+* Rebleeding from the esophageal varices
+* Development of stress ulcer or gastrointestinal bleeding
+* DVT or pulmonary embolism due to immobility and anticoagulation
+* Hypoglycemia or hyperglycemia due to insulin resistance and glucose control
+* Respiratory failure or pneumonia due to aspiration or other respiratory complications
+* Cardiovascular complications, such as arrhythmias or heart failure, due to underlying Parkinson's disease or other comorbidities
+
+It is essential to closely monitor the patient's condition and adjust the plan as needed to prevent these complications and ensure optimal care."
+124021.0,217462,2144-10-05 12:19:00,Physician ,Physician Attending Progress Note,"Chief Complaint: GI Bleed. amemia due to blood loss,
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   Hct stable. NPO yesterday. Hemodynamically stable.
+   Continued mild chest discomfort.
+   Afebrile.
+   Normal O2 saturation off supplemental oxygen.
+   24 Hour Events:
+   History obtained from Patient
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   protonix, colace, sucralfate, Requip
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2144-10-5**] 12:18 PM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.3
+C (97.3
+   HR: 76 (56 - 76) bpm
+   BP: 116/74(83) {99/58(69) - 134/80(92)} mmHg
+   RR: 21 (15 - 26) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 70 Inch
+             Total In:
+                                                                  1,740 mL
+                                                                    121 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,323 mL
+                                                                    121 mL
+   Blood products:
+                                                                    417 mL
+   Total out:
+                                                                  2,200 mL
+                                                                    300 mL
+   Urine:
+                                                                  2,200 mL
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -460 mL
+                                                                   -179 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///28/
+   Physical Examination
+   General Appearance: Well nourished, No(t) No acute distress, No(t)
+   Overweight / Obese, Thin, No(t) Anxious, No(t) Diaphoretic
+   Eyes / Conjunctiva: PERRL, No(t) Pupils dilated, No(t) Conjunctiva
+   pale, No(t) Sclera edema
+   Head, Ears, Nose, Throat: Normocephalic, No(t) Poor dentition, No(t)
+   Endotracheal tube, No(t) NG tube, No(t) OG tube
+   Lymphatic: Cervical WNL
+   Cardiovascular: (PMI Normal, No(t) Hyperdynamic), (S1: Normal, No(t)
+   Absent), (S2: Normal, No(t) Distant, No(t) Loud, No(t) Widely split ,
+   No(t) Fixed), No(t) S3, No(t) S4, No(t) Rub, (Murmur: No(t) Systolic,
+   Diastolic), Split S1
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric, No(t) Paradoxical),
+   (Percussion: Resonant : , No(t) Hyperresonant: , No(t) Dullness : ),
+   (Breath Sounds: Clear : , No(t) Crackles : , No(t) Bronchial: , No(t)
+   Wheezes : , No(t) Diminished: , No(t) Absent : , No(t) Rhonchorous: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended,
+   No(t) Tender: , No(t) Obese
+   Extremities: Right: Absent, Left: Absent, No(t) Cyanosis, No(t)
+   Clubbing
+   Musculoskeletal: No(t) Muscle wasting, No(t) Unable to stand
+   Skin:  Warm, No(t) Rash: , No(t) Jaundice
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, Oriented (to): Person, place, time, Movement: Purposeful,
+   No(t) Sedated, No(t) Paralyzed, Tone: Not assessed
+   Labs / Radiology
+   10.4 g/dL
+   262 K/uL
+   99 mg/dL
+   1.0 mg/dL
+   28 mEq/L
+   4.1 mEq/L
+   19 mg/dL
+   104 mEq/L
+   139 mEq/L
+   29.8 %
+   10.1 K/uL
+        [image002.jpg]
+                            [**2144-10-4**]  03:56 AM
+                            [**2144-10-4**]  07:48 AM
+                            [**2144-10-4**]  11:54 AM
+                            [**2144-10-4**]  05:14 PM
+                            [**2144-10-4**]  11:42 PM
+                            [**2144-10-5**]  04:59 AM
+   WBC
+   11.3
+   10.1
+   Hct
+   29.9
+   32.6
+   34.2
+   31.2
+   31.6
+   29.8
+   Plt
+   249
+   262
+   Cr
+   0.8
+   1.0
+   Glucose
+   97
+   99
+   Other labs: PT / PTT / INR:13.5/23.3/1.2, ALT / AST:55/17, Alk Phos / T
+   Bili:59/1.1, Albumin:3.5 g/dL, LDH:118 IU/L, Ca++:9.0 mg/dL, Mg++:2.0
+   mg/dL, PO4:3.5 mg/dL
+   Assessment and Plan
+ .H/O PARKINSON'S DISEASE
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+   ANEMIA
+   Patient doing well without evidence of ongoing acute bleeding.
+   Hemodynamically stable. Starting oral feeding today. Monitor hct.
+   Coagulation parameters normal.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2144-10-3**] 06:59 PM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: PPI
+   VAP:
+   Comments: Not applicable.
+   Communication: Patient discussed on interdisciplinary rounds , ICU
+   Code status: Full code
+   Disposition :Transfer to floor
+   Total time spent: 30 minutes
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: GI Bleed. amemia due to blood loss,
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   Hct stable. NPO yesterday. Hemodynamically stable.
+   Continued mild chest discomfort.
+   Afebrile.
+   Normal O2 saturation off supplemental oxygen.
+   24 Hour Events:
+   History obtained from Patient
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   protonix, colace, sucralfate, Requip
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2144-10-5**] 12:18 PM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.3
+C (97.3
+   HR: 76 (56 - 76) bpm
+   BP: 116/74(83) {99/58(69) - 134/80(92)} mmHg
+   RR: 21 (15 - 26) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 70 Inch
+             Total In:
+                                                                  1,740 mL
+                                                                    121 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,323 mL
+                                                                    121 mL
+   Blood products:
+                                                                    417 mL
+   Total out:
+                                                                  2,200 mL
+                                                                    300 mL
+   Urine:
+                                                                  2,200 mL
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -460 mL
+                                                                   -179 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///28/
+   Physical Examination
+   General Appearance: Well nourished, No(t) No acute distress, No(t)
+   Overweight / Obese, Thin, No(t) Anxious, No(t) Diaphoretic
+   Eyes / Conjunctiva: PERRL, No(t) Pupils dilated, No(t) Conjunctiva
+   pale, No(t) Sclera edema
+   Head, Ears, Nose, Throat: Normocephalic, No(t) Poor dentition, No(t)
+   Endotracheal tube, No(t) NG tube, No(t) OG tube
+   Lymphatic: Cervical WNL
+   Cardiovascular: (PMI Normal, No(t) Hyperdynamic), (S1: Normal, No(t)
+   Absent), (S2: Normal, No(t) Distant, No(t) Loud, No(t) Widely split ,
+   No(t) Fixed), No(t) S3, No(t) S4, No(t) Rub, (Murmur: No(t) Systolic,
+   Diastolic), Split S1
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric, No(t) Paradoxical),
+   (Percussion: Resonant : , No(t) Hyperresonant: , No(t) Dullness : ),
+   (Breath Sounds: Clear : , No(t) Crackles : , No(t) Bronchial: , No(t)
+   Wheezes : , No(t) Diminished: , No(t) Absent : , No(t) Rhonchorous: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended,
+   No(t) Tender: , No(t) Obese
+   Extremities: Right: Absent, Left: Absent, No(t) Cyanosis, No(t)
+   Clubbing
+   Musculoskeletal: No(t) Muscle wasting, No(t) Unable to stand
+   Skin:  Warm, No(t) Rash: , No(t) Jaundice
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, Oriented (to): Person, place, time, Movement: Purposeful,
+   No(t) Sedated, No(t) Paralyzed, Tone: Not assessed
+   Labs / Radiology
+   10.4 g/dL
+   262 K/uL
+   99 mg/dL
+   1.0 mg/dL
+   28 mEq/L
+   4.1 mEq/L
+   19 mg/dL
+   104 mEq/L
+   139 mEq/L
+   29.8 %
+   10.1 K/uL
+        [image002.jpg]
+                            [**2144-10-4**]  03:56 AM
+                            [**2144-10-4**]  07:48 AM
+                            [**2144-10-4**]  11:54 AM
+                            [**2144-10-4**]  05:14 PM
+                            [**2144-10-4**]  11:42 PM
+                            [**2144-10-5**]  04:59 AM
+   WBC
+   11.3
+   10.1
+   Hct
+   29.9
+   32.6
+   34.2
+   31.2
+   31.6
+   29.8
+   Plt
+   249
+   262
+   Cr
+   0.8
+   1.0
+   Glucose
+   97
+   99
+   Other labs: PT / PTT / INR:13.5/23.3/1.2, ALT / AST:55/17, Alk Phos / T
+   Bili:59/1.1, Albumin:3.5 g/dL, LDH:118 IU/L, Ca++:9.0 mg/dL, Mg++:2.0
+   mg/dL, PO4:3.5 mg/dL
+   Assessment and Plan
+ .H/O PARKINSON'S DISEASE
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+   ANEMIA
+   Patient doing well without evidence of ongoing acute bleeding.
+   Hemodynamically stable. Starting oral feeding today. Monitor hct.
+   Coagulation parameters normal.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2144-10-3**] 06:59 PM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: PPI
+   VAP:
+   Comments: Not applicable.
+   Communication: Patient discussed on interdisciplinary rounds , ICU
+   Code status: Full code
+   Disposition :Transfer to floor
+   Total time spent: 30 minutes<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 70-inch tall individual with a history of Parkinson's disease, gastrointestinal bleed, and anemia due to blood loss. They were admitted to the ICU with a chief complaint of GI bleed and are currently hemodynamically stable. The patient has been NPO for a day and is expected to start oral feeding today. The patient's hemoglobin levels have been stable, and coagulation parameters are normal. The patient is currently on protonix, colace, sucralfate, and Requip medications.
+
+Potential Medical Complications:
+
+1. Bleeding complications: The patient has a history of gastrointestinal bleed, which may recur or worsen if not managed properly.
+2. Anemia: The patient's anemia may worsen if they continue to experience bleeding or have inadequate iron replacement.
+3. Gastrointestinal obstruction: The patient's history of gastrointestinal bleed and anemia may increase the risk of gastrointestinal obstruction, which could lead to further complications.
+4. Infection: The patient's immunocompromised state due to their underlying medical conditions may increase the risk of infection, particularly in the respiratory and gastrointestinal tracts.
+5. Fluid imbalance: The patient's fluid balance is slightly negative, which may indicate inadequate fluid replacement or ongoing losses.
+6. Electrolyte imbalance: The patient's electrolyte levels are within normal limits, but may fluctuate if they experience further bleeding or have inadequate electrolyte replacement.
+7. Nutritional deficiencies: The patient's history of anemia and gastrointestinal bleed may indicate inadequate nutrition, which could lead to further complications.
+8. Cardiovascular complications: The patient's history of Parkinson's disease may increase the risk of cardiovascular complications, such as arrhythmias or cardiac failure.
+
+Recommendations:
+
+1. Monitor the patient's hemoglobin levels and coagulation parameters closely to ensure they do not worsen.
+2. Continue to manage the patient's gastrointestinal bleed and anemia with protonix, colace, sucralfate, and Requip medications.
+3. Ensure adequate fluid and electrolyte replacement to prevent fluid imbalance and electrolyte disturbances.
+4. Monitor the patient's nutritional status and provide adequate nutrition to prevent further complications.
+5. Monitor the patient's cardiovascular status and provide cardiac monitoring as necessary.
+6. Consider consultation with a gastroenterologist or hematologist to optimize the patient's management and prevent further complications."

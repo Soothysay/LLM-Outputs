@@ -1,0 +1,3447 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+178961.0,215465,2114-03-30 07:15:00,Physician ,Physician Resident Progress Note,"TITLE: PHYSICIAN RESIDENT PROGRESS NOTE
+   Chief Complaint:
+   24 Hour Events:
+ CARDIAC CATH - At [**2114-3-29**] 04:15 PM
+   -hypertensive to 170s with HR 50s, asymptomatic. Gave captopril 12.5
+   mg, then lisinopril 20 mg, with improvement of SBP to 150s
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-3-30**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 36.5
+C (97.7
+   Tcurrent: 36.5
+C (97.7
+   HR: 61 (49 - 61) bpm
+   BP: 148/42(69) {128/42(57) - 183/104(103)} mmHg
+   RR: 15 (13 - 23) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+                  Total In:
+                                                                    994 mL
+                  PO:
+                                                                    300 mL
+                  TF:
+   IVF:
+                                                                    694 mL
+   Blood products:
+   Total out:
+                                                                    625 mL
+                                                                    295 mL
+   Urine:
+                                                                    625 mL
+                                                                    295 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    369 mL
+                                                                   -295 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ////
+   Physical Examination
+   General: well-appearing in NAD
+   Neck: no carotid bruits, no JVP elevation
+   CV: RRR, nl S1/S2, no MRG
+   Resp: CTAB, no W/R/R
+   Abd: soft, NT/ND, NABS
+   Ext: no edema, 2+ PT/DP
+   Neuro: A&Ox3. CN II-XII intact.
+   Labs / Radiology
+        [image002.jpg]
+   Assessment and Plan
+   ASSESSMENT AND PLAN: 76y/o gentleman with a PMH of diabetes mellitus,
+   HTN, h/o stroke with residual expressive aphasia admitted on [**3-26**] with
+   urinary retention s/p NSTEMI found to have 3vd on cardiac
+   catheterization.
+   .
+   # NSTEMI - the patient was found to have 3vd with LM ostial lesion, LCx
+   and RCA total occlusions. Given 3vd PCI deferred for CT surgery
+   evaluation. Pt was CP free overnight but developed CP after rounds this
+   a.m., which resolved with nitro. TTE demonstrates moderate regional
+   left ventricular systolic dysfunction with inferior/inferolateral
+   akinesis/hypokinesis with EF 40%
+   - Considering emergent CABG without full clopidogrel washout due to
+   recurrent CP. Timing of surgery will depend on INR.
+   - CT chest to evaluate aorta; carotid ultrasound
+   - Continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril (uptitrate to 40 mg daily)
+   - Continue metoprolol
+   - Nitro gtt for CP
+   - holding coumadin
+   - Continue statin
+   .
+   #  HTN - continue beta blocker and lisinopril as above; uptitrate
+   lisinopril to 40 mg daily; start nitro drip for CP/BP control
+   .
+   # Hypercholesterolemia - continue atorvastatin
+   .
+   # DM2 - continue insulin sliding scale
+   .
+   # Left MCA stroke with expressive aphasia [**7-/2104**]  - on chronic warfarin
+   anticoagulation. Holding coumadin pre-operatively.
+   - Carotid US per CT [**Doctor First Name 91**] recs
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Comments: Cardiac/diabetic
+   Glycemic Control: Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-29**] 04:15 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Coumadin)
+   Stress ulcer: Not indicated
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: CCU for now ; to be evaluated by CT surgery for
+   consideration of emergent CABG
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE: PHYSICIAN RESIDENT PROGRESS NOTE
+   Chief Complaint:
+   24 Hour Events:
+ CARDIAC CATH - At [**2114-3-29**] 04:15 PM
+   -hypertensive to 170s with HR 50s, asymptomatic. Gave captopril 12.5
+   mg, then lisinopril 20 mg, with improvement of SBP to 150s
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-3-30**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 36.5
+C (97.7
+   Tcurrent: 36.5
+C (97.7
+   HR: 61 (49 - 61) bpm
+   BP: 148/42(69) {128/42(57) - 183/104(103)} mmHg
+   RR: 15 (13 - 23) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+                  Total In:
+                                                                    994 mL
+                  PO:
+                                                                    300 mL
+                  TF:
+   IVF:
+                                                                    694 mL
+   Blood products:
+   Total out:
+                                                                    625 mL
+                                                                    295 mL
+   Urine:
+                                                                    625 mL
+                                                                    295 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    369 mL
+                                                                   -295 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ////
+   Physical Examination
+   General: well-appearing in NAD
+   Neck: no carotid bruits, no JVP elevation
+   CV: RRR, nl S1/S2, no MRG
+   Resp: CTAB, no W/R/R
+   Abd: soft, NT/ND, NABS
+   Ext: no edema, 2+ PT/DP
+   Neuro: A&Ox3. CN II-XII intact.
+   Labs / Radiology
+        [image002.jpg]
+   Assessment and Plan
+   ASSESSMENT AND PLAN: 76y/o gentleman with a PMH of diabetes mellitus,
+   HTN, h/o stroke with residual expressive aphasia admitted on [**3-26**] with
+   urinary retention s/p NSTEMI found to have 3vd on cardiac
+   catheterization.
+   .
+   # NSTEMI - the patient was found to have 3vd with LM ostial lesion, LCx
+   and RCA total occlusions. Given 3vd PCI deferred for CT surgery
+   evaluation. Pt was CP free overnight but developed CP after rounds this
+   a.m., which resolved with nitro. TTE demonstrates moderate regional
+   left ventricular systolic dysfunction with inferior/inferolateral
+   akinesis/hypokinesis with EF 40%
+   - Considering emergent CABG without full clopidogrel washout due to
+   recurrent CP. Timing of surgery will depend on INR.
+   - CT chest to evaluate aorta; carotid ultrasound
+   - Continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril (uptitrate to 40 mg daily)
+   - Continue metoprolol
+   - Nitro gtt for CP
+   - holding coumadin
+   - Continue statin
+   .
+   #  HTN - continue beta blocker and lisinopril as above; uptitrate
+   lisinopril to 40 mg daily; start nitro drip for CP/BP control
+   .
+   # Hypercholesterolemia - continue atorvastatin
+   .
+   # DM2 - continue insulin sliding scale
+   .
+   # Left MCA stroke with expressive aphasia [**7-/2104**]  - on chronic warfarin
+   anticoagulation. Holding coumadin pre-operatively.
+   - Carotid US per CT [**Doctor First Name 91**] recs
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Comments: Cardiac/diabetic
+   Glycemic Control: Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-29**] 04:15 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Coumadin)
+   Stress ulcer: Not indicated
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: CCU for now ; to be evaluated by CT surgery for
+   consideration of emergent CABG<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the physician's daily progress note, the patient is a 76-year-old male with a history of diabetes mellitus, hypertension, and a previous stroke with residual expressive aphasia, who was admitted with urinary retention following a non-ST elevation myocardial infarction (NSTEMI).
+
+The patient underwent cardiac catheterization, which revealed three-vessel disease (3VD) with left main ostial lesion, left circumflex (LCx), and right coronary artery (RCA) total occlusions. Due to the 3VD, percutaneous coronary intervention (PCI) was deferred, and the patient is being considered for emergent coronary artery bypass grafting (CABG) surgery.
+
+The patient's current condition is as follows:
+
+* Vital signs: T 36.5°C, HR 61 bpm, BP 148/42 mmHg, RR 15 breaths/min, SpO2 100%
+* Hemodynamic monitoring: Central venous pressure (CVP) not mentioned, but the patient is receiving IV fluids and has a fluid balance of +369 mL
+* Respiratory support: Nasal cannula oxygen therapy, with an SpO2 of 100%
+* Cardiovascular: Sinus rhythm, with a moderate regional left ventricular systolic dysfunction and inferior/inferolateral akinesis/hypokinesis with an ejection fraction (EF) of 40%
+
+Potential medical complications that can arise from the patient's condition include:
+
+* Cardiac complications:
+	+ Recurrent coronary artery occlusion or restenosis
+	+ Cardiac arrhythmias
+	+ Heart failure
+* Respiratory complications:
+	+ Pneumonia
+	+ Respiratory failure
+* Neurological complications:
+	+ Stroke or transient ischemic attack (TIA)
+	+ Cognitive decline
+* Metabolic complications:
+	+ Hyperglycemia or hypoglycemia
+	+ Electrolyte imbalances
+
+Based on the patient's current condition and medical history, it is essential to closely monitor his cardiovascular, respiratory, and neurological status, as well as his glycemic control and fluid balance."
+178961.0,215465,2114-03-30 07:15:00,Physician ,Physician Resident Progress Note,"TITLE: PHYSICIAN RESIDENT PROGRESS NOTE
+   Chief Complaint:
+   24 Hour Events:
+ CARDIAC CATH - At [**2114-3-29**] 04:15 PM
+   -hypertensive to 170s with HR 50s, asymptomatic. Gave captopril 12.5
+   mg, then lisinopril 20 mg, with improvement of SBP to 150s
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-3-30**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 36.5
+C (97.7
+   Tcurrent: 36.5
+C (97.7
+   HR: 61 (49 - 61) bpm
+   BP: 148/42(69) {128/42(57) - 183/104(103)} mmHg
+   RR: 15 (13 - 23) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+                  Total In:
+                                                                    994 mL
+                  PO:
+                                                                    300 mL
+                  TF:
+   IVF:
+                                                                    694 mL
+   Blood products:
+   Total out:
+                                                                    625 mL
+                                                                    295 mL
+   Urine:
+                                                                    625 mL
+                                                                    295 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    369 mL
+                                                                   -295 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ////
+   Physical Examination
+   VS: T 97.7, HR 59, BP 145/60, RR 16, O2 100% RA.
+   General: well-appearing in NAD
+   Neck: no carotid bruits, flat JVP
+   CV: RRR, nl S1/S2, no MRG
+   Resp: CTAB, no W/R/R
+   Abd: soft, NT/ND, NABS
+   Ext: no edema, 2+ PT/DP
+   Neuro: A&Ox3, speech spontaneous with mild expressive aphasia
+   Labs / Radiology
+        [image002.jpg]
+   Assessment and Plan
+   ASSESSMENT AND PLAN: 76y/o gentleman with a PMH of diabetes mellitus,
+   HTN, h/o stroke with residual expressive aphasia admitted on [**3-26**] with
+   urinary retention s/p NSTEMI found to have 3vd on cardiac
+   catheterization.
+   .
+   # NSTEMI - the patient was found to have 3vd with LM ostial lesion, LCx
+   and RCA total occlusions. Given 3vd PCI deferred for CT surgery
+   evaluation. Pt currently CP free. TTE demonstrates moderate regional
+   left ventricular systolic dysfunction with inferior/inferolateral
+   akinesis/hypokinesis with EF 40%
+   - CT surgery to evaluate patient - likely CABG next week after
+   clopidogrel wash out. Plan for CT chest to evaluate aorta.
+   - Continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril (uptitrate to 40 mg daily), bradycardia will
+   limit metoprolol use
+   - Pt anticoagulated, will hold coumadin and start heparin gtt when INR
+   <2
+   - Continue statin
+   - ECG in am
+   .
+   #  HTN - continue beta blocker and lisinopril as above; uptitrate
+   lisinopril to 40 mg daily
+   .
+   # Hypercholesterolemia - continue atorvastatin
+   .
+   # DM2 - continue insulin SS
+   .
+   # L MCA stroke with expressive aphasia [**7-/2104**]  - on chronic warfarin
+   anticoagulation. Holding coumadin pre-operatively, heparin gtt when INR
+   <2.
+   - Carotid US per CT [**Doctor First Name 91**] recs
+   .
+   FEN: Cardiac/diabetic diet
+   .
+   ACCESS: PIV's
+   .
+   PROPHYLAXIS:
+   -DVT ppx with warfarin
+   .
+   CODE: Full
+   .
+   COMM:
+   .
+   DISPO: CCU for now
+   ICU Care
+   Nutrition:
+   Comments: Cardiac/diabetic
+   Glycemic Control: Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-29**] 04:15 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Coumadin)
+   Stress ulcer: Not indicated
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE: PHYSICIAN RESIDENT PROGRESS NOTE
+   Chief Complaint:
+   24 Hour Events:
+ CARDIAC CATH - At [**2114-3-29**] 04:15 PM
+   -hypertensive to 170s with HR 50s, asymptomatic. Gave captopril 12.5
+   mg, then lisinopril 20 mg, with improvement of SBP to 150s
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-3-30**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 36.5
+C (97.7
+   Tcurrent: 36.5
+C (97.7
+   HR: 61 (49 - 61) bpm
+   BP: 148/42(69) {128/42(57) - 183/104(103)} mmHg
+   RR: 15 (13 - 23) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+                  Total In:
+                                                                    994 mL
+                  PO:
+                                                                    300 mL
+                  TF:
+   IVF:
+                                                                    694 mL
+   Blood products:
+   Total out:
+                                                                    625 mL
+                                                                    295 mL
+   Urine:
+                                                                    625 mL
+                                                                    295 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    369 mL
+                                                                   -295 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ////
+   Physical Examination
+   VS: T 97.7, HR 59, BP 145/60, RR 16, O2 100% RA.
+   General: well-appearing in NAD
+   Neck: no carotid bruits, flat JVP
+   CV: RRR, nl S1/S2, no MRG
+   Resp: CTAB, no W/R/R
+   Abd: soft, NT/ND, NABS
+   Ext: no edema, 2+ PT/DP
+   Neuro: A&Ox3, speech spontaneous with mild expressive aphasia
+   Labs / Radiology
+        [image002.jpg]
+   Assessment and Plan
+   ASSESSMENT AND PLAN: 76y/o gentleman with a PMH of diabetes mellitus,
+   HTN, h/o stroke with residual expressive aphasia admitted on [**3-26**] with
+   urinary retention s/p NSTEMI found to have 3vd on cardiac
+   catheterization.
+   .
+   # NSTEMI - the patient was found to have 3vd with LM ostial lesion, LCx
+   and RCA total occlusions. Given 3vd PCI deferred for CT surgery
+   evaluation. Pt currently CP free. TTE demonstrates moderate regional
+   left ventricular systolic dysfunction with inferior/inferolateral
+   akinesis/hypokinesis with EF 40%
+   - CT surgery to evaluate patient - likely CABG next week after
+   clopidogrel wash out. Plan for CT chest to evaluate aorta.
+   - Continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril (uptitrate to 40 mg daily), bradycardia will
+   limit metoprolol use
+   - Pt anticoagulated, will hold coumadin and start heparin gtt when INR
+   <2
+   - Continue statin
+   - ECG in am
+   .
+   #  HTN - continue beta blocker and lisinopril as above; uptitrate
+   lisinopril to 40 mg daily
+   .
+   # Hypercholesterolemia - continue atorvastatin
+   .
+   # DM2 - continue insulin SS
+   .
+   # L MCA stroke with expressive aphasia [**7-/2104**]  - on chronic warfarin
+   anticoagulation. Holding coumadin pre-operatively, heparin gtt when INR
+   <2.
+   - Carotid US per CT [**Doctor First Name 91**] recs
+   .
+   FEN: Cardiac/diabetic diet
+   .
+   ACCESS: PIV's
+   .
+   PROPHYLAXIS:
+   -DVT ppx with warfarin
+   .
+   CODE: Full
+   .
+   COMM:
+   .
+   DISPO: CCU for now
+   ICU Care
+   Nutrition:
+   Comments: Cardiac/diabetic
+   Glycemic Control: Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-29**] 04:15 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Coumadin)
+   Stress ulcer: Not indicated
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the physician's progress note, the patient is a 76-year-old male admitted to the ICU with a history of diabetes mellitus, hypertension, and a previous stroke with residual expressive aphasia. The patient was found to have a non-ST elevation myocardial infarction (NSTEMI) and underwent cardiac catheterization, which revealed triple-vessel disease (3VD) with LM ostial lesion, LCx, and RCA total occlusions. The patient was found to be hypertensive with a blood pressure of 170s/50s and was treated with captopril and lisinopril, resulting in a reduction of blood pressure to 150s.
+
+The patient's vital signs are stable, with a temperature of 97.7°C, heart rate of 61 bpm, and blood pressure of 148/42 mmHg. The patient is receiving oxygen therapy via nasal cannula and is being monitored for fluid balance.
+
+The patient's lab results show moderate regional left ventricular systolic dysfunction with an ejection fraction of 40%. The patient is scheduled for cardiac surgery, likely coronary artery bypass grafting (CABG), after a computed tomography (CT) scan to evaluate the aorta.
+
+Potential medical complications that may arise include:
+
+1. Hypertensive crisis: Given the patient's history of hypertension and the use of antihypertensive medications, there is a risk of hypotensive crisis if the medications are not adjusted properly.
+2. Bleeding complications: The patient is receiving anticoagulation therapy with warfarin and heparin, which may increase the risk of bleeding complications during surgery.
+3. Respiratory failure: The patient's respiratory status may deteriorate due to pneumonia, pulmonary edema, or other respiratory complications.
+4. Cardiac arrhythmias: The patient's cardiac history and the use of medications such as metoprolol may increase the risk of cardiac arrhythmias.
+5. Infection: The patient's immunocompromised state and the use of invasive devices may increase the risk of infection.
+6. Renal failure: The patient's fluid status and the use of diuretics may increase the risk of renal failure.
+7. Stroke: The patient's history of stroke and the use of anticoagulation therapy may increase the risk of stroke or transient ischemic attack.
+
+The patient's care plan includes continued monitoring of vital signs, fluid balance, and lab results. The patient will undergo CT chest to evaluate the aorta and is scheduled for cardiac surgery after a CT scan to evaluate the aorta. The patient will continue to receive anticoagulation therapy with warfarin and heparin, and will be monitored for bleeding complications. The patient will also continue to receive beta-blocker and statin therapy, and will be monitored for cardiac arrhythmias and other complications."
+178961.0,215465,2114-03-31 07:36:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   CP in am, mild EKG changes, nitro drip started, CP resolved.
+   -hypertensive to 170s with HR 50s, asymptomatic. Gave captopril 12.5
+   mg, then lisinopril 20 mg, with improvement of SBP to 140s-150s
+   Seen by CT-[**Doctor First Name 91**] (Dr [**First Name (STitle) **] continue nitro drip, plan for surgery on
+   Monday). NPO on Sunday pm
+   -CT chest preop for CABG, calcifications throughout Aorta.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Nitroglycerin - 0.4 mcg/Kg/min
+   Other ICU medications:
+   Omeprazole (Prilosec) - [**2114-3-30**] 08:46 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-3-31**] 07:31 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.1
+C (98.7
+   Tcurrent: 36.6
+C (97.8
+   HR: 58 (48 - 63) bpm
+   BP: 152/55(80) {109/34(53) - 162/94(110)} mmHg
+   RR: 8 (8 - 21) insp/min
+   SpO2: 93%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                    704 mL
+                                                                     41 mL
+   PO:
+                                                                    600 mL
+             TF:
+   IVF:
+                                                                    104 mL
+                                                                     41 mL
+   Blood products:
+   Total out:
+                                                                    795 mL
+                                                                    250 mL
+   Urine:
+                                                                    795 mL
+                                                                    250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -91 mL
+                                                                   -209 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 93%
+   ABG: ///28/
+   Physical Examination
+   AO x3,chronic non productive cough
+   Distant heart sounds
+   Mild bibasilar crackles
+   Abd:+bs, soft, nt, nd
+   Ext: WWP, weak pulses.
+   Labs / Radiology
+   130 K/uL
+   10.4 g/dL
+   138 mg/dL
+   0.8 mg/dL
+   28 mEq/L
+   3.8 mEq/L
+   13 mg/dL
+   106 mEq/L
+   141 mEq/L
+   30.3 %
+   6.1 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+   WBC
+   6.7
+   6.1
+   Hct
+   33.7
+   30.3
+   Plt
+   130
+   130
+   Cr
+   0.9
+   0.8
+   Glucose
+   149
+   138
+   Other labs: PT / PTT / INR:19.6/25.9/1.8, Ca++:8.9 mg/dL, Mg++:1.8
+   mg/dL, PO4:2.4 mg/dL
+   Assessment and Plan
+ CORONARY ARTERY DISEASE (CAD, ISCHEMIC HEART DISEASE)
+ .H/O CVA (STROKE, CEREBRAL INFARCTION), OTHER
+   ASSESSMENT AND PLAN: 76y/o gentleman with a PMH of diabetes mellitus,
+   HTN, h/o stroke with residual expressive aphasia admitted on [**3-26**] with
+   urinary retention s/p NSTEMI found to have 3vd on cardiac
+   catheterization.
+   .
+   # NSTEMI - the patient was found to have 3vd with LM ostial lesion, LCx
+   and RCA total occlusions. Given 3vd PCI deferred for CT surgery
+   evaluation. Pt was CP free overnight but developed CP after rounds this
+   a.m., which resolved with nitro. TTE demonstrates moderate regional
+   left ventricular systolic dysfunction with inferior/inferolateral
+   akinesis/hypokinesis with EF 40%
+   - Considering emergent CABG without full clopidogrel washout due to
+   recurrent CP. Timing of surgery will depend on INR.
+   - CT chest to evaluate aorta showed calcifications throughout; carotid
+   ultrasound done read pending,
+   - Continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril (uptitrate to 40 mg daily)
+   - Continue metoprolol
+   - Nitro gtt for CP
+   - holding coumadin
+   - Continue statin
+   .
+   Skin:  erythematous base at coccyx, non draining but with open pore. ?
+   Pilonidal cyst, folliculitis, inconsistent with pressure ulcer. Local
+   bacitracin, wound care.
+   #  HTN - continue beta blocker and lisinopril as above; uptitrate
+   lisinopril to 40 mg daily; continue nitro drip for CP/BP control
+   .
+   # Hypercholesterolemia - continue atorvastatin
+   .
+   # DM2 - continue insulin sliding scale
+   .
+   # Left MCA stroke with expressive aphasia [**7-/2104**]  - on chronic warfarin
+   anticoagulation. Holding coumadin pre-operatively.
+   - Carotid US per CT [**Doctor First Name 91**] recs
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Comments: Cardiac/diabetic
+   Glycemic Control: Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-29**] 04:15 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Coumadin)
+   Stress ulcer: Not indicated
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: CCU for now ; to be evaluated by CT surgery for
+   consideration of emergent CABG
+   ------ Protected Section ------
+   Cardiology Teaching Physician Note
+   On this day I saw, examined and was physically present with the
+   resident / fellow for the key portions of the services provided. I
+   agree with the above note and plans.
+   I would add the following remarks:
+   History
+   Per housestaff
+   nothing to add
+   Physical Examination
+   per housestaff
+   nothing to add
+   Medical Decision Making
+   per housestaff
+   nothing to add
+   Above discussed extensively with patient.
+   Total time spent on patient care: 60 minutes.
+   Additional comments:
+   Awaiting surgery
+   tight control of rate pressure product
+   If recurrent chest pain
+   need to consider earlier surgery
+   ------ Protected Section Addendum Entered By:[**Name (NI) 103**] [**Name (NI) **],MD
+   on:[**2114-3-31**] 09:51 ------
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   CP in am, mild EKG changes, nitro drip started, CP resolved.
+   -hypertensive to 170s with HR 50s, asymptomatic. Gave captopril 12.5
+   mg, then lisinopril 20 mg, with improvement of SBP to 140s-150s
+   Seen by CT-[**Doctor First Name 91**] (Dr [**First Name (STitle) **] continue nitro drip, plan for surgery on
+   Monday). NPO on Sunday pm
+   -CT chest preop for CABG, calcifications throughout Aorta.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Nitroglycerin - 0.4 mcg/Kg/min
+   Other ICU medications:
+   Omeprazole (Prilosec) - [**2114-3-30**] 08:46 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-3-31**] 07:31 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.1
+C (98.7
+   Tcurrent: 36.6
+C (97.8
+   HR: 58 (48 - 63) bpm
+   BP: 152/55(80) {109/34(53) - 162/94(110)} mmHg
+   RR: 8 (8 - 21) insp/min
+   SpO2: 93%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                    704 mL
+                                                                     41 mL
+   PO:
+                                                                    600 mL
+             TF:
+   IVF:
+                                                                    104 mL
+                                                                     41 mL
+   Blood products:
+   Total out:
+                                                                    795 mL
+                                                                    250 mL
+   Urine:
+                                                                    795 mL
+                                                                    250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -91 mL
+                                                                   -209 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 93%
+   ABG: ///28/
+   Physical Examination
+   AO x3,chronic non productive cough
+   Distant heart sounds
+   Mild bibasilar crackles
+   Abd:+bs, soft, nt, nd
+   Ext: WWP, weak pulses.
+   Labs / Radiology
+   130 K/uL
+   10.4 g/dL
+   138 mg/dL
+   0.8 mg/dL
+   28 mEq/L
+   3.8 mEq/L
+   13 mg/dL
+   106 mEq/L
+   141 mEq/L
+   30.3 %
+   6.1 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+   WBC
+   6.7
+   6.1
+   Hct
+   33.7
+   30.3
+   Plt
+   130
+   130
+   Cr
+   0.9
+   0.8
+   Glucose
+   149
+   138
+   Other labs: PT / PTT / INR:19.6/25.9/1.8, Ca++:8.9 mg/dL, Mg++:1.8
+   mg/dL, PO4:2.4 mg/dL
+   Assessment and Plan
+ CORONARY ARTERY DISEASE (CAD, ISCHEMIC HEART DISEASE)
+ .H/O CVA (STROKE, CEREBRAL INFARCTION), OTHER
+   ASSESSMENT AND PLAN: 76y/o gentleman with a PMH of diabetes mellitus,
+   HTN, h/o stroke with residual expressive aphasia admitted on [**3-26**] with
+   urinary retention s/p NSTEMI found to have 3vd on cardiac
+   catheterization.
+   .
+   # NSTEMI - the patient was found to have 3vd with LM ostial lesion, LCx
+   and RCA total occlusions. Given 3vd PCI deferred for CT surgery
+   evaluation. Pt was CP free overnight but developed CP after rounds this
+   a.m., which resolved with nitro. TTE demonstrates moderate regional
+   left ventricular systolic dysfunction with inferior/inferolateral
+   akinesis/hypokinesis with EF 40%
+   - Considering emergent CABG without full clopidogrel washout due to
+   recurrent CP. Timing of surgery will depend on INR.
+   - CT chest to evaluate aorta showed calcifications throughout; carotid
+   ultrasound done read pending,
+   - Continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril (uptitrate to 40 mg daily)
+   - Continue metoprolol
+   - Nitro gtt for CP
+   - holding coumadin
+   - Continue statin
+   .
+   Skin:  erythematous base at coccyx, non draining but with open pore. ?
+   Pilonidal cyst, folliculitis, inconsistent with pressure ulcer. Local
+   bacitracin, wound care.
+   #  HTN - continue beta blocker and lisinopril as above; uptitrate
+   lisinopril to 40 mg daily; continue nitro drip for CP/BP control
+   .
+   # Hypercholesterolemia - continue atorvastatin
+   .
+   # DM2 - continue insulin sliding scale
+   .
+   # Left MCA stroke with expressive aphasia [**7-/2104**]  - on chronic warfarin
+   anticoagulation. Holding coumadin pre-operatively.
+   - Carotid US per CT [**Doctor First Name 91**] recs
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Comments: Cardiac/diabetic
+   Glycemic Control: Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-29**] 04:15 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Coumadin)
+   Stress ulcer: Not indicated
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: CCU for now ; to be evaluated by CT surgery for
+   consideration of emergent CABG
+   ------ Protected Section ------
+   Cardiology Teaching Physician Note
+   On this day I saw, examined and was physically present with the
+   resident / fellow for the key portions of the services provided. I
+   agree with the above note and plans.
+   I would add the following remarks:
+   History
+   Per housestaff
+   nothing to add
+   Physical Examination
+   per housestaff
+   nothing to add
+   Medical Decision Making
+   per housestaff
+   nothing to add
+   Above discussed extensively with patient.
+   Total time spent on patient care: 60 minutes.
+   Additional comments:
+   Awaiting surgery
+   tight control of rate pressure product
+   If recurrent chest pain
+   need to consider earlier surgery
+   ------ Protected Section Addendum Entered By:[**Name (NI) 103**] [**Name (NI) **],MD
+   on:[**2114-3-31**] 09:51 ------<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 76-year-old male admitted to the ICU with a history of coronary artery disease, hypertension, and a previous stroke. He was found to have 3-vessel disease on cardiac catheterization and underwent PCI, which was deferred due to recurrent chest pain. He was started on nitroglycerin drip for chest pain control. His vital signs are stable, with a temperature of 36.6°C, heart rate of 58 bpm, and blood pressure of 152/55 mmHg. His respiratory rate is 8 breaths per minute, and oxygen saturation is 93%. He has mild bibasilar crackles on lung examination and distant heart sounds. His abdomen is soft and non-tender.
+
+Labs and radiology results show:
+
+* Hemoglobin: 10.4 g/dL
+* Hematocrit: 33.7%
+* Platelet count: 130 K/uL
+* White blood cell count: 6.7 K/uL
+* Creatinine: 0.9 mg/dL
+* Glucose: 149 mg/dL
+* Calcium: 8.9 mg/dL
+* Magnesium: 1.8 mg/dL
+* Phosphorus: 2.4 mg/dL
+* Electrolytes: Na 141 mEq/L, K 6.1 mEq/L, Cl 3.8 mEq/L
+* PT: 19.6 seconds
+* PTT: 25.9 seconds
+* INR: 1.8
+
+Potential medical complications:
+
+* Recurrent chest pain, which may lead to acute coronary syndrome or cardiac arrest
+* Hypertension, which may exacerbate cardiac disease and increase the risk of complications
+* Thrombocytopenia, which may increase the risk of bleeding
+* Hyperglycemia, which may lead to diabetic complications
+* Electrolyte imbalances, which may affect cardiac function and increase the risk of arrhythmias
+* Respiratory compromise, which may worsen lung function and increase the risk of respiratory failure
+* Infection, which may complicate the patient's condition and increase the risk of sepsis
+
+Plan:
+
+* Continue nitroglycerin drip for chest pain control
+* Monitor blood pressure and heart rate closely
+* Uptitrate lisinopril to 40 mg daily
+* Continue metoprolol and atorvastatin
+* Hold coumadin pre-operatively
+* Continue insulin sliding scale for glycemic control
+* Monitor electrolyte levels and adjust as necessary
+* Continue wound care for the pilonidal cyst
+* Prepare the patient for emergent CABG surgery"
+178961.0,215465,2114-03-31 07:36:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   CP in am, mild EKG changes, nitro drip started, CP resolved.
+   -hypertensive to 170s with HR 50s, asymptomatic. Gave captopril 12.5
+   mg, then lisinopril 20 mg, with improvement of SBP to 140s-150s
+   Seen by CT-[**Doctor First Name 91**] (Dr [**First Name (STitle) **] continue nitro drip, plan for surgery on
+   Monday). NPO on Sunday pm
+   -CT chest preop for CABG, calcifications throughout Aorta.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Nitroglycerin - 0.4 mcg/Kg/min
+   Other ICU medications:
+   Omeprazole (Prilosec) - [**2114-3-30**] 08:46 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-3-31**] 07:31 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.1
+C (98.7
+   Tcurrent: 36.6
+C (97.8
+   HR: 58 (48 - 63) bpm
+   BP: 152/55(80) {109/34(53) - 162/94(110)} mmHg
+   RR: 8 (8 - 21) insp/min
+   SpO2: 93%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                    704 mL
+                                                                     41 mL
+   PO:
+                                                                    600 mL
+             TF:
+   IVF:
+                                                                    104 mL
+                                                                     41 mL
+   Blood products:
+   Total out:
+                                                                    795 mL
+                                                                    250 mL
+   Urine:
+                                                                    795 mL
+                                                                    250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -91 mL
+                                                                   -209 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 93%
+   ABG: ///28/
+   Physical Examination
+   AO x3,chronic non productive cough
+   Distant heart sounds
+   Mild bibasilar crackles
+   Abd:+bs, soft, nt, nd
+   Ext: WWP, weak pulses.
+   Labs / Radiology
+   130 K/uL
+   10.4 g/dL
+   138 mg/dL
+   0.8 mg/dL
+   28 mEq/L
+   3.8 mEq/L
+   13 mg/dL
+   106 mEq/L
+   141 mEq/L
+   30.3 %
+   6.1 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+   WBC
+   6.7
+   6.1
+   Hct
+   33.7
+   30.3
+   Plt
+   130
+   130
+   Cr
+   0.9
+   0.8
+   Glucose
+   149
+   138
+   Other labs: PT / PTT / INR:19.6/25.9/1.8, Ca++:8.9 mg/dL, Mg++:1.8
+   mg/dL, PO4:2.4 mg/dL
+   Assessment and Plan
+ CORONARY ARTERY DISEASE (CAD, ISCHEMIC HEART DISEASE)
+ .H/O CVA (STROKE, CEREBRAL INFARCTION), OTHER
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2114-3-30**] 02:13 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   CP in am, mild EKG changes, nitro drip started, CP resolved.
+   -hypertensive to 170s with HR 50s, asymptomatic. Gave captopril 12.5
+   mg, then lisinopril 20 mg, with improvement of SBP to 140s-150s
+   Seen by CT-[**Doctor First Name 91**] (Dr [**First Name (STitle) **] continue nitro drip, plan for surgery on
+   Monday). NPO on Sunday pm
+   -CT chest preop for CABG, calcifications throughout Aorta.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Nitroglycerin - 0.4 mcg/Kg/min
+   Other ICU medications:
+   Omeprazole (Prilosec) - [**2114-3-30**] 08:46 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-3-31**] 07:31 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.1
+C (98.7
+   Tcurrent: 36.6
+C (97.8
+   HR: 58 (48 - 63) bpm
+   BP: 152/55(80) {109/34(53) - 162/94(110)} mmHg
+   RR: 8 (8 - 21) insp/min
+   SpO2: 93%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                    704 mL
+                                                                     41 mL
+   PO:
+                                                                    600 mL
+             TF:
+   IVF:
+                                                                    104 mL
+                                                                     41 mL
+   Blood products:
+   Total out:
+                                                                    795 mL
+                                                                    250 mL
+   Urine:
+                                                                    795 mL
+                                                                    250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -91 mL
+                                                                   -209 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 93%
+   ABG: ///28/
+   Physical Examination
+   AO x3,chronic non productive cough
+   Distant heart sounds
+   Mild bibasilar crackles
+   Abd:+bs, soft, nt, nd
+   Ext: WWP, weak pulses.
+   Labs / Radiology
+   130 K/uL
+   10.4 g/dL
+   138 mg/dL
+   0.8 mg/dL
+   28 mEq/L
+   3.8 mEq/L
+   13 mg/dL
+   106 mEq/L
+   141 mEq/L
+   30.3 %
+   6.1 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+   WBC
+   6.7
+   6.1
+   Hct
+   33.7
+   30.3
+   Plt
+   130
+   130
+   Cr
+   0.9
+   0.8
+   Glucose
+   149
+   138
+   Other labs: PT / PTT / INR:19.6/25.9/1.8, Ca++:8.9 mg/dL, Mg++:1.8
+   mg/dL, PO4:2.4 mg/dL
+   Assessment and Plan
+ CORONARY ARTERY DISEASE (CAD, ISCHEMIC HEART DISEASE)
+ .H/O CVA (STROKE, CEREBRAL INFARCTION), OTHER
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2114-3-30**] 02:13 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 24-hour-old ICU admission with a chief complaint of chest pain (CP) in the morning, which resolved after starting a nitroglycerin drip. The patient has a history of coronary artery disease (CAD) and had a previous cerebrovascular accident (CVA). The patient's vital signs are stable, with a heart rate of 58 bpm, blood pressure of 152/55 mmHg, and oxygen saturation of 93%. The patient has mild bibasilar crackles and distant heart sounds on physical examination. Laboratory results show mild anemia, thrombocytopenia, and mild liver dysfunction.
+
+Potential Medical Complications:
+
+1. Cardiac complications: The patient's history of CAD and current presentation with chest pain and EKG changes may indicate ongoing cardiac ischemia or infarction, which could lead to cardiac arrest or cardiogenic shock.
+2. Respiratory complications: The patient's mild bibasilar crackles and distant heart sounds may indicate early signs of pulmonary edema or respiratory failure, which could worsen with inadequate oxygenation.
+3. Neurological complications: The patient's history of CVA and potential ongoing cardiac ischemia may increase the risk of recurrent cerebrovascular accidents or worsening neurological deficits.
+4. Hemorrhagic complications: The patient's thrombocytopenia and mild liver dysfunction may increase the risk of bleeding complications, particularly with invasive procedures or anticoagulant therapy.
+5. Infection complications: The patient's prolonged hospitalization and invasive lines may increase the risk of catheter-related infections, such as central line-associated bloodstream infection (CLABSI) or ventilator-associated pneumonia (VAP).
+6. Gastrointestinal complications: The patient's history of chronic non-productive cough and potential gastrointestinal bleeding may increase the risk of gastrointestinal complications, such as gastrointestinal bleeding or perforation.
+7. Renal complications: The patient's mild liver dysfunction and potential cardiac dysfunction may increase the risk of acute kidney injury (AKI) or worsening chronic kidney disease (CKD).
+
+Overall, the patient requires close monitoring and management of their cardiovascular, respiratory, and neurological status to prevent or manage potential complications."
+178961.0,215465,2114-03-31 07:36:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   CP in am, mild EKG changes, nitro drip started, CP resolved.
+   -hypertensive to 170s with HR 50s, asymptomatic. Gave captopril 12.5
+   mg, then lisinopril 20 mg, with improvement of SBP to 140s-150s
+   Seen by CT-[**Doctor First Name 91**] (Dr [**First Name (STitle) **] continue nitro drip, plan for surgery on
+   Monday). NPO on Sunday pm
+   -CT chest preop for CABG, calcifications throughout Aorta.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Nitroglycerin - 0.4 mcg/Kg/min
+   Other ICU medications:
+   Omeprazole (Prilosec) - [**2114-3-30**] 08:46 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-3-31**] 07:31 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.1
+C (98.7
+   Tcurrent: 36.6
+C (97.8
+   HR: 58 (48 - 63) bpm
+   BP: 152/55(80) {109/34(53) - 162/94(110)} mmHg
+   RR: 8 (8 - 21) insp/min
+   SpO2: 93%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                    704 mL
+                                                                     41 mL
+   PO:
+                                                                    600 mL
+             TF:
+   IVF:
+                                                                    104 mL
+                                                                     41 mL
+   Blood products:
+   Total out:
+                                                                    795 mL
+                                                                    250 mL
+   Urine:
+                                                                    795 mL
+                                                                    250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -91 mL
+                                                                   -209 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 93%
+   ABG: ///28/
+   Physical Examination
+   AO x3,chronic non productive cough
+   Distant heart sounds
+   Mild bibasilar crackles
+   Abd:+bs, soft, nt, nd
+   Ext: WWP, weak pulses.
+   Labs / Radiology
+   130 K/uL
+   10.4 g/dL
+   138 mg/dL
+   0.8 mg/dL
+   28 mEq/L
+   3.8 mEq/L
+   13 mg/dL
+   106 mEq/L
+   141 mEq/L
+   30.3 %
+   6.1 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+   WBC
+   6.7
+   6.1
+   Hct
+   33.7
+   30.3
+   Plt
+   130
+   130
+   Cr
+   0.9
+   0.8
+   Glucose
+   149
+   138
+   Other labs: PT / PTT / INR:19.6/25.9/1.8, Ca++:8.9 mg/dL, Mg++:1.8
+   mg/dL, PO4:2.4 mg/dL
+   Assessment and Plan
+ CORONARY ARTERY DISEASE (CAD, ISCHEMIC HEART DISEASE)
+ .H/O CVA (STROKE, CEREBRAL INFARCTION), OTHER
+   ASSESSMENT AND PLAN: 76y/o gentleman with a PMH of diabetes mellitus,
+   HTN, h/o stroke with residual expressive aphasia admitted on [**3-26**] with
+   urinary retention s/p NSTEMI found to have 3vd on cardiac
+   catheterization.
+   .
+   # NSTEMI - the patient was found to have 3vd with LM ostial lesion, LCx
+   and RCA total occlusions. Given 3vd PCI deferred for CT surgery
+   evaluation. Pt was CP free overnight but developed CP after rounds this
+   a.m., which resolved with nitro. TTE demonstrates moderate regional
+   left ventricular systolic dysfunction with inferior/inferolateral
+   akinesis/hypokinesis with EF 40%
+   - Considering emergent CABG without full clopidogrel washout due to
+   recurrent CP. Timing of surgery will depend on INR.
+   - CT chest to evaluate aorta showed calcifications throughout; carotid
+   ultrasound done read pending,
+   - Continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril (uptitrate to 40 mg daily)
+   - Continue metoprolol
+   - Nitro gtt for CP
+   - holding coumadin
+   - Continue statin
+   .
+   Skin:  erythematous base at coccyx, non draining but with open pore. ?
+   Pilonidal cyst, folliculitis, inconsistent with pressure ulcer. Local
+   bacitracin, wound care.
+   #  HTN - continue beta blocker and lisinopril as above; uptitrate
+   lisinopril to 40 mg daily; start nitro drip for CP/BP control
+   .
+   # Hypercholesterolemia - continue atorvastatin
+   .
+   # DM2 - continue insulin sliding scale
+   .
+   # Left MCA stroke with expressive aphasia [**7-/2104**]  - on chronic warfarin
+   anticoagulation. Holding coumadin pre-operatively.
+   - Carotid US per CT [**Doctor First Name 91**] recs
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Comments: Cardiac/diabetic
+   Glycemic Control: Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-29**] 04:15 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Coumadin)
+   Stress ulcer: Not indicated
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: CCU for now ; to be evaluated by CT surgery for
+   consideration of emergent CABG
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   CP in am, mild EKG changes, nitro drip started, CP resolved.
+   -hypertensive to 170s with HR 50s, asymptomatic. Gave captopril 12.5
+   mg, then lisinopril 20 mg, with improvement of SBP to 140s-150s
+   Seen by CT-[**Doctor First Name 91**] (Dr [**First Name (STitle) **] continue nitro drip, plan for surgery on
+   Monday). NPO on Sunday pm
+   -CT chest preop for CABG, calcifications throughout Aorta.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Nitroglycerin - 0.4 mcg/Kg/min
+   Other ICU medications:
+   Omeprazole (Prilosec) - [**2114-3-30**] 08:46 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-3-31**] 07:31 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.1
+C (98.7
+   Tcurrent: 36.6
+C (97.8
+   HR: 58 (48 - 63) bpm
+   BP: 152/55(80) {109/34(53) - 162/94(110)} mmHg
+   RR: 8 (8 - 21) insp/min
+   SpO2: 93%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                    704 mL
+                                                                     41 mL
+   PO:
+                                                                    600 mL
+             TF:
+   IVF:
+                                                                    104 mL
+                                                                     41 mL
+   Blood products:
+   Total out:
+                                                                    795 mL
+                                                                    250 mL
+   Urine:
+                                                                    795 mL
+                                                                    250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -91 mL
+                                                                   -209 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 93%
+   ABG: ///28/
+   Physical Examination
+   AO x3,chronic non productive cough
+   Distant heart sounds
+   Mild bibasilar crackles
+   Abd:+bs, soft, nt, nd
+   Ext: WWP, weak pulses.
+   Labs / Radiology
+   130 K/uL
+   10.4 g/dL
+   138 mg/dL
+   0.8 mg/dL
+   28 mEq/L
+   3.8 mEq/L
+   13 mg/dL
+   106 mEq/L
+   141 mEq/L
+   30.3 %
+   6.1 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+   WBC
+   6.7
+   6.1
+   Hct
+   33.7
+   30.3
+   Plt
+   130
+   130
+   Cr
+   0.9
+   0.8
+   Glucose
+   149
+   138
+   Other labs: PT / PTT / INR:19.6/25.9/1.8, Ca++:8.9 mg/dL, Mg++:1.8
+   mg/dL, PO4:2.4 mg/dL
+   Assessment and Plan
+ CORONARY ARTERY DISEASE (CAD, ISCHEMIC HEART DISEASE)
+ .H/O CVA (STROKE, CEREBRAL INFARCTION), OTHER
+   ASSESSMENT AND PLAN: 76y/o gentleman with a PMH of diabetes mellitus,
+   HTN, h/o stroke with residual expressive aphasia admitted on [**3-26**] with
+   urinary retention s/p NSTEMI found to have 3vd on cardiac
+   catheterization.
+   .
+   # NSTEMI - the patient was found to have 3vd with LM ostial lesion, LCx
+   and RCA total occlusions. Given 3vd PCI deferred for CT surgery
+   evaluation. Pt was CP free overnight but developed CP after rounds this
+   a.m., which resolved with nitro. TTE demonstrates moderate regional
+   left ventricular systolic dysfunction with inferior/inferolateral
+   akinesis/hypokinesis with EF 40%
+   - Considering emergent CABG without full clopidogrel washout due to
+   recurrent CP. Timing of surgery will depend on INR.
+   - CT chest to evaluate aorta showed calcifications throughout; carotid
+   ultrasound done read pending,
+   - Continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril (uptitrate to 40 mg daily)
+   - Continue metoprolol
+   - Nitro gtt for CP
+   - holding coumadin
+   - Continue statin
+   .
+   Skin:  erythematous base at coccyx, non draining but with open pore. ?
+   Pilonidal cyst, folliculitis, inconsistent with pressure ulcer. Local
+   bacitracin, wound care.
+   #  HTN - continue beta blocker and lisinopril as above; uptitrate
+   lisinopril to 40 mg daily; start nitro drip for CP/BP control
+   .
+   # Hypercholesterolemia - continue atorvastatin
+   .
+   # DM2 - continue insulin sliding scale
+   .
+   # Left MCA stroke with expressive aphasia [**7-/2104**]  - on chronic warfarin
+   anticoagulation. Holding coumadin pre-operatively.
+   - Carotid US per CT [**Doctor First Name 91**] recs
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Comments: Cardiac/diabetic
+   Glycemic Control: Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-29**] 04:15 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Coumadin)
+   Stress ulcer: Not indicated
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: CCU for now ; to be evaluated by CT surgery for
+   consideration of emergent CABG<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 76-year-old male admitted to the ICU with a history of coronary artery disease, hypertension, diabetes mellitus, and a previous stroke with residual expressive aphasia. He was found to have 3-vessel disease with LM ostial lesion, LCx, and RCA total occlusions, and was deferred for CT surgery evaluation. He developed chest pain (CP) after rounds this morning, which resolved with nitroglycerin. His vital signs are stable, with a heart rate of 58 bpm, blood pressure of 152/55 mmHg, and oxygen saturation of 93%. He has mild bibasilar crackles and distant heart sounds on physical examination. His lab results show moderate regional left ventricular systolic dysfunction with an EF of 40%. He has been started on nitroglycerin drip for CP/BP control and is being considered for emergent CABG surgery.
+
+Potential Medical Complications:
+
+1. Cardiac complications: The patient's history of coronary artery disease and 3-vessel disease puts him at risk for cardiac complications, including acute coronary syndrome, cardiogenic shock, and arrhythmias.
+2. Respiratory complications: The patient's mild bibasilar crackles and distant heart sounds may indicate early signs of pulmonary edema or respiratory failure, which could worsen with the development of cardiac complications.
+3. Bleeding complications: The patient is being considered for emergent CABG surgery, which carries a risk of bleeding complications, including hemorrhage and blood transfusions.
+4. Infection: The patient's open wound at the coccyx may be at risk for infection, which could be exacerbated by the patient's compromised immune system.
+5. Metabolic complications: The patient's history of diabetes mellitus and hypercholesterolemia puts him at risk for metabolic complications, including hyperglycemia, hypoglycemia, and electrolyte imbalances.
+6. Neurological complications: The patient's previous stroke and residual expressive aphasia put him at risk for neurological complications, including recurrent stroke, seizures, and cognitive decline."
+178961.0,215465,2114-03-31 07:36:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   CP in am, mild EKG changes, nitro drip started, CP resolved.
+   -hypertensive to 170s with HR 50s, asymptomatic. Gave captopril 12.5
+   mg, then lisinopril 20 mg, with improvement of SBP to 140s-150s
+   Seen by CT-[**Doctor First Name 91**] (Dr [**First Name (STitle) **] continue nitro drip, plan for surgery on
+   Monday). NPO on Sunday pm
+   -CT chest preop for CABG, calcifications throughout Aorta.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Nitroglycerin - 0.4 mcg/Kg/min
+   Other ICU medications:
+   Omeprazole (Prilosec) - [**2114-3-30**] 08:46 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-3-31**] 07:31 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.1
+C (98.7
+   Tcurrent: 36.6
+C (97.8
+   HR: 58 (48 - 63) bpm
+   BP: 152/55(80) {109/34(53) - 162/94(110)} mmHg
+   RR: 8 (8 - 21) insp/min
+   SpO2: 93%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                    704 mL
+                                                                     41 mL
+   PO:
+                                                                    600 mL
+             TF:
+   IVF:
+                                                                    104 mL
+                                                                     41 mL
+   Blood products:
+   Total out:
+                                                                    795 mL
+                                                                    250 mL
+   Urine:
+                                                                    795 mL
+                                                                    250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -91 mL
+                                                                   -209 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 93%
+   ABG: ///28/
+   Physical Examination
+   AO x3,chronic non productive cough
+   Distant heart sounds
+   Mild bibasilar crackles
+   Abd:+bs, soft, nt, nd
+   Ext: WWP, weak pulses.
+   Labs / Radiology
+   130 K/uL
+   10.4 g/dL
+   138 mg/dL
+   0.8 mg/dL
+   28 mEq/L
+   3.8 mEq/L
+   13 mg/dL
+   106 mEq/L
+   141 mEq/L
+   30.3 %
+   6.1 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+   WBC
+   6.7
+   6.1
+   Hct
+   33.7
+   30.3
+   Plt
+   130
+   130
+   Cr
+   0.9
+   0.8
+   Glucose
+   149
+   138
+   Other labs: PT / PTT / INR:19.6/25.9/1.8, Ca++:8.9 mg/dL, Mg++:1.8
+   mg/dL, PO4:2.4 mg/dL
+   Assessment and Plan
+ CORONARY ARTERY DISEASE (CAD, ISCHEMIC HEART DISEASE)
+ .H/O CVA (STROKE, CEREBRAL INFARCTION), OTHER
+   ASSESSMENT AND PLAN: 76y/o gentleman with a PMH of diabetes mellitus,
+   HTN, h/o stroke with residual expressive aphasia admitted on [**3-26**] with
+   urinary retention s/p NSTEMI found to have 3vd on cardiac
+   catheterization.
+   .
+   # NSTEMI - the patient was found to have 3vd with LM ostial lesion, LCx
+   and RCA total occlusions. Given 3vd PCI deferred for CT surgery
+   evaluation. Pt was CP free overnight but developed CP after rounds this
+   a.m., which resolved with nitro. TTE demonstrates moderate regional
+   left ventricular systolic dysfunction with inferior/inferolateral
+   akinesis/hypokinesis with EF 40%
+   - Considering emergent CABG without full clopidogrel washout due to
+   recurrent CP. Timing of surgery will depend on INR.
+   - CT chest to evaluate aorta showed calcifications throughout; carotid
+   ultrasound done read pending,
+   - Continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril (uptitrate to 40 mg daily)
+   - Continue metoprolol
+   - Nitro gtt for CP
+   - holding coumadin
+   - Continue statin
+   .
+   Skin:  erythematous base at coccyx, non draining but with open pore. ?
+   Pilonidal cyst, folliculitis, inconsistent with pressure ulcer. Local
+   bacitracin, wound care.
+   #  HTN - continue beta blocker and lisinopril as above; uptitrate
+   lisinopril to 40 mg daily; continue nitro drip for CP/BP control
+   .
+   # Hypercholesterolemia - continue atorvastatin
+   .
+   # DM2 - continue insulin sliding scale
+   .
+   # Left MCA stroke with expressive aphasia [**7-/2104**]  - on chronic warfarin
+   anticoagulation. Holding coumadin pre-operatively.
+   - Carotid US per CT [**Doctor First Name 91**] recs
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Comments: Cardiac/diabetic
+   Glycemic Control: Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-29**] 04:15 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Coumadin)
+   Stress ulcer: Not indicated
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: CCU for now ; to be evaluated by CT surgery for
+   consideration of emergent CABG
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   CP in am, mild EKG changes, nitro drip started, CP resolved.
+   -hypertensive to 170s with HR 50s, asymptomatic. Gave captopril 12.5
+   mg, then lisinopril 20 mg, with improvement of SBP to 140s-150s
+   Seen by CT-[**Doctor First Name 91**] (Dr [**First Name (STitle) **] continue nitro drip, plan for surgery on
+   Monday). NPO on Sunday pm
+   -CT chest preop for CABG, calcifications throughout Aorta.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Nitroglycerin - 0.4 mcg/Kg/min
+   Other ICU medications:
+   Omeprazole (Prilosec) - [**2114-3-30**] 08:46 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-3-31**] 07:31 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.1
+C (98.7
+   Tcurrent: 36.6
+C (97.8
+   HR: 58 (48 - 63) bpm
+   BP: 152/55(80) {109/34(53) - 162/94(110)} mmHg
+   RR: 8 (8 - 21) insp/min
+   SpO2: 93%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                    704 mL
+                                                                     41 mL
+   PO:
+                                                                    600 mL
+             TF:
+   IVF:
+                                                                    104 mL
+                                                                     41 mL
+   Blood products:
+   Total out:
+                                                                    795 mL
+                                                                    250 mL
+   Urine:
+                                                                    795 mL
+                                                                    250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -91 mL
+                                                                   -209 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 93%
+   ABG: ///28/
+   Physical Examination
+   AO x3,chronic non productive cough
+   Distant heart sounds
+   Mild bibasilar crackles
+   Abd:+bs, soft, nt, nd
+   Ext: WWP, weak pulses.
+   Labs / Radiology
+   130 K/uL
+   10.4 g/dL
+   138 mg/dL
+   0.8 mg/dL
+   28 mEq/L
+   3.8 mEq/L
+   13 mg/dL
+   106 mEq/L
+   141 mEq/L
+   30.3 %
+   6.1 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+   WBC
+   6.7
+   6.1
+   Hct
+   33.7
+   30.3
+   Plt
+   130
+   130
+   Cr
+   0.9
+   0.8
+   Glucose
+   149
+   138
+   Other labs: PT / PTT / INR:19.6/25.9/1.8, Ca++:8.9 mg/dL, Mg++:1.8
+   mg/dL, PO4:2.4 mg/dL
+   Assessment and Plan
+ CORONARY ARTERY DISEASE (CAD, ISCHEMIC HEART DISEASE)
+ .H/O CVA (STROKE, CEREBRAL INFARCTION), OTHER
+   ASSESSMENT AND PLAN: 76y/o gentleman with a PMH of diabetes mellitus,
+   HTN, h/o stroke with residual expressive aphasia admitted on [**3-26**] with
+   urinary retention s/p NSTEMI found to have 3vd on cardiac
+   catheterization.
+   .
+   # NSTEMI - the patient was found to have 3vd with LM ostial lesion, LCx
+   and RCA total occlusions. Given 3vd PCI deferred for CT surgery
+   evaluation. Pt was CP free overnight but developed CP after rounds this
+   a.m., which resolved with nitro. TTE demonstrates moderate regional
+   left ventricular systolic dysfunction with inferior/inferolateral
+   akinesis/hypokinesis with EF 40%
+   - Considering emergent CABG without full clopidogrel washout due to
+   recurrent CP. Timing of surgery will depend on INR.
+   - CT chest to evaluate aorta showed calcifications throughout; carotid
+   ultrasound done read pending,
+   - Continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril (uptitrate to 40 mg daily)
+   - Continue metoprolol
+   - Nitro gtt for CP
+   - holding coumadin
+   - Continue statin
+   .
+   Skin:  erythematous base at coccyx, non draining but with open pore. ?
+   Pilonidal cyst, folliculitis, inconsistent with pressure ulcer. Local
+   bacitracin, wound care.
+   #  HTN - continue beta blocker and lisinopril as above; uptitrate
+   lisinopril to 40 mg daily; continue nitro drip for CP/BP control
+   .
+   # Hypercholesterolemia - continue atorvastatin
+   .
+   # DM2 - continue insulin sliding scale
+   .
+   # Left MCA stroke with expressive aphasia [**7-/2104**]  - on chronic warfarin
+   anticoagulation. Holding coumadin pre-operatively.
+   - Carotid US per CT [**Doctor First Name 91**] recs
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Comments: Cardiac/diabetic
+   Glycemic Control: Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-29**] 04:15 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Coumadin)
+   Stress ulcer: Not indicated
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: CCU for now ; to be evaluated by CT surgery for
+   consideration of emergent CABG<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 76-year-old gentleman admitted to the ICU with a history of coronary artery disease, diabetes mellitus, hypertension, and a left MCA stroke with residual expressive aphasia. The patient's current condition is as follows:
+
+* Cardiac status: The patient has a NSTEMI with 3-vessel disease, including LM ostial lesion, LCx, and RCA total occlusions. The patient developed chest pain (CP) in the morning, which resolved with nitroglycerin infusion. The patient's troponin levels are elevated, and a TTE shows moderate regional left ventricular systolic dysfunction with inferior/inferolateral akinesis/hypokinesis and an EF of 40%.
+* Respiratory status: The patient is receiving oxygen via nasal cannula, and their SpO2 is 93%. The patient has mild bibasilar crackles on physical examination.
+* Hemodynamic status: The patient's blood pressure is 152/55 mmHg, and their heart rate is 58 bpm. The patient has sinus bradycardia.
+* Laboratory results:
+	+ WBC: 6.7-6.1 K/uL
+	+ Hct: 33.7-30.3%
+	+ Plt: 130 K/uL
+	+ Cr: 0.9-0.8 mg/dL
+	+ Glucose: 149-138 mg/dL
+	+ Other labs: PT/PTT/INR: 19.6/25.9/1.8, Ca++: 8.9 mg/dL, Mg++: 1.8 mg/dL, PO4: 2.4 mg/dL
+* Medications:
+	+ Nitroglycerin infusion
+	+ Captopril 12.5 mg
+	+ Lisinopril 20 mg, uptitrated to 40 mg daily
+	+ Metoprolol
+	+ Omeprazole (Prilosec)
+	+ Insulin sliding scale
+	+ Tamsulosin
+	+ Atorvastatin
+* Plan:
+	+ Continue nitroglycerin infusion for CP/BP control
+	+ Uptitrate lisinopril to 40 mg daily
+	+ Continue metoprolol
+	+ Hold coumadin pre-operatively
+	+ Continue statin
+	+ Consider emergent CABG without full clopidogrel washout due to recurrent CP
+	+ Continue wound care for erythematous base at coccyx
+
+Potential medical complications that can arise include:
+
+1. Cardiac complications: The patient's cardiac status is critical, and the risk of further cardiac complications, such as cardiac arrest or myocardial infarction, is high.
+2. Respiratory complications: The patient's respiratory status is stable, but the risk of respiratory failure or pneumonia is increased due to the patient's cardiac condition and immobility.
+3. Hemodynamic instability: The patient's blood pressure is elevated, and the risk of further hemodynamic instability or cardiac arrhythmias is high.
+4. Infection: The patient has a wound at the base of the coccyx, which is at risk of becoming infected.
+5. Bleeding: The patient is receiving anticoagulation therapy, which increases the risk of bleeding complications.
+6. Renal impairment: The patient's creatinine levels are elevated, and the risk of further renal impairment or acute kidney injury is high.
+7. Hyperglycemia: The patient's glucose levels are elevated, and the risk of further hyperglycemia or diabetic ketoacidosis is high.
+8. Thromboembolic events: The patient is at risk of developing thromboembolic events, such as deep vein thrombosis or pulmonary embolism, due to immobility and cardiac condition.
+
+Overall, the patient's condition is critical, and close monitoring and management are necessary to prevent further complications and improve outcomes."
+178961.0,215465,2114-04-01 06:19:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2114-3-31**] 09:45 AM
+   - had an episode of chest pain that responded to a nitro gtt; has been
+   chest pain free since then
+   - blood pressures fine
+   - further clarified home insulin regimen, started on NPH 6u [**Hospital1 **]
+   - started heparin gtt now that INR<2
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Heparin Sodium - 1,100 units/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2114-3-31**] 09:50 AM
+   Heparin Sodium - [**2114-4-1**] 03:29 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-4-1**] 06:19 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.4
+C (99.4
+   Tcurrent: 37.2
+C (98.9
+   HR: 60 (52 - 65) bpm
+   BP: 142/47(72) {108/34(53) - 175/67(95)} mmHg
+   RR: 21 (13 - 25) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    591 mL
+                                                                     76 mL
+   PO:
+                                                                    150 mL
+             TF:
+   IVF:
+                                                                    441 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                    945 mL
+                                                                    360 mL
+   Urine:
+                                                                    945 mL
+                                                                    360 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -354 mL
+                                                                   -284 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: ///29/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   135 K/uL
+   10.0 g/dL
+   168 mg/dL
+   0.8 mg/dL
+   29 mEq/L
+   4.0 mEq/L
+   18 mg/dL
+   103 mEq/L
+   138 mEq/L
+   29.6 %
+   6.8 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+                             [**2114-4-1**]  02:00 AM
+   WBC
+   6.7
+   6.1
+   6.8
+   Hct
+   33.7
+   30.3
+   29.6
+   Plt
+   130
+   130
+   135
+   Cr
+   0.9
+   0.8
+   0.8
+   Glucose
+   149
+   138
+   168
+   Other labs: PT / PTT / INR:17.0/41.6/1.5, Ca++:8.6 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan
+ CORONARY ARTERY DISEASE (CAD, ISCHEMIC HEART DISEASE)
+ .H/O CVA (STROKE, CEREBRAL INFARCTION), OTHER
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-30**] 02:13 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Heparin gtt)
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2114-3-31**] 09:45 AM
+   - had an episode of chest pain that responded to a nitro gtt; has been
+   chest pain free since then
+   - blood pressures fine
+   - further clarified home insulin regimen, started on NPH 6u [**Hospital1 **]
+   - started heparin gtt now that INR<2
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Heparin Sodium - 1,100 units/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2114-3-31**] 09:50 AM
+   Heparin Sodium - [**2114-4-1**] 03:29 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-4-1**] 06:19 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.4
+C (99.4
+   Tcurrent: 37.2
+C (98.9
+   HR: 60 (52 - 65) bpm
+   BP: 142/47(72) {108/34(53) - 175/67(95)} mmHg
+   RR: 21 (13 - 25) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    591 mL
+                                                                     76 mL
+   PO:
+                                                                    150 mL
+             TF:
+   IVF:
+                                                                    441 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                    945 mL
+                                                                    360 mL
+   Urine:
+                                                                    945 mL
+                                                                    360 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -354 mL
+                                                                   -284 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: ///29/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   135 K/uL
+   10.0 g/dL
+   168 mg/dL
+   0.8 mg/dL
+   29 mEq/L
+   4.0 mEq/L
+   18 mg/dL
+   103 mEq/L
+   138 mEq/L
+   29.6 %
+   6.8 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+                             [**2114-4-1**]  02:00 AM
+   WBC
+   6.7
+   6.1
+   6.8
+   Hct
+   33.7
+   30.3
+   29.6
+   Plt
+   130
+   130
+   135
+   Cr
+   0.9
+   0.8
+   0.8
+   Glucose
+   149
+   138
+   168
+   Other labs: PT / PTT / INR:17.0/41.6/1.5, Ca++:8.6 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan
+ CORONARY ARTERY DISEASE (CAD, ISCHEMIC HEART DISEASE)
+ .H/O CVA (STROKE, CEREBRAL INFARCTION), OTHER
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-30**] 02:13 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Heparin gtt)
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 24-hour-old admission to the ICU with a chief complaint of chest pain. The patient has been experiencing chest pain since admission, which responded to nitroglycerin. The patient's blood pressures are stable, and they have been started on NPH insulin and heparin infusions.
+
+The patient's vital signs are within normal limits, with a temperature of 37.4°C, heart rate of 60 beats per minute, and blood pressure of 142/47 mmHg. The patient's respiratory status is stable, with a respiratory rate of 21 breaths per minute and oxygen saturation of 95% on nasal cannula.
+
+The patient's laboratory results show normal values for white blood cell count, hemoglobin, and platelet count. However, the patient's creatinine level is elevated at 0.9 mg/dL, and their blood glucose level is 149 mg/dL. The patient's electrolyte levels are within normal limits, with the exception of a slightly elevated potassium level of 4.0 mEq/L.
+
+The patient's physical examination is limited due to the fact that the patient's peripheral vascular, skin, neurologic, and musculoskeletal systems have not been assessed.
+
+The patient's assessment is consistent with coronary artery disease (CAD) with ischemic heart disease. The patient has a history of cerebrovascular accident (CVA) and other medical conditions.
+
+The patient's plan of care includes ICU care, nutrition, glycemic control, and prophylaxis for deep vein thrombosis (DVT), stress ulcer, and ventilator-associated pneumonia (VAP).
+
+Potential medical complications that can arise include:
+
+1. Cardiac complications: The patient's history of CAD and ischemic heart disease increases their risk of cardiac complications, such as acute coronary syndrome, cardiogenic shock, and arrhythmias.
+2. Respiratory complications: The patient's history of CVA and other medical conditions increases their risk of respiratory complications, such as pneumonia, acute respiratory distress syndrome, and respiratory failure.
+3. Neurologic complications: The patient's history of CVA increases their risk of neurologic complications, such as seizures, stroke, and brain edema.
+4. Infection: The patient's history of CVA and other medical conditions increases their risk of infection, such as sepsis, urinary tract infection, and pneumonia.
+5. Bleeding complications: The patient's use of heparin and other anticoagulant medications increases their risk of bleeding complications, such as hemorrhage, epistaxis, and hematuria.
+6. Renal complications: The patient's elevated creatinine level increases their risk of renal complications, such as acute kidney injury, chronic kidney disease, and end-stage renal disease."
+178961.0,215465,2114-04-01 06:19:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2114-3-31**] 09:45 AM
+   - had an episode of chest pain that responded to a nitro gtt; has been
+   chest pain free since then
+   - blood pressures fine
+   - further clarified home insulin regimen, started on NPH 6u [**Hospital1 **]
+   - started heparin gtt now that INR<2
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Heparin Sodium - 1,100 units/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2114-3-31**] 09:50 AM
+   Heparin Sodium - [**2114-4-1**] 03:29 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-4-1**] 06:19 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.4
+C (99.4
+   Tcurrent: 37.2
+C (98.9
+   HR: 60 (52 - 65) bpm
+   BP: 142/47(72) {108/34(53) - 175/67(95)} mmHg
+   RR: 21 (13 - 25) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    591 mL
+                                                                     76 mL
+   PO:
+                                                                    150 mL
+             TF:
+   IVF:
+                                                                    441 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                    945 mL
+                                                                    360 mL
+   Urine:
+                                                                    945 mL
+                                                                    360 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -354 mL
+                                                                   -284 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: ///29/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   135 K/uL
+   10.0 g/dL
+   168 mg/dL
+   0.8 mg/dL
+   29 mEq/L
+   4.0 mEq/L
+   18 mg/dL
+   103 mEq/L
+   138 mEq/L
+   29.6 %
+   6.8 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+                             [**2114-4-1**]  02:00 AM
+   WBC
+   6.7
+   6.1
+   6.8
+   Hct
+   33.7
+   30.3
+   29.6
+   Plt
+   130
+   130
+   135
+   Cr
+   0.9
+   0.8
+   0.8
+   Glucose
+   149
+   138
+   168
+   Other labs: PT / PTT / INR:17.0/41.6/1.5, Ca++:8.6 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan
+   ASSESSMENT AND PLAN: 76y/o gentleman with a PMH of diabetes mellitus,
+   HTN, h/o stroke with residual expressive aphasia admitted on [**3-26**] with
+   urinary retention s/p NSTEMI found to have 3vd on cardiac
+   catheterization.
+   .
+   # NSTEMI - the patient was found to have 3vd with LM ostial lesion, LCx
+   and RCA total occlusions. Given 3vd PCI deferred for CT surgery
+   evaluation. Pt was CP free overnight but developed CP after rounds this
+   a.m., which resolved with nitro. TTE demonstrates moderate regional
+   left ventricular systolic dysfunction with inferior/inferolateral
+   akinesis/hypokinesis with EF 40%
+   - Considering emergent CABG without full clopidogrel washout due to
+   recurrent CP. Timing of surgery will depend on INR.
+   - CT chest to evaluate aorta showed calcifications throughout; carotid
+   ultrasound done read pending,
+   - Continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril (uptitrate to 40 mg daily)
+   - Continue metoprolol
+   - Nitro gtt for CP
+   - holding coumadin
+   - Continue statin
+   .
+   Skin:  erythematous base at coccyx, non draining but with open pore. ?
+   Pilonidal cyst, folliculitis, inconsistent with pressure ulcer. Local
+   bacitracin, wound care.
+   #  HTN - continue beta blocker and lisinopril as above; uptitrate
+   lisinopril to 40 mg daily; continue nitro drip for CP/BP control
+   .
+   # Hypercholesterolemia - continue atorvastatin
+   .
+   # DM2 - continue insulin sliding scale
+   .
+   # Left MCA stroke with expressive aphasia [**7-/2104**]  - on chronic warfarin
+   anticoagulation. Holding coumadin pre-operatively.
+   - Carotid US per CT [**Doctor First Name 91**] recs
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-30**] 02:13 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Heparin gtt)
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2114-3-31**] 09:45 AM
+   - had an episode of chest pain that responded to a nitro gtt; has been
+   chest pain free since then
+   - blood pressures fine
+   - further clarified home insulin regimen, started on NPH 6u [**Hospital1 **]
+   - started heparin gtt now that INR<2
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Heparin Sodium - 1,100 units/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2114-3-31**] 09:50 AM
+   Heparin Sodium - [**2114-4-1**] 03:29 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-4-1**] 06:19 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.4
+C (99.4
+   Tcurrent: 37.2
+C (98.9
+   HR: 60 (52 - 65) bpm
+   BP: 142/47(72) {108/34(53) - 175/67(95)} mmHg
+   RR: 21 (13 - 25) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    591 mL
+                                                                     76 mL
+   PO:
+                                                                    150 mL
+             TF:
+   IVF:
+                                                                    441 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                    945 mL
+                                                                    360 mL
+   Urine:
+                                                                    945 mL
+                                                                    360 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -354 mL
+                                                                   -284 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: ///29/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   135 K/uL
+   10.0 g/dL
+   168 mg/dL
+   0.8 mg/dL
+   29 mEq/L
+   4.0 mEq/L
+   18 mg/dL
+   103 mEq/L
+   138 mEq/L
+   29.6 %
+   6.8 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+                             [**2114-4-1**]  02:00 AM
+   WBC
+   6.7
+   6.1
+   6.8
+   Hct
+   33.7
+   30.3
+   29.6
+   Plt
+   130
+   130
+   135
+   Cr
+   0.9
+   0.8
+   0.8
+   Glucose
+   149
+   138
+   168
+   Other labs: PT / PTT / INR:17.0/41.6/1.5, Ca++:8.6 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan
+   ASSESSMENT AND PLAN: 76y/o gentleman with a PMH of diabetes mellitus,
+   HTN, h/o stroke with residual expressive aphasia admitted on [**3-26**] with
+   urinary retention s/p NSTEMI found to have 3vd on cardiac
+   catheterization.
+   .
+   # NSTEMI - the patient was found to have 3vd with LM ostial lesion, LCx
+   and RCA total occlusions. Given 3vd PCI deferred for CT surgery
+   evaluation. Pt was CP free overnight but developed CP after rounds this
+   a.m., which resolved with nitro. TTE demonstrates moderate regional
+   left ventricular systolic dysfunction with inferior/inferolateral
+   akinesis/hypokinesis with EF 40%
+   - Considering emergent CABG without full clopidogrel washout due to
+   recurrent CP. Timing of surgery will depend on INR.
+   - CT chest to evaluate aorta showed calcifications throughout; carotid
+   ultrasound done read pending,
+   - Continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril (uptitrate to 40 mg daily)
+   - Continue metoprolol
+   - Nitro gtt for CP
+   - holding coumadin
+   - Continue statin
+   .
+   Skin:  erythematous base at coccyx, non draining but with open pore. ?
+   Pilonidal cyst, folliculitis, inconsistent with pressure ulcer. Local
+   bacitracin, wound care.
+   #  HTN - continue beta blocker and lisinopril as above; uptitrate
+   lisinopril to 40 mg daily; continue nitro drip for CP/BP control
+   .
+   # Hypercholesterolemia - continue atorvastatin
+   .
+   # DM2 - continue insulin sliding scale
+   .
+   # Left MCA stroke with expressive aphasia [**7-/2104**]  - on chronic warfarin
+   anticoagulation. Holding coumadin pre-operatively.
+   - Carotid US per CT [**Doctor First Name 91**] recs
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-30**] 02:13 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Heparin gtt)
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 76-year-old male admitted to the ICU with a history of diabetes mellitus, hypertension, and a previous stroke with residual expressive aphasia. He was found to have 3-vessel disease (3VD) with left main ostial lesion, left circumflex (LCx), and right coronary artery (RCA) total occlusions. The patient underwent cardiac catheterization, and percutaneous coronary intervention (PCI) was deferred for further evaluation.
+
+The patient's current condition is as follows:
+
+* He had an episode of chest pain at 09:45 AM, which responded to nitroglycerin and has been chest pain-free since then.
+* His blood pressures are fine.
+* He is receiving heparin infusion and has an INR of 1.5.
+* His vital signs are stable, with a temperature of 37.4°C, heart rate of 60 bpm, blood pressure of 142/47 mmHg, respiratory rate of 21 breaths per minute, and oxygen saturation of 95%.
+* His lab results show mild anemia, elevated creatinine, and hyperglycemia.
+* He has a moderate-sized erythematous base at the coccyx, which is being treated with local bacitracin and wound care.
+
+Potential medical complications that can arise from the patient's current condition include:
+
+* Recurrent chest pain, which may indicate a worsening of his coronary artery disease or a possible cardiac tamponade.
+* Bleeding complications due to his elevated INR and heparin therapy.
+* Wound infection or further compromise of the erythematous base at the coccyx.
+* Hyperglycemia, which may require adjustments to his insulin regimen.
+* Hypertension, which may require adjustments to his antihypertensive medications.
+* Respiratory complications, such as pneumonia or acute respiratory distress syndrome (ARDS), due to his underlying chronic obstructive pulmonary disease (COPD).
+
+Given the patient's history of 3VD and recurrent chest pain, emergent coronary artery bypass grafting (CABG) surgery is being considered without full clopidogrel washout due to the patient's recurrent chest pain. The timing of surgery will depend on his INR."
+178961.0,215465,2114-04-01 06:19:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2114-3-31**] 09:45 AM
+   - had an episode of chest pain that responded to a nitro gtt; has been
+   chest pain free since then
+   - blood pressures fine
+   - further clarified home insulin regimen, started on NPH 6u [**Hospital1 **]
+   - started heparin gtt now that INR<2
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Heparin Sodium - 1,100 units/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2114-3-31**] 09:50 AM
+   Heparin Sodium - [**2114-4-1**] 03:29 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-4-1**] 06:19 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.4
+C (99.4
+   Tcurrent: 37.2
+C (98.9
+   HR: 60 (52 - 65) bpm
+   BP: 142/47(72) {108/34(53) - 175/67(95)} mmHg
+   RR: 21 (13 - 25) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    591 mL
+                                                                     76 mL
+   PO:
+                                                                    150 mL
+             TF:
+   IVF:
+                                                                    441 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                    945 mL
+                                                                    360 mL
+   Urine:
+                                                                    945 mL
+                                                                    360 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -354 mL
+                                                                   -284 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: ///29/
+   Physical Examination
+   Distant heart sounds
+   Mild bibasilar crackles
+   Abd:+bs, soft, nt, nd
+   Ext: WWP, weak pulses.
+   Labs / Radiology
+   135 K/uL
+   10.0 g/dL
+   168 mg/dL
+   0.8 mg/dL
+   29 mEq/L
+   4.0 mEq/L
+   18 mg/dL
+   103 mEq/L
+   138 mEq/L
+   29.6 %
+   6.8 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+                             [**2114-4-1**]  02:00 AM
+   WBC
+   6.7
+   6.1
+   6.8
+   Hct
+   33.7
+   30.3
+   29.6
+   Plt
+   130
+   130
+   135
+   Cr
+   0.9
+   0.8
+   0.8
+   Glucose
+   149
+   138
+   168
+   Other labs: PT / PTT / INR:17.0/41.6/1.5, Ca++:8.6 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan
+   ASSESSMENT AND PLAN: 76y/o gentleman with a PMH of diabetes mellitus,
+   HTN, h/o stroke with residual expressive aphasia admitted on [**3-26**] with
+   urinary retention s/p NSTEMI found to have 3vd on cardiac
+   catheterization.
+   .
+   # NSTEMI - the patient was found to have 3vd with LM ostial lesion, LCx
+   and RCA total occlusions. Given 3vd PCI deferred for CT surgery
+   evaluation. Pt was CP free overnight but developed CP after rounds this
+   a.m., which resolved with nitro. TTE demonstrates moderate regional
+   left ventricular systolic dysfunction with inferior/inferolateral
+   akinesis/hypokinesis with EF 40%
+   - Considering emergent CABG without full clopidogrel washout due to
+   recurrent CP. Timing of surgery will depend on INR.
+   - CT chest to evaluate aorta showed calcifications throughout; carotid
+   ultrasound done read pending,
+   - Continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril (uptitrate to 40 mg daily)
+   - Continue metoprolol
+   - Nitro gtt for CP
+   - holding coumadin
+   - Continue statin
+   .
+   Skin:  erythematous base at coccyx, non draining but with open pore. ?
+   Pilonidal cyst, folliculitis, inconsistent with pressure ulcer. Local
+   bacitracin, wound care.
+   #  HTN - continue beta blocker and lisinopril as above; uptitrate
+   lisinopril to 40 mg daily; continue nitro drip for CP/BP control
+   .
+   # Hypercholesterolemia - continue atorvastatin
+   .
+   # DM2 - continue insulin sliding scale
+   .
+   # Left MCA stroke with expressive aphasia [**7-/2104**]  - on chronic warfarin
+   anticoagulation. Holding coumadin pre-operatively.
+   - Carotid US per CT [**Doctor First Name 91**] recs
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-30**] 02:13 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Heparin gtt)
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2114-3-31**] 09:45 AM
+   - had an episode of chest pain that responded to a nitro gtt; has been
+   chest pain free since then
+   - blood pressures fine
+   - further clarified home insulin regimen, started on NPH 6u [**Hospital1 **]
+   - started heparin gtt now that INR<2
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Heparin Sodium - 1,100 units/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2114-3-31**] 09:50 AM
+   Heparin Sodium - [**2114-4-1**] 03:29 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-4-1**] 06:19 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.4
+C (99.4
+   Tcurrent: 37.2
+C (98.9
+   HR: 60 (52 - 65) bpm
+   BP: 142/47(72) {108/34(53) - 175/67(95)} mmHg
+   RR: 21 (13 - 25) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    591 mL
+                                                                     76 mL
+   PO:
+                                                                    150 mL
+             TF:
+   IVF:
+                                                                    441 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                    945 mL
+                                                                    360 mL
+   Urine:
+                                                                    945 mL
+                                                                    360 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -354 mL
+                                                                   -284 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: ///29/
+   Physical Examination
+   Distant heart sounds
+   Mild bibasilar crackles
+   Abd:+bs, soft, nt, nd
+   Ext: WWP, weak pulses.
+   Labs / Radiology
+   135 K/uL
+   10.0 g/dL
+   168 mg/dL
+   0.8 mg/dL
+   29 mEq/L
+   4.0 mEq/L
+   18 mg/dL
+   103 mEq/L
+   138 mEq/L
+   29.6 %
+   6.8 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+                             [**2114-4-1**]  02:00 AM
+   WBC
+   6.7
+   6.1
+   6.8
+   Hct
+   33.7
+   30.3
+   29.6
+   Plt
+   130
+   130
+   135
+   Cr
+   0.9
+   0.8
+   0.8
+   Glucose
+   149
+   138
+   168
+   Other labs: PT / PTT / INR:17.0/41.6/1.5, Ca++:8.6 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan
+   ASSESSMENT AND PLAN: 76y/o gentleman with a PMH of diabetes mellitus,
+   HTN, h/o stroke with residual expressive aphasia admitted on [**3-26**] with
+   urinary retention s/p NSTEMI found to have 3vd on cardiac
+   catheterization.
+   .
+   # NSTEMI - the patient was found to have 3vd with LM ostial lesion, LCx
+   and RCA total occlusions. Given 3vd PCI deferred for CT surgery
+   evaluation. Pt was CP free overnight but developed CP after rounds this
+   a.m., which resolved with nitro. TTE demonstrates moderate regional
+   left ventricular systolic dysfunction with inferior/inferolateral
+   akinesis/hypokinesis with EF 40%
+   - Considering emergent CABG without full clopidogrel washout due to
+   recurrent CP. Timing of surgery will depend on INR.
+   - CT chest to evaluate aorta showed calcifications throughout; carotid
+   ultrasound done read pending,
+   - Continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril (uptitrate to 40 mg daily)
+   - Continue metoprolol
+   - Nitro gtt for CP
+   - holding coumadin
+   - Continue statin
+   .
+   Skin:  erythematous base at coccyx, non draining but with open pore. ?
+   Pilonidal cyst, folliculitis, inconsistent with pressure ulcer. Local
+   bacitracin, wound care.
+   #  HTN - continue beta blocker and lisinopril as above; uptitrate
+   lisinopril to 40 mg daily; continue nitro drip for CP/BP control
+   .
+   # Hypercholesterolemia - continue atorvastatin
+   .
+   # DM2 - continue insulin sliding scale
+   .
+   # Left MCA stroke with expressive aphasia [**7-/2104**]  - on chronic warfarin
+   anticoagulation. Holding coumadin pre-operatively.
+   - Carotid US per CT [**Doctor First Name 91**] recs
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-30**] 02:13 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Heparin gtt)
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 76-year-old man admitted to the ICU with a history of diabetes mellitus, hypertension, and stroke with residual expressive aphasia. He was found to have 3-vessel disease with LM ostial lesion, LCx, and RCA total occlusions following cardiac catheterization. The patient has been experiencing chest pain, which has been managed with nitroglycerin. He has also been experiencing urinary retention, likely related to prostatic disease.
+
+The patient's vital signs are stable, with a temperature of 37.4°C, heart rate of 60 bpm, and blood pressure of 142/47 mmHg. He is receiving heparin and morphine for pain management. His laboratory results show elevated troponin levels, and his echocardiogram demonstrates moderate regional left ventricular systolic dysfunction with an EF of 40%.
+
+Potential Medical Complications:
+
+1. Cardiac Complications: The patient's 3-vessel disease and total occlusions of the LM, LCx, and RCA arteries increase the risk of cardiac complications, such as myocardial infarction, cardiac arrest, or heart failure.
+2. Respiratory Complications: The patient's chronic obstructive pulmonary disease (COPD) and pneumonia increase the risk of respiratory complications, such as respiratory failure, pneumonia, or acute respiratory distress syndrome (ARDS).
+3. Neurological Complications: The patient's history of stroke and residual expressive aphasia increase the risk of neurological complications, such as seizures, stroke, or brain edema.
+4. Infection: The patient's urinary retention and Foley catheter increase the risk of urinary tract infections (UTIs), which can lead to sepsis and organ failure.
+5. Bleeding Complications: The patient's heparin therapy increases the risk of bleeding complications, such as hematomas, epistaxis, or gastrointestinal bleeding.
+6. Wound Complications: The patient's pilonidal cyst and erythematous base at the coccyx increase the risk of wound complications, such as infection, abscess, or necrosis.
+7. Hyperglycemia: The patient's diabetes mellitus and insulin therapy increase the risk of hyperglycemia, which can lead to diabetic ketoacidosis, hyperosmolar nonketotic syndrome, or acute kidney injury.
+
+Overall, the patient is at high risk for various medical complications, and close monitoring and management are necessary to prevent and treat these complications."
+178961.0,215465,2114-04-01 06:19:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2114-3-31**] 09:45 AM
+   - had an episode of chest pain that responded to a nitro gtt; has been
+   chest pain free since then
+   - blood pressures fine
+   - further clarified home insulin regimen, started on NPH 6u [**Hospital1 **]
+   - started heparin gtt now that INR<2
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Heparin Sodium - 1,100 units/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2114-3-31**] 09:50 AM
+   Heparin Sodium - [**2114-4-1**] 03:29 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-4-1**] 06:19 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.4
+C (99.4
+   Tcurrent: 37.2
+C (98.9
+   HR: 60 (52 - 65) bpm
+   BP: 142/47(72) {108/34(53) - 175/67(95)} mmHg
+   RR: 21 (13 - 25) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    591 mL
+                                                                     76 mL
+   PO:
+                                                                    150 mL
+             TF:
+   IVF:
+                                                                    441 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                    945 mL
+                                                                    360 mL
+   Urine:
+                                                                    945 mL
+                                                                    360 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -354 mL
+                                                                   -284 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: ///29/
+   Physical Examination
+   Gen: Alert; NAD
+   CV: RRR; No m/r/g appreciated
+   Resp: Dependent crackles; wheezes throughout
+   Abd: S/NT/ND; BS present
+   Ext: WWP
+   Labs / Radiology
+   135 K/uL
+   10.0 g/dL
+   168 mg/dL
+   0.8 mg/dL
+   29 mEq/L
+   4.0 mEq/L
+   18 mg/dL
+   103 mEq/L
+   138 mEq/L
+   29.6 %
+   6.8 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+                             [**2114-4-1**]  02:00 AM
+   WBC
+   6.7
+   6.1
+   6.8
+   Hct
+   33.7
+   30.3
+   29.6
+   Plt
+   130
+   130
+   135
+   Cr
+   0.9
+   0.8
+   0.8
+   Glucose
+   149
+   138
+   168
+   Other labs: PT / PTT / INR:17.0/41.6/1.5, Ca++:8.6 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan
+   76y/o gentleman with a PMH of diabetes mellitus, HTN, h/o stroke with
+   residual expressive aphasia admitted on [**3-26**] with urinary retention s/p
+   NSTEMI found to have 3vd on cardiac catheterization.
+   # NSTEMI - The patient was found to have 3 vessel disease and was
+   evaluated for CT surgery. Pt had some chest pain, which resolved with
+   nitro.  Has remained free of CP since. TTE demonstrates moderate
+   regional left ventricular systolic dysfunction with
+   inferior/inferolateral akinesis/hypokinesis with EF 40%.
+   - plan for CABG on Monday
+   - continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril and metoprolol; continue statin
+   - Nitro gtt for CP
+   - heparin gtt while pt has INR<2
+   #  HTN
+ continue lisinopril, metoprolol, nitro gtt
+   # Hypercholesterolemia - continue atorvastatin
+   # DM2 - continue insulin sliding scale
+   # H/o L MCA Stroke  - On chronic warfarin anticoagulation. Holding
+   coumadin pre-operatively.
+   - on heparin gtt while INR<2
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-30**] 02:13 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Heparin gtt)
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2114-3-31**] 09:45 AM
+   - had an episode of chest pain that responded to a nitro gtt; has been
+   chest pain free since then
+   - blood pressures fine
+   - further clarified home insulin regimen, started on NPH 6u [**Hospital1 **]
+   - started heparin gtt now that INR<2
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Heparin Sodium - 1,100 units/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2114-3-31**] 09:50 AM
+   Heparin Sodium - [**2114-4-1**] 03:29 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-4-1**] 06:19 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.4
+C (99.4
+   Tcurrent: 37.2
+C (98.9
+   HR: 60 (52 - 65) bpm
+   BP: 142/47(72) {108/34(53) - 175/67(95)} mmHg
+   RR: 21 (13 - 25) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    591 mL
+                                                                     76 mL
+   PO:
+                                                                    150 mL
+             TF:
+   IVF:
+                                                                    441 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                    945 mL
+                                                                    360 mL
+   Urine:
+                                                                    945 mL
+                                                                    360 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -354 mL
+                                                                   -284 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: ///29/
+   Physical Examination
+   Gen: Alert; NAD
+   CV: RRR; No m/r/g appreciated
+   Resp: Dependent crackles; wheezes throughout
+   Abd: S/NT/ND; BS present
+   Ext: WWP
+   Labs / Radiology
+   135 K/uL
+   10.0 g/dL
+   168 mg/dL
+   0.8 mg/dL
+   29 mEq/L
+   4.0 mEq/L
+   18 mg/dL
+   103 mEq/L
+   138 mEq/L
+   29.6 %
+   6.8 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+                             [**2114-4-1**]  02:00 AM
+   WBC
+   6.7
+   6.1
+   6.8
+   Hct
+   33.7
+   30.3
+   29.6
+   Plt
+   130
+   130
+   135
+   Cr
+   0.9
+   0.8
+   0.8
+   Glucose
+   149
+   138
+   168
+   Other labs: PT / PTT / INR:17.0/41.6/1.5, Ca++:8.6 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan
+   76y/o gentleman with a PMH of diabetes mellitus, HTN, h/o stroke with
+   residual expressive aphasia admitted on [**3-26**] with urinary retention s/p
+   NSTEMI found to have 3vd on cardiac catheterization.
+   # NSTEMI - The patient was found to have 3 vessel disease and was
+   evaluated for CT surgery. Pt had some chest pain, which resolved with
+   nitro.  Has remained free of CP since. TTE demonstrates moderate
+   regional left ventricular systolic dysfunction with
+   inferior/inferolateral akinesis/hypokinesis with EF 40%.
+   - plan for CABG on Monday
+   - continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril and metoprolol; continue statin
+   - Nitro gtt for CP
+   - heparin gtt while pt has INR<2
+   #  HTN
+ continue lisinopril, metoprolol, nitro gtt
+   # Hypercholesterolemia - continue atorvastatin
+   # DM2 - continue insulin sliding scale
+   # H/o L MCA Stroke  - On chronic warfarin anticoagulation. Holding
+   coumadin pre-operatively.
+   - on heparin gtt while INR<2
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-30**] 02:13 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Heparin gtt)
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 76-year-old male with a history of diabetes mellitus, hypertension, and a previous stroke with residual expressive aphasia. He was admitted with urinary retention and was found to have a non-ST elevation myocardial infarction (NSTEMI) with 3-vessel disease. He had an episode of chest pain, which resolved with nitroglycerin, and has been pain-free since. The patient's vital signs are stable, with a temperature of 37.4°C, heart rate of 60 bpm, and blood pressure of 142/47 mmHg. He is receiving heparin and nitroglycerin infusions and is planned for coronary artery bypass grafting (CABG) on Monday.
+
+Potential Medical Complications:
+
+1. Cardiac complications: The patient's NSTEMI and 3-vessel disease put him at risk for cardiac complications such as arrhythmias, heart failure, and myocardial infarction.
+2. Respiratory complications: The patient's history of stroke and residual expressive aphasia may increase his risk for respiratory complications such as pneumonia and respiratory failure.
+3. Bleeding complications: The patient is receiving heparin and warfarin, which may increase his risk for bleeding complications.
+4. Infection: The patient's urinary retention and presence of a Foley catheter increase his risk for urinary tract infections.
+5. Hyperglycemia: The patient's diabetes mellitus and receipt of insulin sliding scale may increase his risk for hyperglycemia.
+6. Hypoglycemia: The patient's receipt of insulin sliding scale and potential for insulin overdose may increase his risk for hypoglycemia.
+7. Stroke: The patient's history of stroke and receipt of anticoagulation therapy may increase his risk for stroke.
+8. Pulmonary embolism: The patient's receipt of heparin and warfarin may increase his risk for pulmonary embolism.
+
+These potential complications will require close monitoring and management to prevent or minimize their occurrence."
+178961.0,215465,2114-04-01 06:19:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2114-3-31**] 09:45 AM
+   - had an episode of chest pain that responded to a nitro gtt; has been
+   chest pain free since then
+   - blood pressures fine
+   - further clarified home insulin regimen, started on NPH 6u [**Hospital1 **]
+   - started heparin gtt now that INR<2
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Heparin Sodium - 1,100 units/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2114-3-31**] 09:50 AM
+   Heparin Sodium - [**2114-4-1**] 03:29 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-4-1**] 06:19 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.4
+C (99.4
+   Tcurrent: 37.2
+C (98.9
+   HR: 60 (52 - 65) bpm
+   BP: 142/47(72) {108/34(53) - 175/67(95)} mmHg
+   RR: 21 (13 - 25) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    591 mL
+                                                                     76 mL
+   PO:
+                                                                    150 mL
+             TF:
+   IVF:
+                                                                    441 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                    945 mL
+                                                                    360 mL
+   Urine:
+                                                                    945 mL
+                                                                    360 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -354 mL
+                                                                   -284 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: ///29/
+   Physical Examination
+   Gen: Alert; NAD
+   CV: RRR; No m/r/g appreciated
+   Resp: Dependent crackles; wheezes throughout
+   Abd: S/NT/ND; BS present
+   Ext: WWP
+   Labs / Radiology
+   135 K/uL
+   10.0 g/dL
+   168 mg/dL
+   0.8 mg/dL
+   29 mEq/L
+   4.0 mEq/L
+   18 mg/dL
+   103 mEq/L
+   138 mEq/L
+   29.6 %
+   6.8 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+                             [**2114-4-1**]  02:00 AM
+   WBC
+   6.7
+   6.1
+   6.8
+   Hct
+   33.7
+   30.3
+   29.6
+   Plt
+   130
+   130
+   135
+   Cr
+   0.9
+   0.8
+   0.8
+   Glucose
+   149
+   138
+   168
+   Other labs: PT / PTT / INR:17.0/41.6/1.5, Ca++:8.6 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan
+   76y/o gentleman with a PMH of diabetes mellitus, HTN, h/o stroke with
+   residual expressive aphasia admitted on [**3-26**] with urinary retention s/p
+   NSTEMI found to have 3vd on cardiac catheterization.
+   # NSTEMI - The patient was found to have 3 vessel disease and was
+   evaluated for CT surgery. Pt had some chest pain, which resolved with
+   nitro.  Has remained free of CP since. TTE demonstrates moderate
+   regional left ventricular systolic dysfunction with
+   inferior/inferolateral akinesis/hypokinesis with EF 40%.
+   - plan for CABG on Monday
+   - continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril and metoprolol; continue statin
+   - Nitro gtt for CP
+   - heparin gtt while pt has INR<2
+   #  HTN
+ continue lisinopril, metoprolol, nitro gtt
+   # Hypercholesterolemia - continue atorvastatin
+   # DM2 - continue insulin sliding scale
+   # H/o L MCA Stroke  - On chronic warfarin anticoagulation. Holding
+   coumadin pre-operatively.
+   - on heparin gtt while INR<2
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-30**] 02:13 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Heparin gtt)
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ CHEST PAIN - At [**2114-3-31**] 09:45 AM
+   - had an episode of chest pain that responded to a nitro gtt; has been
+   chest pain free since then
+   - blood pressures fine
+   - further clarified home insulin regimen, started on NPH 6u [**Hospital1 **]
+   - started heparin gtt now that INR<2
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Heparin Sodium - 1,100 units/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2114-3-31**] 09:50 AM
+   Heparin Sodium - [**2114-4-1**] 03:29 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-4-1**] 06:19 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**16**] AM
+   Tmax: 37.4
+C (99.4
+   Tcurrent: 37.2
+C (98.9
+   HR: 60 (52 - 65) bpm
+   BP: 142/47(72) {108/34(53) - 175/67(95)} mmHg
+   RR: 21 (13 - 25) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    591 mL
+                                                                     76 mL
+   PO:
+                                                                    150 mL
+             TF:
+   IVF:
+                                                                    441 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                    945 mL
+                                                                    360 mL
+   Urine:
+                                                                    945 mL
+                                                                    360 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -354 mL
+                                                                   -284 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 95%
+   ABG: ///29/
+   Physical Examination
+   Gen: Alert; NAD
+   CV: RRR; No m/r/g appreciated
+   Resp: Dependent crackles; wheezes throughout
+   Abd: S/NT/ND; BS present
+   Ext: WWP
+   Labs / Radiology
+   135 K/uL
+   10.0 g/dL
+   168 mg/dL
+   0.8 mg/dL
+   29 mEq/L
+   4.0 mEq/L
+   18 mg/dL
+   103 mEq/L
+   138 mEq/L
+   29.6 %
+   6.8 K/uL
+        [image002.jpg]
+                             [**2114-3-30**]  06:36 AM
+                             [**2114-3-31**]  03:06 AM
+                             [**2114-4-1**]  02:00 AM
+   WBC
+   6.7
+   6.1
+   6.8
+   Hct
+   33.7
+   30.3
+   29.6
+   Plt
+   130
+   130
+   135
+   Cr
+   0.9
+   0.8
+   0.8
+   Glucose
+   149
+   138
+   168
+   Other labs: PT / PTT / INR:17.0/41.6/1.5, Ca++:8.6 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan
+   76y/o gentleman with a PMH of diabetes mellitus, HTN, h/o stroke with
+   residual expressive aphasia admitted on [**3-26**] with urinary retention s/p
+   NSTEMI found to have 3vd on cardiac catheterization.
+   # NSTEMI - The patient was found to have 3 vessel disease and was
+   evaluated for CT surgery. Pt had some chest pain, which resolved with
+   nitro.  Has remained free of CP since. TTE demonstrates moderate
+   regional left ventricular systolic dysfunction with
+   inferior/inferolateral akinesis/hypokinesis with EF 40%.
+   - plan for CABG on Monday
+   - continue [**Last Name (LF) 119**], [**First Name3 (LF) 124**] hold clopidogrel
+   - Continue lisinopril and metoprolol; continue statin
+   - Nitro gtt for CP
+   - heparin gtt while pt has INR<2
+   #  HTN
+ continue lisinopril, metoprolol, nitro gtt
+   # Hypercholesterolemia - continue atorvastatin
+   # DM2 - continue insulin sliding scale
+   # H/o L MCA Stroke  - On chronic warfarin anticoagulation. Holding
+   coumadin pre-operatively.
+   - on heparin gtt while INR<2
+   .
+   # Urinary retention: Likely related to prostatic disease. Consider
+   further w/u as outpatient.
+   - Foley in place
+   - Continue tamsulosin
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   20 Gauge - [**2114-3-30**] 02:13 PM
+   Prophylaxis:
+   DVT: (Systemic anticoagulation: Heparin gtt)
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient, a 76-year-old male with a history of diabetes mellitus, hypertension, and a previous stroke, was admitted to the ICU with urinary retention and a diagnosis of non-ST-elevation myocardial infarction (NSTEMI) after cardiac catheterization revealed 3-vessel disease. The patient experienced an episode of chest pain, which responded to nitroglycerin and has been pain-free since. The patient's vital signs are stable, with a temperature of 37.4°C, heart rate of 60 bpm, blood pressure of 142/47 mmHg, respiratory rate of 21 breaths per minute, and oxygen saturation of 95%. The patient is receiving heparin and nitroglycerin infusions, as well as insulin sliding scale and other medications.
+
+Potential Medical Complications:
+
+1. Cardiac complications: The patient's NSTEMI and 3-vessel disease put him at risk for further cardiac complications, such as acute coronary syndrome, heart failure, or arrhythmias.
+2. Respiratory complications: The patient's dependent crackles and wheezes throughout the lungs may indicate pneumonia or other respiratory infections, which could worsen his condition.
+3. Gastrointestinal complications: The patient's urinary retention and history of stroke may increase his risk for gastrointestinal complications, such as constipation, nausea, and vomiting.
+4. Infection: The patient's immunocompromised state due to his diabetes and history of stroke may increase his risk for infection, particularly pneumonia or sepsis.
+5. Bleeding complications: The patient's heparin infusion may increase his risk for bleeding complications, particularly gastrointestinal bleeding or hematuria.
+6. Hyperglycemia: The patient's diabetes and insulin sliding scale may increase his risk for hyperglycemia, which could worsen his condition.
+7. Hypotension: The patient's history of hypertension and medication regimen may increase his risk for hypotension, particularly if his blood pressure drops too low.
+8. Stroke or TIA: The patient's history of stroke and residual expressive aphasia may increase his risk for another stroke or transient ischemic attack (TIA)."

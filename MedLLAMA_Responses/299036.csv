@@ -1,0 +1,1563 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+118521.0,299036,2122-08-08 06:43:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   77 psychotic with MAT and UTI
+   Off [**Last Name (LF) 1686**], [**First Name3 (LF) **] f/u of culture
+   loading on dig
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2122-8-8**] 06:42 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+                  Total In:
+                  PO:
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                      0 mL
+   Respiratory support
+   ABG: ///29/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   425 K/uL
+   9.3 g/dL
+   116 mg/dL
+   0.6 mg/dL
+   29 mEq/L
+   4.2 mEq/L
+   19 mg/dL
+   103 mEq/L
+   138 mEq/L
+   27.3 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2122-8-8**]  04:50 AM
+   WBC
+   6.0
+   Hct
+   27.3
+   Plt
+   425
+   Cr
+   0.6
+   TropT
+   0.03
+   Glucose
+   116
+   Other labs: PT / PTT / INR:15.5/29.4/1.4, CK / CKMB /
+   Troponin-T:57//0.03, Ca++:8.7 mg/dL, Mg++:2.0 mg/dL, PO4:3.0 mg/dL
+   Assessment and Plan
+   77 F nursing home resident with psychosis and cognitive decline who was
+   admitted for R femoral fx s/p repair on [**7-27**] now with intermittent SVT
+   to 170's.
+   .
+   # SVT: Periods of afib, atrial tachycardia and sinus tachy.  Currently
+   give titrating up metoprolol as BP tolerates but BP marginal.  Consider
+   amio or digoxin.
+   -- cardiology following
+   -- telemetry
+   -- titrate up bblockers as BP tolerates
+   -- digoxin per card's: 0.25 mg x 4 doses q6 H, then 0.125 mg daily
+   thereafter
+   .
+   # Troponins: elevated while she was on the floor likely from demand
+   with SVT.  No h/o CAD.  Troponins have trended down.
+   -- asa
+   -- continue to monitor
+   -- nuclear stress test when clinicallyt more stable
+   .
+   # PE's and DVT: Discovered in search for etiology for SVT.
+   -- refuses Coumadin
+   -- Lovenox
+   .
+   # Femoral fracture: wound clean without signs of infection
+   -- ortho following
+   -- hct stable; had hct drop in setting of hip fx early in hospital
+   course
+   -- Lovenox
+   .
+   # Psychosis: Unclear etiology.
+   -- psychiatry following
+   -- avoid benzo's, anticholingergics, antihistamines, opiates
+   -- use low dose ripserdal if necessary
+   .
+   # Sacral Decub: wound care.
+   -- gaymar overlay and coricaid ointment
+   .
+   # GERD: PPI
+   .
+   # FEN: replete 'lytes prn, SSI
+   # PPX: Lovenox, PPI, bowel regimen
+   # Code: DNR/DNI Confirmed [**2122-8-7**] with Guardian. Pressors/IV meds
+   okay.
+   # Dispo: deferred
+   # Communication: [**First Name8 (NamePattern2) 208**] [**Last Name (NamePattern1) 5153**] (guardian: cell [**Telephone/Fax (1) 5154**] or
+   [**Telephone/Fax (1) 5155**], home [**Telephone/Fax (1) 5156**]), Social worker [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 3537**]
+   ([**Telephone/Fax (1) 4807**])
+   .
+   .
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   77 psychotic with MAT and UTI
+   Off [**Last Name (LF) 1686**], [**First Name3 (LF) **] f/u of culture
+   loading on dig
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2122-8-8**] 06:42 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+                  Total In:
+                  PO:
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                      0 mL
+   Respiratory support
+   ABG: ///29/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   425 K/uL
+   9.3 g/dL
+   116 mg/dL
+   0.6 mg/dL
+   29 mEq/L
+   4.2 mEq/L
+   19 mg/dL
+   103 mEq/L
+   138 mEq/L
+   27.3 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2122-8-8**]  04:50 AM
+   WBC
+   6.0
+   Hct
+   27.3
+   Plt
+   425
+   Cr
+   0.6
+   TropT
+   0.03
+   Glucose
+   116
+   Other labs: PT / PTT / INR:15.5/29.4/1.4, CK / CKMB /
+   Troponin-T:57//0.03, Ca++:8.7 mg/dL, Mg++:2.0 mg/dL, PO4:3.0 mg/dL
+   Assessment and Plan
+   77 F nursing home resident with psychosis and cognitive decline who was
+   admitted for R femoral fx s/p repair on [**7-27**] now with intermittent SVT
+   to 170's.
+   .
+   # SVT: Periods of afib, atrial tachycardia and sinus tachy.  Currently
+   give titrating up metoprolol as BP tolerates but BP marginal.  Consider
+   amio or digoxin.
+   -- cardiology following
+   -- telemetry
+   -- titrate up bblockers as BP tolerates
+   -- digoxin per card's: 0.25 mg x 4 doses q6 H, then 0.125 mg daily
+   thereafter
+   .
+   # Troponins: elevated while she was on the floor likely from demand
+   with SVT.  No h/o CAD.  Troponins have trended down.
+   -- asa
+   -- continue to monitor
+   -- nuclear stress test when clinicallyt more stable
+   .
+   # PE's and DVT: Discovered in search for etiology for SVT.
+   -- refuses Coumadin
+   -- Lovenox
+   .
+   # Femoral fracture: wound clean without signs of infection
+   -- ortho following
+   -- hct stable; had hct drop in setting of hip fx early in hospital
+   course
+   -- Lovenox
+   .
+   # Psychosis: Unclear etiology.
+   -- psychiatry following
+   -- avoid benzo's, anticholingergics, antihistamines, opiates
+   -- use low dose ripserdal if necessary
+   .
+   # Sacral Decub: wound care.
+   -- gaymar overlay and coricaid ointment
+   .
+   # GERD: PPI
+   .
+   # FEN: replete 'lytes prn, SSI
+   # PPX: Lovenox, PPI, bowel regimen
+   # Code: DNR/DNI Confirmed [**2122-8-7**] with Guardian. Pressors/IV meds
+   okay.
+   # Dispo: deferred
+   # Communication: [**First Name8 (NamePattern2) 208**] [**Last Name (NamePattern1) 5153**] (guardian: cell [**Telephone/Fax (1) 5154**] or
+   [**Telephone/Fax (1) 5155**], home [**Telephone/Fax (1) 5156**]), Social worker [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 3537**]
+   ([**Telephone/Fax (1) 4807**])
+   .
+   .
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old nursing home resident with a history of psychosis and cognitive decline, admitted for a right femoral fracture repair. She developed intermittent supraventricular tachycardia (SVT) to 170's, with periods of atrial fibrillation, atrial tachycardia, and sinus tachycardia. Her troponins were elevated initially, but have trended down. She has refused Coumadin for deep vein thrombosis (DVT) prophylaxis, but is receiving Lovenox. The patient's femoral fracture wound is clean without signs of infection. She has a sacral decubitus ulcer and is receiving wound care. She is also experiencing psychosis, and psychiatry is following her. The patient has a DNR/DNI code status and is deferred for discharge.
+
+Potential Medical Complications:
+
+1. Cardiac complications: The patient's SVT and elevated troponins increase her risk of cardiac complications, such as arrhythmias, heart failure, and myocardial infarction.
+2. DVT: The patient's refusal of Coumadin and her history of femoral fracture increase her risk of developing DVT, which can lead to pulmonary embolism and other complications.
+3. Sacral decubitus ulcer: The patient's sacral decubitus ulcer increases her risk of developing skin breakdown, infection, and other complications.
+4. Psychosis: The patient's psychosis can lead to agitation, aggression, and other behavioral complications, which can increase her risk of falls, injury, and other adverse events.
+5. Gastrointestinal complications: The patient's history of GERD and her current use of PPIs increase her risk of gastrointestinal complications, such as bleeding, perforation, and other adverse events.
+6. Infection: The patient's femoral fracture and sacral decubitus ulcer increase her risk of developing infection, which can lead to sepsis, organ failure, and other complications.
+7. Nutritional deficiencies: The patient's history of cognitive decline and her current nutritional status increase her risk of developing nutritional deficiencies, such as malnutrition, dehydration, and other complications.
+8. Pressure ulcers: The patient's history of sacral decubitus ulcer and her current use of pressure-reducing devices increase her risk of developing pressure ulcers, which can lead to skin breakdown, infection, and other complications.
+
+These potential medical complications highlight the importance of close monitoring and management of the patient's condition to prevent and address these complications."
+118521.0,299036,2122-08-08 19:54:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:  cognitive decline, transferred to MICU for SVT to
+   170s
+   24 Hour Events:
+   Digoxin loaded
+   Not taking PO meds reliably, so low BP with tachycardia is being
+   titrated with IV metoprolol as per cards
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2122-8-8**] 06:42 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   116/47 (104-172/33-66)
+   HR 106 (93-154)
+   R 21 (14-29)
+                  Total In:
+                  PO:
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                      0 mL
+   Respiratory support
+   Room Air
+   Physical Examination
+   Gen: Non-conversant female in NAD, sitting up in bed
+   HEENT: NCAT, PERRL, EOMI
+   CV: tachycardic, irregular, harsh loud 5/6 systolic murmur heard
+   loudest at the right USB but heard throughout chest
+   Abd: soft, NT, + BS
+   Ext: no CCE, right thigh with 5-6 staples, incision CDI, no erythema
+   Labs / Radiology
+   425 K/uL
+   9.3 g/dL
+   116 mg/dL
+   0.6 mg/dL
+   29 mEq/L
+   4.2 mEq/L
+   19 mg/dL
+   103 mEq/L
+   138 mEq/L
+   27.3 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2122-8-8**]  04:50 AM
+   WBC
+   6.0
+   Hct
+   27.3
+   Plt
+   425
+   Cr
+   0.6
+   TropT
+   0.03
+   Glucose
+   116
+   Other labs: PT / PTT / INR:15.5/29.4/1.4, CK / CKMB /
+   Troponin-T:57//0.03, Ca++:8.7 mg/dL, Mg++:2.0 mg/dL, PO4:3.0 mg/dL
+   Assessment and Plan
+   77 F nursing home resident with psychosis and cognitive decline who was
+   admitted for R femoral fx s/p repair on [**7-27**] now with intermittent SVT
+   to 170's.
+   .
+   # SVT: Periods of afib, atrial tachycardia and sinus tachy.  Currently
+   give titrating up metoprolol as BP tolerates but BP marginal.  Digoxin
+   loading.
+   -- cardiology following
+   -- telemetry
+   -- titrate up bblockers as BP tolerates
+   -- digoxin per card's: 0.25 mg x 4 doses q6 H, then 0.125 mg daily
+   thereafter
+   .
+   # Troponins: elevated while she was on the floor likely from demand
+   with SVT.  No h/o CAD.  Troponins have trended down.
+   -- asa
+   -- continue to monitor
+   -- nuclear stress test when clinicallyt more stable
+   .
+   # PE's and DVT: Discovered in search for etiology for SVT.
+   -- refuses Coumadin
+   -- Lovenox
+   .
+   # Femoral fracture: wound clean without signs of infection
+   -- ortho following
+   -- hct stable; had hct drop in setting of hip fx early in hospital
+   course
+   -- Lovenox (4 week indication for fx but much longer course will be
+   required for PE)
+   .
+   # Psychosis: Unclear etiology.
+   -- psychiatry following
+   -- avoid benzo's, anticholingergics, antihistamines, opiates
+   -- use low dose ripserdal if necessary
+   .
+   # Sacral Decub: wound care.
+   -- gaymar overlay and coricaid ointment
+   .
+   # GERD: PPI
+   .
+   # FEN: replete 'lytes prn, SSI
+   # PPX: Lovenox, PPI, bowel regimen
+   # Code: DNR/DNI Confirmed [**2122-8-7**] with Guardian. Pressors/IV meds
+   okay.
+   # Dispo: deferred
+   # Communication: [**First Name8 (NamePattern2) 208**] [**Last Name (NamePattern1) 5153**] (guardian: cell [**Telephone/Fax (1) 5154**] or
+   [**Telephone/Fax (1) 5155**], home [**Telephone/Fax (1) 5156**]), Social worker [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 3537**]
+   ([**Telephone/Fax (1) 4807**])
+   .
+   .
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:  cognitive decline, transferred to MICU for SVT to
+   170s
+   24 Hour Events:
+   Digoxin loaded
+   Not taking PO meds reliably, so low BP with tachycardia is being
+   titrated with IV metoprolol as per cards
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2122-8-8**] 06:42 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   116/47 (104-172/33-66)
+   HR 106 (93-154)
+   R 21 (14-29)
+                  Total In:
+                  PO:
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                      0 mL
+   Respiratory support
+   Room Air
+   Physical Examination
+   Gen: Non-conversant female in NAD, sitting up in bed
+   HEENT: NCAT, PERRL, EOMI
+   CV: tachycardic, irregular, harsh loud 5/6 systolic murmur heard
+   loudest at the right USB but heard throughout chest
+   Abd: soft, NT, + BS
+   Ext: no CCE, right thigh with 5-6 staples, incision CDI, no erythema
+   Labs / Radiology
+   425 K/uL
+   9.3 g/dL
+   116 mg/dL
+   0.6 mg/dL
+   29 mEq/L
+   4.2 mEq/L
+   19 mg/dL
+   103 mEq/L
+   138 mEq/L
+   27.3 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2122-8-8**]  04:50 AM
+   WBC
+   6.0
+   Hct
+   27.3
+   Plt
+   425
+   Cr
+   0.6
+   TropT
+   0.03
+   Glucose
+   116
+   Other labs: PT / PTT / INR:15.5/29.4/1.4, CK / CKMB /
+   Troponin-T:57//0.03, Ca++:8.7 mg/dL, Mg++:2.0 mg/dL, PO4:3.0 mg/dL
+   Assessment and Plan
+   77 F nursing home resident with psychosis and cognitive decline who was
+   admitted for R femoral fx s/p repair on [**7-27**] now with intermittent SVT
+   to 170's.
+   .
+   # SVT: Periods of afib, atrial tachycardia and sinus tachy.  Currently
+   give titrating up metoprolol as BP tolerates but BP marginal.  Digoxin
+   loading.
+   -- cardiology following
+   -- telemetry
+   -- titrate up bblockers as BP tolerates
+   -- digoxin per card's: 0.25 mg x 4 doses q6 H, then 0.125 mg daily
+   thereafter
+   .
+   # Troponins: elevated while she was on the floor likely from demand
+   with SVT.  No h/o CAD.  Troponins have trended down.
+   -- asa
+   -- continue to monitor
+   -- nuclear stress test when clinicallyt more stable
+   .
+   # PE's and DVT: Discovered in search for etiology for SVT.
+   -- refuses Coumadin
+   -- Lovenox
+   .
+   # Femoral fracture: wound clean without signs of infection
+   -- ortho following
+   -- hct stable; had hct drop in setting of hip fx early in hospital
+   course
+   -- Lovenox (4 week indication for fx but much longer course will be
+   required for PE)
+   .
+   # Psychosis: Unclear etiology.
+   -- psychiatry following
+   -- avoid benzo's, anticholingergics, antihistamines, opiates
+   -- use low dose ripserdal if necessary
+   .
+   # Sacral Decub: wound care.
+   -- gaymar overlay and coricaid ointment
+   .
+   # GERD: PPI
+   .
+   # FEN: replete 'lytes prn, SSI
+   # PPX: Lovenox, PPI, bowel regimen
+   # Code: DNR/DNI Confirmed [**2122-8-7**] with Guardian. Pressors/IV meds
+   okay.
+   # Dispo: deferred
+   # Communication: [**First Name8 (NamePattern2) 208**] [**Last Name (NamePattern1) 5153**] (guardian: cell [**Telephone/Fax (1) 5154**] or
+   [**Telephone/Fax (1) 5155**], home [**Telephone/Fax (1) 5156**]), Social worker [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 3537**]
+   ([**Telephone/Fax (1) 4807**])
+   .
+   .<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old nursing home resident with a history of psychosis and cognitive decline, who was admitted for a right femoral fracture. She was recently transferred to the MICU for supraventricular tachycardia (SVT) with rates up to 170 beats per minute. The patient is being treated with digoxin loading and titration of IV metoprolol to control her heart rate. She has a history of intermittent SVT, atrial fibrillation, and sinus tachycardia.
+
+The patient's physical examination reveals a tachycardic, irregular, and harsh systolic murmur heard loudest at the right upper sternal border. Her laboratory results show elevated troponin levels, which have trended down, and a normal complete blood count.
+
+Potential Medical Complications:
+
+1. Cardiac Complications: The patient's SVT and atrial fibrillation may lead to cardiac arrhythmias, heart failure, or stroke.
+2. Respiratory Complications: The patient's tachycardia and irregular heartbeat may lead to respiratory distress or failure.
+3. Gastrointestinal Complications: The patient's history of GERD and potential electrolyte imbalances may lead to gastrointestinal bleeding, perforation, or obstruction.
+4. Wound Complications: The patient's sacral decubitus ulcer and femoral fracture may lead to wound infections, osteomyelitis, or non-healing wounds.
+5. Psychiatric Complications: The patient's history of psychosis and cognitive decline may lead to worsening of her mental status, delirium, or aggression.
+6. Hematological Complications: The patient's history of PE and DVT may lead to recurrent thrombotic events or bleeding complications.
+7. Infection Complications: The patient's history of hip fracture and potential electrolyte imbalances may lead to infection, sepsis, or organ dysfunction.
+
+It is essential to closely monitor the patient's vital signs, laboratory results, and physical examination findings to prevent or manage these potential complications."
+118521.0,299036,2122-08-09 06:19:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   -remained psychotic and non-conversant, but appropriate at times (eg:
+   asking for Maalox)
+   -rates trended down - 80s-90s
+   -increased IV metoprolol from 7.5 to 10 mg q4, am digoxin level as per
+   cards
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2122-8-9**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+                  Total In:
+                  PO:
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                      0 mL
+   Respiratory support
+   ABG: ////
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   425 K/uL
+   9.3 g/dL
+   116 mg/dL
+   0.6 mg/dL
+   29 mEq/L
+   4.2 mEq/L
+   19 mg/dL
+   103 mEq/L
+   138 mEq/L
+   27.3 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2122-8-8**]  04:50 AM
+   WBC
+   6.0
+   Hct
+   27.3
+   Plt
+   425
+   Cr
+   0.6
+   TropT
+   0.03
+   Glucose
+   116
+   Other labs: PT / PTT / INR:15.5/29.4/1.4, CK / CKMB /
+   Troponin-T:57//0.03, Ca++:8.7 mg/dL, Mg++:2.0 mg/dL, PO4:3.0 mg/dL
+   Assessment and Plan
+   77 F nursing home resident with psychosis and cognitive decline who was
+   admitted for R femoral fx s/p repair on [**7-27**] now with intermittent SVT
+   to 170's.
+   .
+   # SVT: Periods of afib, atrial tachycardia and sinus tachy.  Currently
+   give titrating up metoprolol as BP tolerates but BP marginal.  Digoxin
+   loading.
+   -- cardiology following
+   -- telemetry
+   -- titrate up bblockers as BP tolerates
+   -- digoxin per card's: 0.25 mg x 4 doses q6 H, then 0.125 mg daily
+   thereafter
+   .
+   # Troponins: elevated while she was on the floor likely from demand
+   with SVT.  No h/o CAD.  Troponins have trended down.
+   -- asa
+   -- continue to monitor
+   -- nuclear stress test when clinicallyt more stable
+   .
+   # PE's and DVT: Discovered in search for etiology for SVT.
+   -- refuses Coumadin
+   -- Lovenox
+   .
+   # Femoral fracture: wound clean without signs of infection
+   -- ortho following
+   -- hct stable; had hct drop in setting of hip fx early in hospital
+   course
+   -- Lovenox (4 week indication for fx but much longer course will be
+   required for PE)
+   .
+   # Psychosis: Unclear etiology.
+   -- psychiatry following
+   -- avoid benzo's, anticholingergics, antihistamines, opiates
+   -- use low dose ripserdal if necessary
+   .
+   # Sacral Decub: wound care.
+   -- gaymar overlay and coricaid ointment
+   .
+   # GERD: PPI
+   # FEN: replete 'lytes prn, SSI
+   # PPX: Lovenox, PPI, bowel regimen
+   # Code: DNR/DNI Confirmed [**2122-8-7**] with Guardian. Pressors/IV meds
+   okay.
+   # Dispo: deferred
+   # Communication: [**First Name8 (NamePattern2) 208**] [**Last Name (NamePattern1) 5153**] (guardian: cell [**Telephone/Fax (1) 5154**] or
+   [**Telephone/Fax (1) 5155**], home [**Telephone/Fax (1) 5156**]), Social worker [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 3537**]
+   ([**Telephone/Fax (1) 4807**])
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   -remained psychotic and non-conversant, but appropriate at times (eg:
+   asking for Maalox)
+   -rates trended down - 80s-90s
+   -increased IV metoprolol from 7.5 to 10 mg q4, am digoxin level as per
+   cards
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2122-8-9**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+                  Total In:
+                  PO:
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                      0 mL
+   Respiratory support
+   ABG: ////
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   425 K/uL
+   9.3 g/dL
+   116 mg/dL
+   0.6 mg/dL
+   29 mEq/L
+   4.2 mEq/L
+   19 mg/dL
+   103 mEq/L
+   138 mEq/L
+   27.3 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2122-8-8**]  04:50 AM
+   WBC
+   6.0
+   Hct
+   27.3
+   Plt
+   425
+   Cr
+   0.6
+   TropT
+   0.03
+   Glucose
+   116
+   Other labs: PT / PTT / INR:15.5/29.4/1.4, CK / CKMB /
+   Troponin-T:57//0.03, Ca++:8.7 mg/dL, Mg++:2.0 mg/dL, PO4:3.0 mg/dL
+   Assessment and Plan
+   77 F nursing home resident with psychosis and cognitive decline who was
+   admitted for R femoral fx s/p repair on [**7-27**] now with intermittent SVT
+   to 170's.
+   .
+   # SVT: Periods of afib, atrial tachycardia and sinus tachy.  Currently
+   give titrating up metoprolol as BP tolerates but BP marginal.  Digoxin
+   loading.
+   -- cardiology following
+   -- telemetry
+   -- titrate up bblockers as BP tolerates
+   -- digoxin per card's: 0.25 mg x 4 doses q6 H, then 0.125 mg daily
+   thereafter
+   .
+   # Troponins: elevated while she was on the floor likely from demand
+   with SVT.  No h/o CAD.  Troponins have trended down.
+   -- asa
+   -- continue to monitor
+   -- nuclear stress test when clinicallyt more stable
+   .
+   # PE's and DVT: Discovered in search for etiology for SVT.
+   -- refuses Coumadin
+   -- Lovenox
+   .
+   # Femoral fracture: wound clean without signs of infection
+   -- ortho following
+   -- hct stable; had hct drop in setting of hip fx early in hospital
+   course
+   -- Lovenox (4 week indication for fx but much longer course will be
+   required for PE)
+   .
+   # Psychosis: Unclear etiology.
+   -- psychiatry following
+   -- avoid benzo's, anticholingergics, antihistamines, opiates
+   -- use low dose ripserdal if necessary
+   .
+   # Sacral Decub: wound care.
+   -- gaymar overlay and coricaid ointment
+   .
+   # GERD: PPI
+   # FEN: replete 'lytes prn, SSI
+   # PPX: Lovenox, PPI, bowel regimen
+   # Code: DNR/DNI Confirmed [**2122-8-7**] with Guardian. Pressors/IV meds
+   okay.
+   # Dispo: deferred
+   # Communication: [**First Name8 (NamePattern2) 208**] [**Last Name (NamePattern1) 5153**] (guardian: cell [**Telephone/Fax (1) 5154**] or
+   [**Telephone/Fax (1) 5155**], home [**Telephone/Fax (1) 5156**]), Social worker [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 3537**]
+   ([**Telephone/Fax (1) 4807**])
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, here is a summary of the information:
+
+The patient is a 77-year-old nursing home resident admitted for a right femoral fracture repair. She developed intermittent supraventricular tachycardia (SVT) and was found to have periods of atrial fibrillation, atrial tachycardia, and sinus tachycardia. The patient's blood pressure is marginal, and she is being titrated up on metoprolol. Digoxin loading is also being performed.
+
+The patient's troponin levels were elevated, likely due to demand ischemia with SVT, but have trended down. She has a history of psychosis and cognitive decline, and her etiology is unclear. The patient is being followed by psychiatry and is being advised to avoid certain medications.
+
+The patient has a femoral fracture, which is clean without signs of infection. She has a sacral decubitus ulcer, which is being treated with wound care. She also has a history of GERD and is being treated with a PPI.
+
+The patient's laboratory results show:
+
+* WBC: 6.0
+* Hct: 27.3
+* Plt: 425
+* Cr: 0.6
+* TropT: 0.03
+* Glucose: 116
+* PT/PTT/INR: 15.5/29.4/1.4
+* CK/CKMB/Troponin-T: 57//0.03
+* Ca++: 8.7 mg/dL
+* Mg++: 2.0 mg/dL
+* PO4: 3.0 mg/dL
+
+Potential medical complications that can arise include:
+
+* Cardiac arrhythmias due to continued SVT and marginal blood pressure
+* Worsening of psychosis and cognitive decline
+* Infection of the femoral fracture or sacral decubitus ulcer
+* Development of deep vein thrombosis (DVT) despite Lovenox treatment
+* Further elevation of troponin levels
+* Hemorrhagic complications due to prolonged use of anticoagulation therapy
+* Nutritional deficiencies due to poor oral intake and potential malabsorption
+* Development of stress ulcers or other gastrointestinal complications
+* VAP (ventilator-associated pneumonia) due to prolonged mechanical ventilation
+* Deterioration of glycemic control due to continued use of IV fluids and medications."
+118521.0,299036,2122-08-09 06:19:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   -remained psychotic and non-conversant, but appropriate at times (eg:
+   asking for Maalox).  Refuses po medicines, however, she will take them
+   if they are ground and mixed into applesauce.
+   -rates trended down - 70s-90s
+   -increased IV metoprolol from 7.5 to 10 mg q4, am digoxin level was
+   within range as per cards
+   - Plan to call out to floor today.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2122-8-9**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tc 99
+   Tm 100.6 (rectally)
+   HR 92 (75-109)
+   BP 107/47 (120s-90s/50s-30s)
+   RR 20 (13-35)
+   SaO2 95%
+                  Total In:
+                                                                       950
+                                                                       120
+   PO:
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    500 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                      0 mL
+   Respiratory support
+   ABG: ////
+   Physical Examination
+   Gen: Non-conversant female in NAD, sleeping
+   HEENT: NCAT
+   CV: irregular, harsh loud 5/6 systolic murmur
+   Abd: soft, NT, + BS
+   Ext: right leg larger than left with slight yellow hue,  right thigh
+   with 5-6 staples, incision CDI, no erythema
+   Labs / Radiology
+   473 K/uL
+   9.2 g/dL
+   113 mg/dL
+   0.5 mg/dL
+   30 mEq/L
+   4.4 mEq/L
+   13 mg/dL
+   103 mEq/L
+   138 mEq/L
+   27.8 %
+   6.3 K/uL
+        [image002.jpg]
+   Ca 8.8 Mg 2.1 Phos 2.5
+                             [**2122-8-8**]  04:50 AM
+   WBC
+   6.0
+   Hct
+   27.3
+   Plt
+   425
+   Cr
+   0.6
+   TropT
+   0.03
+   Glucose
+   116
+   Dig Level: 1.6
+   Urine cultures:
+   [**7-31**] pan [**Last Name (un) **] proteus, GPC
+   [**8-5**] coag neg staph
+   [**8-7**] prelim- gram positive
+   CTA ([**8-6**]):
+   IMPRESSION:
+   1. Acute pulmonary embolism in posterior basal right lower lobe
+   segmental and
+   subsegmental arteries and in subsegmental lingular artery.
+   2. New small right pleural effusion with bibasilar atelectasis,
+   possibly
+   related with acute pulmonary embolism.
+   3. Unchanged biapical scarring and mild cylindrical bronchiectasis at
+   the
+   left apex.
+   4. Unchanged coronary artery calcifications. Aortic valvular
+   calcifications
+   are of unknown hemodynamic significance.
+   5. Extensive degenerative changes of the spine, kyphosis and
+   compression
+   fractures of the mid thoracic spine.
+   Assessment and Plan
+   77 F nursing home resident with psychosis and cognitive decline who was
+   admitted for R femoral fx s/p repair on [**7-27**] requiring transfer to MICU
+   x 2 for SVT.
+   .
+   # SVT: Loaded with dig and IV beta blockers with good results
+   -- Dig level 1.6 today.  Start 0.125mg/day tomorrow
+   -- Change IV metoprolol to po.  Will crush pills and put into
+   applesauce.
+   -- cardiology following
+   -- telemetry
+   # UTI: on [**8-5**] culture showed coag neg staph.  [**8-7**] culture prelim shows
+   gram pos
+   -- Started bactrim on [**8-9**]
+   .
+   # Troponins: elevated while she was on the floor likely from demand
+   with SVT.  No h/o CAD.  Troponins have trended down.
+   -- asa
+   -- continue to monitor
+   -- nuclear stress test when clinicallyt more stable
+   .
+   # PE's and DVT: Discovered in search for etiology for SVT.
+   -- refuses Coumadin
+   -- Lovenox long term- both for fracture and for PE
+   .
+   # Femoral fracture: wound clean without signs of infection
+   -- ortho following
+   -- hct stable; had hct drop in setting of hip fx early in hospital
+   course
+   -- Lovenox (4 week indication for fx but much longer course will be
+   required for PE)
+   .
+   # Psychosis: Unclear etiology.
+   -- psychiatry following
+   -- avoid benzo's, anticholingergics, antihistamines, opiates
+   -- use low dose ripserdal if necessary
+   .
+   # Sacral Decub: wound care.
+   -- gaymar overlay and coricaid ointment
+   .
+   # GERD: PPI
+   # FEN: replete 'lytes prn, SSI
+   # PPX: Lovenox, PPI, bowel regimen
+   # Code: DNR/DNI Confirmed [**2122-8-7**] with Guardian. Pressors/IV meds
+   okay.
+   # Dispo: to floor today
+   # Communication: [**First Name8 (NamePattern2) 208**] [**Last Name (NamePattern1) 5153**] (guardian: cell [**Telephone/Fax (1) 5154**] or
+   [**Telephone/Fax (1) 5155**], home [**Telephone/Fax (1) 5156**]), Social worker [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 3537**]
+   ([**Telephone/Fax (1) 4807**])
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   -remained psychotic and non-conversant, but appropriate at times (eg:
+   asking for Maalox).  Refuses po medicines, however, she will take them
+   if they are ground and mixed into applesauce.
+   -rates trended down - 70s-90s
+   -increased IV metoprolol from 7.5 to 10 mg q4, am digoxin level was
+   within range as per cards
+   - Plan to call out to floor today.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2122-8-9**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tc 99
+   Tm 100.6 (rectally)
+   HR 92 (75-109)
+   BP 107/47 (120s-90s/50s-30s)
+   RR 20 (13-35)
+   SaO2 95%
+                  Total In:
+                                                                       950
+                                                                       120
+   PO:
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    500 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                      0 mL
+   Respiratory support
+   ABG: ////
+   Physical Examination
+   Gen: Non-conversant female in NAD, sleeping
+   HEENT: NCAT
+   CV: irregular, harsh loud 5/6 systolic murmur
+   Abd: soft, NT, + BS
+   Ext: right leg larger than left with slight yellow hue,  right thigh
+   with 5-6 staples, incision CDI, no erythema
+   Labs / Radiology
+   473 K/uL
+   9.2 g/dL
+   113 mg/dL
+   0.5 mg/dL
+   30 mEq/L
+   4.4 mEq/L
+   13 mg/dL
+   103 mEq/L
+   138 mEq/L
+   27.8 %
+   6.3 K/uL
+        [image002.jpg]
+   Ca 8.8 Mg 2.1 Phos 2.5
+                             [**2122-8-8**]  04:50 AM
+   WBC
+   6.0
+   Hct
+   27.3
+   Plt
+   425
+   Cr
+   0.6
+   TropT
+   0.03
+   Glucose
+   116
+   Dig Level: 1.6
+   Urine cultures:
+   [**7-31**] pan [**Last Name (un) **] proteus, GPC
+   [**8-5**] coag neg staph
+   [**8-7**] prelim- gram positive
+   CTA ([**8-6**]):
+   IMPRESSION:
+   1. Acute pulmonary embolism in posterior basal right lower lobe
+   segmental and
+   subsegmental arteries and in subsegmental lingular artery.
+   2. New small right pleural effusion with bibasilar atelectasis,
+   possibly
+   related with acute pulmonary embolism.
+   3. Unchanged biapical scarring and mild cylindrical bronchiectasis at
+   the
+   left apex.
+   4. Unchanged coronary artery calcifications. Aortic valvular
+   calcifications
+   are of unknown hemodynamic significance.
+   5. Extensive degenerative changes of the spine, kyphosis and
+   compression
+   fractures of the mid thoracic spine.
+   Assessment and Plan
+   77 F nursing home resident with psychosis and cognitive decline who was
+   admitted for R femoral fx s/p repair on [**7-27**] requiring transfer to MICU
+   x 2 for SVT.
+   .
+   # SVT: Loaded with dig and IV beta blockers with good results
+   -- Dig level 1.6 today.  Start 0.125mg/day tomorrow
+   -- Change IV metoprolol to po.  Will crush pills and put into
+   applesauce.
+   -- cardiology following
+   -- telemetry
+   # UTI: on [**8-5**] culture showed coag neg staph.  [**8-7**] culture prelim shows
+   gram pos
+   -- Started bactrim on [**8-9**]
+   .
+   # Troponins: elevated while she was on the floor likely from demand
+   with SVT.  No h/o CAD.  Troponins have trended down.
+   -- asa
+   -- continue to monitor
+   -- nuclear stress test when clinicallyt more stable
+   .
+   # PE's and DVT: Discovered in search for etiology for SVT.
+   -- refuses Coumadin
+   -- Lovenox long term- both for fracture and for PE
+   .
+   # Femoral fracture: wound clean without signs of infection
+   -- ortho following
+   -- hct stable; had hct drop in setting of hip fx early in hospital
+   course
+   -- Lovenox (4 week indication for fx but much longer course will be
+   required for PE)
+   .
+   # Psychosis: Unclear etiology.
+   -- psychiatry following
+   -- avoid benzo's, anticholingergics, antihistamines, opiates
+   -- use low dose ripserdal if necessary
+   .
+   # Sacral Decub: wound care.
+   -- gaymar overlay and coricaid ointment
+   .
+   # GERD: PPI
+   # FEN: replete 'lytes prn, SSI
+   # PPX: Lovenox, PPI, bowel regimen
+   # Code: DNR/DNI Confirmed [**2122-8-7**] with Guardian. Pressors/IV meds
+   okay.
+   # Dispo: to floor today
+   # Communication: [**First Name8 (NamePattern2) 208**] [**Last Name (NamePattern1) 5153**] (guardian: cell [**Telephone/Fax (1) 5154**] or
+   [**Telephone/Fax (1) 5155**], home [**Telephone/Fax (1) 5156**]), Social worker [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 3537**]
+   ([**Telephone/Fax (1) 4807**])
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 77-year-old female nursing home resident admitted for a right femoral fracture and subsequent transfer to the MICU twice for supraventricular tachycardia (SVT). She has a history of psychosis and cognitive decline.
+
+The patient's current condition is as follows:
+
+* Respiratory: The patient has a right pleural effusion with bibasilar atelectasis, possibly related to the acute pulmonary embolism (PE). She also has unchanged biapical scarring and mild cylindrical bronchiectasis at the left apex.
+* Cardiovascular: The patient has a new small right pleural effusion and bibasilar atelectasis, possibly related to the PE. She also has coronary artery calcifications and aortic valvular calcifications of unknown hemodynamic significance.
+* Neurological: The patient is non-conversant and has a history of psychosis and cognitive decline.
+* Musculoskeletal: The patient has a right femoral fracture that is healing without signs of infection.
+
+Potential medical complications that can arise based on this information include:
+
+* Respiratory failure due to the PE and pleural effusion
+* Cardiac arrhythmias or cardiac arrest due to the SVT and coronary artery calcifications
+* Worsening of the patient's cognitive decline and psychosis
+* Infection of the right femoral fracture or wound
+* Development of deep vein thrombosis (DVT) or pulmonary embolism (PE) due to immobility and lack of anticoagulation
+* Gastrointestinal bleeding due to the use of anticoagulants and antiplatelet agents
+* Nutritional deficiencies due to poor oral intake and lack of adequate nutrition support
+* Hyperglycemia or hypoglycemia due to the patient's underlying condition and medication regimen
+* Pressure ulcers due to immobility and poor skin care
+* Infection of the sacral decubitus ulcer
+* Development of ventilator-associated pneumonia (VAP) due to prolonged mechanical ventilation."
+118521.0,299036,2122-08-09 06:19:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   -remained psychotic and non-conversant, but appropriate at times (eg:
+   asking for Maalox)
+   -rates trended down - 80s-90s
+   -increased IV metoprolol from 7.5 to 10 mg q4, am digoxin level was
+   within range as per cards
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2122-8-9**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+                  Total In:
+                  PO:
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                      0 mL
+   Respiratory support
+   ABG: ////
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   425 K/uL
+   9.3 g/dL
+   116 mg/dL
+   0.6 mg/dL
+   29 mEq/L
+   4.2 mEq/L
+   19 mg/dL
+   103 mEq/L
+   138 mEq/L
+   27.3 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2122-8-8**]  04:50 AM
+   WBC
+   6.0
+   Hct
+   27.3
+   Plt
+   425
+   Cr
+   0.6
+   TropT
+   0.03
+   Glucose
+   116
+   Other labs: PT / PTT / INR:15.5/29.4/1.4, [**8-8**] CK / CKMB /
+   Troponin-T:57//0.03, Ca++:8.7 mg/dL, Mg++:2.0 mg/dL, PO4:3.0 mg/dL
+   Dig Level: 1.6
+   CTA ([**8-6**]):
+   IMPRESSION:
+   1. Acute pulmonary embolism in posterior basal right lower lobe
+   segmental and
+   subsegmental arteries and in subsegmental lingular artery.
+   2. New small right pleural effusion with bibasilar atelectasis,
+   possibly
+   related with acute pulmonary embolism.
+   3. Unchanged biapical scarring and mild cylindrical bronchiectasis at
+   the
+   left apex.
+   4. Unchanged coronary artery calcifications. Aortic valvular
+   calcifications
+   are of unknown hemodynamic significance.
+   5. Extensive degenerative changes of the spine, kyphosis and
+   compression
+   fractures of the mid thoracic spine.
+   Assessment and Plan
+   77 F nursing home resident with psychosis and cognitive decline who was
+   admitted for R femoral fx s/p repair on [**7-27**] now with intermittent SVT
+   to 170's.
+   .
+   # SVT: Periods of afib, atrial tachycardia and sinus tachy.  Currently
+   give titrating up metoprolol as BP tolerates but BP marginal.  Digoxin
+   loading.
+   -- cardiology following
+   -- telemetry
+   -- titrate up bblockers as BP tolerates
+   -- digoxin per card's: 0.25 mg x 4 doses q6 H, then 0.125 mg daily
+   thereafter
+   .
+   # Troponins: elevated while she was on the floor likely from demand
+   with SVT.  No h/o CAD.  Troponins have trended down.
+   -- asa
+   -- continue to monitor
+   -- nuclear stress test when clinicallyt more stable
+   .
+   # PE's and DVT: Discovered in search for etiology for SVT.
+   -- refuses Coumadin
+   -- Lovenox
+   .
+   # Femoral fracture: wound clean without signs of infection
+   -- ortho following
+   -- hct stable; had hct drop in setting of hip fx early in hospital
+   course
+   -- Lovenox (4 week indication for fx but much longer course will be
+   required for PE)
+   .
+   # Psychosis: Unclear etiology.
+   -- psychiatry following
+   -- avoid benzo's, anticholingergics, antihistamines, opiates
+   -- use low dose ripserdal if necessary
+   .
+   # Sacral Decub: wound care.
+   -- gaymar overlay and coricaid ointment
+   .
+   # GERD: PPI
+   # FEN: replete 'lytes prn, SSI
+   # PPX: Lovenox, PPI, bowel regimen
+   # Code: DNR/DNI Confirmed [**2122-8-7**] with Guardian. Pressors/IV meds
+   okay.
+   # Dispo: deferred
+   # Communication: [**First Name8 (NamePattern2) 208**] [**Last Name (NamePattern1) 5153**] (guardian: cell [**Telephone/Fax (1) 5154**] or
+   [**Telephone/Fax (1) 5155**], home [**Telephone/Fax (1) 5156**]), Social worker [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 3537**]
+   ([**Telephone/Fax (1) 4807**])
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   -remained psychotic and non-conversant, but appropriate at times (eg:
+   asking for Maalox)
+   -rates trended down - 80s-90s
+   -increased IV metoprolol from 7.5 to 10 mg q4, am digoxin level was
+   within range as per cards
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2122-8-9**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+                  Total In:
+                  PO:
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                      0 mL
+   Respiratory support
+   ABG: ////
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   425 K/uL
+   9.3 g/dL
+   116 mg/dL
+   0.6 mg/dL
+   29 mEq/L
+   4.2 mEq/L
+   19 mg/dL
+   103 mEq/L
+   138 mEq/L
+   27.3 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2122-8-8**]  04:50 AM
+   WBC
+   6.0
+   Hct
+   27.3
+   Plt
+   425
+   Cr
+   0.6
+   TropT
+   0.03
+   Glucose
+   116
+   Other labs: PT / PTT / INR:15.5/29.4/1.4, [**8-8**] CK / CKMB /
+   Troponin-T:57//0.03, Ca++:8.7 mg/dL, Mg++:2.0 mg/dL, PO4:3.0 mg/dL
+   Dig Level: 1.6
+   CTA ([**8-6**]):
+   IMPRESSION:
+   1. Acute pulmonary embolism in posterior basal right lower lobe
+   segmental and
+   subsegmental arteries and in subsegmental lingular artery.
+   2. New small right pleural effusion with bibasilar atelectasis,
+   possibly
+   related with acute pulmonary embolism.
+   3. Unchanged biapical scarring and mild cylindrical bronchiectasis at
+   the
+   left apex.
+   4. Unchanged coronary artery calcifications. Aortic valvular
+   calcifications
+   are of unknown hemodynamic significance.
+   5. Extensive degenerative changes of the spine, kyphosis and
+   compression
+   fractures of the mid thoracic spine.
+   Assessment and Plan
+   77 F nursing home resident with psychosis and cognitive decline who was
+   admitted for R femoral fx s/p repair on [**7-27**] now with intermittent SVT
+   to 170's.
+   .
+   # SVT: Periods of afib, atrial tachycardia and sinus tachy.  Currently
+   give titrating up metoprolol as BP tolerates but BP marginal.  Digoxin
+   loading.
+   -- cardiology following
+   -- telemetry
+   -- titrate up bblockers as BP tolerates
+   -- digoxin per card's: 0.25 mg x 4 doses q6 H, then 0.125 mg daily
+   thereafter
+   .
+   # Troponins: elevated while she was on the floor likely from demand
+   with SVT.  No h/o CAD.  Troponins have trended down.
+   -- asa
+   -- continue to monitor
+   -- nuclear stress test when clinicallyt more stable
+   .
+   # PE's and DVT: Discovered in search for etiology for SVT.
+   -- refuses Coumadin
+   -- Lovenox
+   .
+   # Femoral fracture: wound clean without signs of infection
+   -- ortho following
+   -- hct stable; had hct drop in setting of hip fx early in hospital
+   course
+   -- Lovenox (4 week indication for fx but much longer course will be
+   required for PE)
+   .
+   # Psychosis: Unclear etiology.
+   -- psychiatry following
+   -- avoid benzo's, anticholingergics, antihistamines, opiates
+   -- use low dose ripserdal if necessary
+   .
+   # Sacral Decub: wound care.
+   -- gaymar overlay and coricaid ointment
+   .
+   # GERD: PPI
+   # FEN: replete 'lytes prn, SSI
+   # PPX: Lovenox, PPI, bowel regimen
+   # Code: DNR/DNI Confirmed [**2122-8-7**] with Guardian. Pressors/IV meds
+   okay.
+   # Dispo: deferred
+   # Communication: [**First Name8 (NamePattern2) 208**] [**Last Name (NamePattern1) 5153**] (guardian: cell [**Telephone/Fax (1) 5154**] or
+   [**Telephone/Fax (1) 5155**], home [**Telephone/Fax (1) 5156**]), Social worker [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 3537**]
+   ([**Telephone/Fax (1) 4807**])
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, here is a summary of the patient's condition and potential medical complications:
+
+The patient is a 77-year-old nursing home resident admitted with a history of psychosis, cognitive decline, and a recent right femoral fracture. She developed intermittent supraventricular tachycardia (SVT) and was diagnosed with acute pulmonary embolism (PE) and a new small right pleural effusion. The patient also has coronary artery calcifications, aortic valvular calcifications, and extensive degenerative changes in the spine with kyphosis and compression fractures.
+
+The patient is currently receiving treatment for her conditions, including titrating up metoprolol to control her SVT, digoxin loading, and anticoagulation therapy with Lovenox. She is also receiving treatment for her psychosis, including avoiding certain medications and using low-dose risperdal if necessary.
+
+Potential medical complications that may arise include:
+
+1. Cardiac complications: The patient's SVT and elevated troponin levels may indicate cardiac strain, and further cardiac testing may be necessary to rule out cardiac damage.
+2. Pulmonary complications: The patient's PE and pleural effusion may lead to respiratory distress, and close monitoring of her respiratory status is necessary.
+3. Gastrointestinal complications: The patient's history of GERD and sacral decubitus ulcer may increase her risk of gastrointestinal bleeding and infection.
+4. Neurological complications: The patient's psychosis and cognitive decline may worsen, and close monitoring of her mental status is necessary.
+5. Infection: The patient's immunocompromised state and presence of a sacral decubitus ulcer may increase her risk of infection.
+6. Bleeding: The patient's anticoagulation therapy and history of bleeding complications may increase her risk of bleeding.
+7. Kidney injury: The patient's history of hypertension and kidney disease may increase her risk of kidney injury, particularly with the use of certain medications.
+8. Nutritional complications: The patient's malnutrition and history of gastrointestinal disease may increase her risk of nutritional deficiencies and malabsorption.
+
+Given the patient's complex medical conditions and potential complications, close monitoring and multidisciplinary care are necessary to ensure her optimal management and treatment."

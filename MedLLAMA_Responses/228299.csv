@@ -1,0 +1,3839 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+172274.0,228299,2150-10-15 05:29:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ MULTI LUMEN - START [**2150-10-14**] 10:27 AM
+ BLOOD CULTURED - At [**2150-10-14**] 12:00 PM
+   from central line
+ EEG - At [**2150-10-14**] 12:35 PM
+ MAGNETIC RESONANCE IMAGING - At [**2150-10-15**] 12:45 AM
+   Dialyzed w/ marginal improvement of mental status
+   Seen by Neurology who suggested MRI/LP if no improvement
+   BP brought down to 116/52 while sleeping.
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Metoprolol - [**2150-10-14**] 11:03 AM
+   Hydralazine - [**2150-10-14**] 12:00 PM
+   Pantoprazole (Protonix) - [**2150-10-15**] 12:00 AM
+   Dilantin - [**2150-10-15**] 12:00 AM
+   Lorazepam (Ativan) - [**2150-10-15**] 01:05 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2150-10-15**] 05:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (98.9
+   Tcurrent: 37.1
+C (98.8
+   HR: 70 (68 - 84) bpm
+   BP: 123/54(71) {103/44(62) - 208/90(120)} mmHg
+   RR: 21 (0 - 66) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    188 mL
+                                                                     64 mL
+   PO:
+             TF:
+   IVF:
+                                                                    188 mL
+                                                                     64 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,013 mL
+                                                                     64 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: 7.43/53/119/31/9
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   189 K/uL
+   12.0 g/dL
+   123 mg/dL
+   5.1 mg/dL
+   31 mEq/L
+   3.4 mEq/L
+   11 mg/dL
+   97 mEq/L
+   142 mEq/L
+   35.4 %
+   7.3 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   Plt
+   [**Telephone/Fax (3) 6726**]
+   Cr
+   7.7
+   4.3
+   5.1
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   Other labs: PT / PTT / INR:17.2/32.5/1.6, CK / CKMB /
+   Troponin-T:71/5/0.24, ALT / AST:29/18, Alk Phos / T Bili:291/0.4,
+   Differential-Neuts:79.5 %, Lymph:9.6 %, Mono:5.4 %, Eos:4.8 %,
+   Albumin:3.6 g/dL, LDH:257 IU/L, Ca++:9.0 mg/dL, Mg++:1.7 mg/dL, PO4:3.7
+   mg/dL
+   Assessment and Plan
+ .H/O MYOCARDIAL INFARCTION
+ .H/O RENAL FAILURE, CHRONIC (CHRONIC RENAL FAILURE, CRF, CHRONIC
+   KIDNEY DISEASE)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ CHEST PAIN
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ MULTI LUMEN - START [**2150-10-14**] 10:27 AM
+ BLOOD CULTURED - At [**2150-10-14**] 12:00 PM
+   from central line
+ EEG - At [**2150-10-14**] 12:35 PM
+ MAGNETIC RESONANCE IMAGING - At [**2150-10-15**] 12:45 AM
+   Dialyzed w/ marginal improvement of mental status
+   Seen by Neurology who suggested MRI/LP if no improvement
+   BP brought down to 116/52 while sleeping.
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Metoprolol - [**2150-10-14**] 11:03 AM
+   Hydralazine - [**2150-10-14**] 12:00 PM
+   Pantoprazole (Protonix) - [**2150-10-15**] 12:00 AM
+   Dilantin - [**2150-10-15**] 12:00 AM
+   Lorazepam (Ativan) - [**2150-10-15**] 01:05 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2150-10-15**] 05:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (98.9
+   Tcurrent: 37.1
+C (98.8
+   HR: 70 (68 - 84) bpm
+   BP: 123/54(71) {103/44(62) - 208/90(120)} mmHg
+   RR: 21 (0 - 66) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    188 mL
+                                                                     64 mL
+   PO:
+             TF:
+   IVF:
+                                                                    188 mL
+                                                                     64 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,013 mL
+                                                                     64 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: 7.43/53/119/31/9
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   189 K/uL
+   12.0 g/dL
+   123 mg/dL
+   5.1 mg/dL
+   31 mEq/L
+   3.4 mEq/L
+   11 mg/dL
+   97 mEq/L
+   142 mEq/L
+   35.4 %
+   7.3 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   Plt
+   [**Telephone/Fax (3) 6726**]
+   Cr
+   7.7
+   4.3
+   5.1
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   Other labs: PT / PTT / INR:17.2/32.5/1.6, CK / CKMB /
+   Troponin-T:71/5/0.24, ALT / AST:29/18, Alk Phos / T Bili:291/0.4,
+   Differential-Neuts:79.5 %, Lymph:9.6 %, Mono:5.4 %, Eos:4.8 %,
+   Albumin:3.6 g/dL, LDH:257 IU/L, Ca++:9.0 mg/dL, Mg++:1.7 mg/dL, PO4:3.7
+   mg/dL
+   Assessment and Plan
+ .H/O MYOCARDIAL INFARCTION
+ .H/O RENAL FAILURE, CHRONIC (CHRONIC RENAL FAILURE, CRF, CHRONIC
+   KIDNEY DISEASE)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ CHEST PAIN
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 24-hour-old ICU admission with a chief complaint of altered mental status, chest pain, and history of myocardial infarction and chronic renal failure.
+
+The patient's vital signs are stable, with a temperature of 98.8°F (37.1°C), heart rate of 70 bpm, blood pressure of 123/54 mmHg, and respiratory rate of 21 breaths per minute. The patient is receiving oxygen therapy via nasal cannula and has a SpO2 of 100%.
+
+The patient's laboratory results show:
+
+* White blood cell count: 8.0-10.1 x 10^9/L
+* Hematocrit: 35.4-37.6%
+* Platelet count: Not reported
+* Creatinine: 4.3-7.7 mg/dL
+* Troponin-T: 0.23-0.24 ng/mL
+* Total CO2: 36 mmHg
+* Glucose: 91-124 mg/dL
+* Other lab results: Abnormal
+
+The patient's medical history includes myocardial infarction, chronic renal failure, and altered mental status. The patient is receiving antibiotics, sedatives, and other medications.
+
+Potential medical complications that can arise from the patient's condition include:
+
+* Sepsis or septic shock due to the patient's altered mental status and history of chronic renal failure
+* Respiratory failure or respiratory distress syndrome due to the patient's chest pain and altered mental status
+* Cardiac arrhythmias or cardiac arrest due to the patient's history of myocardial infarction
+* Renal failure or worsening of chronic renal failure due to the patient's altered mental status and history of chronic renal failure
+* Infection or sepsis due to the patient's indwelling central line and other medical devices
+* Delirium or worsening of altered mental status due to the patient's medical condition and medications
+
+It is essential to closely monitor the patient's condition and adjust their treatment plan as necessary to prevent or manage these potential complications."
+172274.0,228299,2150-10-15 05:29:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+          Had EEG
+ result pending
+          Had MRI
+          Dialyzed w/ marginal improvement of mental status
+          Seen by Neurology who suggested MRI/LP if no improvement
+          BP brought down to 116/52 while sleeping.
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Antibiotics:
+   None
+   Infusions:
+   Other ICU medications:
+   Metoprolol - [**2150-10-14**] 11:03 AM
+   Hydralazine - [**2150-10-14**] 12:00 PM
+   Pantoprazole (Protonix) - [**2150-10-15**] 12:00 AM
+   Dilantin - [**2150-10-15**] 12:00 AM
+   Lorazepam (Ativan) - [**2150-10-15**] 01:05 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Unable to obtain
+   Flowsheet Data as of  [**2150-10-15**] 05:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (98.9
+   Tcurrent: 37.1
+C (98.8
+   HR: 70 (68 - 84) bpm
+   BP: 123/54(71) {103/44(62) - 208/90(120)} mmHg
+   RR: 21 (0 - 66) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    188 mL
+                                                                     64 mL
+   PO:
+             TF:
+   IVF:
+                                                                    188 mL
+                                                                     64 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,013 mL
+                                                                     64 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: 7.43/53/119/31/9
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   189 K/uL
+   12.0 g/dL
+   123 mg/dL
+   5.1 mg/dL
+   31 mEq/L
+   3.4 mEq/L
+   11 mg/dL
+   97 mEq/L
+   142 mEq/L
+   35.4 %
+   7.3 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   Plt
+   [**Telephone/Fax (3) 6726**]
+   Cr
+   7.7
+   4.3
+   5.1
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   Other labs: PT / PTT / INR:17.2/32.5/1.6, CK / CKMB /
+   Troponin-T:71/5/0.24, ALT / AST:29/18, Alk Phos / T Bili:291/0.4,
+   Differential-Neuts:79.5 %, Lymph:9.6 %, Mono:5.4 %, Eos:4.8 %,
+   Albumin:3.6 g/dL, LDH:257 IU/L, Ca++:9.0 mg/dL, Mg++:1.7 mg/dL, PO4:3.7
+   mg/dL
+   Assessment and Plan
+   This is a 46 y/o man with ESRD on HD, type I DM, CAD s/p recent NSTEMI
+   admitted with hematemesis now with altered mental status and hypoxia.
+   # Altered mental status: Patient with improvement in mental status
+   after given narcan on the floor and narcan gtt in the CCU. Last dose of
+   morphine 4 mg given yesterday morning and nothing else given last
+   night, though given improvement, it makes sense that this represents
+   narcotics respiratory suppression. Given his multitude of other
+   problems (prior PEA arrest with ? anoxic brain injury, ESRD, h/o
+   seizure disorder, and recent sleep deprivation), his altered mental
+   status is likely multifactorial in etiology. He appears to have
+   [**Last Name (un) 1464**]-[**Doctor Last Name 1465**] respirations at present which could be secondary to prior
+   anoxic brain injury though he is clearly off of his baseline. Other
+   consideration is hypertensive encephalopathy given BPs 200s/90s but BP
+   has been elevated since admission. The patient's CO2 on ABG was
+   elevated at 60 with ph 7.32 but patient has had elevated CO2 on ABGS
+   for past year. Likely that elevation in Co2 is [**12-20**] altered mental
+   status but certainly could represent an element of CO2 narcosis. He
+   does have a modestly elevated serum bicarb on baseline chem 7s which
+   could be a sign of compensation for resp acidosis.
+   - appreciate neurology input, will await final recs
+   - eeg today --> continue dilantin (iv for now)
+   - watch final head CT read
+   - serum tox added on to this AM's labs negative
+   - continue narcan gtt for now and monitor respiratory status closely,
+   wean off as tolerated
+   - if apnea continues consider noninvasive ventilation versus intubation
+   - treat hypertension to goal BP today 160 systolic --> IV hydral &
+   lopressor for now
+   - could consider LP though concern for meningitis low due to
+   improvement from other interventions
+   - consider MRI for ? PRESS, evidence of CVA
+   # Hypertension: BPs elevated to 200s/100s on arrival to the ICU. BPs
+   - hydralazine 10 mg IV q6h prn for now
+   - add IV lopressor 10 mg IV q8h (to substitute for PO lopressor)
+   - goal SBP 160s
+   - HD later today
+   - resume losartan and convert back to metoprolol PO when taking POs
+   # Positive blood culture: Patient with one positive blood culture, gram
+   positive cocci in clusters, from [**10-12**] (prior to CVL placement).
+   Received one dose of vancomycin yesterday and will be dialyzed today.
+   - check vanc level today with HD per protocol
+   - follow speciation of gram positive cocci
+   - continue vancomycin until speciated
+   - check blood culture from CVL today and in AM
+   # Hematemesis: Patient presented with hematemesis with reportedly
+   positive NG lavage. Was planned for EGD today but given current
+   unstable situation, will hold off and discuss with GI for later this
+   week.
+   - appreciate GI recs
+   - continue [**Hospital1 **] PPI
+   - maintain active T&S, new T&S ordered for AM of [**10-15**]
+   - [**Hospital1 **] Hct (next this PM)
+   # Chest pain with recent NSTEMI: Patient now not reporting chest pain
+   but not responding appropriately to questions. Has had negative CKs
+   during this admission with slightly elevated troponin (near recent
+   baseline).
+   - ekg in the AM
+   - continue to monitor symptoms
+   - cardiac enzymes X 1 more set this PM
+   - holding aspirin given GI bleeding
+   - continue beta blockade as able (IV while not taking POs)
+   # ESRD on HD: Renal team is following.
+   - HD today in CCU
+   - reinitiate sevelamer, nephrocaps when able to take POs
+   - watch lytes closely
+   # Type I DM: Continue lantus with sliding scale humalog. Continue four
+   times daily fingersticks.
+   - hold reglan for gastroparesis for now
+   # Hiccups: No hiccups apparent currently. No further baclofen given ?
+   of sedation and ? lowering seizure threshold.
+   # h/o seizures: Patient has had seizures in the past. On dilantin but
+   recently subtherapeutic.
+   - EEG today as above
+   - hold baclofen
+   - Neurology following
+   - resume dilantin when able to safely take POs
+   # FEN: NPO for now until mental status improves, lyte management per HD
+   # PPx: PPI [**Hospital1 **], pneumoboots, no heparin given GI bleeding, will resume
+   bowel meds when taking POs
+   # ACCESS: L IJ CVL (placed [**10-13**] at [**Hospital1 54**]), R AV fistula
+   # CODE: presumed full (documented in H&P)
+   # COMM: With patient and sister [**Name (NI) 3472**] ([**Name2 (NI) 3472**] is in [**Name (NI) 2222**] per
+   the patient's cousin), hence ICU consent not signed yet
+   # DISP: ICU care for now until more alert, less apnea
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+          Had EEG
+ result pending
+          Had MRI
+          Dialyzed w/ marginal improvement of mental status
+          Seen by Neurology who suggested MRI/LP if no improvement
+          BP brought down to 116/52 while sleeping.
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Antibiotics:
+   None
+   Infusions:
+   Other ICU medications:
+   Metoprolol - [**2150-10-14**] 11:03 AM
+   Hydralazine - [**2150-10-14**] 12:00 PM
+   Pantoprazole (Protonix) - [**2150-10-15**] 12:00 AM
+   Dilantin - [**2150-10-15**] 12:00 AM
+   Lorazepam (Ativan) - [**2150-10-15**] 01:05 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Unable to obtain
+   Flowsheet Data as of  [**2150-10-15**] 05:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (98.9
+   Tcurrent: 37.1
+C (98.8
+   HR: 70 (68 - 84) bpm
+   BP: 123/54(71) {103/44(62) - 208/90(120)} mmHg
+   RR: 21 (0 - 66) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    188 mL
+                                                                     64 mL
+   PO:
+             TF:
+   IVF:
+                                                                    188 mL
+                                                                     64 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,013 mL
+                                                                     64 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: 7.43/53/119/31/9
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   189 K/uL
+   12.0 g/dL
+   123 mg/dL
+   5.1 mg/dL
+   31 mEq/L
+   3.4 mEq/L
+   11 mg/dL
+   97 mEq/L
+   142 mEq/L
+   35.4 %
+   7.3 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   Plt
+   [**Telephone/Fax (3) 6726**]
+   Cr
+   7.7
+   4.3
+   5.1
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   Other labs: PT / PTT / INR:17.2/32.5/1.6, CK / CKMB /
+   Troponin-T:71/5/0.24, ALT / AST:29/18, Alk Phos / T Bili:291/0.4,
+   Differential-Neuts:79.5 %, Lymph:9.6 %, Mono:5.4 %, Eos:4.8 %,
+   Albumin:3.6 g/dL, LDH:257 IU/L, Ca++:9.0 mg/dL, Mg++:1.7 mg/dL, PO4:3.7
+   mg/dL
+   Assessment and Plan
+   This is a 46 y/o man with ESRD on HD, type I DM, CAD s/p recent NSTEMI
+   admitted with hematemesis now with altered mental status and hypoxia.
+   # Altered mental status: Patient with improvement in mental status
+   after given narcan on the floor and narcan gtt in the CCU. Last dose of
+   morphine 4 mg given yesterday morning and nothing else given last
+   night, though given improvement, it makes sense that this represents
+   narcotics respiratory suppression. Given his multitude of other
+   problems (prior PEA arrest with ? anoxic brain injury, ESRD, h/o
+   seizure disorder, and recent sleep deprivation), his altered mental
+   status is likely multifactorial in etiology. He appears to have
+   [**Last Name (un) 1464**]-[**Doctor Last Name 1465**] respirations at present which could be secondary to prior
+   anoxic brain injury though he is clearly off of his baseline. Other
+   consideration is hypertensive encephalopathy given BPs 200s/90s but BP
+   has been elevated since admission. The patient's CO2 on ABG was
+   elevated at 60 with ph 7.32 but patient has had elevated CO2 on ABGS
+   for past year. Likely that elevation in Co2 is [**12-20**] altered mental
+   status but certainly could represent an element of CO2 narcosis. He
+   does have a modestly elevated serum bicarb on baseline chem 7s which
+   could be a sign of compensation for resp acidosis.
+   - appreciate neurology input, will await final recs
+   - eeg today --> continue dilantin (iv for now)
+   - watch final head CT read
+   - serum tox added on to this AM's labs negative
+   - continue narcan gtt for now and monitor respiratory status closely,
+   wean off as tolerated
+   - if apnea continues consider noninvasive ventilation versus intubation
+   - treat hypertension to goal BP today 160 systolic --> IV hydral &
+   lopressor for now
+   - could consider LP though concern for meningitis low due to
+   improvement from other interventions
+   - consider MRI for ? PRESS, evidence of CVA
+   # Hypertension: BPs elevated to 200s/100s on arrival to the ICU. BPs
+   - hydralazine 10 mg IV q6h prn for now
+   - add IV lopressor 10 mg IV q8h (to substitute for PO lopressor)
+   - goal SBP 160s
+   - HD later today
+   - resume losartan and convert back to metoprolol PO when taking POs
+   # Positive blood culture: Patient with one positive blood culture, gram
+   positive cocci in clusters, from [**10-12**] (prior to CVL placement).
+   Received one dose of vancomycin yesterday and will be dialyzed today.
+   - check vanc level today with HD per protocol
+   - follow speciation of gram positive cocci
+   - continue vancomycin until speciated
+   - check blood culture from CVL today and in AM
+   # Hematemesis: Patient presented with hematemesis with reportedly
+   positive NG lavage. Was planned for EGD today but given current
+   unstable situation, will hold off and discuss with GI for later this
+   week.
+   - appreciate GI recs
+   - continue [**Hospital1 **] PPI
+   - maintain active T&S, new T&S ordered for AM of [**10-15**]
+   - [**Hospital1 **] Hct (next this PM)
+   # Chest pain with recent NSTEMI: Patient now not reporting chest pain
+   but not responding appropriately to questions. Has had negative CKs
+   during this admission with slightly elevated troponin (near recent
+   baseline).
+   - ekg in the AM
+   - continue to monitor symptoms
+   - cardiac enzymes X 1 more set this PM
+   - holding aspirin given GI bleeding
+   - continue beta blockade as able (IV while not taking POs)
+   # ESRD on HD: Renal team is following.
+   - HD today in CCU
+   - reinitiate sevelamer, nephrocaps when able to take POs
+   - watch lytes closely
+   # Type I DM: Continue lantus with sliding scale humalog. Continue four
+   times daily fingersticks.
+   - hold reglan for gastroparesis for now
+   # Hiccups: No hiccups apparent currently. No further baclofen given ?
+   of sedation and ? lowering seizure threshold.
+   # h/o seizures: Patient has had seizures in the past. On dilantin but
+   recently subtherapeutic.
+   - EEG today as above
+   - hold baclofen
+   - Neurology following
+   - resume dilantin when able to safely take POs
+   # FEN: NPO for now until mental status improves, lyte management per HD
+   # PPx: PPI [**Hospital1 **], pneumoboots, no heparin given GI bleeding, will resume
+   bowel meds when taking POs
+   # ACCESS: L IJ CVL (placed [**10-13**] at [**Hospital1 54**]), R AV fistula
+   # CODE: presumed full (documented in H&P)
+   # COMM: With patient and sister [**Name (NI) 3472**] ([**Name2 (NI) 3472**] is in [**Name (NI) 2222**] per
+   the patient's cousin), hence ICU consent not signed yet
+   # DISP: ICU care for now until more alert, less apnea
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, the following summary and potential medical complications can be identified:
+
+Summary:
+
+The patient is a 46-year-old man with end-stage renal disease (ESRD) on hemodialysis (HD), type I diabetes mellitus (DM), and coronary artery disease (CAD) who presented with hematemesis, altered mental status, and hypoxia. He has a history of seizure disorder and recent NSTEMI. The patient's mental status has improved after receiving narcan, but he remains apneic and requires respiratory support. He has elevated blood pressure, and his CO2 levels are elevated, which may be contributing to his altered mental status. The patient has a positive blood culture, and he is receiving vancomycin treatment. He is also experiencing hypertension, and his blood pressure needs to be controlled.
+
+Potential Medical Complications:
+
+1. Respiratory failure: The patient's apneic episodes and requirement for respiratory support increase the risk of respiratory failure.
+2. Seizure activity: The patient's history of seizure disorder and recent subtherapeutic dilantin levels increase the risk of seizure activity.
+3. Meningitis: The patient's positive blood culture and elevated white blood cell count (WBC) may indicate meningitis, which could worsen his mental status and increase the risk of sepsis.
+4. Hypertensive encephalopathy: The patient's elevated blood pressure and altered mental status increase the risk of hypertensive encephalopathy, which could worsen his neurological status.
+5. Gastrointestinal bleeding: The patient's hematemesis and positive blood culture increase the risk of gastrointestinal bleeding, which could worsen his hemodynamic instability.
+6. Cardiac complications: The patient's recent NSTEMI and elevated troponin levels increase the risk of cardiac complications, such as cardiac arrest or arrhythmias.
+7. Infection: The patient's positive blood culture and elevated WBC count increase the risk of infection, which could worsen his overall condition.
+8. Metabolic complications: The patient's diabetes and kidney disease increase the risk of metabolic complications, such as hyperkalemia or hyperphosphatemia.
+9. Neurological complications: The patient's altered mental status and history of seizure disorder increase the risk of neurological complications, such as stroke or cerebral edema.
+10. Sepsis: The patient's positive blood culture and elevated WBC count increase the risk of sepsis, which could worsen his overall condition.
+
+Based on this information, the patient requires close monitoring and management to prevent and treat these potential complications."
+172274.0,228299,2150-10-15 05:29:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+          Had EEG
+ result pending
+          Had MRI
+          Dialyzed w/ marginal improvement of mental status
+          Seen by Neurology who suggested MRI/LP if no improvement
+          BP brought down to 116/52 while sleeping.
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Antibiotics:
+   None
+   Infusions:
+   Other ICU medications:
+   Metoprolol - [**2150-10-14**] 11:03 AM
+   Hydralazine - [**2150-10-14**] 12:00 PM
+   Pantoprazole (Protonix) - [**2150-10-15**] 12:00 AM
+   Dilantin - [**2150-10-15**] 12:00 AM
+   Lorazepam (Ativan) - [**2150-10-15**] 01:05 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Unable to obtain
+   Flowsheet Data as of  [**2150-10-15**] 05:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (98.9
+   Tcurrent: 37.1
+C (98.8
+   HR: 70 (68 - 84) bpm
+   BP: 123/54(71) {103/44(62) - 208/90(120)} mmHg
+   RR: 21 (0 - 66) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    188 mL
+                                                                     64 mL
+   PO:
+             TF:
+   IVF:
+                                                                    188 mL
+                                                                     64 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,013 mL
+                                                                     64 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: 7.43/53/119/31/9
+   Physical Examination
+   Gen: chronically ill appearing middle aged male intermittently agitated
+   and screaming and somnolent and responsive only to very noxious
+   stimuli.
+   HEENT: No scleral icterus. L pupil difficult to see due to cataract. R
+   pupil not reactive to light.
+   NECK: Supple, No LADL IJ CVL in place.
+   CV: RRR. nl S1, S2. No appreciable murmur.
+   LUNGS: CTA anteriorly, no wheezing.
+   ABD: Soft, nontender to palpation, no guarding or rebound. normoactive
+   bowel sounds.
+   EXT: 2+ DP pulses bilaterally, extremities cool. 2+ radial pulses
+   bilaterally. No peripheral edema.
+   SKIN: No rashes/lesions, ecchymoses.
+   NEURO: Intermittently somnolent but also with episodes of spontaneous
+   alertness with eyes open. No response to voice. Not responding to
+   questions. L pupil difficult to assess [**12-20**] cataract, R pupil
+   nonreactive.  Moves all 4 extremities.  Some slight withdrawal from
+   pain in bilateral lower extremities and upper extremities. No
+   meningismus.
+   Labs / Radiology
+   189 K/uL
+   12.0 g/dL
+   123 mg/dL
+   5.1 mg/dL
+   31 mEq/L
+   3.4 mEq/L
+   11 mg/dL
+   97 mEq/L
+   142 mEq/L
+   35.4 %
+   7.3 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   Plt
+   [**Telephone/Fax (3) 6726**]
+   Cr
+   7.7
+   4.3
+   5.1
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   Other labs:
+   PT / PTT / INR:17.2/32.5/1.6
+   Differential-Neuts:79.5 %, Lymph:9.6 %, Mono:5.4 %, Eos:4.8 %
+   Albumin:3.6 g/dL, LDH:257 IU/L
+   Ca++:9.0 mg/dL, Mg++:1.7 mg/dL, PO4:3.7 mg/dL
+   BCx: coag negative staph [**10-12**]. BCx [**10-13**], [**10-14**], [**10-15**] pending.
+   Assessment and Plan
+   This is a 46 y/o man with ESRD on HD, type I DM, CAD s/p recent NSTEMI,
+   and Hx of anoxic encephalopathy post PEA arrest admitted with chest
+   pain, hypertension, and hematemesis now transferred from the floor with
+   altered mental status and hypoxia associated with apnea.
+   # Altered mental status: Unclear etiology at this point.  Patient with
+   improvement in mental status after given narcan on the floor and narcan
+   gtt in the CCU but unclear if this was coincidental as patient had no
+   change when drip was d/c. Given his multitude of other problems (prior
+   PEA arrest with anoxic brain injury, ESRD, h/o seizure disorder, and
+   recent sleep deprivation), his altered mental status is likely
+   multifactorial in etiology. He appears to have [**Last Name (un) 1464**]-[**Doctor Last Name 1465**]
+   respirations at present which could be secondary to prior anoxic brain
+   injury though he is clearly off of his baseline according to residents
+   who have seen him in clinic recently (since NSTEMI and PEA arrest).
+   Other consideration is hypertensive encephalopathy/PRES given BPs
+   200s/90s but BP has been elevated since admission. The patient's CO2 on
+   ABG was elevated at 60 with ph 7.32 but patient has had elevated CO2 on
+   ABGS for past year. Likely that elevation in Co2 is [**12-20**] altered mental
+   status but certainly could represent an element of CO2 narcosis.  MRI
+   w/prelim read of abnormality in the white matter diffusely and
+   calcifications in the L globe but negative for PRES, temporal lobe
+   enhancement, or CVA.  Re-loading with Dilantin currently per neuron
+   recommendation.  Neuro note mentions EEG findings but unclear whether
+   these are current EEG or previous EEG results.  Final head CT read is
+   NAD.  Serum tox screen negative.
+   - f/u neurology recs
+   - LP today
+   - continue Dilantin load per neur rec, will check with neurology
+   regarding when to check levels, what dose to use for maintenance.
+   - serum tox added on to this AM's labs negative
+   - if apnea continues consider noninvasive ventilation versus intubation
+   - treat hypertension to goal BP today 160 systolic --> IV hydral &
+   lopressor for now (did not require hydral o/n)
+   .
+   # Hypertension: BPs elevated to 200s/100s on arrival to the ICU. BPs
+   - d/c hydralazine 10 mg IV q6h PRN (not used)
+   - continue IV lopressor 10 mg IV q8h (to substitute for PO lopressor)
+   - goal SBP 160s
+   - HD later tomorrow
+   - resume losartan and convert back to metoprolol PO when taking POs
+   .
+   # Positive blood culture: Patient with one positive blood culture, gram
+   positive cocci in clusters, from [**10-12**] (prior to CVL placement).
+   Received one dose of vancomycin yesterday and will be dialyzed today.
+   Likely contaminate as no other BCx have come back positive, patient is
+   afebrile.
+   -          d/c vanco
+   -          follow BCx
+   .
+   # Hematemesis: Patient presented with hematemesis with reportedly
+   positive NG lavage. Was planned for EGD today but given current
+   unstable situation, will hold off and discuss with GI for later this
+   week.
+   - appreciate GI recs
+   - continue [**Hospital1 **] PPI
+   - maintain active T&S, new T&S ordered for AM of [**10-15**]
+   - [**Hospital1 **] Hct (next this PM)
+   .
+   # Chest pain with recent NSTEMI: Patient now not reporting chest pain
+   but not responding appropriately to questions. Has had negative CKs
+   during this admission with slightly elevated troponin (near recent
+   baseline).  CE w/mildly elevated troponins, but at baseline for
+   patient, likely due to CKD.  EKG w/non-specific changes. Should
+   continue to consider cardiac etiology as patient has had reported
+   episodes of NSTEMI with change in mental status in past.
+   - continue to monitor symptoms
+   - holding aspirin given GI bleeding
+   - continue beta blockade as able (IV while not taking POs)
+   .
+   # ESRD on HD: Renal team is following.
+   - HD tomorrow in CCU
+   - reinitiate sevelamer, nephrocaps when able to take POs
+   - watch lytes closely
+   .
+   # Type I DM: Continue lantus with sliding scale humalog. Continue four
+   times daily fingersticks.
+   - hold reglan for gastroparesis for now
+   .
+   # Hiccups: No hiccups apparent currently. No further baclofen given ?
+   of sedation and ? lowering seizure threshold.
+   .
+   # h/o seizures: Patient has had seizures in the past. On dilantin but
+   recently subtherapeutic.
+   - EEG today as above
+   - hold baclofen
+   - Neurology following
+   - Dilantin as above
+    .
+   # FEN: NPO for now until mental status improves, lyte management per HD
+   # PPx: PPI [**Hospital1 **], pneumoboots, no heparin given GI bleeding, will resume
+   bowel meds when taking POs
+   .
+   # ACCESS: L IJ CVL (placed [**10-13**] at [**Hospital1 54**]), R AV fistula
+   .
+   # CODE: presumed full (documented in H&P)
+   .
+   # COMM: With patient and sister [**Name (NI) 3472**] ([**Name2 (NI) 3472**] is in [**Name (NI) 2222**] per
+   the patient's cousin), hence ICU consent not signed yet
+   .
+   # DISP: ICU care for now until more alert, less apnea
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+          Had EEG
+ result pending
+          Had MRI
+          Dialyzed w/ marginal improvement of mental status
+          Seen by Neurology who suggested MRI/LP if no improvement
+          BP brought down to 116/52 while sleeping.
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Antibiotics:
+   None
+   Infusions:
+   Other ICU medications:
+   Metoprolol - [**2150-10-14**] 11:03 AM
+   Hydralazine - [**2150-10-14**] 12:00 PM
+   Pantoprazole (Protonix) - [**2150-10-15**] 12:00 AM
+   Dilantin - [**2150-10-15**] 12:00 AM
+   Lorazepam (Ativan) - [**2150-10-15**] 01:05 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Unable to obtain
+   Flowsheet Data as of  [**2150-10-15**] 05:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (98.9
+   Tcurrent: 37.1
+C (98.8
+   HR: 70 (68 - 84) bpm
+   BP: 123/54(71) {103/44(62) - 208/90(120)} mmHg
+   RR: 21 (0 - 66) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    188 mL
+                                                                     64 mL
+   PO:
+             TF:
+   IVF:
+                                                                    188 mL
+                                                                     64 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,013 mL
+                                                                     64 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: 7.43/53/119/31/9
+   Physical Examination
+   Gen: chronically ill appearing middle aged male intermittently agitated
+   and screaming and somnolent and responsive only to very noxious
+   stimuli.
+   HEENT: No scleral icterus. L pupil difficult to see due to cataract. R
+   pupil not reactive to light.
+   NECK: Supple, No LADL IJ CVL in place.
+   CV: RRR. nl S1, S2. No appreciable murmur.
+   LUNGS: CTA anteriorly, no wheezing.
+   ABD: Soft, nontender to palpation, no guarding or rebound. normoactive
+   bowel sounds.
+   EXT: 2+ DP pulses bilaterally, extremities cool. 2+ radial pulses
+   bilaterally. No peripheral edema.
+   SKIN: No rashes/lesions, ecchymoses.
+   NEURO: Intermittently somnolent but also with episodes of spontaneous
+   alertness with eyes open. No response to voice. Not responding to
+   questions. L pupil difficult to assess [**12-20**] cataract, R pupil
+   nonreactive.  Moves all 4 extremities.  Some slight withdrawal from
+   pain in bilateral lower extremities and upper extremities. No
+   meningismus.
+   Labs / Radiology
+   189 K/uL
+   12.0 g/dL
+   123 mg/dL
+   5.1 mg/dL
+   31 mEq/L
+   3.4 mEq/L
+   11 mg/dL
+   97 mEq/L
+   142 mEq/L
+   35.4 %
+   7.3 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   Plt
+   [**Telephone/Fax (3) 6726**]
+   Cr
+   7.7
+   4.3
+   5.1
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   Other labs:
+   PT / PTT / INR:17.2/32.5/1.6
+   Differential-Neuts:79.5 %, Lymph:9.6 %, Mono:5.4 %, Eos:4.8 %
+   Albumin:3.6 g/dL, LDH:257 IU/L
+   Ca++:9.0 mg/dL, Mg++:1.7 mg/dL, PO4:3.7 mg/dL
+   BCx: coag negative staph [**10-12**]. BCx [**10-13**], [**10-14**], [**10-15**] pending.
+   Assessment and Plan
+   This is a 46 y/o man with ESRD on HD, type I DM, CAD s/p recent NSTEMI,
+   and Hx of anoxic encephalopathy post PEA arrest admitted with chest
+   pain, hypertension, and hematemesis now transferred from the floor with
+   altered mental status and hypoxia associated with apnea.
+   # Altered mental status: Unclear etiology at this point.  Patient with
+   improvement in mental status after given narcan on the floor and narcan
+   gtt in the CCU but unclear if this was coincidental as patient had no
+   change when drip was d/c. Given his multitude of other problems (prior
+   PEA arrest with anoxic brain injury, ESRD, h/o seizure disorder, and
+   recent sleep deprivation), his altered mental status is likely
+   multifactorial in etiology. He appears to have [**Last Name (un) 1464**]-[**Doctor Last Name 1465**]
+   respirations at present which could be secondary to prior anoxic brain
+   injury though he is clearly off of his baseline according to residents
+   who have seen him in clinic recently (since NSTEMI and PEA arrest).
+   Other consideration is hypertensive encephalopathy/PRES given BPs
+   200s/90s but BP has been elevated since admission. The patient's CO2 on
+   ABG was elevated at 60 with ph 7.32 but patient has had elevated CO2 on
+   ABGS for past year. Likely that elevation in Co2 is [**12-20**] altered mental
+   status but certainly could represent an element of CO2 narcosis.  MRI
+   w/prelim read of abnormality in the white matter diffusely and
+   calcifications in the L globe but negative for PRES, temporal lobe
+   enhancement, or CVA.  Re-loading with Dilantin currently per neuron
+   recommendation.  Neuro note mentions EEG findings but unclear whether
+   these are current EEG or previous EEG results.  Final head CT read is
+   NAD.  Serum tox screen negative.
+   - f/u neurology recs
+   - LP today
+   - continue Dilantin load per neur rec, will check with neurology
+   regarding when to check levels, what dose to use for maintenance.
+   - serum tox added on to this AM's labs negative
+   - if apnea continues consider noninvasive ventilation versus intubation
+   - treat hypertension to goal BP today 160 systolic --> IV hydral &
+   lopressor for now (did not require hydral o/n)
+   .
+   # Hypertension: BPs elevated to 200s/100s on arrival to the ICU. BPs
+   - d/c hydralazine 10 mg IV q6h PRN (not used)
+   - continue IV lopressor 10 mg IV q8h (to substitute for PO lopressor)
+   - goal SBP 160s
+   - HD later tomorrow
+   - resume losartan and convert back to metoprolol PO when taking POs
+   .
+   # Positive blood culture: Patient with one positive blood culture, gram
+   positive cocci in clusters, from [**10-12**] (prior to CVL placement).
+   Received one dose of vancomycin yesterday and will be dialyzed today.
+   Likely contaminate as no other BCx have come back positive, patient is
+   afebrile.
+   -          d/c vanco
+   -          follow BCx
+   .
+   # Hematemesis: Patient presented with hematemesis with reportedly
+   positive NG lavage. Was planned for EGD today but given current
+   unstable situation, will hold off and discuss with GI for later this
+   week.
+   - appreciate GI recs
+   - continue [**Hospital1 **] PPI
+   - maintain active T&S, new T&S ordered for AM of [**10-15**]
+   - [**Hospital1 **] Hct (next this PM)
+   .
+   # Chest pain with recent NSTEMI: Patient now not reporting chest pain
+   but not responding appropriately to questions. Has had negative CKs
+   during this admission with slightly elevated troponin (near recent
+   baseline).  CE w/mildly elevated troponins, but at baseline for
+   patient, likely due to CKD.  EKG w/non-specific changes. Should
+   continue to consider cardiac etiology as patient has had reported
+   episodes of NSTEMI with change in mental status in past.
+   - continue to monitor symptoms
+   - holding aspirin given GI bleeding
+   - continue beta blockade as able (IV while not taking POs)
+   .
+   # ESRD on HD: Renal team is following.
+   - HD tomorrow in CCU
+   - reinitiate sevelamer, nephrocaps when able to take POs
+   - watch lytes closely
+   .
+   # Type I DM: Continue lantus with sliding scale humalog. Continue four
+   times daily fingersticks.
+   - hold reglan for gastroparesis for now
+   .
+   # Hiccups: No hiccups apparent currently. No further baclofen given ?
+   of sedation and ? lowering seizure threshold.
+   .
+   # h/o seizures: Patient has had seizures in the past. On dilantin but
+   recently subtherapeutic.
+   - EEG today as above
+   - hold baclofen
+   - Neurology following
+   - Dilantin as above
+    .
+   # FEN: NPO for now until mental status improves, lyte management per HD
+   # PPx: PPI [**Hospital1 **], pneumoboots, no heparin given GI bleeding, will resume
+   bowel meds when taking POs
+   .
+   # ACCESS: L IJ CVL (placed [**10-13**] at [**Hospital1 54**]), R AV fistula
+   .
+   # CODE: presumed full (documented in H&P)
+   .
+   # COMM: With patient and sister [**Name (NI) 3472**] ([**Name2 (NI) 3472**] is in [**Name (NI) 2222**] per
+   the patient's cousin), hence ICU consent not signed yet
+   .
+   # DISP: ICU care for now until more alert, less apnea
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 46-year-old male with a complex medical history, including end-stage renal disease (ESRD) on hemodialysis, type 1 diabetes, coronary artery disease (CAD), and a history of anoxic encephalopathy following a prolonged period of cardiac arrest.
+
+The patient's current condition is characterized by:
+
+1. Altered mental status: The patient is intermittently somnolent, agitated, and unresponsive to voice or questions. The etiology of this altered mental status is unclear, but it is likely multifactorial, considering the patient's prior anoxic brain injury, ESRD, and recent sleep deprivation.
+2. Hypertension: The patient's blood pressure has been elevated to 200s/100s, and he is being treated with IV hydralazine and lopressor to achieve a goal systolic blood pressure of 160 mmHg.
+3. Positive blood culture: The patient has a positive blood culture for coag-negative staph, which is likely a contaminant given the patient's afebrile condition and lack of other positive blood cultures.
+4. Hematemesis: The patient presented with hematemesis, and a nasogastric lavage was positive. He is being treated with proton pump inhibitors and will undergo an upper endoscopy at a later date.
+5. Chest pain with recent NSTEMI: The patient has had a recent non-ST-segment elevation myocardial infarction (NSTEMI) and is at risk for recurrent cardiac events.
+6. ESRD on HD: The patient is being followed by the renal team and will undergo hemodialysis tomorrow.
+7. Type 1 DM: The patient is being managed with insulin and will continue to receive lantus and sliding scale humalog.
+8. Hiccups: The patient has had hiccups in the past and is currently being treated with baclofen.
+9. History of seizures: The patient has a history of seizures and is currently being treated with dilantin.
+10. ICU care: The patient is currently receiving ICU care and will continue to be monitored closely.
+
+Potential medical complications that may arise include:
+
+1. Worsening of altered mental status: The patient's altered mental status may worsen if not addressed, leading to further respiratory and cardiovascular instability.
+2. Hypertensive encephalopathy: The patient's hypertension may lead to hypertensive encephalopathy, which can worsen his altered mental status and increase his risk of seizures.
+3. Respiratory failure: The patient's apnea may worsen, leading to respiratory failure, which can be life-threatening.
+4. Cardiac complications: The patient's recent NSTEMI and hypertension may lead to cardiac complications, such as cardiac arrest or heart failure.
+5. Infection: The patient's positive blood culture and hematemesis may indicate an underlying infection, which could worsen his condition if not treated promptly.
+6. Gastrointestinal bleeding: The patient's hematemesis may indicate gastrointestinal bleeding, which could worsen if not treated promptly.
+7. Seizure activity: The patient's history of seizures and altered mental status may increase his risk of seizure activity, which could worsen his condition.
+8. Hyperkalemia: The patient's ESRD and hypertension may increase his risk of hyperkalemia, which could worsen his cardiac status.
+
+Given the patient's complex medical history and current condition, it is essential to closely monitor his vital signs, laboratory results, and clinical status to prevent and address potential complications."
+172274.0,228299,2150-10-15 05:29:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ MULTI LUMEN - START [**2150-10-14**] 10:27 AM
+ BLOOD CULTURED - At [**2150-10-14**] 12:00 PM
+   from central line
+ EEG - At [**2150-10-14**] 12:35 PM
+ MAGNETIC RESONANCE IMAGING - At [**2150-10-15**] 12:45 AM
+   Dialyzed w/ marginal improvement of mental status
+   Seen by Neurology who suggested MRI/LP if no improvement
+   BP brought down to 116/52 while sleeping.
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Metoprolol - [**2150-10-14**] 11:03 AM
+   Hydralazine - [**2150-10-14**] 12:00 PM
+   Pantoprazole (Protonix) - [**2150-10-15**] 12:00 AM
+   Dilantin - [**2150-10-15**] 12:00 AM
+   Lorazepam (Ativan) - [**2150-10-15**] 01:05 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2150-10-15**] 05:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (98.9
+   Tcurrent: 37.1
+C (98.8
+   HR: 70 (68 - 84) bpm
+   BP: 123/54(71) {103/44(62) - 208/90(120)} mmHg
+   RR: 21 (0 - 66) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    188 mL
+                                                                     64 mL
+   PO:
+             TF:
+   IVF:
+                                                                    188 mL
+                                                                     64 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,013 mL
+                                                                     64 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: 7.43/53/119/31/9
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   189 K/uL
+   12.0 g/dL
+   123 mg/dL
+   5.1 mg/dL
+   31 mEq/L
+   3.4 mEq/L
+   11 mg/dL
+   97 mEq/L
+   142 mEq/L
+   35.4 %
+   7.3 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   Plt
+   [**Telephone/Fax (3) 6726**]
+   Cr
+   7.7
+   4.3
+   5.1
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   Other labs: PT / PTT / INR:17.2/32.5/1.6, CK / CKMB /
+   Troponin-T:71/5/0.24, ALT / AST:29/18, Alk Phos / T Bili:291/0.4,
+   Differential-Neuts:79.5 %, Lymph:9.6 %, Mono:5.4 %, Eos:4.8 %,
+   Albumin:3.6 g/dL, LDH:257 IU/L, Ca++:9.0 mg/dL, Mg++:1.7 mg/dL, PO4:3.7
+   mg/dL
+   Assessment and Plan
+   This is a 46 y/o man with ESRD on HD, type I DM, CAD s/p recent NSTEMI
+   admitted with hematemesis now with altered mental status and hypoxia.
+   # Altered mental status: Patient with improvement in mental status
+   after given narcan on the floor and narcan gtt in the CCU. Last dose of
+   morphine 4 mg given yesterday morning and nothing else given last
+   night, though given improvement, it makes sense that this represents
+   narcotics respiratory suppression. Given his multitude of other
+   problems (prior PEA arrest with ? anoxic brain injury, ESRD, h/o
+   seizure disorder, and recent sleep deprivation), his altered mental
+   status is likely multifactorial in etiology. He appears to have
+   [**Last Name (un) 1464**]-[**Doctor Last Name 1465**] respirations at present which could be secondary to prior
+   anoxic brain injury though he is clearly off of his baseline. Other
+   consideration is hypertensive encephalopathy given BPs 200s/90s but BP
+   has been elevated since admission. The patient's CO2 on ABG was
+   elevated at 60 with ph 7.32 but patient has had elevated CO2 on ABGS
+   for past year. Likely that elevation in Co2 is [**12-20**] altered mental
+   status but certainly could represent an element of CO2 narcosis. He
+   does have a modestly elevated serum bicarb on baseline chem 7s which
+   could be a sign of compensation for resp acidosis.
+   - appreciate neurology input, will await final recs
+   - eeg today --> continue dilantin (iv for now)
+   - watch final head CT read
+   - serum tox added on to this AM's labs negative
+   - continue narcan gtt for now and monitor respiratory status closely,
+   wean off as tolerated
+   - if apnea continues consider noninvasive ventilation versus intubation
+   - treat hypertension to goal BP today 160 systolic --> IV hydral &
+   lopressor for now
+   - could consider LP though concern for meningitis low due to
+   improvement from other interventions
+   - consider MRI for ? PRESS, evidence of CVA
+   # Hypertension: BPs elevated to 200s/100s on arrival to the ICU. BPs
+   - hydralazine 10 mg IV q6h prn for now
+   - add IV lopressor 10 mg IV q8h (to substitute for PO lopressor)
+   - goal SBP 160s
+   - HD later today
+   - resume losartan and convert back to metoprolol PO when taking POs
+   # Positive blood culture: Patient with one positive blood culture, gram
+   positive cocci in clusters, from [**10-12**] (prior to CVL placement).
+   Received one dose of vancomycin yesterday and will be dialyzed today.
+   - check vanc level today with HD per protocol
+   - follow speciation of gram positive cocci
+   - continue vancomycin until speciated
+   - check blood culture from CVL today and in AM
+   # Hematemesis: Patient presented with hematemesis with reportedly
+   positive NG lavage. Was planned for EGD today but given current
+   unstable situation, will hold off and discuss with GI for later this
+   week.
+   - appreciate GI recs
+   - continue [**Hospital1 **] PPI
+   - maintain active T&S, new T&S ordered for AM of [**10-15**]
+   - [**Hospital1 **] Hct (next this PM)
+   # Chest pain with recent NSTEMI: Patient now not reporting chest pain
+   but not responding appropriately to questions. Has had negative CKs
+   during this admission with slightly elevated troponin (near recent
+   baseline).
+   - ekg in the AM
+   - continue to monitor symptoms
+   - cardiac enzymes X 1 more set this PM
+   - holding aspirin given GI bleeding
+   - continue beta blockade as able (IV while not taking POs)
+   # ESRD on HD: Renal team is following.
+   - HD today in CCU
+   - reinitiate sevelamer, nephrocaps when able to take POs
+   - watch lytes closely
+   # Type I DM: Continue lantus with sliding scale humalog. Continue four
+   times daily fingersticks.
+   - hold reglan for gastroparesis for now
+   # Hiccups: No hiccups apparent currently. No further baclofen given ?
+   of sedation and ? lowering seizure threshold.
+   # h/o seizures: Patient has had seizures in the past. On dilantin but
+   recently subtherapeutic.
+   - EEG today as above
+   - hold baclofen
+   - Neurology following
+   - resume dilantin when able to safely take POs
+   # FEN: NPO for now until mental status improves, lyte management per HD
+   # PPx: PPI [**Hospital1 **], pneumoboots, no heparin given GI bleeding, will resume
+   bowel meds when taking POs
+   # ACCESS: L IJ CVL (placed [**10-13**] at [**Hospital1 54**]), R AV fistula
+   # CODE: presumed full (documented in H&P)
+   # COMM: With patient and sister [**Name (NI) 3472**] ([**Name2 (NI) 3472**] is in [**Name (NI) 2222**] per
+   the patient's cousin), hence ICU consent not signed yet
+   # DISP: ICU care for now until more alert, less apnea
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ MULTI LUMEN - START [**2150-10-14**] 10:27 AM
+ BLOOD CULTURED - At [**2150-10-14**] 12:00 PM
+   from central line
+ EEG - At [**2150-10-14**] 12:35 PM
+ MAGNETIC RESONANCE IMAGING - At [**2150-10-15**] 12:45 AM
+   Dialyzed w/ marginal improvement of mental status
+   Seen by Neurology who suggested MRI/LP if no improvement
+   BP brought down to 116/52 while sleeping.
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Metoprolol - [**2150-10-14**] 11:03 AM
+   Hydralazine - [**2150-10-14**] 12:00 PM
+   Pantoprazole (Protonix) - [**2150-10-15**] 12:00 AM
+   Dilantin - [**2150-10-15**] 12:00 AM
+   Lorazepam (Ativan) - [**2150-10-15**] 01:05 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2150-10-15**] 05:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (98.9
+   Tcurrent: 37.1
+C (98.8
+   HR: 70 (68 - 84) bpm
+   BP: 123/54(71) {103/44(62) - 208/90(120)} mmHg
+   RR: 21 (0 - 66) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    188 mL
+                                                                     64 mL
+   PO:
+             TF:
+   IVF:
+                                                                    188 mL
+                                                                     64 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,013 mL
+                                                                     64 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: 7.43/53/119/31/9
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   189 K/uL
+   12.0 g/dL
+   123 mg/dL
+   5.1 mg/dL
+   31 mEq/L
+   3.4 mEq/L
+   11 mg/dL
+   97 mEq/L
+   142 mEq/L
+   35.4 %
+   7.3 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   Plt
+   [**Telephone/Fax (3) 6726**]
+   Cr
+   7.7
+   4.3
+   5.1
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   Other labs: PT / PTT / INR:17.2/32.5/1.6, CK / CKMB /
+   Troponin-T:71/5/0.24, ALT / AST:29/18, Alk Phos / T Bili:291/0.4,
+   Differential-Neuts:79.5 %, Lymph:9.6 %, Mono:5.4 %, Eos:4.8 %,
+   Albumin:3.6 g/dL, LDH:257 IU/L, Ca++:9.0 mg/dL, Mg++:1.7 mg/dL, PO4:3.7
+   mg/dL
+   Assessment and Plan
+   This is a 46 y/o man with ESRD on HD, type I DM, CAD s/p recent NSTEMI
+   admitted with hematemesis now with altered mental status and hypoxia.
+   # Altered mental status: Patient with improvement in mental status
+   after given narcan on the floor and narcan gtt in the CCU. Last dose of
+   morphine 4 mg given yesterday morning and nothing else given last
+   night, though given improvement, it makes sense that this represents
+   narcotics respiratory suppression. Given his multitude of other
+   problems (prior PEA arrest with ? anoxic brain injury, ESRD, h/o
+   seizure disorder, and recent sleep deprivation), his altered mental
+   status is likely multifactorial in etiology. He appears to have
+   [**Last Name (un) 1464**]-[**Doctor Last Name 1465**] respirations at present which could be secondary to prior
+   anoxic brain injury though he is clearly off of his baseline. Other
+   consideration is hypertensive encephalopathy given BPs 200s/90s but BP
+   has been elevated since admission. The patient's CO2 on ABG was
+   elevated at 60 with ph 7.32 but patient has had elevated CO2 on ABGS
+   for past year. Likely that elevation in Co2 is [**12-20**] altered mental
+   status but certainly could represent an element of CO2 narcosis. He
+   does have a modestly elevated serum bicarb on baseline chem 7s which
+   could be a sign of compensation for resp acidosis.
+   - appreciate neurology input, will await final recs
+   - eeg today --> continue dilantin (iv for now)
+   - watch final head CT read
+   - serum tox added on to this AM's labs negative
+   - continue narcan gtt for now and monitor respiratory status closely,
+   wean off as tolerated
+   - if apnea continues consider noninvasive ventilation versus intubation
+   - treat hypertension to goal BP today 160 systolic --> IV hydral &
+   lopressor for now
+   - could consider LP though concern for meningitis low due to
+   improvement from other interventions
+   - consider MRI for ? PRESS, evidence of CVA
+   # Hypertension: BPs elevated to 200s/100s on arrival to the ICU. BPs
+   - hydralazine 10 mg IV q6h prn for now
+   - add IV lopressor 10 mg IV q8h (to substitute for PO lopressor)
+   - goal SBP 160s
+   - HD later today
+   - resume losartan and convert back to metoprolol PO when taking POs
+   # Positive blood culture: Patient with one positive blood culture, gram
+   positive cocci in clusters, from [**10-12**] (prior to CVL placement).
+   Received one dose of vancomycin yesterday and will be dialyzed today.
+   - check vanc level today with HD per protocol
+   - follow speciation of gram positive cocci
+   - continue vancomycin until speciated
+   - check blood culture from CVL today and in AM
+   # Hematemesis: Patient presented with hematemesis with reportedly
+   positive NG lavage. Was planned for EGD today but given current
+   unstable situation, will hold off and discuss with GI for later this
+   week.
+   - appreciate GI recs
+   - continue [**Hospital1 **] PPI
+   - maintain active T&S, new T&S ordered for AM of [**10-15**]
+   - [**Hospital1 **] Hct (next this PM)
+   # Chest pain with recent NSTEMI: Patient now not reporting chest pain
+   but not responding appropriately to questions. Has had negative CKs
+   during this admission with slightly elevated troponin (near recent
+   baseline).
+   - ekg in the AM
+   - continue to monitor symptoms
+   - cardiac enzymes X 1 more set this PM
+   - holding aspirin given GI bleeding
+   - continue beta blockade as able (IV while not taking POs)
+   # ESRD on HD: Renal team is following.
+   - HD today in CCU
+   - reinitiate sevelamer, nephrocaps when able to take POs
+   - watch lytes closely
+   # Type I DM: Continue lantus with sliding scale humalog. Continue four
+   times daily fingersticks.
+   - hold reglan for gastroparesis for now
+   # Hiccups: No hiccups apparent currently. No further baclofen given ?
+   of sedation and ? lowering seizure threshold.
+   # h/o seizures: Patient has had seizures in the past. On dilantin but
+   recently subtherapeutic.
+   - EEG today as above
+   - hold baclofen
+   - Neurology following
+   - resume dilantin when able to safely take POs
+   # FEN: NPO for now until mental status improves, lyte management per HD
+   # PPx: PPI [**Hospital1 **], pneumoboots, no heparin given GI bleeding, will resume
+   bowel meds when taking POs
+   # ACCESS: L IJ CVL (placed [**10-13**] at [**Hospital1 54**]), R AV fistula
+   # CODE: presumed full (documented in H&P)
+   # COMM: With patient and sister [**Name (NI) 3472**] ([**Name2 (NI) 3472**] is in [**Name (NI) 2222**] per
+   the patient's cousin), hence ICU consent not signed yet
+   # DISP: ICU care for now until more alert, less apnea
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the progress note, the patient is a 46-year-old male with End-Stage Renal Disease (ESRD) on Hemodialysis (HD), Type I Diabetes Mellitus (DM), and Coronary Artery Disease (CAD) who was admitted with hematemesis and altered mental status. The patient has a complex medical history, including a recent Non-ST-Elevation Myocardial Infarction (NSTEMI), prior PEA arrest with possible anoxic brain injury, seizure disorder, and sleep deprivation.
+
+The patient's current conditions include:
+
+1. Altered mental status: The patient's mental status has improved after receiving narcan, but it is likely multifactorial in etiology, considering his prior anoxic brain injury, ESRD, and recent sleep deprivation.
+2. Hypertension: The patient's blood pressure is elevated, and he is being treated with hydralazine and lopressor.
+3. Positive blood culture: The patient has a positive blood culture for gram-positive cocci in clusters, and he is being treated with vancomycin.
+4. Hematemesis: The patient presented with hematemesis, and an upper GI endoscopy was planned but held off due to his unstable condition.
+5. Chest pain with recent NSTEMI: The patient is not reporting chest pain, but his troponin levels are slightly elevated, and he is being monitored for cardiac enzymes.
+6. ESRD on HD: The patient is being followed by the renal team and is scheduled for HD today.
+7. Type I DM: The patient is being treated with Lantus and sliding scale Humalog.
+8. Hiccups: The patient is not experiencing hiccups currently.
+9. h/o seizures: The patient has a history of seizures and is being followed by neurology.
+
+Potential medical complications that can arise from the patient's conditions include:
+
+1. Respiratory failure: The patient's altered mental status and possible anoxic brain injury may lead to respiratory failure.
+2. Infection: The patient's positive blood culture and gram-positive cocci in clusters may lead to sepsis and infection.
+3. Hypertensive encephalopathy: The patient's elevated blood pressure may lead to hypertensive encephalopathy.
+4. Cardiac complications: The patient's recent NSTEMI and elevated troponin levels may lead to cardiac complications such as arrhythmias or cardiogenic shock.
+5. Gastrointestinal bleeding: The patient's hematemesis and positive NG lavage may lead to gastrointestinal bleeding and potential complications.
+6. Seizure activity: The patient's history of seizures and possible anoxic brain injury may lead to seizure activity.
+7. Anoxic brain injury: The patient's prior anoxic brain injury may lead to long-term cognitive and neurological deficits.
+8. Kidney disease progression: The patient's ESRD may progress, leading to further complications and decreased quality of life.
+
+In summary, the patient is a complex case with multiple medical conditions and potential complications. Close monitoring and management of his conditions are necessary to prevent further complications and improve his overall outcome."
+172274.0,228299,2150-10-15 12:05:00,Physician ,Physician Attending Progress Note,"Chief Complaint:
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   46 yo man with DM I, ESRD on HD, admitted with HTN and GIB, c/b altered
+   MS and code blue with HTN, apnea.
+   24 Hour Events:
+ MULTI LUMEN - START [**2150-10-14**] 10:27 AM
+ BLOOD CULTURED - At [**2150-10-14**] 12:00 PM
+   from central line
+ EEG - At [**2150-10-14**] 12:35 PM
+ MAGNETIC RESONANCE IMAGING - At [**2150-10-15**] 12:45 AM
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Hydralazine - [**2150-10-14**] 12:00 PM
+   Lorazepam (Ativan) - [**2150-10-15**] 01:05 AM
+   Dilantin - [**2150-10-15**] 06:00 AM
+   Pantoprazole (Protonix) - [**2150-10-15**] 11:00 AM
+   Other medications:
+   glargine
+   protonix
+   lopressor
+   vanco
+   phenytoin
+   Changes to medical and family history:
+   More awake, but crying, agitated, not following commands
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2150-10-15**] 12:04 PM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (98.9
+   Tcurrent: 36.1
+C (97
+   HR: 86 (68 - 92) bpm
+   BP: 173/66(93) {103/40(62) - 186/79(109)} mmHg
+   RR: 48 (0 - 66) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    188 mL
+                                                                     28 mL
+   PO:
+             TF:
+   IVF:
+                                                                    188 mL
+                                                                     28 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,013 mL
+                                                                     28 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: 7.43/53/119/31/9
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Lymphatic: Cervical WNL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Absent)
+   Respiratory / Chest: (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Musculoskeletal: Unable to stand
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed, not following commands, but crying saying that he is
+   screaming.
+   Labs / Radiology
+   12.0 g/dL
+   189 K/uL
+   123 mg/dL
+   5.1 mg/dL
+   31 mEq/L
+   3.4 mEq/L
+   11 mg/dL
+   97 mEq/L
+   142 mEq/L
+   35.4 %
+   7.3 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   Plt
+   [**Telephone/Fax (3) 6726**]
+   Cr
+   7.7
+   4.3
+   5.1
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   Other labs: PT / PTT / INR:17.2/32.5/1.6, CK / CKMB /
+   Troponin-T:71/5/0.24, ALT / AST:29/18, Alk Phos / T Bili:291/0.4,
+   Differential-Neuts:79.5 %, Lymph:9.6 %, Mono:5.4 %, Eos:4.8 %,
+   Albumin:3.6 g/dL, LDH:257 IU/L, Ca++:9.0 mg/dL, Mg++:1.7 mg/dL, PO4:3.7
+   mg/dL
+   Assessment and Plan
+ RENAL FAILURE, CHRONIC (CHRONIC RENAL FAILURE, CRF, CHRONIC KIDNEY
+   DISEASE): HD yesterday
+ HEMATEMESIS (UPPER GI BLEED, UGIB):  Hct has been stable.
+ ALTERED MENTAL STATUS/Delirium:  More awake and crying and voicing
+   words, but not interactive.  Follow up MRI results.   Will perform LP.
+ CHEST PAIN:  Troponins at baseline.    Likely was from esophagitis.
+   HTN:  on IV lopressor and Hydral to titrate SBP to about 160.
+   Coag negative staph positive blood culture:  Probable contaminant, will
+   hold vanco for now.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition :ICU
+   Total time spent: 35 minutes
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   46 yo man with DM I, ESRD on HD, admitted with HTN and GIB, c/b altered
+   MS and code blue with HTN, apnea.
+   24 Hour Events:
+ MULTI LUMEN - START [**2150-10-14**] 10:27 AM
+ BLOOD CULTURED - At [**2150-10-14**] 12:00 PM
+   from central line
+ EEG - At [**2150-10-14**] 12:35 PM
+ MAGNETIC RESONANCE IMAGING - At [**2150-10-15**] 12:45 AM
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Hydralazine - [**2150-10-14**] 12:00 PM
+   Lorazepam (Ativan) - [**2150-10-15**] 01:05 AM
+   Dilantin - [**2150-10-15**] 06:00 AM
+   Pantoprazole (Protonix) - [**2150-10-15**] 11:00 AM
+   Other medications:
+   glargine
+   protonix
+   lopressor
+   vanco
+   phenytoin
+   Changes to medical and family history:
+   More awake, but crying, agitated, not following commands
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2150-10-15**] 12:04 PM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (98.9
+   Tcurrent: 36.1
+C (97
+   HR: 86 (68 - 92) bpm
+   BP: 173/66(93) {103/40(62) - 186/79(109)} mmHg
+   RR: 48 (0 - 66) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+             Total In:
+                                                                    188 mL
+                                                                     28 mL
+   PO:
+             TF:
+   IVF:
+                                                                    188 mL
+                                                                     28 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,013 mL
+                                                                     28 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: 7.43/53/119/31/9
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Lymphatic: Cervical WNL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Absent)
+   Respiratory / Chest: (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Musculoskeletal: Unable to stand
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed, not following commands, but crying saying that he is
+   screaming.
+   Labs / Radiology
+   12.0 g/dL
+   189 K/uL
+   123 mg/dL
+   5.1 mg/dL
+   31 mEq/L
+   3.4 mEq/L
+   11 mg/dL
+   97 mEq/L
+   142 mEq/L
+   35.4 %
+   7.3 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   Plt
+   [**Telephone/Fax (3) 6726**]
+   Cr
+   7.7
+   4.3
+   5.1
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   Other labs: PT / PTT / INR:17.2/32.5/1.6, CK / CKMB /
+   Troponin-T:71/5/0.24, ALT / AST:29/18, Alk Phos / T Bili:291/0.4,
+   Differential-Neuts:79.5 %, Lymph:9.6 %, Mono:5.4 %, Eos:4.8 %,
+   Albumin:3.6 g/dL, LDH:257 IU/L, Ca++:9.0 mg/dL, Mg++:1.7 mg/dL, PO4:3.7
+   mg/dL
+   Assessment and Plan
+ RENAL FAILURE, CHRONIC (CHRONIC RENAL FAILURE, CRF, CHRONIC KIDNEY
+   DISEASE): HD yesterday
+ HEMATEMESIS (UPPER GI BLEED, UGIB):  Hct has been stable.
+ ALTERED MENTAL STATUS/Delirium:  More awake and crying and voicing
+   words, but not interactive.  Follow up MRI results.   Will perform LP.
+ CHEST PAIN:  Troponins at baseline.    Likely was from esophagitis.
+   HTN:  on IV lopressor and Hydral to titrate SBP to about 160.
+   Coag negative staph positive blood culture:  Probable contaminant, will
+   hold vanco for now.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition :ICU
+   Total time spent: 35 minutes<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, here is a summary of the information and potential medical complications that can arise:
+
+Summary:
+
+* The patient is a 46-year-old man with diabetes mellitus type 1, end-stage renal disease on hemodialysis, admitted with hypertension and gastrointestinal bleeding.
+* The patient had a code blue with hypertension and apnea, and was intubated.
+* The patient's vital signs are stable, with a temperature of 36.1°C, heart rate of 86 bpm, blood pressure of 173/66 mmHg, respiratory rate of 48 breaths per minute, and oxygen saturation of 99%.
+* The patient's neurological status is altered, with agitation, crying, and not following commands.
+* The patient's laboratory results show renal failure, with a creatinine level of 7.7 mg/dL and blood urea nitrogen (BUN) level of 35.4 mg/dL.
+* The patient's coagulation profile shows a prolonged prothrombin time (PT) and activated partial thromboplastin time (aPTT), with an international normalized ratio (INR) of 1.6.
+* The patient has a positive blood culture for coagulase-negative Staphylococcus, which is likely a contaminant.
+* The patient is receiving antibiotics, including vancomycin, which will be held for now.
+
+Potential medical complications:
+
+* Renal failure: The patient's creatinine level is elevated, indicating kidney damage. This can lead to electrolyte imbalances, acidosis, and an increased risk of cardiovascular disease.
+* Altered mental status: The patient's agitation and not following commands can be a sign of delirium or encephalopathy, which can be caused by various factors, including sepsis, electrolyte imbalances, or medication side effects.
+* Coagulopathy: The patient's prolonged PT and aPTT can increase the risk of bleeding, particularly in the setting of gastrointestinal bleeding.
+* Infection: The patient's positive blood culture for coagulase-negative Staphylococcus may indicate a bloodstream infection, which can lead to sepsis and organ failure.
+* Hypertension: The patient's blood pressure is elevated, which can increase the risk of cardiovascular disease, stroke, and kidney damage.
+* Gastrointestinal bleeding: The patient's gastrointestinal bleeding can lead to anemia, electrolyte imbalances, and an increased risk of cardiovascular disease.
+* Electrolyte imbalances: The patient's laboratory results show abnormal electrolyte levels, including hypokalemia, hypomagnesemia, and hyperphosphatemia, which can lead to muscle weakness, cardiac arrhythmias, and other complications."
+172274.0,228299,2150-10-16 05:46:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ LUMBAR PUNCTURE - At [**2150-10-15**] 02:18 PM
+ CSF CULTURE - At [**2150-10-15**] 02:21 PM
+     * Patient intermittently very agitated and screaming and somnolent
+       and poorly responsive
+     * LP performed. WBC, RBC negative, Protein and Glucose slightly
+       elevated. Gram stain negative.
+     * D/c vanco b/c afebrile and no more cultures turned positive
+     * HCt stable
+     * corrected phenytoin level therapeutic so started back on
+       100/100/200 dosing regimen.
+     * to calculate corrected phenytoin level: measured/[(albumin
+       x0.1)+0.1]
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Antibiotics:
+   None
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2150-10-15**] 11:00 AM
+   Dilantin - [**2150-10-15**] 06:42 PM
+   Metoprolol - [**2150-10-16**] 04:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2150-10-16**] 05:45 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37
+C (98.6
+   Tcurrent: 36.8
+C (98.2
+   HR: 75 (69 - 92) bpm
+   BP: 185/76(104) {132/40(73) - 185/99(114)} mmHg
+   RR: 51 (8 - 74) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 58.3 kg (admission): 60.9 kg
+                  Total In:
+                                                                     28 mL
+                  PO:
+                  TF:
+   IVF:
+                                                                     28 mL
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     28 mL
+                                                                      0 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///33/
+   Physical Examination
+   Gen: A&O x 3, talking in full sentences without difficulty.
+   HEENT: No scleral icterus. L pupil difficult to see due to cataract. R
+   pupil not reactive to light.
+   NECK: Supple, No LADL IJ CVL in place.
+   CV: RRR. nl S1, S2. 3/6 systolic murmur
+   LUNGS: CTA anteriorly, no wheezing.
+   ABD: Soft, nontender to palpation, no guarding or rebound. normoactive
+   bowel sounds.
+   EXT: 2+ DP pulses bilaterally, extremities cool. 2+ radial pulses
+   bilaterally. No peripheral edema.
+   SKIN: No rashes/lesions, ecchymoses.
+   NEURO: moves all extremities, follows commands, has some residual
+   confusion, but MS overall much improved.
+   Labs / Radiology
+   198 K/uL
+   12.0 g/dL
+   99 mg/dL
+   7.7 mg/dL
+   33 mEq/L
+   3.3 mEq/L
+   16 mg/dL
+   100 mEq/L
+   148 mEq/L
+   35.9 %
+   7.4 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+                            [**2150-10-15**]  03:39 PM
+                            [**2150-10-16**]  04:03 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   7.4
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   35.9
+   35.9
+   Plt
+   [**Telephone/Fax (3) 6742**]98
+   Cr
+   7.7
+   4.3
+   5.1
+   7.7
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   99
+   Other labs: PT / PTT / INR:19.4/33.2/1.8,  Ca++:9.3 mg/dL, Mg++:1.9
+   mg/dL, PO4:3.7 mg/dL
+   CSF: protein 70, glucose 90, 0 WBC, 1 RBC (diff 7 polys, 48 L, 0 monos,
+   45 macs); G stain neg; cryptococcus neg.
+   4 am phenytoin level 6.6, corrected 14.3
+   MRI: limited by motion & lack of contrast, but no acute change since
+   [**2150-8-28**] study.
+   Assessment and Plan
+   This is a 46 y/o man with ESRD on HD, type I DM, CAD s/p recent NSTEMI,
+   and Hx of anoxic encephalopathy post PEA arrest admitted with chest
+   pain, hypertension, and hematemesis now transferred from the floor with
+   altered mental status and hypoxia associated with apnea.
+   # Altered mental status: Unclear etiology at this point, though much
+   improved after starting dialysis today.  Serum tox negative, LP neg, no
+   evidence of infection (no fever, elevated WBC, or localizing source),
+   MRI unchanged from prior.  [**Month (only) 60**] have been secondary to seizure or to
+   some toxic/metabolic process or medication related.  Patient
+   medication regimen has been greatly simplified.  He did have some
+   periods of [**Last Name (un) 1464**]-[**Doctor Last Name 1465**] respirations with occasional desats, but
+   recovered spontaneously.  Likely related to a central process and has
+   improved with patient
+s mental status.
+   - f/u neurology recs
+   - continue Dilantin 100 mg QAM, 100 mg Qnoon, and 200 mg QHS.
+   .
+   # Hypertension: BPs elevated to 200s/100s on arrival to the ICU. BPs
+   much improved now in goal range of 160-180
+   - switch to PO regimen of metoprolol 50 mg TID and losartan 50 mg daily
+   .
+   # Positive blood culture: Patient with one positive blood culture, gram
+   positive cocci in clusters, from [**10-12**] (prior to CVL placement).
+   Received one dose of vancomycin yesterday and will be dialyzed today.
+   Likely contaminate as no other BCx have come back positive, patient is
+   afebrile.  Vanco stopped [**10-15**].
+   -          follow BCx
+   .
+   # Hematemesis: Patient presented with hematemesis with reportedly
+   positive NG lavage. Was planned for EGD but held due to AMS.  Hct is
+   stable.
+   - appreciate GI recs
+   - continue [**Hospital1 **] PPI
+   - maintain active T&S, new T&S ordered for AM of [**10-15**]
+   .
+   # Chest pain with recent NSTEMI: Patient not reporting chest pain
+   currently.  Has had negative CKs during this admission with slightly
+   elevated troponin (near recent baseline).  CE w/mildly elevated
+   troponins, but at baseline for patient, likely due to CKD.  EKG
+   w/non-specific changes. Should continue to consider cardiac etiology as
+   patient has had reported episodes of NSTEMI with change in mental
+   status in past.
+   - continue to monitor symptoms
+   - holding aspirin given GI bleeding
+   - continue beta blockade as able (IV while not taking POs)
+   .
+   # ESRD on HD: Renal team is following.
+   - HD today in CCU
+   - reinitiate sevelamer, nephrocaps
+   - watch lytes closely
+   .
+   # Type I DM: Continue lantus with sliding scale humalog. Continue four
+   times daily fingersticks.
+   - hold reglan for gastroparesis for now
+   .
+   # Hiccups: No hiccups apparent currently. No further baclofen given ?
+   of sedation and ? lowering seizure threshold.
+   .
+   # h/o seizures: Patient has had seizures in the past. On dilantin but
+   recently subtherapeutic and was reloaded on [**10-15**].
+   - hold baclofen
+   - Neurology following
+   - Dilantin as above
+    .
+   # FEN: resume renal/diabetic diet.   lyte management per HD
+   # PPx: PPI [**Hospital1 **], pneumoboots, no heparin given GI bleeding, will resume
+   bowel meds when taking POs
+   .
+   # ACCESS: L IJ CVL (placed [**10-13**] at [**Hospital1 54**]), R AV fistula
+   .
+   # CODE: presumed full (documented in H&P)
+   .
+   # COMM: With patient and sister [**Name (NI) 3472**] ([**Name2 (NI) 3472**] is in [**Name (NI) 2222**] per
+   the patient's cousin), hence ICU consent not signed yet
+   .
+   # DISP: will call out to floor today.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ LUMBAR PUNCTURE - At [**2150-10-15**] 02:18 PM
+ CSF CULTURE - At [**2150-10-15**] 02:21 PM
+     * Patient intermittently very agitated and screaming and somnolent
+       and poorly responsive
+     * LP performed. WBC, RBC negative, Protein and Glucose slightly
+       elevated. Gram stain negative.
+     * D/c vanco b/c afebrile and no more cultures turned positive
+     * HCt stable
+     * corrected phenytoin level therapeutic so started back on
+       100/100/200 dosing regimen.
+     * to calculate corrected phenytoin level: measured/[(albumin
+       x0.1)+0.1]
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Antibiotics:
+   None
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2150-10-15**] 11:00 AM
+   Dilantin - [**2150-10-15**] 06:42 PM
+   Metoprolol - [**2150-10-16**] 04:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2150-10-16**] 05:45 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37
+C (98.6
+   Tcurrent: 36.8
+C (98.2
+   HR: 75 (69 - 92) bpm
+   BP: 185/76(104) {132/40(73) - 185/99(114)} mmHg
+   RR: 51 (8 - 74) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 58.3 kg (admission): 60.9 kg
+                  Total In:
+                                                                     28 mL
+                  PO:
+                  TF:
+   IVF:
+                                                                     28 mL
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     28 mL
+                                                                      0 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///33/
+   Physical Examination
+   Gen: A&O x 3, talking in full sentences without difficulty.
+   HEENT: No scleral icterus. L pupil difficult to see due to cataract. R
+   pupil not reactive to light.
+   NECK: Supple, No LADL IJ CVL in place.
+   CV: RRR. nl S1, S2. 3/6 systolic murmur
+   LUNGS: CTA anteriorly, no wheezing.
+   ABD: Soft, nontender to palpation, no guarding or rebound. normoactive
+   bowel sounds.
+   EXT: 2+ DP pulses bilaterally, extremities cool. 2+ radial pulses
+   bilaterally. No peripheral edema.
+   SKIN: No rashes/lesions, ecchymoses.
+   NEURO: moves all extremities, follows commands, has some residual
+   confusion, but MS overall much improved.
+   Labs / Radiology
+   198 K/uL
+   12.0 g/dL
+   99 mg/dL
+   7.7 mg/dL
+   33 mEq/L
+   3.3 mEq/L
+   16 mg/dL
+   100 mEq/L
+   148 mEq/L
+   35.9 %
+   7.4 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+                            [**2150-10-15**]  03:39 PM
+                            [**2150-10-16**]  04:03 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   7.4
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   35.9
+   35.9
+   Plt
+   [**Telephone/Fax (3) 6742**]98
+   Cr
+   7.7
+   4.3
+   5.1
+   7.7
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   99
+   Other labs: PT / PTT / INR:19.4/33.2/1.8,  Ca++:9.3 mg/dL, Mg++:1.9
+   mg/dL, PO4:3.7 mg/dL
+   CSF: protein 70, glucose 90, 0 WBC, 1 RBC (diff 7 polys, 48 L, 0 monos,
+   45 macs); G stain neg; cryptococcus neg.
+   4 am phenytoin level 6.6, corrected 14.3
+   MRI: limited by motion & lack of contrast, but no acute change since
+   [**2150-8-28**] study.
+   Assessment and Plan
+   This is a 46 y/o man with ESRD on HD, type I DM, CAD s/p recent NSTEMI,
+   and Hx of anoxic encephalopathy post PEA arrest admitted with chest
+   pain, hypertension, and hematemesis now transferred from the floor with
+   altered mental status and hypoxia associated with apnea.
+   # Altered mental status: Unclear etiology at this point, though much
+   improved after starting dialysis today.  Serum tox negative, LP neg, no
+   evidence of infection (no fever, elevated WBC, or localizing source),
+   MRI unchanged from prior.  [**Month (only) 60**] have been secondary to seizure or to
+   some toxic/metabolic process or medication related.  Patient
+   medication regimen has been greatly simplified.  He did have some
+   periods of [**Last Name (un) 1464**]-[**Doctor Last Name 1465**] respirations with occasional desats, but
+   recovered spontaneously.  Likely related to a central process and has
+   improved with patient
+s mental status.
+   - f/u neurology recs
+   - continue Dilantin 100 mg QAM, 100 mg Qnoon, and 200 mg QHS.
+   .
+   # Hypertension: BPs elevated to 200s/100s on arrival to the ICU. BPs
+   much improved now in goal range of 160-180
+   - switch to PO regimen of metoprolol 50 mg TID and losartan 50 mg daily
+   .
+   # Positive blood culture: Patient with one positive blood culture, gram
+   positive cocci in clusters, from [**10-12**] (prior to CVL placement).
+   Received one dose of vancomycin yesterday and will be dialyzed today.
+   Likely contaminate as no other BCx have come back positive, patient is
+   afebrile.  Vanco stopped [**10-15**].
+   -          follow BCx
+   .
+   # Hematemesis: Patient presented with hematemesis with reportedly
+   positive NG lavage. Was planned for EGD but held due to AMS.  Hct is
+   stable.
+   - appreciate GI recs
+   - continue [**Hospital1 **] PPI
+   - maintain active T&S, new T&S ordered for AM of [**10-15**]
+   .
+   # Chest pain with recent NSTEMI: Patient not reporting chest pain
+   currently.  Has had negative CKs during this admission with slightly
+   elevated troponin (near recent baseline).  CE w/mildly elevated
+   troponins, but at baseline for patient, likely due to CKD.  EKG
+   w/non-specific changes. Should continue to consider cardiac etiology as
+   patient has had reported episodes of NSTEMI with change in mental
+   status in past.
+   - continue to monitor symptoms
+   - holding aspirin given GI bleeding
+   - continue beta blockade as able (IV while not taking POs)
+   .
+   # ESRD on HD: Renal team is following.
+   - HD today in CCU
+   - reinitiate sevelamer, nephrocaps
+   - watch lytes closely
+   .
+   # Type I DM: Continue lantus with sliding scale humalog. Continue four
+   times daily fingersticks.
+   - hold reglan for gastroparesis for now
+   .
+   # Hiccups: No hiccups apparent currently. No further baclofen given ?
+   of sedation and ? lowering seizure threshold.
+   .
+   # h/o seizures: Patient has had seizures in the past. On dilantin but
+   recently subtherapeutic and was reloaded on [**10-15**].
+   - hold baclofen
+   - Neurology following
+   - Dilantin as above
+    .
+   # FEN: resume renal/diabetic diet.   lyte management per HD
+   # PPx: PPI [**Hospital1 **], pneumoboots, no heparin given GI bleeding, will resume
+   bowel meds when taking POs
+   .
+   # ACCESS: L IJ CVL (placed [**10-13**] at [**Hospital1 54**]), R AV fistula
+   .
+   # CODE: presumed full (documented in H&P)
+   .
+   # COMM: With patient and sister [**Name (NI) 3472**] ([**Name2 (NI) 3472**] is in [**Name (NI) 2222**] per
+   the patient's cousin), hence ICU consent not signed yet
+   .
+   # DISP: will call out to floor today.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 46-year-old man with a complex medical history, including ESRD on HD, type I DM, CAD, and a history of anoxic encephalopathy post PEA arrest. He was admitted with chest pain, hypertension, and hematemesis, and is currently being treated in the ICU.
+
+The patient's condition has improved significantly since admission, with his mental status improving after starting dialysis and his hypertension being controlled. However, he still has several potential medical complications that need to be monitored and managed.
+
+1. Altered mental status: The patient's altered mental status is still unclear, and further evaluation is needed to determine the underlying cause. He has been started on phenytoin and has had a normal corrected phenytoin level.
+2. Hypertension: The patient's hypertension is well-controlled, but he is still at risk for developing complications such as hypertensive encephalopathy or cardiac events.
+3. Positive blood culture: The patient has a positive blood culture, but it is likely a contaminant as no other cultures have come back positive. He has been started on vancomycin and will be dialyzed today.
+4. Hematemesis: The patient has a history of hematemesis and is currently being monitored for any signs of bleeding.
+5. Chest pain: The patient has a history of chest pain and NSTEMI, and should continue to be monitored for any signs of cardiac events.
+6. ESRD on HD: The patient's renal function is being monitored and managed by the renal team.
+7. Type I DM: The patient's diabetes is being managed with insulin and glucose monitoring.
+8. Hiccups: The patient has had hiccups in the past and should be monitored for any signs of return.
+9. History of seizures: The patient has a history of seizures and should be monitored for any signs of seizure activity.
+
+The patient's medication regimen has been simplified, and he is currently taking phenytoin, metoprolol, and losartan. He is also receiving dialysis and will be reinitiated on sevelamer and nephrocaps."
+172274.0,228299,2150-10-16 05:46:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ LUMBAR PUNCTURE - At [**2150-10-15**] 02:18 PM
+ CSF CULTURE - At [**2150-10-15**] 02:21 PM
+     * Patient intermittently very agitated and screaming and somnolent
+       and poorly responsive
+     * LP performed. WBC, RBC negative, Protein and Glucose slightly
+       elevated. Gram stain negative.
+     * MRI prelim report showed some diffuse white matter changes (that
+       could be c/w HIV disease but pt w/neg HIV in computer from [**11-25**])
+       and calcifications in the left globe (could be c/w CMV). No
+       evidence of PRES, temporal lobe changes, or CVA.
+     * D/c vanco b/c afebrile and no more cultures turned positive
+     * HCt stable
+     * corrected phenytoin level therapeutic so started back on
+       100/100/200 dosing regimen.
+     * to calculate corrected phenytoin level: measured/[(albumin
+       x0.1)+0.1]
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Antibiotics:
+   None
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2150-10-15**] 11:00 AM
+   Dilantin - [**2150-10-15**] 06:42 PM
+   Metoprolol - [**2150-10-16**] 04:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2150-10-16**] 05:45 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37
+C (98.6
+   Tcurrent: 36.8
+C (98.2
+   HR: 75 (69 - 92) bpm
+   BP: 185/76(104) {132/40(73) - 185/99(114)} mmHg
+   RR: 51 (8 - 74) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 58.3 kg (admission): 60.9 kg
+                  Total In:
+                                                                     28 mL
+                  PO:
+                  TF:
+   IVF:
+                                                                     28 mL
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     28 mL
+                                                                      0 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///33/
+   Physical Examination
+   Gen: chronically ill appearing middle aged male intermittently agitated
+   and screaming and somnolent and responsive only to very noxious
+   stimuli.
+   HEENT: No scleral icterus. L pupil difficult to see due to cataract. R
+   pupil not reactive to light.
+   NECK: Supple, No LADL IJ CVL in place.
+   CV: RRR. nl S1, S2. No appreciable murmur.
+   LUNGS: CTA anteriorly, no wheezing.
+   ABD: Soft, nontender to palpation, no guarding or rebound. normoactive
+   bowel sounds.
+   EXT: 2+ DP pulses bilaterally, extremities cool. 2+ radial pulses
+   bilaterally. No peripheral edema.
+   SKIN: No rashes/lesions, ecchymoses.
+   NEURO: Intermittently somnolent but also with episodes of spontaneous
+   alertness with eyes open. No response to voice. Not responding to
+   questions. L pupil difficult to assess [**12-20**] cataract, R pupil
+   nonreactive.  Moves all 4 extremities.  Some slight withdrawal from
+   pain in bilateral lower extremities and upper extremities. No
+   meningismus.
+   Labs / Radiology
+   198 K/uL
+   12.0 g/dL
+   99 mg/dL
+   7.7 mg/dL
+   33 mEq/L
+   3.3 mEq/L
+   16 mg/dL
+   100 mEq/L
+   148 mEq/L
+   35.9 %
+   7.4 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+                            [**2150-10-15**]  03:39 PM
+                            [**2150-10-16**]  04:03 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   7.4
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   35.9
+   35.9
+   Plt
+   [**Telephone/Fax (3) 6742**]98
+   Cr
+   7.7
+   4.3
+   5.1
+   7.7
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   99
+   Other labs: PT / PTT / INR:19.4/33.2/1.8, CK / CKMB /
+   Troponin-T:71/5/0.24, ALT / AST:29/18, Alk Phos / T Bili:291/0.4,
+   Differential-Neuts:79.5 %, Lymph:9.6 %, Mono:5.4 %, Eos:4.8 %,
+   Albumin:3.6 g/dL, LDH:257 IU/L, Ca++:9.3 mg/dL, Mg++:1.9 mg/dL, PO4:3.7
+   mg/dL
+   Assessment and Plan
+   This is a 46 y/o man with ESRD on HD, type I DM, CAD s/p recent NSTEMI,
+   and Hx of anoxic encephalopathy post PEA arrest admitted with chest
+   pain, hypertension, and hematemesis now transferred from the floor with
+   altered mental status and hypoxia associated with apnea.
+   # Altered mental status: Unclear etiology at this point.  Patient with
+   improvement in mental status after given narcan on the floor and narcan
+   gtt in the CCU but unclear if this was coincidental as patient had no
+   change when drip was d/c. Given his multitude of other problems (prior
+   PEA arrest with anoxic brain injury, ESRD, h/o seizure disorder, and
+   recent sleep deprivation), his altered mental status is likely
+   multifactorial in etiology. He appears to have [**Last Name (un) 1464**]-[**Doctor Last Name 1465**]
+   respirations at present which could be secondary to prior anoxic brain
+   injury though he is clearly off of his baseline according to residents
+   who have seen him in clinic recently (since NSTEMI and PEA arrest).
+   Other consideration is hypertensive encephalopathy/PRES given BPs
+   200s/90s but BP has been elevated since admission. The patient's CO2 on
+   ABG was elevated at 60 with ph 7.32 but patient has had elevated CO2 on
+   ABGS for past year. Likely that elevation in Co2 is [**12-20**] altered mental
+   status but certainly could represent an element of CO2 narcosis.  MRI
+   w/prelim read of abnormality in the white matter diffusely and
+   calcifications in the L globe but negative for PRES, temporal lobe
+   enhancement, or CVA.  Re-loading with Dilantin currently per neuron
+   recommendation.  Neuro note mentions EEG findings but unclear whether
+   these are current EEG or previous EEG results.  Final head CT read is
+   NAD.  Serum tox screen negative.
+   - f/u neurology recs
+   - LP today
+   - continue Dilantin load per neur rec, will check with neurology
+   regarding when to check levels, what dose to use for maintenance.
+   - serum tox added on to this AM's labs negative
+   - if apnea continues consider noninvasive ventilation versus intubation
+   - treat hypertension to goal BP today 160 systolic --> IV hydral &
+   lopressor for now (did not require hydral o/n)
+   .
+   # Hypertension: BPs elevated to 200s/100s on arrival to the ICU. BPs
+   - d/c hydralazine 10 mg IV q6h PRN (not used)
+   - continue IV lopressor 10 mg IV q8h (to substitute for PO lopressor)
+   - goal SBP 160s
+   - HD later tomorrow
+   - resume losartan and convert back to metoprolol PO when taking POs
+   .
+   # Positive blood culture: Patient with one positive blood culture, gram
+   positive cocci in clusters, from [**10-12**] (prior to CVL placement).
+   Received one dose of vancomycin yesterday and will be dialyzed today.
+   Likely contaminate as no other BCx have come back positive, patient is
+   afebrile.
+   -          d/c vanco
+   -          follow BCx
+   .
+   # Hematemesis: Patient presented with hematemesis with reportedly
+   positive NG lavage. Was planned for EGD today but given current
+   unstable situation, will hold off and discuss with GI for later this
+   week.
+   - appreciate GI recs
+   - continue [**Hospital1 **] PPI
+   - maintain active T&S, new T&S ordered for AM of [**10-15**]
+   - [**Hospital1 **] Hct (next this PM)
+   .
+   # Chest pain with recent NSTEMI: Patient now not reporting chest pain
+   but not responding appropriately to questions. Has had negative CKs
+   during this admission with slightly elevated troponin (near recent
+   baseline).  CE w/mildly elevated troponins, but at baseline for
+   patient, likely due to CKD.  EKG w/non-specific changes. Should
+   continue to consider cardiac etiology as patient has had reported
+   episodes of NSTEMI with change in mental status in past.
+   - continue to monitor symptoms
+   - holding aspirin given GI bleeding
+   - continue beta blockade as able (IV while not taking POs)
+   .
+   # ESRD on HD: Renal team is following.
+   - HD tomorrow in CCU
+   - reinitiate sevelamer, nephrocaps when able to take POs
+   - watch lytes closely
+   .
+   # Type I DM: Continue lantus with sliding scale humalog. Continue four
+   times daily fingersticks.
+   - hold reglan for gastroparesis for now
+   .
+   # Hiccups: No hiccups apparent currently. No further baclofen given ?
+   of sedation and ? lowering seizure threshold.
+   .
+   # h/o seizures: Patient has had seizures in the past. On dilantin but
+   recently subtherapeutic.
+   - EEG today as above
+   - hold baclofen
+   - Neurology following
+   - Dilantin as above
+    .
+   # FEN: NPO for now until mental status improves, lyte management per HD
+   # PPx: PPI [**Hospital1 **], pneumoboots, no heparin given GI bleeding, will resume
+   bowel meds when taking POs
+   .
+   # ACCESS: L IJ CVL (placed [**10-13**] at [**Hospital1 54**]), R AV fistula
+   .
+   # CODE: presumed full (documented in H&P)
+   .
+   # COMM: With patient and sister [**Name (NI) 3472**] ([**Name2 (NI) 3472**] is in [**Name (NI) 2222**] per
+   the patient's cousin), hence ICU consent not signed yet
+   .
+   # DISP: ICU care for now until more alert, less apnea
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ LUMBAR PUNCTURE - At [**2150-10-15**] 02:18 PM
+ CSF CULTURE - At [**2150-10-15**] 02:21 PM
+     * Patient intermittently very agitated and screaming and somnolent
+       and poorly responsive
+     * LP performed. WBC, RBC negative, Protein and Glucose slightly
+       elevated. Gram stain negative.
+     * MRI prelim report showed some diffuse white matter changes (that
+       could be c/w HIV disease but pt w/neg HIV in computer from [**11-25**])
+       and calcifications in the left globe (could be c/w CMV). No
+       evidence of PRES, temporal lobe changes, or CVA.
+     * D/c vanco b/c afebrile and no more cultures turned positive
+     * HCt stable
+     * corrected phenytoin level therapeutic so started back on
+       100/100/200 dosing regimen.
+     * to calculate corrected phenytoin level: measured/[(albumin
+       x0.1)+0.1]
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Antibiotics:
+   None
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2150-10-15**] 11:00 AM
+   Dilantin - [**2150-10-15**] 06:42 PM
+   Metoprolol - [**2150-10-16**] 04:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2150-10-16**] 05:45 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37
+C (98.6
+   Tcurrent: 36.8
+C (98.2
+   HR: 75 (69 - 92) bpm
+   BP: 185/76(104) {132/40(73) - 185/99(114)} mmHg
+   RR: 51 (8 - 74) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 58.3 kg (admission): 60.9 kg
+                  Total In:
+                                                                     28 mL
+                  PO:
+                  TF:
+   IVF:
+                                                                     28 mL
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     28 mL
+                                                                      0 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///33/
+   Physical Examination
+   Gen: chronically ill appearing middle aged male intermittently agitated
+   and screaming and somnolent and responsive only to very noxious
+   stimuli.
+   HEENT: No scleral icterus. L pupil difficult to see due to cataract. R
+   pupil not reactive to light.
+   NECK: Supple, No LADL IJ CVL in place.
+   CV: RRR. nl S1, S2. No appreciable murmur.
+   LUNGS: CTA anteriorly, no wheezing.
+   ABD: Soft, nontender to palpation, no guarding or rebound. normoactive
+   bowel sounds.
+   EXT: 2+ DP pulses bilaterally, extremities cool. 2+ radial pulses
+   bilaterally. No peripheral edema.
+   SKIN: No rashes/lesions, ecchymoses.
+   NEURO: Intermittently somnolent but also with episodes of spontaneous
+   alertness with eyes open. No response to voice. Not responding to
+   questions. L pupil difficult to assess [**12-20**] cataract, R pupil
+   nonreactive.  Moves all 4 extremities.  Some slight withdrawal from
+   pain in bilateral lower extremities and upper extremities. No
+   meningismus.
+   Labs / Radiology
+   198 K/uL
+   12.0 g/dL
+   99 mg/dL
+   7.7 mg/dL
+   33 mEq/L
+   3.3 mEq/L
+   16 mg/dL
+   100 mEq/L
+   148 mEq/L
+   35.9 %
+   7.4 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+                            [**2150-10-15**]  03:39 PM
+                            [**2150-10-16**]  04:03 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   7.4
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   35.9
+   35.9
+   Plt
+   [**Telephone/Fax (3) 6742**]98
+   Cr
+   7.7
+   4.3
+   5.1
+   7.7
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   99
+   Other labs: PT / PTT / INR:19.4/33.2/1.8, CK / CKMB /
+   Troponin-T:71/5/0.24, ALT / AST:29/18, Alk Phos / T Bili:291/0.4,
+   Differential-Neuts:79.5 %, Lymph:9.6 %, Mono:5.4 %, Eos:4.8 %,
+   Albumin:3.6 g/dL, LDH:257 IU/L, Ca++:9.3 mg/dL, Mg++:1.9 mg/dL, PO4:3.7
+   mg/dL
+   Assessment and Plan
+   This is a 46 y/o man with ESRD on HD, type I DM, CAD s/p recent NSTEMI,
+   and Hx of anoxic encephalopathy post PEA arrest admitted with chest
+   pain, hypertension, and hematemesis now transferred from the floor with
+   altered mental status and hypoxia associated with apnea.
+   # Altered mental status: Unclear etiology at this point.  Patient with
+   improvement in mental status after given narcan on the floor and narcan
+   gtt in the CCU but unclear if this was coincidental as patient had no
+   change when drip was d/c. Given his multitude of other problems (prior
+   PEA arrest with anoxic brain injury, ESRD, h/o seizure disorder, and
+   recent sleep deprivation), his altered mental status is likely
+   multifactorial in etiology. He appears to have [**Last Name (un) 1464**]-[**Doctor Last Name 1465**]
+   respirations at present which could be secondary to prior anoxic brain
+   injury though he is clearly off of his baseline according to residents
+   who have seen him in clinic recently (since NSTEMI and PEA arrest).
+   Other consideration is hypertensive encephalopathy/PRES given BPs
+   200s/90s but BP has been elevated since admission. The patient's CO2 on
+   ABG was elevated at 60 with ph 7.32 but patient has had elevated CO2 on
+   ABGS for past year. Likely that elevation in Co2 is [**12-20**] altered mental
+   status but certainly could represent an element of CO2 narcosis.  MRI
+   w/prelim read of abnormality in the white matter diffusely and
+   calcifications in the L globe but negative for PRES, temporal lobe
+   enhancement, or CVA.  Re-loading with Dilantin currently per neuron
+   recommendation.  Neuro note mentions EEG findings but unclear whether
+   these are current EEG or previous EEG results.  Final head CT read is
+   NAD.  Serum tox screen negative.
+   - f/u neurology recs
+   - LP today
+   - continue Dilantin load per neur rec, will check with neurology
+   regarding when to check levels, what dose to use for maintenance.
+   - serum tox added on to this AM's labs negative
+   - if apnea continues consider noninvasive ventilation versus intubation
+   - treat hypertension to goal BP today 160 systolic --> IV hydral &
+   lopressor for now (did not require hydral o/n)
+   .
+   # Hypertension: BPs elevated to 200s/100s on arrival to the ICU. BPs
+   - d/c hydralazine 10 mg IV q6h PRN (not used)
+   - continue IV lopressor 10 mg IV q8h (to substitute for PO lopressor)
+   - goal SBP 160s
+   - HD later tomorrow
+   - resume losartan and convert back to metoprolol PO when taking POs
+   .
+   # Positive blood culture: Patient with one positive blood culture, gram
+   positive cocci in clusters, from [**10-12**] (prior to CVL placement).
+   Received one dose of vancomycin yesterday and will be dialyzed today.
+   Likely contaminate as no other BCx have come back positive, patient is
+   afebrile.
+   -          d/c vanco
+   -          follow BCx
+   .
+   # Hematemesis: Patient presented with hematemesis with reportedly
+   positive NG lavage. Was planned for EGD today but given current
+   unstable situation, will hold off and discuss with GI for later this
+   week.
+   - appreciate GI recs
+   - continue [**Hospital1 **] PPI
+   - maintain active T&S, new T&S ordered for AM of [**10-15**]
+   - [**Hospital1 **] Hct (next this PM)
+   .
+   # Chest pain with recent NSTEMI: Patient now not reporting chest pain
+   but not responding appropriately to questions. Has had negative CKs
+   during this admission with slightly elevated troponin (near recent
+   baseline).  CE w/mildly elevated troponins, but at baseline for
+   patient, likely due to CKD.  EKG w/non-specific changes. Should
+   continue to consider cardiac etiology as patient has had reported
+   episodes of NSTEMI with change in mental status in past.
+   - continue to monitor symptoms
+   - holding aspirin given GI bleeding
+   - continue beta blockade as able (IV while not taking POs)
+   .
+   # ESRD on HD: Renal team is following.
+   - HD tomorrow in CCU
+   - reinitiate sevelamer, nephrocaps when able to take POs
+   - watch lytes closely
+   .
+   # Type I DM: Continue lantus with sliding scale humalog. Continue four
+   times daily fingersticks.
+   - hold reglan for gastroparesis for now
+   .
+   # Hiccups: No hiccups apparent currently. No further baclofen given ?
+   of sedation and ? lowering seizure threshold.
+   .
+   # h/o seizures: Patient has had seizures in the past. On dilantin but
+   recently subtherapeutic.
+   - EEG today as above
+   - hold baclofen
+   - Neurology following
+   - Dilantin as above
+    .
+   # FEN: NPO for now until mental status improves, lyte management per HD
+   # PPx: PPI [**Hospital1 **], pneumoboots, no heparin given GI bleeding, will resume
+   bowel meds when taking POs
+   .
+   # ACCESS: L IJ CVL (placed [**10-13**] at [**Hospital1 54**]), R AV fistula
+   .
+   # CODE: presumed full (documented in H&P)
+   .
+   # COMM: With patient and sister [**Name (NI) 3472**] ([**Name2 (NI) 3472**] is in [**Name (NI) 2222**] per
+   the patient's cousin), hence ICU consent not signed yet
+   .
+   # DISP: ICU care for now until more alert, less apnea
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 46-year-old man with a complex medical history, including end-stage renal disease (ESRD) on hemodialysis, type 1 diabetes mellitus, coronary artery disease (CAD) with recent non-ST-segment elevation myocardial infarction (NSTEMI), and a history of anoxic encephalopathy post-pulseless electrical activity (PEA) arrest. He was admitted to the intensive care unit (ICU) with altered mental status, hypertension, and hematemesis.
+
+The patient's mental status has been fluctuating, with episodes of agitation, somnolence, and poor responsiveness. He has had a lumbar puncture (LP) performed, which revealed slightly elevated white blood cell (WBC) and protein levels, but a negative Gram stain. The MRI report showed diffuse white matter changes and calcifications in the left globe, which could be consistent with human immunodeficiency virus (HIV) disease, but the patient is HIV-negative.
+
+The patient has been treated with vancomycin for a positive blood culture, but it was discontinued due to the patient being afebrile and no other blood cultures coming back positive. He has also been treated with pantoprazole for hematemesis and has been started on metoprolol for hypertension.
+
+Potential Medical Complications:
+
+1. Meningitis: Although the LP was negative, the patient's mental status has been fluctuating, and there is a risk of meningitis.
+2. Hypertensive Encephalopathy/PRES: The patient's blood pressure has been elevated, and there is a risk of hypertensive encephalopathy or posterior reversible encephalopathy syndrome (PRES).
+3. Seizures: The patient has a history of seizures and has been on dilantin, but his levels were subtherapeutic. There is a risk of seizures due to his underlying condition and medications.
+4. Respiratory Failure: The patient has been experiencing apnea, and there is a risk of respiratory failure.
+5. Infection: The patient has a positive blood culture, and there is a risk of infection.
+6. Gastrointestinal Bleeding: The patient has been experiencing hematemesis, and there is a risk of further gastrointestinal bleeding.
+7. Cardiac Complications: The patient has a history of CAD and NSTEMI, and there is a risk of cardiac complications, such as cardiac arrest or arrhythmias.
+8. Renal Complications: The patient has ESRD on hemodialysis, and there is a risk of further renal complications, such as acute kidney injury or chronic kidney disease progression.
+
+Assessment and Plan:
+
+The patient's altered mental status, hypertension, and hematemesis require close monitoring and management. The patient's blood pressure needs to be controlled, and his mental status needs to be stabilized. The patient's respiratory status needs to be closely monitored, and he may require non-invasive ventilation or intubation. The patient's gastrointestinal bleeding needs to be managed, and he may require further endoscopy or surgical intervention. The patient's cardiac status needs to be monitored, and he may require further cardiac evaluation or intervention. The patient's renal status needs to be closely monitored, and he may require further hemodialysis or other renal interventions."
+172274.0,228299,2150-10-16 05:46:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ LUMBAR PUNCTURE - At [**2150-10-15**] 02:18 PM
+ CSF CULTURE - At [**2150-10-15**] 02:21 PM
+     * Patient intermittently very agitated and screaming and somnolent
+       and poorly responsive
+     * LP performed. WBC, RBC negative, Protein and Glucose slightly
+       elevated. Gram stain negative.
+     * MRI prelim report showed some diffuse white matter changes (that
+       could be c/w HIV disease but pt w/neg HIV in computer from [**11-25**])
+       and calcifications in the left globe (could be c/w CMV). No
+       evidence of PRES, temporal lobe changes, or CVA.
+     * D/c vanco b/c afebrile and no more cultures turned positive
+     * HCt stable
+     * corrected phenytoin level therapeutic so started back on
+       100/100/200 dosing regimen.
+     * to calculate corrected phenytoin level: measured/[(albumin
+       x0.1)+0.1]
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Antibiotics:
+   None
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2150-10-15**] 11:00 AM
+   Dilantin - [**2150-10-15**] 06:42 PM
+   Metoprolol - [**2150-10-16**] 04:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2150-10-16**] 05:45 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37
+C (98.6
+   Tcurrent: 36.8
+C (98.2
+   HR: 75 (69 - 92) bpm
+   BP: 185/76(104) {132/40(73) - 185/99(114)} mmHg
+   RR: 51 (8 - 74) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 58.3 kg (admission): 60.9 kg
+                  Total In:
+                                                                     28 mL
+                  PO:
+                  TF:
+   IVF:
+                                                                     28 mL
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     28 mL
+                                                                      0 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///33/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   198 K/uL
+   12.0 g/dL
+   99 mg/dL
+   7.7 mg/dL
+   33 mEq/L
+   3.3 mEq/L
+   16 mg/dL
+   100 mEq/L
+   148 mEq/L
+   35.9 %
+   7.4 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+                            [**2150-10-15**]  03:39 PM
+                            [**2150-10-16**]  04:03 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   7.4
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   35.9
+   35.9
+   Plt
+   [**Telephone/Fax (3) 6742**]98
+   Cr
+   7.7
+   4.3
+   5.1
+   7.7
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   99
+   Other labs: PT / PTT / INR:19.4/33.2/1.8, CK / CKMB /
+   Troponin-T:71/5/0.24, ALT / AST:29/18, Alk Phos / T Bili:291/0.4,
+   Differential-Neuts:79.5 %, Lymph:9.6 %, Mono:5.4 %, Eos:4.8 %,
+   Albumin:3.6 g/dL, LDH:257 IU/L, Ca++:9.3 mg/dL, Mg++:1.9 mg/dL, PO4:3.7
+   mg/dL
+   Assessment and Plan
+ RESPIRATORY FAILURE, ACUTE (NOT ARDS/[**Doctor Last Name **])
+ RENAL FAILURE, CHRONIC (CHRONIC RENAL FAILURE, CRF, CHRONIC KIDNEY
+   DISEASE)
+ HEMATEMESIS (UPPER GI BLEED, UGIB)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ CHEST PAIN
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ LUMBAR PUNCTURE - At [**2150-10-15**] 02:18 PM
+ CSF CULTURE - At [**2150-10-15**] 02:21 PM
+     * Patient intermittently very agitated and screaming and somnolent
+       and poorly responsive
+     * LP performed. WBC, RBC negative, Protein and Glucose slightly
+       elevated. Gram stain negative.
+     * MRI prelim report showed some diffuse white matter changes (that
+       could be c/w HIV disease but pt w/neg HIV in computer from [**11-25**])
+       and calcifications in the left globe (could be c/w CMV). No
+       evidence of PRES, temporal lobe changes, or CVA.
+     * D/c vanco b/c afebrile and no more cultures turned positive
+     * HCt stable
+     * corrected phenytoin level therapeutic so started back on
+       100/100/200 dosing regimen.
+     * to calculate corrected phenytoin level: measured/[(albumin
+       x0.1)+0.1]
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Antibiotics:
+   None
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2150-10-15**] 11:00 AM
+   Dilantin - [**2150-10-15**] 06:42 PM
+   Metoprolol - [**2150-10-16**] 04:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2150-10-16**] 05:45 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37
+C (98.6
+   Tcurrent: 36.8
+C (98.2
+   HR: 75 (69 - 92) bpm
+   BP: 185/76(104) {132/40(73) - 185/99(114)} mmHg
+   RR: 51 (8 - 74) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 58.3 kg (admission): 60.9 kg
+                  Total In:
+                                                                     28 mL
+                  PO:
+                  TF:
+   IVF:
+                                                                     28 mL
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     28 mL
+                                                                      0 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///33/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   198 K/uL
+   12.0 g/dL
+   99 mg/dL
+   7.7 mg/dL
+   33 mEq/L
+   3.3 mEq/L
+   16 mg/dL
+   100 mEq/L
+   148 mEq/L
+   35.9 %
+   7.4 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+                            [**2150-10-15**]  03:39 PM
+                            [**2150-10-16**]  04:03 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   7.4
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   35.9
+   35.9
+   Plt
+   [**Telephone/Fax (3) 6742**]98
+   Cr
+   7.7
+   4.3
+   5.1
+   7.7
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   99
+   Other labs: PT / PTT / INR:19.4/33.2/1.8, CK / CKMB /
+   Troponin-T:71/5/0.24, ALT / AST:29/18, Alk Phos / T Bili:291/0.4,
+   Differential-Neuts:79.5 %, Lymph:9.6 %, Mono:5.4 %, Eos:4.8 %,
+   Albumin:3.6 g/dL, LDH:257 IU/L, Ca++:9.3 mg/dL, Mg++:1.9 mg/dL, PO4:3.7
+   mg/dL
+   Assessment and Plan
+ RESPIRATORY FAILURE, ACUTE (NOT ARDS/[**Doctor Last Name **])
+ RENAL FAILURE, CHRONIC (CHRONIC RENAL FAILURE, CRF, CHRONIC KIDNEY
+   DISEASE)
+ HEMATEMESIS (UPPER GI BLEED, UGIB)
+ ALTERED MENTAL STATUS (NOT DELIRIUM)
+ CHEST PAIN
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, here is a summary of the patient's condition:
+
+The patient is a 24-hour-old ICU admission with a history of chronic renal failure, chronic kidney disease, and upper gastrointestinal bleeding. The patient has undergone a lumbar puncture, which revealed slightly elevated protein and glucose levels in the cerebrospinal fluid. The patient's MRI showed diffuse white matter changes consistent with HIV disease, but the patient is HIV-negative. The patient's phenytoin level was therapeutic, and they were started on a dosing regimen.
+
+The patient's vital signs are stable, with a temperature of 37°C, heart rate of 75 beats per minute, and blood pressure of 185/76 mmHg. The patient's respiratory status is also stable, with a SpO2 of 100% on nasal cannula oxygen.
+
+The patient's laboratory results show an elevated white blood cell count, decreased hemoglobin, and elevated creatinine and potassium levels. The patient's liver function tests are mildly elevated, and their electrolyte levels are slightly abnormal.
+
+The patient's physical examination is limited due to their altered mental status, but they do not have any signs of peripheral vascular disease or skin changes. The patient's neurological examination is also limited, but they do not have any signs of focal neurological deficits.
+
+Potential medical complications that could arise from this patient's condition include:
+
+1. Seizures: The patient's elevated phenytoin level and history of seizure activity make them at risk for seizures.
+2. Respiratory failure: The patient's chronic respiratory failure and upper gastrointestinal bleeding increase their risk for respiratory failure.
+3. Renal failure: The patient's chronic kidney disease and acute kidney injury from the upper gastrointestinal bleeding increase their risk for renal failure.
+4. Infection: The patient's altered mental status and history of upper gastrointestinal bleeding make them at risk for infection.
+5. Bleeding: The patient's upper gastrointestinal bleeding and history of chronic kidney disease increase their risk for bleeding complications.
+6. Electrolyte imbalance: The patient's elevated potassium and creatinine levels increase their risk for electrolyte imbalance.
+7. Liver dysfunction: The patient's mildly elevated liver function tests increase their risk for liver dysfunction.
+
+It is essential to closely monitor the patient's condition and adjust their treatment plan accordingly to prevent these potential complications from arising."
+172274.0,228299,2150-10-16 11:37:00,Physician ,Physician Attending Progress Note,"Chief Complaint: poor MS, apneic episodes
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   46 yo DM I, had ?respiratory code on floor, suddent unresponsive.  By
+   report now much more awake and interactive.  MRI and CSF fluid results
+   not specific.
+   24 Hour Events:
+ LUMBAR PUNCTURE - At [**2150-10-15**] 02:18 PM
+ CSF CULTURE - At [**2150-10-15**] 02:21 PM
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Dilantin - [**2150-10-15**] 06:42 PM
+   Metoprolol - [**2150-10-16**] 04:00 AM
+   Other medications:
+   protonix
+   insulin
+   dilantin
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Psychiatric / Sleep: No(t) Agitated, No(t) Suicidal
+   Flowsheet Data as of  [**2150-10-16**] 11:37 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37.7
+C (99.8
+   HR: 75 (70 - 85) bpm
+   BP: 150/76(94) {137/51(76) - 185/99(114)} mmHg
+   RR: 22 (11 - 74) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 58.3 kg (admission): 60.9 kg
+                  Total In:
+                                                                     28 mL
+                  PO:
+                  TF:
+   IVF:
+                                                                     28 mL
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     28 mL
+                                                                      0 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///33/
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Lymphatic: Cervical WNL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Present), (Left DP pulse:
+   Present)
+   Respiratory / Chest: (Breath Sounds: Clear : , Wheezes : )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Warm
+   Neurologic: Follows simple commands, Responds to: Not assessed,
+   Oriented (to): person, place, knows year, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   12.0 g/dL
+   198 K/uL
+   99 mg/dL
+   7.7 mg/dL
+   33 mEq/L
+   3.3 mEq/L
+   16 mg/dL
+   100 mEq/L
+   148 mEq/L
+   35.9 %
+   7.4 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+                            [**2150-10-15**]  03:39 PM
+                            [**2150-10-16**]  04:03 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   7.4
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   35.9
+   35.9
+   Plt
+   [**Telephone/Fax (3) 6742**]98
+   Cr
+   7.7
+   4.3
+   5.1
+   7.7
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   99
+   Other labs: PT / PTT / INR:19.4/33.2/1.8, CK / CKMB /
+   Troponin-T:71/5/0.24, ALT / AST:21/19, Alk Phos / T Bili:265/0.3,
+   Amylase / Lipase:37/16, Differential-Neuts:79.5 %, Lymph:9.6 %,
+   Mono:5.4 %, Eos:4.8 %, Albumin:3.9 g/dL, LDH:264 IU/L, Ca++:9.3 mg/dL,
+   Mg++:1.9 mg/dL, PO4:3.7 mg/dL
+   Fluid analysis / Other labs: dilantin 14.3.
+   CSF 0 WBC, 1 RBC.
+   crypto negative
+   glucose 90, protein 70.
+   Assessment and Plan
+   Delirium/altered MS:  Unclear what happened.  Most likely scenario may
+   be seizure with post-ictal state.
+   HTN:  better controled today.
+   ESRD on HD:  HD today.
+   DM I:  Continue insulin.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition :Transfer to floor
+   Total time spent: 35 minutes
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: poor MS, apneic episodes
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   46 yo DM I, had ?respiratory code on floor, suddent unresponsive.  By
+   report now much more awake and interactive.  MRI and CSF fluid results
+   not specific.
+   24 Hour Events:
+ LUMBAR PUNCTURE - At [**2150-10-15**] 02:18 PM
+ CSF CULTURE - At [**2150-10-15**] 02:21 PM
+   Allergies:
+   Sevoflurane
+   PEA arrest ;
+   [**Location (un) **] Juice
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Dilantin - [**2150-10-15**] 06:42 PM
+   Metoprolol - [**2150-10-16**] 04:00 AM
+   Other medications:
+   protonix
+   insulin
+   dilantin
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Psychiatric / Sleep: No(t) Agitated, No(t) Suicidal
+   Flowsheet Data as of  [**2150-10-16**] 11:37 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37.7
+C (99.8
+   HR: 75 (70 - 85) bpm
+   BP: 150/76(94) {137/51(76) - 185/99(114)} mmHg
+   RR: 22 (11 - 74) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 58.3 kg (admission): 60.9 kg
+                  Total In:
+                                                                     28 mL
+                  PO:
+                  TF:
+   IVF:
+                                                                     28 mL
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                      0 mL
+   Urine:
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     28 mL
+                                                                      0 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///33/
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Lymphatic: Cervical WNL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Present), (Left DP pulse:
+   Present)
+   Respiratory / Chest: (Breath Sounds: Clear : , Wheezes : )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Warm
+   Neurologic: Follows simple commands, Responds to: Not assessed,
+   Oriented (to): person, place, knows year, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   12.0 g/dL
+   198 K/uL
+   99 mg/dL
+   7.7 mg/dL
+   33 mEq/L
+   3.3 mEq/L
+   16 mg/dL
+   100 mEq/L
+   148 mEq/L
+   35.9 %
+   7.4 K/uL
+        [image002.jpg]
+                            [**2150-10-14**]  11:35 AM
+                            [**2150-10-14**]  02:49 PM
+                            [**2150-10-14**]  05:19 PM
+                            [**2150-10-14**]  08:33 PM
+                            [**2150-10-15**]  04:00 AM
+                            [**2150-10-15**]  03:39 PM
+                            [**2150-10-16**]  04:03 AM
+   WBC
+   8.0
+   10.1
+   7.3
+   7.4
+   Hct
+   37.0
+   36.5
+   37.6
+   35.4
+   35.9
+   35.9
+   Plt
+   [**Telephone/Fax (3) 6742**]98
+   Cr
+   7.7
+   4.3
+   5.1
+   7.7
+   TropT
+   0.23
+   0.24
+   TCO2
+   36
+   Glucose
+   91
+   124
+   123
+   99
+   Other labs: PT / PTT / INR:19.4/33.2/1.8, CK / CKMB /
+   Troponin-T:71/5/0.24, ALT / AST:21/19, Alk Phos / T Bili:265/0.3,
+   Amylase / Lipase:37/16, Differential-Neuts:79.5 %, Lymph:9.6 %,
+   Mono:5.4 %, Eos:4.8 %, Albumin:3.9 g/dL, LDH:264 IU/L, Ca++:9.3 mg/dL,
+   Mg++:1.9 mg/dL, PO4:3.7 mg/dL
+   Fluid analysis / Other labs: dilantin 14.3.
+   CSF 0 WBC, 1 RBC.
+   crypto negative
+   glucose 90, protein 70.
+   Assessment and Plan
+   Delirium/altered MS:  Unclear what happened.  Most likely scenario may
+   be seizure with post-ictal state.
+   HTN:  better controled today.
+   ESRD on HD:  HD today.
+   DM I:  Continue insulin.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2150-10-14**] 10:27 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition :Transfer to floor
+   Total time spent: 35 minutes<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 46-year-old male with a history of diabetes mellitus type I, who was admitted to the ICU after a respiratory code on the floor, becoming unresponsive. He has since become more awake and interactive. The patient underwent a lumbar puncture and CSF culture, but results are not specific. He is receiving various medications, including antibiotics, and has a history of hypertension, end-stage renal disease on hemodialysis, and diabetes mellitus type I.
+
+The patient's current vital signs are:
+
+* Temperature: 37.7°C (99.8°F)
+* Heart rate: 75 beats per minute (70-85)
+* Blood pressure: 150/76 mmHg (94-185/99-114)
+* Respiratory rate: 22 breaths per minute (11-74)
+* Oxygen saturation: 100%
+* Heart rhythm: sinus rhythm
+
+The patient's physical examination reveals:
+
+* Well-nourished, no acute distress
+* Normal cardiovascular and respiratory examination
+* Soft, non-tender abdomen
+* Warm skin
+* Neurologically, the patient follows simple commands, is oriented, and has normal tone
+
+Lab results show:
+
+* Hemoglobin: 12.0 g/dL
+* White blood cell count: 198 K/uL
+* Platelet count: 98 K/uL
+* Blood urea nitrogen: 7.7 mg/dL
+* Creatinine: 99 mg/dL
+* Electrolyte levels: within normal range
+* Blood glucose: 91 mg/dL
+* Other lab results are within normal range or pending
+
+Potential medical complications:
+
+* Seizure disorder, given the patient's history of apneic episodes and altered mental status
+* Hypertension, which is not well-controlled
+* End-stage renal disease, requiring hemodialysis
+* Diabetes mellitus type I, requiring insulin therapy
+* Delirium, which may be related to the patient's altered mental status
+* Respiratory failure, given the patient's need for oxygen therapy
+* Cardiovascular instability, given the patient's hypertension and tachycardia
+* Infection, given the patient's need for antibiotics and CSF culture results that are not specific
+* Fluid and electrolyte imbalances, given the patient's need for fluid therapy and electrolyte supplementation"

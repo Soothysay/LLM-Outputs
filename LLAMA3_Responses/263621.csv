@@ -1,0 +1,3948 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+130457.0,263621,2184-06-21 07:36:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2184-6-20**] 01:50 PM
+   -Patient afib with rates to 120's, initially with 5mg IV metoprolol,
+   then 25mg PO metoprolol x 2 with some response.
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Meropenem - [**2184-6-21**] 02:00 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2184-6-20**] 04:00 PM
+   Metoprolol - [**2184-6-20**] 10:30 PM
+   Fentanyl - [**2184-6-21**] 12:00 AM
+   Midazolam (Versed) - [**2184-6-21**] 06:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-21**] 07:36 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37.5
+C (99.5
+   HR: 86 (59 - 123) bpm
+   BP: 134/48(67) {93/40(50) - 142/77(84)} mmHg
+   RR: 18 (15 - 24) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 62 Inch
+             Total In:
+                                                                  2,980 mL
+                                                                    666 mL
+   PO:
+                                                                     60 mL
+             TF:
+   IVF:
+                                                                    200 mL
+                                                                    426 mL
+   Blood products:
+   Total out:
+                                                                  4,075 mL
+                                                                    650 mL
+   Urine:
+                                                                  2,775 mL
+                                                                    650 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,095 mL
+                                                                     16 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 380 (380 - 380) mL
+   Vt (Spontaneous): 427 (328 - 427) mL
+   PS : 5 cmH2O
+   RR (Set): 16
+   RR (Spontaneous): 20
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   RSBI: 53
+   PIP: 11 cmH2O
+   Plateau: 18 cmH2O
+   Compliance: 29.2 cmH2O/mL
+   SpO2: 97%
+   ABG: 7.39/47/76.[**Numeric Identifier 126**]/34/2
+   Ve: 6.5 L/min
+   PaO2 / FiO2: 152
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   222 K/uL
+   11.4 g/dL
+   168 mg/dL
+   0.9 mg/dL
+   34 mEq/L
+   3.9 mEq/L
+   20 mg/dL
+   97 mEq/L
+   134 mEq/L
+   33.3 %
+   6.9 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+   WBC
+   6.6
+   6.9
+   Hct
+   35.6
+   33.3
+   Plt
+   230
+   222
+   Cr
+   0.8
+   0.9
+   TropT
+   <0.01
+   TCO2
+   30
+   Glucose
+   122
+   168
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:/3/<0.01, Ca++:8.2 mg/dL, Mg++:2.4 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+ TACHYCARDIA, OTHER
+ RENAL FAILURE, ACUTE (ACUTE RENAL FAILURE, ARF)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2184-6-20**] 01:50 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2184-6-20**] 01:50 PM
+   -Patient afib with rates to 120's, initially with 5mg IV metoprolol,
+   then 25mg PO metoprolol x 2 with some response.
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Meropenem - [**2184-6-21**] 02:00 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2184-6-20**] 04:00 PM
+   Metoprolol - [**2184-6-20**] 10:30 PM
+   Fentanyl - [**2184-6-21**] 12:00 AM
+   Midazolam (Versed) - [**2184-6-21**] 06:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-21**] 07:36 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37.5
+C (99.5
+   HR: 86 (59 - 123) bpm
+   BP: 134/48(67) {93/40(50) - 142/77(84)} mmHg
+   RR: 18 (15 - 24) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 62 Inch
+             Total In:
+                                                                  2,980 mL
+                                                                    666 mL
+   PO:
+                                                                     60 mL
+             TF:
+   IVF:
+                                                                    200 mL
+                                                                    426 mL
+   Blood products:
+   Total out:
+                                                                  4,075 mL
+                                                                    650 mL
+   Urine:
+                                                                  2,775 mL
+                                                                    650 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,095 mL
+                                                                     16 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 380 (380 - 380) mL
+   Vt (Spontaneous): 427 (328 - 427) mL
+   PS : 5 cmH2O
+   RR (Set): 16
+   RR (Spontaneous): 20
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   RSBI: 53
+   PIP: 11 cmH2O
+   Plateau: 18 cmH2O
+   Compliance: 29.2 cmH2O/mL
+   SpO2: 97%
+   ABG: 7.39/47/76.[**Numeric Identifier 126**]/34/2
+   Ve: 6.5 L/min
+   PaO2 / FiO2: 152
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   222 K/uL
+   11.4 g/dL
+   168 mg/dL
+   0.9 mg/dL
+   34 mEq/L
+   3.9 mEq/L
+   20 mg/dL
+   97 mEq/L
+   134 mEq/L
+   33.3 %
+   6.9 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+   WBC
+   6.6
+   6.9
+   Hct
+   35.6
+   33.3
+   Plt
+   230
+   222
+   Cr
+   0.8
+   0.9
+   TropT
+   <0.01
+   TCO2
+   30
+   Glucose
+   122
+   168
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:/3/<0.01, Ca++:8.2 mg/dL, Mg++:2.4 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+ TACHYCARDIA, OTHER
+ RENAL FAILURE, ACUTE (ACUTE RENAL FAILURE, ARF)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2184-6-20**] 01:50 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a critically ill individual who was admitted to the ICU with tachycardia and acute renal failure. They have been on invasive ventilation since 01:50 PM on [**2184-6-20**] and have been receiving various medications, including metoprolol, furosemide, and midazolam. The patient's vital signs are stable, with a temperature of 37.5°C, heart rate of 86 beats per minute, and blood pressure of 134/48 mmHg. They are receiving oxygen therapy and have a SpO2 of 97%. The patient's respiratory support includes CPAP/PSV ventilation with a set rate of 16 breaths per minute and a set tidal volume of 380 mL.
+
+The patient's laboratory results show evidence of acute renal failure, with a creatinine level of 0.9 mg/dL and a blood urea nitrogen (BUN) level of 34 mg/dL. They also have a mild anemia, with a hemoglobin level of 11.4 g/dL and a hematocrit level of 33.3%. The patient's platelet count is 222 K/uL, and their white blood cell count is 6.6 K/uL.
+
+Potential medical complications:
+
+1. Ventilator-associated pneumonia (VAP): Given the patient's prolonged stay on invasive ventilation, there is a risk of developing VAP.
+2. Acute kidney injury (AKI): The patient's creatinine level of 0.9 mg/dL and BUN level of 34 mg/dL suggest AKI, which can worsen if not managed promptly.
+3. Sepsis: The patient's laboratory results show evidence of infection, and their temperature is slightly elevated, which may indicate the presence of sepsis.
+4. Gastrointestinal bleeding: The patient's use of anticoagulant medications, such as heparin, increases the risk of gastrointestinal bleeding.
+5. Deep vein thrombosis (DVT): The patient's immobility and use of anticoagulant medications increase the risk of developing DVT.
+6. Stress ulcer: The patient's use of corticosteroids and anticoagulant medications may increase the risk of stress ulcer development.
+7. Hypoglycemia: The patient's use of insulin and other medications may increase the risk of hypoglycemia.
+8. Hyperkalemia: The patient's use of potassium-sparing diuretics, such as furosemide, may increase the risk of hyperkalemia.
+
+Given the patient's complex medical condition, it is essential to closely monitor their vital signs, laboratory results, and respiratory and cardiovascular function to prevent potential complications and ensure optimal care."
+130457.0,263621,2184-06-21 07:36:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2184-6-20**] 01:50 PM
+   -Patient afib with rates to 120's, initially with 5mg IV metoprolol,
+   then 25mg PO metoprolol x 2 with some response.
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Meropenem - [**2184-6-21**] 02:00 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2184-6-20**] 04:00 PM
+   Metoprolol - [**2184-6-20**] 10:30 PM
+   Fentanyl - [**2184-6-21**] 12:00 AM
+   Midazolam (Versed) - [**2184-6-21**] 06:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-21**] 07:36 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37.5
+C (99.5
+   HR: 86 (59 - 123) bpm
+   BP: 134/48(67) {93/40(50) - 142/77(84)} mmHg
+   RR: 18 (15 - 24) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 62 Inch
+             Total In:
+                                                                  2,980 mL
+                                                                    666 mL
+   PO:
+                                                                     60 mL
+             TF:
+   IVF:
+                                                                    200 mL
+                                                                    426 mL
+   Blood products:
+   Total out:
+                                                                  4,075 mL
+                                                                    650 mL
+   Urine:
+                                                                  2,775 mL
+                                                                    650 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,095 mL
+                                                                     16 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 380 (380 - 380) mL
+   Vt (Spontaneous): 427 (328 - 427) mL
+   PS : 5 cmH2O
+   RR (Set): 16
+   RR (Spontaneous): 20
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   RSBI: 53
+   PIP: 11 cmH2O
+   Plateau: 18 cmH2O
+   Compliance: 29.2 cmH2O/mL
+   SpO2: 97%
+   ABG: 7.39/47/76.[**Numeric Identifier 126**]/34/2
+   Ve: 6.5 L/min
+   PaO2 / FiO2: 152
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   222 K/uL
+   11.4 g/dL
+   168 mg/dL
+   0.9 mg/dL
+   34 mEq/L
+   3.9 mEq/L
+   20 mg/dL
+   97 mEq/L
+   134 mEq/L
+   33.3 %
+   6.9 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+   WBC
+   6.6
+   6.9
+   Hct
+   35.6
+   33.3
+   Plt
+   230
+   222
+   Cr
+   0.8
+   0.9
+   TropT
+   <0.01
+   TCO2
+   30
+   Glucose
+   122
+   168
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:/3/<0.01, Ca++:8.2 mg/dL, Mg++:2.4 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with dyspnea and fever, now intubated.
+   # Dyspnea: Likely multifactorial. Concern for pneumonia given fever and
+   cough, could be bacterial vs viral. Based on CXR and elevated BNP, also
+   likely element of CHF. Additionally, pt is wheezy with poor air
+   movement throughout, which supports asthma exacerbation (vs cardiac
+   wheeze). Given lasix 40 x 1 with 1 L negative since admission.  CE neg
+   x 2.
+   - wean vent
+   - alb and atrovent MDI
+   - repeat lasix today
+   - cover empirically with vanco/meropenem; watch for allergic reaction
+   on meropenem given h/o rash to penicillin (~10% cross reactivity)
+   - prednisone 60mg PO daily
+   - daily CXR
+   - check TTE to eval systolic function, aortic valve
+   - check peak:plateau
+   - obtain records from [**Hospital6 **]
+   .
+   # Afib c/ RVR. Patient afib with rates to 120's, initially with 5mg IV
+   metoprolol, then 25mg PO metoprolol x 2 with some response.
+   - Restart BB as BP tolerates
+   # Fever: Likely pulmonary source given cough and no other localizing
+   signs or symptoms of infection. Blood and urine cx pending, though UA
+   negative. Continues to be afebrile in ICU. No leukocytosis.
+   - f/u bcx, ucx
+   - send sputum cx
+   - cont to monitor fever curve
+   - tylenol prn
+   - monitor WBC
+   - empiric abx with vanco/meropenem
+   # Hypotension: In ED in the setting of intubation and sedation meds.
+   Quickly resolved with IVF. Now normotensive. Has history of
+   hypertension.
+   - cont to monitor
+   - hold regular anti-hypertensives for now in setting of likely
+   infection
+   - infectious w/u and management as above
+   - IVF bolus prn to maintain MAP>65 and UOP>30cc/h
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB.
+   - cycle enzymes, CE neg x 2
+   - cont ASA, statin
+   - holding BB and ACEI in setting of infection and recent hypotension
+   # Hyperlipidemia: cont statin
+   # Glaucoma: cont eye drops
+   # FEN: No IVF, replete electrolytes, NPO for now, will get TF recs
+   # Prophylaxis: Subcutaneous heparin, pneumoboots, PPI
+   # Access: peripherals
+   # Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   # Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   # Disposition: ICU for now
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2184-6-20**] 01:50 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2184-6-20**] 01:50 PM
+   -Patient afib with rates to 120's, initially with 5mg IV metoprolol,
+   then 25mg PO metoprolol x 2 with some response.
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Meropenem - [**2184-6-21**] 02:00 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2184-6-20**] 04:00 PM
+   Metoprolol - [**2184-6-20**] 10:30 PM
+   Fentanyl - [**2184-6-21**] 12:00 AM
+   Midazolam (Versed) - [**2184-6-21**] 06:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-21**] 07:36 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37.5
+C (99.5
+   HR: 86 (59 - 123) bpm
+   BP: 134/48(67) {93/40(50) - 142/77(84)} mmHg
+   RR: 18 (15 - 24) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 62 Inch
+             Total In:
+                                                                  2,980 mL
+                                                                    666 mL
+   PO:
+                                                                     60 mL
+             TF:
+   IVF:
+                                                                    200 mL
+                                                                    426 mL
+   Blood products:
+   Total out:
+                                                                  4,075 mL
+                                                                    650 mL
+   Urine:
+                                                                  2,775 mL
+                                                                    650 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,095 mL
+                                                                     16 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 380 (380 - 380) mL
+   Vt (Spontaneous): 427 (328 - 427) mL
+   PS : 5 cmH2O
+   RR (Set): 16
+   RR (Spontaneous): 20
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   RSBI: 53
+   PIP: 11 cmH2O
+   Plateau: 18 cmH2O
+   Compliance: 29.2 cmH2O/mL
+   SpO2: 97%
+   ABG: 7.39/47/76.[**Numeric Identifier 126**]/34/2
+   Ve: 6.5 L/min
+   PaO2 / FiO2: 152
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   222 K/uL
+   11.4 g/dL
+   168 mg/dL
+   0.9 mg/dL
+   34 mEq/L
+   3.9 mEq/L
+   20 mg/dL
+   97 mEq/L
+   134 mEq/L
+   33.3 %
+   6.9 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+   WBC
+   6.6
+   6.9
+   Hct
+   35.6
+   33.3
+   Plt
+   230
+   222
+   Cr
+   0.8
+   0.9
+   TropT
+   <0.01
+   TCO2
+   30
+   Glucose
+   122
+   168
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:/3/<0.01, Ca++:8.2 mg/dL, Mg++:2.4 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with dyspnea and fever, now intubated.
+   # Dyspnea: Likely multifactorial. Concern for pneumonia given fever and
+   cough, could be bacterial vs viral. Based on CXR and elevated BNP, also
+   likely element of CHF. Additionally, pt is wheezy with poor air
+   movement throughout, which supports asthma exacerbation (vs cardiac
+   wheeze). Given lasix 40 x 1 with 1 L negative since admission.  CE neg
+   x 2.
+   - wean vent
+   - alb and atrovent MDI
+   - repeat lasix today
+   - cover empirically with vanco/meropenem; watch for allergic reaction
+   on meropenem given h/o rash to penicillin (~10% cross reactivity)
+   - prednisone 60mg PO daily
+   - daily CXR
+   - check TTE to eval systolic function, aortic valve
+   - check peak:plateau
+   - obtain records from [**Hospital6 **]
+   .
+   # Afib c/ RVR. Patient afib with rates to 120's, initially with 5mg IV
+   metoprolol, then 25mg PO metoprolol x 2 with some response.
+   - Restart BB as BP tolerates
+   # Fever: Likely pulmonary source given cough and no other localizing
+   signs or symptoms of infection. Blood and urine cx pending, though UA
+   negative. Continues to be afebrile in ICU. No leukocytosis.
+   - f/u bcx, ucx
+   - send sputum cx
+   - cont to monitor fever curve
+   - tylenol prn
+   - monitor WBC
+   - empiric abx with vanco/meropenem
+   # Hypotension: In ED in the setting of intubation and sedation meds.
+   Quickly resolved with IVF. Now normotensive. Has history of
+   hypertension.
+   - cont to monitor
+   - hold regular anti-hypertensives for now in setting of likely
+   infection
+   - infectious w/u and management as above
+   - IVF bolus prn to maintain MAP>65 and UOP>30cc/h
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB.
+   - cycle enzymes, CE neg x 2
+   - cont ASA, statin
+   - holding BB and ACEI in setting of infection and recent hypotension
+   # Hyperlipidemia: cont statin
+   # Glaucoma: cont eye drops
+   # FEN: No IVF, replete electrolytes, NPO for now, will get TF recs
+   # Prophylaxis: Subcutaneous heparin, pneumoboots, PPI
+   # Access: peripherals
+   # Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   # Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   # Disposition: ICU for now
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2184-6-20**] 01:50 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 211-year-old female admitted to the ICU with a diagnosis of CHF, CAD, AS/AI, and asthma. She presented with dyspnea and fever, and was intubated due to respiratory distress.
+
+The patient's vital signs are stable, with a heart rate of 86 beats per minute, blood pressure of 134/48 mmHg, and oxygen saturation of 97%. Her respiratory support includes invasive ventilation with a tidal volume of 380 mL, positive end-expiratory pressure of 5 cmH2O, and fraction of inspired oxygen of 50%.
+
+The patient's laboratory results show elevated troponin-T levels, indicating possible cardiac injury. Her white blood cell count is 6.6 K/uL, and her platelet count is 230 K/uL. Her blood urea nitrogen and creatinine levels are elevated, indicating possible kidney injury.
+
+The patient's physical examination is limited due to her intubation, but her skin is described as not assessed. Her neurologic examination is also limited, but she is described as responding to stimuli.
+
+The patient's medical history is significant for CAD, AS/AI, asthma, and hypertension. She has a history of MI in the past and has been prescribed aspirin, statin, and beta-blockers.
+
+The patient's current medications include furosemide, metoprolol, fentanyl, and midazolam. She is also receiving prophylactic anticoagulation with subcutaneous heparin.
+
+The patient's potential medical complications include:
+
+1. Pneumonia: Given the patient's fever and cough, pneumonia is a possible complication. The patient is receiving empiric antibiotics with vancomycin and meropenem.
+2. Cardiac complications: The patient's troponin-T levels are elevated, indicating possible cardiac injury. The patient's cardiac status will need to be closely monitored.
+3. Respiratory complications: The patient is receiving invasive ventilation, and her respiratory status will need to be closely monitored.
+4. Kidney injury: The patient's blood urea nitrogen and creatinine levels are elevated, indicating possible kidney injury. The patient's kidney function will need to be closely monitored.
+5. Infection: The patient is receiving empiric antibiotics, and her infection status will need to be closely monitored.
+
+In conclusion, the patient is a 211-year-old female admitted to the ICU with a diagnosis of CHF, CAD, AS/AI, and asthma. She presented with dyspnea and fever, and was intubated due to respiratory distress. The patient's vital signs are stable, and her laboratory results show elevated troponin-T levels and possible kidney injury. The patient's medical history is significant for CAD, AS/AI, asthma, and hypertension, and she is receiving prophylactic anticoagulation with subcutaneous heparin. The patient's potential medical complications include pneumonia, cardiac complications, respiratory complications, kidney injury, and infection."
+130457.0,263621,2184-06-21 07:36:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2184-6-20**] 01:50 PM
+   -Patient afib with rates to 120's, initially with 5mg IV metoprolol,
+   then 25mg PO metoprolol x 2 with some response.
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Meropenem - [**2184-6-21**] 02:00 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2184-6-20**] 04:00 PM
+   Metoprolol - [**2184-6-20**] 10:30 PM
+   Fentanyl - [**2184-6-21**] 12:00 AM
+   Midazolam (Versed) - [**2184-6-21**] 06:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-21**] 07:36 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37.5
+C (99.5
+   HR: 86 (59 - 123) bpm
+   BP: 134/48(67) {93/40(50) - 142/77(84)} mmHg
+   RR: 18 (15 - 24) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 62 Inch
+             Total In:
+                                                                  2,980 mL
+                                                                    666 mL
+   PO:
+                                                                     60 mL
+             TF:
+   IVF:
+                                                                    200 mL
+                                                                    426 mL
+   Blood products:
+   Total out:
+                                                                  4,075 mL
+                                                                    650 mL
+   Urine:
+                                                                  2,775 mL
+                                                                    650 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,095 mL
+                                                                     16 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 380 (380 - 380) mL
+   Vt (Spontaneous): 427 (328 - 427) mL
+   PS : 5 cmH2O
+   RR (Set): 16
+   RR (Spontaneous): 20
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   RSBI: 53
+   PIP: 11 cmH2O
+   Plateau: 18 cmH2O
+   Compliance: 29.2 cmH2O/mL
+   SpO2: 97%
+   ABG: 7.39/47/76/34/2
+   Ve: 6.5 L/min
+   PaO2 / FiO2: 152
+   Physical Examination
+   General: intubated, interactive  following commands and can answer
+   simple yes/no questions
+   HEENT: Sclera anicteric, MMM, oropharynx clear
+   Neck: supple, JVP not elevated, no LAD
+   Lungs: decreased air movement throughout, mild expiratory wheeze, few
+   crackles at bases
+   CV: Regular rate and rhythm, normal S1 + S2, [**3-19**] harsh systolic murmur
+   at USB
+   Abdomen: soft, non-tender, non-distended, bowel sounds present
+   Ext: Warm, well perfused, no clubbing, cyanosis or edema
+   Labs / Radiology
+   222 K/uL
+   11.4 g/dL
+   168 mg/dL
+   0.9 mg/dL
+   34 mEq/L
+   3.9 mEq/L
+   20 mg/dL
+   97 mEq/L
+   134 mEq/L
+   33.3 %
+   6.9 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+   WBC
+   6.6
+   6.9
+   Hct
+   35.6
+   33.3
+   Plt
+   230
+   222
+   Cr
+   0.8
+   0.9
+   TropT
+   <0.01
+   TCO2
+   30
+   Glucose
+   122
+   168
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:/3/<0.01, Ca++:8.2 mg/dL, Mg++:2.4 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with dyspnea and fever, now intubated.
+   # Dyspnea: Likely multifactorial. Concern for pneumonia given fever and
+   cough, could be bacterial vs viral. Based on CXR and elevated BNP, also
+   likely element of CHF. Additionally, pt is wheezy with poor air
+   movement throughout, which supports asthma exacerbation (vs cardiac
+   wheeze). Given lasix 40 x 1 with 1 L negative since admission.  CE neg
+   x 2.
+   - wean vent as tolerated
+   - alb and atrovent MDI
+   - prednisone 60mg PO daily
+   - repeat lasix, goal 1 L net negative today
+   - cover empirically with vanco/meropenem; watch for allergic reaction
+   on meropenem given h/o rash to penicillin (~10% cross reactivity), if
+   cx negative x 48 hours will consider changing abx regimen
+   - daily CXR
+   - check TTE to eval systolic function, aortic valve
+   .
+   # Afib c/ RVR. Patient afib with rates to 120's, initially with 5mg IV
+   metoprolol, then 25mg PO metoprolol x 2 with some response. Rate now in
+   80s.
+   - Metoprolol currently at 25 mg tid, will attempt to increase to home
+   dose (metoprolol 50 mg tid) as BP tolerates.
+   # Fever: Likely pulmonary source given cough and no other localizing
+   signs or symptoms of infection. Blood and urine cx pending, though UA
+   negative. Continues to be afebrile in ICU. No leukocytosis.
+   - empiric vanco/meropenem
+   - f/u bcx, ucx
+   - send sputum cx
+   - cont to monitor fever/WBC curve
+   - tylenol prn
+   .
+   # Hypotension: In ED in the setting of intubation and sedation meds.
+   Quickly resolved with IVF. Now normotensive. Has history of
+   hypertension.
+   - cont to monitor
+   - infectious w/u and management as above
+   - add back home antihypertensives as BP tolerates.
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB.
+   - cycle enzymes, CE neg x 2
+   - cont ASA, statin
+   - restart BB and ACEI as BP tolerates
+   # Hyperlipidemia: cont statin
+   # Glaucoma: cont eye drops
+   # FEN: No IVF, replete electrolytes, NPO for now
+   # Prophylaxis: Subcutaneous heparin, pneumoboots, PPI
+   # Access: peripherals
+   # Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   # Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   # Disposition: ICU for now
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2184-6-20**] 01:50 PM
+   Prophylaxis:
+   DVT: SQH, pneumoboots
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2184-6-20**] 01:50 PM
+   -Patient afib with rates to 120's, initially with 5mg IV metoprolol,
+   then 25mg PO metoprolol x 2 with some response.
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Meropenem - [**2184-6-21**] 02:00 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2184-6-20**] 04:00 PM
+   Metoprolol - [**2184-6-20**] 10:30 PM
+   Fentanyl - [**2184-6-21**] 12:00 AM
+   Midazolam (Versed) - [**2184-6-21**] 06:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-21**] 07:36 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37.5
+C (99.5
+   HR: 86 (59 - 123) bpm
+   BP: 134/48(67) {93/40(50) - 142/77(84)} mmHg
+   RR: 18 (15 - 24) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 62 Inch
+             Total In:
+                                                                  2,980 mL
+                                                                    666 mL
+   PO:
+                                                                     60 mL
+             TF:
+   IVF:
+                                                                    200 mL
+                                                                    426 mL
+   Blood products:
+   Total out:
+                                                                  4,075 mL
+                                                                    650 mL
+   Urine:
+                                                                  2,775 mL
+                                                                    650 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,095 mL
+                                                                     16 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 380 (380 - 380) mL
+   Vt (Spontaneous): 427 (328 - 427) mL
+   PS : 5 cmH2O
+   RR (Set): 16
+   RR (Spontaneous): 20
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   RSBI: 53
+   PIP: 11 cmH2O
+   Plateau: 18 cmH2O
+   Compliance: 29.2 cmH2O/mL
+   SpO2: 97%
+   ABG: 7.39/47/76/34/2
+   Ve: 6.5 L/min
+   PaO2 / FiO2: 152
+   Physical Examination
+   General: intubated, interactive  following commands and can answer
+   simple yes/no questions
+   HEENT: Sclera anicteric, MMM, oropharynx clear
+   Neck: supple, JVP not elevated, no LAD
+   Lungs: decreased air movement throughout, mild expiratory wheeze, few
+   crackles at bases
+   CV: Regular rate and rhythm, normal S1 + S2, [**3-19**] harsh systolic murmur
+   at USB
+   Abdomen: soft, non-tender, non-distended, bowel sounds present
+   Ext: Warm, well perfused, no clubbing, cyanosis or edema
+   Labs / Radiology
+   222 K/uL
+   11.4 g/dL
+   168 mg/dL
+   0.9 mg/dL
+   34 mEq/L
+   3.9 mEq/L
+   20 mg/dL
+   97 mEq/L
+   134 mEq/L
+   33.3 %
+   6.9 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+   WBC
+   6.6
+   6.9
+   Hct
+   35.6
+   33.3
+   Plt
+   230
+   222
+   Cr
+   0.8
+   0.9
+   TropT
+   <0.01
+   TCO2
+   30
+   Glucose
+   122
+   168
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:/3/<0.01, Ca++:8.2 mg/dL, Mg++:2.4 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with dyspnea and fever, now intubated.
+   # Dyspnea: Likely multifactorial. Concern for pneumonia given fever and
+   cough, could be bacterial vs viral. Based on CXR and elevated BNP, also
+   likely element of CHF. Additionally, pt is wheezy with poor air
+   movement throughout, which supports asthma exacerbation (vs cardiac
+   wheeze). Given lasix 40 x 1 with 1 L negative since admission.  CE neg
+   x 2.
+   - wean vent as tolerated
+   - alb and atrovent MDI
+   - prednisone 60mg PO daily
+   - repeat lasix, goal 1 L net negative today
+   - cover empirically with vanco/meropenem; watch for allergic reaction
+   on meropenem given h/o rash to penicillin (~10% cross reactivity), if
+   cx negative x 48 hours will consider changing abx regimen
+   - daily CXR
+   - check TTE to eval systolic function, aortic valve
+   .
+   # Afib c/ RVR. Patient afib with rates to 120's, initially with 5mg IV
+   metoprolol, then 25mg PO metoprolol x 2 with some response. Rate now in
+   80s.
+   - Metoprolol currently at 25 mg tid, will attempt to increase to home
+   dose (metoprolol 50 mg tid) as BP tolerates.
+   # Fever: Likely pulmonary source given cough and no other localizing
+   signs or symptoms of infection. Blood and urine cx pending, though UA
+   negative. Continues to be afebrile in ICU. No leukocytosis.
+   - empiric vanco/meropenem
+   - f/u bcx, ucx
+   - send sputum cx
+   - cont to monitor fever/WBC curve
+   - tylenol prn
+   .
+   # Hypotension: In ED in the setting of intubation and sedation meds.
+   Quickly resolved with IVF. Now normotensive. Has history of
+   hypertension.
+   - cont to monitor
+   - infectious w/u and management as above
+   - add back home antihypertensives as BP tolerates.
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB.
+   - cycle enzymes, CE neg x 2
+   - cont ASA, statin
+   - restart BB and ACEI as BP tolerates
+   # Hyperlipidemia: cont statin
+   # Glaucoma: cont eye drops
+   # FEN: No IVF, replete electrolytes, NPO for now
+   # Prophylaxis: Subcutaneous heparin, pneumoboots, PPI
+   # Access: peripherals
+   # Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   # Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   # Disposition: ICU for now
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2184-6-20**] 01:50 PM
+   Prophylaxis:
+   DVT: SQH, pneumoboots
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 91-year-old female admitted to the ICU with dyspnea, fever, and a history of CHF, CAD, AS/AI, and asthma. She was intubated due to respiratory distress and is currently receiving invasive ventilation. Her vital signs are stable, with a heart rate of 86 beats per minute and a blood pressure of 134/48 mmHg. Her respiratory status is improving, with a respiratory rate of 18 inspirations per minute and an oxygen saturation of 97%. Her laboratory results show elevated troponin levels, suggesting cardiac injury, and her electrocardiogram (ECG) shows an old left bundle branch block (LBBB).
+
+The patient's medical conditions include CHF, CAD, AS/AI, asthma, and hyperlipidemia. She has a history of MI and rest angina, and her ECG shows old LBBB. Her medications include metoprolol, furosemide, and aspirin.
+
+Potential medical complications:
+
+1. Pneumonia: Given the patient's fever and cough, there is a possibility of pneumonia, which could be bacterial or viral in nature.
+2. Cardiac complications: The patient's history of CHF, CAD, and AS/AI increases her risk of cardiac complications, such as heart failure, arrhythmias, and cardiogenic shock.
+3. Respiratory complications: The patient's respiratory status is improving, but she is still at risk for respiratory complications, such as ventilator-associated pneumonia (VAP) and respiratory failure.
+4. Sepsis: The patient's fever and elevated white blood cell count suggest the possibility of sepsis, which could be caused by a variety of pathogens, including bacteria, viruses, and fungi.
+5. Electrolyte imbalances: The patient's history of hyperlipidemia and her current medications, including furosemide and metoprolol, increase her risk of electrolyte imbalances, such as hypokalemia and hypomagnesemia.
+6. Wound complications: The patient's history of MI and rest angina increases her risk of wound complications, such as delayed healing and infection.
+7. Medication side effects: The patient is taking a variety of medications, including metoprolol, furosemide, and aspirin, which could cause side effects, such as hypotension, tachycardia, and gastrointestinal upset.
+
+Overall, the patient's condition is complex and requires close monitoring and management to prevent potential complications."
+130457.0,263621,2184-06-22 07:29:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - unresponsive episode during SBT, CXR concerning for aspiration event
+   vs. flash pulmonary edema, therefore remained intubated
+   - given 40 IV lasix x 3
+   - restarted on home BP meds, metoprolol 50 mg tid, imdur, and
+   lisinopril
+   - Echo done
+   - CE neg x 2
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Vancomycin - [**2184-6-21**] 07:58 AM
+   Meropenem - [**2184-6-21**] 05:16 PM
+   Infusions:
+   Other ICU medications:
+   Midazolam (Versed) - [**2184-6-21**] 02:30 PM
+   Fentanyl - [**2184-6-21**] 02:30 PM
+   Metoprolol - [**2184-6-21**] 03:15 PM
+   Furosemide (Lasix) - [**2184-6-21**] 08:48 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-22**] 07:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 36.1
+C (96.9
+   HR: 91 (60 - 128) bpm
+   BP: 109/59(72) {68/47(52) - 168/97(107)} mmHg
+   RR: 21 (17 - 30) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 62 Inch
+             Total In:
+                                                                  1,530 mL
+                                                                     75 mL
+   PO:
+             TF:
+   IVF:
+                                                                    990 mL
+                                                                     75 mL
+   Blood products:
+   Total out:
+                                                                  1,645 mL
+                                                                    560 mL
+   Urine:
+                                                                  1,645 mL
+                                                                    560 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -115 mL
+                                                                   -485 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 380 (380 - 380) mL
+   Vt (Spontaneous): 374 (374 - 585) mL
+   PS : 5 cmH2O
+   RR (Set): 16
+   RR (Spontaneous): 19
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   RSBI: 48
+   PIP: 16 cmH2O
+   SpO2: 98%
+   ABG: 7.46/45/85.[**Numeric Identifier 126**]/27/6
+   Ve: 7.5 L/min
+   PaO2 / FiO2: 170
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   217 K/uL
+   11.8 g/dL
+   128 mg/dL
+   0.9 mg/dL
+   27 mEq/L
+   3.5 mEq/L
+   30 mg/dL
+   98 mEq/L
+   136 mEq/L
+   35.9 %
+   8.8 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+                             [**2184-6-21**]  12:28 PM
+                             [**2184-6-21**]  01:31 PM
+                             [**2184-6-21**]  05:16 PM
+                             [**2184-6-21**]  08:49 PM
+                             [**2184-6-22**]  04:20 AM
+   WBC
+   6.6
+   6.9
+   11.6
+   8.8
+   Hct
+   35.6
+   33.3
+   40.5
+   35.9
+   Plt
+   230
+   222
+   276
+   217
+   Cr
+   0.8
+   0.9
+   0.8
+   0.9
+   0.9
+   TropT
+   <0.01
+   <0.01
+   0.01
+   TCO2
+   30
+   33
+   Glucose
+   122
+   168
+   205
+   70
+   128
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:49/3/0.01, Lactic Acid:1.2 mmol/L, Ca++:7.9 mg/dL, Mg++:2.2
+   mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with respiratory failure.
+   .
+   # Respiratory failure: Failed SBT yesterday due to flash pulmonary
+   edema and MS change.  Respiratory failure yesterday likely
+   multifactorial. Concern for pneumonia given fever and cough. Based on
+   CXR, elevated BNP, and TTE demonstrating diastolic dysfunction, also
+   likely element of heart failure. Additionally, patient was wheezy on
+   admission exam concerning for asthma exacerbation, possible as result
+   of pneumonia.
+   - Continue prednisone 60 mg daily with 14 day taper course.
+   - Albuterol and atrovent MDI
+   - [**Location 7509**] [**Location **]1.6 L. Continue lasix 40 mg IV BID with goal TBB -1L/day.
+   Check lytes [**Hospital1 7**].
+   - Cover empirically with vanco and meropenem pending culture data.
+   Would consider switch to levofloxacin tomorrow if culture negative.
+   .
+   # Afib with RVR: HR 90-100s. Switched to home metoprolol regimen
+   yesterday.
+   - Continue metoprolol, titrate up as necessary with goal HR<100.
+   .
+   # Fever: Patient has been afebrile since admission. Likely pulmonary
+   source given cough and no other localizing signs or symptoms of
+   infection. Blood and urine cx pending, though UA negative. Continues to
+   be afebrile in ICU. No leukocytosis.
+   - Empiric vanco and meropenem as above.
+   - F/u culture data
+   - Trend fever/WBC curve
+   - Acetaminophen prn
+   .
+   # BP: Patient hypotensive on admission in ED in the setting of
+   intubation and sedation meds. Quickly resolved with IVF.  Hypertensive
+   overnight and home BP meds restarted
+   - Cont to monitor BP
+   .
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB. ACS ruled out with serial cardiac
+   enzymes and repeat ECG.
+   - Cont ASA, statin, ACE-I, and BB.
+   .
+   # Hyperlipidemia: Cont statin
+   .
+   # Glaucoma: Cont eye drops
+   .
+   FEN: NPO, Nutrition consult for TF, replete as necessary.
+   PPx: Heparin SQ, PPI
+   Access: PIV
+   Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   Disposition: ICU level of care.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2184-6-20**] 01:50 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - unresponsive episode during SBT, CXR concerning for aspiration event
+   vs. flash pulmonary edema, therefore remained intubated
+   - given 40 IV lasix x 3
+   - restarted on home BP meds, metoprolol 50 mg tid, imdur, and
+   lisinopril
+   - Echo done
+   - CE neg x 2
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Vancomycin - [**2184-6-21**] 07:58 AM
+   Meropenem - [**2184-6-21**] 05:16 PM
+   Infusions:
+   Other ICU medications:
+   Midazolam (Versed) - [**2184-6-21**] 02:30 PM
+   Fentanyl - [**2184-6-21**] 02:30 PM
+   Metoprolol - [**2184-6-21**] 03:15 PM
+   Furosemide (Lasix) - [**2184-6-21**] 08:48 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-22**] 07:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 36.1
+C (96.9
+   HR: 91 (60 - 128) bpm
+   BP: 109/59(72) {68/47(52) - 168/97(107)} mmHg
+   RR: 21 (17 - 30) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 62 Inch
+             Total In:
+                                                                  1,530 mL
+                                                                     75 mL
+   PO:
+             TF:
+   IVF:
+                                                                    990 mL
+                                                                     75 mL
+   Blood products:
+   Total out:
+                                                                  1,645 mL
+                                                                    560 mL
+   Urine:
+                                                                  1,645 mL
+                                                                    560 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -115 mL
+                                                                   -485 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 380 (380 - 380) mL
+   Vt (Spontaneous): 374 (374 - 585) mL
+   PS : 5 cmH2O
+   RR (Set): 16
+   RR (Spontaneous): 19
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   RSBI: 48
+   PIP: 16 cmH2O
+   SpO2: 98%
+   ABG: 7.46/45/85.[**Numeric Identifier 126**]/27/6
+   Ve: 7.5 L/min
+   PaO2 / FiO2: 170
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   217 K/uL
+   11.8 g/dL
+   128 mg/dL
+   0.9 mg/dL
+   27 mEq/L
+   3.5 mEq/L
+   30 mg/dL
+   98 mEq/L
+   136 mEq/L
+   35.9 %
+   8.8 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+                             [**2184-6-21**]  12:28 PM
+                             [**2184-6-21**]  01:31 PM
+                             [**2184-6-21**]  05:16 PM
+                             [**2184-6-21**]  08:49 PM
+                             [**2184-6-22**]  04:20 AM
+   WBC
+   6.6
+   6.9
+   11.6
+   8.8
+   Hct
+   35.6
+   33.3
+   40.5
+   35.9
+   Plt
+   230
+   222
+   276
+   217
+   Cr
+   0.8
+   0.9
+   0.8
+   0.9
+   0.9
+   TropT
+   <0.01
+   <0.01
+   0.01
+   TCO2
+   30
+   33
+   Glucose
+   122
+   168
+   205
+   70
+   128
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:49/3/0.01, Lactic Acid:1.2 mmol/L, Ca++:7.9 mg/dL, Mg++:2.2
+   mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with respiratory failure.
+   .
+   # Respiratory failure: Failed SBT yesterday due to flash pulmonary
+   edema and MS change.  Respiratory failure yesterday likely
+   multifactorial. Concern for pneumonia given fever and cough. Based on
+   CXR, elevated BNP, and TTE demonstrating diastolic dysfunction, also
+   likely element of heart failure. Additionally, patient was wheezy on
+   admission exam concerning for asthma exacerbation, possible as result
+   of pneumonia.
+   - Continue prednisone 60 mg daily with 14 day taper course.
+   - Albuterol and atrovent MDI
+   - [**Location 7509**] [**Location **]1.6 L. Continue lasix 40 mg IV BID with goal TBB -1L/day.
+   Check lytes [**Hospital1 7**].
+   - Cover empirically with vanco and meropenem pending culture data.
+   Would consider switch to levofloxacin tomorrow if culture negative.
+   .
+   # Afib with RVR: HR 90-100s. Switched to home metoprolol regimen
+   yesterday.
+   - Continue metoprolol, titrate up as necessary with goal HR<100.
+   .
+   # Fever: Patient has been afebrile since admission. Likely pulmonary
+   source given cough and no other localizing signs or symptoms of
+   infection. Blood and urine cx pending, though UA negative. Continues to
+   be afebrile in ICU. No leukocytosis.
+   - Empiric vanco and meropenem as above.
+   - F/u culture data
+   - Trend fever/WBC curve
+   - Acetaminophen prn
+   .
+   # BP: Patient hypotensive on admission in ED in the setting of
+   intubation and sedation meds. Quickly resolved with IVF.  Hypertensive
+   overnight and home BP meds restarted
+   - Cont to monitor BP
+   .
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB. ACS ruled out with serial cardiac
+   enzymes and repeat ECG.
+   - Cont ASA, statin, ACE-I, and BB.
+   .
+   # Hyperlipidemia: Cont statin
+   .
+   # Glaucoma: Cont eye drops
+   .
+   FEN: NPO, Nutrition consult for TF, replete as necessary.
+   PPx: Heparin SQ, PPI
+   Access: PIV
+   Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   Disposition: ICU level of care.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2184-6-20**] 01:50 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 92-year-old female admitted to the ICU with respiratory failure, atrial fibrillation with rapid ventricular response, and suspected pneumonia. She was previously intubated due to an unresponsive episode during spontaneous breathing trial (SBT) and concerns for aspiration or flash pulmonary edema. The patient has been receiving various medications, including lasix, metoprolol, and antibiotics. Her vital signs are stable, with a temperature of 98.8°F, heart rate of 91 bpm, and blood pressure of 109/59 mmHg. Her respiratory support includes mechanical ventilation with a tidal volume of 380 mL and a fraction of inspired oxygen (FiO2) of 50%.
+
+Potential Medical Complications:
+
+1. Pneumonia: The patient's symptoms, such as cough and fever, suggest a possible pulmonary source of infection. The lack of leukocytosis and normal white blood cell count (WBC) may indicate a mild or early-stage infection.
+2. Heart Failure: The patient's history of chronic heart failure (CHF) and diastolic dysfunction, as demonstrated by echocardiogram, increases the risk of further cardiac decompensation.
+3. Atrial Fibrillation: The patient's atrial fibrillation with rapid ventricular response may increase her risk of cardiac arrhythmias, including ventricular tachycardia or fibrillation.
+4. Pulmonary Edema: The patient's previous episode of flash pulmonary edema during SBT and her current mechanical ventilation may increase her risk of further pulmonary edema.
+5. Hypotension: The patient's history of hypotension on admission and her current use of vasopressors may increase her risk of further hypotension or shock.
+6. Infection: The patient's use of antibiotics and the pending culture results may indicate a risk of infection, particularly if the cultures are positive.
+7. Malnutrition: The patient's history of malnutrition and her current use of total parenteral nutrition (TPN) may increase her risk of malnutrition and related complications.
+8. Thromboembolic Events: The patient's history of atrial fibrillation and her current use of anticoagulation therapy may increase her risk of thromboembolic events, such as deep vein thrombosis (DVT) or pulmonary embolism (PE)."
+130457.0,263621,2184-06-22 07:29:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - unresponsive episode during SBT, CXR concerning for aspiration event
+   vs. flash pulmonary edema, therefore remained intubated
+   - given 40 IV lasix x 3
+   - restarted on home BP meds, metoprolol 50 mg tid, imdur, and
+   lisinopril
+   - Echo done
+   - CE neg x 2
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Vancomycin - [**2184-6-21**] 07:58 AM
+   Meropenem - [**2184-6-21**] 05:16 PM
+   Infusions:
+   Other ICU medications:
+   Midazolam (Versed) - [**2184-6-21**] 02:30 PM
+   Fentanyl - [**2184-6-21**] 02:30 PM
+   Metoprolol - [**2184-6-21**] 03:15 PM
+   Furosemide (Lasix) - [**2184-6-21**] 08:48 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-22**] 07:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 36.1
+C (96.9
+   HR: 91 (60 - 128) bpm
+   BP: 109/59(72) {68/47(52) - 168/97(107)} mmHg
+   RR: 21 (17 - 30) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 62 Inch
+             Total In:
+                                                                  1,530 mL
+                                                                     75 mL
+   PO:
+             TF:
+   IVF:
+                                                                    990 mL
+                                                                     75 mL
+   Blood products:
+   Total out:
+                                                                  1,645 mL
+                                                                    560 mL
+   Urine:
+                                                                  1,645 mL
+                                                                    560 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -115 mL
+                                                                   -485 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 380 (380 - 380) mL
+   Vt (Spontaneous): 374 (374 - 585) mL
+   PS : 5 cmH2O
+   RR (Set): 16
+   RR (Spontaneous): 19
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   RSBI: 48
+   PIP: 16 cmH2O
+   SpO2: 98%
+   ABG: 7.46/45/85.[**Numeric Identifier 126**]/27/6
+   Ve: 7.5 L/min
+   PaO2 / FiO2: 170
+   Physical Examination
+   General: Intubated, NAD, follows commands.
+   HEENT: Sclera anicteric, MMM
+   Neck: Supple, JVP not elevated
+   Lungs: Decreased air movement throughout
+   CV: Regular rate and rhythm, normal S1 + S2, [**3-19**] harsh systolic murmur
+   at USB
+   Abdomen: soft, non-tender, non-distended, bowel sounds present
+   Ext: Warm, well perfused, no clubbing, cyanosis or edema
+   Labs / Radiology
+   217 K/uL
+   11.8 g/dL
+   128 mg/dL
+   0.9 mg/dL
+   27 mEq/L
+   3.5 mEq/L
+   30 mg/dL
+   98 mEq/L
+   136 mEq/L
+   35.9 %
+   8.8 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+                             [**2184-6-21**]  12:28 PM
+                             [**2184-6-21**]  01:31 PM
+                             [**2184-6-21**]  05:16 PM
+                             [**2184-6-21**]  08:49 PM
+                             [**2184-6-22**]  04:20 AM
+   WBC
+   6.6
+   6.9
+   11.6
+   8.8
+   Hct
+   35.6
+   33.3
+   40.5
+   35.9
+   Plt
+   230
+   222
+   276
+   217
+   Cr
+   0.8
+   0.9
+   0.8
+   0.9
+   0.9
+   TropT
+   <0.01
+   <0.01
+   0.01
+   TCO2
+   30
+   33
+   Glucose
+   122
+   168
+   205
+   70
+   128
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:49/3/0.01, Lactic Acid:1.2 mmol/L, Ca++:7.9 mg/dL, Mg++:2.2
+   mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with respiratory failure.
+   .
+   # Respiratory failure: Failed SBT yesterday due to flash pulmonary
+   edema and MS change.  Respiratory failure yesterday likely
+   multifactorial. Initial concern for pneumonia given fever and cough.
+   Based on CXR, elevated BNP, and TTE demonstrating LVEF 40% suggesting
+   element of heart failure. Additionally, patient was wheezy on admission
+   exam concerning for asthma exacerbation, possible as result of
+   pneumonia.
+   - SBT today with plan to extubate if SBT successful.
+   - Continue prednisone 60 mg daily with 14 day taper course.
+   - Albuterol and atrovent MDI
+   - [**Location 7509**] [**Location **]1.6 L. Lasix 40 mg IV prn with goal TBB -[**Telephone/Fax (1) 179**] mL/day.
+   Check lytes [**Hospital1 7**].
+   - Discontinue antimicrobials as cultures NGTD.
+   .
+   # Afib with RVR: HR 90-100s. Switched to home metoprolol regimen
+   yesterday.
+   - Continue metoprolol, titrate up as necessary with goal HR<100.
+   - IV metoprolol and nitro gtt prn for RVR given flash pulmonary edema
+   yesterday.
+   .
+   # Fever: Patient has been afebrile since admission. Likely pulmonary
+   source given cough and no other localizing signs or symptoms of
+   infection. Blood and urine cx pending, though UA negative. Continues to
+   be afebrile in ICU. No leukocytosis.
+   - F/u culture data
+   - Trend fever/WBC curve
+   - Acetaminophen prn
+   - Hold antimicrobials as above.
+   .
+   # BP: Patient hypotensive on admission in ED in the setting of
+   intubation and sedation meds. Quickly resolved with IVF.  Hypertensive
+   overnight and home BP meds restarted
+   - Cont to monitor BP
+   - Continue current anti-hypertensive regimen.
+   .
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB. ACS ruled out with serial cardiac
+   enzymes and repeat ECG.
+   - Cont ASA, statin, ACE-I, and BB.
+   .
+   # Hyperlipidemia: Cont statin
+   .
+   # Glaucoma: Cont eye drops
+   .
+   FEN: Nutrition consult for TF, replete as necessary.
+   PPx: Heparin SQ, PPI
+   Access: PIV
+   Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   Disposition: ICU level of care.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2184-6-20**] 01:50 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - unresponsive episode during SBT, CXR concerning for aspiration event
+   vs. flash pulmonary edema, therefore remained intubated
+   - given 40 IV lasix x 3
+   - restarted on home BP meds, metoprolol 50 mg tid, imdur, and
+   lisinopril
+   - Echo done
+   - CE neg x 2
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Vancomycin - [**2184-6-21**] 07:58 AM
+   Meropenem - [**2184-6-21**] 05:16 PM
+   Infusions:
+   Other ICU medications:
+   Midazolam (Versed) - [**2184-6-21**] 02:30 PM
+   Fentanyl - [**2184-6-21**] 02:30 PM
+   Metoprolol - [**2184-6-21**] 03:15 PM
+   Furosemide (Lasix) - [**2184-6-21**] 08:48 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-22**] 07:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 36.1
+C (96.9
+   HR: 91 (60 - 128) bpm
+   BP: 109/59(72) {68/47(52) - 168/97(107)} mmHg
+   RR: 21 (17 - 30) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 62 Inch
+             Total In:
+                                                                  1,530 mL
+                                                                     75 mL
+   PO:
+             TF:
+   IVF:
+                                                                    990 mL
+                                                                     75 mL
+   Blood products:
+   Total out:
+                                                                  1,645 mL
+                                                                    560 mL
+   Urine:
+                                                                  1,645 mL
+                                                                    560 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -115 mL
+                                                                   -485 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 380 (380 - 380) mL
+   Vt (Spontaneous): 374 (374 - 585) mL
+   PS : 5 cmH2O
+   RR (Set): 16
+   RR (Spontaneous): 19
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   RSBI: 48
+   PIP: 16 cmH2O
+   SpO2: 98%
+   ABG: 7.46/45/85.[**Numeric Identifier 126**]/27/6
+   Ve: 7.5 L/min
+   PaO2 / FiO2: 170
+   Physical Examination
+   General: Intubated, NAD, follows commands.
+   HEENT: Sclera anicteric, MMM
+   Neck: Supple, JVP not elevated
+   Lungs: Decreased air movement throughout
+   CV: Regular rate and rhythm, normal S1 + S2, [**3-19**] harsh systolic murmur
+   at USB
+   Abdomen: soft, non-tender, non-distended, bowel sounds present
+   Ext: Warm, well perfused, no clubbing, cyanosis or edema
+   Labs / Radiology
+   217 K/uL
+   11.8 g/dL
+   128 mg/dL
+   0.9 mg/dL
+   27 mEq/L
+   3.5 mEq/L
+   30 mg/dL
+   98 mEq/L
+   136 mEq/L
+   35.9 %
+   8.8 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+                             [**2184-6-21**]  12:28 PM
+                             [**2184-6-21**]  01:31 PM
+                             [**2184-6-21**]  05:16 PM
+                             [**2184-6-21**]  08:49 PM
+                             [**2184-6-22**]  04:20 AM
+   WBC
+   6.6
+   6.9
+   11.6
+   8.8
+   Hct
+   35.6
+   33.3
+   40.5
+   35.9
+   Plt
+   230
+   222
+   276
+   217
+   Cr
+   0.8
+   0.9
+   0.8
+   0.9
+   0.9
+   TropT
+   <0.01
+   <0.01
+   0.01
+   TCO2
+   30
+   33
+   Glucose
+   122
+   168
+   205
+   70
+   128
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:49/3/0.01, Lactic Acid:1.2 mmol/L, Ca++:7.9 mg/dL, Mg++:2.2
+   mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with respiratory failure.
+   .
+   # Respiratory failure: Failed SBT yesterday due to flash pulmonary
+   edema and MS change.  Respiratory failure yesterday likely
+   multifactorial. Initial concern for pneumonia given fever and cough.
+   Based on CXR, elevated BNP, and TTE demonstrating LVEF 40% suggesting
+   element of heart failure. Additionally, patient was wheezy on admission
+   exam concerning for asthma exacerbation, possible as result of
+   pneumonia.
+   - SBT today with plan to extubate if SBT successful.
+   - Continue prednisone 60 mg daily with 14 day taper course.
+   - Albuterol and atrovent MDI
+   - [**Location 7509**] [**Location **]1.6 L. Lasix 40 mg IV prn with goal TBB -[**Telephone/Fax (1) 179**] mL/day.
+   Check lytes [**Hospital1 7**].
+   - Discontinue antimicrobials as cultures NGTD.
+   .
+   # Afib with RVR: HR 90-100s. Switched to home metoprolol regimen
+   yesterday.
+   - Continue metoprolol, titrate up as necessary with goal HR<100.
+   - IV metoprolol and nitro gtt prn for RVR given flash pulmonary edema
+   yesterday.
+   .
+   # Fever: Patient has been afebrile since admission. Likely pulmonary
+   source given cough and no other localizing signs or symptoms of
+   infection. Blood and urine cx pending, though UA negative. Continues to
+   be afebrile in ICU. No leukocytosis.
+   - F/u culture data
+   - Trend fever/WBC curve
+   - Acetaminophen prn
+   - Hold antimicrobials as above.
+   .
+   # BP: Patient hypotensive on admission in ED in the setting of
+   intubation and sedation meds. Quickly resolved with IVF.  Hypertensive
+   overnight and home BP meds restarted
+   - Cont to monitor BP
+   - Continue current anti-hypertensive regimen.
+   .
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB. ACS ruled out with serial cardiac
+   enzymes and repeat ECG.
+   - Cont ASA, statin, ACE-I, and BB.
+   .
+   # Hyperlipidemia: Cont statin
+   .
+   # Glaucoma: Cont eye drops
+   .
+   FEN: Nutrition consult for TF, replete as necessary.
+   PPx: Heparin SQ, PPI
+   Access: PIV
+   Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   Disposition: ICU level of care.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2184-6-20**] 01:50 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 92-year-old female with a history of CHF, CAD, AS/AI, asthma, and presents with respiratory failure. The patient had an unresponsive episode during a spontaneous breathing trial (SBT) due to flash pulmonary edema, which led to the decision to remain intubated.
+
+The patient's vital signs are as follows:
+
+* Temperature: 37.1°C (98.8°F)
+* Heart rate: 91 beats per minute (bpm)
+* Blood pressure: 109/59 mmHg
+* Respiratory rate: 21 breaths per minute (bpm)
+* Oxygen saturation: 98%
+* Atrial fibrillation with a rapid ventricular response (RVR)
+
+The patient's laboratory results show:
+
+* White blood cell count: 6.6-11.6 x 10^9/L
+* Hemoglobin: 11.8-12.8 g/dL
+* Platelet count: 230-276 x 10^9/L
+* Creatinine: 0.8-0.9 mg/dL
+* Troponin-T: <0.01-0.01 ng/mL
+* Lactic acid: 1.2 mmol/L
+
+The patient's medical history includes:
+
+* CHF
+* CAD
+* AS/AI
+* Asthma
+* H/o MI in 2178
+* Per OMR, has rest angina at baseline
+* Trop negative in ED, EKG at baseline with old LBBB
+* ACS ruled out with serial cardiac enzymes and repeat ECG
+
+The patient's current medications include:
+
+* Metoprolol 50 mg tid
+* Imidur
+* Lisinopril
+* Prednisone 60 mg daily with 14-day taper course
+* Albuterol and atrovent MDI
+* Lasix 40 mg IV prn
+
+The patient's potential medical complications include:
+
+* Respiratory failure
+* Heart failure
+* Flash pulmonary edema
+* Pneumonia
+* Asthma exacerbation
+* Cardiac arrhythmias (e.g. atrial fibrillation with RVR)
+* Hypertension
+* Hyperlipidemia
+* Glaucoma
+
+The patient's plan of care includes:
+
+* Continue SBT with plan to extubate if successful
+* Continue prednisone 60 mg daily with 14-day taper course
+* Albuterol and atrovent MDI
+* Lasix 40 mg IV prn with goal TBB -115 mL/day
+* Check lytes daily
+* Discontinue antimicrobials as cultures NGTD
+* Continue metoprolol, titrate up as necessary with goal HR <100
+* IV metoprolol and nitro gtt prn for RVR given flash pulmonary edema yesterday
+* F/u culture data
+* Trend fever/WBC curve
+* Acetaminophen prn
+* Hold antimicrobials as above
+
+The patient's code status is full code, and the patient has been clear in discussion with family that she would not want to be on a life-supporting machine for a prolonged period of time."
+130457.0,263621,2184-06-22 07:29:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - unresponsive episode during SBT, CXR concerning for aspiration event
+   vs. flash pulmonary edema, therefore remained intubated
+   - given 40 IV lasix x 3
+   - restarted on home BP meds, metoprolol 50 mg tid, imdur, and
+   lisinopril
+   - Echo done
+   - CE neg x 2
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Vancomycin - [**2184-6-21**] 07:58 AM
+   Meropenem - [**2184-6-21**] 05:16 PM
+   Infusions:
+   Other ICU medications:
+   Midazolam (Versed) - [**2184-6-21**] 02:30 PM
+   Fentanyl - [**2184-6-21**] 02:30 PM
+   Metoprolol - [**2184-6-21**] 03:15 PM
+   Furosemide (Lasix) - [**2184-6-21**] 08:48 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-22**] 07:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 36.1
+C (96.9
+   HR: 91 (60 - 128) bpm
+   BP: 109/59(72) {68/47(52) - 168/97(107)} mmHg
+   RR: 21 (17 - 30) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 62 Inch
+             Total In:
+                                                                  1,530 mL
+                                                                     75 mL
+   PO:
+             TF:
+   IVF:
+                                                                    990 mL
+                                                                     75 mL
+   Blood products:
+   Total out:
+                                                                  1,645 mL
+                                                                    560 mL
+   Urine:
+                                                                  1,645 mL
+                                                                    560 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -115 mL
+                                                                   -485 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 380 (380 - 380) mL
+   Vt (Spontaneous): 374 (374 - 585) mL
+   PS : 5 cmH2O
+   RR (Set): 16
+   RR (Spontaneous): 19
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   RSBI: 48
+   PIP: 16 cmH2O
+   SpO2: 98%
+   ABG: 7.46/45/85.[**Numeric Identifier 126**]/27/6
+   Ve: 7.5 L/min
+   PaO2 / FiO2: 170
+   Physical Examination
+   General: Intubated, NAD, follows commands.
+   HEENT: Sclera anicteric, MMM
+   Neck: Supple, JVP not elevated
+   Lungs: Decreased air movement throughout
+   CV: Regular rate and rhythm, normal S1 + S2, [**3-19**] harsh systolic murmur
+   at USB
+   Abdomen: soft, non-tender, non-distended, bowel sounds present
+   Ext: Warm, well perfused, no clubbing, cyanosis or edema
+   Labs / Radiology
+   217 K/uL
+   11.8 g/dL
+   128 mg/dL
+   0.9 mg/dL
+   27 mEq/L
+   3.5 mEq/L
+   30 mg/dL
+   98 mEq/L
+   136 mEq/L
+   35.9 %
+   8.8 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+                             [**2184-6-21**]  12:28 PM
+                             [**2184-6-21**]  01:31 PM
+                             [**2184-6-21**]  05:16 PM
+                             [**2184-6-21**]  08:49 PM
+                             [**2184-6-22**]  04:20 AM
+   WBC
+   6.6
+   6.9
+   11.6
+   8.8
+   Hct
+   35.6
+   33.3
+   40.5
+   35.9
+   Plt
+   230
+   222
+   276
+   217
+   Cr
+   0.8
+   0.9
+   0.8
+   0.9
+   0.9
+   TropT
+   <0.01
+   <0.01
+   0.01
+   TCO2
+   30
+   33
+   Glucose
+   122
+   168
+   205
+   70
+   128
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:49/3/0.01, Lactic Acid:1.2 mmol/L, Ca++:7.9 mg/dL, Mg++:2.2
+   mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with respiratory failure.
+   .
+   # Respiratory failure: Failed SBT yesterday due to flash pulmonary
+   edema and MS change.  Respiratory failure yesterday likely
+   multifactorial. Concern for pneumonia given fever and cough. Based on
+   CXR, elevated BNP, and TTE demonstrating diastolic dysfunction, also
+   likely element of heart failure. Additionally, patient was wheezy on
+   admission exam concerning for asthma exacerbation, possible as result
+   of pneumonia.
+   - Continue prednisone 60 mg daily with 14 day taper course.
+   - Albuterol and atrovent MDI
+   - [**Location 7509**] [**Location **]1.6 L. Continue lasix 40 mg IV BID with goal TBB -1L/day.
+   Check lytes [**Hospital1 7**].
+   - Cover empirically with vanco and meropenem pending culture data.
+   Would consider switch to levofloxacin tomorrow if culture negative.
+   .
+   # Afib with RVR: HR 90-100s. Switched to home metoprolol regimen
+   yesterday.
+   - Continue metoprolol, titrate up as necessary with goal HR<100.
+   .
+   # Fever: Patient has been afebrile since admission. Likely pulmonary
+   source given cough and no other localizing signs or symptoms of
+   infection. Blood and urine cx pending, though UA negative. Continues to
+   be afebrile in ICU. No leukocytosis.
+   - Empiric vanco and meropenem as above.
+   - F/u culture data
+   - Trend fever/WBC curve
+   - Acetaminophen prn
+   .
+   # BP: Patient hypotensive on admission in ED in the setting of
+   intubation and sedation meds. Quickly resolved with IVF.  Hypertensive
+   overnight and home BP meds restarted
+   - Cont to monitor BP
+   .
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB. ACS ruled out with serial cardiac
+   enzymes and repeat ECG.
+   - Cont ASA, statin, ACE-I, and BB.
+   .
+   # Hyperlipidemia: Cont statin
+   .
+   # Glaucoma: Cont eye drops
+   .
+   FEN: NPO, Nutrition consult for TF, replete as necessary.
+   PPx: Heparin SQ, PPI
+   Access: PIV
+   Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   Disposition: ICU level of care.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2184-6-20**] 01:50 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - unresponsive episode during SBT, CXR concerning for aspiration event
+   vs. flash pulmonary edema, therefore remained intubated
+   - given 40 IV lasix x 3
+   - restarted on home BP meds, metoprolol 50 mg tid, imdur, and
+   lisinopril
+   - Echo done
+   - CE neg x 2
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Vancomycin - [**2184-6-21**] 07:58 AM
+   Meropenem - [**2184-6-21**] 05:16 PM
+   Infusions:
+   Other ICU medications:
+   Midazolam (Versed) - [**2184-6-21**] 02:30 PM
+   Fentanyl - [**2184-6-21**] 02:30 PM
+   Metoprolol - [**2184-6-21**] 03:15 PM
+   Furosemide (Lasix) - [**2184-6-21**] 08:48 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-22**] 07:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 36.1
+C (96.9
+   HR: 91 (60 - 128) bpm
+   BP: 109/59(72) {68/47(52) - 168/97(107)} mmHg
+   RR: 21 (17 - 30) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 62 Inch
+             Total In:
+                                                                  1,530 mL
+                                                                     75 mL
+   PO:
+             TF:
+   IVF:
+                                                                    990 mL
+                                                                     75 mL
+   Blood products:
+   Total out:
+                                                                  1,645 mL
+                                                                    560 mL
+   Urine:
+                                                                  1,645 mL
+                                                                    560 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -115 mL
+                                                                   -485 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 380 (380 - 380) mL
+   Vt (Spontaneous): 374 (374 - 585) mL
+   PS : 5 cmH2O
+   RR (Set): 16
+   RR (Spontaneous): 19
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   RSBI: 48
+   PIP: 16 cmH2O
+   SpO2: 98%
+   ABG: 7.46/45/85.[**Numeric Identifier 126**]/27/6
+   Ve: 7.5 L/min
+   PaO2 / FiO2: 170
+   Physical Examination
+   General: Intubated, NAD, follows commands.
+   HEENT: Sclera anicteric, MMM
+   Neck: Supple, JVP not elevated
+   Lungs: Decreased air movement throughout
+   CV: Regular rate and rhythm, normal S1 + S2, [**3-19**] harsh systolic murmur
+   at USB
+   Abdomen: soft, non-tender, non-distended, bowel sounds present
+   Ext: Warm, well perfused, no clubbing, cyanosis or edema
+   Labs / Radiology
+   217 K/uL
+   11.8 g/dL
+   128 mg/dL
+   0.9 mg/dL
+   27 mEq/L
+   3.5 mEq/L
+   30 mg/dL
+   98 mEq/L
+   136 mEq/L
+   35.9 %
+   8.8 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+                             [**2184-6-21**]  12:28 PM
+                             [**2184-6-21**]  01:31 PM
+                             [**2184-6-21**]  05:16 PM
+                             [**2184-6-21**]  08:49 PM
+                             [**2184-6-22**]  04:20 AM
+   WBC
+   6.6
+   6.9
+   11.6
+   8.8
+   Hct
+   35.6
+   33.3
+   40.5
+   35.9
+   Plt
+   230
+   222
+   276
+   217
+   Cr
+   0.8
+   0.9
+   0.8
+   0.9
+   0.9
+   TropT
+   <0.01
+   <0.01
+   0.01
+   TCO2
+   30
+   33
+   Glucose
+   122
+   168
+   205
+   70
+   128
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:49/3/0.01, Lactic Acid:1.2 mmol/L, Ca++:7.9 mg/dL, Mg++:2.2
+   mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with respiratory failure.
+   .
+   # Respiratory failure: Failed SBT yesterday due to flash pulmonary
+   edema and MS change.  Respiratory failure yesterday likely
+   multifactorial. Concern for pneumonia given fever and cough. Based on
+   CXR, elevated BNP, and TTE demonstrating diastolic dysfunction, also
+   likely element of heart failure. Additionally, patient was wheezy on
+   admission exam concerning for asthma exacerbation, possible as result
+   of pneumonia.
+   - Continue prednisone 60 mg daily with 14 day taper course.
+   - Albuterol and atrovent MDI
+   - [**Location 7509**] [**Location **]1.6 L. Continue lasix 40 mg IV BID with goal TBB -1L/day.
+   Check lytes [**Hospital1 7**].
+   - Cover empirically with vanco and meropenem pending culture data.
+   Would consider switch to levofloxacin tomorrow if culture negative.
+   .
+   # Afib with RVR: HR 90-100s. Switched to home metoprolol regimen
+   yesterday.
+   - Continue metoprolol, titrate up as necessary with goal HR<100.
+   .
+   # Fever: Patient has been afebrile since admission. Likely pulmonary
+   source given cough and no other localizing signs or symptoms of
+   infection. Blood and urine cx pending, though UA negative. Continues to
+   be afebrile in ICU. No leukocytosis.
+   - Empiric vanco and meropenem as above.
+   - F/u culture data
+   - Trend fever/WBC curve
+   - Acetaminophen prn
+   .
+   # BP: Patient hypotensive on admission in ED in the setting of
+   intubation and sedation meds. Quickly resolved with IVF.  Hypertensive
+   overnight and home BP meds restarted
+   - Cont to monitor BP
+   .
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB. ACS ruled out with serial cardiac
+   enzymes and repeat ECG.
+   - Cont ASA, statin, ACE-I, and BB.
+   .
+   # Hyperlipidemia: Cont statin
+   .
+   # Glaucoma: Cont eye drops
+   .
+   FEN: NPO, Nutrition consult for TF, replete as necessary.
+   PPx: Heparin SQ, PPI
+   Access: PIV
+   Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   Disposition: ICU level of care.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2184-6-20**] 01:50 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 91-year-old female with a complex medical history, including chronic heart failure, coronary artery disease, aortic stenosis, and asthma. She was admitted to the ICU due to respiratory failure, which was likely multifactorial, including pneumonia, heart failure, and asthma exacerbation.
+
+The patient experienced an unresponsive episode during spontaneous breathing trial (SBT), which was concerning for aspiration or flash pulmonary edema. She was intubated and remained on mechanical ventilation.
+
+The patient's current condition is as follows:
+
+* Respiratory status: intubated and on CPAP/PSV with FiO2 50% and PEEP 5 cmH2O
+* Cardiovascular status: atrial fibrillation with a heart rate of 91-100 beats per minute
+* Hemodynamic status: blood pressure 109/59 mmHg, with a goal of 100-110/60-70 mmHg
+* Laboratory results: WBC 6.6-11.6 K/uL, Hct 35.6-40.5%, Plt 217-276 K/uL, Cr 0.8-0.9 mg/dL, TropT <0.01-0.01 ng/mL, and Lactic Acid 1.2 mmol/L
+
+The patient is at risk for several potential medical complications, including:
+
+1. Respiratory failure: continued mechanical ventilation and oxygen therapy are necessary to manage her respiratory status.
+2. Cardiovascular complications: atrial fibrillation and hypertension are potential concerns, and close monitoring of blood pressure and heart rate is necessary.
+3. Infection: pneumonia is a potential concern, and antibiotic coverage with vancomycin and meropenem is ongoing. Blood and urine cultures are pending.
+4. Heart failure: diastolic dysfunction is evident on echocardiogram, and close monitoring of fluid balance and blood pressure is necessary.
+5. Hyperglycemia: glucose levels have been elevated, and close monitoring and management of glycemic control are necessary.
+6. Hypotension: the patient's blood pressure has been hypotensive at times, and close monitoring and management of blood pressure are necessary.
+7. DVT: prophylaxis with heparin SQ is necessary to prevent deep vein thrombosis.
+8. Stress ulcer: prophylaxis with PPI is necessary to prevent stress ulceration.
+
+The patient's plan of care includes:
+
+1. Continued mechanical ventilation and oxygen therapy
+2. Antibiotic coverage with vancomycin and meropenem
+3. Close monitoring of blood pressure and heart rate
+4. Management of glycemic control
+5. Prophylaxis with heparin SQ and PPI
+6. Nutrition consult for total parenteral nutrition (TF)
+7. Code status: full code per discussion with family"
+130457.0,263621,2184-06-23 06:50:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Extubated.
+   - 40 mg IV lasix x1
+   - Antibiotics discontinued
+   - BB for rate
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Vancomycin - [**2184-6-22**] 08:32 AM
+   Meropenem - [**2184-6-22**] 10:00 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2184-6-22**] 10:48 AM
+   Metoprolol - [**2184-6-22**] 11:50 AM
+   Heparin Sodium (Prophylaxis) - [**2184-6-23**] 06:28 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-23**] 06:50 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 35.8
+C (96.5
+   HR: 90 (71 - 117) bpm
+   BP: 147/60(74) {98/24(38) - 147/82(90)} mmHg
+   RR: 20 (16 - 25) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 62 Inch
+             Total In:
+                                                                    900 mL
+                                                                    123 mL
+   PO:
+                                                                    300 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                    540 mL
+                                                                      3 mL
+   Blood products:
+   Total out:
+                                                                  1,940 mL
+                                                                    209 mL
+   Urine:
+                                                                  1,940 mL
+                                                                    209 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,040 mL
+                                                                    -87 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 506 (377 - 506) mL
+   PS : 5 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 0 cmH2O
+   FiO2: 50%
+   PIP: 6 cmH2O
+   SpO2: 97%
+   ABG: ///31/
+   Ve: 8.1 L/min
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   259 K/uL
+   12.7 g/dL
+   166 mg/dL
+   0.8 mg/dL
+   31 mEq/L
+   4.3 mEq/L
+   33 mg/dL
+   98 mEq/L
+   137 mEq/L
+   37.8 %
+   7.8 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+                             [**2184-6-21**]  12:28 PM
+                             [**2184-6-21**]  01:31 PM
+                             [**2184-6-21**]  05:16 PM
+                             [**2184-6-21**]  08:49 PM
+                             [**2184-6-22**]  04:20 AM
+                             [**2184-6-22**]  08:15 PM
+                             [**2184-6-23**]  03:21 AM
+   WBC
+   6.6
+   6.9
+   11.6
+   8.8
+   7.8
+   Hct
+   35.6
+   33.3
+   40.5
+   35.9
+   35.1
+   37.8
+   Plt
+   230
+   222
+   276
+   217
+   259
+   Cr
+   0.8
+   0.9
+   0.8
+   0.9
+   0.9
+   0.8
+   TropT
+   <0.01
+   <0.01
+   0.01
+   TCO2
+   30
+   33
+   Glucose
+   122
+   168
+   205
+   70
+   128
+   166
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:49/3/0.01, Lactic Acid:1.2 mmol/L, Ca++:8.8 mg/dL, Mg++:2.4
+   mg/dL, PO4:2.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with respiratory failure.
+   .
+   # Respiratory failure: Extubated successsfully yesterday.  Received 40
+   mg IV lasix yesterday, 24h TBB -1.4 L, [**Location 7509**] [**Location **]2.2L. Antimicrobials
+   held yesterday.a
+   - Continue prednisone taper for total 14 day course.
+   - Albuterol and ipratropium nebs
+   - Lasix 40 mg PO daily with goal TBB -[**Telephone/Fax (1) 179**] L/day.
+   .
+   # Afib with RVR: HR 80-100s on home dose of metoprolol.
+   - Titrate metoprolol as necessary to maintain goal HR 80-100.
+   .
+   # Fever: Patient has been afebrile since admission.  Cultures NGTD.
+   - Trend fever/WBC curve
+   - Acetaminophen prn
+   - Hold antimicrobials.
+   .
+   # BP: Patient hypotensive on admission in ED in the setting of
+   intubation and sedation meds. Quickly resolved with IVF.  Hypertensive
+   overnight and home BP meds restarted
+   - Cont to monitor BP
+   - Continue current anti-hypertensive regimen.
+   .
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB. ACS ruled out with serial cardiac
+   enzymes and repeat ECG.
+   - Cont ASA, statin, ACE-I, and BB.
+   .
+   # Hyperlipidemia: Cont statin
+   .
+   # Glaucoma: Cont eye drops
+   .
+   FEN: Regular, replete as necessary.
+   PPx: Heparin SQ, PPI
+   Access: PIV
+   Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   Disposition: [**Name2 (NI) **] out today.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2184-6-22**] 06:01 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Extubated.
+   - 40 mg IV lasix x1
+   - Antibiotics discontinued
+   - BB for rate
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Vancomycin - [**2184-6-22**] 08:32 AM
+   Meropenem - [**2184-6-22**] 10:00 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2184-6-22**] 10:48 AM
+   Metoprolol - [**2184-6-22**] 11:50 AM
+   Heparin Sodium (Prophylaxis) - [**2184-6-23**] 06:28 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-23**] 06:50 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 35.8
+C (96.5
+   HR: 90 (71 - 117) bpm
+   BP: 147/60(74) {98/24(38) - 147/82(90)} mmHg
+   RR: 20 (16 - 25) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 62 Inch
+             Total In:
+                                                                    900 mL
+                                                                    123 mL
+   PO:
+                                                                    300 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                    540 mL
+                                                                      3 mL
+   Blood products:
+   Total out:
+                                                                  1,940 mL
+                                                                    209 mL
+   Urine:
+                                                                  1,940 mL
+                                                                    209 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,040 mL
+                                                                    -87 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 506 (377 - 506) mL
+   PS : 5 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 0 cmH2O
+   FiO2: 50%
+   PIP: 6 cmH2O
+   SpO2: 97%
+   ABG: ///31/
+   Ve: 8.1 L/min
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   259 K/uL
+   12.7 g/dL
+   166 mg/dL
+   0.8 mg/dL
+   31 mEq/L
+   4.3 mEq/L
+   33 mg/dL
+   98 mEq/L
+   137 mEq/L
+   37.8 %
+   7.8 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+                             [**2184-6-21**]  12:28 PM
+                             [**2184-6-21**]  01:31 PM
+                             [**2184-6-21**]  05:16 PM
+                             [**2184-6-21**]  08:49 PM
+                             [**2184-6-22**]  04:20 AM
+                             [**2184-6-22**]  08:15 PM
+                             [**2184-6-23**]  03:21 AM
+   WBC
+   6.6
+   6.9
+   11.6
+   8.8
+   7.8
+   Hct
+   35.6
+   33.3
+   40.5
+   35.9
+   35.1
+   37.8
+   Plt
+   230
+   222
+   276
+   217
+   259
+   Cr
+   0.8
+   0.9
+   0.8
+   0.9
+   0.9
+   0.8
+   TropT
+   <0.01
+   <0.01
+   0.01
+   TCO2
+   30
+   33
+   Glucose
+   122
+   168
+   205
+   70
+   128
+   166
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:49/3/0.01, Lactic Acid:1.2 mmol/L, Ca++:8.8 mg/dL, Mg++:2.4
+   mg/dL, PO4:2.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with respiratory failure.
+   .
+   # Respiratory failure: Extubated successsfully yesterday.  Received 40
+   mg IV lasix yesterday, 24h TBB -1.4 L, [**Location 7509**] [**Location **]2.2L. Antimicrobials
+   held yesterday.a
+   - Continue prednisone taper for total 14 day course.
+   - Albuterol and ipratropium nebs
+   - Lasix 40 mg PO daily with goal TBB -[**Telephone/Fax (1) 179**] L/day.
+   .
+   # Afib with RVR: HR 80-100s on home dose of metoprolol.
+   - Titrate metoprolol as necessary to maintain goal HR 80-100.
+   .
+   # Fever: Patient has been afebrile since admission.  Cultures NGTD.
+   - Trend fever/WBC curve
+   - Acetaminophen prn
+   - Hold antimicrobials.
+   .
+   # BP: Patient hypotensive on admission in ED in the setting of
+   intubation and sedation meds. Quickly resolved with IVF.  Hypertensive
+   overnight and home BP meds restarted
+   - Cont to monitor BP
+   - Continue current anti-hypertensive regimen.
+   .
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB. ACS ruled out with serial cardiac
+   enzymes and repeat ECG.
+   - Cont ASA, statin, ACE-I, and BB.
+   .
+   # Hyperlipidemia: Cont statin
+   .
+   # Glaucoma: Cont eye drops
+   .
+   FEN: Regular, replete as necessary.
+   PPx: Heparin SQ, PPI
+   Access: PIV
+   Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   Disposition: [**Name2 (NI) **] out today.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2184-6-22**] 06:01 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 92-year-old female with a history of CHF, CAD, AS/AI, asthma, and presents with respiratory failure. She was extubated successfully yesterday and received 40 mg IV lasix. Her current vital signs are within normal limits, with a temperature of 36.9°C, heart rate of 90 bpm, and blood pressure of 147/60 mmHg. Her respiratory status is stable, with a SpO2 of 97% and a respiratory rate of 20 inspirations per minute. Her laboratory results show normal ranges for hemoglobin, white blood cell count, and platelet count. However, her troponin-T level is elevated at 0.01 ng/mL, indicating possible cardiac injury.
+
+Potential Medical Complications:
+
+1. Respiratory failure: The patient's respiratory status is stable, but she may still be at risk for respiratory failure due to her underlying conditions.
+2. Cardiac complications: The patient's troponin-T level is elevated, indicating possible cardiac injury. She may be at risk for cardiac complications, such as arrhythmias or heart failure.
+3. Infection: The patient's white blood cell count is within normal limits, but she may still be at risk for infection due to her respiratory failure and underlying conditions.
+4. Fluid overload: The patient received 40 mg IV lasix yesterday and has a fluid balance of -1040 mL over the past 24 hours. She may be at risk for fluid overload if her fluid status is not closely monitored.
+5. Hypotension: The patient's blood pressure is within normal limits, but she may still be at risk for hypotension due to her underlying conditions and medications.
+6. Hyperglycemia: The patient's glucose levels are elevated, indicating possible hyperglycemia. She may be at risk for complications such as ketoacidosis or hyperosmolar nonketotic syndrome.
+7. Malnutrition: The patient's nutrition status is not well-documented, but she may be at risk for malnutrition due to her underlying conditions and prolonged hospitalization.
+8. Pressure ulcers: The patient's skin assessment is not well-documented, but she may be at risk for pressure ulcers due to her prolonged immobility and underlying conditions.
+
+Recommendations:
+
+1. Continue to monitor the patient's respiratory status closely and adjust her oxygen therapy as necessary.
+2. Continue to monitor the patient's cardiac status closely and adjust her medications as necessary.
+3. Continue to monitor the patient's fluid status closely and adjust her fluid therapy as necessary.
+4. Monitor the patient's blood glucose levels closely and adjust her glucose therapy as necessary.
+5. Consider ordering a comprehensive metabolic panel to evaluate the patient's electrolyte levels and kidney function.
+6. Consider ordering a complete blood count to evaluate the patient's blood cell count and platelet count.
+7. Consider ordering a troponin-T level to evaluate the patient's cardiac injury.
+8. Consider ordering a chest X-ray to evaluate the patient's lung parenchyma and pleura.
+9. Consider ordering a head CT or MRI to evaluate the patient's brain parenchyma and cerebrospinal fluid.
+10. Consider ordering a bedside ultrasound to evaluate the patient's cardiac function and ventricular function."
+130457.0,263621,2184-06-23 06:50:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Extubated.
+   - 40 mg IV lasix x1
+   - Antibiotics discontinued
+   - BB for rate
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Vancomycin - [**2184-6-22**] 08:32 AM
+   Meropenem - [**2184-6-22**] 10:00 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2184-6-22**] 10:48 AM
+   Metoprolol - [**2184-6-22**] 11:50 AM
+   Heparin Sodium (Prophylaxis) - [**2184-6-23**] 06:28 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-23**] 06:50 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 35.8
+C (96.5
+   HR: 90 (71 - 117) bpm
+   BP: 147/60(74) {98/24(38) - 147/82(90)} mmHg
+   RR: 20 (16 - 25) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 62 Inch
+             Total In:
+                                                                    900 mL
+                                                                    123 mL
+   PO:
+                                                                    300 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                    540 mL
+                                                                      3 mL
+   Blood products:
+   Total out:
+                                                                  1,940 mL
+                                                                    209 mL
+   Urine:
+                                                                  1,940 mL
+                                                                    209 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,040 mL
+                                                                    -87 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 506 (377 - 506) mL
+   PS : 5 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 0 cmH2O
+   FiO2: 50%
+   PIP: 6 cmH2O
+   SpO2: 97%
+   ABG: ///31/
+   Ve: 8.1 L/min
+   Physical Examination
+   General: Intubated, NAD, follows commands.
+   HEENT: Sclera anicteric, MMM
+   Neck: Supple, JVP not elevated
+   Lungs: Decreased air movement throughout
+   CV: Regular rate and rhythm, normal S1 + S2, [**3-19**] harsh systolic murmur
+   at USB
+   Abdomen: soft, non-tender, non-distended, bowel sounds present
+   Ext: Warm, well perfused, no clubbing, cyanosis or edema
+   Labs / Radiology
+   259 K/uL
+   12.7 g/dL
+   166 mg/dL
+   0.8 mg/dL
+   31 mEq/L
+   4.3 mEq/L
+   33 mg/dL
+   98 mEq/L
+   137 mEq/L
+   37.8 %
+   7.8 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+                             [**2184-6-21**]  12:28 PM
+                             [**2184-6-21**]  01:31 PM
+                             [**2184-6-21**]  05:16 PM
+                             [**2184-6-21**]  08:49 PM
+                             [**2184-6-22**]  04:20 AM
+                             [**2184-6-22**]  08:15 PM
+                             [**2184-6-23**]  03:21 AM
+   WBC
+   6.6
+   6.9
+   11.6
+   8.8
+   7.8
+   Hct
+   35.6
+   33.3
+   40.5
+   35.9
+   35.1
+   37.8
+   Plt
+   230
+   222
+   276
+   217
+   259
+   Cr
+   0.8
+   0.9
+   0.8
+   0.9
+   0.9
+   0.8
+   TropT
+   <0.01
+   <0.01
+   0.01
+   TCO2
+   30
+   33
+   Glucose
+   122
+   168
+   205
+   70
+   128
+   166
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:49/3/0.01, Lactic Acid:1.2 mmol/L, Ca++:8.8 mg/dL, Mg++:2.4
+   mg/dL, PO4:2.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with respiratory failure.
+   .
+   # Respiratory failure: Extubated successsfully yesterday.  Received 40
+   mg IV lasix yesterday, 24h TBB -1.4 L, [**Location 7509**] [**Location **]2.2L. Antimicrobials
+   held yesterday.a
+   - Continue prednisone taper for total 14 day course.
+   - Albuterol and ipratropium nebs
+   - Lasix 40 mg PO daily with goal TBB -[**Telephone/Fax (1) 179**] L/day.
+   .
+   # Afib with RVR: HR 80-100s on home dose of metoprolol.
+   - Titrate metoprolol as necessary to maintain goal HR 80-100.
+   .
+   # Fever: Patient has been afebrile since admission.  Cultures NGTD.
+   - Trend fever/WBC curve
+   - Acetaminophen prn
+   - Hold antimicrobials.
+   .
+   # BP: Patient hypotensive on admission in ED in the setting of
+   intubation and sedation meds. Quickly resolved with IVF.  Hypertensive
+   overnight and home BP meds restarted
+   - Cont to monitor BP
+   - Continue current anti-hypertensive regimen.
+   .
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB. ACS ruled out with serial cardiac
+   enzymes and repeat ECG.
+   - Cont ASA, statin, ACE-I, and BB.
+   .
+   # Hyperlipidemia: Cont statin
+   .
+   # Glaucoma: Cont eye drops
+   .
+   FEN: Regular, replete as necessary.
+   PPx: Heparin SQ, PPI
+   Access: PIV
+   Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   Disposition: [**Name2 (NI) **] out today.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2184-6-22**] 06:01 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Extubated.
+   - 40 mg IV lasix x1
+   - Antibiotics discontinued
+   - BB for rate
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Vancomycin - [**2184-6-22**] 08:32 AM
+   Meropenem - [**2184-6-22**] 10:00 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2184-6-22**] 10:48 AM
+   Metoprolol - [**2184-6-22**] 11:50 AM
+   Heparin Sodium (Prophylaxis) - [**2184-6-23**] 06:28 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-23**] 06:50 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 35.8
+C (96.5
+   HR: 90 (71 - 117) bpm
+   BP: 147/60(74) {98/24(38) - 147/82(90)} mmHg
+   RR: 20 (16 - 25) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 62 Inch
+             Total In:
+                                                                    900 mL
+                                                                    123 mL
+   PO:
+                                                                    300 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                    540 mL
+                                                                      3 mL
+   Blood products:
+   Total out:
+                                                                  1,940 mL
+                                                                    209 mL
+   Urine:
+                                                                  1,940 mL
+                                                                    209 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,040 mL
+                                                                    -87 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 506 (377 - 506) mL
+   PS : 5 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 0 cmH2O
+   FiO2: 50%
+   PIP: 6 cmH2O
+   SpO2: 97%
+   ABG: ///31/
+   Ve: 8.1 L/min
+   Physical Examination
+   General: Intubated, NAD, follows commands.
+   HEENT: Sclera anicteric, MMM
+   Neck: Supple, JVP not elevated
+   Lungs: Decreased air movement throughout
+   CV: Regular rate and rhythm, normal S1 + S2, [**3-19**] harsh systolic murmur
+   at USB
+   Abdomen: soft, non-tender, non-distended, bowel sounds present
+   Ext: Warm, well perfused, no clubbing, cyanosis or edema
+   Labs / Radiology
+   259 K/uL
+   12.7 g/dL
+   166 mg/dL
+   0.8 mg/dL
+   31 mEq/L
+   4.3 mEq/L
+   33 mg/dL
+   98 mEq/L
+   137 mEq/L
+   37.8 %
+   7.8 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+                             [**2184-6-21**]  12:28 PM
+                             [**2184-6-21**]  01:31 PM
+                             [**2184-6-21**]  05:16 PM
+                             [**2184-6-21**]  08:49 PM
+                             [**2184-6-22**]  04:20 AM
+                             [**2184-6-22**]  08:15 PM
+                             [**2184-6-23**]  03:21 AM
+   WBC
+   6.6
+   6.9
+   11.6
+   8.8
+   7.8
+   Hct
+   35.6
+   33.3
+   40.5
+   35.9
+   35.1
+   37.8
+   Plt
+   230
+   222
+   276
+   217
+   259
+   Cr
+   0.8
+   0.9
+   0.8
+   0.9
+   0.9
+   0.8
+   TropT
+   <0.01
+   <0.01
+   0.01
+   TCO2
+   30
+   33
+   Glucose
+   122
+   168
+   205
+   70
+   128
+   166
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:49/3/0.01, Lactic Acid:1.2 mmol/L, Ca++:8.8 mg/dL, Mg++:2.4
+   mg/dL, PO4:2.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with respiratory failure.
+   .
+   # Respiratory failure: Extubated successsfully yesterday.  Received 40
+   mg IV lasix yesterday, 24h TBB -1.4 L, [**Location 7509**] [**Location **]2.2L. Antimicrobials
+   held yesterday.a
+   - Continue prednisone taper for total 14 day course.
+   - Albuterol and ipratropium nebs
+   - Lasix 40 mg PO daily with goal TBB -[**Telephone/Fax (1) 179**] L/day.
+   .
+   # Afib with RVR: HR 80-100s on home dose of metoprolol.
+   - Titrate metoprolol as necessary to maintain goal HR 80-100.
+   .
+   # Fever: Patient has been afebrile since admission.  Cultures NGTD.
+   - Trend fever/WBC curve
+   - Acetaminophen prn
+   - Hold antimicrobials.
+   .
+   # BP: Patient hypotensive on admission in ED in the setting of
+   intubation and sedation meds. Quickly resolved with IVF.  Hypertensive
+   overnight and home BP meds restarted
+   - Cont to monitor BP
+   - Continue current anti-hypertensive regimen.
+   .
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB. ACS ruled out with serial cardiac
+   enzymes and repeat ECG.
+   - Cont ASA, statin, ACE-I, and BB.
+   .
+   # Hyperlipidemia: Cont statin
+   .
+   # Glaucoma: Cont eye drops
+   .
+   FEN: Regular, replete as necessary.
+   PPx: Heparin SQ, PPI
+   Access: PIV
+   Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   Disposition: [**Name2 (NI) **] out today.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2184-6-22**] 06:01 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 90-year-old female with a complex medical history, including chronic heart failure (CHF), coronary artery disease (CAD), aortic stenosis/insufficiency (AS/AI), and asthma. She was admitted with respiratory failure and was successfully extubated yesterday.
+
+The patient's current vital signs are:
+
+* Temperature: 36.9°C (98.5°F)
+* Heart rate: 90 beats per minute (bpm)
+* Blood pressure: 147/60 mmHg
+* Respiratory rate: 20 breaths per minute (bpm)
+* SpO2: 97%
+
+The patient's physical examination is notable for decreased air movement throughout the lungs, a regular rate and rhythm, and a harsh systolic murmur at the upper sternal border.
+
+Laboratory results show:
+
+* White blood cell count (WBC): 6.6-11.6 K/uL
+* Hemoglobin (Hb): 12.7 g/dL
+* Platelet count (Plt): 230-276 K/uL
+* Creatinine (Cr): 0.8-0.9 mg/dL
+* Troponin-T: <0.01-0.01 ng/mL
+* TCO2: 30-33 mmHg
+* Glucose: 122-205 mg/dL
+
+The patient is currently receiving several medications, including:
+
+* Furosemide (Lasix) 40 mg IV daily
+* Metoprolol 25 mg PO daily
+* Heparin sodium 5,000 units SQ every 8 hours
+* Prednisone 20 mg PO daily for 14 days
+* Albuterol and ipratropium nebs as needed
+* Acetaminophen 325 mg PO every 4-6 hours as needed
+
+Potential medical complications that can arise include:
+
+* Respiratory failure: The patient's recent extubation and ongoing respiratory support may increase the risk of respiratory failure.
+* Cardiac arrhythmias: The patient's history of atrial fibrillation with rapid ventricular response (AFib with RVR) and ongoing metoprolol therapy may increase the risk of cardiac arrhythmias.
+* Infection: The patient's recent antibiotic discontinuation and ongoing cultures may increase the risk of infection.
+* Hypertension: The patient's recent hypertension and ongoing anti-hypertensive therapy may increase the risk of hypertension.
+* Hyperglycemia: The patient's recent hyperglycemia and ongoing glucose monitoring may increase the risk of hyperglycemia.
+* DVT: The patient's history of CAD and ongoing heparin therapy may increase the risk of DVT.
+
+Based on the patient's complex medical history and ongoing medical conditions, it is essential to closely monitor her vital signs, laboratory results, and medication regimen to prevent potential complications and optimize her care."
+130457.0,263621,2184-06-23 06:50:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Extubated.
+   - 40 mg IV lasix x1
+   - Antibiotics discontinued
+   - BB for rate
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Vancomycin - [**2184-6-22**] 08:32 AM
+   Meropenem - [**2184-6-22**] 10:00 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2184-6-22**] 10:48 AM
+   Metoprolol - [**2184-6-22**] 11:50 AM
+   Heparin Sodium (Prophylaxis) - [**2184-6-23**] 06:28 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-23**] 06:50 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 35.8
+C (96.5
+   HR: 90 (71 - 117) bpm
+   BP: 147/60(74) {98/24(38) - 147/82(90)} mmHg
+   RR: 20 (16 - 25) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 62 Inch
+             Total In:
+                                                                    900 mL
+                                                                    123 mL
+   PO:
+                                                                    300 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                    540 mL
+                                                                      3 mL
+   Blood products:
+   Total out:
+                                                                  1,940 mL
+                                                                    209 mL
+   Urine:
+                                                                  1,940 mL
+                                                                    209 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,040 mL
+                                                                    -87 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 506 (377 - 506) mL
+   PS : 5 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 0 cmH2O
+   FiO2: 50%
+   PIP: 6 cmH2O
+   SpO2: 97%
+   ABG: ///31/
+   Ve: 8.1 L/min
+   Physical Examination
+   General: NAD
+   HEENT: Sclera anicteric, MMM
+   Neck: Supple, JVP not elevated
+   Lungs: Rhonchorous bilaterally
+   CV: Regular rate and rhythm, normal S1 + S2, [**3-19**] harsh systolic murmur
+   at USB
+   Abdomen: soft, non-tender, non-distended, bowel sounds present
+   Ext: No c/c/e
+   Labs / Radiology
+   259 K/uL
+   12.7 g/dL
+   166 mg/dL
+   0.8 mg/dL
+   31 mEq/L
+   4.3 mEq/L
+   33 mg/dL
+   98 mEq/L
+   137 mEq/L
+   37.8 %
+   7.8 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+                             [**2184-6-21**]  12:28 PM
+                             [**2184-6-21**]  01:31 PM
+                             [**2184-6-21**]  05:16 PM
+                             [**2184-6-21**]  08:49 PM
+                             [**2184-6-22**]  04:20 AM
+                             [**2184-6-22**]  08:15 PM
+                             [**2184-6-23**]  03:21 AM
+   WBC
+   6.6
+   6.9
+   11.6
+   8.8
+   7.8
+   Hct
+   35.6
+   33.3
+   40.5
+   35.9
+   35.1
+   37.8
+   Plt
+   230
+   222
+   276
+   217
+   259
+   Cr
+   0.8
+   0.9
+   0.8
+   0.9
+   0.9
+   0.8
+   TropT
+   <0.01
+   <0.01
+   0.01
+   TCO2
+   30
+   33
+   Glucose
+   122
+   168
+   205
+   70
+   128
+   166
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:49/3/0.01, Lactic Acid:1.2 mmol/L, Ca++:8.8 mg/dL, Mg++:2.4
+   mg/dL, PO4:2.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with respiratory failure.
+   .
+   # Respiratory failure: Extubated successsfully yesterday.  Received 40
+   mg IV lasix yesterday, 24h TBB -1.4 L, [**Location 7509**] [**Location **]2.2L. Antimicrobials
+   held yesterday.
+   - Continue prednisone taper for total 14 day course.
+   - Albuterol and ipratropium nebs
+   - Lasix 40 mg PO daily with goal TBB -[**Telephone/Fax (1) 179**] L/day.
+   .
+   # Afib with RVR: HR 80-100s on home dose of metoprolol.
+   - Titrate metoprolol as necessary to maintain goal HR 80-100.
+   - Hold nitrates for additional BP room for AV nodal blockade.
+   .
+   # Fever: Patient has been afebrile since admission.  Cultures NGTD.
+   - Trend fever/WBC curve
+   - Acetaminophen prn
+   - Hold antimicrobials.
+   .
+   # BP: Patient hypotensive on admission in ED in the setting of
+   intubation and sedation meds. Quickly resolved with IVF.  Hypertensive
+   overnight and home BP meds restarted
+   - Cont to monitor BP
+   - Hold imdur as above.
+   .
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB. ACS ruled out with serial cardiac
+   enzymes and repeat ECG.
+   - Cont ASA, statin, ACE-I, and BB.
+   .
+   # Hyperlipidemia: Cont statin
+   .
+   # Glaucoma: Cont eye drops
+   .
+   FEN: Regular, replete as necessary.
+   PPx: Heparin SQ, PPI
+   Access: PIV
+   Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   Disposition: [**Name2 (NI) **] out today.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2184-6-22**] 06:01 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Extubated.
+   - 40 mg IV lasix x1
+   - Antibiotics discontinued
+   - BB for rate
+   Allergies:
+   Penicillins
+   Rash;
+   Triamterene
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Vancomycin - [**2184-6-22**] 08:32 AM
+   Meropenem - [**2184-6-22**] 10:00 AM
+   Infusions:
+   Other ICU medications:
+   Furosemide (Lasix) - [**2184-6-22**] 10:48 AM
+   Metoprolol - [**2184-6-22**] 11:50 AM
+   Heparin Sodium (Prophylaxis) - [**2184-6-23**] 06:28 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2184-6-23**] 06:50 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 35.8
+C (96.5
+   HR: 90 (71 - 117) bpm
+   BP: 147/60(74) {98/24(38) - 147/82(90)} mmHg
+   RR: 20 (16 - 25) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 62 Inch
+             Total In:
+                                                                    900 mL
+                                                                    123 mL
+   PO:
+                                                                    300 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                    540 mL
+                                                                      3 mL
+   Blood products:
+   Total out:
+                                                                  1,940 mL
+                                                                    209 mL
+   Urine:
+                                                                  1,940 mL
+                                                                    209 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -1,040 mL
+                                                                    -87 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 506 (377 - 506) mL
+   PS : 5 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 0 cmH2O
+   FiO2: 50%
+   PIP: 6 cmH2O
+   SpO2: 97%
+   ABG: ///31/
+   Ve: 8.1 L/min
+   Physical Examination
+   General: NAD
+   HEENT: Sclera anicteric, MMM
+   Neck: Supple, JVP not elevated
+   Lungs: Rhonchorous bilaterally
+   CV: Regular rate and rhythm, normal S1 + S2, [**3-19**] harsh systolic murmur
+   at USB
+   Abdomen: soft, non-tender, non-distended, bowel sounds present
+   Ext: No c/c/e
+   Labs / Radiology
+   259 K/uL
+   12.7 g/dL
+   166 mg/dL
+   0.8 mg/dL
+   31 mEq/L
+   4.3 mEq/L
+   33 mg/dL
+   98 mEq/L
+   137 mEq/L
+   37.8 %
+   7.8 K/uL
+        [image002.jpg]
+                             [**2184-6-20**]  03:15 PM
+                             [**2184-6-20**]  07:38 PM
+                             [**2184-6-21**]  03:42 AM
+                             [**2184-6-21**]  12:28 PM
+                             [**2184-6-21**]  01:31 PM
+                             [**2184-6-21**]  05:16 PM
+                             [**2184-6-21**]  08:49 PM
+                             [**2184-6-22**]  04:20 AM
+                             [**2184-6-22**]  08:15 PM
+                             [**2184-6-23**]  03:21 AM
+   WBC
+   6.6
+   6.9
+   11.6
+   8.8
+   7.8
+   Hct
+   35.6
+   33.3
+   40.5
+   35.9
+   35.1
+   37.8
+   Plt
+   230
+   222
+   276
+   217
+   259
+   Cr
+   0.8
+   0.9
+   0.8
+   0.9
+   0.9
+   0.8
+   TropT
+   <0.01
+   <0.01
+   0.01
+   TCO2
+   30
+   33
+   Glucose
+   122
+   168
+   205
+   70
+   128
+   166
+   Other labs: PT / PTT / INR:13.7/35.5/1.2, CK / CKMB /
+   Troponin-T:49/3/0.01, Lactic Acid:1.2 mmol/L, Ca++:8.8 mg/dL, Mg++:2.4
+   mg/dL, PO4:2.6 mg/dL
+   Assessment and Plan
+   Assessment and Plan: This is a [**Age over 90 211**] year-old female with CHF, CAD, AS/AI,
+   asthma, presents with respiratory failure.
+   .
+   # Respiratory failure: Extubated successsfully yesterday.  Received 40
+   mg IV lasix yesterday, 24h TBB -1.4 L, [**Location 7509**] [**Location **]2.2L. Antimicrobials
+   held yesterday.
+   - Continue prednisone taper for total 14 day course.
+   - Albuterol and ipratropium nebs
+   - Lasix 40 mg PO daily with goal TBB -[**Telephone/Fax (1) 179**] L/day.
+   .
+   # Afib with RVR: HR 80-100s on home dose of metoprolol.
+   - Titrate metoprolol as necessary to maintain goal HR 80-100.
+   - Hold nitrates for additional BP room for AV nodal blockade.
+   .
+   # Fever: Patient has been afebrile since admission.  Cultures NGTD.
+   - Trend fever/WBC curve
+   - Acetaminophen prn
+   - Hold antimicrobials.
+   .
+   # BP: Patient hypotensive on admission in ED in the setting of
+   intubation and sedation meds. Quickly resolved with IVF.  Hypertensive
+   overnight and home BP meds restarted
+   - Cont to monitor BP
+   - Hold imdur as above.
+   .
+   # CAD: h/o MI in [**2178**]. Per OMR, has rest angina at baseline. Trop neg
+   in ED, EKG at baseline with old LBBB. ACS ruled out with serial cardiac
+   enzymes and repeat ECG.
+   - Cont ASA, statin, ACE-I, and BB.
+   .
+   # Hyperlipidemia: Cont statin
+   .
+   # Glaucoma: Cont eye drops
+   .
+   FEN: Regular, replete as necessary.
+   PPx: Heparin SQ, PPI
+   Access: PIV
+   Code: full code per discussion with sister in law and nephew
+   - pt has been clear in discussion with family that she would not want
+   to be on a life supporting machine for a prolonged period of time
+   Communication: unclear HCP
+   - sister in law [**Name (NI) 3578**] [**Name (NI) 1456**] ([**Telephone/Fax (1) 7476**])
+   - nephew
+   Disposition: [**Name2 (NI) **] out today.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2184-6-22**] 06:01 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 91-year-old female with a complex medical history, including CHF, CAD, AS/AI, asthma, and a history of MI. She was admitted to the ICU with respiratory failure and was successfully extubated yesterday.
+
+The patient's current vital signs are:
+
+* Tmax: 36.9°C (98.5°F)
+* Tcurrent: 35.8°C (96.5°F)
+* HR: 90 bpm (normal range: 71-117 bpm)
+* BP: 147/60 mmHg (normal range: 98/24-147/82 mmHg)
+* RR: 20 inspirations per minute (normal range: 16-25 inspirations per minute)
+* SpO2: 97%
+
+The patient's laboratory results show:
+
+* WBC: 6.6-11.6 K/uL
+* Hct: 35.6-40.5%
+* Plt: 230-276 K/uL
+* Cr: 0.8-0.9 mg/dL
+* TropT: <0.01-0.01 ng/mL
+* TCO2: 30-33 mmHg
+* Glucose: 70-205 mg/dL
+
+The patient's medications include:
+
+* Furosemide (Lasix) 40 mg IV daily
+* Metoprolol 25 mg PO daily
+* Heparin Sodium 5000 units SQ every 8 hours
+* Prednisone 20 mg PO daily for 14 days
+* Albuterol and ipratropium nebs as needed
+* Lasix 40 mg PO daily with goal TBB -1.4 L/day
+
+The patient's plan includes:
+
+* Continue prednisone taper for total 14-day course
+* Albuterol and ipratropium nebs as needed
+* Lasix 40 mg PO daily with goal TBB -1.4 L/day
+* Titrate metoprolol as necessary to maintain goal HR 80-100
+* Hold nitrates for additional BP room for AV nodal blockade
+* Trend fever/WBC curve
+* Acetaminophen prn
+* Hold antimicrobials
+
+Potential medical complications that can arise include:
+
+* Respiratory failure due to inadequate oxygenation or ventilation
+* Cardiac arrhythmias, including atrial fibrillation with rapid ventricular response
+* Hypotension or hypertension, which can lead to organ damage or failure
+* Infection, including ventilator-associated pneumonia (VAP)
+* Bleeding due to anticoagulation therapy
+* Worsening of underlying cardiac or respiratory disease
+* Gastrointestinal bleeding due to stress ulcer disease
+* Hyperglycemia or hypoglycemia due to inadequate glycemic control
+
+The patient's code status is full code, and she has been clear in her discussion with family that she would not want to be on a life-supporting machine for a prolonged period of time."

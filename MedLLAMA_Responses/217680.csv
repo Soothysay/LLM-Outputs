@@ -1,0 +1,4607 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+171250.0,217680,2106-01-28 07:33:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - [**Doctor First Name **] placed strong dobhoff, started TFs
+   - was not responding to lasix, tried higher doses to 160 mg iv,
+   chlorothiazide + metolazone; wrote for albumin (thought he was getting
+   it already but he wasn't)
+   - couldn't lie flat and dropped sats to 80s when supine so didn't get
+   CT
+   - had delerium overnight, was calling for his mother and father
+   - [**Name (NI) **] 7.23/76 this a.m. -> abg
+   - told me and nurse that he didn't want the treatments/needle sticks,
+   instead wanted to be made comfortable, ""let me go."", understand that
+   this would mean that he would die, was appropriate and A/O to person,
+   year, ~location (rehab),
+ PICC LINE - START [**2106-1-27**] 08:19 AM
+ BLOOD CULTURED - At [**2106-1-27**] 06:00 PM
+   X1
+ BLOOD CULTURED - At [**2106-1-28**] 01:30 AM
+   X1
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Furosemide (Lasix) - 10 mg/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2106-1-28**] 06:26 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-28**] 07:31 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36
+C (96.8
+   Tcurrent: 35.4
+C (95.8
+   HR: 96 (70 - 102) bpm
+   BP: 109/53(66) {100/50(64) - 134/67(84)} mmHg
+   RR: 24 (20 - 35) insp/min
+   SpO2: 99%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,684 mL
+                                                                  1,035 mL
+   PO:
+           TF:
+           75 mL
+   IVF:
+                                                                  1,306 mL
+                                                                    150 mL
+   Blood products:
+   100 mL
+   Total out:
+                                                                    935 mL
+                                                                    230 mL
+   Urine:
+                                                                    935 mL
+                                                                    230 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,749 mL
+                                                                    805 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 99%
+   ABG: 7.25/71/104/26/0
+   PaO2 / FiO2: 208
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   220 K/uL
+   9.4 g/dL
+   126 mg/dL
+   3.4 mg/dL
+   26 mEq/L
+   4.5 mEq/L
+   117 mg/dL
+   103 mEq/L
+   140 mEq/L
+   28.3 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+   WBC
+   8.1
+   Hct
+   28.3
+   Plt
+   220
+   Cr
+   3.4
+   TCO2
+   33
+   33
+   Glucose
+   126
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.3 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+ RESPIRATORY FAILURE, ACUTE (NOT ARDS/[**Doctor Last Name 2**])
+ HEART FAILURE (CHF), SYSTOLIC AND DIASTOLIC, ACUTE ON CHRONIC
+ COAGULOPATHY
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ IMPAIRED SKIN INTEGRITY
+   ICU Care
+   Nutrition:
+   NovaSource Renal (Full) - [**2106-1-28**] 12:00 AM 10 mL/hour
+   TPN without Lipids - [**2106-1-28**] 02:39 AM 70.[**Telephone/Fax (5) 719**] mL/hour
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition:ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - [**Doctor First Name **] placed strong dobhoff, started TFs
+   - was not responding to lasix, tried higher doses to 160 mg iv,
+   chlorothiazide + metolazone; wrote for albumin (thought he was getting
+   it already but he wasn't)
+   - couldn't lie flat and dropped sats to 80s when supine so didn't get
+   CT
+   - had delerium overnight, was calling for his mother and father
+   - [**Name (NI) **] 7.23/76 this a.m. -> abg
+   - told me and nurse that he didn't want the treatments/needle sticks,
+   instead wanted to be made comfortable, ""let me go."", understand that
+   this would mean that he would die, was appropriate and A/O to person,
+   year, ~location (rehab),
+ PICC LINE - START [**2106-1-27**] 08:19 AM
+ BLOOD CULTURED - At [**2106-1-27**] 06:00 PM
+   X1
+ BLOOD CULTURED - At [**2106-1-28**] 01:30 AM
+   X1
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Furosemide (Lasix) - 10 mg/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2106-1-28**] 06:26 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-28**] 07:31 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36
+C (96.8
+   Tcurrent: 35.4
+C (95.8
+   HR: 96 (70 - 102) bpm
+   BP: 109/53(66) {100/50(64) - 134/67(84)} mmHg
+   RR: 24 (20 - 35) insp/min
+   SpO2: 99%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,684 mL
+                                                                  1,035 mL
+   PO:
+           TF:
+           75 mL
+   IVF:
+                                                                  1,306 mL
+                                                                    150 mL
+   Blood products:
+   100 mL
+   Total out:
+                                                                    935 mL
+                                                                    230 mL
+   Urine:
+                                                                    935 mL
+                                                                    230 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,749 mL
+                                                                    805 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 99%
+   ABG: 7.25/71/104/26/0
+   PaO2 / FiO2: 208
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   220 K/uL
+   9.4 g/dL
+   126 mg/dL
+   3.4 mg/dL
+   26 mEq/L
+   4.5 mEq/L
+   117 mg/dL
+   103 mEq/L
+   140 mEq/L
+   28.3 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+   WBC
+   8.1
+   Hct
+   28.3
+   Plt
+   220
+   Cr
+   3.4
+   TCO2
+   33
+   33
+   Glucose
+   126
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.3 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+ RESPIRATORY FAILURE, ACUTE (NOT ARDS/[**Doctor Last Name 2**])
+ HEART FAILURE (CHF), SYSTOLIC AND DIASTOLIC, ACUTE ON CHRONIC
+ COAGULOPATHY
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ IMPAIRED SKIN INTEGRITY
+   ICU Care
+   Nutrition:
+   NovaSource Renal (Full) - [**2106-1-28**] 12:00 AM 10 mL/hour
+   TPN without Lipids - [**2106-1-28**] 02:39 AM 70.[**Telephone/Fax (5) 719**] mL/hour
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition:ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient's condition remains critical. The patient has acute respiratory failure, acute heart failure, and coagulopathy. The patient's blood cultures have been sent, and the results are pending.
+
+The patient's vital signs are as follows:
+
+* Temperature: 36°C (96.8°F)
+* Heart rate: 96 beats per minute
+* Blood pressure: 109/53 mmHg
+* Respiratory rate: 24 breaths per minute
+* Oxygen saturation: 99%
+* Heart rhythm: Atrial fibrillation
+
+The patient's laboratory results show:
+
+* White blood cell count: 8.1 K/uL
+* Hematocrit: 28.3%
+* Platelet count: 220 K/uL
+* Creatinine: 3.4 mg/dL
+* Blood urea nitrogen: 117 mg/dL
+* Electrolytes: sodium 140 mEq/L, potassium 4.5 mEq/L, chloride 103 mEq/L, and bicarbonate 26 mEq/L
+
+The patient's fluid balance is as follows:
+
+* Total input: 2,684 mL
+* Total output: 935 mL
+* Urine output: 935 mL
+* NG tube output: 230 mL
+
+The patient's respiratory support includes oxygen delivery through a face tent, with an SpO2 of 99%. The patient's ABG results show a pH of 7.25, partial pressure of oxygen (PaO2) of 104 mmHg, partial pressure of carbon dioxide (PaCO2) of 26 mmHg, and bicarbonate (HCO3-) of 0 mmol/L.
+
+The patient's physical examination is limited due to their critical condition, but the following findings were noted:
+
+* Peripheral vascular: Right radial pulse, left radial pulse, right DP pulse, and left DP pulse were not assessed.
+* Skin: Not assessed.
+* Neurologic: Responds to stimuli, movement, and tone were not assessed.
+
+The patient has a PICC line in place, and blood cultures were sent on January 27 and 28. The patient has a code status of DNR/DNI and is currently in the ICU.
+
+Potential medical complications that can arise include:
+
+* Sepsis and septic shock due to the patient's coagulopathy and C. difficile infection.
+* Respiratory failure and ventilator-associated pneumonia due to the patient's acute respiratory failure.
+* Heart failure and cardiac arrhythmias due to the patient's acute heart failure.
+* Gastrointestinal bleeding due to the patient's coagulopathy and C. difficile infection.
+* Impaired skin integrity and pressure ulcers due to the patient's immobility and poor nutritional status.
+* Malnutrition and electrolyte imbalances due to the patient's inadequate nutrition and fluid balance.
+
+It is essential to monitor the patient's condition closely and adjust their treatment plan accordingly to prevent these potential complications and improve their overall outcome."
+171250.0,217680,2106-01-28 07:33:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - [**Doctor First Name **] placed strong dobhoff, started TFs
+   - was not responding to lasix, tried higher doses to 160 mg iv,
+   chlorothiazide + metolazone; wrote for albumin (thought he was getting
+   it already but he wasn't)
+   - couldn't lie flat and dropped sats to 80s when supine so didn't get
+   CT
+   - had delerium overnight, was calling for his mother and father
+   - [**Name (NI) **] 7.23/76 this a.m. -> abg
+   - told me and nurse that he didn't want the treatments/needle sticks,
+   instead wanted to be made comfortable, ""let me go."", understand that
+   this would mean that he would die, was appropriate and A/O to person,
+   year, ~location (rehab),
+ PICC LINE - START [**2106-1-27**] 08:19 AM
+ BLOOD CULTURED - At [**2106-1-27**] 06:00 PM
+   X1
+ BLOOD CULTURED - At [**2106-1-28**] 01:30 AM
+   X1
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Furosemide (Lasix) - 10 mg/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2106-1-28**] 06:26 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-28**] 07:31 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36
+C (96.8
+   Tcurrent: 35.4
+C (95.8
+   HR: 96 (70 - 102) bpm
+   BP: 109/53(66) {100/50(64) - 134/67(84)} mmHg
+   RR: 24 (20 - 35) insp/min
+   SpO2: 99%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,684 mL
+                                                                  1,035 mL
+   PO:
+           TF:
+           75 mL
+   IVF:
+                                                                  1,306 mL
+                                                                    150 mL
+   Blood products:
+   100 mL
+   Total out:
+                                                                    935 mL
+                                                                    230 mL
+   Urine:
+                                                                    935 mL
+                                                                    230 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,749 mL
+                                                                    805 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 99%
+   ABG: 7.25/71/104/26/0
+   PaO2 / FiO2: 208
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   220 K/uL
+   9.4 g/dL
+   126 mg/dL
+   3.4 mg/dL
+   26 mEq/L
+   4.5 mEq/L
+   117 mg/dL
+   103 mEq/L
+   140 mEq/L
+   28.3 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+   WBC
+   8.1
+   Hct
+   28.3
+   Plt
+   220
+   Cr
+   3.4
+   TCO2
+   33
+   33
+   Glucose
+   126
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.3 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   77 yo male dCHF, CAD s/p CABG, afib, CKD4, coagulopathy (factor V
+   inhibitor) who has had a protracted hospital course and is now being
+   transferred to the MICU for altered mental status and concern for
+   hypercarbic respiratory failure
+   # Altered Mental Status: patient was initially found significantly
+   somnolent, almost obtunded and responding only to sternal rub. He was
+   initially found to be markedly hypoxic when his oxygen was taken off.
+   Possible causes include hypoxia, hypercarbia, infection, uremia or
+   ICH.  His mental status has improved throughout the morning without any
+   intervention except replacing his O2.  Hypernatremia may also be
+   contributing as well
+   - will repeat ABG, if still significantly hypercarbic, can consider
+   placement on BiPAP to help correct the hypercarbia partially, though he
+   is DNI
+   - will check UA/culture and blood culture for r/o infection
+   - family does not want to pursue HD; can attempt to continue diuresis
+   gently given his effusions, though he appears intravascularly volume
+   deplete at this time.
+   - continue nasal cannula- maintain O2>95%
+   - will hold off on CT head currently; no focal neuro deficits noted on
+   exam and mental status has improved.
+   - will give 1L D5W over 10 hrs with repeat Na check this evening
+   # Acute on Chronic Diastolic HF: patient with significant edema,
+   pleural effusions, but possibly intravascularly volume deplete.
+   - will give furosemide 40 mg IV BID for goal -500cc/-1L; will start
+   albumumin 25 gm Q8H to help with diuresis as well.  Also will add
+   metalozone
+   - per cards, can consider cardiac CT looking for restrictive process,
+   though not necessarily indicated at this time
+   # Coagulopathy: based on labs from OSH, likely have Factor V
+   inhibitor.  Epistaxis now resolved.  Patient being followed by
+   hematology here, repeat Factor V inhibitor pending.  No clear reason
+   why patient should have developed this- usually associated with surgery
+   (particuarly cardiac) but patient's CABG was >6 months ago.  Also,
+   associated with underlying malignancy as well, though no clear
+   malignancy at this time.
+   - f/u  heme recs
+   - will continue to give Vitamin K for goal INR<2 though unlikely to
+   make any benefit given the reason for his coagulopathy.
+   # Hypoxia: persistent O2 requirement, likely component of pleural
+   effusion vs volume overload.  No obvious PNA on CXR.  although PE is
+   possible, with patient's elevated INR this is unlikely and we could not
+   anticoagulate anyway
+   - continue diuresis as above
+   - maintain nasal cannula for sat >95%
+   # Epistaxis: stable.  ENT has signed off
+   # Paroxsymal Afib: currently rate controlled.  not on anticoagulation
+   given coagulatopathy
+   - cont metoprolol and diltiazem at current dose for rate control
+   # C.Diff: C-diff positive at OSH. Diarrhea appears to have improved.
+   - cont PO vanco 250 for 2wks after d/c of cefazolin (last day [**2-6**])
+   - cont metamucil for bulking
+   # CAD: Hx of CABG, no evidence of active issue
+   - cont lipitor, BB.
+   - holding ASA in setting of epistaxis.
+ RESPIRATORY FAILURE, ACUTE (NOT ARDS/[**Doctor Last Name 2**])
+ HEART FAILURE (CHF), SYSTOLIC AND DIASTOLIC, ACUTE ON CHRONIC
+ COAGULOPATHY
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ IMPAIRED SKIN INTEGRITY
+   ICU Care
+   Nutrition:
+   NovaSource Renal (Full) - [**2106-1-28**] 12:00 AM 10 mL/hour
+   TPN without Lipids - [**2106-1-28**] 02:39 AM 70.[**Telephone/Fax (5) 719**] mL/hour
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition:ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - [**Doctor First Name **] placed strong dobhoff, started TFs
+   - was not responding to lasix, tried higher doses to 160 mg iv,
+   chlorothiazide + metolazone; wrote for albumin (thought he was getting
+   it already but he wasn't)
+   - couldn't lie flat and dropped sats to 80s when supine so didn't get
+   CT
+   - had delerium overnight, was calling for his mother and father
+   - [**Name (NI) **] 7.23/76 this a.m. -> abg
+   - told me and nurse that he didn't want the treatments/needle sticks,
+   instead wanted to be made comfortable, ""let me go."", understand that
+   this would mean that he would die, was appropriate and A/O to person,
+   year, ~location (rehab),
+ PICC LINE - START [**2106-1-27**] 08:19 AM
+ BLOOD CULTURED - At [**2106-1-27**] 06:00 PM
+   X1
+ BLOOD CULTURED - At [**2106-1-28**] 01:30 AM
+   X1
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Furosemide (Lasix) - 10 mg/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2106-1-28**] 06:26 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-28**] 07:31 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36
+C (96.8
+   Tcurrent: 35.4
+C (95.8
+   HR: 96 (70 - 102) bpm
+   BP: 109/53(66) {100/50(64) - 134/67(84)} mmHg
+   RR: 24 (20 - 35) insp/min
+   SpO2: 99%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,684 mL
+                                                                  1,035 mL
+   PO:
+           TF:
+           75 mL
+   IVF:
+                                                                  1,306 mL
+                                                                    150 mL
+   Blood products:
+   100 mL
+   Total out:
+                                                                    935 mL
+                                                                    230 mL
+   Urine:
+                                                                    935 mL
+                                                                    230 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,749 mL
+                                                                    805 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 99%
+   ABG: 7.25/71/104/26/0
+   PaO2 / FiO2: 208
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   220 K/uL
+   9.4 g/dL
+   126 mg/dL
+   3.4 mg/dL
+   26 mEq/L
+   4.5 mEq/L
+   117 mg/dL
+   103 mEq/L
+   140 mEq/L
+   28.3 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+   WBC
+   8.1
+   Hct
+   28.3
+   Plt
+   220
+   Cr
+   3.4
+   TCO2
+   33
+   33
+   Glucose
+   126
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.3 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   77 yo male dCHF, CAD s/p CABG, afib, CKD4, coagulopathy (factor V
+   inhibitor) who has had a protracted hospital course and is now being
+   transferred to the MICU for altered mental status and concern for
+   hypercarbic respiratory failure
+   # Altered Mental Status: patient was initially found significantly
+   somnolent, almost obtunded and responding only to sternal rub. He was
+   initially found to be markedly hypoxic when his oxygen was taken off.
+   Possible causes include hypoxia, hypercarbia, infection, uremia or
+   ICH.  His mental status has improved throughout the morning without any
+   intervention except replacing his O2.  Hypernatremia may also be
+   contributing as well
+   - will repeat ABG, if still significantly hypercarbic, can consider
+   placement on BiPAP to help correct the hypercarbia partially, though he
+   is DNI
+   - will check UA/culture and blood culture for r/o infection
+   - family does not want to pursue HD; can attempt to continue diuresis
+   gently given his effusions, though he appears intravascularly volume
+   deplete at this time.
+   - continue nasal cannula- maintain O2>95%
+   - will hold off on CT head currently; no focal neuro deficits noted on
+   exam and mental status has improved.
+   - will give 1L D5W over 10 hrs with repeat Na check this evening
+   # Acute on Chronic Diastolic HF: patient with significant edema,
+   pleural effusions, but possibly intravascularly volume deplete.
+   - will give furosemide 40 mg IV BID for goal -500cc/-1L; will start
+   albumumin 25 gm Q8H to help with diuresis as well.  Also will add
+   metalozone
+   - per cards, can consider cardiac CT looking for restrictive process,
+   though not necessarily indicated at this time
+   # Coagulopathy: based on labs from OSH, likely have Factor V
+   inhibitor.  Epistaxis now resolved.  Patient being followed by
+   hematology here, repeat Factor V inhibitor pending.  No clear reason
+   why patient should have developed this- usually associated with surgery
+   (particuarly cardiac) but patient's CABG was >6 months ago.  Also,
+   associated with underlying malignancy as well, though no clear
+   malignancy at this time.
+   - f/u  heme recs
+   - will continue to give Vitamin K for goal INR<2 though unlikely to
+   make any benefit given the reason for his coagulopathy.
+   # Hypoxia: persistent O2 requirement, likely component of pleural
+   effusion vs volume overload.  No obvious PNA on CXR.  although PE is
+   possible, with patient's elevated INR this is unlikely and we could not
+   anticoagulate anyway
+   - continue diuresis as above
+   - maintain nasal cannula for sat >95%
+   # Epistaxis: stable.  ENT has signed off
+   # Paroxsymal Afib: currently rate controlled.  not on anticoagulation
+   given coagulatopathy
+   - cont metoprolol and diltiazem at current dose for rate control
+   # C.Diff: C-diff positive at OSH. Diarrhea appears to have improved.
+   - cont PO vanco 250 for 2wks after d/c of cefazolin (last day [**2-6**])
+   - cont metamucil for bulking
+   # CAD: Hx of CABG, no evidence of active issue
+   - cont lipitor, BB.
+   - holding ASA in setting of epistaxis.
+ RESPIRATORY FAILURE, ACUTE (NOT ARDS/[**Doctor Last Name 2**])
+ HEART FAILURE (CHF), SYSTOLIC AND DIASTOLIC, ACUTE ON CHRONIC
+ COAGULOPATHY
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ IMPAIRED SKIN INTEGRITY
+   ICU Care
+   Nutrition:
+   NovaSource Renal (Full) - [**2106-1-28**] 12:00 AM 10 mL/hour
+   TPN without Lipids - [**2106-1-28**] 02:39 AM 70.[**Telephone/Fax (5) 719**] mL/hour
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition:ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the progress note, the patient is a 77-year-old male with a complex medical history, including chronic heart failure, coronary artery disease, atrial fibrillation, chronic kidney disease, and a coagulopathy due to a factor V inhibitor.
+
+The patient's current condition is marked by altered mental status, likely due to hypercarbia, hypoxia, infection, uremia, or ICH. His mental status has improved with oxygen replacement, and hypernatremia may also be contributing.
+
+The patient has acute diastolic heart failure, with significant edema and pleural effusions, but possibly intravascularly volume deplete. He is being treated with diuretics and albumin to help with diuresis.
+
+The patient has a coagulopathy due to a factor V inhibitor, which is being followed by hematology. He is at risk for bleeding, and his international normalized ratio (INR) is elevated.
+
+The patient has persistent hypoxia, likely due to pleural effusion or volume overload, and is being treated with nasal cannula oxygen.
+
+The patient has a history of C. difficile infection, which appears to have improved with treatment.
+
+Potential medical complications that can arise from the patient's current condition include:
+
+1. Worsening of hypercarbia and hypoxia, leading to respiratory failure.
+2. Progression of coagulopathy, leading to bleeding.
+3. Development of sepsis or septic shock due to underlying infection.
+4. Worsening of heart failure, leading to cardiogenic shock.
+5. Development of acute kidney injury due to volume overload or hypotension.
+6. Development of skin breakdown or pressure ulcers due to impaired skin integrity.
+7. Development of gastrointestinal bleeding due to coagulopathy.
+
+Based on the patient's current condition and potential complications, the following plan should be considered:
+
+1. Continue to monitor the patient's oxygen saturation and adjust oxygen therapy as needed.
+2. Continue to monitor the patient's coagulopathy and adjust anticoagulation therapy as needed.
+3. Continue to monitor the patient's kidney function and adjust diuretic therapy as needed.
+4. Continue to monitor the patient's skin integrity and adjust pressure ulcer prevention measures as needed.
+5. Consider placement on BiPAP therapy to help correct hypercarbia.
+6. Consider repeating CT head to rule out ICH or other causes of altered mental status.
+7. Consider repeat Factor V inhibitor testing to monitor for progression of coagulopathy."
+171250.0,217680,2106-01-28 07:57:00,Physician ,Physician Attending Progress Note,"Chief Complaint: hypercarbic respiratory failure
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   77 yo man with CABG [**5-16**] complicated by acquired factor V deficiency,
+   severe diastolic CHF, admitted with recurrent infections, malnutrition,
+   C. difficile colitis. Transferred to ICU [**2105-1-27**] for hypercarbic
+   respiratory failure in the setting of receiving ativan.
+   24 Hour Events:
+   -more somnolent this morning, ABG with worsening hypercarbia
+   -patient requesting to be CMO yesterday
+   -unable to diurese despite lasix drip, diuril, metolazone
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Furosemide (Lasix) - 10 mg/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2106-1-28**] 06:26 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-28**] 07:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36
+C (96.8
+   Tcurrent: 35.4
+C (95.8
+   HR: 96 (70 - 102) bpm
+   BP: 109/53(66) {100/50(64) - 134/67(84)} mmHg
+   RR: 24 (20 - 35) insp/min
+   SpO2: 99%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,684 mL
+                                                                  1,077 mL
+   PO:
+           TF:
+           79 mL
+   IVF:
+                                                                  1,306 mL
+                                                                    158 mL
+   Blood products:
+   100 mL
+   Total out:
+                                                                    935 mL
+                                                                    230 mL
+   Urine:
+                                                                    935 mL
+                                                                    230 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,749 mL
+                                                                    847 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 99%
+   ABG: 7.25/71/104/26/0
+   PaO2 / FiO2: 208
+   Physical Examination
+   General Appearance: Thin, bitemporal wasting
+   Eyes / Conjunctiva: PERRL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Breath Sounds: Diminished: at bases)
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right lower extremity edema: 3+, Left lower extremity
+   edema: 3+
+   Skin:  Not assessed
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): self,
+   place (rehab), Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   9.4 g/dL
+   220 K/uL
+   126 mg/dL
+   3.4 mg/dL
+   26 mEq/L
+   4.5 mEq/L
+   117 mg/dL
+   103 mEq/L
+   140 mEq/L
+   28.3 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+   WBC
+   8.1
+   Hct
+   28.3
+   Plt
+   220
+   Cr
+   3.4
+   TCO2
+   33
+   33
+   Glucose
+   126
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.3 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   #worsening hypercarbia
+   -patient did not receive any sedatives overnight
+   -increase lasix drip to maximum dose, continue diuril and metolazone,
+   continue SPA
+   -switch all medications to oral to minimize intake
+   -discuss with family a thoracentesis-which would be a risky procedure
+   given his coagulopathy and difficulty correcting with FFP
+   -continue BiPAP for now
+   #altered mental status
+   -likely in setting of hypercarbia which is likely exacerbated by ativan
+   administration. Delirium likely a component
+   -avoid opiates and benzodiazepines unless patient is made CMO
+   -receiving vitamin supplementation
+   #severe diastolic CHF
+   -will need aggressive diuresis but we are having difficulty using
+   diuretics given his acute on chronic renal failure
+   -inotropes not useful in the setting of diastolic heart failure
+   -will discuss with renal if we are able to ultrafiltrate through
+   peripheral large bore access
+   -continue diltiazem and metoprolol
+   #acute on chronic renal failure
+   -may be in setting of poor forward flow
+   #acquired factor V deficiency
+   -factor V levels improving
+    -change Vitamin K to enteral
+   #malnutrition
+   -stop TPN given large fluid intake
+   # C. difficile colitis
+   -on oral vancomycin
+   #dirty UA
+   -empiric levaquin enterally while awaiting cultures
+   ICU Care
+   Nutrition:
+   NovaSource Renal (Full) - [**2106-1-28**] 12:00 AM 10 mL/hour
+   TPN without Lipids - [**2106-1-28**] 02:39 AM 70.[**Telephone/Fax (5) 719**] mL/hour
+   Glycemic Control:  RISS
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT: SCDs
+   Stress ulcer: will need PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI.  Family discussion ongoing.
+   Disposition : ICU
+   Total time spent:
+   ------ Protected Section ------
+   I have seen and examined the patient and agree with assessment and plan
+   as above with the following modifications/emphasis:
+   Overnight, urine output decreased and creatinine rising.  Respiratory
+   pattern worsening with hypercarbia on ABG
+   Vitals as above
+   Gen: Cachetic, tachyapneic
+   Chest: crackles
+   Heart: S1 S2 reg
+   Abd: soft NT ND
+   Ext: +2 edema
+   Labs as above
+   Assessment:
+   1)       Respiratory Failure
+ hypercarbic
+   2)       Renal Failure
+   3)       Heart Failure
+   4)       Pleural Effusions
+   Disussion/Plan: I had a long discussion with family today about current
+   condition and options for treatment.  In short, I believe that
+   medically we could attempt hemodialysis and also thoracentesis to see
+   if that will reverse the respiratory decompensation while maintaining
+   patient on bipap.  The family has already discussed code status that is
+   DNR/DNI and do not wish that to change.  Moreover, after discussing the
+   next medical options and considering his long and steady decline since
+   last summer with recurrent infections, worsening nutrition, and
+   multiple organ injury, they would like to pursue a pathway of comfort
+   care and related they believe the patient would want this path if he
+   were able to make his own decision.  We will not escalate care and the
+   patient
+s daughter is arriving tomorrow so we will continue bipap for
+   now.  After the daughter arrives, will move toward comfort care.
+   Time Spent: 35 minutes
+   ------ Protected Section Addendum Entered By:[**Name (NI) **] [**Last Name (NamePattern1) 402**], MD
+   on:[**2106-1-28**] 07:02 PM ------
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: hypercarbic respiratory failure
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   77 yo man with CABG [**5-16**] complicated by acquired factor V deficiency,
+   severe diastolic CHF, admitted with recurrent infections, malnutrition,
+   C. difficile colitis. Transferred to ICU [**2105-1-27**] for hypercarbic
+   respiratory failure in the setting of receiving ativan.
+   24 Hour Events:
+   -more somnolent this morning, ABG with worsening hypercarbia
+   -patient requesting to be CMO yesterday
+   -unable to diurese despite lasix drip, diuril, metolazone
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Furosemide (Lasix) - 10 mg/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2106-1-28**] 06:26 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-28**] 07:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36
+C (96.8
+   Tcurrent: 35.4
+C (95.8
+   HR: 96 (70 - 102) bpm
+   BP: 109/53(66) {100/50(64) - 134/67(84)} mmHg
+   RR: 24 (20 - 35) insp/min
+   SpO2: 99%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,684 mL
+                                                                  1,077 mL
+   PO:
+           TF:
+           79 mL
+   IVF:
+                                                                  1,306 mL
+                                                                    158 mL
+   Blood products:
+   100 mL
+   Total out:
+                                                                    935 mL
+                                                                    230 mL
+   Urine:
+                                                                    935 mL
+                                                                    230 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,749 mL
+                                                                    847 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 99%
+   ABG: 7.25/71/104/26/0
+   PaO2 / FiO2: 208
+   Physical Examination
+   General Appearance: Thin, bitemporal wasting
+   Eyes / Conjunctiva: PERRL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Breath Sounds: Diminished: at bases)
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right lower extremity edema: 3+, Left lower extremity
+   edema: 3+
+   Skin:  Not assessed
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): self,
+   place (rehab), Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   9.4 g/dL
+   220 K/uL
+   126 mg/dL
+   3.4 mg/dL
+   26 mEq/L
+   4.5 mEq/L
+   117 mg/dL
+   103 mEq/L
+   140 mEq/L
+   28.3 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+   WBC
+   8.1
+   Hct
+   28.3
+   Plt
+   220
+   Cr
+   3.4
+   TCO2
+   33
+   33
+   Glucose
+   126
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.3 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   #worsening hypercarbia
+   -patient did not receive any sedatives overnight
+   -increase lasix drip to maximum dose, continue diuril and metolazone,
+   continue SPA
+   -switch all medications to oral to minimize intake
+   -discuss with family a thoracentesis-which would be a risky procedure
+   given his coagulopathy and difficulty correcting with FFP
+   -continue BiPAP for now
+   #altered mental status
+   -likely in setting of hypercarbia which is likely exacerbated by ativan
+   administration. Delirium likely a component
+   -avoid opiates and benzodiazepines unless patient is made CMO
+   -receiving vitamin supplementation
+   #severe diastolic CHF
+   -will need aggressive diuresis but we are having difficulty using
+   diuretics given his acute on chronic renal failure
+   -inotropes not useful in the setting of diastolic heart failure
+   -will discuss with renal if we are able to ultrafiltrate through
+   peripheral large bore access
+   -continue diltiazem and metoprolol
+   #acute on chronic renal failure
+   -may be in setting of poor forward flow
+   #acquired factor V deficiency
+   -factor V levels improving
+    -change Vitamin K to enteral
+   #malnutrition
+   -stop TPN given large fluid intake
+   # C. difficile colitis
+   -on oral vancomycin
+   #dirty UA
+   -empiric levaquin enterally while awaiting cultures
+   ICU Care
+   Nutrition:
+   NovaSource Renal (Full) - [**2106-1-28**] 12:00 AM 10 mL/hour
+   TPN without Lipids - [**2106-1-28**] 02:39 AM 70.[**Telephone/Fax (5) 719**] mL/hour
+   Glycemic Control:  RISS
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT: SCDs
+   Stress ulcer: will need PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI.  Family discussion ongoing.
+   Disposition : ICU
+   Total time spent:
+   ------ Protected Section ------
+   I have seen and examined the patient and agree with assessment and plan
+   as above with the following modifications/emphasis:
+   Overnight, urine output decreased and creatinine rising.  Respiratory
+   pattern worsening with hypercarbia on ABG
+   Vitals as above
+   Gen: Cachetic, tachyapneic
+   Chest: crackles
+   Heart: S1 S2 reg
+   Abd: soft NT ND
+   Ext: +2 edema
+   Labs as above
+   Assessment:
+   1)       Respiratory Failure
+ hypercarbic
+   2)       Renal Failure
+   3)       Heart Failure
+   4)       Pleural Effusions
+   Disussion/Plan: I had a long discussion with family today about current
+   condition and options for treatment.  In short, I believe that
+   medically we could attempt hemodialysis and also thoracentesis to see
+   if that will reverse the respiratory decompensation while maintaining
+   patient on bipap.  The family has already discussed code status that is
+   DNR/DNI and do not wish that to change.  Moreover, after discussing the
+   next medical options and considering his long and steady decline since
+   last summer with recurrent infections, worsening nutrition, and
+   multiple organ injury, they would like to pursue a pathway of comfort
+   care and related they believe the patient would want this path if he
+   were able to make his own decision.  We will not escalate care and the
+   patient
+s daughter is arriving tomorrow so we will continue bipap for
+   now.  After the daughter arrives, will move toward comfort care.
+   Time Spent: 35 minutes
+   ------ Protected Section Addendum Entered By:[**Name (NI) **] [**Last Name (NamePattern1) 402**], MD
+   on:[**2106-1-28**] 07:02 PM ------<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 77-year-old man with a complex medical history, including CABG, acquired factor V deficiency, severe diastolic CHF, recurrent infections, malnutrition, and C. difficile colitis. He was admitted to the ICU for hypercarbic respiratory failure in the setting of receiving Ativan.
+
+The patient's current condition is characterized by:
+
+1. Worsening hypercarbia, with an ABG result of 7.25/71/104/26/0, indicating a severe respiratory acidosis.
+2. Altered mental status, likely exacerbated by Ativan administration and hypercarbia.
+3. Severe diastolic CHF, with difficulty correcting with FFP due to coagulopathy.
+4. Acute on chronic renal failure, with poor forward flow and difficulty using diuretics.
+5. Acquired factor V deficiency, with improving factor V levels.
+6. Malnutrition, with a history of TPN and large fluid intake.
+7. C. difficile colitis, treated with oral vancomycin.
+8. Dirty urine, with empiric levaquin treatment.
+
+The patient's vital signs are:
+
+* Temperature: 35.4°C (95.8°F)
+* Heart rate: 96 bpm (normal range: 70-102 bpm)
+* Blood pressure: 109/53 mmHg (normal range: 100-134/50-67 mmHg)
+* Respiratory rate: 24 inspirations per minute (normal range: 20-35 inspirations per minute)
+* SpO2: 99%
+* Heart rhythm: Atrial fibrillation
+
+The patient's physical examination reveals:
+
+* General appearance: Thin, bitemporal wasting
+* Cardiovascular: Normal S1 and S2 sounds
+* Respiratory/Chest: Diminished breath sounds at the bases
+* Abdominal: Soft, non-tender, with bowel sounds present
+* Extremities: Right lower extremity edema (3+), Left lower extremity edema (3+)
+* Skin: Not assessed
+* Neurologic: Attentive, responds to self and place, but not assessed further
+
+The patient's laboratory results show:
+
+* Hemoglobin: 9.4 g/dL
+* White blood cell count: 8.1 K/uL
+* Platelet count: 220 K/uL
+* Creatinine: 3.4 mg/dL
+* Total CO2: 33 mmHg
+* Glucose: 126 mg/dL
+* Other lab results: PT/PTT/INR: 44.7/72.0/4.8, Lactic acid: 0.6 mmol/L, Ca++: 8.9 mg/dL, Mg++: 2.3 mg/dL, PO4: 4.4 mg/dL
+
+The patient's plan of care includes:
+
+* Increasing the lasix drip to maximum dose and continuing diuril and metolazone
+* Switching all medications to oral to minimize intake
+* Discussing a thoracentesis, which would be a risky procedure given the patient's coagulopathy and difficulty correcting with FFP
+* Continuing BiPAP for now
+* Avoiding opiates and benzodiazepines unless the patient is made CMO
+* Receiving vitamin supplementation
+* Discussing with renal if we are able to ultrafiltrate through peripheral large bore access
+* Continuing diltiazem and metoprolol
+* Stopping TPN due to large fluid intake
+* Continuing oral vancomycin for C. difficile colitis
+* Empiric levaquin treatment for dirty urine
+
+The patient's family has discussed code status and wishes to pursue a pathway of comfort care, with the patient's daughter arriving tomorrow to make the final decision. The patient's current condition and options for treatment will be discussed further with the family."
+171250.0,217680,2106-01-28 07:57:00,Physician ,Physician Attending Progress Note,"Chief Complaint: hypercarbic respiratory failure
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   77 yo man with CABG [**5-16**] complicated by acquired factor V deficiency,
+   severe diastolic CHF, admitted with recurrent infections, malnutrition,
+   C. difficile colitis. Transferred to ICU [**2105-1-27**] for hypercarbic
+   respiratory failure in the setting of receiving ativan.
+   24 Hour Events:
+ PICC LINE - START [**2106-1-27**] 08:19 AM
+ BLOOD CULTURED - At [**2106-1-27**] 06:00 PM
+   X1
+ BLOOD CULTURED - At [**2106-1-28**] 01:30 AM
+   X1
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Furosemide (Lasix) - 10 mg/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2106-1-28**] 06:26 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-28**] 07:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36
+C (96.8
+   Tcurrent: 35.4
+C (95.8
+   HR: 96 (70 - 102) bpm
+   BP: 109/53(66) {100/50(64) - 134/67(84)} mmHg
+   RR: 24 (20 - 35) insp/min
+   SpO2: 99%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,684 mL
+                                                                  1,077 mL
+   PO:
+           TF:
+           79 mL
+   IVF:
+                                                                  1,306 mL
+                                                                    158 mL
+   Blood products:
+   100 mL
+   Total out:
+                                                                    935 mL
+                                                                    230 mL
+   Urine:
+                                                                    935 mL
+                                                                    230 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,749 mL
+                                                                    847 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 99%
+   ABG: 7.25/71/104/26/0
+   PaO2 / FiO2: 208
+   Physical Examination
+   General Appearance: Thin, bitemporal wasting
+   Eyes / Conjunctiva: PERRL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Breath Sounds: Diminished: at bases)
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right lower extremity edema: 3+, Left lower extremity
+   edema: 3+
+   Skin:  Not assessed
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): self,
+   place (rehab), Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   9.4 g/dL
+   220 K/uL
+   126 mg/dL
+   3.4 mg/dL
+   26 mEq/L
+   4.5 mEq/L
+   117 mg/dL
+   103 mEq/L
+   140 mEq/L
+   28.3 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+   WBC
+   8.1
+   Hct
+   28.3
+   Plt
+   220
+   Cr
+   3.4
+   TCO2
+   33
+   33
+   Glucose
+   126
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.3 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   #altered mental status
+   -likely in setting of hypercarbia which is likely exacerbated by ativan
+   administration
+   -large bilateral pleural effusions leads to additional restrictive lung
+   disease which may exacerbate situation
+   -avoid all sedative, haldol if needed for agitation
+   -given that patient
+s mental status now back to baseline (according to
+   his wife) will hold on repeat head CT as no history of fall with head
+   trauma
+   #acute on chronic renal failure
+   -may be in setting of poor forward flow
+   #diastolic heart failure
+   -albumin 2.6 on last check but total body overloaded
+   -unsuccessful diuresis attempts on the floor
+   -continue lasix with metolazone (given hypernatremia) as well as 25%
+   albumin q8hr
+   -on diltiazem and metoprolol
+   #acquired factor V deficiency
+   -hematology following
+   -FFP and Vitamin K not correcting his coagulopathy
+   #malnutrition
+   -on TPN currently
+   -unable to place NGT due to coagulopathy and prior severe epistaxis
+   -will send patient for CT torso without oral and IV contrast
+   # C. difficile colitis
+   -on oral vancomycin
+   ICU Care
+   Nutrition:
+   NovaSource Renal (Full) - [**2106-1-28**] 12:00 AM 10 mL/hour
+   TPN without Lipids - [**2106-1-28**] 02:39 AM 70.[**Telephone/Fax (5) 719**] mL/hour
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition :
+   Total time spent:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: hypercarbic respiratory failure
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   77 yo man with CABG [**5-16**] complicated by acquired factor V deficiency,
+   severe diastolic CHF, admitted with recurrent infections, malnutrition,
+   C. difficile colitis. Transferred to ICU [**2105-1-27**] for hypercarbic
+   respiratory failure in the setting of receiving ativan.
+   24 Hour Events:
+ PICC LINE - START [**2106-1-27**] 08:19 AM
+ BLOOD CULTURED - At [**2106-1-27**] 06:00 PM
+   X1
+ BLOOD CULTURED - At [**2106-1-28**] 01:30 AM
+   X1
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Furosemide (Lasix) - 10 mg/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2106-1-28**] 06:26 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-28**] 07:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36
+C (96.8
+   Tcurrent: 35.4
+C (95.8
+   HR: 96 (70 - 102) bpm
+   BP: 109/53(66) {100/50(64) - 134/67(84)} mmHg
+   RR: 24 (20 - 35) insp/min
+   SpO2: 99%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,684 mL
+                                                                  1,077 mL
+   PO:
+           TF:
+           79 mL
+   IVF:
+                                                                  1,306 mL
+                                                                    158 mL
+   Blood products:
+   100 mL
+   Total out:
+                                                                    935 mL
+                                                                    230 mL
+   Urine:
+                                                                    935 mL
+                                                                    230 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,749 mL
+                                                                    847 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 99%
+   ABG: 7.25/71/104/26/0
+   PaO2 / FiO2: 208
+   Physical Examination
+   General Appearance: Thin, bitemporal wasting
+   Eyes / Conjunctiva: PERRL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Breath Sounds: Diminished: at bases)
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right lower extremity edema: 3+, Left lower extremity
+   edema: 3+
+   Skin:  Not assessed
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): self,
+   place (rehab), Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   9.4 g/dL
+   220 K/uL
+   126 mg/dL
+   3.4 mg/dL
+   26 mEq/L
+   4.5 mEq/L
+   117 mg/dL
+   103 mEq/L
+   140 mEq/L
+   28.3 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+   WBC
+   8.1
+   Hct
+   28.3
+   Plt
+   220
+   Cr
+   3.4
+   TCO2
+   33
+   33
+   Glucose
+   126
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.3 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   #altered mental status
+   -likely in setting of hypercarbia which is likely exacerbated by ativan
+   administration
+   -large bilateral pleural effusions leads to additional restrictive lung
+   disease which may exacerbate situation
+   -avoid all sedative, haldol if needed for agitation
+   -given that patient
+s mental status now back to baseline (according to
+   his wife) will hold on repeat head CT as no history of fall with head
+   trauma
+   #acute on chronic renal failure
+   -may be in setting of poor forward flow
+   #diastolic heart failure
+   -albumin 2.6 on last check but total body overloaded
+   -unsuccessful diuresis attempts on the floor
+   -continue lasix with metolazone (given hypernatremia) as well as 25%
+   albumin q8hr
+   -on diltiazem and metoprolol
+   #acquired factor V deficiency
+   -hematology following
+   -FFP and Vitamin K not correcting his coagulopathy
+   #malnutrition
+   -on TPN currently
+   -unable to place NGT due to coagulopathy and prior severe epistaxis
+   -will send patient for CT torso without oral and IV contrast
+   # C. difficile colitis
+   -on oral vancomycin
+   ICU Care
+   Nutrition:
+   NovaSource Renal (Full) - [**2106-1-28**] 12:00 AM 10 mL/hour
+   TPN without Lipids - [**2106-1-28**] 02:39 AM 70.[**Telephone/Fax (5) 719**] mL/hour
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition :
+   Total time spent:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 77-year-old man with a complex medical history, including:
+
+1. Hypercarbic respiratory failure
+2. Acquired factor V deficiency
+3. Severe diastolic CHF
+4. Recurrent infections
+5. Malnutrition
+6. C. difficile colitis
+7. Acute on chronic renal failure
+
+The patient's current condition is characterized by:
+
+* Respiratory failure with hypercarbia, likely exacerbated by Ativan administration
+* Large bilateral pleural effusions, leading to restrictive lung disease
+* Altered mental status, possibly due to hypercarbia and Ativan
+* Acute on chronic renal failure, possibly related to poor forward flow
+* Diastolic heart failure, with albumin 2.6 and hypernatremia
+* Malnutrition, with TPN currently being administered
+* C. difficile colitis, being treated with oral vancomycin
+* Acquired factor V deficiency, with FFP and Vitamin K not correcting the coagulopathy
+
+Potential medical complications that may arise include:
+
+1. Worsening respiratory failure due to hypercarbia and restrictive lung disease
+2. Increased risk of bleeding due to acquired factor V deficiency and coagulopathy
+3. Further decline in renal function, potentially leading to acute kidney injury or chronic kidney disease
+4. Complications related to C. difficile colitis, such as sepsis or toxic megacolon
+5. Malnutrition and electrolyte imbalances, potentially leading to further complications
+6. Cardiovascular instability, potentially related to diastolic heart failure and hypernatremia
+7. Neurological complications, potentially related to altered mental status and hypercarbia
+
+The patient's plan of care includes:
+
+1. Avoiding sedative medications, including Ativan, and using Haldol if necessary for agitation
+2. Continuing Lasix with metolazone and 25% albumin q8hr to manage diastolic heart failure
+3. Administering FFP and Vitamin K to correct coagulopathy
+4. Sending the patient for a CT torso without oral and IV contrast to evaluate for potential complications
+5. Continuing TPN and monitoring for malnutrition and electrolyte imbalances
+6. Managing C. difficile colitis with oral vancomycin
+7. Monitoring for signs of respiratory failure, bleeding, and cardiovascular instability."
+171250.0,217680,2106-01-28 07:57:00,Physician ,Physician Attending Progress Note,"Chief Complaint: hypercarbic respiratory failure
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   77 yo man with CABG [**5-16**] complicated by acquired factor V deficiency,
+   severe diastolic CHF, admitted with recurrent infections, malnutrition,
+   C. difficile colitis. Transferred to ICU [**2105-1-27**] for hypercarbic
+   respiratory failure in the setting of receiving ativan.
+   24 Hour Events:
+   -more somnolent this morning, ABG with worsening hypercarbia
+   -patient requesting to be CMO yesterday
+   -unable to diurese despite lasix drip, diuril, metolazone
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Furosemide (Lasix) - 10 mg/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2106-1-28**] 06:26 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-28**] 07:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36
+C (96.8
+   Tcurrent: 35.4
+C (95.8
+   HR: 96 (70 - 102) bpm
+   BP: 109/53(66) {100/50(64) - 134/67(84)} mmHg
+   RR: 24 (20 - 35) insp/min
+   SpO2: 99%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,684 mL
+                                                                  1,077 mL
+   PO:
+           TF:
+           79 mL
+   IVF:
+                                                                  1,306 mL
+                                                                    158 mL
+   Blood products:
+   100 mL
+   Total out:
+                                                                    935 mL
+                                                                    230 mL
+   Urine:
+                                                                    935 mL
+                                                                    230 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,749 mL
+                                                                    847 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 99%
+   ABG: 7.25/71/104/26/0
+   PaO2 / FiO2: 208
+   Physical Examination
+   General Appearance: Thin, bitemporal wasting
+   Eyes / Conjunctiva: PERRL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Breath Sounds: Diminished: at bases)
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right lower extremity edema: 3+, Left lower extremity
+   edema: 3+
+   Skin:  Not assessed
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): self,
+   place (rehab), Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   9.4 g/dL
+   220 K/uL
+   126 mg/dL
+   3.4 mg/dL
+   26 mEq/L
+   4.5 mEq/L
+   117 mg/dL
+   103 mEq/L
+   140 mEq/L
+   28.3 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+   WBC
+   8.1
+   Hct
+   28.3
+   Plt
+   220
+   Cr
+   3.4
+   TCO2
+   33
+   33
+   Glucose
+   126
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.3 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   #worsening hypercarbia
+   -patient did not receive any sedatives overnight
+   -increase lasix drip to maximum dose, continue diuril and metolazone,
+   continue SPA
+   -switch all medications to oral to minimize intake
+   -discuss with family a thoracentesis-which would be a risky procedure
+   given his coagulopathy and difficulty correcting with FFP
+   -continue BiPAP for now
+   #altered mental status
+   -likely in setting of hypercarbia which is likely exacerbated by ativan
+   administration. Delirium likely a component
+   -avoid opiates and benzodiazepines unless patient is made CMO
+   -receiving vitamin supplementation
+   #severe diastolic CHF
+   -will need aggressive diuresis but we are having difficulty using
+   diuretics given his acute on chronic renal failure
+   -inotropes not useful in the setting of diastolic heart failure
+   -will discuss with renal if we are able to ultrafiltrate through
+   peripheral large bore access
+   -continue diltiazem and metoprolol
+   #acute on chronic renal failure
+   -may be in setting of poor forward flow
+   #acquired factor V deficiency
+   -factor V levels improving
+    -change Vitamin K to enteral
+   #malnutrition
+   -stop TPN given large fluid intake
+   # C. difficile colitis
+   -on oral vancomycin
+   #dirty UA
+   -empiric levaquin enterally while awaiting cultures
+   ICU Care
+   Nutrition:
+   NovaSource Renal (Full) - [**2106-1-28**] 12:00 AM 10 mL/hour
+   TPN without Lipids - [**2106-1-28**] 02:39 AM 70.[**Telephone/Fax (5) 719**] mL/hour
+   Glycemic Control:  RISS
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT: SCDs
+   Stress ulcer: will need PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI.  Family discussion ongoing.
+   Disposition : ICU
+   Total time spent:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: hypercarbic respiratory failure
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   77 yo man with CABG [**5-16**] complicated by acquired factor V deficiency,
+   severe diastolic CHF, admitted with recurrent infections, malnutrition,
+   C. difficile colitis. Transferred to ICU [**2105-1-27**] for hypercarbic
+   respiratory failure in the setting of receiving ativan.
+   24 Hour Events:
+   -more somnolent this morning, ABG with worsening hypercarbia
+   -patient requesting to be CMO yesterday
+   -unable to diurese despite lasix drip, diuril, metolazone
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Furosemide (Lasix) - 10 mg/hour
+   Other ICU medications:
+   Furosemide (Lasix) - [**2106-1-28**] 06:26 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-28**] 07:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36
+C (96.8
+   Tcurrent: 35.4
+C (95.8
+   HR: 96 (70 - 102) bpm
+   BP: 109/53(66) {100/50(64) - 134/67(84)} mmHg
+   RR: 24 (20 - 35) insp/min
+   SpO2: 99%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,684 mL
+                                                                  1,077 mL
+   PO:
+           TF:
+           79 mL
+   IVF:
+                                                                  1,306 mL
+                                                                    158 mL
+   Blood products:
+   100 mL
+   Total out:
+                                                                    935 mL
+                                                                    230 mL
+   Urine:
+                                                                    935 mL
+                                                                    230 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,749 mL
+                                                                    847 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 99%
+   ABG: 7.25/71/104/26/0
+   PaO2 / FiO2: 208
+   Physical Examination
+   General Appearance: Thin, bitemporal wasting
+   Eyes / Conjunctiva: PERRL
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Breath Sounds: Diminished: at bases)
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right lower extremity edema: 3+, Left lower extremity
+   edema: 3+
+   Skin:  Not assessed
+   Neurologic: Attentive, Responds to: Not assessed, Oriented (to): self,
+   place (rehab), Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   9.4 g/dL
+   220 K/uL
+   126 mg/dL
+   3.4 mg/dL
+   26 mEq/L
+   4.5 mEq/L
+   117 mg/dL
+   103 mEq/L
+   140 mEq/L
+   28.3 %
+   8.1 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+   WBC
+   8.1
+   Hct
+   28.3
+   Plt
+   220
+   Cr
+   3.4
+   TCO2
+   33
+   33
+   Glucose
+   126
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.3 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   #worsening hypercarbia
+   -patient did not receive any sedatives overnight
+   -increase lasix drip to maximum dose, continue diuril and metolazone,
+   continue SPA
+   -switch all medications to oral to minimize intake
+   -discuss with family a thoracentesis-which would be a risky procedure
+   given his coagulopathy and difficulty correcting with FFP
+   -continue BiPAP for now
+   #altered mental status
+   -likely in setting of hypercarbia which is likely exacerbated by ativan
+   administration. Delirium likely a component
+   -avoid opiates and benzodiazepines unless patient is made CMO
+   -receiving vitamin supplementation
+   #severe diastolic CHF
+   -will need aggressive diuresis but we are having difficulty using
+   diuretics given his acute on chronic renal failure
+   -inotropes not useful in the setting of diastolic heart failure
+   -will discuss with renal if we are able to ultrafiltrate through
+   peripheral large bore access
+   -continue diltiazem and metoprolol
+   #acute on chronic renal failure
+   -may be in setting of poor forward flow
+   #acquired factor V deficiency
+   -factor V levels improving
+    -change Vitamin K to enteral
+   #malnutrition
+   -stop TPN given large fluid intake
+   # C. difficile colitis
+   -on oral vancomycin
+   #dirty UA
+   -empiric levaquin enterally while awaiting cultures
+   ICU Care
+   Nutrition:
+   NovaSource Renal (Full) - [**2106-1-28**] 12:00 AM 10 mL/hour
+   TPN without Lipids - [**2106-1-28**] 02:39 AM 70.[**Telephone/Fax (5) 719**] mL/hour
+   Glycemic Control:  RISS
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT: SCDs
+   Stress ulcer: will need PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI.  Family discussion ongoing.
+   Disposition : ICU
+   Total time spent:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old man with a complex medical history, including CABG, acquired factor V deficiency, severe diastolic CHF, recurrent infections, malnutrition, and C. difficile colitis. He was admitted to the ICU for hypercarbic respiratory failure and has been experiencing worsening hypercarbia, altered mental status, and difficulty diuresing. His labs show acute on chronic renal failure, and he has a history of malnutrition and C. difficile colitis. He is currently receiving various medications, including lasix, diuril, metolazone, and diltiazem, and is being managed with BiPAP and PCA.
+
+Potential Medical Complications:
+
+1. Respiratory failure: The patient's worsening hypercarbia and respiratory failure may lead to further respiratory compromise, requiring increased ventilatory support or even intubation.
+2. Acute kidney injury: The patient's acute on chronic renal failure may worsen, leading to further fluid overload and electrolyte imbalances.
+3. Sepsis: The patient's history of recurrent infections and C. difficile colitis may increase his risk of developing sepsis, which could lead to organ dysfunction and mortality.
+4. Cardiac complications: The patient's severe diastolic CHF may worsen, leading to further cardiac compromise, including heart failure, arrhythmias, and cardiac arrest.
+5. Bleeding complications: The patient's acquired factor V deficiency may increase his risk of bleeding, particularly with invasive procedures or anticoagulant therapy.
+6. Malnutrition: The patient's malnutrition may worsen, leading to further muscle wasting, weakness, and decreased immune function.
+7. Infection control: The patient's C. difficile colitis may not be fully controlled, leading to further gastrointestinal complications, including perforation, abscess, or sepsis.
+8. Medication-related complications: The patient's complex medication regimen may lead to adverse effects, including electrolyte imbalances, renal toxicity, or bleeding complications."
+171250.0,217680,2106-01-29 07:48:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   -- further disucssion with family regarding prognosis and goals of
+   care; they want CMO, but to try to maintain holding pattern until
+   daughter can come in at 4P on Friday
+   -- cont on BiPAP throughout the day; having signficant secretions;
+   given 0.5 of morphine and scopalamine patch overnight
+   -- BPs low, started on levophed overnight to maintain MAP>55
+   -- diuretics stopped; despite max doses, patient only made about
+   10cc/hr
+   -- TPN stopped; all IV meds transitioned to PO if possible
+ NON-INVASIVE VENTILATION - START [**2106-1-28**] 08:10 AM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Norepinephrine - 0.01 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-1-29**] 05:15 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-29**] 07:48 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36
+C (96.8
+   HR: 90 (74 - 113) bpm
+   BP: 98/64(70) {77/31(45) - 134/69(77)} mmHg
+   RR: 20 (17 - 36) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,085 mL
+                                                                    446 mL
+   PO:
+           TF:
+                                                                    280 mL
+                                                                    194 mL
+   IVF:
+                                                                    436 mL
+                                                                     93 mL
+   Blood products:
+                                                                    300 mL
+                                                                    100 mL
+   Total out:
+                                                                    347 mL
+                                                                      5 mL
+   Urine:
+                                                                    347 mL
+                                                                      5 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,738 mL
+                                                                    441 mL
+   Respiratory support
+   O2 Delivery Device: Bipap mask
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 523 (470 - 726) mL
+   PS : 10 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 16 cmH2O
+   SpO2: 95%
+   ABG: ///27/
+   Ve: 7.3 L/min
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   219 K/uL
+   8.1 g/dL
+   98 mg/dL
+   3.9 mg/dL
+   27 mEq/L
+   4.8 mEq/L
+   127 mg/dL
+   101 mEq/L
+   138 mEq/L
+   24.8 %
+   7.3 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+                             [**2106-1-28**]  04:16 PM
+                             [**2106-1-29**]  04:53 AM
+   WBC
+   8.1
+   7.3
+   Hct
+   28.3
+   24.8
+   Plt
+   220
+   219
+   Cr
+   3.4
+   3.6
+   3.9
+   TCO2
+   33
+   33
+   Glucose
+   126
+   98
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.4 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   77 yo male dCHF, CAD s/p CABG, afib, CKD4, coagulopathy (factor V
+   inhibitor) who has had a protracted hospital course and is now being
+   transferred to the MICU for altered mental status and concern for
+   hypercarbic respiratory failure
+   # Altered Mental Status: patient was initially found significantly
+   somnolent, almost obtunded and responding only to sternal rub. He was
+   initially found to be markedly hypoxic when his oxygen was taken off.
+   Possible causes include hypoxia, hypercarbia, infection, uremia or
+   ICH.  His mental status has improved throughout the morning without any
+   intervention except replacing his O2.  Hypernatremia may also be
+   contributing as well
+   - will repeat ABG, if still significantly hypercarbic, can consider
+   placement on BiPAP to help correct the hypercarbia partially, though he
+   is DNI
+   - will check UA/culture and blood culture for r/o infection
+   - family does not want to pursue HD; can attempt to continue diuresis
+   gently given his effusions, though he appears intravascularly volume
+   deplete at this time.
+   - continue nasal cannula- maintain O2>95%
+   - will hold off on CT head currently; no focal neuro deficits noted on
+   exam and mental status has improved.
+   - will give 1L D5W over 10 hrs with repeat Na check this evening
+   # Acute on Chronic Diastolic HF: patient with significant edema,
+   pleural effusions, but possibly intravascularly volume deplete.
+   - will give furosemide 40 mg IV BID for goal -500cc/-1L; will start
+   albumumin 25 gm Q8H to help with diuresis as well.  Also will add
+   metalozone
+   - per cards, can consider cardiac CT looking for restrictive process,
+   though not necessarily indicated at this time
+   # Coagulopathy: based on labs from OSH, likely have Factor V
+   inhibitor.  Epistaxis now resolved.  Patient being followed by
+   hematology here, repeat Factor V inhibitor pending.  No clear reason
+   why patient should have developed this- usually associated with surgery
+   (particuarly cardiac) but patient's CABG was >6 months ago.  Also,
+   associated with underlying malignancy as well, though no clear
+   malignancy at this time.
+   - f/u  heme recs
+   - will continue to give Vitamin K for goal INR<2 though unlikely to
+   make any benefit given the reason for his coagulopathy.
+   # Hypoxia: persistent O2 requirement, likely component of pleural
+   effusion vs volume overload.  No obvious PNA on CXR.  although PE is
+   possible, with patient's elevated INR this is unlikely and we could not
+   anticoagulate anyway
+   - continue diuresis as above
+   - maintain nasal cannula for sat >95%
+   # Epistaxis: stable.  ENT has signed off
+   # Paroxsymal Afib: currently rate controlled.  not on anticoagulation
+   given coagulatopathy
+   - cont metoprolol and diltiazem at current dose for rate control
+   # C.Diff: C-diff positive at OSH. Diarrhea appears to have improved.
+   - cont PO vanco 250 for 2wks after d/c of cefazolin (last day [**2-6**])
+   - cont metamucil for bulking
+   # CAD: Hx of CABG, no evidence of active issue
+   - cont lipitor, BB.
+   - holding ASA in setting of epistaxis.
+ RESPIRATORY FAILURE, ACUTE (NOT ARDS/[**Doctor Last Name 2**])
+ HEART FAILURE (CHF), SYSTOLIC AND DIASTOLIC, ACUTE ON CHRONIC
+ COAGULOPATHY
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ IMPAIRED SKIN INTEGRITY
+   ICU Care
+   Nutrition:
+   Nutren 2.0 (Full) - [**2106-1-28**] 08:00 PM 30 mL/hour
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition:ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   -- further disucssion with family regarding prognosis and goals of
+   care; they want CMO, but to try to maintain holding pattern until
+   daughter can come in at 4P on Friday
+   -- cont on BiPAP throughout the day; having signficant secretions;
+   given 0.5 of morphine and scopalamine patch overnight
+   -- BPs low, started on levophed overnight to maintain MAP>55
+   -- diuretics stopped; despite max doses, patient only made about
+   10cc/hr
+   -- TPN stopped; all IV meds transitioned to PO if possible
+ NON-INVASIVE VENTILATION - START [**2106-1-28**] 08:10 AM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Norepinephrine - 0.01 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-1-29**] 05:15 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-29**] 07:48 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36
+C (96.8
+   HR: 90 (74 - 113) bpm
+   BP: 98/64(70) {77/31(45) - 134/69(77)} mmHg
+   RR: 20 (17 - 36) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,085 mL
+                                                                    446 mL
+   PO:
+           TF:
+                                                                    280 mL
+                                                                    194 mL
+   IVF:
+                                                                    436 mL
+                                                                     93 mL
+   Blood products:
+                                                                    300 mL
+                                                                    100 mL
+   Total out:
+                                                                    347 mL
+                                                                      5 mL
+   Urine:
+                                                                    347 mL
+                                                                      5 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,738 mL
+                                                                    441 mL
+   Respiratory support
+   O2 Delivery Device: Bipap mask
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 523 (470 - 726) mL
+   PS : 10 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 16 cmH2O
+   SpO2: 95%
+   ABG: ///27/
+   Ve: 7.3 L/min
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   219 K/uL
+   8.1 g/dL
+   98 mg/dL
+   3.9 mg/dL
+   27 mEq/L
+   4.8 mEq/L
+   127 mg/dL
+   101 mEq/L
+   138 mEq/L
+   24.8 %
+   7.3 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+                             [**2106-1-28**]  04:16 PM
+                             [**2106-1-29**]  04:53 AM
+   WBC
+   8.1
+   7.3
+   Hct
+   28.3
+   24.8
+   Plt
+   220
+   219
+   Cr
+   3.4
+   3.6
+   3.9
+   TCO2
+   33
+   33
+   Glucose
+   126
+   98
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.4 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   77 yo male dCHF, CAD s/p CABG, afib, CKD4, coagulopathy (factor V
+   inhibitor) who has had a protracted hospital course and is now being
+   transferred to the MICU for altered mental status and concern for
+   hypercarbic respiratory failure
+   # Altered Mental Status: patient was initially found significantly
+   somnolent, almost obtunded and responding only to sternal rub. He was
+   initially found to be markedly hypoxic when his oxygen was taken off.
+   Possible causes include hypoxia, hypercarbia, infection, uremia or
+   ICH.  His mental status has improved throughout the morning without any
+   intervention except replacing his O2.  Hypernatremia may also be
+   contributing as well
+   - will repeat ABG, if still significantly hypercarbic, can consider
+   placement on BiPAP to help correct the hypercarbia partially, though he
+   is DNI
+   - will check UA/culture and blood culture for r/o infection
+   - family does not want to pursue HD; can attempt to continue diuresis
+   gently given his effusions, though he appears intravascularly volume
+   deplete at this time.
+   - continue nasal cannula- maintain O2>95%
+   - will hold off on CT head currently; no focal neuro deficits noted on
+   exam and mental status has improved.
+   - will give 1L D5W over 10 hrs with repeat Na check this evening
+   # Acute on Chronic Diastolic HF: patient with significant edema,
+   pleural effusions, but possibly intravascularly volume deplete.
+   - will give furosemide 40 mg IV BID for goal -500cc/-1L; will start
+   albumumin 25 gm Q8H to help with diuresis as well.  Also will add
+   metalozone
+   - per cards, can consider cardiac CT looking for restrictive process,
+   though not necessarily indicated at this time
+   # Coagulopathy: based on labs from OSH, likely have Factor V
+   inhibitor.  Epistaxis now resolved.  Patient being followed by
+   hematology here, repeat Factor V inhibitor pending.  No clear reason
+   why patient should have developed this- usually associated with surgery
+   (particuarly cardiac) but patient's CABG was >6 months ago.  Also,
+   associated with underlying malignancy as well, though no clear
+   malignancy at this time.
+   - f/u  heme recs
+   - will continue to give Vitamin K for goal INR<2 though unlikely to
+   make any benefit given the reason for his coagulopathy.
+   # Hypoxia: persistent O2 requirement, likely component of pleural
+   effusion vs volume overload.  No obvious PNA on CXR.  although PE is
+   possible, with patient's elevated INR this is unlikely and we could not
+   anticoagulate anyway
+   - continue diuresis as above
+   - maintain nasal cannula for sat >95%
+   # Epistaxis: stable.  ENT has signed off
+   # Paroxsymal Afib: currently rate controlled.  not on anticoagulation
+   given coagulatopathy
+   - cont metoprolol and diltiazem at current dose for rate control
+   # C.Diff: C-diff positive at OSH. Diarrhea appears to have improved.
+   - cont PO vanco 250 for 2wks after d/c of cefazolin (last day [**2-6**])
+   - cont metamucil for bulking
+   # CAD: Hx of CABG, no evidence of active issue
+   - cont lipitor, BB.
+   - holding ASA in setting of epistaxis.
+ RESPIRATORY FAILURE, ACUTE (NOT ARDS/[**Doctor Last Name 2**])
+ HEART FAILURE (CHF), SYSTOLIC AND DIASTOLIC, ACUTE ON CHRONIC
+ COAGULOPATHY
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ IMPAIRED SKIN INTEGRITY
+   ICU Care
+   Nutrition:
+   Nutren 2.0 (Full) - [**2106-1-28**] 08:00 PM 30 mL/hour
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition:ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old male with a history of chronic heart failure, coronary artery disease, and coagulopathy, who was admitted to the MICU for altered mental status and concern for hypercarbic respiratory failure. He is currently on non-invasive ventilation with BiPAP, and his mental status has improved with replacement of oxygen. His vital signs are stable, with a heart rate of 90 bpm, blood pressure of 98/64 mmHg, and oxygen saturation of 95%. His laboratory results show elevated creatinine and potassium levels, and his coagulation profile is abnormal due to a factor V inhibitor.
+
+Potential Medical Complications:
+
+1. Respiratory Failure: The patient's respiratory status is a concern, with a high risk of developing respiratory failure due to his chronic heart failure and coagulopathy.
+2. Cardiac Complications: The patient's history of coronary artery disease and chronic heart failure puts him at risk for cardiac complications such as arrhythmias, heart failure exacerbation, and cardiac arrest.
+3. Coagulopathy: The patient's coagulopathy due to a factor V inhibitor increases his risk of bleeding, and may also contribute to his respiratory failure.
+4. Infection: The patient's history of C. difficile infection and his current respiratory failure make him at risk for developing secondary infections, such as pneumonia.
+5. Hypercarbia: The patient's hypercarbic respiratory failure may lead to respiratory acidosis, which can worsen his cardiac status and increase his risk of cardiac arrest.
+6. Volume Overload: The patient's fluid overload and coagulopathy increase his risk of developing volume overload, which can worsen his respiratory and cardiac status.
+7. Skin Integrity: The patient's impaired skin integrity due to his chronic heart failure and coagulopathy increases his risk of developing skin breakdown and pressure ulcers.
+8. Neurological Complications: The patient's altered mental status and coagulopathy increase his risk of developing neurological complications such as stroke or seizures.
+
+Recommendations:
+
+1. Continue to monitor the patient's respiratory status closely and adjust his ventilator settings as needed.
+2. Continue to manage his coagulopathy with Vitamin K and consider consulting hematology for further guidance.
+3. Monitor his cardiac status closely and adjust his medications as needed to manage his heart failure and coagulopathy.
+4. Consider performing a cardiac CT to evaluate for restrictive cardiac disease.
+5. Monitor his laboratory results closely for signs of infection or organ dysfunction.
+6. Consider consulting infectious disease for further guidance on managing his C. difficile infection.
+7. Monitor his skin integrity closely and consider consulting wound care for further guidance on managing his skin breakdown.
+8. Monitor his neurological status closely and consider consulting neurology for further guidance on managing his altered mental status."
+171250.0,217680,2106-01-29 07:48:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   -- further disucssion with family regarding prognosis and goals of
+   care; they want CMO, but to try to maintain holding pattern until
+   daughter can come in at 4P on Friday
+   -- cont on BiPAP throughout the day; having signficant secretions;
+   given 0.5 of morphine and scopalamine patch overnight
+   -- BPs low, started on levophed overnight to maintain MAP>55
+   -- diuretics stopped; despite max doses, patient only made about
+   10cc/hr
+   -- TPN stopped; all IV meds transitioned to PO if possible
+ NON-INVASIVE VENTILATION - START [**2106-1-28**] 08:10 AM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Norepinephrine - 0.01 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-1-29**] 05:15 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-29**] 07:48 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36
+C (96.8
+   HR: 90 (74 - 113) bpm
+   BP: 98/64(70) {77/31(45) - 134/69(77)} mmHg
+   RR: 20 (17 - 36) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,085 mL
+                                                                    446 mL
+   PO:
+           TF:
+                                                                    280 mL
+                                                                    194 mL
+   IVF:
+                                                                    436 mL
+                                                                     93 mL
+   Blood products:
+                                                                    300 mL
+                                                                    100 mL
+   Total out:
+                                                                    347 mL
+                                                                      5 mL
+   Urine:
+                                                                    347 mL
+                                                                      5 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,738 mL
+                                                                    441 mL
+   Respiratory support
+   O2 Delivery Device: Bipap mask
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 523 (470 - 726) mL
+   PS : 10 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 16 cmH2O
+   SpO2: 95%
+   ABG: ///27/
+   Ve: 7.3 L/min
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   219 K/uL
+   8.1 g/dL
+   98 mg/dL
+   3.9 mg/dL
+   27 mEq/L
+   4.8 mEq/L
+   127 mg/dL
+   101 mEq/L
+   138 mEq/L
+   24.8 %
+   7.3 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+                             [**2106-1-28**]  04:16 PM
+                             [**2106-1-29**]  04:53 AM
+   WBC
+   8.1
+   7.3
+   Hct
+   28.3
+   24.8
+   Plt
+   220
+   219
+   Cr
+   3.4
+   3.6
+   3.9
+   TCO2
+   33
+   33
+   Glucose
+   126
+   98
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.4 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   77 yo male dCHF, CAD s/p CABG, afib, CKD4, coagulopathy (factor V
+   inhibitor) who has had a protracted hospital course and is now being
+   transferred to the MICU for altered mental status and concern for
+   hypercarbic respiratory failure
+   # Goals of care: patient
+s family discussed wanting patient to be CMO.
+   Awaiting for daughter to return from out of the country.  Will use
+   BiPAP and levophed as bridge until then
+   - can try morphine 0.5 mg IV PRN for respiratory distress
+   - start scopalmine patch for secretions
+   # Acute on Chronic Diastolic HF: significantly volume overloaded, but
+   no response to diuretics.
+   - minimize fluid in; stopped TPN
+   - no further diuretics
+   # Hypotension: patient
+s BP low overnight; VBG without worsening
+   acidosis last night.  Possibly septic physiology from ? PNA vs UTI
+   - started on levophed overnight to maintain MAP >55 while awaiting for
+   daughter to arrive
+   - no IVFs
+   # Coagulopathy: likely has Factor V inhibitor.  Epistaxis now
+   resolved.  Patient being followed by hematology here, repeat Factor V
+   inhibitor pending.  No clear reason why patient should have developed
+   this- usually associated with surgery (particuarly cardiac) but
+   patient's CABG was >6 months ago.  Also, associated with underlying
+   malignancy as well, though no clear malignancy at this time.
+   - stop vitamin K given no improvement
+   # Hypoxia: persistent O2 requirement, likely component of pleural
+   effusion vs volume overload.  No obvious PNA on CXR.  although PE is
+   possible, with patient's elevated INR this is unlikely and we could not
+   anticoagulate anyway
+   - on BiPAP for hypercarbia as bridge to CMO once daughter arrives
+   # Epistaxis: stable.  ENT has signed off
+   # Paroxsymal Afib: holding meds at this time given lowish BP
+   # C.Diff: C-diff positive at OSH. Diarrhea appears to have improved.
+   - cont PO vanco 250 for 2wks after d/c of cefazolin (last day [**2-6**])
+   - cont metamucil for bulking
+   # CAD: Hx of CABG, no evidence of active issue
+   - cont lipitor, BB.
+   - holding ASA in setting of epistaxis.
+ RESPIRATORY FAILURE, ACUTE (NOT ARDS/[**Doctor Last Name 2**])
+ HEART FAILURE (CHF), SYSTOLIC AND DIASTOLIC, ACUTE ON CHRONIC
+ COAGULOPATHY
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ IMPAIRED SKIN INTEGRITY
+   ICU Care
+   Nutrition:
+   Nutren 2.0 (Full) - [**2106-1-28**] 08:00 PM 30 mL/hour
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition:ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   -- further disucssion with family regarding prognosis and goals of
+   care; they want CMO, but to try to maintain holding pattern until
+   daughter can come in at 4P on Friday
+   -- cont on BiPAP throughout the day; having signficant secretions;
+   given 0.5 of morphine and scopalamine patch overnight
+   -- BPs low, started on levophed overnight to maintain MAP>55
+   -- diuretics stopped; despite max doses, patient only made about
+   10cc/hr
+   -- TPN stopped; all IV meds transitioned to PO if possible
+ NON-INVASIVE VENTILATION - START [**2106-1-28**] 08:10 AM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Norepinephrine - 0.01 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-1-29**] 05:15 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-29**] 07:48 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36
+C (96.8
+   HR: 90 (74 - 113) bpm
+   BP: 98/64(70) {77/31(45) - 134/69(77)} mmHg
+   RR: 20 (17 - 36) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,085 mL
+                                                                    446 mL
+   PO:
+           TF:
+                                                                    280 mL
+                                                                    194 mL
+   IVF:
+                                                                    436 mL
+                                                                     93 mL
+   Blood products:
+                                                                    300 mL
+                                                                    100 mL
+   Total out:
+                                                                    347 mL
+                                                                      5 mL
+   Urine:
+                                                                    347 mL
+                                                                      5 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,738 mL
+                                                                    441 mL
+   Respiratory support
+   O2 Delivery Device: Bipap mask
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 523 (470 - 726) mL
+   PS : 10 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 16 cmH2O
+   SpO2: 95%
+   ABG: ///27/
+   Ve: 7.3 L/min
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   219 K/uL
+   8.1 g/dL
+   98 mg/dL
+   3.9 mg/dL
+   27 mEq/L
+   4.8 mEq/L
+   127 mg/dL
+   101 mEq/L
+   138 mEq/L
+   24.8 %
+   7.3 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+                             [**2106-1-28**]  04:16 PM
+                             [**2106-1-29**]  04:53 AM
+   WBC
+   8.1
+   7.3
+   Hct
+   28.3
+   24.8
+   Plt
+   220
+   219
+   Cr
+   3.4
+   3.6
+   3.9
+   TCO2
+   33
+   33
+   Glucose
+   126
+   98
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.4 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   77 yo male dCHF, CAD s/p CABG, afib, CKD4, coagulopathy (factor V
+   inhibitor) who has had a protracted hospital course and is now being
+   transferred to the MICU for altered mental status and concern for
+   hypercarbic respiratory failure
+   # Goals of care: patient
+s family discussed wanting patient to be CMO.
+   Awaiting for daughter to return from out of the country.  Will use
+   BiPAP and levophed as bridge until then
+   - can try morphine 0.5 mg IV PRN for respiratory distress
+   - start scopalmine patch for secretions
+   # Acute on Chronic Diastolic HF: significantly volume overloaded, but
+   no response to diuretics.
+   - minimize fluid in; stopped TPN
+   - no further diuretics
+   # Hypotension: patient
+s BP low overnight; VBG without worsening
+   acidosis last night.  Possibly septic physiology from ? PNA vs UTI
+   - started on levophed overnight to maintain MAP >55 while awaiting for
+   daughter to arrive
+   - no IVFs
+   # Coagulopathy: likely has Factor V inhibitor.  Epistaxis now
+   resolved.  Patient being followed by hematology here, repeat Factor V
+   inhibitor pending.  No clear reason why patient should have developed
+   this- usually associated with surgery (particuarly cardiac) but
+   patient's CABG was >6 months ago.  Also, associated with underlying
+   malignancy as well, though no clear malignancy at this time.
+   - stop vitamin K given no improvement
+   # Hypoxia: persistent O2 requirement, likely component of pleural
+   effusion vs volume overload.  No obvious PNA on CXR.  although PE is
+   possible, with patient's elevated INR this is unlikely and we could not
+   anticoagulate anyway
+   - on BiPAP for hypercarbia as bridge to CMO once daughter arrives
+   # Epistaxis: stable.  ENT has signed off
+   # Paroxsymal Afib: holding meds at this time given lowish BP
+   # C.Diff: C-diff positive at OSH. Diarrhea appears to have improved.
+   - cont PO vanco 250 for 2wks after d/c of cefazolin (last day [**2-6**])
+   - cont metamucil for bulking
+   # CAD: Hx of CABG, no evidence of active issue
+   - cont lipitor, BB.
+   - holding ASA in setting of epistaxis.
+ RESPIRATORY FAILURE, ACUTE (NOT ARDS/[**Doctor Last Name 2**])
+ HEART FAILURE (CHF), SYSTOLIC AND DIASTOLIC, ACUTE ON CHRONIC
+ COAGULOPATHY
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ IMPAIRED SKIN INTEGRITY
+   ICU Care
+   Nutrition:
+   Nutren 2.0 (Full) - [**2106-1-28**] 08:00 PM 30 mL/hour
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition:ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old male with a complex medical history, including chronic heart failure, coronary artery disease, and chronic kidney disease, who is being treated in the ICU for altered mental status and concern for hypercarbic respiratory failure. He has been on BiPAP and levophed as a bridge until his daughter arrives. His family has discussed wanting him to be comfort-oriented, and his goals of care are to maintain a holding pattern until his daughter arrives.
+
+The patient has been experiencing hypotension, and his blood pressure was low overnight, requiring the use of levophed to maintain a mean arterial pressure greater than 55. He also has a coagulopathy, likely caused by a factor V inhibitor, and has been experiencing epistaxis, which has resolved. He has a history of CABG and has been taking anticoagulation medication, but his INR is elevated, making it unlikely that he has a pulmonary embolism.
+
+The patient has a positive C. difficile test and has been experiencing diarrhea, which has improved. He has also been experiencing skin integrity issues and has a history of impaired skin integrity.
+
+Potential Medical Complications:
+
+1. Respiratory failure: The patient's use of BiPAP and levophed as a bridge to CMO may not be sufficient to manage his hypercarbic respiratory failure, and he may require more aggressive interventions, such as intubation and mechanical ventilation.
+2. Heart failure: The patient's chronic heart failure may worsen if he is not able to maintain adequate fluid management, and he may require more aggressive diuresis or vasopressors to manage his condition.
+3. Coagulopathy: The patient's coagulopathy may worsen if he is not able to receive adequate anticoagulation therapy, and he may be at risk for bleeding complications.
+4. Infection: The patient's positive C. difficile test and history of diarrhea may indicate a gastrointestinal infection, which may worsen if he is not able to receive adequate treatment.
+5. Skin integrity issues: The patient's impaired skin integrity may worsen if he is not able to receive adequate wound care and management, and he may be at risk for further complications, such as infection or tissue necrosis."
+171250.0,217680,2106-01-29 07:49:00,Physician ,Physician Attending Progress Note,"Chief Complaint: hypercarbic respiratory failure
+   HPI: 77 yo man with CABG [**5-16**] complicated by acquired factor V
+   deficiency, severe diastolic CHF, admitted with recurrent infections,
+   malnutrition, C. difficile colitis. Transferred to ICU [**2105-1-27**] for
+   hypercarbic respiratory failure in the setting of receiving ativan.
+   24 Hour Events:
+ Patient continued to require BiPAP
+ levophed started for hypotension with plan to keep patient alive
+   until his daughter arrives from [**Name (NI) **] at 4PM, then plan to transition
+   to comfort care
+ scopolamine patch initiated for oral secretions
+ diuretics stopped as patient was refractory, with now anuria and
+   rising Cr
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Norepinephrine - 0.01 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-1-29**] 05:15 AM
+   Other medications:
+   Lopressor and diltiazem on hold
+   Vancomycin 250mg po q6hr
+   Albuterol/atrovent nebs
+   Atorvastatin 80mg daily
+   Citalopram 10mg daily
+   Thiamine 100mg IV daily
+   Albumin 25gm IV q8hr
+   Vitamin C
+   Levaquin 250mg daily
+   Vitamin K 5mg daily
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-29**] 07:49 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36
+C (96.8
+   HR: 90 (74 - 113) bpm
+   BP: 98/64(70) {77/31(45) - 134/69(77)} mmHg
+   RR: 20 (17 - 36) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,085 mL
+                                                                    447 mL
+   PO:
+           TF:
+                                                                    280 mL
+                                                                    194 mL
+   IVF:
+                                                                    436 mL
+                                                                     93 mL
+   Blood products:
+                                                                    300 mL
+                                                                    100 mL
+   Total out:
+                                                                    347 mL
+                                                                      5 mL
+   Urine:
+                                                                    347 mL
+                                                                      5 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,738 mL
+                                                                    442 mL
+   Respiratory support
+   O2 Delivery Device: Bipap mask
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 523 (470 - 726) mL
+   PS : 10 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 16 cmH2O
+   SpO2: 95%
+   ABG: ///27/
+   Ve: 7.3 L/min
+   Physical Examination
+   General Appearance: Thin, cachectic
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Percussion: Dullness : at bases), (Breath Sounds:
+   Bronchial: )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right lower extremity edema: 3+, Left lower extremity
+   edema: 2+
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows commands, states he is comfortable
+   Labs / Radiology
+   8.1 g/dL
+   219 K/uL
+   98 mg/dL
+   3.9 mg/dL
+   27 mEq/L
+   4.8 mEq/L
+   127 mg/dL
+   101 mEq/L
+   138 mEq/L
+   24.8 %
+   7.3 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+                             [**2106-1-28**]  04:16 PM
+                             [**2106-1-29**]  04:53 AM
+   WBC
+   8.1
+   7.3
+   Hct
+   28.3
+   24.8
+   Plt
+   220
+   219
+   Cr
+   3.4
+   3.6
+   3.9
+   TCO2
+   33
+   33
+   Glucose
+   126
+   98
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.4 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   77 yo man with severe diastolic CHF, chronic malnutrition, and now
+   anuric renal failure and hypercarbic respiratory failure.
+   Transitioning to comfort care when patient
+s daughter arrives.
+   -continue levophed and BiPAP until patient
+s daughter here
+   -continue antibiotics for now
+   -continue tube feeds as per family
+s request
+   -morphine prn
+   ICU Care
+   Nutrition:
+   Nutren 2.0 (Full) - [**2106-1-28**] 08:00 PM 30 mL/hour
+   Glycemic Control:
+   Lines: PICC
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT: heparin SQ
+   Stress ulcer: PPI
+   VAP: N/A
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition :ICU
+   Total time spent:
+   ------ Protected Section ------
+   I have seen and examined the patient with the fellow and agree with the
+   assessment and plan as described above with the following
+   modifications:
+   Overnight, blood pressure decreased requiring vasopressor support with
+   ultimate goal of comfort but keeping patient stable in anticipation of
+   daughter coming from [**Name (NI) 473**]
+   Vitals as above
+   On exam, emaciated, on bipap but appears comfortable
+   Chest: CTA bilaterally
+   Heart: S1 S2 reg
+   Abd: soft NT ND
+   Ext: edema
+   Assessment:
+   1)       respiratory failure
+   2)       shock
+   3)       malnutrition
+   Plan: Family expressed wishes to pursue comfort care after daughter
+   arrival as described in yesterday
+s note.  Will continue current
+   therapy for now.
+   Time Spent: 20 minutes
+   ------ Protected Section Addendum Entered By:[**Name (NI) **] [**Last Name (NamePattern1) 402**], MD
+   on:[**2106-1-29**] 03:22 PM ------
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: hypercarbic respiratory failure
+   HPI: 77 yo man with CABG [**5-16**] complicated by acquired factor V
+   deficiency, severe diastolic CHF, admitted with recurrent infections,
+   malnutrition, C. difficile colitis. Transferred to ICU [**2105-1-27**] for
+   hypercarbic respiratory failure in the setting of receiving ativan.
+   24 Hour Events:
+ Patient continued to require BiPAP
+ levophed started for hypotension with plan to keep patient alive
+   until his daughter arrives from [**Name (NI) **] at 4PM, then plan to transition
+   to comfort care
+ scopolamine patch initiated for oral secretions
+ diuretics stopped as patient was refractory, with now anuria and
+   rising Cr
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Norepinephrine - 0.01 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-1-29**] 05:15 AM
+   Other medications:
+   Lopressor and diltiazem on hold
+   Vancomycin 250mg po q6hr
+   Albuterol/atrovent nebs
+   Atorvastatin 80mg daily
+   Citalopram 10mg daily
+   Thiamine 100mg IV daily
+   Albumin 25gm IV q8hr
+   Vitamin C
+   Levaquin 250mg daily
+   Vitamin K 5mg daily
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-29**] 07:49 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36
+C (96.8
+   HR: 90 (74 - 113) bpm
+   BP: 98/64(70) {77/31(45) - 134/69(77)} mmHg
+   RR: 20 (17 - 36) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,085 mL
+                                                                    447 mL
+   PO:
+           TF:
+                                                                    280 mL
+                                                                    194 mL
+   IVF:
+                                                                    436 mL
+                                                                     93 mL
+   Blood products:
+                                                                    300 mL
+                                                                    100 mL
+   Total out:
+                                                                    347 mL
+                                                                      5 mL
+   Urine:
+                                                                    347 mL
+                                                                      5 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,738 mL
+                                                                    442 mL
+   Respiratory support
+   O2 Delivery Device: Bipap mask
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 523 (470 - 726) mL
+   PS : 10 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 16 cmH2O
+   SpO2: 95%
+   ABG: ///27/
+   Ve: 7.3 L/min
+   Physical Examination
+   General Appearance: Thin, cachectic
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Percussion: Dullness : at bases), (Breath Sounds:
+   Bronchial: )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right lower extremity edema: 3+, Left lower extremity
+   edema: 2+
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows commands, states he is comfortable
+   Labs / Radiology
+   8.1 g/dL
+   219 K/uL
+   98 mg/dL
+   3.9 mg/dL
+   27 mEq/L
+   4.8 mEq/L
+   127 mg/dL
+   101 mEq/L
+   138 mEq/L
+   24.8 %
+   7.3 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+                             [**2106-1-28**]  04:16 PM
+                             [**2106-1-29**]  04:53 AM
+   WBC
+   8.1
+   7.3
+   Hct
+   28.3
+   24.8
+   Plt
+   220
+   219
+   Cr
+   3.4
+   3.6
+   3.9
+   TCO2
+   33
+   33
+   Glucose
+   126
+   98
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.4 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   77 yo man with severe diastolic CHF, chronic malnutrition, and now
+   anuric renal failure and hypercarbic respiratory failure.
+   Transitioning to comfort care when patient
+s daughter arrives.
+   -continue levophed and BiPAP until patient
+s daughter here
+   -continue antibiotics for now
+   -continue tube feeds as per family
+s request
+   -morphine prn
+   ICU Care
+   Nutrition:
+   Nutren 2.0 (Full) - [**2106-1-28**] 08:00 PM 30 mL/hour
+   Glycemic Control:
+   Lines: PICC
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT: heparin SQ
+   Stress ulcer: PPI
+   VAP: N/A
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition :ICU
+   Total time spent:
+   ------ Protected Section ------
+   I have seen and examined the patient with the fellow and agree with the
+   assessment and plan as described above with the following
+   modifications:
+   Overnight, blood pressure decreased requiring vasopressor support with
+   ultimate goal of comfort but keeping patient stable in anticipation of
+   daughter coming from [**Name (NI) 473**]
+   Vitals as above
+   On exam, emaciated, on bipap but appears comfortable
+   Chest: CTA bilaterally
+   Heart: S1 S2 reg
+   Abd: soft NT ND
+   Ext: edema
+   Assessment:
+   1)       respiratory failure
+   2)       shock
+   3)       malnutrition
+   Plan: Family expressed wishes to pursue comfort care after daughter
+   arrival as described in yesterday
+s note.  Will continue current
+   therapy for now.
+   Time Spent: 20 minutes
+   ------ Protected Section Addendum Entered By:[**Name (NI) **] [**Last Name (NamePattern1) 402**], MD
+   on:[**2106-1-29**] 03:22 PM ------<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, here is a summary of the patient's condition and potential medical complications:
+
+Patient Summary:
+
+* A 77-year-old man with severe diastolic CHF, chronic malnutrition, and anuric renal failure
+* Currently in the ICU for hypercarbic respiratory failure
+* Requires BiPAP and levophed support
+* Has a Code status of DNR/DNI
+
+Potential Medical Complications:
+
+1. Respiratory Failure: The patient's hypercarbic respiratory failure may worsen, leading to further respiratory distress and potential respiratory arrest.
+2. Shock: The patient's hypotension and requirement for vasopressor support may indicate a risk of shock, which could lead to organ dysfunction and failure.
+3. Malnutrition: The patient's chronic malnutrition may exacerbate his underlying conditions and increase his risk of complications, such as infection and poor wound healing.
+4. Renal Failure: The patient's anuric renal failure may worsen, leading to electrolyte imbalances and potential acid-base disturbances.
+5. Infection: The patient's history of recurrent infections and current use of antibiotics may increase his risk of developing a resistant infection.
+6. Cardiac Complications: The patient's severe diastolic CHF may lead to cardiac complications, such as arrhythmias, heart failure, or even cardiac arrest.
+7. Gastrointestinal Complications: The patient's history of C. difficile colitis and current use of tube feeds may increase his risk of gastrointestinal complications, such as bleeding, perforation, or obstruction.
+
+Given the patient's complex medical conditions and the plan to transition to comfort care, it is essential to closely monitor his condition and address any potential complications promptly to ensure his comfort and quality of life."
+171250.0,217680,2106-01-29 07:49:00,Physician ,Physician Attending Progress Note,"Chief Complaint: hypercarbic respiratory failure
+   HPI: 77 yo man with CABG [**5-16**] complicated by acquired factor V
+   deficiency, severe diastolic CHF, admitted with recurrent infections,
+   malnutrition, C. difficile colitis. Transferred to ICU [**2105-1-27**] for
+   hypercarbic respiratory failure in the setting of receiving ativan.
+   24 Hour Events:
+ Patient continued to require BiPAP
+ levophed started for hypotension with plan to keep patient alive
+   until his daughter arrives from [**Name (NI) **] at 4PM, then plan to transition
+   to comfort care
+ scopolamine patch initiated for oral secretions
+ diuretics stopped as patient was refractory, with now anuria and
+   rising Cr
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Norepinephrine - 0.01 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-1-29**] 05:15 AM
+   Other medications:
+   Lopressor and diltiazem on hold
+   Vancomycin 250mg po q6hr
+   Albuterol/atrovent nebs
+   Atorvastatin 80mg daily
+   Citalopram 10mg daily
+   Thiamine 100mg IV daily
+   Albumin 25gm IV q8hr
+   Vitamin C
+   Levaquin 250mg daily
+   Vitamin K 5mg daily
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-29**] 07:49 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36
+C (96.8
+   HR: 90 (74 - 113) bpm
+   BP: 98/64(70) {77/31(45) - 134/69(77)} mmHg
+   RR: 20 (17 - 36) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,085 mL
+                                                                    447 mL
+   PO:
+           TF:
+                                                                    280 mL
+                                                                    194 mL
+   IVF:
+                                                                    436 mL
+                                                                     93 mL
+   Blood products:
+                                                                    300 mL
+                                                                    100 mL
+   Total out:
+                                                                    347 mL
+                                                                      5 mL
+   Urine:
+                                                                    347 mL
+                                                                      5 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,738 mL
+                                                                    442 mL
+   Respiratory support
+   O2 Delivery Device: Bipap mask
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 523 (470 - 726) mL
+   PS : 10 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 16 cmH2O
+   SpO2: 95%
+   ABG: ///27/
+   Ve: 7.3 L/min
+   Physical Examination
+   General Appearance: Thin, cachectic
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Percussion: Dullness : at bases), (Breath Sounds:
+   Bronchial: )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right lower extremity edema: 3+, Left lower extremity
+   edema: 2+
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows commands, states he is comfortable
+   Labs / Radiology
+   8.1 g/dL
+   219 K/uL
+   98 mg/dL
+   3.9 mg/dL
+   27 mEq/L
+   4.8 mEq/L
+   127 mg/dL
+   101 mEq/L
+   138 mEq/L
+   24.8 %
+   7.3 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+                             [**2106-1-28**]  04:16 PM
+                             [**2106-1-29**]  04:53 AM
+   WBC
+   8.1
+   7.3
+   Hct
+   28.3
+   24.8
+   Plt
+   220
+   219
+   Cr
+   3.4
+   3.6
+   3.9
+   TCO2
+   33
+   33
+   Glucose
+   126
+   98
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.4 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   77 yo man with severe diastolic CHF, chronic malnutrition, and now
+   anuric renal failure and hypercarbic respiratory failure.
+   Transitioning to comfort care when patient
+s daughter arrives.
+   -continue levophed and BiPAP until patient
+s daughter here
+   -continue antibiotics for now
+   -continue tube feeds as per family
+s request
+   -morphine prn
+   ICU Care
+   Nutrition:
+   Nutren 2.0 (Full) - [**2106-1-28**] 08:00 PM 30 mL/hour
+   Glycemic Control:
+   Lines: PICC
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT: heparin SQ
+   Stress ulcer: PPI
+   VAP: N/A
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition :ICU
+   Total time spent:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: hypercarbic respiratory failure
+   HPI: 77 yo man with CABG [**5-16**] complicated by acquired factor V
+   deficiency, severe diastolic CHF, admitted with recurrent infections,
+   malnutrition, C. difficile colitis. Transferred to ICU [**2105-1-27**] for
+   hypercarbic respiratory failure in the setting of receiving ativan.
+   24 Hour Events:
+ Patient continued to require BiPAP
+ levophed started for hypotension with plan to keep patient alive
+   until his daughter arrives from [**Name (NI) **] at 4PM, then plan to transition
+   to comfort care
+ scopolamine patch initiated for oral secretions
+ diuretics stopped as patient was refractory, with now anuria and
+   rising Cr
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Norepinephrine - 0.01 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-1-29**] 05:15 AM
+   Other medications:
+   Lopressor and diltiazem on hold
+   Vancomycin 250mg po q6hr
+   Albuterol/atrovent nebs
+   Atorvastatin 80mg daily
+   Citalopram 10mg daily
+   Thiamine 100mg IV daily
+   Albumin 25gm IV q8hr
+   Vitamin C
+   Levaquin 250mg daily
+   Vitamin K 5mg daily
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-29**] 07:49 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36
+C (96.8
+   HR: 90 (74 - 113) bpm
+   BP: 98/64(70) {77/31(45) - 134/69(77)} mmHg
+   RR: 20 (17 - 36) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,085 mL
+                                                                    447 mL
+   PO:
+           TF:
+                                                                    280 mL
+                                                                    194 mL
+   IVF:
+                                                                    436 mL
+                                                                     93 mL
+   Blood products:
+                                                                    300 mL
+                                                                    100 mL
+   Total out:
+                                                                    347 mL
+                                                                      5 mL
+   Urine:
+                                                                    347 mL
+                                                                      5 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,738 mL
+                                                                    442 mL
+   Respiratory support
+   O2 Delivery Device: Bipap mask
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 523 (470 - 726) mL
+   PS : 10 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 16 cmH2O
+   SpO2: 95%
+   ABG: ///27/
+   Ve: 7.3 L/min
+   Physical Examination
+   General Appearance: Thin, cachectic
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Percussion: Dullness : at bases), (Breath Sounds:
+   Bronchial: )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right lower extremity edema: 3+, Left lower extremity
+   edema: 2+
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows commands, states he is comfortable
+   Labs / Radiology
+   8.1 g/dL
+   219 K/uL
+   98 mg/dL
+   3.9 mg/dL
+   27 mEq/L
+   4.8 mEq/L
+   127 mg/dL
+   101 mEq/L
+   138 mEq/L
+   24.8 %
+   7.3 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+                             [**2106-1-28**]  04:16 PM
+                             [**2106-1-29**]  04:53 AM
+   WBC
+   8.1
+   7.3
+   Hct
+   28.3
+   24.8
+   Plt
+   220
+   219
+   Cr
+   3.4
+   3.6
+   3.9
+   TCO2
+   33
+   33
+   Glucose
+   126
+   98
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.4 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   77 yo man with severe diastolic CHF, chronic malnutrition, and now
+   anuric renal failure and hypercarbic respiratory failure.
+   Transitioning to comfort care when patient
+s daughter arrives.
+   -continue levophed and BiPAP until patient
+s daughter here
+   -continue antibiotics for now
+   -continue tube feeds as per family
+s request
+   -morphine prn
+   ICU Care
+   Nutrition:
+   Nutren 2.0 (Full) - [**2106-1-28**] 08:00 PM 30 mL/hour
+   Glycemic Control:
+   Lines: PICC
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT: heparin SQ
+   Stress ulcer: PPI
+   VAP: N/A
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition :ICU
+   Total time spent:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old man with severe diastolic CHF, chronic malnutrition, and now anuric renal failure and hypercarbic respiratory failure. He was admitted to the ICU for hypercarbic respiratory failure in the setting of receiving Ativan. The patient's condition has continued to deteriorate, with the patient remaining on BiPAP and levophed. The plan is to transition to comfort care when the patient's daughter arrives.
+
+Potential medical complications:
+
+1. Worsening hypercarbic respiratory failure: The patient's condition has continued to deteriorate, and the patient remains on BiPAP and levophed. There is a risk of further deterioration in respiratory function, which could lead to respiratory failure.
+2. Anuric renal failure: The patient's renal function has continued to decline, and the patient is now anuric. There is a risk of further deterioration in renal function, which could lead to sepsis, acidosis, and electrolyte imbalances.
+3. Sepsis: The patient has a history of recurrent infections, and the patient's anuric renal failure and hypercarbic respiratory failure increase the risk of sepsis.
+4. Electrolyte imbalances: The patient's anuric renal failure and hypercarbic respiratory failure increase the risk of electrolyte imbalances, particularly hypokalemia and hypomagnesemia.
+5. Cardiac complications: The patient's severe diastolic CHF increases the risk of cardiac complications, including heart failure, arrhythmias, and cardiac arrest.
+6. Malnutrition: The patient's chronic malnutrition increases the risk of malnutrition-related complications, including muscle wasting, weakness, and decreased immune function.
+7. C. difficile colitis: The patient has a history of C. difficile colitis, which increases the risk of recurrent episodes of colitis.
+8. VAP: The patient's respiratory failure increases the risk of ventilator-associated pneumonia (VAP).
+9. DVT: The patient's immobility and hypercoagulability increase the risk of deep vein thrombosis (DVT).
+10. Stress ulcer: The patient's anuric renal failure and hypercarbic respiratory failure increase the risk of stress ulcer, which could lead to gastrointestinal bleeding."
+171250.0,217680,2106-01-29 07:49:00,Physician ,Physician Attending Progress Note,"Chief Complaint:
+   HPI:
+   24 Hour Events:
+ NON-INVASIVE VENTILATION - START [**2106-1-28**] 08:10 AM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Norepinephrine - 0.01 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-1-29**] 05:15 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-29**] 07:49 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36
+C (96.8
+   HR: 90 (74 - 113) bpm
+   BP: 98/64(70) {77/31(45) - 134/69(77)} mmHg
+   RR: 20 (17 - 36) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,085 mL
+                                                                    447 mL
+   PO:
+           TF:
+                                                                    280 mL
+                                                                    194 mL
+   IVF:
+                                                                    436 mL
+                                                                     93 mL
+   Blood products:
+                                                                    300 mL
+                                                                    100 mL
+   Total out:
+                                                                    347 mL
+                                                                      5 mL
+   Urine:
+                                                                    347 mL
+                                                                      5 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,738 mL
+                                                                    442 mL
+   Respiratory support
+   O2 Delivery Device: Bipap mask
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 523 (470 - 726) mL
+   PS : 10 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 16 cmH2O
+   SpO2: 95%
+   ABG: ///27/
+   Ve: 7.3 L/min
+   Physical Examination
+   General Appearance: Thin
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Percussion: Dullness : at bases), (Breath Sounds:
+   Bronchial: )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right lower extremity edema: 3+, Left lower extremity
+   edema: 2+
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   8.1 g/dL
+   219 K/uL
+   98 mg/dL
+   3.9 mg/dL
+   27 mEq/L
+   4.8 mEq/L
+   127 mg/dL
+   101 mEq/L
+   138 mEq/L
+   24.8 %
+   7.3 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+                             [**2106-1-28**]  04:16 PM
+                             [**2106-1-29**]  04:53 AM
+   WBC
+   8.1
+   7.3
+   Hct
+   28.3
+   24.8
+   Plt
+   220
+   219
+   Cr
+   3.4
+   3.6
+   3.9
+   TCO2
+   33
+   33
+   Glucose
+   126
+   98
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.4 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   #worsening hypercarbia
+   -patient did not receive any sedatives overnight
+   -increase lasix drip to maximum dose, continue diuril and metolazone,
+   continue SPA
+   -switch all medications to oral to minimize intake
+   -discuss with family a thoracentesis-which would be a risky procedure
+   given his coagulopathy and difficulty correcting with FFP
+   -continue BiPAP for now
+   #altered mental status
+   -likely in setting of hypercarbia which is likely exacerbated by ativan
+   administration. Delirium likely a component
+   -avoid opiates and benzodiazepines unless patient is made CMO
+   -receiving vitamin supplementation
+   #severe diastolic CHF
+   -will need aggressive diuresis but we are having difficulty using
+   diuretics given his acute on chronic renal failure
+   -inotropes not useful in the setting of diastolic heart failure
+   -will discuss with renal if we are able to ultrafiltrate through
+   peripheral large bore access
+   -continue diltiazem and metoprolol
+   #acute on chronic renal failure
+   -may be in setting of poor forward flow
+   #acquired factor V deficiency
+   -factor V levels improving
+    -change Vitamin K to enteral
+   #malnutrition
+   -stop TPN given large fluid intake
+   # C. difficile colitis
+   -on oral vancomycin
+   #dirty UA
+   -empiric levaquin enterally while awaiting cultures
+   ICU Care
+   Nutrition:
+   Nutren 2.0 (Full) - [**2106-1-28**] 08:00 PM 30 mL/hour
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition :
+   Total time spent:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   HPI:
+   24 Hour Events:
+ NON-INVASIVE VENTILATION - START [**2106-1-28**] 08:10 AM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Norepinephrine - 0.01 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-1-29**] 05:15 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-29**] 07:49 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36
+C (96.8
+   HR: 90 (74 - 113) bpm
+   BP: 98/64(70) {77/31(45) - 134/69(77)} mmHg
+   RR: 20 (17 - 36) insp/min
+   SpO2: 95%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+           Total In:
+                                                                  2,085 mL
+                                                                    447 mL
+   PO:
+           TF:
+                                                                    280 mL
+                                                                    194 mL
+   IVF:
+                                                                    436 mL
+                                                                     93 mL
+   Blood products:
+                                                                    300 mL
+                                                                    100 mL
+   Total out:
+                                                                    347 mL
+                                                                      5 mL
+   Urine:
+                                                                    347 mL
+                                                                      5 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,738 mL
+                                                                    442 mL
+   Respiratory support
+   O2 Delivery Device: Bipap mask
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 523 (470 - 726) mL
+   PS : 10 cmH2O
+   RR (Spontaneous): 17
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 16 cmH2O
+   SpO2: 95%
+   ABG: ///27/
+   Ve: 7.3 L/min
+   Physical Examination
+   General Appearance: Thin
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Percussion: Dullness : at bases), (Breath Sounds:
+   Bronchial: )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right lower extremity edema: 3+, Left lower extremity
+   edema: 2+
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   8.1 g/dL
+   219 K/uL
+   98 mg/dL
+   3.9 mg/dL
+   27 mEq/L
+   4.8 mEq/L
+   127 mg/dL
+   101 mEq/L
+   138 mEq/L
+   24.8 %
+   7.3 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+                             [**2106-1-28**]  04:16 PM
+                             [**2106-1-29**]  04:53 AM
+   WBC
+   8.1
+   7.3
+   Hct
+   28.3
+   24.8
+   Plt
+   220
+   219
+   Cr
+   3.4
+   3.6
+   3.9
+   TCO2
+   33
+   33
+   Glucose
+   126
+   98
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.4 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   #worsening hypercarbia
+   -patient did not receive any sedatives overnight
+   -increase lasix drip to maximum dose, continue diuril and metolazone,
+   continue SPA
+   -switch all medications to oral to minimize intake
+   -discuss with family a thoracentesis-which would be a risky procedure
+   given his coagulopathy and difficulty correcting with FFP
+   -continue BiPAP for now
+   #altered mental status
+   -likely in setting of hypercarbia which is likely exacerbated by ativan
+   administration. Delirium likely a component
+   -avoid opiates and benzodiazepines unless patient is made CMO
+   -receiving vitamin supplementation
+   #severe diastolic CHF
+   -will need aggressive diuresis but we are having difficulty using
+   diuretics given his acute on chronic renal failure
+   -inotropes not useful in the setting of diastolic heart failure
+   -will discuss with renal if we are able to ultrafiltrate through
+   peripheral large bore access
+   -continue diltiazem and metoprolol
+   #acute on chronic renal failure
+   -may be in setting of poor forward flow
+   #acquired factor V deficiency
+   -factor V levels improving
+    -change Vitamin K to enteral
+   #malnutrition
+   -stop TPN given large fluid intake
+   # C. difficile colitis
+   -on oral vancomycin
+   #dirty UA
+   -empiric levaquin enterally while awaiting cultures
+   ICU Care
+   Nutrition:
+   Nutren 2.0 (Full) - [**2106-1-28**] 08:00 PM 30 mL/hour
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR / DNI
+   Disposition :
+   Total time spent:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 24-year-old male admitted to the ICU with severe diastolic CHF, acute on chronic renal failure, and other comorbidities. The patient's vital signs are stable, with a temperature of 36.6°C, heart rate of 90 bpm, and blood pressure of 98/64 mmHg. The patient is receiving non-invasive ventilation with a bipap mask and has a SpO2 of 95%.
+
+The patient's laboratory results show:
+
+* Hemoglobin: 8.1 g/dL
+* White blood cell count: 7.3 K/uL
+* Platelet count: 219 K/uL
+* Creatinine: 3.9 mg/dL
+* Blood urea nitrogen: 27 mEq/L
+* Sodium: 138 mEq/L
+* Potassium: 4.8 mEq/L
+* Glucose: 98 mg/dL
+
+The patient's medical conditions include:
+
+* Severe diastolic CHF
+* Acute on chronic renal failure
+* Acquired factor V deficiency
+* Malnutrition
+* C. difficile colitis
+* Dirty urine
+* Hypercarbia
+* Altered mental status
+* Coagulopathy
+
+The patient's treatment plan includes:
+
+* Non-invasive ventilation with a bipap mask
+* Increased lasix drip to maximum dose
+* Continuous diuril and metolazone
+* Switching all medications to oral to minimize intake
+* Discussing thoracentesis with family
+* Continuing BiPAP
+* Avoiding opiates and benzodiazepines unless patient is made CMO
+* Receiving vitamin supplementation
+* Aggressive diuresis with potential ultrafiltration through peripheral large bore access
+* Continuing diltiazem and metoprolol
+* Enteral vitamin K
+* Oral vancomycin for C. difficile colitis
+* Empiric levaquin enterally for dirty urine
+
+Potential medical complications that can arise include:
+
+* Further worsening of hypercarbia
+* Increased risk of respiratory failure
+* Progression of acute on chronic renal failure
+* Development of acute kidney injury
+* Increased risk of bleeding due to coagulopathy
+* Further worsening of malnutrition
+* Development of sepsis
+* Increased risk of respiratory failure
+* Progression of C. difficile colitis
+* Development of septic shock
+
+The patient's overall condition is critical, and close monitoring and management are necessary to prevent further complications and improve his clinical outcomes."
+171250.0,217680,2106-01-30 08:10:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint: 77 yo male dCHF, CAD s/p CABG, afib, CKD4,
+   coagulopathy (factor V inhibitor) who has had a protracted hospital
+   course and is now being transferred to the MICU for altered mental
+   status and concern for hypercarbic respiratory failure
+   24 Hour Events:
+   [**1-28**]
+   -- further disucssion with family regarding prognosis and goals of
+   care; they want CMO, but to try to maintain holding pattern until
+   daughter can come in at 4P on Friday
+   -- cont on BiPAP throughout the day; having signficant secretions;
+   given 0.5 of morphine and scopalamine patch overnight
+   -- BPs low, started on levophed overnight to maintain MAP>55
+   -- diuretics stopped; despite max doses, patient only made about
+   10cc/hr
+   -- TPN stopped; all IV meds transitioned to PO if possible
+   *******************************************************
+   [**1-29**]
+   -- Daughter arrived at 4pm, patient taken off BIPAP and pressors
+   d/c'd.  All non-essential meds stopped.  Patient did well throughout
+   night.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-30**] 08:10 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.2
+C (97.2
+   Tcurrent: 35.5
+C (95.9
+   HR: 88 (71 - 93) bpm
+   BP: 94/39(53) {79/39(51) - 110/59(67)} mmHg
+   RR: 26 (18 - 33) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+                  Total In:
+                                                                  1,140 mL
+                  PO:
+                  TF:
+                                                                    530 mL
+   IVF:
+                                                                    390 mL
+   Blood products:
+                                                                    100 mL
+   Total out:
+                                                                     10 mL
+                                                                      0 mL
+   Urine:
+                                                                     10 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,130 mL
+                                                                      0 mL
+   Respiratory support
+   O2 Delivery Device: Aerosol-cool
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 615 (516 - 615) mL
+   PS : 10 cmH2O
+   RR (Spontaneous): 28
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 15 cmH2O
+   SpO2: 98%
+   ABG: ////
+   Ve: 8.2 L/min
+   Physical Examination
+   General Appearance: Well nourished
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   219 K/uL
+   8.1 g/dL
+   98 mg/dL
+   3.9 mg/dL
+   27 mEq/L
+   4.8 mEq/L
+   127 mg/dL
+   101 mEq/L
+   138 mEq/L
+   24.8 %
+   7.3 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+                             [**2106-1-28**]  04:16 PM
+                             [**2106-1-29**]  04:53 AM
+   WBC
+   8.1
+   7.3
+   Hct
+   28.3
+   24.8
+   Plt
+   220
+   219
+   Cr
+   3.4
+   3.6
+   3.9
+   TCO2
+   33
+   33
+   Glucose
+   126
+   98
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.4 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   77 yo male dCHF, CAD s/p CABG, afib, CKD4, coagulopathy (factor V
+   inhibitor) who has had a protracted hospital course and is now being
+   transferred to the MICU for altered mental status and concern for
+   hypercarbic respiratory failure
+   # Goals of care: patient
+s family discussed wanting patient to be CMO.
+   Awaiting for daughter to return from out of the country.  Will use
+   BiPAP and levophed as bridge until then
+   - can try morphine 0.5 mg IV PRN for respiratory distress
+   - start scopalmine patch for secretions
+   # Acute on Chronic Diastolic HF: significantly volume overloaded, but
+   no response to diuretics.
+   - minimize fluid in; stopped TPN
+   - no further diuretics
+   # Hypotension: patient
+s BP low overnight; VBG without worsening
+   acidosis last night.  Possibly septic physiology from ? PNA vs UTI
+   - started on levophed overnight to maintain MAP >55 while awaiting for
+   daughter to arrive
+   - no IVFs
+   # Coagulopathy: likely has Factor V inhibitor.  Epistaxis now
+   resolved.  Patient being followed by hematology here, repeat Factor V
+   inhibitor pending.  No clear reason why patient should have developed
+   this- usually associated with surgery (particuarly cardiac) but
+   patient's CABG was >6 months ago.  Also, associated with underlying
+   malignancy as well, though no clear malignancy at this time.
+   - stop vitamin K given no improvement
+   # Hypoxia: persistent O2 requirement, likely component of pleural
+   effusion vs volume overload.  No obvious PNA on CXR.  although PE is
+   possible, with patient's elevated INR this is unlikely and we could not
+   anticoagulate anyway
+   - on BiPAP for hypercarbia as bridge to CMO once daughter arrives
+   # Epistaxis: stable.  ENT has signed off
+   # Paroxsymal Afib: holding meds at this time given lowish BP
+   # C.Diff: C-diff positive at OSH. Diarrhea appears to have improved.
+   - cont PO vanco 250 for 2wks after d/c of cefazolin (last day [**2-6**])
+   - cont metamucil for bulking
+   # CAD: Hx of CABG, no evidence of active issue
+   - cont lipitor, BB.
+   - holding ASA in setting of epistaxis.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Comfort measures only
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint: 77 yo male dCHF, CAD s/p CABG, afib, CKD4,
+   coagulopathy (factor V inhibitor) who has had a protracted hospital
+   course and is now being transferred to the MICU for altered mental
+   status and concern for hypercarbic respiratory failure
+   24 Hour Events:
+   [**1-28**]
+   -- further disucssion with family regarding prognosis and goals of
+   care; they want CMO, but to try to maintain holding pattern until
+   daughter can come in at 4P on Friday
+   -- cont on BiPAP throughout the day; having signficant secretions;
+   given 0.5 of morphine and scopalamine patch overnight
+   -- BPs low, started on levophed overnight to maintain MAP>55
+   -- diuretics stopped; despite max doses, patient only made about
+   10cc/hr
+   -- TPN stopped; all IV meds transitioned to PO if possible
+   *******************************************************
+   [**1-29**]
+   -- Daughter arrived at 4pm, patient taken off BIPAP and pressors
+   d/c'd.  All non-essential meds stopped.  Patient did well throughout
+   night.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-30**] 08:10 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.2
+C (97.2
+   Tcurrent: 35.5
+C (95.9
+   HR: 88 (71 - 93) bpm
+   BP: 94/39(53) {79/39(51) - 110/59(67)} mmHg
+   RR: 26 (18 - 33) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+                  Total In:
+                                                                  1,140 mL
+                  PO:
+                  TF:
+                                                                    530 mL
+   IVF:
+                                                                    390 mL
+   Blood products:
+                                                                    100 mL
+   Total out:
+                                                                     10 mL
+                                                                      0 mL
+   Urine:
+                                                                     10 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,130 mL
+                                                                      0 mL
+   Respiratory support
+   O2 Delivery Device: Aerosol-cool
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 615 (516 - 615) mL
+   PS : 10 cmH2O
+   RR (Spontaneous): 28
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 15 cmH2O
+   SpO2: 98%
+   ABG: ////
+   Ve: 8.2 L/min
+   Physical Examination
+   General Appearance: Well nourished
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   219 K/uL
+   8.1 g/dL
+   98 mg/dL
+   3.9 mg/dL
+   27 mEq/L
+   4.8 mEq/L
+   127 mg/dL
+   101 mEq/L
+   138 mEq/L
+   24.8 %
+   7.3 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+                             [**2106-1-28**]  04:16 PM
+                             [**2106-1-29**]  04:53 AM
+   WBC
+   8.1
+   7.3
+   Hct
+   28.3
+   24.8
+   Plt
+   220
+   219
+   Cr
+   3.4
+   3.6
+   3.9
+   TCO2
+   33
+   33
+   Glucose
+   126
+   98
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.4 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   77 yo male dCHF, CAD s/p CABG, afib, CKD4, coagulopathy (factor V
+   inhibitor) who has had a protracted hospital course and is now being
+   transferred to the MICU for altered mental status and concern for
+   hypercarbic respiratory failure
+   # Goals of care: patient
+s family discussed wanting patient to be CMO.
+   Awaiting for daughter to return from out of the country.  Will use
+   BiPAP and levophed as bridge until then
+   - can try morphine 0.5 mg IV PRN for respiratory distress
+   - start scopalmine patch for secretions
+   # Acute on Chronic Diastolic HF: significantly volume overloaded, but
+   no response to diuretics.
+   - minimize fluid in; stopped TPN
+   - no further diuretics
+   # Hypotension: patient
+s BP low overnight; VBG without worsening
+   acidosis last night.  Possibly septic physiology from ? PNA vs UTI
+   - started on levophed overnight to maintain MAP >55 while awaiting for
+   daughter to arrive
+   - no IVFs
+   # Coagulopathy: likely has Factor V inhibitor.  Epistaxis now
+   resolved.  Patient being followed by hematology here, repeat Factor V
+   inhibitor pending.  No clear reason why patient should have developed
+   this- usually associated with surgery (particuarly cardiac) but
+   patient's CABG was >6 months ago.  Also, associated with underlying
+   malignancy as well, though no clear malignancy at this time.
+   - stop vitamin K given no improvement
+   # Hypoxia: persistent O2 requirement, likely component of pleural
+   effusion vs volume overload.  No obvious PNA on CXR.  although PE is
+   possible, with patient's elevated INR this is unlikely and we could not
+   anticoagulate anyway
+   - on BiPAP for hypercarbia as bridge to CMO once daughter arrives
+   # Epistaxis: stable.  ENT has signed off
+   # Paroxsymal Afib: holding meds at this time given lowish BP
+   # C.Diff: C-diff positive at OSH. Diarrhea appears to have improved.
+   - cont PO vanco 250 for 2wks after d/c of cefazolin (last day [**2-6**])
+   - cont metamucil for bulking
+   # CAD: Hx of CABG, no evidence of active issue
+   - cont lipitor, BB.
+   - holding ASA in setting of epistaxis.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Comfort measures only
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 77-year-old male with a complex medical history, including CHF, CAD, afib, CKD4, and a coagulopathy (factor V inhibitor). He is being transferred to the MICU for altered mental status and concern for hypercarbic respiratory failure.
+
+The patient's vital signs are stable, with a temperature of 35.5°C, heart rate of 88 bpm, and blood pressure of 94/39 mmHg. His respiratory rate is 26 breaths per minute, and his SpO2 is 98%.
+
+The patient has a history of protracted hospitalization, with a prolonged stay in the ICU. He has had several episodes of respiratory distress, including a recent episode that required BiPAP and levophed support.
+
+The patient's laboratory results show a white blood cell count of 8.1 K/uL, hemoglobin of 8.1 g/dL, and platelet count of 219 K/uL. His creatinine level is 3.9 mg/dL, and his blood urea nitrogen (BUN) level is 27 mEq/L. His lactate level is 0.6 mmol/L, and his calcium level is 8.9 mg/dL.
+
+The patient's medical conditions include:
+
+1. Acute on chronic diastolic HF: The patient is significantly volume overloaded, but has not responded to diuretics.
+2. Hypotension: The patient's blood pressure is low, and he has required levophed support to maintain a mean arterial pressure (MAP) >55 mmHg.
+3. Coagulopathy: The patient has a factor V inhibitor, which is likely the cause of his epistaxis. He is being followed by hematology, and repeat factor V inhibitor testing is pending.
+4. Hypoxia: The patient has a persistent oxygen requirement, which is likely due to a pleural effusion or volume overload.
+5. Epistaxis: The patient has had a recent episode of epistaxis, which has been stabilized.
+6. Paroxysmal afib: The patient has a history of afib, which is being held at this time due to his low blood pressure.
+7. C. Diff: The patient has a positive C. diff test, but his diarrhea has improved with treatment.
+8. CAD: The patient has a history of CABG, and his CAD is being managed with medication.
+
+The patient's goals of care are to maintain comfort measures only, and his family has discussed wanting him to be comfort measures only. He is being managed with BiPAP and levophed as a bridge until his daughter can arrive from out of the country.
+
+The potential medical complications that can arise from this patient's conditions include:
+
+1. Further respiratory distress: The patient's hypoxia and hypercarbia may worsen, leading to further respiratory distress.
+2. Sepsis: The patient's low blood pressure and elevated lactate level may indicate sepsis, which could worsen his condition.
+3. Bleeding: The patient's coagulopathy and recent epistaxis may increase his risk of bleeding.
+4. Infection: The patient's C. diff infection may worsen, leading to further complications.
+5. Cardiovascular instability: The patient's CAD and afib may worsen, leading to further cardiovascular instability.
+
+Based on this information, it is recommended that the patient's treatment plan be continued, with close monitoring of his vital signs, laboratory results, and medical conditions. Further treatment options may be considered based on the patient's response to treatment and the development of any new complications."
+171250.0,217680,2106-01-30 08:10:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint: 77 yo male dCHF, CAD s/p CABG, afib, CKD4,
+   coagulopathy (factor V inhibitor) who has had a protracted hospital
+   course and is now being transferred to the MICU for altered mental
+   status and concern for hypercarbic respiratory failure
+   24 Hour Events:
+   [**1-28**]
+   -- further disucssion with family regarding prognosis and goals of
+   care; they want CMO, but to try to maintain holding pattern until
+   daughter can come in at 4P on Friday
+   -- cont on BiPAP throughout the day; having signficant secretions;
+   given 0.5 of morphine and scopalamine patch overnight
+   -- BPs low, started on levophed overnight to maintain MAP>55
+   -- diuretics stopped; despite max doses, patient only made about
+   10cc/hr
+   -- TPN stopped; all IV meds transitioned to PO if possible
+   *******************************************************
+   [**1-29**]
+   -- Daughter arrived at 4pm, patient taken off BIPAP and pressors
+   d/c'd.  All non-essential meds stopped.  Patient did well throughout
+   night.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-30**] 08:10 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.2
+C (97.2
+   Tcurrent: 35.5
+C (95.9
+   HR: 88 (71 - 93) bpm
+   BP: 94/39(53) {79/39(51) - 110/59(67)} mmHg
+   RR: 26 (18 - 33) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+                  Total In:
+                                                                  1,140 mL
+                  PO:
+                  TF:
+                                                                    530 mL
+   IVF:
+                                                                    390 mL
+   Blood products:
+                                                                    100 mL
+   Total out:
+                                                                     10 mL
+                                                                      0 mL
+   Urine:
+                                                                     10 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,130 mL
+                                                                      0 mL
+   Respiratory support
+   O2 Delivery Device: Aerosol-cool
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 615 (516 - 615) mL
+   PS : 10 cmH2O
+   RR (Spontaneous): 28
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 15 cmH2O
+   SpO2: 98%
+   ABG: ////
+   Ve: 8.2 L/min
+   Physical Examination
+   General Appearance: Well nourished
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   219 K/uL
+   8.1 g/dL
+   98 mg/dL
+   3.9 mg/dL
+   27 mEq/L
+   4.8 mEq/L
+   127 mg/dL
+   101 mEq/L
+   138 mEq/L
+   24.8 %
+   7.3 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+                             [**2106-1-28**]  04:16 PM
+                             [**2106-1-29**]  04:53 AM
+   WBC
+   8.1
+   7.3
+   Hct
+   28.3
+   24.8
+   Plt
+   220
+   219
+   Cr
+   3.4
+   3.6
+   3.9
+   TCO2
+   33
+   33
+   Glucose
+   126
+   98
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.4 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   77 yo male dCHF, CAD s/p CABG, afib, CKD4, coagulopathy (factor V
+   inhibitor) who has had a protracted hospital course and is now being
+   transferred to the MICU for altered mental status and concern for
+   hypercarbic respiratory failure
+   # Goals of care:  Patient now CMO.  Off pressors.
+   - morphine 0.5 mg IV PRN for respiratory distress
+   - will start scopalmine patch for secretions
+   # Acute on Chronic Diastolic HF: significantly volume overloaded, but
+   no response to diuretics.
+   - minimize fluid in; stopped TPN
+   - no further diuretics
+   # Coagulopathy: likely has Factor V inhibitor.  Epistaxis now
+   resolved.  Patient being followed by hematology here, repeat Factor V
+   inhibitor pending.  No clear reason why patient should have developed
+   this- usually associated with surgery (particuarly cardiac) but
+   patient's CABG was >6 months ago.  Also, associated with underlying
+   malignancy as well, though no clear malignancy at this time.
+   - stop vitamin K given no improvement
+   # Hypoxia:  likely from pleural effusions/heart failure.
+   - morphine for dyspnea
+   # Epistaxis: stable.  ENT has signed off
+   # Paroxsymal Afib: holding meds at this time given lowish BP
+   # C.Diff:  No further antibx.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Comfort measures only
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint: 77 yo male dCHF, CAD s/p CABG, afib, CKD4,
+   coagulopathy (factor V inhibitor) who has had a protracted hospital
+   course and is now being transferred to the MICU for altered mental
+   status and concern for hypercarbic respiratory failure
+   24 Hour Events:
+   [**1-28**]
+   -- further disucssion with family regarding prognosis and goals of
+   care; they want CMO, but to try to maintain holding pattern until
+   daughter can come in at 4P on Friday
+   -- cont on BiPAP throughout the day; having signficant secretions;
+   given 0.5 of morphine and scopalamine patch overnight
+   -- BPs low, started on levophed overnight to maintain MAP>55
+   -- diuretics stopped; despite max doses, patient only made about
+   10cc/hr
+   -- TPN stopped; all IV meds transitioned to PO if possible
+   *******************************************************
+   [**1-29**]
+   -- Daughter arrived at 4pm, patient taken off BIPAP and pressors
+   d/c'd.  All non-essential meds stopped.  Patient did well throughout
+   night.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-1-30**] 08:10 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.2
+C (97.2
+   Tcurrent: 35.5
+C (95.9
+   HR: 88 (71 - 93) bpm
+   BP: 94/39(53) {79/39(51) - 110/59(67)} mmHg
+   RR: 26 (18 - 33) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 60 Inch
+                  Total In:
+                                                                  1,140 mL
+                  PO:
+                  TF:
+                                                                    530 mL
+   IVF:
+                                                                    390 mL
+   Blood products:
+                                                                    100 mL
+   Total out:
+                                                                     10 mL
+                                                                      0 mL
+   Urine:
+                                                                     10 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,130 mL
+                                                                      0 mL
+   Respiratory support
+   O2 Delivery Device: Aerosol-cool
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 615 (516 - 615) mL
+   PS : 10 cmH2O
+   RR (Spontaneous): 28
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 15 cmH2O
+   SpO2: 98%
+   ABG: ////
+   Ve: 8.2 L/min
+   Physical Examination
+   General Appearance: Well nourished
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   219 K/uL
+   8.1 g/dL
+   98 mg/dL
+   3.9 mg/dL
+   27 mEq/L
+   4.8 mEq/L
+   127 mg/dL
+   101 mEq/L
+   138 mEq/L
+   24.8 %
+   7.3 K/uL
+        [image002.jpg]
+                             [**2106-1-27**]  10:45 AM
+                             [**2106-1-28**]  01:18 AM
+                             [**2106-1-28**]  06:15 AM
+                             [**2106-1-28**]  04:16 PM
+                             [**2106-1-29**]  04:53 AM
+   WBC
+   8.1
+   7.3
+   Hct
+   28.3
+   24.8
+   Plt
+   220
+   219
+   Cr
+   3.4
+   3.6
+   3.9
+   TCO2
+   33
+   33
+   Glucose
+   126
+   98
+   Other labs: PT / PTT / INR:44.7/72.0/4.8, Lactic Acid:0.6 mmol/L,
+   Ca++:8.9 mg/dL, Mg++:2.4 mg/dL, PO4:4.4 mg/dL
+   Assessment and Plan
+   77 yo male dCHF, CAD s/p CABG, afib, CKD4, coagulopathy (factor V
+   inhibitor) who has had a protracted hospital course and is now being
+   transferred to the MICU for altered mental status and concern for
+   hypercarbic respiratory failure
+   # Goals of care:  Patient now CMO.  Off pressors.
+   - morphine 0.5 mg IV PRN for respiratory distress
+   - will start scopalmine patch for secretions
+   # Acute on Chronic Diastolic HF: significantly volume overloaded, but
+   no response to diuretics.
+   - minimize fluid in; stopped TPN
+   - no further diuretics
+   # Coagulopathy: likely has Factor V inhibitor.  Epistaxis now
+   resolved.  Patient being followed by hematology here, repeat Factor V
+   inhibitor pending.  No clear reason why patient should have developed
+   this- usually associated with surgery (particuarly cardiac) but
+   patient's CABG was >6 months ago.  Also, associated with underlying
+   malignancy as well, though no clear malignancy at this time.
+   - stop vitamin K given no improvement
+   # Hypoxia:  likely from pleural effusions/heart failure.
+   - morphine for dyspnea
+   # Epistaxis: stable.  ENT has signed off
+   # Paroxsymal Afib: holding meds at this time given lowish BP
+   # C.Diff:  No further antibx.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   PICC Line - [**2106-1-27**] 08:19 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Comfort measures only
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old male with a history of chronic heart failure, coronary artery disease, and chronic kidney disease, who has developed a protracted hospital course. He is currently in the MICU due to altered mental status and concern for hypercarbic respiratory failure. The patient's condition has been complicated by a coagulopathy, likely caused by a factor V inhibitor, which has resolved his epistaxis. He has also developed hypoxia, likely due to pleural effusions and heart failure.
+
+The patient's vital signs are stable, with a temperature of 35.5°C, heart rate of 88 bpm, and blood pressure of 94/39 mmHg. His respiratory rate is 26 breaths per minute, and his oxygen saturation is 98%. His laboratory results show a white blood cell count of 8.1 K/uL, hemoglobin of 8.1 g/dL, and creatinine of 3.9 mg/dL.
+
+The patient's goals of care are to maintain comfort measures only, with a focus on minimizing fluid intake and stopping diuretics. He is being treated with morphine for respiratory distress and scopalmine patch for secretions.
+
+Potential medical complications:
+
+1. Respiratory failure: The patient's hypoxia and hypercarbic respiratory failure may lead to respiratory failure if not managed promptly.
+2. Coagulopathy: The patient's coagulopathy may increase the risk of bleeding complications, particularly if he requires invasive procedures or surgery.
+3. Heart failure: The patient's chronic heart failure may worsen if not managed properly, leading to increased fluid overload and respiratory distress.
+4. Infection: The patient's compromised immune system and chronic kidney disease may increase his risk of infection, particularly with C. difficile.
+5. Malnutrition: The patient's poor nutritional status may worsen his overall health and increase his risk of complications.
+6. Electrolyte imbalance: The patient's chronic kidney disease and diuretic therapy may lead to electrolyte imbalances, particularly hyperkalemia and hypomagnesemia.
+7. Bleeding complications: The patient's coagulopathy may increase his risk of bleeding complications, particularly if he requires invasive procedures or surgery.
+8. Cardiac arrhythmias: The patient's paroxysmal atrial fibrillation may worsen if not managed properly, leading to cardiac arrhythmias and decreased cardiac output."

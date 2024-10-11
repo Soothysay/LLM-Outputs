@@ -1,0 +1,807 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+179082.0,299853,2101-01-16 08:01:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2101-1-16**] 04:31 AM
+   No acute events since admission
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2101-1-16**] 08:01 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.1
+C (97
+   Tcurrent: 36
+C (96.8
+   HR: 77 (74 - 88) bpm
+   BP: 114/58(71) {114/53(70) - 133/63(76)} mmHg
+   RR: 15 (12 - 25) insp/min
+   SpO2: 100%
+   Heart rhythm: 1st AV (First degree AV Block)
+   Wgt (current): 81 kg (admission): 81 kg
+           Total In:
+           2,342 mL
+   PO:
+           TF:
+   IVF:
+   42 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                      0 mL
+                                                                    250 mL
+   Urine:
+   250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                  2,092 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///23/
+   Physical Examination
+   General: Alert, oriented to person only, no acute distress
+   HEENT: Sclera anicteric, MMM, oropharynx clear, tongue w/ 3 mm blueish
+   papule
+   Neck: supple, JVP not elevated, no LAD
+   Lungs: Clear to auscultation bilaterally, no wheezes, rales, ronchi
+   CV: irreg irreg, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen:  soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly
+   Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   134 mg/dL
+   1.2 mg/dL
+   23 mEq/L
+   4.1 mEq/L
+   63 mg/dL
+   112 mEq/L
+   143 mEq/L
+   28.5 %
+        [image002.jpg]
+                             [**2101-1-16**]  05:14 AM
+   Hct
+   28.5
+   Cr
+   1.2
+   TropT
+   0.01
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:24//0.01, Lactic Acid:3.4 mmol/L,
+   Ca++:8.0 mg/dL, Mg++:2.0 mg/dL, PO4:4.2 mg/dL
+   Imaging: CXR: No acute process
+   Microbiology: BCx, UCx pending
+   Assessment and Plan
+   An 85 year old gentleman with a history of DVT on PPX lovenox, Afib s/p
+   pacemaker and dementia presenting with melena and a hct drop but now
+   hemodynamically stable.
+   # GI bleed/ Acute blood-loss anemia: Likely from Upper GI source given
+   NG Lavage. Recently on lovenox for DVT prophylaxis which is not
+   reflected in his coags.
+   - q6 hct until stabilizes
+   - IV PPI [**Hospital1 7**]
+   - hold lovenox
+   - T & S w/ crossmatch 4 U
+   - GI to scope today
+   # Leukocytosis: Likely from GI bleed.  There is a possible LLL opacity
+   for which he received zosyn.  No fever.
+   - f/u blood and urine cx
+   - hold on further antibiotics for now pending sx of infection
+   # Acute renal failure: Unknown baseline but per son no h/o renal
+   disease. Likely pre-renal given GI bleed.
+   - treat GI bleed as above
+   - urine lytes
+   - NS 1L Bolus
+   # Chronic diastolic heart failure: EF > 55% on last ECHO by report w/
+   Mild MR, Mild TR, mod/severe pulm HTN, LAE.  Has chronic LE swelling.
+   - pneumoboots
+   # Dementia: Baseline oriented to self and needs help w/ ADLs.
+   - continue aricept
+   # Orthostatic hypotension: continue midodrine
+   # H/o DVT: On lovenox at prophylactic doses.  Will hold in setting of
+   GI bleed.
+   - pneumoboots
+   # H/o possible sinus nodal dysfunction w/ dual-chamber pacemaker.
+   Currently in sinus w/ HR in 90s.
+   # BPH: continue finasteride, hold tamsulosin in the setting of GI bleed
+   # FEN: NS 1L bolus, replete electrolytes prn, Clear sips only
+   # Prophylaxis: Pneumoboots, fall precautions, IV PPI [**Hospital1 7**]
+   # Access: peripherals: 18G X 2
+   # Code: full (per NH records)
+   # Communication: Patient, Dr. [**First Name4 (NamePattern1) 1412**] [**Known lastname 5311**] (ED Doctor), serves as HCP
+   H: ([**Telephone/Fax (1) 5314**]; C: ([**Telephone/Fax (1) 5313**].
+   # Disposition: ICU pending above
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2101-1-16**] 03:02 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2101-1-16**] 04:31 AM
+   No acute events since admission
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2101-1-16**] 08:01 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.1
+C (97
+   Tcurrent: 36
+C (96.8
+   HR: 77 (74 - 88) bpm
+   BP: 114/58(71) {114/53(70) - 133/63(76)} mmHg
+   RR: 15 (12 - 25) insp/min
+   SpO2: 100%
+   Heart rhythm: 1st AV (First degree AV Block)
+   Wgt (current): 81 kg (admission): 81 kg
+           Total In:
+           2,342 mL
+   PO:
+           TF:
+   IVF:
+   42 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                      0 mL
+                                                                    250 mL
+   Urine:
+   250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                  2,092 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///23/
+   Physical Examination
+   General: Alert, oriented to person only, no acute distress
+   HEENT: Sclera anicteric, MMM, oropharynx clear, tongue w/ 3 mm blueish
+   papule
+   Neck: supple, JVP not elevated, no LAD
+   Lungs: Clear to auscultation bilaterally, no wheezes, rales, ronchi
+   CV: irreg irreg, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen:  soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly
+   Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   134 mg/dL
+   1.2 mg/dL
+   23 mEq/L
+   4.1 mEq/L
+   63 mg/dL
+   112 mEq/L
+   143 mEq/L
+   28.5 %
+        [image002.jpg]
+                             [**2101-1-16**]  05:14 AM
+   Hct
+   28.5
+   Cr
+   1.2
+   TropT
+   0.01
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:24//0.01, Lactic Acid:3.4 mmol/L,
+   Ca++:8.0 mg/dL, Mg++:2.0 mg/dL, PO4:4.2 mg/dL
+   Imaging: CXR: No acute process
+   Microbiology: BCx, UCx pending
+   Assessment and Plan
+   An 85 year old gentleman with a history of DVT on PPX lovenox, Afib s/p
+   pacemaker and dementia presenting with melena and a hct drop but now
+   hemodynamically stable.
+   # GI bleed/ Acute blood-loss anemia: Likely from Upper GI source given
+   NG Lavage. Recently on lovenox for DVT prophylaxis which is not
+   reflected in his coags.
+   - q6 hct until stabilizes
+   - IV PPI [**Hospital1 7**]
+   - hold lovenox
+   - T & S w/ crossmatch 4 U
+   - GI to scope today
+   # Leukocytosis: Likely from GI bleed.  There is a possible LLL opacity
+   for which he received zosyn.  No fever.
+   - f/u blood and urine cx
+   - hold on further antibiotics for now pending sx of infection
+   # Acute renal failure: Unknown baseline but per son no h/o renal
+   disease. Likely pre-renal given GI bleed.
+   - treat GI bleed as above
+   - urine lytes
+   - NS 1L Bolus
+   # Chronic diastolic heart failure: EF > 55% on last ECHO by report w/
+   Mild MR, Mild TR, mod/severe pulm HTN, LAE.  Has chronic LE swelling.
+   - pneumoboots
+   # Dementia: Baseline oriented to self and needs help w/ ADLs.
+   - continue aricept
+   # Orthostatic hypotension: continue midodrine
+   # H/o DVT: On lovenox at prophylactic doses.  Will hold in setting of
+   GI bleed.
+   - pneumoboots
+   # H/o possible sinus nodal dysfunction w/ dual-chamber pacemaker.
+   Currently in sinus w/ HR in 90s.
+   # BPH: continue finasteride, hold tamsulosin in the setting of GI bleed
+   # FEN: NS 1L bolus, replete electrolytes prn, Clear sips only
+   # Prophylaxis: Pneumoboots, fall precautions, IV PPI [**Hospital1 7**]
+   # Access: peripherals: 18G X 2
+   # Code: full (per NH records)
+   # Communication: Patient, Dr. [**First Name4 (NamePattern1) 1412**] [**Known lastname 5311**] (ED Doctor), serves as HCP
+   H: ([**Telephone/Fax (1) 5314**]; C: ([**Telephone/Fax (1) 5313**].
+   # Disposition: ICU pending above
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2101-1-16**] 03:02 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is an 85-year-old man with a history of DVT, Afib, pacemaker, dementia, and recent melena and hemoglobin drop. He is currently hemodynamically stable and is being treated for a possible upper GI bleed. He has leukocytosis, acute renal failure, chronic diastolic heart failure, and orthostatic hypotension. He is also being treated for DVT prophylaxis, dementia, BPH, and FEN.
+
+Potential Medical Complications:
+
+1. Continued bleeding from the upper GI tract, leading to hypovolemic shock and potential organ failure.
+2. Development of acute respiratory distress syndrome (ARDS) due to fluid overload and possible aspiration.
+3. Progression of acute renal failure to chronic kidney disease or end-stage renal disease.
+4. Worsening of chronic diastolic heart failure, leading to heart failure exacerbation and potential cardiac arrest.
+5. Increased risk of deep vein thrombosis (DVT) and pulmonary embolism (PE) due to the patient's history of DVT and current bleeding.
+6. Increased risk of nosocomial infections, such as ventilator-associated pneumonia (VAP), due to the patient's prolonged ICU stay and invasive lines.
+7. Development of electrolyte imbalances, particularly hypokalemia, due to ongoing diuretic therapy and potential gastrointestinal losses.
+8. Worsening of dementia and potential increased risk of falls due to decreased mobility and cognitive impairment.
+9. Potential for aspiration pneumonia due to decreased gag reflex and altered mental status.
+10. Development of pressure ulcers due to prolonged immobility and decreased circulation."
+179082.0,299853,2101-01-16 08:01:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2101-1-16**] 04:31 AM
+   No acute events since admission
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2101-1-16**] 08:01 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.1
+C (97
+   Tcurrent: 36
+C (96.8
+   HR: 77 (74 - 88) bpm
+   BP: 114/58(71) {114/53(70) - 133/63(76)} mmHg
+   RR: 15 (12 - 25) insp/min
+   SpO2: 100%
+   Heart rhythm: 1st AV (First degree AV Block)
+   Wgt (current): 81 kg (admission): 81 kg
+           Total In:
+           2,342 mL
+   PO:
+           TF:
+   IVF:
+   42 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                      0 mL
+                                                                    250 mL
+   Urine:
+   250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                  2,092 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///23/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   134 mg/dL
+   1.2 mg/dL
+   23 mEq/L
+   4.1 mEq/L
+   63 mg/dL
+   112 mEq/L
+   143 mEq/L
+   28.5 %
+        [image002.jpg]
+                             [**2101-1-16**]  05:14 AM
+   Hct
+   28.5
+   Cr
+   1.2
+   TropT
+   0.01
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:24//0.01, Lactic Acid:3.4 mmol/L,
+   Ca++:8.0 mg/dL, Mg++:2.0 mg/dL, PO4:4.2 mg/dL
+   Imaging: CXR: No acute process
+   Microbiology: BCx, UCx pending
+   Assessment and Plan
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2101-1-16**] 03:02 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2101-1-16**] 04:31 AM
+   No acute events since admission
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2101-1-16**] 08:01 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.1
+C (97
+   Tcurrent: 36
+C (96.8
+   HR: 77 (74 - 88) bpm
+   BP: 114/58(71) {114/53(70) - 133/63(76)} mmHg
+   RR: 15 (12 - 25) insp/min
+   SpO2: 100%
+   Heart rhythm: 1st AV (First degree AV Block)
+   Wgt (current): 81 kg (admission): 81 kg
+           Total In:
+           2,342 mL
+   PO:
+           TF:
+   IVF:
+   42 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                      0 mL
+                                                                    250 mL
+   Urine:
+   250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                  2,092 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///23/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   134 mg/dL
+   1.2 mg/dL
+   23 mEq/L
+   4.1 mEq/L
+   63 mg/dL
+   112 mEq/L
+   143 mEq/L
+   28.5 %
+        [image002.jpg]
+                             [**2101-1-16**]  05:14 AM
+   Hct
+   28.5
+   Cr
+   1.2
+   TropT
+   0.01
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:24//0.01, Lactic Acid:3.4 mmol/L,
+   Ca++:8.0 mg/dL, Mg++:2.0 mg/dL, PO4:4.2 mg/dL
+   Imaging: CXR: No acute process
+   Microbiology: BCx, UCx pending
+   Assessment and Plan
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2101-1-16**] 03:02 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 24-hour-old ICU admission with a chief complaint of gastrointestinal bleed (melena). The patient has been on mechanical ventilation and is receiving IV fluids, antibiotics, and other medications. The patient's vital signs are stable, with a temperature of 36.1°C (97°F), heart rate of 77 bpm, and blood pressure of 114/58 mmHg. The patient's respiratory support includes oxygen delivery through a nasal cannula, with an SpO2 of 100%. The patient's lab results show mild hypocalcemia, hypokalemia, and mild anemia. The patient's imaging studies, including a chest X-ray, are normal. The patient is at risk for potential medical complications, including bleeding, infection, and cardiovascular instability.
+
+Potential Medical Complications:
+
+1. Bleeding: The patient has a gastrointestinal bleed, which can lead to hypovolemic shock, bleeding into the lungs, and other complications.
+2. Infection: The patient is at risk for hospital-acquired infections, including ventilator-associated pneumonia (VAP) and central line-associated bloodstream infections (CLABSIs).
+3. Cardiovascular instability: The patient's hypotension and tachycardia may indicate cardiovascular instability, which can lead to cardiac arrest.
+4. Respiratory failure: The patient's mechanical ventilation may not be adequate, leading to respiratory failure and the need for further respiratory support.
+5. Renal failure: The patient's hypovolemia and potential bleeding may lead to acute kidney injury (AKI).
+6. Metabolic complications: The patient's hypocalcemia, hypokalemia, and mild anemia may lead to metabolic complications, such as arrhythmias, muscle weakness, and fatigue.
+
+It is essential to closely monitor the patient's condition and adjust treatment accordingly to prevent or manage these potential complications."
+179082.0,299853,2101-01-16 08:01:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2101-1-16**] 04:31 AM
+   No acute events since admission
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2101-1-16**] 08:01 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.1
+C (97
+   Tcurrent: 36
+C (96.8
+   HR: 77 (74 - 88) bpm
+   BP: 114/58(71) {114/53(70) - 133/63(76)} mmHg
+   RR: 15 (12 - 25) insp/min
+   SpO2: 100%
+   Heart rhythm: 1st AV (First degree AV Block)
+   Wgt (current): 81 kg (admission): 81 kg
+           Total In:
+           2,342 mL
+   PO:
+           TF:
+   IVF:
+   42 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                      0 mL
+                                                                    250 mL
+   Urine:
+   250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                  2,092 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///23/
+   Physical Examination
+   General: Alert, oriented to person only, no acute distress
+   HEENT: Sclera anicteric, MMM, oropharynx clear, tongue w/ 3 mm blueish
+   papule
+   Neck: supple, JVP not elevated, no LAD
+   Lungs: Clear to auscultation bilaterally, no wheezes, rales, ronchi
+   CV: irreg irreg, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen:  soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly
+   Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   134 mg/dL
+   1.2 mg/dL
+   23 mEq/L
+   4.1 mEq/L
+   63 mg/dL
+   112 mEq/L
+   143 mEq/L
+   28.5 %
+        [image002.jpg]
+                             [**2101-1-16**]  05:14 AM
+   Hct
+   28.5
+   Cr
+   1.2
+   TropT
+   0.01
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:24//0.01, Lactic Acid:3.4 mmol/L,
+   Ca++:8.0 mg/dL, Mg++:2.0 mg/dL, PO4:4.2 mg/dL
+   Imaging: CXR: No acute process
+   Microbiology: BCx, UCx pending
+   Assessment and Plan
+   An 85 year old gentleman with a history of DVT on PPX lovenox, Afib s/p
+   pacemaker and dementia presenting with melena and a hct drop but now
+   hemodynamically stable.
+   # GI bleed/ Acute blood-loss anemia: ? from upper gi source given brown
+   fluid on NG lavage.  Could also be from a lower GI source.  Is on
+   lovenox for DVT prophylaxis which is not reflected in his coags.  Has
+   received 2 U PRBC in the ED.  Baseline hct in [**11-29**] was 35 so somewhat
+   anemic at baseline.  Normocytic.
+   - q 4 hct until stabilizes
+   - IV PPI [**Hospital1 7**]
+   - hold lovenox
+   - T & S w/ crossmatch 4 U
+   - GI to scope on Monday unless HD unstable and bleed does not stop
+   - tele
+   # Leukocytosis: Likely from GI bleed.  There is a possible LLL opacity
+   for which he received zosyn.  No fever.
+   - f/u blood and urine cx
+   - hold on further antibiotics for now pending sx of infection
+   # Acute renal failure: Unknown baseline but per son no h/o renal
+   disease. Likley somewhat pre-renal given GI bleed.
+   - treat GI bleed as above
+   - urine lytes
+   - trend for now
+   # Chronic diastolic heart failure: EF > 55% on last ECHO by report w/
+   Mild MR, Mild TR, mod/severe pulm HTN, LAE.  Has chronic LE swelling.
+   - pneumoboots
+   # Dementia: Baseline oriented to self and needs help w/ ADLs.
+   - continue aricept
+   # Orthostatic hypotension: continue midodrine
+   # H/o DVT: On lovenox at prophylactic doses.  Will hold in setting of
+   GI bleed.
+   - pneumoboots
+   # H/o possible sinus nodal dysfunction w/ dual-chamber pacemaker.
+   Currently in sinus w/ HR in 90s.
+   # BPH: continue finasteride, hold tamsulosin in the setting of GI bleed
+   # FEN: No IVF, replete electrolytes prn, clears for now
+   # Prophylaxis: Pneumoboots, fall precautions, IV PPI [**Hospital1 7**]
+   # Access: peripherals: 18G X 2
+   # Code: full (per NH records)
+   # Communication: Patient, Dr. [**First Name4 (NamePattern1) 1412**] [**Known lastname 5311**] (ED Doctor), serves as HCP
+   H: ([**Telephone/Fax (1) 5314**]; C: ([**Telephone/Fax (1) 5313**].
+   # Disposition: ICU pending above
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2101-1-16**] 03:02 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2101-1-16**] 04:31 AM
+   No acute events since admission
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2101-1-16**] 08:01 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.1
+C (97
+   Tcurrent: 36
+C (96.8
+   HR: 77 (74 - 88) bpm
+   BP: 114/58(71) {114/53(70) - 133/63(76)} mmHg
+   RR: 15 (12 - 25) insp/min
+   SpO2: 100%
+   Heart rhythm: 1st AV (First degree AV Block)
+   Wgt (current): 81 kg (admission): 81 kg
+           Total In:
+           2,342 mL
+   PO:
+           TF:
+   IVF:
+   42 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                      0 mL
+                                                                    250 mL
+   Urine:
+   250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                  2,092 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///23/
+   Physical Examination
+   General: Alert, oriented to person only, no acute distress
+   HEENT: Sclera anicteric, MMM, oropharynx clear, tongue w/ 3 mm blueish
+   papule
+   Neck: supple, JVP not elevated, no LAD
+   Lungs: Clear to auscultation bilaterally, no wheezes, rales, ronchi
+   CV: irreg irreg, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen:  soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly
+   Ext: Warm, well perfused, 2+ pulses, no clubbing, cyanosis or edema
+   Labs / Radiology
+   134 mg/dL
+   1.2 mg/dL
+   23 mEq/L
+   4.1 mEq/L
+   63 mg/dL
+   112 mEq/L
+   143 mEq/L
+   28.5 %
+        [image002.jpg]
+                             [**2101-1-16**]  05:14 AM
+   Hct
+   28.5
+   Cr
+   1.2
+   TropT
+   0.01
+   Glucose
+   134
+   Other labs: CK / CKMB / Troponin-T:24//0.01, Lactic Acid:3.4 mmol/L,
+   Ca++:8.0 mg/dL, Mg++:2.0 mg/dL, PO4:4.2 mg/dL
+   Imaging: CXR: No acute process
+   Microbiology: BCx, UCx pending
+   Assessment and Plan
+   An 85 year old gentleman with a history of DVT on PPX lovenox, Afib s/p
+   pacemaker and dementia presenting with melena and a hct drop but now
+   hemodynamically stable.
+   # GI bleed/ Acute blood-loss anemia: ? from upper gi source given brown
+   fluid on NG lavage.  Could also be from a lower GI source.  Is on
+   lovenox for DVT prophylaxis which is not reflected in his coags.  Has
+   received 2 U PRBC in the ED.  Baseline hct in [**11-29**] was 35 so somewhat
+   anemic at baseline.  Normocytic.
+   - q 4 hct until stabilizes
+   - IV PPI [**Hospital1 7**]
+   - hold lovenox
+   - T & S w/ crossmatch 4 U
+   - GI to scope on Monday unless HD unstable and bleed does not stop
+   - tele
+   # Leukocytosis: Likely from GI bleed.  There is a possible LLL opacity
+   for which he received zosyn.  No fever.
+   - f/u blood and urine cx
+   - hold on further antibiotics for now pending sx of infection
+   # Acute renal failure: Unknown baseline but per son no h/o renal
+   disease. Likley somewhat pre-renal given GI bleed.
+   - treat GI bleed as above
+   - urine lytes
+   - trend for now
+   # Chronic diastolic heart failure: EF > 55% on last ECHO by report w/
+   Mild MR, Mild TR, mod/severe pulm HTN, LAE.  Has chronic LE swelling.
+   - pneumoboots
+   # Dementia: Baseline oriented to self and needs help w/ ADLs.
+   - continue aricept
+   # Orthostatic hypotension: continue midodrine
+   # H/o DVT: On lovenox at prophylactic doses.  Will hold in setting of
+   GI bleed.
+   - pneumoboots
+   # H/o possible sinus nodal dysfunction w/ dual-chamber pacemaker.
+   Currently in sinus w/ HR in 90s.
+   # BPH: continue finasteride, hold tamsulosin in the setting of GI bleed
+   # FEN: No IVF, replete electrolytes prn, clears for now
+   # Prophylaxis: Pneumoboots, fall precautions, IV PPI [**Hospital1 7**]
+   # Access: peripherals: 18G X 2
+   # Code: full (per NH records)
+   # Communication: Patient, Dr. [**First Name4 (NamePattern1) 1412**] [**Known lastname 5311**] (ED Doctor), serves as HCP
+   H: ([**Telephone/Fax (1) 5314**]; C: ([**Telephone/Fax (1) 5313**].
+   # Disposition: ICU pending above
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2101-1-16**] 03:02 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is an 85-year-old male with a history of DVT, Afib, pacemaker, and dementia who presented with melena and a hemoglobin drop. He is currently hemodynamically stable. The patient has a GI bleed, likely from an upper GI source, and is receiving IV PPI. He is also anemic and normocytic, with a baseline hemoglobin of 35. The patient has received 2 units of packed red blood cells and is being treated with IV PPI and hold on lovenox.
+
+Potential Medical Complications:
+
+1. GI bleed: The patient's GI bleed is a significant concern, and he may require further interventions such as endoscopy or surgery to control the bleeding.
+2. Acute renal failure: The patient's acute renal failure is likely related to the GI bleed and pre-renal factors. Close monitoring of his renal function and electrolytes is necessary.
+3. Leukocytosis: The patient's leukocytosis may be related to the GI bleed or a secondary infection. Further evaluation of his blood and urine cultures is necessary to determine the cause of his leukocytosis.
+4. Chronic diastolic heart failure: The patient's chronic diastolic heart failure is likely to be exacerbated by his GI bleed and may require further treatment with diuretics and vasodilators.
+5. Dementia: The patient's dementia is likely to be exacerbated by his current condition, and close monitoring of his mental status is necessary.
+6. Orthostatic hypotension: The patient's orthostatic hypotension may be exacerbated by his GI bleed and may require further treatment with vasopressors.
+7. Potential sinus nodal dysfunction: The patient's dual-chamber pacemaker may be affected by his current condition, and close monitoring of his heart rhythm is necessary.
+
+Overall, the patient's condition is complex and requires close monitoring and management to prevent further complications."

@@ -1,0 +1,4290 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+180922.0,225940,2106-05-13 07:19:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2106-5-12**] 07:51 PM
+ EKG - At [**2106-5-12**] 11:45 PM
+   ABG: ///19/
+   Allergies:
+   Penicillins Unknown;
+   Nsaids Nausea/Vomiting
+   Percocet (Oxycodone Hcl /Acetaminophen) itching;
+   Verapamil Drowsiness/Fati
+   Neurontin (Oral) ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl) n/v
+   Mysoline (Oral) (Primidone) falls;
+   [**Doctor First Name **] (Oral) Confusion/Delir
+   Codeine Unknown
+   Darvon (Oral) (Propoxyphene Hcl) Unk
+   Last dose of Antibiotics:
+   Ceftriaxone - [**2106-5-13**] 01:08 AM
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 06:00 AM
+   Infusions:
+   Amiodarone - 0.5 mg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 01:08 AM
+   Pantoprazole (Protonix) - [**2106-5-13**] 02:14 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-13**] 07:16 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.8
+C (98.2
+   Tcurrent: 35.7
+C (96.2
+   HR: 55 (52 - 69) bpm
+   BP: 106/47(61) {69/30(41) - 112/62(69)} mmHg
+   RR: 18 (15 - 22) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  3,288 mL
+                                                                    721 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,538 mL
+                                                                    721 mL
+   Blood products:
+   Total out:
+                                                                    515 mL
+                                                                    505 mL
+   Urine:
+                                                                    315 mL
+                                                                    505 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,773 mL
+                                                                    216 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   147 K/uL
+   8.8 g/dL
+   164 mg/dL
+   2.2 mg/dL
+   19 mEq/L
+   3.1 mEq/L
+   49 mg/dL
+   110 mEq/L
+   141 mEq/L
+   27.6 %
+   7.2 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+   WBC
+   8.7
+   7.2
+   Hct
+   29.3
+   27.6
+   Plt
+   145
+   147
+   Cr
+   2.7
+   2.2
+   TropT
+   0.86
+   1.16
+   1.26
+   Glucose
+   164
+   Other labs: PT / PTT / INR:27.2/33.3/2.6, CK / CKMB /
+   Troponin-T:408/36/1.26, ALT / AST:1530/1722, Alk Phos / T Bili:75/0.3,
+   Lactic Acid:2.3 mmol/L, LDH:1326 IU/L, Ca++:7.8 mg/dL, Mg++:2.3 mg/dL,
+   PO4:2.9 mg/dL. Vanc trough at 5:43am 23.2.
+   Micro: urine cx pending X2; MRSA screen pending, blood culture pending
+   CXR:
+   EKG:
+   Assessment and Plan
+ CHEST PAIN
+ CHOLECYSTITIS, ACALCULOUS
+ .H/O TACHYCARDIA, OTHER
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2106-5-12**] 04:41 PM
+   20 Gauge - [**2106-5-12**] 04:45 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2106-5-12**] 07:51 PM
+ EKG - At [**2106-5-12**] 11:45 PM
+   ABG: ///19/
+   Allergies:
+   Penicillins Unknown;
+   Nsaids Nausea/Vomiting
+   Percocet (Oxycodone Hcl /Acetaminophen) itching;
+   Verapamil Drowsiness/Fati
+   Neurontin (Oral) ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl) n/v
+   Mysoline (Oral) (Primidone) falls;
+   [**Doctor First Name **] (Oral) Confusion/Delir
+   Codeine Unknown
+   Darvon (Oral) (Propoxyphene Hcl) Unk
+   Last dose of Antibiotics:
+   Ceftriaxone - [**2106-5-13**] 01:08 AM
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 06:00 AM
+   Infusions:
+   Amiodarone - 0.5 mg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 01:08 AM
+   Pantoprazole (Protonix) - [**2106-5-13**] 02:14 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-13**] 07:16 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.8
+C (98.2
+   Tcurrent: 35.7
+C (96.2
+   HR: 55 (52 - 69) bpm
+   BP: 106/47(61) {69/30(41) - 112/62(69)} mmHg
+   RR: 18 (15 - 22) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  3,288 mL
+                                                                    721 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,538 mL
+                                                                    721 mL
+   Blood products:
+   Total out:
+                                                                    515 mL
+                                                                    505 mL
+   Urine:
+                                                                    315 mL
+                                                                    505 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,773 mL
+                                                                    216 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   147 K/uL
+   8.8 g/dL
+   164 mg/dL
+   2.2 mg/dL
+   19 mEq/L
+   3.1 mEq/L
+   49 mg/dL
+   110 mEq/L
+   141 mEq/L
+   27.6 %
+   7.2 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+   WBC
+   8.7
+   7.2
+   Hct
+   29.3
+   27.6
+   Plt
+   145
+   147
+   Cr
+   2.7
+   2.2
+   TropT
+   0.86
+   1.16
+   1.26
+   Glucose
+   164
+   Other labs: PT / PTT / INR:27.2/33.3/2.6, CK / CKMB /
+   Troponin-T:408/36/1.26, ALT / AST:1530/1722, Alk Phos / T Bili:75/0.3,
+   Lactic Acid:2.3 mmol/L, LDH:1326 IU/L, Ca++:7.8 mg/dL, Mg++:2.3 mg/dL,
+   PO4:2.9 mg/dL. Vanc trough at 5:43am 23.2.
+   Micro: urine cx pending X2; MRSA screen pending, blood culture pending
+   CXR:
+   EKG:
+   Assessment and Plan
+ CHEST PAIN
+ CHOLECYSTITIS, ACALCULOUS
+ .H/O TACHYCARDIA, OTHER
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2106-5-12**] 04:41 PM
+   20 Gauge - [**2106-5-12**] 04:45 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a critically ill individual admitted to the ICU with multiple medical conditions and treatments. The patient's current vital signs are:
+
+* Temperature: 36.8°C (98.2°F)
+* Heart rate: 55 bpm (within normal range)
+* Blood pressure: 106/47 mmHg (slightly elevated)
+* Respiratory rate: 18 breaths per minute (within normal range)
+* Oxygen saturation: 100% (normal)
+* Heart rhythm: Sinus bradycardia (normal)
+
+The patient has a history of allergies to various medications, including penicillins, NSAIDs, and others. The patient is receiving multiple medications, including antibiotics, pain management medications, and cardiac medications.
+
+The patient's laboratory results show:
+
+* White blood cell count: 8.7-8.7 K/uL (normal)
+* Hemoglobin: 8.8 g/dL (normal)
+* Platelet count: 145-147 K/uL (normal)
+* Creatinine: 2.2-2.7 mg/dL (slightly elevated)
+* Troponin-T: 0.86-1.26 ng/mL (normal)
+* Glucose: 164 mg/dL (normal)
+
+The patient has a diagnosis of chest pain, cholecystitis, and tachycardia. The patient's medical history includes a recent EKG, which showed sinus bradycardia. The patient's urine culture is pending, as well as MRSA and blood culture screens.
+
+Potential medical complications that may arise include:
+
+* Infection: The patient's urine culture and blood culture screens are pending, and the patient has a history of MRSA infection. There is a risk of developing sepsis or secondary infections.
+* Cardiac complications: The patient's heart rhythm is sinus bradycardia, which may indicate cardiac instability. There is a risk of developing cardiac arrhythmias or cardiac failure.
+* Respiratory complications: The patient is receiving oxygen therapy and has a history of tachycardia, which may indicate respiratory distress. There is a risk of developing respiratory failure or acute respiratory distress syndrome.
+* Gastrointestinal complications: The patient has a diagnosis of cholecystitis, which may lead to complications such as gallstone pancreatitis or secondary infections.
+* Hemodynamic instability: The patient's blood pressure is slightly elevated, which may indicate hemodynamic instability. There is a risk of developing hypotension or hypertension.
+
+The patient's treatment plan includes ongoing monitoring of vital signs, laboratory results, and imaging studies. The patient's medication regimen will be continued, and additional medications may be added as necessary. The patient's nutritional needs will be assessed and managed accordingly."
+180922.0,225940,2106-05-13 07:19:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2106-5-12**] 07:51 PM
+ EKG - At [**2106-5-12**] 11:45 PM
+   Patient developed CP associated with wheezing at ~8pm. EKG with
+   anterior TWI and ST depression ~1 mm in V3-v4. Pain resolved with nebs,
+   improved breathing. Second episode of CP less severe at 11:00 pm. TWI
+   in V2-V4 still present, but ST depressions slightly improved. 3rd set
+   still trending up, but CKs seem plateauing. CP again at ~1:00 am, given
+   morphine for pain.
+   - Hypotensive to SBPs 60s-70s on and off throughout evening. Received 2
+   boluses of 500 cc IVF. UOP somewhat poor at 25-40/hr.
+   Allergies:
+   Penicillins Unknown;
+   Nsaids Nausea/Vomiting
+   Percocet (Oxycodone Hcl /Acetaminophen) itching;
+   Verapamil Drowsiness/Fati
+   Neurontin (Oral) ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl) n/v
+   Mysoline (Oral) (Primidone) falls;
+   [**Doctor First Name **] (Oral) Confusion/Delir
+   Codeine Unknown
+   Darvon (Oral) (Propoxyphene Hcl) Unk
+   Last dose of Antibiotics:
+   Ceftriaxone - [**2106-5-13**] 01:08 AM
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 06:00 AM
+   Infusions:
+   Amiodarone - 0.5 mg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 01:08 AM
+   Pantoprazole (Protonix) - [**2106-5-13**] 02:14 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-13**] 07:16 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.8
+C (98.2
+   Tcurrent: 35.7
+C (96.2
+   HR: 55 (52 - 69) bpm
+   BP: 106/47(61) {69/30(41) - 112/62(69)} mmHg
+   RR: 18 (15 - 22) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  3,288 mL
+                                                                    721 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,538 mL
+                                                                    721 mL
+   Blood products:
+   Total out:
+                                                                    515 mL
+                                                                    505 mL
+   Urine:
+                                                                    315 mL
+                                                                    505 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,773 mL
+                                                                    216 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   147 K/uL
+   8.8 g/dL
+   164 mg/dL
+   2.2 mg/dL
+   19 mEq/L
+   3.1 mEq/L
+   49 mg/dL
+   110 mEq/L
+   141 mEq/L
+   27.6 %
+   7.2 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+   WBC
+   8.7
+   7.2
+   Hct
+   29.3
+   27.6
+   Plt
+   145
+   147
+   Cr
+   2.7
+   2.2
+   TropT
+   0.86
+   1.16
+   1.26
+   Glucose
+   164
+   Other labs: PT / PTT / INR:27.2/33.3/2.6, CK / CKMB /
+   Troponin-T:408/36/1.26, ALT / AST:1530/1722, Alk Phos / T Bili:75/0.3,
+   Lactic Acid:2.3 mmol/L, LDH:1326 IU/L, Ca++:7.8 mg/dL, Mg++:2.3 mg/dL,
+   PO4:2.9 mg/dL. Vanc trough at 5:43am 23.2.
+   Micro: urine cx pending X2; MRSA screen pending, blood culture pending
+   CXR: [**5-12**] final read No evidence of pneumonia or pulmonary edema.
+   Probable right basilar atelectasis.
+   CXR [**5-13**]: pending
+   EKG:
+   CT ab/pelvis, Final read: 1. Mild thickening along the transverse colon
+   with associated stranding in  the region of the hepatic flexure may
+   represent colitis. Etiology could be  inflammatory, infectious, or
+   ischemic.  2. Post-cholecystectomy with increasing diameter of the
+   common bile duct  compared with prior exam. Recommend clinical
+   correlation and if needed  ultrasound may be obtained to further
+   assess.  3. Moderate fecal loading of the rectum.   4. Fat and
+   fluid-containing periumbilical hernia, stable.
+   Assessment and Plan
+   81 yo female with history of CHF (EF 30%), Afib on coumadin, s/p CABG
+   presents with dyspnea and CP, found to be hypotensive. Cardioverted for
+   ?aflutter, developed v-tach, defibrillated, returned to NSR. CTAb
+   showed equivocal colitis. Admitted to MICU for hypotension.
+   .
+   # Shock. Likely secondary to dehydration in setting of anorexia and
+   nausea, together with recent rapid ventricular rates, and baseline
+   impaired cardiac function (given mild pulmonary vascular congestion on
+   CXR, chronic CHF). Baseline bp appears low (syst in 80s at clinic).
+   Differential also includes sepsis, especially in setting of mild
+   leukocytosis and colitis seen on CT, though afebrile and WBC to
+   baseline with fluids.
+   - Vasodilatory source: colitis
+        - treat empirically with vanco/flagyl/ceftriaxone; follow exam
+        - appreciate surgery recs
+        - trend lactate
+        - check C. Diff given recent history of diarrhea though now with
+   constipation
+        - follow blood, urine cultures
+   - Hypovolemic source: dehydration (pt appears generally volume
+   depleted)
+        - fluid boluses to maintain UOP and MAP goal of >55 then to
+   maintenance fluids when 50 cc/hr UOP achieved
+   - Cardiogenic (baseline CHF with low EF, together with superimposed
+   arrhythmia; however CXR not concerning for congestion)
+        - check TTE
+   .
+   # NSTEMI. Elevated troponins, CK-MB, anterior TWI on EKG. In setting of
+   acute illness, tachycardia
+   - Cycle enzymes
+   - Manage CAD as below
+   - Continue atorvastatin, ASA; discontinue atorvastatin if LFTs continue
+   to be abnormal
+   - Repeat ECG
+   - Anticoagulation if continued enzyme rise (start heparin now that INR
+   within range)
+   - Morphine for pain/dypsnea
+   .
+   # Tachy-arrhythmia. Pt with possible a-flutter and RVR initially,
+   developed VTach after synchronized cardioversion, returned to NSR with
+   defib. Cardiology and EP saw pt in ED.
+   - Continue amiodarone gtt, move to PO amiodarone if long term control
+   needed
+   - Consider AICD; cards consult today
+   - Maintain K > 4 (watch renal function though), Mg > 2
+   - If persistently hypotensive despite fluid resuscitation, will
+   discontinue amiodarone and return to lopressor
+   - Restart Coumadin for A-fib
+   .
+   # Subacute renal failure. Creatinine 3.2, baseline 1.1 but was elevated
+   [**4-29**] to 3.3 (pt refused to seek medical attention at time). Likely
+   prerenal in setting of dehydration/chronic CHF with intravascular
+   depletion. Foley in place. Urine lytes: BUN 506, Cr 94, Na < 10, FeNa
+   about 0.2% implies likely prerenal etiology.
+   - Continue gentle fluid boluses and monitor UOP; trend creatinine and
+   monitor UOP
+   - Renally dose medications; avoid nephrotoxins
+   - Hold ACE-I and diuretics
+   .
+   # Hepatitis. s/p cholecystectomy. Elevated LFTs likely in setting of
+   shock liver.
+   - Trend LFTs; manage hypotension (see above)
+   - NPO for now
+   - Hepatitis viral panel if persistent elevation
+   # Abdominal pain/colitis on CT. Surgery consulted, recommend continue
+   resuscitation, enema, trend labs/lactate, empiric abx. Pt is s/p
+   cholecystectomy.
+   - Appreciate surgery recs, will follow with serial exams
+   - Gentle enema given impaction, colace / senna
+   - Trend lactate
+   - Empiric IV abx for now as above
+   .
+   # GIB. Guaiac positive stools:
+   - Follow Hct; give PPI
+   - Repeat stool guaiac when disimpacted
+   .
+   # CHF:  Hold lasix while hypotensive; hold Metoprolol, ACE-I,
+   spironolactone while hypotensive
+   # Obstructive lung disease/allergic rhinitis: Continue albuterol,
+   cromolyn spray, fluticasone inhaler;  hold benadryl
+   # Anxiety: Continue fluoxetine; hold trazodone for now
+   .
+   # FEN: IVF as above, replete electrolytes, NPO for now (regular heart
+   healthy diet when taking POs). Folate. PPI.
+   # Prophylaxis: SCH, pneumoboots
+   # Access: 2 peripherals
+   # Communication: Patient
+   # Code:  DNR DNI but consider less aggressive interventions such as
+   cardiovert/defib if short-term return to baseline status (see OMR note
+   [**5-12**] by PCP [**Doctor Last Name **] for full discussion)
+   Name of health care proxy: [**Name (NI) 457**] [**Last Name (NamePattern1) 14303**]
+   Relationship: Sister
+   Phone number: [**Telephone/Fax (1) 14304**]
+   # Disposition: ICU pending clinical improvement
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2106-5-12**] 07:51 PM
+ EKG - At [**2106-5-12**] 11:45 PM
+   Patient developed CP associated with wheezing at ~8pm. EKG with
+   anterior TWI and ST depression ~1 mm in V3-v4. Pain resolved with nebs,
+   improved breathing. Second episode of CP less severe at 11:00 pm. TWI
+   in V2-V4 still present, but ST depressions slightly improved. 3rd set
+   still trending up, but CKs seem plateauing. CP again at ~1:00 am, given
+   morphine for pain.
+   - Hypotensive to SBPs 60s-70s on and off throughout evening. Received 2
+   boluses of 500 cc IVF. UOP somewhat poor at 25-40/hr.
+   Allergies:
+   Penicillins Unknown;
+   Nsaids Nausea/Vomiting
+   Percocet (Oxycodone Hcl /Acetaminophen) itching;
+   Verapamil Drowsiness/Fati
+   Neurontin (Oral) ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl) n/v
+   Mysoline (Oral) (Primidone) falls;
+   [**Doctor First Name **] (Oral) Confusion/Delir
+   Codeine Unknown
+   Darvon (Oral) (Propoxyphene Hcl) Unk
+   Last dose of Antibiotics:
+   Ceftriaxone - [**2106-5-13**] 01:08 AM
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 06:00 AM
+   Infusions:
+   Amiodarone - 0.5 mg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 01:08 AM
+   Pantoprazole (Protonix) - [**2106-5-13**] 02:14 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-13**] 07:16 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.8
+C (98.2
+   Tcurrent: 35.7
+C (96.2
+   HR: 55 (52 - 69) bpm
+   BP: 106/47(61) {69/30(41) - 112/62(69)} mmHg
+   RR: 18 (15 - 22) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  3,288 mL
+                                                                    721 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,538 mL
+                                                                    721 mL
+   Blood products:
+   Total out:
+                                                                    515 mL
+                                                                    505 mL
+   Urine:
+                                                                    315 mL
+                                                                    505 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,773 mL
+                                                                    216 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   147 K/uL
+   8.8 g/dL
+   164 mg/dL
+   2.2 mg/dL
+   19 mEq/L
+   3.1 mEq/L
+   49 mg/dL
+   110 mEq/L
+   141 mEq/L
+   27.6 %
+   7.2 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+   WBC
+   8.7
+   7.2
+   Hct
+   29.3
+   27.6
+   Plt
+   145
+   147
+   Cr
+   2.7
+   2.2
+   TropT
+   0.86
+   1.16
+   1.26
+   Glucose
+   164
+   Other labs: PT / PTT / INR:27.2/33.3/2.6, CK / CKMB /
+   Troponin-T:408/36/1.26, ALT / AST:1530/1722, Alk Phos / T Bili:75/0.3,
+   Lactic Acid:2.3 mmol/L, LDH:1326 IU/L, Ca++:7.8 mg/dL, Mg++:2.3 mg/dL,
+   PO4:2.9 mg/dL. Vanc trough at 5:43am 23.2.
+   Micro: urine cx pending X2; MRSA screen pending, blood culture pending
+   CXR: [**5-12**] final read No evidence of pneumonia or pulmonary edema.
+   Probable right basilar atelectasis.
+   CXR [**5-13**]: pending
+   EKG:
+   CT ab/pelvis, Final read: 1. Mild thickening along the transverse colon
+   with associated stranding in  the region of the hepatic flexure may
+   represent colitis. Etiology could be  inflammatory, infectious, or
+   ischemic.  2. Post-cholecystectomy with increasing diameter of the
+   common bile duct  compared with prior exam. Recommend clinical
+   correlation and if needed  ultrasound may be obtained to further
+   assess.  3. Moderate fecal loading of the rectum.   4. Fat and
+   fluid-containing periumbilical hernia, stable.
+   Assessment and Plan
+   81 yo female with history of CHF (EF 30%), Afib on coumadin, s/p CABG
+   presents with dyspnea and CP, found to be hypotensive. Cardioverted for
+   ?aflutter, developed v-tach, defibrillated, returned to NSR. CTAb
+   showed equivocal colitis. Admitted to MICU for hypotension.
+   .
+   # Shock. Likely secondary to dehydration in setting of anorexia and
+   nausea, together with recent rapid ventricular rates, and baseline
+   impaired cardiac function (given mild pulmonary vascular congestion on
+   CXR, chronic CHF). Baseline bp appears low (syst in 80s at clinic).
+   Differential also includes sepsis, especially in setting of mild
+   leukocytosis and colitis seen on CT, though afebrile and WBC to
+   baseline with fluids.
+   - Vasodilatory source: colitis
+        - treat empirically with vanco/flagyl/ceftriaxone; follow exam
+        - appreciate surgery recs
+        - trend lactate
+        - check C. Diff given recent history of diarrhea though now with
+   constipation
+        - follow blood, urine cultures
+   - Hypovolemic source: dehydration (pt appears generally volume
+   depleted)
+        - fluid boluses to maintain UOP and MAP goal of >55 then to
+   maintenance fluids when 50 cc/hr UOP achieved
+   - Cardiogenic (baseline CHF with low EF, together with superimposed
+   arrhythmia; however CXR not concerning for congestion)
+        - check TTE
+   .
+   # NSTEMI. Elevated troponins, CK-MB, anterior TWI on EKG. In setting of
+   acute illness, tachycardia
+   - Cycle enzymes
+   - Manage CAD as below
+   - Continue atorvastatin, ASA; discontinue atorvastatin if LFTs continue
+   to be abnormal
+   - Repeat ECG
+   - Anticoagulation if continued enzyme rise (start heparin now that INR
+   within range)
+   - Morphine for pain/dypsnea
+   .
+   # Tachy-arrhythmia. Pt with possible a-flutter and RVR initially,
+   developed VTach after synchronized cardioversion, returned to NSR with
+   defib. Cardiology and EP saw pt in ED.
+   - Continue amiodarone gtt, move to PO amiodarone if long term control
+   needed
+   - Consider AICD; cards consult today
+   - Maintain K > 4 (watch renal function though), Mg > 2
+   - If persistently hypotensive despite fluid resuscitation, will
+   discontinue amiodarone and return to lopressor
+   - Restart Coumadin for A-fib
+   .
+   # Subacute renal failure. Creatinine 3.2, baseline 1.1 but was elevated
+   [**4-29**] to 3.3 (pt refused to seek medical attention at time). Likely
+   prerenal in setting of dehydration/chronic CHF with intravascular
+   depletion. Foley in place. Urine lytes: BUN 506, Cr 94, Na < 10, FeNa
+   about 0.2% implies likely prerenal etiology.
+   - Continue gentle fluid boluses and monitor UOP; trend creatinine and
+   monitor UOP
+   - Renally dose medications; avoid nephrotoxins
+   - Hold ACE-I and diuretics
+   .
+   # Hepatitis. s/p cholecystectomy. Elevated LFTs likely in setting of
+   shock liver.
+   - Trend LFTs; manage hypotension (see above)
+   - NPO for now
+   - Hepatitis viral panel if persistent elevation
+   # Abdominal pain/colitis on CT. Surgery consulted, recommend continue
+   resuscitation, enema, trend labs/lactate, empiric abx. Pt is s/p
+   cholecystectomy.
+   - Appreciate surgery recs, will follow with serial exams
+   - Gentle enema given impaction, colace / senna
+   - Trend lactate
+   - Empiric IV abx for now as above
+   .
+   # GIB. Guaiac positive stools:
+   - Follow Hct; give PPI
+   - Repeat stool guaiac when disimpacted
+   .
+   # CHF:  Hold lasix while hypotensive; hold Metoprolol, ACE-I,
+   spironolactone while hypotensive
+   # Obstructive lung disease/allergic rhinitis: Continue albuterol,
+   cromolyn spray, fluticasone inhaler;  hold benadryl
+   # Anxiety: Continue fluoxetine; hold trazodone for now
+   .
+   # FEN: IVF as above, replete electrolytes, NPO for now (regular heart
+   healthy diet when taking POs). Folate. PPI.
+   # Prophylaxis: SCH, pneumoboots
+   # Access: 2 peripherals
+   # Communication: Patient
+   # Code:  DNR DNI but consider less aggressive interventions such as
+   cardiovert/defib if short-term return to baseline status (see OMR note
+   [**5-12**] by PCP [**Doctor Last Name **] for full discussion)
+   Name of health care proxy: [**Name (NI) 457**] [**Last Name (NamePattern1) 14303**]
+   Relationship: Sister
+   Phone number: [**Telephone/Fax (1) 14304**]
+   # Disposition: ICU pending clinical improvement<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's daily progress note, the following medical complications are potential concerns:
+
+1. Shock: The patient's hypotension and low cardiac output may indicate shock, which could be secondary to dehydration, sepsis, or cardiogenic causes.
+2. NSTEMI: The patient's elevated troponins, CK-MB, and anterior TWI on EKG suggest a possible NSTEMI, which requires management and monitoring.
+3. Tachy-arrhythmia: The patient's history of atrial flutter, ventricular tachycardia, and defibrillation indicates a need for continued management and monitoring of cardiac rhythm.
+4. Subacute renal failure: The patient's elevated creatinine levels and prerenal azotemia suggest a need for close monitoring and management of renal function.
+5. Hepatitis: The patient's elevated LFTs may indicate liver dysfunction, which requires monitoring and management.
+6. Abdominal pain/colitis: The patient's symptoms and CT findings suggest a possible colitis, which requires empiric antibiotic treatment and close monitoring.
+7. Gastrointestinal bleeding: The patient's guaiac-positive stools suggest gastrointestinal bleeding, which requires close monitoring and management.
+8. Chronic heart failure: The patient's history of CHF and mild pulmonary vascular congestion on CXR requires ongoing management and monitoring.
+9. Obstructive lung disease/allergic rhinitis: The patient's history of obstructive lung disease and allergic rhinitis requires ongoing management and monitoring.
+10. Anxiety: The patient's history of anxiety requires ongoing management and monitoring.
+
+The patient's medications include:
+
+* Vasodilators: amiodarone, morphine
+* Antibiotics: vancomycin, metronidazole, ceftriaxone
+* Anti-arrhythmics: amiodarone
+* Anti-anxiety medications: fluoxetine
+* Anti-inflammatory medications: Pantoprazole (Protonix)
+* Pain medications: morphine, tramadol
+* Anticoagulants: heparin
+* Diuretics: lasix
+* ACE inhibitors: metoprolol
+* Statins: atorvastatin
+
+The patient's lab results include:
+
+* Troponins: elevated
+* CK-MB: elevated
+* Creatinine: 3.2
+* BUN: 506
+* Cr: 94
+* Na: <10
+* FeNa: 0.2%
+* LFTs: elevated
+* WBC: 8.7
+* Hct: 29.3
+* Plt: 145
+* Cr: 2.7
+* TropT: 0.86
+* Glucose: 164
+* Ca++: 7.8 mg/dL
+* Mg++: 2.3 mg/dL
+* PO4: 2.9 mg/dL
+
+The patient's imaging studies include:
+
+* CXR: showing mild pulmonary vascular congestion and probable right basilar atelectasis
+* CT ab/pelvis: showing mild thickening along the transverse colon with associated stranding in the region of the hepatic flexure, post-cholecystectomy with increasing diameter of the common bile duct, and moderate fecal loading of the rectum.
+
+The patient's plan includes:
+
+* Continuing resuscitation with IV fluids and vasopressors
+* Managing cardiac rhythm with amiodarone and cardioversion
+* Monitoring and managing renal function with gentle fluid boluses and electrolyte repletion
+* Trending LFTs and managing liver dysfunction
+* Empiric antibiotic treatment for suspected colitis
+* Managing gastrointestinal bleeding with PPI and guaiac testing
+* Ongoing management of CHF, obstructive lung disease, and anxiety
+* Monitoring and management of electrolyte imbalances
+* Close monitoring of the patient's clinical status and lab results."
+180922.0,225940,2106-05-13 07:19:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2106-5-12**] 07:51 PM
+ EKG - At [**2106-5-12**] 11:45 PM
+   Patient developed CP associated with wheezing at ~8pm. EKG with
+   anterior TWI and ST depression ~1 mm in V3-v4. Pain resolved with nebs,
+   improved breathing. Second episode of CP less severe at 11:00 pm. TWI
+   in V2-V4 still present, but ST depressions slightly improved. 3rd set
+   still trending up, but CKs seem plateauing. CP again at ~1:00 am, given
+   morphine for pain. Pain improved with talking with nurse, who felt it
+   may be partly anxiety related.
+   - Hypotensive to SBPs 60s-70s on and off throughout evening. Received 2
+   boluses of 500 cc IVF. UOP somewhat poor at 25-40/hr, increasing this
+   am to 40-120 cc/hr.
+   Allergies:
+   Penicillins Unknown;
+   Nsaids Nausea/Vomiting
+   Percocet (Oxycodone Hcl /Acetaminophen) itching;
+   Verapamil Drowsiness/Fati
+   Neurontin (Oral) ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl) n/v
+   Mysoline (Oral) (Primidone) falls;
+   [**Doctor First Name **] (Oral) Confusion/Delir
+   Codeine Unknown
+   Darvon (Oral) (Propoxyphene Hcl) Unk
+   Last dose of Antibiotics:
+   Ceftriaxone - [**2106-5-13**] 01:08 AM
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 06:00 AM
+   Infusions:
+   Amiodarone - 0.5 mg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 01:08 AM
+   Pantoprazole (Protonix) - [**2106-5-13**] 02:14 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-13**] 07:16 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.8
+C (98.2
+   Tcurrent: 35.7
+C (96.2
+   HR: 55 (52 - 69) bpm
+   BP: 106/47(61) {69/30(41) - 112/62(69)} mmHg
+   RR: 18 (15 - 22) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  3,288 mL
+                                                                    721 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,538 mL
+                                                                    721 mL
+   Blood products:
+   Total out:
+                                                                    515 mL
+                                                                    505 mL
+   Urine:
+                                                                    315 mL
+                                                                    505 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,773 mL
+                                                                    216 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: DPs palpable
+   Skin:  warm extremities
+   Neurologic: Alert, oriented
+   Ab: soft, non-distended, mildly tender to palpation in epigastrium and
+   diffusely
+   CV: RRR with irregular beats
+   Pulm: generally CTAB with minimal crackles at left base, some scattered
+   expiratory wheezing
+   Labs / Radiology
+   147 K/uL
+   8.8 g/dL
+   164 mg/dL
+   2.2 mg/dL
+   19 mEq/L
+   3.1 mEq/L
+   49 mg/dL
+   110 mEq/L
+   141 mEq/L
+   27.6 %
+   7.2 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+   WBC
+   8.7
+   7.2
+   Hct
+   29.3
+   27.6
+   Plt
+   145
+   147
+   Cr
+   2.7
+   2.2
+   TropT
+   0.86
+   1.16
+   1.26
+   Glucose
+   164
+   Other labs: PT / PTT / INR:27.2/33.3/2.6, CK / CKMB /
+   Troponin-T:408/36/1.26, ALT / AST:1530/1722, Alk Phos / T Bili:75/0.3,
+   Lactic Acid:2.3 mmol/L, LDH:1326 IU/L, Ca++:7.8 mg/dL, Mg++:2.3 mg/dL,
+   PO4:2.9 mg/dL. Vanc trough at 5:43am 23.2.
+   Micro: urine cx pending X2; MRSA screen pending, blood culture pending
+   CXR: [**5-12**] final read No evidence of pneumonia or pulmonary edema.
+   Probable right basilar atelectasis.
+   CXR [**5-13**]: pending
+   EKG:
+   CT ab/pelvis, Final read: 1. Mild thickening along the transverse colon
+   with associated stranding in  the region of the hepatic flexure may
+   represent colitis. Etiology could be  inflammatory, infectious, or
+   ischemic.  2. Post-cholecystectomy with increasing diameter of the
+   common bile duct  compared with prior exam. Recommend clinical
+   correlation and if needed  ultrasound may be obtained to further
+   assess.  3. Moderate fecal loading of the rectum.   4. Fat and
+   fluid-containing periumbilical hernia, stable.
+   Assessment and Plan
+   81 yo female with history of CHF (EF 30%), Afib on coumadin, s/p CABG
+   presents with dyspnea and CP, found to be hypotensive. Cardioverted for
+   ?aflutter, developed v-tach, defibrillated, returned to NSR. CTAb
+   showed equivocal colitis. Admitted to MICU for hypotension.
+   .
+   # Shock. Likely secondary to dehydration in setting of anorexia and
+   nausea, together with recent rapid ventricular rates, and baseline
+   impaired cardiac function (given mild pulmonary vascular congestion on
+   CXR, chronic CHF). Baseline bp appears low (syst in 80s at clinic).
+   Differential also includes sepsis, especially in setting of mild
+   leukocytosis and colitis seen on CT, though afebrile and WBC to
+   baseline with fluids.
+   - Vasodilatory source: colitis
+        - treat empirically with vanco/flagyl/ceftriaxone; follow exam
+        - appreciate surgery recs
+        - trend lactate
+        - check C. Diff given recent history of diarrhea though now with
+   constipation
+        - follow blood, urine cultures
+   - Hypovolemic source: dehydration (pt appears generally volume
+   depleted)
+        - fluid boluses to maintain UOP and MAP goal of >55 then to
+   maintenance fluids when 50 cc/hr UOP achieved
+   - Cardiogenic (baseline CHF with low EF, together with superimposed
+   arrhythmia; however CXR not concerning for congestion)
+        - check TTE
+   .
+   # NSTEMI. Elevated troponins, CK-MB, anterior TWI on EKG. In setting of
+   acute illness, tachycardia
+   - Cycle enzymes
+   - Manage CAD as below
+   - Continue atorvastatin, ASA; discontinue atorvastatin if LFTs continue
+   to be abnormal
+   - Repeat ECG
+   - Anticoagulation if continued enzyme rise (start heparin now that INR
+   within range)
+   - Morphine for pain/dypsnea
+   .
+   # Tachy-arrhythmia. Pt with possible a-flutter and RVR initially,
+   developed VTach after synchronized cardioversion, returned to NSR with
+   defib. Cardiology and EP saw pt in ED.
+   - Continue amiodarone gtt, move to PO amiodarone if long term control
+   needed
+   - Consider AICD; cards consult today
+   - Maintain K > 4 (watch renal function though), Mg > 2
+   - If persistently hypotensive despite fluid resuscitation, will
+   discontinue amiodarone and return to lopressor
+   - Restart Coumadin for A-fib
+   .
+   # Subacute renal failure. Creatinine 3.2, baseline 1.1 but was elevated
+   [**4-29**] to 3.3 (pt refused to seek medical attention at time). Likely
+   prerenal in setting of dehydration/chronic CHF with intravascular
+   depletion. Foley in place. Urine lytes: BUN 506, Cr 94, Na < 10, FeNa
+   about 0.2% implies likely prerenal etiology.
+   - Continue gentle fluid boluses and monitor UOP; trend creatinine and
+   monitor UOP
+   - Renally dose medications; avoid nephrotoxins
+   - Hold ACE-I and diuretics
+   .
+   # Hepatitis. s/p cholecystectomy. Elevated LFTs likely in setting of
+   shock liver.
+   - Trend LFTs; manage hypotension (see above)
+   - NPO for now
+   - Hepatitis viral panel if persistent elevation
+   # Abdominal pain/colitis on CT. Surgery consulted, recommend continue
+   resuscitation, enema, trend labs/lactate, empiric abx. Pt is s/p
+   cholecystectomy.
+   - Appreciate surgery recs, will follow with serial exams
+   - Gentle enema given impaction, colace / senna
+   - Trend lactate
+   - Empiric IV abx for now as above
+   .
+   # GIB. Guaiac positive stools:
+   - Follow Hct; give PPI
+   - Repeat stool guaiac when disimpacted
+   .
+   # CHF:  Hold lasix while hypotensive; hold Metoprolol, ACE-I,
+   spironolactone while hypotensive
+   # Obstructive lung disease/allergic rhinitis: Continue albuterol,
+   cromolyn spray, fluticasone inhaler;  hold benadryl
+   # Anxiety: Continue fluoxetine; hold trazodone for now
+   .
+   # FEN: IVF as above, replete electrolytes, NPO for now (regular heart
+   healthy diet when taking POs). Folate. PPI.
+   # Prophylaxis: SCH, pneumoboots
+   # Access: 2 peripherals
+   # Communication: Patient
+   # Code:  DNR DNI but consider less aggressive interventions such as
+   cardiovert/defib if short-term return to baseline status (see OMR note
+   [**5-12**] by PCP [**Doctor Last Name **] for full discussion)
+   Name of health care proxy: [**Name (NI) 457**] [**Last Name (NamePattern1) 14303**]
+   Relationship: Sister
+   Phone number: [**Telephone/Fax (1) 14304**]
+   # Disposition: ICU pending clinical improvement
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2106-5-12**] 07:51 PM
+ EKG - At [**2106-5-12**] 11:45 PM
+   Patient developed CP associated with wheezing at ~8pm. EKG with
+   anterior TWI and ST depression ~1 mm in V3-v4. Pain resolved with nebs,
+   improved breathing. Second episode of CP less severe at 11:00 pm. TWI
+   in V2-V4 still present, but ST depressions slightly improved. 3rd set
+   still trending up, but CKs seem plateauing. CP again at ~1:00 am, given
+   morphine for pain. Pain improved with talking with nurse, who felt it
+   may be partly anxiety related.
+   - Hypotensive to SBPs 60s-70s on and off throughout evening. Received 2
+   boluses of 500 cc IVF. UOP somewhat poor at 25-40/hr, increasing this
+   am to 40-120 cc/hr.
+   Allergies:
+   Penicillins Unknown;
+   Nsaids Nausea/Vomiting
+   Percocet (Oxycodone Hcl /Acetaminophen) itching;
+   Verapamil Drowsiness/Fati
+   Neurontin (Oral) ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl) n/v
+   Mysoline (Oral) (Primidone) falls;
+   [**Doctor First Name **] (Oral) Confusion/Delir
+   Codeine Unknown
+   Darvon (Oral) (Propoxyphene Hcl) Unk
+   Last dose of Antibiotics:
+   Ceftriaxone - [**2106-5-13**] 01:08 AM
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 06:00 AM
+   Infusions:
+   Amiodarone - 0.5 mg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 01:08 AM
+   Pantoprazole (Protonix) - [**2106-5-13**] 02:14 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-13**] 07:16 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.8
+C (98.2
+   Tcurrent: 35.7
+C (96.2
+   HR: 55 (52 - 69) bpm
+   BP: 106/47(61) {69/30(41) - 112/62(69)} mmHg
+   RR: 18 (15 - 22) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  3,288 mL
+                                                                    721 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,538 mL
+                                                                    721 mL
+   Blood products:
+   Total out:
+                                                                    515 mL
+                                                                    505 mL
+   Urine:
+                                                                    315 mL
+                                                                    505 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,773 mL
+                                                                    216 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: DPs palpable
+   Skin:  warm extremities
+   Neurologic: Alert, oriented
+   Ab: soft, non-distended, mildly tender to palpation in epigastrium and
+   diffusely
+   CV: RRR with irregular beats
+   Pulm: generally CTAB with minimal crackles at left base, some scattered
+   expiratory wheezing
+   Labs / Radiology
+   147 K/uL
+   8.8 g/dL
+   164 mg/dL
+   2.2 mg/dL
+   19 mEq/L
+   3.1 mEq/L
+   49 mg/dL
+   110 mEq/L
+   141 mEq/L
+   27.6 %
+   7.2 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+   WBC
+   8.7
+   7.2
+   Hct
+   29.3
+   27.6
+   Plt
+   145
+   147
+   Cr
+   2.7
+   2.2
+   TropT
+   0.86
+   1.16
+   1.26
+   Glucose
+   164
+   Other labs: PT / PTT / INR:27.2/33.3/2.6, CK / CKMB /
+   Troponin-T:408/36/1.26, ALT / AST:1530/1722, Alk Phos / T Bili:75/0.3,
+   Lactic Acid:2.3 mmol/L, LDH:1326 IU/L, Ca++:7.8 mg/dL, Mg++:2.3 mg/dL,
+   PO4:2.9 mg/dL. Vanc trough at 5:43am 23.2.
+   Micro: urine cx pending X2; MRSA screen pending, blood culture pending
+   CXR: [**5-12**] final read No evidence of pneumonia or pulmonary edema.
+   Probable right basilar atelectasis.
+   CXR [**5-13**]: pending
+   EKG:
+   CT ab/pelvis, Final read: 1. Mild thickening along the transverse colon
+   with associated stranding in  the region of the hepatic flexure may
+   represent colitis. Etiology could be  inflammatory, infectious, or
+   ischemic.  2. Post-cholecystectomy with increasing diameter of the
+   common bile duct  compared with prior exam. Recommend clinical
+   correlation and if needed  ultrasound may be obtained to further
+   assess.  3. Moderate fecal loading of the rectum.   4. Fat and
+   fluid-containing periumbilical hernia, stable.
+   Assessment and Plan
+   81 yo female with history of CHF (EF 30%), Afib on coumadin, s/p CABG
+   presents with dyspnea and CP, found to be hypotensive. Cardioverted for
+   ?aflutter, developed v-tach, defibrillated, returned to NSR. CTAb
+   showed equivocal colitis. Admitted to MICU for hypotension.
+   .
+   # Shock. Likely secondary to dehydration in setting of anorexia and
+   nausea, together with recent rapid ventricular rates, and baseline
+   impaired cardiac function (given mild pulmonary vascular congestion on
+   CXR, chronic CHF). Baseline bp appears low (syst in 80s at clinic).
+   Differential also includes sepsis, especially in setting of mild
+   leukocytosis and colitis seen on CT, though afebrile and WBC to
+   baseline with fluids.
+   - Vasodilatory source: colitis
+        - treat empirically with vanco/flagyl/ceftriaxone; follow exam
+        - appreciate surgery recs
+        - trend lactate
+        - check C. Diff given recent history of diarrhea though now with
+   constipation
+        - follow blood, urine cultures
+   - Hypovolemic source: dehydration (pt appears generally volume
+   depleted)
+        - fluid boluses to maintain UOP and MAP goal of >55 then to
+   maintenance fluids when 50 cc/hr UOP achieved
+   - Cardiogenic (baseline CHF with low EF, together with superimposed
+   arrhythmia; however CXR not concerning for congestion)
+        - check TTE
+   .
+   # NSTEMI. Elevated troponins, CK-MB, anterior TWI on EKG. In setting of
+   acute illness, tachycardia
+   - Cycle enzymes
+   - Manage CAD as below
+   - Continue atorvastatin, ASA; discontinue atorvastatin if LFTs continue
+   to be abnormal
+   - Repeat ECG
+   - Anticoagulation if continued enzyme rise (start heparin now that INR
+   within range)
+   - Morphine for pain/dypsnea
+   .
+   # Tachy-arrhythmia. Pt with possible a-flutter and RVR initially,
+   developed VTach after synchronized cardioversion, returned to NSR with
+   defib. Cardiology and EP saw pt in ED.
+   - Continue amiodarone gtt, move to PO amiodarone if long term control
+   needed
+   - Consider AICD; cards consult today
+   - Maintain K > 4 (watch renal function though), Mg > 2
+   - If persistently hypotensive despite fluid resuscitation, will
+   discontinue amiodarone and return to lopressor
+   - Restart Coumadin for A-fib
+   .
+   # Subacute renal failure. Creatinine 3.2, baseline 1.1 but was elevated
+   [**4-29**] to 3.3 (pt refused to seek medical attention at time). Likely
+   prerenal in setting of dehydration/chronic CHF with intravascular
+   depletion. Foley in place. Urine lytes: BUN 506, Cr 94, Na < 10, FeNa
+   about 0.2% implies likely prerenal etiology.
+   - Continue gentle fluid boluses and monitor UOP; trend creatinine and
+   monitor UOP
+   - Renally dose medications; avoid nephrotoxins
+   - Hold ACE-I and diuretics
+   .
+   # Hepatitis. s/p cholecystectomy. Elevated LFTs likely in setting of
+   shock liver.
+   - Trend LFTs; manage hypotension (see above)
+   - NPO for now
+   - Hepatitis viral panel if persistent elevation
+   # Abdominal pain/colitis on CT. Surgery consulted, recommend continue
+   resuscitation, enema, trend labs/lactate, empiric abx. Pt is s/p
+   cholecystectomy.
+   - Appreciate surgery recs, will follow with serial exams
+   - Gentle enema given impaction, colace / senna
+   - Trend lactate
+   - Empiric IV abx for now as above
+   .
+   # GIB. Guaiac positive stools:
+   - Follow Hct; give PPI
+   - Repeat stool guaiac when disimpacted
+   .
+   # CHF:  Hold lasix while hypotensive; hold Metoprolol, ACE-I,
+   spironolactone while hypotensive
+   # Obstructive lung disease/allergic rhinitis: Continue albuterol,
+   cromolyn spray, fluticasone inhaler;  hold benadryl
+   # Anxiety: Continue fluoxetine; hold trazodone for now
+   .
+   # FEN: IVF as above, replete electrolytes, NPO for now (regular heart
+   healthy diet when taking POs). Folate. PPI.
+   # Prophylaxis: SCH, pneumoboots
+   # Access: 2 peripherals
+   # Communication: Patient
+   # Code:  DNR DNI but consider less aggressive interventions such as
+   cardiovert/defib if short-term return to baseline status (see OMR note
+   [**5-12**] by PCP [**Doctor Last Name **] for full discussion)
+   Name of health care proxy: [**Name (NI) 457**] [**Last Name (NamePattern1) 14303**]
+   Relationship: Sister
+   Phone number: [**Telephone/Fax (1) 14304**]
+   # Disposition: ICU pending clinical improvement<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is an 81-year-old female with a history of chronic heart failure (CHF), atrial fibrillation (Afib), and post-coronary artery bypass grafting (CABG). She was admitted to the intensive care unit (ICU) due to hypotension, dyspnea, and chest pain (CP). She was cardioverted for atrial flutter and developed ventricular tachycardia (VTach), which was defibrillated and returned to normal sinus rhythm (NSR). She has been treated with amiodarone, morphine, and vasopressors.
+
+The patient has several potential medical complications:
+
+1. Shock: likely secondary to dehydration, anorexia, and nausea, as well as recent rapid ventricular rates and baseline impaired cardiac function.
+2. NSTEMI: elevated troponins, CK-MB, and anterior TWI on EKG, indicating a possible acute coronary syndrome.
+3. Tachy-arrhythmia: possible atrial flutter and VTach, which was treated with cardioversion and defibrillation.
+4. Subacute renal failure: creatinine 3.2, likely prerenal in setting of dehydration and chronic CHF.
+5. Hepatitis: elevated LFTs, likely in setting of shock liver.
+6. Abdominal pain/colitis: CT shows mild thickening along the transverse colon, with associated stranding in the region of the hepatic flexure, which may represent colitis.
+7. GIB: guaiac-positive stools, indicating gastrointestinal bleeding.
+8. CHF: hold lasix while hypotensive, hold Metoprolol, ACE-I, and spironolactone while hypotensive.
+9. Obstructive lung disease/allergic rhinitis: continue albuterol, cromolyn spray, and fluticasone inhaler.
+10. Anxiety: continue fluoxetine, hold trazodone for now.
+
+The patient's medical history includes:
+
+* CHF with an ejection fraction of 30%
+* Afib on coumadin
+* S/p CABG
+* History of diarrhea, now with constipation
+* Recent cholecystectomy
+* Elevated LFTs
+
+The patient's current medications include:
+
+* Amiodarone
+* Morphine
+* Vasopressors
+* Atorvastatin
+* Aspirin
+* Coumadin
+* Metoprolol
+* ACE-I
+* Spironolactone
+* Lasix
+* Albuterol
+* Cromolyn spray
+* Fluticasone inhaler
+* Fluoxetine
+* Trazodone
+
+The patient's current labs include:
+
+* Troponins: 1.26
+* CK-MB: 36
+* LFTs: elevated
+* Creatinine: 3.2
+* BUN: 506
+* Cr: 94
+* Na: <10
+* FeNa: 0.2%
+* Lactic acid: 2.3 mmol/L
+* LDH: 1326 IU/L
+* Ca++: 7.8 mg/dL
+* Mg++: 2.3 mg/dL
+* PO4: 2.9 mg/dL
+
+The patient's plan includes:
+
+* Continue resuscitation with fluid boluses and vasopressors
+* Trend lactate and labs
+* Manage hypotension with vasopressors and fluids
+* Continue empiric antibiotics for possible sepsis
+* Consider AICD implantation
+* Restart Coumadin for Afib
+* Continue gentle fluid boluses and monitor UOP
+* Trend creatinine and monitor UOP
+* Renally dose medications
+* Avoid nephrotoxins
+* Hold ACE-I and diuretics
+* Trend LFTs
+* Manage hypotension
+* NPO for now
+* Hepatitis viral panel if persistent elevation
+* Follow surgery recs
+* Gentle enema given impaction, colace/senna
+* Trend lactate
+* Empiric IV abx for now as above
+* Continue albuterol, cromolyn spray, and fluticasone inhaler
+* Hold benadryl
+* Continue fluoxetine
+* Hold trazodone for now
+* IVF as above, replete electrolytes, NPO for now (regular heart healthy diet when taking POs)
+* Folate
+* PPI
+* SCH and pneumoboots for prophylaxis"
+180922.0,225940,2106-05-13 07:19:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2106-5-12**] 07:51 PM
+ EKG - At [**2106-5-12**] 11:45 PM
+   Patient developed CP associated with wheezing at ~8pm. EKG with
+   anterior TWI and ST depression ~1 mm in V3-v4. Pain resolved with nebs,
+   improved breathing. Second episode of CP less severe at 11:00 pm. TWI
+   in V2-V4 still present, but ST depressions slightly improved. 3rd set
+   still trending up, but CKs seem plateauing. CP again at ~1:00 am, given
+   morphine for pain. Pain improved with talking with nurse, who felt it
+   may be partly anxiety related.
+   - Hypotensive to SBPs 60s-70s on and off throughout evening. Received 2
+   boluses of 500 cc IVF. UOP somewhat poor at 25-40/hr, increasing this
+   am to 40-120 cc/hr.
+   Allergies:
+   Penicillins Unknown;
+   Nsaids Nausea/Vomiting
+   Percocet (Oxycodone Hcl /Acetaminophen) itching;
+   Verapamil Drowsiness/Fati
+   Neurontin (Oral) ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl) n/v
+   Mysoline (Oral) (Primidone) falls;
+   [**Doctor First Name **] (Oral) Confusion/Delir
+   Codeine Unknown
+   Darvon (Oral) (Propoxyphene Hcl) Unk
+   Last dose of Antibiotics:
+   Ceftriaxone - [**2106-5-13**] 01:08 AM
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 06:00 AM
+   Infusions:
+   Amiodarone - 0.5 mg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 01:08 AM
+   Pantoprazole (Protonix) - [**2106-5-13**] 02:14 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-13**] 07:16 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.8
+C (98.2
+   Tcurrent: 35.7
+C (96.2
+   HR: 55 (52 - 69) bpm
+   BP: 106/47(61) {69/30(41) - 112/62(69)} mmHg
+   RR: 18 (15 - 22) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  3,288 mL
+                                                                    721 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,538 mL
+                                                                    721 mL
+   Blood products:
+   Total out:
+                                                                    515 mL
+                                                                    505 mL
+   Urine:
+                                                                    315 mL
+                                                                    505 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,773 mL
+                                                                    216 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: DPs palpable
+   Skin:  warm extremities
+   Neurologic: Alert, oriented
+   Ab: soft, non-distended, mildly tender to palpation in epigastrium and
+   diffusely
+   CV: RRR with irregular beats
+   Pulm: generally CTAB with minimal crackles at left base, some scattered
+   expiratory wheezing
+   Labs / Radiology
+   147 K/uL
+   8.8 g/dL
+   164 mg/dL
+   2.2 mg/dL
+   19 mEq/L
+   3.1 mEq/L
+   49 mg/dL
+   110 mEq/L
+   141 mEq/L
+   27.6 %
+   7.2 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+   WBC
+   8.7
+   7.2
+   Hct
+   29.3
+   27.6
+   Plt
+   145
+   147
+   Cr
+   2.7
+   2.2
+   TropT
+   0.86
+   1.16
+   1.26
+   Glucose
+   164
+   Other labs: PT / PTT / INR:27.2/33.3/2.6, CK / CKMB /
+   Troponin-T:408/36/1.26, ALT / AST:1530/1722, Alk Phos / T Bili:75/0.3,
+   Lactic Acid:2.3 mmol/L, LDH:1326 IU/L, Ca++:7.8 mg/dL, Mg++:2.3 mg/dL,
+   PO4:2.9 mg/dL. Vanc trough at 5:43am 23.2.
+   Micro: urine cx pending X2; MRSA screen pending, blood culture pending
+   CXR: [**5-12**] final read No evidence of pneumonia or pulmonary edema.
+   Probable right basilar atelectasis.
+   CXR [**5-13**]: pending
+   EKG:
+   CT ab/pelvis, Final read: 1. Mild thickening along the transverse colon
+   with associated stranding in  the region of the hepatic flexure may
+   represent colitis. Etiology could be  inflammatory, infectious, or
+   ischemic.  2. Post-cholecystectomy with increasing diameter of the
+   common bile duct  compared with prior exam. Recommend clinical
+   correlation and if needed  ultrasound may be obtained to further
+   assess.  3. Moderate fecal loading of the rectum.   4. Fat and
+   fluid-containing periumbilical hernia, stable.
+   Assessment and Plan
+   81 yo female with history of CHF (EF 30%), Afib on coumadin, s/p CABG
+   presents with dyspnea and CP, found to be hypotensive. Cardioverted for
+   ?aflutter, developed v-tach, defibrillated, returned to NSR. CTAb
+   showed equivocal colitis. Admitted to MICU for hypotension.
+   .
+   # Shock. Likely cardiogenic in setting of tachyarrhythmia but
+   complicated by likely dehydration in setting of anorexia and nausea,
+   together with recent rapid ventricular rates, and baseline impaired
+   cardiac function (given mild pulmonary vascular congestion on CXR,
+   chronic CHF). Baseline bp appears low (syst in 80s at clinic).
+   Differential also includes sepsis, especially in setting of mild
+   leukocytosis and colitis seen on CT, though afebrile and WBC to
+   baseline with fluids.
+   - Vasodilatory source: colitis
+        - treat empirically with vanco/flagyl/ceftriaxone; follow exam
+        - appreciate surgery recs
+        - trend lactate
+        - check C. Diff given recent history of diarrhea though now with
+   constipation
+        - follow blood, urine cultures
+   - Hypovolemic source: dehydration (pt appears generally volume
+   depleted)
+        - fluid boluses to maintain UOP and MAP goal of >55 then to
+   maintenance fluids when 50 cc/hr UOP achieved
+   - Cardiogenic (baseline CHF with low EF, together with superimposed
+   arrhythmia; however CXR not concerning for congestion)
+        - check TTE
+   .
+   # NSTEMI. Elevated troponins, CK-MB, anterior TWI on EKG. In setting of
+   acute illness, tachycardia
+   - Cycle enzymes
+   - Manage CAD as below
+   - Continue atorvastatin, ASA; discontinue atorvastatin if LFTs continue
+   to be abnormal
+   - Repeat ECG
+   - Anticoagulation if continued enzyme rise (start heparin now that INR
+   within range)
+   - Morphine for pain/dypsnea
+   .
+   # Tachy-arrhythmia. Pt with possible a-flutter and RVR initially,
+   developed VTach after synchronized cardioversion, returned to NSR with
+   defib. Cardiology and EP saw pt in ED.
+   - monitor on telemetry
+   - Cards F/U today
+   - Continue amiodarone gtt, move to PO amiodarone if long term control
+   needed
+   - Maintain K > 4 (watch renal function though), Mg > 2
+   - If persistently hypotensive despite fluid resuscitation, will
+   discontinue amiodarone and return to lopressor
+   - hold coumadin for now
+   .
+   # Subacute renal failure. Creatinine 3.2, baseline 1.1 but was elevated
+   [**4-29**] to 3.3 (pt refused to seek medical attention at time). Likely
+   prerenal in setting of dehydration/chronic CHF with intravascular
+   depletion. Foley in place. Urine lytes: BUN 506, Cr 94, Na < 10, FeNa
+   about 0.2% implies likely prerenal etiology.
+   - Continue gentle fluid boluses and monitor UOP; trend creatinine and
+   monitor UOP
+   - Renally dose medications; avoid nephrotoxins
+   - Hold ACE-I and diuretics
+   .
+   # Hepatitis. s/p cholecystectomy. Elevated LFTs likely in setting of
+   shock liver.
+   - Trend LFTs; manage hypotension (see above)
+   - NPO for now
+   - Hepatitis viral panel if persistent elevation
+   # Abdominal pain/colitis on CT. Surgery consulted, recommend continue
+   resuscitation, enema, trend labs/lactate, empiric abx. Pt is s/p
+   cholecystectomy.
+   - Appreciate surgery recs, will follow with serial exams
+   - Gentle enema given impaction, colace / senna
+   - Trend lactate
+   - Empiric IV abx for now as above
+   .
+   # GIB. Guaiac positive stools:
+   - Follow Hct; give PPI
+   - Repeat stool guaiac when disimpacted
+   .
+   # CHF:  Hold lasix while hypotensive; hold Metoprolol, ACE-I,
+   spironolactone while hypotensive
+   # Obstructive lung disease/allergic rhinitis: Change albuterol to
+   xopenex, cromolyn spray, fluticasone inhaler;  hold benadryl
+   # Anxiety: Continue fluoxetine; hold trazodone for now
+   .
+   # FEN: IVF as above, replete electrolytes, can start heart healthy
+   diet, Folate. PPI.
+   # Prophylaxis: pneumoboots
+   # Access: 2 peripherals
+   # Communication: Patient
+   # Code:  DNR DNI but consider less aggressive interventions such as
+   cardiovert/defib if short-term return to baseline status (see OMR note
+   [**5-12**] by PCP [**Doctor Last Name **] for full discussion)
+   Name of health care proxy: [**Name (NI) 457**] [**Last Name (NamePattern1) 14303**]
+   Relationship: Sister
+   Phone number: [**Telephone/Fax (1) 14304**]
+   # Disposition: ICU pending clinical improvement
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2106-5-12**] 07:51 PM
+ EKG - At [**2106-5-12**] 11:45 PM
+   Patient developed CP associated with wheezing at ~8pm. EKG with
+   anterior TWI and ST depression ~1 mm in V3-v4. Pain resolved with nebs,
+   improved breathing. Second episode of CP less severe at 11:00 pm. TWI
+   in V2-V4 still present, but ST depressions slightly improved. 3rd set
+   still trending up, but CKs seem plateauing. CP again at ~1:00 am, given
+   morphine for pain. Pain improved with talking with nurse, who felt it
+   may be partly anxiety related.
+   - Hypotensive to SBPs 60s-70s on and off throughout evening. Received 2
+   boluses of 500 cc IVF. UOP somewhat poor at 25-40/hr, increasing this
+   am to 40-120 cc/hr.
+   Allergies:
+   Penicillins Unknown;
+   Nsaids Nausea/Vomiting
+   Percocet (Oxycodone Hcl /Acetaminophen) itching;
+   Verapamil Drowsiness/Fati
+   Neurontin (Oral) ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl) n/v
+   Mysoline (Oral) (Primidone) falls;
+   [**Doctor First Name **] (Oral) Confusion/Delir
+   Codeine Unknown
+   Darvon (Oral) (Propoxyphene Hcl) Unk
+   Last dose of Antibiotics:
+   Ceftriaxone - [**2106-5-13**] 01:08 AM
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 06:00 AM
+   Infusions:
+   Amiodarone - 0.5 mg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 01:08 AM
+   Pantoprazole (Protonix) - [**2106-5-13**] 02:14 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-13**] 07:16 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.8
+C (98.2
+   Tcurrent: 35.7
+C (96.2
+   HR: 55 (52 - 69) bpm
+   BP: 106/47(61) {69/30(41) - 112/62(69)} mmHg
+   RR: 18 (15 - 22) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  3,288 mL
+                                                                    721 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,538 mL
+                                                                    721 mL
+   Blood products:
+   Total out:
+                                                                    515 mL
+                                                                    505 mL
+   Urine:
+                                                                    315 mL
+                                                                    505 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,773 mL
+                                                                    216 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: DPs palpable
+   Skin:  warm extremities
+   Neurologic: Alert, oriented
+   Ab: soft, non-distended, mildly tender to palpation in epigastrium and
+   diffusely
+   CV: RRR with irregular beats
+   Pulm: generally CTAB with minimal crackles at left base, some scattered
+   expiratory wheezing
+   Labs / Radiology
+   147 K/uL
+   8.8 g/dL
+   164 mg/dL
+   2.2 mg/dL
+   19 mEq/L
+   3.1 mEq/L
+   49 mg/dL
+   110 mEq/L
+   141 mEq/L
+   27.6 %
+   7.2 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+   WBC
+   8.7
+   7.2
+   Hct
+   29.3
+   27.6
+   Plt
+   145
+   147
+   Cr
+   2.7
+   2.2
+   TropT
+   0.86
+   1.16
+   1.26
+   Glucose
+   164
+   Other labs: PT / PTT / INR:27.2/33.3/2.6, CK / CKMB /
+   Troponin-T:408/36/1.26, ALT / AST:1530/1722, Alk Phos / T Bili:75/0.3,
+   Lactic Acid:2.3 mmol/L, LDH:1326 IU/L, Ca++:7.8 mg/dL, Mg++:2.3 mg/dL,
+   PO4:2.9 mg/dL. Vanc trough at 5:43am 23.2.
+   Micro: urine cx pending X2; MRSA screen pending, blood culture pending
+   CXR: [**5-12**] final read No evidence of pneumonia or pulmonary edema.
+   Probable right basilar atelectasis.
+   CXR [**5-13**]: pending
+   EKG:
+   CT ab/pelvis, Final read: 1. Mild thickening along the transverse colon
+   with associated stranding in  the region of the hepatic flexure may
+   represent colitis. Etiology could be  inflammatory, infectious, or
+   ischemic.  2. Post-cholecystectomy with increasing diameter of the
+   common bile duct  compared with prior exam. Recommend clinical
+   correlation and if needed  ultrasound may be obtained to further
+   assess.  3. Moderate fecal loading of the rectum.   4. Fat and
+   fluid-containing periumbilical hernia, stable.
+   Assessment and Plan
+   81 yo female with history of CHF (EF 30%), Afib on coumadin, s/p CABG
+   presents with dyspnea and CP, found to be hypotensive. Cardioverted for
+   ?aflutter, developed v-tach, defibrillated, returned to NSR. CTAb
+   showed equivocal colitis. Admitted to MICU for hypotension.
+   .
+   # Shock. Likely cardiogenic in setting of tachyarrhythmia but
+   complicated by likely dehydration in setting of anorexia and nausea,
+   together with recent rapid ventricular rates, and baseline impaired
+   cardiac function (given mild pulmonary vascular congestion on CXR,
+   chronic CHF). Baseline bp appears low (syst in 80s at clinic).
+   Differential also includes sepsis, especially in setting of mild
+   leukocytosis and colitis seen on CT, though afebrile and WBC to
+   baseline with fluids.
+   - Vasodilatory source: colitis
+        - treat empirically with vanco/flagyl/ceftriaxone; follow exam
+        - appreciate surgery recs
+        - trend lactate
+        - check C. Diff given recent history of diarrhea though now with
+   constipation
+        - follow blood, urine cultures
+   - Hypovolemic source: dehydration (pt appears generally volume
+   depleted)
+        - fluid boluses to maintain UOP and MAP goal of >55 then to
+   maintenance fluids when 50 cc/hr UOP achieved
+   - Cardiogenic (baseline CHF with low EF, together with superimposed
+   arrhythmia; however CXR not concerning for congestion)
+        - check TTE
+   .
+   # NSTEMI. Elevated troponins, CK-MB, anterior TWI on EKG. In setting of
+   acute illness, tachycardia
+   - Cycle enzymes
+   - Manage CAD as below
+   - Continue atorvastatin, ASA; discontinue atorvastatin if LFTs continue
+   to be abnormal
+   - Repeat ECG
+   - Anticoagulation if continued enzyme rise (start heparin now that INR
+   within range)
+   - Morphine for pain/dypsnea
+   .
+   # Tachy-arrhythmia. Pt with possible a-flutter and RVR initially,
+   developed VTach after synchronized cardioversion, returned to NSR with
+   defib. Cardiology and EP saw pt in ED.
+   - monitor on telemetry
+   - Cards F/U today
+   - Continue amiodarone gtt, move to PO amiodarone if long term control
+   needed
+   - Maintain K > 4 (watch renal function though), Mg > 2
+   - If persistently hypotensive despite fluid resuscitation, will
+   discontinue amiodarone and return to lopressor
+   - hold coumadin for now
+   .
+   # Subacute renal failure. Creatinine 3.2, baseline 1.1 but was elevated
+   [**4-29**] to 3.3 (pt refused to seek medical attention at time). Likely
+   prerenal in setting of dehydration/chronic CHF with intravascular
+   depletion. Foley in place. Urine lytes: BUN 506, Cr 94, Na < 10, FeNa
+   about 0.2% implies likely prerenal etiology.
+   - Continue gentle fluid boluses and monitor UOP; trend creatinine and
+   monitor UOP
+   - Renally dose medications; avoid nephrotoxins
+   - Hold ACE-I and diuretics
+   .
+   # Hepatitis. s/p cholecystectomy. Elevated LFTs likely in setting of
+   shock liver.
+   - Trend LFTs; manage hypotension (see above)
+   - NPO for now
+   - Hepatitis viral panel if persistent elevation
+   # Abdominal pain/colitis on CT. Surgery consulted, recommend continue
+   resuscitation, enema, trend labs/lactate, empiric abx. Pt is s/p
+   cholecystectomy.
+   - Appreciate surgery recs, will follow with serial exams
+   - Gentle enema given impaction, colace / senna
+   - Trend lactate
+   - Empiric IV abx for now as above
+   .
+   # GIB. Guaiac positive stools:
+   - Follow Hct; give PPI
+   - Repeat stool guaiac when disimpacted
+   .
+   # CHF:  Hold lasix while hypotensive; hold Metoprolol, ACE-I,
+   spironolactone while hypotensive
+   # Obstructive lung disease/allergic rhinitis: Change albuterol to
+   xopenex, cromolyn spray, fluticasone inhaler;  hold benadryl
+   # Anxiety: Continue fluoxetine; hold trazodone for now
+   .
+   # FEN: IVF as above, replete electrolytes, can start heart healthy
+   diet, Folate. PPI.
+   # Prophylaxis: pneumoboots
+   # Access: 2 peripherals
+   # Communication: Patient
+   # Code:  DNR DNI but consider less aggressive interventions such as
+   cardiovert/defib if short-term return to baseline status (see OMR note
+   [**5-12**] by PCP [**Doctor Last Name **] for full discussion)
+   Name of health care proxy: [**Name (NI) 457**] [**Last Name (NamePattern1) 14303**]
+   Relationship: Sister
+   Phone number: [**Telephone/Fax (1) 14304**]
+   # Disposition: ICU pending clinical improvement<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is an 81-year-old female with a history of CHF, Afib, and CABG, who presented with dyspnea and chest pain, was found to be hypotensive, and was cardioverted for atrial flutter. The patient developed ventricular tachycardia, was defibrillated, and returned to normal sinus rhythm.
+
+The patient's current condition is as follows:
+
+* Cardiovascular: The patient has a history of CHF with an ejection fraction of 30%. She is currently in shock, which is likely cardiogenic in nature, complicated by dehydration and tachyarrhythmia. The patient's baseline blood pressure is low, and she has mild pulmonary vascular congestion on CXR.
+* Respiratory: The patient has mild pulmonary vascular congestion on CXR and scattered expiratory wheezing on physical examination.
+* Gastrointestinal: The patient has mild thickening along the transverse colon with associated stranding in the region of the hepatic flexure, which may represent colitis. She also has a post-cholecystectomy with increasing diameter of the common bile duct.
+* Renal: The patient has subacute renal failure with a creatinine level of 3.2, which is likely prerenal in nature due to dehydration and chronic CHF.
+* Hepatic: The patient has elevated LFTs, which are likely in the setting of shock liver.
+
+The patient's potential medical complications include:
+
+* Cardiogenic shock: The patient's cardiogenic shock is complicated by dehydration and tachyarrhythmia, which may worsen her condition.
+* Sepsis: The patient has mild leukocytosis and colitis on CT, which may indicate the presence of sepsis.
+* NSTEMI: The patient has elevated troponins and anterior TWI on EKG, which suggests the possibility of NSTEMI.
+* Tachyarrhythmia: The patient has a history of atrial flutter and developed ventricular tachycardia, which may require further management.
+* Hepatitis: The patient has elevated LFTs, which may indicate the presence of hepatitis.
+* Abdominal pain/colitis: The patient has mild thickening along the transverse colon with associated stranding in the region of the hepatic flexure, which may represent colitis.
+* GIB: The patient has guaiac-positive stools, which may indicate the presence of GIB.
+* CHF: The patient has a history of CHF, which may worsen her condition in the setting of cardiogenic shock and tachyarrhythmia.
+* Obstructive lung disease/allergic rhinitis: The patient has a history of obstructive lung disease and allergic rhinitis, which may worsen her respiratory status.
+* Anxiety: The patient has a history of anxiety, which may worsen her condition in the setting of cardiogenic shock and tachyarrhythmia.
+
+The patient's treatment plan includes:
+
+* Cardioversion for atrial flutter
+* Management of cardiogenic shock with fluid resuscitation and vasodilators
+* Management of NSTEMI with cycle enzymes and anticoagulation
+* Management of tachyarrhythmia with antiarrhythmic medications
+* Management of hepatitis with antiviral medications
+* Management of abdominal pain/colitis with empiric antibiotics and gentle enemas
+* Management of GIB with proton pump inhibitors and stool guaiac tests
+* Management of CHF with diuretics and vasodilators
+* Management of obstructive lung disease/allergic rhinitis with bronchodilators and corticosteroids
+* Management of anxiety with antidepressants and anxiolytics.
+
+The patient's disposition is pending clinical improvement in the ICU."
+180922.0,225940,2106-05-14 07:08:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents and amio.
+   - PCP agrees that medical treatment most c/w goals of care rather than
+   ICD; suggests starting benzo; consider cxr and if enlarging effusion or
+   evidence fluid
+   overload diuresing a bit; restart flovent and consider PO steroids if
+   continues to
+   have respiratory difficulties; If transferred to floor would appreciate
+   consultation and
+   comanagement both from general/chf cardiology and pulmonary; may
+   benefit from SW visit at home
+   - No o/n events, rested overnight on trazadone
+   - cardiac enzymes, LFT trending down
+   - urine culture <10K (non-speciated)
+   - TTE: The left atrium is moderately dilated. Left ventricular wall
+   thicknesses are normal. The left ventricular cavity is moderately
+   dilated. There is moderate to severe global left ventricular
+   hypokinesis (LVEF = 30 %) with apical akinesis. [Intrinsic left
+   ventricular systolic function is likely more depressed given the
+   severity of valvular regurgitation.] There is no ventricular septal
+   defect. The right ventricular cavity is dilated with borderline normal
+   free wall function. The aortic valve leaflets (3) are mildly thickened
+   but aortic stenosis is not present. No aortic regurgitation is seen. A
+   bioprosthetic mitral valve prosthesis is present. The transmitral
+   gradient is normal for this prosthesis. Moderate to severe (3+) mitral
+   regurgitation is seen. [Due to acoustic shadowing, the severity of
+   mitral regurgitation may be significantly UNDERestimated.] The
+   tricuspid valve leaflets are mildly thickened. There is mild pulmonary
+   artery systolic hypertension. There is no pericardial
+   effusion...Compared with the findings of the prior study (images
+   reviewed) of [**2105-6-12**], the mitral regurgitation may be increased (may
+   have been underestimated due to shadowing ), and the left ventricular
+   ejection fraction is further reduced.
+   Allergies:
+   Penicillins
+   Unknown;
+   Nsaids
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   itching.;
+   Verapamil
+   Drowsiness/Fati
+   Neurontin (Oral) (Gabapentin)
+   ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl)
+   Nausea/Vomiting
+   Mysoline (Oral) (Primidone)
+   falls;
+   [**Doctor First Name **] (Oral) (Fexofenadine Hcl)
+   Confusion/Delir
+   Codeine
+   Unknown;
+   Darvon (Oral) (Propoxyphene Hcl)
+   Unknown;
+   Last dose of Antibiotics:
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 10:00 PM
+   Ceftriaxone - [**2106-5-14**] 12:05 AM
+   Infusions:
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 08:10 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-14**] 06:59 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.2
+C (97.1
+   Tcurrent: 35.7
+C (96.3
+   HR: 57 (55 - 92) bpm
+   BP: 102/50(62) {88/39(53) - 127/95(99)} mmHg
+   RR: 15 (14 - 23) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  1,543 mL
+                                                                     50 mL
+   PO:
+                                                                    510 mL
+             TF:
+   IVF:
+                                                                  1,033 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  1,630 mL
+                                                                    285 mL
+   Urine:
+                                                                  1,630 mL
+                                                                    285 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -87 mL
+                                                                   -235 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: warm extremities
+   Skin:  Not assessed
+   Ab: nontender, BS+, nondistended
+   Neurologic: Alert/oriented
+   Pulm: decreased BS at right base, crackles on left
+   Labs / Radiology
+   131 K/uL
+   8.5 g/dL
+   121 mg/dL
+   1.5 mg/dL
+   19 mEq/L
+   3.8 mEq/L
+   38 mg/dL
+   113 mEq/L
+   144 mEq/L
+   27.2 %
+   6.6 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+                             [**2106-5-13**]  03:03 PM
+                             [**2106-5-14**]  02:53 AM
+   WBC
+   8.7
+   7.2
+   7.1
+   6.6
+   Hct
+   29.3
+   27.6
+   27.6
+   27.2
+   Plt
+   145
+   147
+   135
+   131
+   Cr
+   2.7
+   2.2
+   1.8
+   1.5
+   TropT
+   0.86
+   1.16
+   1.26
+   1.00
+   0.78
+   Glucose
+   164
+   167
+   121
+   Other labs: PT / PTT / INR:28.6/33.9/2.8, CK / CKMB /
+   Troponin-T:225/17/0.78, ALT / AST:1155/616, Alk Phos / T Bili:74/0.5,
+   Amylase / Lipase:/46, Lactic Acid:1.9 mmol/L, LDH:1326 IU/L, Ca++:8.0
+   mg/dL, Mg++:1.9 mg/dL, PO4:2.6 mg/dL
+   Urine cx NGTD / <10,000 col/ml
+   Assessment and Plan
+   81 yo female with history of CHF (EF 30%), Afib on coumadin, s/p CABG
+   presents with dyspnea and CP, found to be hypotensive. Cardioverted for
+   ?aflutter, developed v-tach, defibrillated, returned to NSR. CTAb
+   showed equivocal colitis. Admitted to MICU for hypotension.
+   .
+   # Shock. Likely cardiogenic in setting of tachyarrhythmia but
+   complicated by likely dehydration in setting of anorexia and nausea,
+   together with recent rapid ventricular rates, and baseline impaired
+   cardiac function (given mild pulmonary vascular congestion on CXR,
+   chronic CHF). Baseline bp appears low (syst in 80s at clinic).
+   Differential also includes sepsis, especially in setting of mild
+   leukocytosis and colitis seen on CT, though afebrile and WBC to
+   baseline with fluids.
+   - Cardiogenic (baseline CHF with low EF, together with superimposed
+   arrhythmia; however CXR not concerning for congestion)
+        - check TTE
+   - Hypovolemic source: dehydration (pt appears generally volume
+   depleted)
+        - fluid boluses to maintain UOP and MAP goal of >55 then to
+   maintenance fluids when 50 cc/hr UOP achieved
+   - Vasodilatory source: colitis (though likely ischemic colitis rather
+   than infectious)
+        - treat empirically with vanco/flagyl/ceftriaxone; follow exam
+        - appreciate surgery recs
+        - trend lactate
+        - check C. Diff given recent history of diarrhea though now with
+   constipation (no stool yet)
+        - follow blood, urine cultures
+   .
+   # NSTEMI. Elevated troponins, CK-MB, anterior TWI on EKG. In setting of
+   acute illness, tachycardia; likely demand vs ACS
+   - Cycle enzymes
+   - Appreciate cards consult
+   - Continue ASA; discontinue atorvastatin while LFTs abnormal
+   - Repeat ECG
+   - Consider anticoagulation if continued enzyme rise
+   - Morphine for pain/dypsnea
+   .
+   # Tachy-arrhythmia. Cards c/s: pt with likely AVNRT on admission,
+   converted to VT, then back to NSR.
+   - monitor on telemetry
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents + amio
+   - Continue amiodarone gtt, move to PO amiodarone if long term control
+   needed
+   - Maintain K > 4 (watch renal function though), Mg > 2
+   - hold coumadin for now
+   .
+   # Subacute renal failure. Creatinine 3.2, baseline 1.1 but was elevated
+   [**4-29**] to 3.3 (pt refused to seek medical attention at time). Likely
+   prerenal in setting of dehydration/chronic CHF with intravascular
+   depletion. Foley in place. Urine lytes: BUN 506, Cr 94, Na < 10, FeNa
+   about 0.2% implies likely prerenal etiology.
+   - Continue gentle fluid boluses and monitor UOP; trend creatinine and
+   monitor UOP
+   - Renally dose medications; avoid nephrotoxins
+   - Hold ACE-I and diuretics
+   .
+   # Hepatitis. s/p cholecystectomy. Elevated LFTs likely in setting of
+   shock liver. Now trending down.
+   - Trend LFTs; manage hypotension (see above)
+   # Abdominal pain/colitis on CT. Abdominal pain resolving; colitis
+   likely ischemic. Surgery consulted, recommend continue resuscitation,
+   enema, trend labs/lactate, empiric abx. Pt is s/p cholecystectomy.
+   - Appreciate surgery recs, will follow with serial exams
+   - Gentle enema given impaction, colace / senna
+   - Trend lactate
+   - Empiric IV abx for now as above
+   .
+   # GIB. Guaiac positive stools:
+   - Follow Hct; give PPI
+   - Repeat stool guaiac when disimpacted
+   .
+   # CHF:  Hold lasix while hypotensive; hold Metoprolol, ACE-I,
+   spironolactone while hypotensive
+   - CXR given decreased BS today, crackles, fluid +
+   # Obstructive lung disease/allergic rhinitis:
+   - Change albuterol to xopenex, cromolyn spray, fluticasone inhaler;
+   hold Benadryl
+   - Restart flovent; consider steroids if continued respiratory
+   difficulty
+   # Anxiety: Continue fluoxetine; hold trazodone for now; start benzo per
+   pcp
+   .
+   # FEN: IVF as above, replete electrolytes, can start heart healthy
+   diet, Folate. PPI.
+   # Prophylaxis: pneumoboots
+   # Access: 2 peripherals
+   # Communication: Patient
+   # Code:  DNR DNI but consider less aggressive interventions such as
+   cardiovert/defib if short-term return to baseline status (see OMR note
+   [**5-12**] by PCP [**Doctor Last Name **] for full discussion)
+   Name of health care proxy: [**Name (NI) 457**] [**Last Name (NamePattern1) 14303**]
+   Relationship: Sister
+   Phone number: [**Telephone/Fax (1) 14304**]
+   # Disposition: ICU pending clinical improvement; may benefit from SW
+   visits at home
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents and amio.
+   - PCP agrees that medical treatment most c/w goals of care rather than
+   ICD; suggests starting benzo; consider cxr and if enlarging effusion or
+   evidence fluid
+   overload diuresing a bit; restart flovent and consider PO steroids if
+   continues to
+   have respiratory difficulties; If transferred to floor would appreciate
+   consultation and
+   comanagement both from general/chf cardiology and pulmonary; may
+   benefit from SW visit at home
+   - No o/n events, rested overnight on trazadone
+   - cardiac enzymes, LFT trending down
+   - urine culture <10K (non-speciated)
+   - TTE: The left atrium is moderately dilated. Left ventricular wall
+   thicknesses are normal. The left ventricular cavity is moderately
+   dilated. There is moderate to severe global left ventricular
+   hypokinesis (LVEF = 30 %) with apical akinesis. [Intrinsic left
+   ventricular systolic function is likely more depressed given the
+   severity of valvular regurgitation.] There is no ventricular septal
+   defect. The right ventricular cavity is dilated with borderline normal
+   free wall function. The aortic valve leaflets (3) are mildly thickened
+   but aortic stenosis is not present. No aortic regurgitation is seen. A
+   bioprosthetic mitral valve prosthesis is present. The transmitral
+   gradient is normal for this prosthesis. Moderate to severe (3+) mitral
+   regurgitation is seen. [Due to acoustic shadowing, the severity of
+   mitral regurgitation may be significantly UNDERestimated.] The
+   tricuspid valve leaflets are mildly thickened. There is mild pulmonary
+   artery systolic hypertension. There is no pericardial
+   effusion...Compared with the findings of the prior study (images
+   reviewed) of [**2105-6-12**], the mitral regurgitation may be increased (may
+   have been underestimated due to shadowing ), and the left ventricular
+   ejection fraction is further reduced.
+   Allergies:
+   Penicillins
+   Unknown;
+   Nsaids
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   itching.;
+   Verapamil
+   Drowsiness/Fati
+   Neurontin (Oral) (Gabapentin)
+   ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl)
+   Nausea/Vomiting
+   Mysoline (Oral) (Primidone)
+   falls;
+   [**Doctor First Name **] (Oral) (Fexofenadine Hcl)
+   Confusion/Delir
+   Codeine
+   Unknown;
+   Darvon (Oral) (Propoxyphene Hcl)
+   Unknown;
+   Last dose of Antibiotics:
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 10:00 PM
+   Ceftriaxone - [**2106-5-14**] 12:05 AM
+   Infusions:
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 08:10 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-14**] 06:59 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.2
+C (97.1
+   Tcurrent: 35.7
+C (96.3
+   HR: 57 (55 - 92) bpm
+   BP: 102/50(62) {88/39(53) - 127/95(99)} mmHg
+   RR: 15 (14 - 23) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  1,543 mL
+                                                                     50 mL
+   PO:
+                                                                    510 mL
+             TF:
+   IVF:
+                                                                  1,033 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  1,630 mL
+                                                                    285 mL
+   Urine:
+                                                                  1,630 mL
+                                                                    285 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -87 mL
+                                                                   -235 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: warm extremities
+   Skin:  Not assessed
+   Ab: nontender, BS+, nondistended
+   Neurologic: Alert/oriented
+   Pulm: decreased BS at right base, crackles on left
+   Labs / Radiology
+   131 K/uL
+   8.5 g/dL
+   121 mg/dL
+   1.5 mg/dL
+   19 mEq/L
+   3.8 mEq/L
+   38 mg/dL
+   113 mEq/L
+   144 mEq/L
+   27.2 %
+   6.6 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+                             [**2106-5-13**]  03:03 PM
+                             [**2106-5-14**]  02:53 AM
+   WBC
+   8.7
+   7.2
+   7.1
+   6.6
+   Hct
+   29.3
+   27.6
+   27.6
+   27.2
+   Plt
+   145
+   147
+   135
+   131
+   Cr
+   2.7
+   2.2
+   1.8
+   1.5
+   TropT
+   0.86
+   1.16
+   1.26
+   1.00
+   0.78
+   Glucose
+   164
+   167
+   121
+   Other labs: PT / PTT / INR:28.6/33.9/2.8, CK / CKMB /
+   Troponin-T:225/17/0.78, ALT / AST:1155/616, Alk Phos / T Bili:74/0.5,
+   Amylase / Lipase:/46, Lactic Acid:1.9 mmol/L, LDH:1326 IU/L, Ca++:8.0
+   mg/dL, Mg++:1.9 mg/dL, PO4:2.6 mg/dL
+   Urine cx NGTD / <10,000 col/ml
+   Assessment and Plan
+   81 yo female with history of CHF (EF 30%), Afib on coumadin, s/p CABG
+   presents with dyspnea and CP, found to be hypotensive. Cardioverted for
+   ?aflutter, developed v-tach, defibrillated, returned to NSR. CTAb
+   showed equivocal colitis. Admitted to MICU for hypotension.
+   .
+   # Shock. Likely cardiogenic in setting of tachyarrhythmia but
+   complicated by likely dehydration in setting of anorexia and nausea,
+   together with recent rapid ventricular rates, and baseline impaired
+   cardiac function (given mild pulmonary vascular congestion on CXR,
+   chronic CHF). Baseline bp appears low (syst in 80s at clinic).
+   Differential also includes sepsis, especially in setting of mild
+   leukocytosis and colitis seen on CT, though afebrile and WBC to
+   baseline with fluids.
+   - Cardiogenic (baseline CHF with low EF, together with superimposed
+   arrhythmia; however CXR not concerning for congestion)
+        - check TTE
+   - Hypovolemic source: dehydration (pt appears generally volume
+   depleted)
+        - fluid boluses to maintain UOP and MAP goal of >55 then to
+   maintenance fluids when 50 cc/hr UOP achieved
+   - Vasodilatory source: colitis (though likely ischemic colitis rather
+   than infectious)
+        - treat empirically with vanco/flagyl/ceftriaxone; follow exam
+        - appreciate surgery recs
+        - trend lactate
+        - check C. Diff given recent history of diarrhea though now with
+   constipation (no stool yet)
+        - follow blood, urine cultures
+   .
+   # NSTEMI. Elevated troponins, CK-MB, anterior TWI on EKG. In setting of
+   acute illness, tachycardia; likely demand vs ACS
+   - Cycle enzymes
+   - Appreciate cards consult
+   - Continue ASA; discontinue atorvastatin while LFTs abnormal
+   - Repeat ECG
+   - Consider anticoagulation if continued enzyme rise
+   - Morphine for pain/dypsnea
+   .
+   # Tachy-arrhythmia. Cards c/s: pt with likely AVNRT on admission,
+   converted to VT, then back to NSR.
+   - monitor on telemetry
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents + amio
+   - Continue amiodarone gtt, move to PO amiodarone if long term control
+   needed
+   - Maintain K > 4 (watch renal function though), Mg > 2
+   - hold coumadin for now
+   .
+   # Subacute renal failure. Creatinine 3.2, baseline 1.1 but was elevated
+   [**4-29**] to 3.3 (pt refused to seek medical attention at time). Likely
+   prerenal in setting of dehydration/chronic CHF with intravascular
+   depletion. Foley in place. Urine lytes: BUN 506, Cr 94, Na < 10, FeNa
+   about 0.2% implies likely prerenal etiology.
+   - Continue gentle fluid boluses and monitor UOP; trend creatinine and
+   monitor UOP
+   - Renally dose medications; avoid nephrotoxins
+   - Hold ACE-I and diuretics
+   .
+   # Hepatitis. s/p cholecystectomy. Elevated LFTs likely in setting of
+   shock liver. Now trending down.
+   - Trend LFTs; manage hypotension (see above)
+   # Abdominal pain/colitis on CT. Abdominal pain resolving; colitis
+   likely ischemic. Surgery consulted, recommend continue resuscitation,
+   enema, trend labs/lactate, empiric abx. Pt is s/p cholecystectomy.
+   - Appreciate surgery recs, will follow with serial exams
+   - Gentle enema given impaction, colace / senna
+   - Trend lactate
+   - Empiric IV abx for now as above
+   .
+   # GIB. Guaiac positive stools:
+   - Follow Hct; give PPI
+   - Repeat stool guaiac when disimpacted
+   .
+   # CHF:  Hold lasix while hypotensive; hold Metoprolol, ACE-I,
+   spironolactone while hypotensive
+   - CXR given decreased BS today, crackles, fluid +
+   # Obstructive lung disease/allergic rhinitis:
+   - Change albuterol to xopenex, cromolyn spray, fluticasone inhaler;
+   hold Benadryl
+   - Restart flovent; consider steroids if continued respiratory
+   difficulty
+   # Anxiety: Continue fluoxetine; hold trazodone for now; start benzo per
+   pcp
+   .
+   # FEN: IVF as above, replete electrolytes, can start heart healthy
+   diet, Folate. PPI.
+   # Prophylaxis: pneumoboots
+   # Access: 2 peripherals
+   # Communication: Patient
+   # Code:  DNR DNI but consider less aggressive interventions such as
+   cardiovert/defib if short-term return to baseline status (see OMR note
+   [**5-12**] by PCP [**Doctor Last Name **] for full discussion)
+   Name of health care proxy: [**Name (NI) 457**] [**Last Name (NamePattern1) 14303**]
+   Relationship: Sister
+   Phone number: [**Telephone/Fax (1) 14304**]
+   # Disposition: ICU pending clinical improvement; may benefit from SW
+   visits at home<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is an 81-year-old female with a history of chronic heart failure (CHF) and atrial fibrillation (Afib) who presents with dyspnea and chest pain. She was cardioverted for atrial flutter and developed ventricular tachycardia, which was defibrillated and returned to normal sinus rhythm.
+
+The patient's current condition is complicated by:
+
+1. Shock: likely cardiogenic in setting of tachyarrhythmia, dehydration, and baseline impaired cardiac function.
+2. NSTEMI: elevated troponins, CK-MB, and anterior TWI on EKG, likely demand ischemia.
+3. Tachy-arrhythmia: likely AVNRT on admission, converted to VT, and then back to NSR.
+4. Subacute renal failure: creatinine 3.2, likely prerenal in setting of dehydration and chronic CHF.
+5. Hepatitis: elevated LFTs, likely in setting of shock liver.
+6. Abdominal pain/colitis: likely ischemic, with surgery consulted.
+7. GIB: guaiac-positive stools.
+8. CHF: hold lasix, Metoprolol, ACE-I, and spironolactone while hypotensive.
+9. Obstructive lung disease/allergic rhinitis: change albuterol to xopenex, cromolyn spray, and fluticasone inhaler.
+10. Anxiety: continue fluoxetine, hold trazodone, and start benzo per PCP.
+11. FEN: IVF, replete electrolytes, and start heart-healthy diet.
+
+The patient's current medications include:
+
+* Antibiotics: vancomycin, metronidazole, and ceftriaxone
+* Vasodilators: morphine sulfate and nitroglycerin
+* Anti-arrhythmics: amiodarone and nodal agents
+* Antihypertensives: ASA and ACE-I
+* Anticoagulants: coumadin (hold for now)
+* Antihistamines: Benadryl (hold)
+* Steroids: Flovent and corticosteroids (consider)
+* Antidepressants: fluoxetine
+* Anti-anxiety medications: benzo and trazodone (hold for now)
+
+The patient's lab results show:
+
+* Troponins: 0.86-1.16 ng/mL
+* CK-MB: 17-26 IU/L
+* LFTs: elevated ALT and AST
+* Creatinine: 3.2 mg/dL
+* BUN: 506 mg/dL
+* Sodium: <10 mEq/L
+* Potassium: 4.7 mEq/L
+* Magnesium: 2.1 mg/dL
+* Phosphorus: 2.6 mg/dL
+
+The patient's plan of care includes:
+
+* Continue antibiotics and vasodilators
+* Monitor cardiac enzymes and LFTs
+* Trend lactate and electrolytes
+* Consider surgical consultation for colitis
+* Restart Flovent and consider steroids for respiratory difficulties
+* Continue antidepressants and anti-anxiety medications
+* Hold ACE-I and diuretics until further evaluation
+* Consider cardioversion and defibrillation if short-term return to baseline status
+
+The patient's disposition is ICU pending clinical improvement, with a possible transfer to the floor once stable."
+180922.0,225940,2106-05-14 07:08:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents and amio.
+   - PCP agrees that medical treatment most c/w goals of care rather than
+   ICD; suggests starting benzo; consider cxr and if enlarging effusion or
+   evidence fluid
+   overload diuresing a bit; restart flovent and consider PO steroids if
+   continues to
+   have respiratory difficulties; If transferred to floor would appreciate
+   consultation and
+   comanagement both from general/chf cardiology and pulmonary; may
+   benefit from SW visit at home
+   - No o/n events, rested overnight on trazadone
+   - cardiac enzymes, LFT trending down
+   - urine culture <10K (non-speciated)
+   - TTE: The left atrium is moderately dilated. Left ventricular wall
+   thicknesses are normal. The left ventricular cavity is moderately
+   dilated. There is moderate to severe global left ventricular
+   hypokinesis (LVEF = 30 %) with apical akinesis. [Intrinsic left
+   ventricular systolic function is likely more depressed given the
+   severity of valvular regurgitation.] There is no ventricular septal
+   defect. The right ventricular cavity is dilated with borderline normal
+   free wall function. The aortic valve leaflets (3) are mildly thickened
+   but aortic stenosis is not present. No aortic regurgitation is seen. A
+   bioprosthetic mitral valve prosthesis is present. The transmitral
+   gradient is normal for this prosthesis. Moderate to severe (3+) mitral
+   regurgitation is seen. [Due to acoustic shadowing, the severity of
+   mitral regurgitation may be significantly UNDERestimated.] The
+   tricuspid valve leaflets are mildly thickened. There is mild pulmonary
+   artery systolic hypertension. There is no pericardial
+   effusion...Compared with the findings of the prior study (images
+   reviewed) of [**2105-6-12**], the mitral regurgitation may be increased (may
+   have been underestimated due to shadowing ), and the left ventricular
+   ejection fraction is further reduced.
+   Allergies:
+   Penicillins
+   Unknown;
+   Nsaids
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   itching.;
+   Verapamil
+   Drowsiness/Fati
+   Neurontin (Oral) (Gabapentin)
+   ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl)
+   Nausea/Vomiting
+   Mysoline (Oral) (Primidone)
+   falls;
+   [**Doctor First Name **] (Oral) (Fexofenadine Hcl)
+   Confusion/Delir
+   Codeine
+   Unknown;
+   Darvon (Oral) (Propoxyphene Hcl)
+   Unknown;
+   Last dose of Antibiotics:
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 10:00 PM
+   Ceftriaxone - [**2106-5-14**] 12:05 AM
+   Infusions:
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 08:10 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-14**] 06:59 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.2
+C (97.1
+   Tcurrent: 35.7
+C (96.3
+   HR: 57 (55 - 92) bpm
+   BP: 102/50(62) {88/39(53) - 127/95(99)} mmHg
+   RR: 15 (14 - 23) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  1,543 mL
+                                                                     50 mL
+   PO:
+                                                                    510 mL
+             TF:
+   IVF:
+                                                                  1,033 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  1,630 mL
+                                                                    285 mL
+   Urine:
+                                                                  1,630 mL
+                                                                    285 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -87 mL
+                                                                   -235 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: warm extremities
+   Skin:  Not assessed
+   Ab: nontender, BS+, nondistended
+   Neurologic: Alert/oriented
+   Pulm: decreased BS at right base, crackles on left
+   Labs / Radiology
+   131 K/uL
+   8.5 g/dL
+   121 mg/dL
+   1.5 mg/dL
+   19 mEq/L
+   3.8 mEq/L
+   38 mg/dL
+   113 mEq/L
+   144 mEq/L
+   27.2 %
+   6.6 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+                             [**2106-5-13**]  03:03 PM
+                             [**2106-5-14**]  02:53 AM
+   WBC
+   8.7
+   7.2
+   7.1
+   6.6
+   Hct
+   29.3
+   27.6
+   27.6
+   27.2
+   Plt
+   145
+   147
+   135
+   131
+   Cr
+   2.7
+   2.2
+   1.8
+   1.5
+   TropT
+   0.86
+   1.16
+   1.26
+   1.00
+   0.78
+   Glucose
+   164
+   167
+   121
+   Other labs: PT / PTT / INR:28.6/33.9/2.8, CK / CKMB /
+   Troponin-T:225/17/0.78, ALT / AST:1155/616, Alk Phos / T Bili:74/0.5,
+   Amylase / Lipase:/46, Lactic Acid:1.9 mmol/L, LDH:1326 IU/L, Ca++:8.0
+   mg/dL, Mg++:1.9 mg/dL, PO4:2.6 mg/dL
+   Urine cx NGTD / <10,000 col/ml
+   Assessment and Plan
+   81 yo female with history of CHF (EF 30%), Afib on coumadin, s/p CABG
+   presents with dyspnea and CP, found to be hypotensive. Cardioverted for
+   ?aflutter, developed v-tach, defibrillated, returned to NSR. CTAb
+   showed equivocal colitis. Admitted to MICU for hypotension.
+   .
+   # Shock. Likely cardiogenic in setting of tachyarrhythmia but
+   complicated by likely dehydration in setting of anorexia and nausea,
+   together with recent rapid ventricular rates, and baseline impaired
+   cardiac function (given mild pulmonary vascular congestion on CXR,
+   chronic CHF). Baseline bp appears low (syst in 80s at clinic).
+   Differential also includes sepsis, especially in setting of mild
+   leukocytosis and colitis seen on CT, though afebrile and WBC to
+   baseline with fluids.
+   - Cardiogenic (baseline CHF with low EF, together with superimposed
+   arrhythmia; however CXR not concerning for congestion)
+        - check TTE
+   - Hypovolemic source: dehydration (pt appears generally volume
+   depleted)
+        - fluid boluses to maintain UOP and MAP goal of >55 then to
+   maintenance fluids when 50 cc/hr UOP achieved
+   - Vasodilatory source: colitis (though likely ischemic colitis rather
+   than infectious)
+        - D/c vanco/flagyl/ceftriaxone; follow exam
+        - appreciate surgery recs
+        - trend lactate
+        - check C. Diff given recent history of diarrhea though now with
+   constipation (no stool yet)
+        - follow blood, urine cultures
+   .
+   # NSTEMI. Elevated troponins, CK-MB, anterior TWI on EKG. In setting of
+   acute illness, tachycardia; likely demand vs ACS
+   - Cycle enzymes
+   - Appreciate cards consult
+   - Continue ASA 81mg PO; discontinue atorvastatin while LFTs abnormal
+   - Repeat ECG
+   - Consider anticoagulation if continued enzyme rise
+   - Morphine for pain/dypsnea
+   .
+   # Tachy-arrhythmia. Cards c/s: pt with likely AVNRT on admission,
+   converted to VT, then back to NSR.
+   - monitor on telemetry
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents + amio
+   - Continue amiodarone gtt, move to PO amiodarone if long term control
+   needed
+   - Maintain K > 4 (watch renal function though), Mg > 2
+   - hold coumadin for now
+   .
+   # Subacute renal failure. Creatinine 3.2, baseline 1.1 but was elevated
+   [**4-29**] to 3.3 (pt refused to seek medical attention at time). Likely
+   prerenal in setting of dehydration/chronic CHF with intravascular
+   depletion. Foley in place. Urine lytes: BUN 506, Cr 94, Na < 10, FeNa
+   about 0.2% implies likely prerenal etiology.
+   - Continue gentle fluid boluses and monitor UOP; trend creatinine and
+   monitor UOP
+   - Renally dose medications; avoid nephrotoxins
+   - Hold ACE-I and diuretics
+   .
+   # Hepatitis. s/p cholecystectomy. Elevated LFTs likely in setting of
+   shock liver. Now trending down.
+   - Trend LFTs; manage hypotension (see above)
+   # Abdominal pain/colitis on CT. Abdominal pain resolving; colitis
+   likely ischemic. Surgery consulted, recommend continue resuscitation,
+   enema, trend labs/lactate, empiric abx. Pt is s/p cholecystectomy.
+   - Appreciate surgery recs, will follow with serial exams
+   - Gentle enema given impaction, colace / senna
+   - Trend lactate
+   - D/c abx for now as above
+   .
+   # GIB. Guaiac positive stools:
+   - Follow Hct; give PPI
+   - Repeat stool guaiac when disimpacted
+   .
+   # CHF:  Hold lasix while hypotensive; hold Metoprolol, ACE-I,
+   spironolactone while hypotensive
+   - CXR given decreased BS today, crackles, fluid +
+   - Lasix 10mg IV x 1 and watch UOP
+   # Obstructive lung disease/allergic rhinitis:
+   - Change albuterol to xopenex, cromolyn spray, fluticasone inhaler;
+   hold Benadryl
+   - Restart flovent; consider steroids if continued respiratory
+   difficulty
+   # Anxiety: Continue fluoxetine; hold trazodone for now; start benzo per
+   pcp
+   .
+   # FEN: IVF as above, replete electrolytes, can start heart healthy
+   diet, Folate. PPI.
+   # Prophylaxis: pneumoboots
+   # Access: 2 peripherals
+   # Communication: Patient
+   # Code:  DNR DNI but consider less aggressive interventions such as
+   cardiovert/defib if short-term return to baseline status (see OMR note
+   [**5-12**] by PCP [**Doctor Last Name **] for full discussion)
+   Name of health care proxy: [**Name (NI) 457**] [**Last Name (NamePattern1) 14303**]
+   Relationship: Sister
+   Phone number: [**Telephone/Fax (1) 14304**]
+   # Disposition: ICU pending clinical improvement; may benefit from SW
+   visits at home
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents and amio.
+   - PCP agrees that medical treatment most c/w goals of care rather than
+   ICD; suggests starting benzo; consider cxr and if enlarging effusion or
+   evidence fluid
+   overload diuresing a bit; restart flovent and consider PO steroids if
+   continues to
+   have respiratory difficulties; If transferred to floor would appreciate
+   consultation and
+   comanagement both from general/chf cardiology and pulmonary; may
+   benefit from SW visit at home
+   - No o/n events, rested overnight on trazadone
+   - cardiac enzymes, LFT trending down
+   - urine culture <10K (non-speciated)
+   - TTE: The left atrium is moderately dilated. Left ventricular wall
+   thicknesses are normal. The left ventricular cavity is moderately
+   dilated. There is moderate to severe global left ventricular
+   hypokinesis (LVEF = 30 %) with apical akinesis. [Intrinsic left
+   ventricular systolic function is likely more depressed given the
+   severity of valvular regurgitation.] There is no ventricular septal
+   defect. The right ventricular cavity is dilated with borderline normal
+   free wall function. The aortic valve leaflets (3) are mildly thickened
+   but aortic stenosis is not present. No aortic regurgitation is seen. A
+   bioprosthetic mitral valve prosthesis is present. The transmitral
+   gradient is normal for this prosthesis. Moderate to severe (3+) mitral
+   regurgitation is seen. [Due to acoustic shadowing, the severity of
+   mitral regurgitation may be significantly UNDERestimated.] The
+   tricuspid valve leaflets are mildly thickened. There is mild pulmonary
+   artery systolic hypertension. There is no pericardial
+   effusion...Compared with the findings of the prior study (images
+   reviewed) of [**2105-6-12**], the mitral regurgitation may be increased (may
+   have been underestimated due to shadowing ), and the left ventricular
+   ejection fraction is further reduced.
+   Allergies:
+   Penicillins
+   Unknown;
+   Nsaids
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   itching.;
+   Verapamil
+   Drowsiness/Fati
+   Neurontin (Oral) (Gabapentin)
+   ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl)
+   Nausea/Vomiting
+   Mysoline (Oral) (Primidone)
+   falls;
+   [**Doctor First Name **] (Oral) (Fexofenadine Hcl)
+   Confusion/Delir
+   Codeine
+   Unknown;
+   Darvon (Oral) (Propoxyphene Hcl)
+   Unknown;
+   Last dose of Antibiotics:
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 10:00 PM
+   Ceftriaxone - [**2106-5-14**] 12:05 AM
+   Infusions:
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 08:10 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-14**] 06:59 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.2
+C (97.1
+   Tcurrent: 35.7
+C (96.3
+   HR: 57 (55 - 92) bpm
+   BP: 102/50(62) {88/39(53) - 127/95(99)} mmHg
+   RR: 15 (14 - 23) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  1,543 mL
+                                                                     50 mL
+   PO:
+                                                                    510 mL
+             TF:
+   IVF:
+                                                                  1,033 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  1,630 mL
+                                                                    285 mL
+   Urine:
+                                                                  1,630 mL
+                                                                    285 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -87 mL
+                                                                   -235 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: warm extremities
+   Skin:  Not assessed
+   Ab: nontender, BS+, nondistended
+   Neurologic: Alert/oriented
+   Pulm: decreased BS at right base, crackles on left
+   Labs / Radiology
+   131 K/uL
+   8.5 g/dL
+   121 mg/dL
+   1.5 mg/dL
+   19 mEq/L
+   3.8 mEq/L
+   38 mg/dL
+   113 mEq/L
+   144 mEq/L
+   27.2 %
+   6.6 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+                             [**2106-5-13**]  03:03 PM
+                             [**2106-5-14**]  02:53 AM
+   WBC
+   8.7
+   7.2
+   7.1
+   6.6
+   Hct
+   29.3
+   27.6
+   27.6
+   27.2
+   Plt
+   145
+   147
+   135
+   131
+   Cr
+   2.7
+   2.2
+   1.8
+   1.5
+   TropT
+   0.86
+   1.16
+   1.26
+   1.00
+   0.78
+   Glucose
+   164
+   167
+   121
+   Other labs: PT / PTT / INR:28.6/33.9/2.8, CK / CKMB /
+   Troponin-T:225/17/0.78, ALT / AST:1155/616, Alk Phos / T Bili:74/0.5,
+   Amylase / Lipase:/46, Lactic Acid:1.9 mmol/L, LDH:1326 IU/L, Ca++:8.0
+   mg/dL, Mg++:1.9 mg/dL, PO4:2.6 mg/dL
+   Urine cx NGTD / <10,000 col/ml
+   Assessment and Plan
+   81 yo female with history of CHF (EF 30%), Afib on coumadin, s/p CABG
+   presents with dyspnea and CP, found to be hypotensive. Cardioverted for
+   ?aflutter, developed v-tach, defibrillated, returned to NSR. CTAb
+   showed equivocal colitis. Admitted to MICU for hypotension.
+   .
+   # Shock. Likely cardiogenic in setting of tachyarrhythmia but
+   complicated by likely dehydration in setting of anorexia and nausea,
+   together with recent rapid ventricular rates, and baseline impaired
+   cardiac function (given mild pulmonary vascular congestion on CXR,
+   chronic CHF). Baseline bp appears low (syst in 80s at clinic).
+   Differential also includes sepsis, especially in setting of mild
+   leukocytosis and colitis seen on CT, though afebrile and WBC to
+   baseline with fluids.
+   - Cardiogenic (baseline CHF with low EF, together with superimposed
+   arrhythmia; however CXR not concerning for congestion)
+        - check TTE
+   - Hypovolemic source: dehydration (pt appears generally volume
+   depleted)
+        - fluid boluses to maintain UOP and MAP goal of >55 then to
+   maintenance fluids when 50 cc/hr UOP achieved
+   - Vasodilatory source: colitis (though likely ischemic colitis rather
+   than infectious)
+        - D/c vanco/flagyl/ceftriaxone; follow exam
+        - appreciate surgery recs
+        - trend lactate
+        - check C. Diff given recent history of diarrhea though now with
+   constipation (no stool yet)
+        - follow blood, urine cultures
+   .
+   # NSTEMI. Elevated troponins, CK-MB, anterior TWI on EKG. In setting of
+   acute illness, tachycardia; likely demand vs ACS
+   - Cycle enzymes
+   - Appreciate cards consult
+   - Continue ASA 81mg PO; discontinue atorvastatin while LFTs abnormal
+   - Repeat ECG
+   - Consider anticoagulation if continued enzyme rise
+   - Morphine for pain/dypsnea
+   .
+   # Tachy-arrhythmia. Cards c/s: pt with likely AVNRT on admission,
+   converted to VT, then back to NSR.
+   - monitor on telemetry
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents + amio
+   - Continue amiodarone gtt, move to PO amiodarone if long term control
+   needed
+   - Maintain K > 4 (watch renal function though), Mg > 2
+   - hold coumadin for now
+   .
+   # Subacute renal failure. Creatinine 3.2, baseline 1.1 but was elevated
+   [**4-29**] to 3.3 (pt refused to seek medical attention at time). Likely
+   prerenal in setting of dehydration/chronic CHF with intravascular
+   depletion. Foley in place. Urine lytes: BUN 506, Cr 94, Na < 10, FeNa
+   about 0.2% implies likely prerenal etiology.
+   - Continue gentle fluid boluses and monitor UOP; trend creatinine and
+   monitor UOP
+   - Renally dose medications; avoid nephrotoxins
+   - Hold ACE-I and diuretics
+   .
+   # Hepatitis. s/p cholecystectomy. Elevated LFTs likely in setting of
+   shock liver. Now trending down.
+   - Trend LFTs; manage hypotension (see above)
+   # Abdominal pain/colitis on CT. Abdominal pain resolving; colitis
+   likely ischemic. Surgery consulted, recommend continue resuscitation,
+   enema, trend labs/lactate, empiric abx. Pt is s/p cholecystectomy.
+   - Appreciate surgery recs, will follow with serial exams
+   - Gentle enema given impaction, colace / senna
+   - Trend lactate
+   - D/c abx for now as above
+   .
+   # GIB. Guaiac positive stools:
+   - Follow Hct; give PPI
+   - Repeat stool guaiac when disimpacted
+   .
+   # CHF:  Hold lasix while hypotensive; hold Metoprolol, ACE-I,
+   spironolactone while hypotensive
+   - CXR given decreased BS today, crackles, fluid +
+   - Lasix 10mg IV x 1 and watch UOP
+   # Obstructive lung disease/allergic rhinitis:
+   - Change albuterol to xopenex, cromolyn spray, fluticasone inhaler;
+   hold Benadryl
+   - Restart flovent; consider steroids if continued respiratory
+   difficulty
+   # Anxiety: Continue fluoxetine; hold trazodone for now; start benzo per
+   pcp
+   .
+   # FEN: IVF as above, replete electrolytes, can start heart healthy
+   diet, Folate. PPI.
+   # Prophylaxis: pneumoboots
+   # Access: 2 peripherals
+   # Communication: Patient
+   # Code:  DNR DNI but consider less aggressive interventions such as
+   cardiovert/defib if short-term return to baseline status (see OMR note
+   [**5-12**] by PCP [**Doctor Last Name **] for full discussion)
+   Name of health care proxy: [**Name (NI) 457**] [**Last Name (NamePattern1) 14303**]
+   Relationship: Sister
+   Phone number: [**Telephone/Fax (1) 14304**]
+   # Disposition: ICU pending clinical improvement; may benefit from SW
+   visits at home<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is an 81-year-old female with a history of chronic heart failure (EF 30%), atrial fibrillation, and previous coronary artery bypass grafting. She presented with dyspnea and chest pain, was found to be hypotensive, and was cardioverted for atrial flutter. She developed ventricular tachycardia and was defibrillated, returning to normal sinus rhythm. The patient has undergone several medical interventions, including the administration of antibiotics, vasopressors, and anti-arrhythmic medications.
+
+Potential Medical Complications:
+
+1. Cardiogenic shock: The patient's cardiac function is impaired, and she has developed tachyarrhythmias, which may exacerbate her cardiac condition.
+2. Subacute renal failure: The patient's creatinine level is elevated, and she has prerenal azotemia, which may worsen if not managed appropriately.
+3. Hepatitis: The patient's liver function tests are elevated, and she has a history of cholecystectomy, which may have contributed to her liver dysfunction.
+4. Abdominal pain and colitis: The patient has abdominal pain and colitis, which may be related to ischemic colitis or other gastrointestinal issues.
+5. Gastrointestinal bleeding: The patient has guaiac-positive stools, which may indicate gastrointestinal bleeding.
+6. Obstructive lung disease: The patient has a history of chronic obstructive lung disease and allergic rhinitis, which may exacerbate her respiratory symptoms.
+7. Anxiety and depression: The patient is experiencing anxiety and depression, which may be exacerbated by her medical condition.
+8. Fluid and electrolyte imbalance: The patient is at risk of fluid and electrolyte imbalance due to her medical condition and medications.
+
+Recommendations:
+
+1. Continue to monitor the patient's cardiac function and adjust her medications as necessary.
+2. Manage the patient's subacute renal failure by continuing gentle fluid boluses and monitoring her urine output.
+3. Trend the patient's liver function tests and manage her hepatitis accordingly.
+4. Continue to manage the patient's abdominal pain and colitis with gentle enemas and empiric antibiotics.
+5. Monitor the patient's gastrointestinal bleeding and consider endoscopy if necessary.
+6. Adjust the patient's medications for obstructive lung disease and consider steroids if her respiratory symptoms persist.
+7. Continue to manage the patient's anxiety and depression with therapy and medications as necessary.
+8. Monitor the patient's fluid and electrolyte balance and adjust her medications accordingly."
+180922.0,225940,2106-05-14 07:08:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents and amio.
+   - PCP agrees that medical treatment most c/w goals of care rather than
+   ICD; suggests starting benzo; consider cxr and if enlarging effusion or
+   evidence fluid
+   overload diuresing a bit; restart flovent and consider PO steroids if
+   continues to
+   have respiratory difficulties; If transferred to floor would appreciate
+   consultation and
+   comanagement both from general/chf cardiology and pulmonary; may
+   benefit from SW visit at home
+   - No o/n events, rested overnight on trazadone
+   - cardiac enzymes, LFT trending down
+   - urine culture <10K (non-speciated)
+   - TTE: The left atrium is moderately dilated. Left ventricular wall
+   thicknesses are normal. The left ventricular cavity is moderately
+   dilated. There is moderate to severe global left ventricular
+   hypokinesis (LVEF = 30 %) with apical akinesis. [Intrinsic left
+   ventricular systolic function is likely more depressed given the
+   severity of valvular regurgitation.] There is no ventricular septal
+   defect. The right ventricular cavity is dilated with borderline normal
+   free wall function. The aortic valve leaflets (3) are mildly thickened
+   but aortic stenosis is not present. No aortic regurgitation is seen. A
+   bioprosthetic mitral valve prosthesis is present. The transmitral
+   gradient is normal for this prosthesis. Moderate to severe (3+) mitral
+   regurgitation is seen. [Due to acoustic shadowing, the severity of
+   mitral regurgitation may be significantly UNDERestimated.] The
+   tricuspid valve leaflets are mildly thickened. There is mild pulmonary
+   artery systolic hypertension. There is no pericardial
+   effusion...Compared with the findings of the prior study (images
+   reviewed) of [**2105-6-12**], the mitral regurgitation may be increased (may
+   have been underestimated due to shadowing ), and the left ventricular
+   ejection fraction is further reduced.
+   Allergies:
+   Penicillins
+   Unknown;
+   Nsaids
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   itching.;
+   Verapamil
+   Drowsiness/Fati
+   Neurontin (Oral) (Gabapentin)
+   ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl)
+   Nausea/Vomiting
+   Mysoline (Oral) (Primidone)
+   falls;
+   [**Doctor First Name **] (Oral) (Fexofenadine Hcl)
+   Confusion/Delir
+   Codeine
+   Unknown;
+   Darvon (Oral) (Propoxyphene Hcl)
+   Unknown;
+   Last dose of Antibiotics:
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 10:00 PM
+   Ceftriaxone - [**2106-5-14**] 12:05 AM
+   Infusions:
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 08:10 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-14**] 06:59 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.2
+C (97.1
+   Tcurrent: 35.7
+C (96.3
+   HR: 57 (55 - 92) bpm
+   BP: 102/50(62) {88/39(53) - 127/95(99)} mmHg
+   RR: 15 (14 - 23) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  1,543 mL
+                                                                     50 mL
+   PO:
+                                                                    510 mL
+             TF:
+   IVF:
+                                                                  1,033 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  1,630 mL
+                                                                    285 mL
+   Urine:
+                                                                  1,630 mL
+                                                                    285 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -87 mL
+                                                                   -235 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   131 K/uL
+   8.5 g/dL
+   121 mg/dL
+   1.5 mg/dL
+   19 mEq/L
+   3.8 mEq/L
+   38 mg/dL
+   113 mEq/L
+   144 mEq/L
+   27.2 %
+   6.6 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+                             [**2106-5-13**]  03:03 PM
+                             [**2106-5-14**]  02:53 AM
+   WBC
+   8.7
+   7.2
+   7.1
+   6.6
+   Hct
+   29.3
+   27.6
+   27.6
+   27.2
+   Plt
+   145
+   147
+   135
+   131
+   Cr
+   2.7
+   2.2
+   1.8
+   1.5
+   TropT
+   0.86
+   1.16
+   1.26
+   1.00
+   0.78
+   Glucose
+   164
+   167
+   121
+   Other labs: PT / PTT / INR:28.6/33.9/2.8, CK / CKMB /
+   Troponin-T:225/17/0.78, ALT / AST:1155/616, Alk Phos / T Bili:74/0.5,
+   Amylase / Lipase:/46, Lactic Acid:1.9 mmol/L, LDH:1326 IU/L, Ca++:8.0
+   mg/dL, Mg++:1.9 mg/dL, PO4:2.6 mg/dL
+   Assessment and Plan
+   81 yo female with history of CHF (EF 30%), Afib on coumadin, s/p CABG
+   presents with dyspnea and CP, found to be hypotensive. Cardioverted for
+   ?aflutter, developed v-tach, defibrillated, returned to NSR. CTAb
+   showed equivocal colitis. Admitted to MICU for hypotension.
+   .
+   # Shock. Likely cardiogenic in setting of tachyarrhythmia but
+   complicated by likely dehydration in setting of anorexia and nausea,
+   together with recent rapid ventricular rates, and baseline impaired
+   cardiac function (given mild pulmonary vascular congestion on CXR,
+   chronic CHF). Baseline bp appears low (syst in 80s at clinic).
+   Differential also includes sepsis, especially in setting of mild
+   leukocytosis and colitis seen on CT, though afebrile and WBC to
+   baseline with fluids.
+   - Cardiogenic (baseline CHF with low EF, together with superimposed
+   arrhythmia; however CXR not concerning for congestion)
+        - check TTE
+   - Hypovolemic source: dehydration (pt appears generally volume
+   depleted)
+        - fluid boluses to maintain UOP and MAP goal of >55 then to
+   maintenance fluids when 50 cc/hr UOP achieved
+   - Vasodilatory source: colitis
+        - treat empirically with vanco/flagyl/ceftriaxone; follow exam
+        - appreciate surgery recs
+        - trend lactate
+        - check C. Diff given recent history of diarrhea though now with
+   constipation
+        - follow blood, urine cultures
+   .
+   # NSTEMI. Elevated troponins, CK-MB, anterior TWI on EKG. In setting of
+   acute illness, tachycardia
+   - Cycle enzymes
+   - Manage CAD as below
+   - Continue atorvastatin, ASA; discontinue atorvastatin if LFTs continue
+   to be abnormal
+   - Repeat ECG
+   - Anticoagulation if continued enzyme rise (start heparin now that INR
+   within range)
+   - Morphine for pain/dypsnea
+   .
+   # Tachy-arrhythmia. Pt with possible a-flutter and RVR initially,
+   developed VTach after synchronized cardioversion, returned to NSR with
+   defib. Cardiology and EP saw pt in ED.
+   - monitor on telemetry
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents + amio
+   - Continue amiodarone gtt, move to PO amiodarone if long term control
+   needed
+   - Maintain K > 4 (watch renal function though), Mg > 2
+   - hold coumadin for now
+   .
+   # Subacute renal failure. Creatinine 3.2, baseline 1.1 but was elevated
+   [**4-29**] to 3.3 (pt refused to seek medical attention at time). Likely
+   prerenal in setting of dehydration/chronic CHF with intravascular
+   depletion. Foley in place. Urine lytes: BUN 506, Cr 94, Na < 10, FeNa
+   about 0.2% implies likely prerenal etiology.
+   - Continue gentle fluid boluses and monitor UOP; trend creatinine and
+   monitor UOP
+   - Renally dose medications; avoid nephrotoxins
+   - Hold ACE-I and diuretics
+   .
+   # Hepatitis. s/p cholecystectomy. Elevated LFTs likely in setting of
+   shock liver.
+   - Trend LFTs; manage hypotension (see above)
+   - NPO for now
+   - Hepatitis viral panel if persistent elevation
+   # Abdominal pain/colitis on CT. Surgery consulted, recommend continue
+   resuscitation, enema, trend labs/lactate, empiric abx. Pt is s/p
+   cholecystectomy.
+   - Appreciate surgery recs, will follow with serial exams
+   - Gentle enema given impaction, colace / senna
+   - Trend lactate
+   - Empiric IV abx for now as above
+   .
+   # GIB. Guaiac positive stools:
+   - Follow Hct; give PPI
+   - Repeat stool guaiac when disimpacted
+   .
+   # CHF:  Hold lasix while hypotensive; hold Metoprolol, ACE-I,
+   spironolactone while hypotensive
+   # Obstructive lung disease/allergic rhinitis: Change albuterol to
+   xopenex, cromolyn spray, fluticasone inhaler;  hold benadryl
+   # Anxiety: Continue fluoxetine; hold trazodone for now
+   .
+   # FEN: IVF as above, replete electrolytes, can start heart healthy
+   diet, Folate. PPI.
+   # Prophylaxis: pneumoboots
+   # Access: 2 peripherals
+   # Communication: Patient
+   # Code:  DNR DNI but consider less aggressive interventions such as
+   cardiovert/defib if short-term return to baseline status (see OMR note
+   [**5-12**] by PCP [**Doctor Last Name **] for full discussion)
+   Name of health care proxy: [**Name (NI) 457**] [**Last Name (NamePattern1) 14303**]
+   Relationship: Sister
+   Phone number: [**Telephone/Fax (1) 14304**]
+   # Disposition: ICU pending clinical improvement
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents and amio.
+   - PCP agrees that medical treatment most c/w goals of care rather than
+   ICD; suggests starting benzo; consider cxr and if enlarging effusion or
+   evidence fluid
+   overload diuresing a bit; restart flovent and consider PO steroids if
+   continues to
+   have respiratory difficulties; If transferred to floor would appreciate
+   consultation and
+   comanagement both from general/chf cardiology and pulmonary; may
+   benefit from SW visit at home
+   - No o/n events, rested overnight on trazadone
+   - cardiac enzymes, LFT trending down
+   - urine culture <10K (non-speciated)
+   - TTE: The left atrium is moderately dilated. Left ventricular wall
+   thicknesses are normal. The left ventricular cavity is moderately
+   dilated. There is moderate to severe global left ventricular
+   hypokinesis (LVEF = 30 %) with apical akinesis. [Intrinsic left
+   ventricular systolic function is likely more depressed given the
+   severity of valvular regurgitation.] There is no ventricular septal
+   defect. The right ventricular cavity is dilated with borderline normal
+   free wall function. The aortic valve leaflets (3) are mildly thickened
+   but aortic stenosis is not present. No aortic regurgitation is seen. A
+   bioprosthetic mitral valve prosthesis is present. The transmitral
+   gradient is normal for this prosthesis. Moderate to severe (3+) mitral
+   regurgitation is seen. [Due to acoustic shadowing, the severity of
+   mitral regurgitation may be significantly UNDERestimated.] The
+   tricuspid valve leaflets are mildly thickened. There is mild pulmonary
+   artery systolic hypertension. There is no pericardial
+   effusion...Compared with the findings of the prior study (images
+   reviewed) of [**2105-6-12**], the mitral regurgitation may be increased (may
+   have been underestimated due to shadowing ), and the left ventricular
+   ejection fraction is further reduced.
+   Allergies:
+   Penicillins
+   Unknown;
+   Nsaids
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   itching.;
+   Verapamil
+   Drowsiness/Fati
+   Neurontin (Oral) (Gabapentin)
+   ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl)
+   Nausea/Vomiting
+   Mysoline (Oral) (Primidone)
+   falls;
+   [**Doctor First Name **] (Oral) (Fexofenadine Hcl)
+   Confusion/Delir
+   Codeine
+   Unknown;
+   Darvon (Oral) (Propoxyphene Hcl)
+   Unknown;
+   Last dose of Antibiotics:
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 10:00 PM
+   Ceftriaxone - [**2106-5-14**] 12:05 AM
+   Infusions:
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 08:10 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-14**] 06:59 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.2
+C (97.1
+   Tcurrent: 35.7
+C (96.3
+   HR: 57 (55 - 92) bpm
+   BP: 102/50(62) {88/39(53) - 127/95(99)} mmHg
+   RR: 15 (14 - 23) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  1,543 mL
+                                                                     50 mL
+   PO:
+                                                                    510 mL
+             TF:
+   IVF:
+                                                                  1,033 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  1,630 mL
+                                                                    285 mL
+   Urine:
+                                                                  1,630 mL
+                                                                    285 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -87 mL
+                                                                   -235 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   131 K/uL
+   8.5 g/dL
+   121 mg/dL
+   1.5 mg/dL
+   19 mEq/L
+   3.8 mEq/L
+   38 mg/dL
+   113 mEq/L
+   144 mEq/L
+   27.2 %
+   6.6 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+                             [**2106-5-13**]  03:03 PM
+                             [**2106-5-14**]  02:53 AM
+   WBC
+   8.7
+   7.2
+   7.1
+   6.6
+   Hct
+   29.3
+   27.6
+   27.6
+   27.2
+   Plt
+   145
+   147
+   135
+   131
+   Cr
+   2.7
+   2.2
+   1.8
+   1.5
+   TropT
+   0.86
+   1.16
+   1.26
+   1.00
+   0.78
+   Glucose
+   164
+   167
+   121
+   Other labs: PT / PTT / INR:28.6/33.9/2.8, CK / CKMB /
+   Troponin-T:225/17/0.78, ALT / AST:1155/616, Alk Phos / T Bili:74/0.5,
+   Amylase / Lipase:/46, Lactic Acid:1.9 mmol/L, LDH:1326 IU/L, Ca++:8.0
+   mg/dL, Mg++:1.9 mg/dL, PO4:2.6 mg/dL
+   Assessment and Plan
+   81 yo female with history of CHF (EF 30%), Afib on coumadin, s/p CABG
+   presents with dyspnea and CP, found to be hypotensive. Cardioverted for
+   ?aflutter, developed v-tach, defibrillated, returned to NSR. CTAb
+   showed equivocal colitis. Admitted to MICU for hypotension.
+   .
+   # Shock. Likely cardiogenic in setting of tachyarrhythmia but
+   complicated by likely dehydration in setting of anorexia and nausea,
+   together with recent rapid ventricular rates, and baseline impaired
+   cardiac function (given mild pulmonary vascular congestion on CXR,
+   chronic CHF). Baseline bp appears low (syst in 80s at clinic).
+   Differential also includes sepsis, especially in setting of mild
+   leukocytosis and colitis seen on CT, though afebrile and WBC to
+   baseline with fluids.
+   - Cardiogenic (baseline CHF with low EF, together with superimposed
+   arrhythmia; however CXR not concerning for congestion)
+        - check TTE
+   - Hypovolemic source: dehydration (pt appears generally volume
+   depleted)
+        - fluid boluses to maintain UOP and MAP goal of >55 then to
+   maintenance fluids when 50 cc/hr UOP achieved
+   - Vasodilatory source: colitis
+        - treat empirically with vanco/flagyl/ceftriaxone; follow exam
+        - appreciate surgery recs
+        - trend lactate
+        - check C. Diff given recent history of diarrhea though now with
+   constipation
+        - follow blood, urine cultures
+   .
+   # NSTEMI. Elevated troponins, CK-MB, anterior TWI on EKG. In setting of
+   acute illness, tachycardia
+   - Cycle enzymes
+   - Manage CAD as below
+   - Continue atorvastatin, ASA; discontinue atorvastatin if LFTs continue
+   to be abnormal
+   - Repeat ECG
+   - Anticoagulation if continued enzyme rise (start heparin now that INR
+   within range)
+   - Morphine for pain/dypsnea
+   .
+   # Tachy-arrhythmia. Pt with possible a-flutter and RVR initially,
+   developed VTach after synchronized cardioversion, returned to NSR with
+   defib. Cardiology and EP saw pt in ED.
+   - monitor on telemetry
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents + amio
+   - Continue amiodarone gtt, move to PO amiodarone if long term control
+   needed
+   - Maintain K > 4 (watch renal function though), Mg > 2
+   - hold coumadin for now
+   .
+   # Subacute renal failure. Creatinine 3.2, baseline 1.1 but was elevated
+   [**4-29**] to 3.3 (pt refused to seek medical attention at time). Likely
+   prerenal in setting of dehydration/chronic CHF with intravascular
+   depletion. Foley in place. Urine lytes: BUN 506, Cr 94, Na < 10, FeNa
+   about 0.2% implies likely prerenal etiology.
+   - Continue gentle fluid boluses and monitor UOP; trend creatinine and
+   monitor UOP
+   - Renally dose medications; avoid nephrotoxins
+   - Hold ACE-I and diuretics
+   .
+   # Hepatitis. s/p cholecystectomy. Elevated LFTs likely in setting of
+   shock liver.
+   - Trend LFTs; manage hypotension (see above)
+   - NPO for now
+   - Hepatitis viral panel if persistent elevation
+   # Abdominal pain/colitis on CT. Surgery consulted, recommend continue
+   resuscitation, enema, trend labs/lactate, empiric abx. Pt is s/p
+   cholecystectomy.
+   - Appreciate surgery recs, will follow with serial exams
+   - Gentle enema given impaction, colace / senna
+   - Trend lactate
+   - Empiric IV abx for now as above
+   .
+   # GIB. Guaiac positive stools:
+   - Follow Hct; give PPI
+   - Repeat stool guaiac when disimpacted
+   .
+   # CHF:  Hold lasix while hypotensive; hold Metoprolol, ACE-I,
+   spironolactone while hypotensive
+   # Obstructive lung disease/allergic rhinitis: Change albuterol to
+   xopenex, cromolyn spray, fluticasone inhaler;  hold benadryl
+   # Anxiety: Continue fluoxetine; hold trazodone for now
+   .
+   # FEN: IVF as above, replete electrolytes, can start heart healthy
+   diet, Folate. PPI.
+   # Prophylaxis: pneumoboots
+   # Access: 2 peripherals
+   # Communication: Patient
+   # Code:  DNR DNI but consider less aggressive interventions such as
+   cardiovert/defib if short-term return to baseline status (see OMR note
+   [**5-12**] by PCP [**Doctor Last Name **] for full discussion)
+   Name of health care proxy: [**Name (NI) 457**] [**Last Name (NamePattern1) 14303**]
+   Relationship: Sister
+   Phone number: [**Telephone/Fax (1) 14304**]
+   # Disposition: ICU pending clinical improvement<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, here is a summary of the information and potential medical complications that can arise:
+
+**Summary:**
+
+The patient is an 81-year-old female with a history of CHF (ejection fraction 30%), Afib on coumadin, and s/p CABG. She presented with dyspnea and CP, was found to be hypotensive, and was cardioverted for atrial flutter, developing VTach, which was defibrillated, and returned to NSR. She was admitted to the MICU for hypotension and shock. The patient has a complex medical condition with multiple comorbidities, including CHF, NSTEMI, tachy-arrhythmia, subacute renal failure, hepatitis, abdominal pain/colitis, GIB, and obstructive lung disease/allergic rhinitis.
+
+**Potential Medical Complications:**
+
+1. **Cardiac Complications:**
+	* Cardiogenic shock due to low ejection fraction and superimposed arrhythmia.
+	* NSTEMI with elevated troponins, CK-MB, and anterior TWI on EKG.
+	* Tachy-arrhythmia, including possible a-flutter and VTach, which may lead to further cardiac complications.
+2. **Renal Complications:**
+	* Subacute renal failure with creatinine 3.2, likely prerenal in setting of dehydration/chronic CHF with intravascular depletion.
+	* Risk of acute kidney injury (AKI) due to hypovolemia, nephrotoxic medications, and underlying chronic kidney disease.
+3. **Gastrointestinal Complications:**
+	* Abdominal pain/colitis on CT, which may lead to further complications such as perforation, abscess, or sepsis.
+	* GIB with guaiac-positive stools, which may require further evaluation and management.
+4. **Hepatic Complications:**
+	* Hepatitis with elevated LFTs, which may require further evaluation and management.
+5. **Respiratory Complications:**
+	* Obstructive lung disease/allergic rhinitis, which may worsen respiratory symptoms and increase the risk of respiratory failure.
+6. **Infectious Complications:**
+	* Risk of sepsis due to underlying comorbidities and potential sources of infection, such as colitis or GIB.
+7. **Other Complications:**
+	* Risk of falls due to hypotension, sedation, and underlying medical conditions.
+	* Risk of electrolyte imbalances due to hypovolemia, diuretic use, and underlying medical conditions.
+
+**Recommendations:**
+
+1. Continue to monitor the patient's cardiac status, including troponins, CK-MB, and EKG.
+2. Manage hypotension with fluid boluses and vasopressors as needed.
+3. Continue empiric antibiotics for possible colitis and GIB.
+4. Trend lactate and creatinine to monitor for signs of worsening kidney function.
+5. Consider consults with cardiology, gastroenterology, and nephrology to optimize management of the patient's complex medical condition.
+6. Monitor for signs of respiratory failure and consider non-invasive ventilation or intubation if necessary.
+7. Consider prophylaxis for pneumococcal disease and other potential infections."
+180922.0,225940,2106-05-14 07:08:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents and amio.
+   - PCP agrees that medical treatment most c/w goals of care rather than
+   ICD; suggests starting benzo; consider cxr and if enlarging effusion or
+   evidence fluid
+   overload diuresing a bit; restart flovent and consider PO steroids if
+   continues to
+   have respiratory difficulties; If transferred to floor would appreciate
+   consultation and
+   comanagement both from general/chf cardiology and pulmonary; may
+   benefit from SW visit at home
+   - No o/n events, rested overnight on trazadone
+   - cardiac enzymes, LFT trending down
+   - urine culture <10K (non-speciated)
+   - TTE: The left atrium is moderately dilated. Left ventricular wall
+   thicknesses are normal. The left ventricular cavity is moderately
+   dilated. There is moderate to severe global left ventricular
+   hypokinesis (LVEF = 30 %) with apical akinesis. [Intrinsic left
+   ventricular systolic function is likely more depressed given the
+   severity of valvular regurgitation.] There is no ventricular septal
+   defect. The right ventricular cavity is dilated with borderline normal
+   free wall function. The aortic valve leaflets (3) are mildly thickened
+   but aortic stenosis is not present. No aortic regurgitation is seen. A
+   bioprosthetic mitral valve prosthesis is present. The transmitral
+   gradient is normal for this prosthesis. Moderate to severe (3+) mitral
+   regurgitation is seen. [Due to acoustic shadowing, the severity of
+   mitral regurgitation may be significantly UNDERestimated.] The
+   tricuspid valve leaflets are mildly thickened. There is mild pulmonary
+   artery systolic hypertension. There is no pericardial
+   effusion...Compared with the findings of the prior study (images
+   reviewed) of [**2105-6-12**], the mitral regurgitation may be increased (may
+   have been underestimated due to shadowing ), and the left ventricular
+   ejection fraction is further reduced.
+   Allergies:
+   Penicillins
+   Unknown;
+   Nsaids
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   itching.;
+   Verapamil
+   Drowsiness/Fati
+   Neurontin (Oral) (Gabapentin)
+   ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl)
+   Nausea/Vomiting
+   Mysoline (Oral) (Primidone)
+   falls;
+   [**Doctor First Name **] (Oral) (Fexofenadine Hcl)
+   Confusion/Delir
+   Codeine
+   Unknown;
+   Darvon (Oral) (Propoxyphene Hcl)
+   Unknown;
+   Last dose of Antibiotics:
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 10:00 PM
+   Ceftriaxone - [**2106-5-14**] 12:05 AM
+   Infusions:
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 08:10 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-14**] 06:59 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.2
+C (97.1
+   Tcurrent: 35.7
+C (96.3
+   HR: 57 (55 - 92) bpm
+   BP: 102/50(62) {88/39(53) - 127/95(99)} mmHg
+   RR: 15 (14 - 23) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  1,543 mL
+                                                                     50 mL
+   PO:
+                                                                    510 mL
+             TF:
+   IVF:
+                                                                  1,033 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  1,630 mL
+                                                                    285 mL
+   Urine:
+                                                                  1,630 mL
+                                                                    285 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -87 mL
+                                                                   -235 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   131 K/uL
+   8.5 g/dL
+   121 mg/dL
+   1.5 mg/dL
+   19 mEq/L
+   3.8 mEq/L
+   38 mg/dL
+   113 mEq/L
+   144 mEq/L
+   27.2 %
+   6.6 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+                             [**2106-5-13**]  03:03 PM
+                             [**2106-5-14**]  02:53 AM
+   WBC
+   8.7
+   7.2
+   7.1
+   6.6
+   Hct
+   29.3
+   27.6
+   27.6
+   27.2
+   Plt
+   145
+   147
+   135
+   131
+   Cr
+   2.7
+   2.2
+   1.8
+   1.5
+   TropT
+   0.86
+   1.16
+   1.26
+   1.00
+   0.78
+   Glucose
+   164
+   167
+   121
+   Other labs: PT / PTT / INR:28.6/33.9/2.8, CK / CKMB /
+   Troponin-T:225/17/0.78, ALT / AST:1155/616, Alk Phos / T Bili:74/0.5,
+   Amylase / Lipase:/46, Lactic Acid:1.9 mmol/L, LDH:1326 IU/L, Ca++:8.0
+   mg/dL, Mg++:1.9 mg/dL, PO4:2.6 mg/dL
+   Assessment and Plan
+   81 yo female with history of CHF (EF 30%), Afib on coumadin, s/p CABG
+   presents with dyspnea and CP, found to be hypotensive. Cardioverted for
+   ?aflutter, developed v-tach, defibrillated, returned to NSR. CTAb
+   showed equivocal colitis. Admitted to MICU for hypotension.
+   .
+   # Shock. Likely cardiogenic in setting of tachyarrhythmia but
+   complicated by likely dehydration in setting of anorexia and nausea,
+   together with recent rapid ventricular rates, and baseline impaired
+   cardiac function (given mild pulmonary vascular congestion on CXR,
+   chronic CHF). Baseline bp appears low (syst in 80s at clinic).
+   Differential also includes sepsis, especially in setting of mild
+   leukocytosis and colitis seen on CT, though afebrile and WBC to
+   baseline with fluids.
+   - Cardiogenic (baseline CHF with low EF, together with superimposed
+   arrhythmia; however CXR not concerning for congestion)
+        - check TTE
+   - Hypovolemic source: dehydration (pt appears generally volume
+   depleted)
+        - fluid boluses to maintain UOP and MAP goal of >55 then to
+   maintenance fluids when 50 cc/hr UOP achieved
+   - Vasodilatory source: colitis
+        - treat empirically with vanco/flagyl/ceftriaxone; follow exam
+        - appreciate surgery recs
+        - trend lactate
+        - check C. Diff given recent history of diarrhea though now with
+   constipation
+        - follow blood, urine cultures
+   .
+   # NSTEMI. Elevated troponins, CK-MB, anterior TWI on EKG. In setting of
+   acute illness, tachycardia
+   - Cycle enzymes
+   - Manage CAD as below
+   - Continue atorvastatin, ASA; discontinue atorvastatin if LFTs continue
+   to be abnormal
+   - Repeat ECG
+   - Anticoagulation if continued enzyme rise (start heparin now that INR
+   within range)
+   - Morphine for pain/dypsnea
+   .
+   # Tachy-arrhythmia. Pt with possible a-flutter and RVR initially,
+   developed VTach after synchronized cardioversion, returned to NSR with
+   defib. Cardiology and EP saw pt in ED.
+   - monitor on telemetry
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents + amio
+   - Continue amiodarone gtt, move to PO amiodarone if long term control
+   needed
+   - Maintain K > 4 (watch renal function though), Mg > 2
+   - hold coumadin for now
+   .
+   # Subacute renal failure. Creatinine 3.2, baseline 1.1 but was elevated
+   [**4-29**] to 3.3 (pt refused to seek medical attention at time). Likely
+   prerenal in setting of dehydration/chronic CHF with intravascular
+   depletion. Foley in place. Urine lytes: BUN 506, Cr 94, Na < 10, FeNa
+   about 0.2% implies likely prerenal etiology.
+   - Continue gentle fluid boluses and monitor UOP; trend creatinine and
+   monitor UOP
+   - Renally dose medications; avoid nephrotoxins
+   - Hold ACE-I and diuretics
+   .
+   # Hepatitis. s/p cholecystectomy. Elevated LFTs likely in setting of
+   shock liver.
+   - Trend LFTs; manage hypotension (see above)
+   - NPO for now
+   - Hepatitis viral panel if persistent elevation
+   # Abdominal pain/colitis on CT. Surgery consulted, recommend continue
+   resuscitation, enema, trend labs/lactate, empiric abx. Pt is s/p
+   cholecystectomy.
+   - Appreciate surgery recs, will follow with serial exams
+   - Gentle enema given impaction, colace / senna
+   - Trend lactate
+   - Empiric IV abx for now as above
+   .
+   # GIB. Guaiac positive stools:
+   - Follow Hct; give PPI
+   - Repeat stool guaiac when disimpacted
+   .
+   # CHF:  Hold lasix while hypotensive; hold Metoprolol, ACE-I,
+   spironolactone while hypotensive
+   # Obstructive lung disease/allergic rhinitis: Change albuterol to
+   xopenex, cromolyn spray, fluticasone inhaler;  hold benadryl
+   # Anxiety: Continue fluoxetine; hold trazodone for now
+   .
+   # FEN: IVF as above, replete electrolytes, can start heart healthy
+   diet, Folate. PPI.
+   # Prophylaxis: pneumoboots
+   # Access: 2 peripherals
+   # Communication: Patient
+   # Code:  DNR DNI but consider less aggressive interventions such as
+   cardiovert/defib if short-term return to baseline status (see OMR note
+   [**5-12**] by PCP [**Doctor Last Name **] for full discussion)
+   Name of health care proxy: [**Name (NI) 457**] [**Last Name (NamePattern1) 14303**]
+   Relationship: Sister
+   Phone number: [**Telephone/Fax (1) 14304**]
+   # Disposition: ICU pending clinical improvement
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents and amio.
+   - PCP agrees that medical treatment most c/w goals of care rather than
+   ICD; suggests starting benzo; consider cxr and if enlarging effusion or
+   evidence fluid
+   overload diuresing a bit; restart flovent and consider PO steroids if
+   continues to
+   have respiratory difficulties; If transferred to floor would appreciate
+   consultation and
+   comanagement both from general/chf cardiology and pulmonary; may
+   benefit from SW visit at home
+   - No o/n events, rested overnight on trazadone
+   - cardiac enzymes, LFT trending down
+   - urine culture <10K (non-speciated)
+   - TTE: The left atrium is moderately dilated. Left ventricular wall
+   thicknesses are normal. The left ventricular cavity is moderately
+   dilated. There is moderate to severe global left ventricular
+   hypokinesis (LVEF = 30 %) with apical akinesis. [Intrinsic left
+   ventricular systolic function is likely more depressed given the
+   severity of valvular regurgitation.] There is no ventricular septal
+   defect. The right ventricular cavity is dilated with borderline normal
+   free wall function. The aortic valve leaflets (3) are mildly thickened
+   but aortic stenosis is not present. No aortic regurgitation is seen. A
+   bioprosthetic mitral valve prosthesis is present. The transmitral
+   gradient is normal for this prosthesis. Moderate to severe (3+) mitral
+   regurgitation is seen. [Due to acoustic shadowing, the severity of
+   mitral regurgitation may be significantly UNDERestimated.] The
+   tricuspid valve leaflets are mildly thickened. There is mild pulmonary
+   artery systolic hypertension. There is no pericardial
+   effusion...Compared with the findings of the prior study (images
+   reviewed) of [**2105-6-12**], the mitral regurgitation may be increased (may
+   have been underestimated due to shadowing ), and the left ventricular
+   ejection fraction is further reduced.
+   Allergies:
+   Penicillins
+   Unknown;
+   Nsaids
+   Nausea/Vomiting
+   Percocet (Oral) (Oxycodone Hcl/Acetaminophen)
+   itching.;
+   Verapamil
+   Drowsiness/Fati
+   Neurontin (Oral) (Gabapentin)
+   ? peripheral ed
+   Ultram (Oral) (Tramadol Hcl)
+   Nausea/Vomiting
+   Mysoline (Oral) (Primidone)
+   falls;
+   [**Doctor First Name **] (Oral) (Fexofenadine Hcl)
+   Confusion/Delir
+   Codeine
+   Unknown;
+   Darvon (Oral) (Propoxyphene Hcl)
+   Unknown;
+   Last dose of Antibiotics:
+   Vancomycin - [**2106-5-13**] 01:30 AM
+   Metronidazole - [**2106-5-13**] 10:00 PM
+   Ceftriaxone - [**2106-5-14**] 12:05 AM
+   Infusions:
+   Other ICU medications:
+   Morphine Sulfate - [**2106-5-13**] 08:10 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2106-5-14**] 06:59 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**08**] AM
+   Tmax: 36.2
+C (97.1
+   Tcurrent: 35.7
+C (96.3
+   HR: 57 (55 - 92) bpm
+   BP: 102/50(62) {88/39(53) - 127/95(99)} mmHg
+   RR: 15 (14 - 23) insp/min
+   SpO2: 100%
+   Heart rhythm: SB (Sinus Bradycardia)
+             Total In:
+                                                                  1,543 mL
+                                                                     50 mL
+   PO:
+                                                                    510 mL
+             TF:
+   IVF:
+                                                                  1,033 mL
+                                                                     50 mL
+   Blood products:
+   Total out:
+                                                                  1,630 mL
+                                                                    285 mL
+   Urine:
+                                                                  1,630 mL
+                                                                    285 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -87 mL
+                                                                   -235 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///19/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   131 K/uL
+   8.5 g/dL
+   121 mg/dL
+   1.5 mg/dL
+   19 mEq/L
+   3.8 mEq/L
+   38 mg/dL
+   113 mEq/L
+   144 mEq/L
+   27.2 %
+   6.6 K/uL
+        [image002.jpg]
+                             [**2106-5-12**]  05:59 PM
+                             [**2106-5-12**]  08:00 PM
+                             [**2106-5-13**]  12:45 AM
+                             [**2106-5-13**]  05:43 AM
+                             [**2106-5-13**]  03:03 PM
+                             [**2106-5-14**]  02:53 AM
+   WBC
+   8.7
+   7.2
+   7.1
+   6.6
+   Hct
+   29.3
+   27.6
+   27.6
+   27.2
+   Plt
+   145
+   147
+   135
+   131
+   Cr
+   2.7
+   2.2
+   1.8
+   1.5
+   TropT
+   0.86
+   1.16
+   1.26
+   1.00
+   0.78
+   Glucose
+   164
+   167
+   121
+   Other labs: PT / PTT / INR:28.6/33.9/2.8, CK / CKMB /
+   Troponin-T:225/17/0.78, ALT / AST:1155/616, Alk Phos / T Bili:74/0.5,
+   Amylase / Lipase:/46, Lactic Acid:1.9 mmol/L, LDH:1326 IU/L, Ca++:8.0
+   mg/dL, Mg++:1.9 mg/dL, PO4:2.6 mg/dL
+   Assessment and Plan
+   81 yo female with history of CHF (EF 30%), Afib on coumadin, s/p CABG
+   presents with dyspnea and CP, found to be hypotensive. Cardioverted for
+   ?aflutter, developed v-tach, defibrillated, returned to NSR. CTAb
+   showed equivocal colitis. Admitted to MICU for hypotension.
+   .
+   # Shock. Likely cardiogenic in setting of tachyarrhythmia but
+   complicated by likely dehydration in setting of anorexia and nausea,
+   together with recent rapid ventricular rates, and baseline impaired
+   cardiac function (given mild pulmonary vascular congestion on CXR,
+   chronic CHF). Baseline bp appears low (syst in 80s at clinic).
+   Differential also includes sepsis, especially in setting of mild
+   leukocytosis and colitis seen on CT, though afebrile and WBC to
+   baseline with fluids.
+   - Cardiogenic (baseline CHF with low EF, together with superimposed
+   arrhythmia; however CXR not concerning for congestion)
+        - check TTE
+   - Hypovolemic source: dehydration (pt appears generally volume
+   depleted)
+        - fluid boluses to maintain UOP and MAP goal of >55 then to
+   maintenance fluids when 50 cc/hr UOP achieved
+   - Vasodilatory source: colitis
+        - treat empirically with vanco/flagyl/ceftriaxone; follow exam
+        - appreciate surgery recs
+        - trend lactate
+        - check C. Diff given recent history of diarrhea though now with
+   constipation
+        - follow blood, urine cultures
+   .
+   # NSTEMI. Elevated troponins, CK-MB, anterior TWI on EKG. In setting of
+   acute illness, tachycardia
+   - Cycle enzymes
+   - Manage CAD as below
+   - Continue atorvastatin, ASA; discontinue atorvastatin if LFTs continue
+   to be abnormal
+   - Repeat ECG
+   - Anticoagulation if continued enzyme rise (start heparin now that INR
+   within range)
+   - Morphine for pain/dypsnea
+   .
+   # Tachy-arrhythmia. Pt with possible a-flutter and RVR initially,
+   developed VTach after synchronized cardioversion, returned to NSR with
+   defib. Cardiology and EP saw pt in ED.
+   - monitor on telemetry
+   - Cards F/U: follow up final recs; prelim recs include continue abx,
+   maintain euvolemia, monitor Hct, consider imdur/hydral once GI issues
+   stable, continue ASA but avoid other anticoagulants, cath if pt
+   agreeable and c/w goals of care (though cardiac enzymes likely [**3-16**]
+   demand ischemia); arrhythmias on admission likely AVNRT -> VT, treat
+   with nodal agents + amio
+   - Continue amiodarone gtt, move to PO amiodarone if long term control
+   needed
+   - Maintain K > 4 (watch renal function though), Mg > 2
+   - hold coumadin for now
+   .
+   # Subacute renal failure. Creatinine 3.2, baseline 1.1 but was elevated
+   [**4-29**] to 3.3 (pt refused to seek medical attention at time). Likely
+   prerenal in setting of dehydration/chronic CHF with intravascular
+   depletion. Foley in place. Urine lytes: BUN 506, Cr 94, Na < 10, FeNa
+   about 0.2% implies likely prerenal etiology.
+   - Continue gentle fluid boluses and monitor UOP; trend creatinine and
+   monitor UOP
+   - Renally dose medications; avoid nephrotoxins
+   - Hold ACE-I and diuretics
+   .
+   # Hepatitis. s/p cholecystectomy. Elevated LFTs likely in setting of
+   shock liver.
+   - Trend LFTs; manage hypotension (see above)
+   - NPO for now
+   - Hepatitis viral panel if persistent elevation
+   # Abdominal pain/colitis on CT. Surgery consulted, recommend continue
+   resuscitation, enema, trend labs/lactate, empiric abx. Pt is s/p
+   cholecystectomy.
+   - Appreciate surgery recs, will follow with serial exams
+   - Gentle enema given impaction, colace / senna
+   - Trend lactate
+   - Empiric IV abx for now as above
+   .
+   # GIB. Guaiac positive stools:
+   - Follow Hct; give PPI
+   - Repeat stool guaiac when disimpacted
+   .
+   # CHF:  Hold lasix while hypotensive; hold Metoprolol, ACE-I,
+   spironolactone while hypotensive
+   # Obstructive lung disease/allergic rhinitis: Change albuterol to
+   xopenex, cromolyn spray, fluticasone inhaler;  hold benadryl
+   # Anxiety: Continue fluoxetine; hold trazodone for now
+   .
+   # FEN: IVF as above, replete electrolytes, can start heart healthy
+   diet, Folate. PPI.
+   # Prophylaxis: pneumoboots
+   # Access: 2 peripherals
+   # Communication: Patient
+   # Code:  DNR DNI but consider less aggressive interventions such as
+   cardiovert/defib if short-term return to baseline status (see OMR note
+   [**5-12**] by PCP [**Doctor Last Name **] for full discussion)
+   Name of health care proxy: [**Name (NI) 457**] [**Last Name (NamePattern1) 14303**]
+   Relationship: Sister
+   Phone number: [**Telephone/Fax (1) 14304**]
+   # Disposition: ICU pending clinical improvement<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is an 81-year-old female with a history of chronic heart failure (CHF) and atrial fibrillation, who presented with dyspnea and chest pain. She was found to be hypotensive and was cardioverted for atrial flutter, which developed into ventricular tachycardia, and was defibrillated.
+
+The patient has several potential medical complications:
+
+1. Shock: The patient's hypotension is likely due to cardiogenic shock, hypovolemic shock, or vasodilatory shock. The patient's cardiac enzymes are elevated, and she has a history of CHF, which increases the risk of cardiogenic shock. The patient's creatinine is elevated, which may indicate prerenal failure.
+2. NSTEMI: The patient's elevated troponins and CK-MB suggest a possible NSTEMI. The patient's EKG shows anterior TWI, which is consistent with an NSTEMI.
+3. Tachy-arrhythmia: The patient has a history of atrial fibrillation and developed ventricular tachycardia after cardioversion. She is being treated with amiodarone and is being monitored for further arrhythmias.
+4. Subacute renal failure: The patient's creatinine is elevated, and her urine electrolytes suggest a prerenal etiology. The patient's fluid status is being monitored, and she is receiving gentle fluid boluses.
+5. Hepatitis: The patient's LFTs are elevated, which may be due to shock liver or a primary liver disorder. The patient is being monitored for further elevation.
+6. Abdominal pain/colitis: The patient has a history of cholecystectomy and has developed abdominal pain and colitis. She is being treated with empiric antibiotics and is being monitored for further development.
+7. GIB: The patient's guaiac-positive stools suggest gastrointestinal bleeding. She is being monitored for further bleeding and is being treated with proton pump inhibitors.
+8. CHF: The patient's cardiac function is impaired, and she is being treated with medications to manage her CHF.
+9. Obstructive lung disease/allergic rhinitis: The patient has a history of obstructive lung disease and allergic rhinitis. She is being treated with medications to manage her symptoms.
+10. Anxiety: The patient is being treated with fluoxetine for anxiety, but her trazodone is being held for now.
+
+Based on the patient's condition, the following potential medical complications need to be monitored and managed:
+
+* Cardiogenic shock
+* NSTEMI
+* Tachy-arrhythmia
+* Subacute renal failure
+* Hepatitis
+* Abdominal pain/colitis
+* GIB
+* CHF
+* Obstructive lung disease/allergic rhinitis
+* Anxiety
+
+The patient's treatment plan includes:
+
+* Cardiogenic shock: Continue gentle fluid boluses, monitor UOP, and trend creatinine.
+* NSTEMI: Continue atorvastatin, ASA, and manage CAD as above.
+* Tachy-arrhythmia: Monitor on telemetry, continue amiodarone, and maintain K > 4 and Mg > 2.
+* Subacute renal failure: Continue gentle fluid boluses, monitor UOP, and trend creatinine.
+* Hepatitis: Trend LFTs, manage hypotension, and consider hepatitis viral panel.
+* Abdominal pain/colitis: Continue empiric antibiotics, monitor for further development, and consider surgery consultation.
+* GIB: Monitor for further bleeding, treat with proton pump inhibitors, and consider endoscopy.
+* CHF: Manage with medications, monitor for further decompensation, and consider cardiac catheterization.
+* Obstructive lung disease/allergic rhinitis: Manage with medications, monitor for further exacerbation, and consider pulmonary consultation.
+* Anxiety: Continue fluoxetine, monitor for further symptoms, and consider psychotherapy.
+
+The patient's disposition is pending clinical improvement, and she is being monitored for further development of potential medical complications."

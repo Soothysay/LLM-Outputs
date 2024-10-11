@@ -1,0 +1,3302 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+157868.0,244365,2199-07-22 07:25:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 04:46 AM
+   Infusions:
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 06:18 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-22**] 07:23 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 37.1
+C (98.8
+   HR: 109 (97 - 125) bpm
+   BP: 121/95(101) {103/63(72) - 129/95(101)} mmHg
+   RR: 19 (19 - 28) insp/min
+   SpO2: 98%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+             292 mL
+   PO:
+             TF:
+   IVF:
+   292 mL
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                    640 mL
+   Urine:
+   640 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                   -348 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///22/
+   Physical Examination
+   General: Sedated and sleeping, no acute distress
+   HEENT: Sclera anicteric, ecchymoses over mandible.
+   Lungs: Mild crackles bilaterally, no wheezes, rhonchi
+   CV: Regular, tachycardic, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen: Soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly percussed
+   Ext: Warm, well perfused, 2+ pulses, very chapped skin on pedal aspect
+   of feet.
+   Neuro: Sedated as above. PERRL. DTR symmetric. Toes downgoing on
+   Babinski.
+   Labs / Radiology
+   129 K/uL
+   8.1 g/dL
+   129 mg/dL
+   0.7 mg/dL
+   22 mEq/L
+   3.5 mEq/L
+   12 mg/dL
+   104 mEq/L
+   138 mEq/L
+   24.9 %
+   4.5 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+   WBC
+   4.5
+   Hct
+   24.9
+   Plt
+   129
+   Cr
+   0.7
+   Glucose
+   129
+   Other labs: PT / PTT / INR:12.5/27.3/1.1, ALT / AST:27/57, Alk Phos / T
+   Bili:39/0.6, Ca++:8.2 mg/dL, Mg++:1.0 mg/dL, PO4:2.5 mg/dL
+   Assessment and Plan
+ ALCOHOL WITHDRAWAL (INCLUDING DELIRIUM TREMENS, DTS, SEIZURES)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   22 Gauge - [**2199-7-22**] 02:39 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 04:46 AM
+   Infusions:
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 06:18 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-22**] 07:23 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.8
+   Tcurrent: 37.1
+C (98.8
+   HR: 109 (97 - 125) bpm
+   BP: 121/95(101) {103/63(72) - 129/95(101)} mmHg
+   RR: 19 (19 - 28) insp/min
+   SpO2: 98%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+             292 mL
+   PO:
+             TF:
+   IVF:
+   292 mL
+   Blood products:
+   Total out:
+                                                                      0 mL
+                                                                    640 mL
+   Urine:
+   640 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                      0 mL
+                                                                   -348 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///22/
+   Physical Examination
+   General: Sedated and sleeping, no acute distress
+   HEENT: Sclera anicteric, ecchymoses over mandible.
+   Lungs: Mild crackles bilaterally, no wheezes, rhonchi
+   CV: Regular, tachycardic, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen: Soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly percussed
+   Ext: Warm, well perfused, 2+ pulses, very chapped skin on pedal aspect
+   of feet.
+   Neuro: Sedated as above. PERRL. DTR symmetric. Toes downgoing on
+   Babinski.
+   Labs / Radiology
+   129 K/uL
+   8.1 g/dL
+   129 mg/dL
+   0.7 mg/dL
+   22 mEq/L
+   3.5 mEq/L
+   12 mg/dL
+   104 mEq/L
+   138 mEq/L
+   24.9 %
+   4.5 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+   WBC
+   4.5
+   Hct
+   24.9
+   Plt
+   129
+   Cr
+   0.7
+   Glucose
+   129
+   Other labs: PT / PTT / INR:12.5/27.3/1.1, ALT / AST:27/57, Alk Phos / T
+   Bili:39/0.6, Ca++:8.2 mg/dL, Mg++:1.0 mg/dL, PO4:2.5 mg/dL
+   Assessment and Plan
+ ALCOHOL WITHDRAWAL (INCLUDING DELIRIUM TREMENS, DTS, SEIZURES)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   22 Gauge - [**2199-7-22**] 02:39 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 24-hour-old ICU admission with a chief complaint of alcohol withdrawal, including delirium tremens, seizures, and tachycardia. The patient is sedated and sleeping, with no acute distress. Vital signs are stable, with a temperature of 37.1°C, heart rate of 109 bpm, and blood pressure of 121/95 mmHg. The patient is receiving infusions of lorazepam and antibiotics, and is being monitored for fluid balance and hemodynamic stability.
+
+Potential Medical Complications:
+
+1. Respiratory failure: The patient's mild crackles in the lungs and tachypnea may indicate early signs of respiratory failure, which could worsen if not managed promptly.
+2. Septic shock: The patient's tachycardia and hypertension may be indicative of septic shock, which could lead to organ failure if not treated promptly.
+3. Gastrointestinal bleeding: The patient's use of stress ulcer prophylaxis may be necessary to prevent gastrointestinal bleeding, which could worsen if not managed effectively.
+4. Deep vein thrombosis (DVT): The patient's immobility and increased risk of clotting due to sepsis make them at risk for DVT, which could lead to pulmonary embolism if not treated promptly.
+5. Central nervous system (CNS) complications: The patient's history of seizures and delirium tremens make them at risk for further CNS complications, such as cerebral edema or intracranial hemorrhage.
+6. Infection: The patient's sepsis and antibiotic use may indicate a high risk of infection, which could worsen if not managed effectively.
+7. Hypoglycemia: The patient's use of insulin and glucose infusions may indicate a risk of hypoglycemia, which could worsen if not managed promptly.
+8. Electrolyte imbalance: The patient's laboratory results indicate potential electrolyte imbalances, such as hypocalcemia and hypomagnesemia, which could worsen if not managed effectively."
+157868.0,244365,2199-07-23 06:28:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   fall, mandibular fxs
+   24 Hour Events:
+   - patient withdrawing in the morning, receiving hourly ativan
+   - desatted around 9am, CXR showed new RLL infiltrate
+   - started on vanco/cefepime/flagyl for HAP and aspiration coverage
+   - sputum culture pending
+   - around 2pm, had increasing aggitation, HR to 150s, worsening O2
+   saturation
+   - intuabted successfully
+   - vitals stabalized with HRs in 100s, SBPs in 100s on fent/versed
+   - OMFS (Dr. [**First Name (STitle) 3020**] does not want to take to OR for mandibular fractures
+   until stabalized
+   - overnight has low UO and hypotension, responded to IVF fluid boluses
+   - hct trended down to 23, transfused 1 uPRBCs
+   - had desats and 2 ABGs showed low PcO2, increased FiO2 to 60 and PEEP
+   to 10; repeat CXR showed worsening PNA
+   - turned down Tv from 600 to 500
+   - pan cultured for hypotension
+   - received second 1L bolus for mod UOP
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 12:04 PM
+   Vancomycin - [**2199-7-22**] 08:45 PM
+   Metronidazole - [**2199-7-23**] 02:20 AM
+   Cefipime - [**2199-7-23**] 03:30 AM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 07:50 PM
+   Famotidine (Pepcid) - [**2199-7-22**] 08:00 PM
+   Heparin Sodium (Prophylaxis) - [**2199-7-22**] 08:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-23**] 06:27 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.9
+C (98.4
+   HR: 74 (68 - 144) bpm
+   BP: 88/65(70) {87/58(65) - 153/137(141)} mmHg
+   RR: 14 (14 - 32) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                  3,007 mL
+                                                                  2,323 mL
+   PO:
+           TF:
+   IVF:
+                                                                  3,007 mL
+                                                                  1,973 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                  1,674 mL
+                                                                    102 mL
+   Urine:
+                                                                  1,674 mL
+                                                                    102 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,333 mL
+                                                                  2,221 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST
+   Vt (Set): 500 (500 - 600) mL
+   RR (Set): 14
+   RR (Spontaneous): 0
+   PEEP: 10 cmH2O
+   FiO2: 60%
+   PIP: 22 cmH2O
+   Plateau: 19 cmH2O
+   Compliance: 35.7 cmH2O/mL
+   SpO2: 99%
+   ABG: 7.37/42/92.[**Numeric Identifier 491**]/22/0
+   Ve: 6.3 L/min
+   PaO2 / FiO2: 155
+   Physical Examination
+   General: Sedated and sleeping, no acute distress
+   HEENT: intubated and sedated, Sclera anicteric, ecchymoses over
+   mandible.
+   Lungs: Mild crackles bilaterally, rhonchorous throughout, greater on R
+   than L
+   CV: Regular, tachycardic, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen: Soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly percussed
+   Ext: Warm, well perfused, 2+ pulses, very chapped skin on pedal aspect
+   of feet.
+   Neuro: Sedated as above. PERRL. DTR symmetric. Toes downgoing on
+   Babinski.
+   Labs / Radiology
+   147 K/uL
+   7.9 g/dL
+   165 mg/dL
+   0.6 mg/dL
+   22 mEq/L
+   3.6 mEq/L
+   7 mg/dL
+   109 mEq/L
+   138 mEq/L
+   23.2 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+                             [**2199-7-22**]  02:35 PM
+                             [**2199-7-22**]  05:25 PM
+                             [**2199-7-23**]  01:07 AM
+                             [**2199-7-23**]  02:14 AM
+                             [**2199-7-23**]  02:42 AM
+                             [**2199-7-23**]  03:28 AM
+                             [**2199-7-23**]  03:33 AM
+   WBC
+   4.5
+   5.4
+   Hct
+   24.9
+   31.0
+   23.6
+   23.2
+   Plt
+   129
+   147
+   Cr
+   0.7
+   0.7
+   0.6
+   TropT
+   <0.01
+   TCO2
+   27
+   25
+   25
+   25
+   Glucose
+   129
+   181
+   165
+   Other labs: PT / PTT / INR:12.7/29.8/1.1, CK / CKMB /
+   Troponin-T:74//<0.01, ALT / AST:20/39, Alk Phos / T Bili:40/0.5,
+   Differential-Neuts:78.2 %, Lymph:14.8 %, Mono:5.1 %, Eos:1.7 %, Lactic
+   Acid:0.8 mmol/L, Albumin:2.8 g/dL, LDH:155 IU/L, Ca++:7.7 mg/dL,
+   Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   56 y/o M with hx of HTN and etoh abuse presents from trauma [**Doctor First Name 91**]
+   service after bilateral mandibular fxs on [**7-19**] with etoh withdrawl and
+   now new PNA, likely aspiration.  Now with respiratory failure requiring
+   intubation and labile hemodynamics.
+   .
+   # ETOH withdrawl
+ last drink was Friday [**7-19**], the day of his fall.  No
+   known history, but likley heavy etoh use.  Went into severe withdrawl
+   on [**7-21**] with hallucinations, delerium, hypertenison and tachycardia.
+   Responded initially to IV ativan, but then continued to be hypertensive
+   and tachycardic to 160s prior to intubation.  Delerious enough that he
+   likely had aspiration pneumonia, so needed to protect airway
+   - continue sedation with fentanyl and versed; ativan no longer being
+   used
+   - monitor for hemodynamic signs of withdrawl
+   - wean sedation as tolerated by patient
+   - folate, MVI, thiamine
+   .
+   # Respiratory Distress
+ not protecting airway due to aggiation and
+   copious secretions, intubated [**7-22**].  Overnight vent settings needed to
+   be titrated up for low O2 sats and low PcO2.  Responded well to
+   increased PEEP and FiO2, decreased Vt as well.
+   - continue to monitor, wean FiO2 as tolerated today
+   - pneumonia treatment as below
+   - consider early ARDS if patient respiratory status not improving
+   .
+   # Hypotension
+ was moderately hypotensive overnight, although
+   responsive to IVFs.  Likely due to total body fluid deficit as urine
+   output was low, too.  Surprisingly, pt not tachycardic.  Also could
+   have been related to oversedation in setting of new intubation.
+   Overnight stabalized to SBPs around 100.
+   - IVF boluses PRN
+   - consider CVL placement
+   - tx one [**Location **] for possible blood loss as cause
+   - trended CEs, negative so far
+   .
+   # Pneumonia
+ after having desats, CXR showed RLL pneumonia, likely
+   aspiration.  Has been in hospital for >72 hrs and should be treated for
+   HAP as well.  Was hypotensive overnight, although not tachycardic or
+   febrile.  Pancultured, though.
+   - vanco, cefepime, flagyl for treatment of HAP and aspiration
+   - follow up cultures
+   - intubation as above with goal to wean as tolerated
+   .
+   # Anemia
+ likely due to blood loss in hematomas on chest and jaw,
+   trending Hct
+   - transfused one unit overnight
+   - transfuse for hemodynamic instability of hct <21
+   .
+   # Mandibular Fx
+ will need surgical repair at some point, will wait
+   until other issues have stabalized.  Ortho team following along with
+   plans for ORIF.
+   - appreciate recs
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2199-7-22**] 06:52 PM
+   18 Gauge - [**2199-7-22**] 07:58 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   fall, mandibular fxs
+   24 Hour Events:
+   - patient withdrawing in the morning, receiving hourly ativan
+   - desatted around 9am, CXR showed new RLL infiltrate
+   - started on vanco/cefepime/flagyl for HAP and aspiration coverage
+   - sputum culture pending
+   - around 2pm, had increasing aggitation, HR to 150s, worsening O2
+   saturation
+   - intuabted successfully
+   - vitals stabalized with HRs in 100s, SBPs in 100s on fent/versed
+   - OMFS (Dr. [**First Name (STitle) 3020**] does not want to take to OR for mandibular fractures
+   until stabalized
+   - overnight has low UO and hypotension, responded to IVF fluid boluses
+   - hct trended down to 23, transfused 1 uPRBCs
+   - had desats and 2 ABGs showed low PcO2, increased FiO2 to 60 and PEEP
+   to 10; repeat CXR showed worsening PNA
+   - turned down Tv from 600 to 500
+   - pan cultured for hypotension
+   - received second 1L bolus for mod UOP
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 12:04 PM
+   Vancomycin - [**2199-7-22**] 08:45 PM
+   Metronidazole - [**2199-7-23**] 02:20 AM
+   Cefipime - [**2199-7-23**] 03:30 AM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 07:50 PM
+   Famotidine (Pepcid) - [**2199-7-22**] 08:00 PM
+   Heparin Sodium (Prophylaxis) - [**2199-7-22**] 08:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-23**] 06:27 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.9
+C (98.4
+   HR: 74 (68 - 144) bpm
+   BP: 88/65(70) {87/58(65) - 153/137(141)} mmHg
+   RR: 14 (14 - 32) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                  3,007 mL
+                                                                  2,323 mL
+   PO:
+           TF:
+   IVF:
+                                                                  3,007 mL
+                                                                  1,973 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                  1,674 mL
+                                                                    102 mL
+   Urine:
+                                                                  1,674 mL
+                                                                    102 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,333 mL
+                                                                  2,221 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST
+   Vt (Set): 500 (500 - 600) mL
+   RR (Set): 14
+   RR (Spontaneous): 0
+   PEEP: 10 cmH2O
+   FiO2: 60%
+   PIP: 22 cmH2O
+   Plateau: 19 cmH2O
+   Compliance: 35.7 cmH2O/mL
+   SpO2: 99%
+   ABG: 7.37/42/92.[**Numeric Identifier 491**]/22/0
+   Ve: 6.3 L/min
+   PaO2 / FiO2: 155
+   Physical Examination
+   General: Sedated and sleeping, no acute distress
+   HEENT: intubated and sedated, Sclera anicteric, ecchymoses over
+   mandible.
+   Lungs: Mild crackles bilaterally, rhonchorous throughout, greater on R
+   than L
+   CV: Regular, tachycardic, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen: Soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly percussed
+   Ext: Warm, well perfused, 2+ pulses, very chapped skin on pedal aspect
+   of feet.
+   Neuro: Sedated as above. PERRL. DTR symmetric. Toes downgoing on
+   Babinski.
+   Labs / Radiology
+   147 K/uL
+   7.9 g/dL
+   165 mg/dL
+   0.6 mg/dL
+   22 mEq/L
+   3.6 mEq/L
+   7 mg/dL
+   109 mEq/L
+   138 mEq/L
+   23.2 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+                             [**2199-7-22**]  02:35 PM
+                             [**2199-7-22**]  05:25 PM
+                             [**2199-7-23**]  01:07 AM
+                             [**2199-7-23**]  02:14 AM
+                             [**2199-7-23**]  02:42 AM
+                             [**2199-7-23**]  03:28 AM
+                             [**2199-7-23**]  03:33 AM
+   WBC
+   4.5
+   5.4
+   Hct
+   24.9
+   31.0
+   23.6
+   23.2
+   Plt
+   129
+   147
+   Cr
+   0.7
+   0.7
+   0.6
+   TropT
+   <0.01
+   TCO2
+   27
+   25
+   25
+   25
+   Glucose
+   129
+   181
+   165
+   Other labs: PT / PTT / INR:12.7/29.8/1.1, CK / CKMB /
+   Troponin-T:74//<0.01, ALT / AST:20/39, Alk Phos / T Bili:40/0.5,
+   Differential-Neuts:78.2 %, Lymph:14.8 %, Mono:5.1 %, Eos:1.7 %, Lactic
+   Acid:0.8 mmol/L, Albumin:2.8 g/dL, LDH:155 IU/L, Ca++:7.7 mg/dL,
+   Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   56 y/o M with hx of HTN and etoh abuse presents from trauma [**Doctor First Name 91**]
+   service after bilateral mandibular fxs on [**7-19**] with etoh withdrawl and
+   now new PNA, likely aspiration.  Now with respiratory failure requiring
+   intubation and labile hemodynamics.
+   .
+   # ETOH withdrawl
+ last drink was Friday [**7-19**], the day of his fall.  No
+   known history, but likley heavy etoh use.  Went into severe withdrawl
+   on [**7-21**] with hallucinations, delerium, hypertenison and tachycardia.
+   Responded initially to IV ativan, but then continued to be hypertensive
+   and tachycardic to 160s prior to intubation.  Delerious enough that he
+   likely had aspiration pneumonia, so needed to protect airway
+   - continue sedation with fentanyl and versed; ativan no longer being
+   used
+   - monitor for hemodynamic signs of withdrawl
+   - wean sedation as tolerated by patient
+   - folate, MVI, thiamine
+   .
+   # Respiratory Distress
+ not protecting airway due to aggiation and
+   copious secretions, intubated [**7-22**].  Overnight vent settings needed to
+   be titrated up for low O2 sats and low PcO2.  Responded well to
+   increased PEEP and FiO2, decreased Vt as well.
+   - continue to monitor, wean FiO2 as tolerated today
+   - pneumonia treatment as below
+   - consider early ARDS if patient respiratory status not improving
+   .
+   # Hypotension
+ was moderately hypotensive overnight, although
+   responsive to IVFs.  Likely due to total body fluid deficit as urine
+   output was low, too.  Surprisingly, pt not tachycardic.  Also could
+   have been related to oversedation in setting of new intubation.
+   Overnight stabalized to SBPs around 100.
+   - IVF boluses PRN
+   - consider CVL placement
+   - tx one [**Location **] for possible blood loss as cause
+   - trended CEs, negative so far
+   .
+   # Pneumonia
+ after having desats, CXR showed RLL pneumonia, likely
+   aspiration.  Has been in hospital for >72 hrs and should be treated for
+   HAP as well.  Was hypotensive overnight, although not tachycardic or
+   febrile.  Pancultured, though.
+   - vanco, cefepime, flagyl for treatment of HAP and aspiration
+   - follow up cultures
+   - intubation as above with goal to wean as tolerated
+   .
+   # Anemia
+ likely due to blood loss in hematomas on chest and jaw,
+   trending Hct
+   - transfused one unit overnight
+   - transfuse for hemodynamic instability of hct <21
+   .
+   # Mandibular Fx
+ will need surgical repair at some point, will wait
+   until other issues have stabalized.  Ortho team following along with
+   plans for ORIF.
+   - appreciate recs
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2199-7-22**] 06:52 PM
+   18 Gauge - [**2199-7-22**] 07:58 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 56-year-old male who suffered a fall and bilateral mandibular fractures, with a history of hypertension and ethanol abuse. He developed ethanol withdrawal symptoms, which were initially managed with IV ativan, but he continued to be hypertensive and tachycardic, requiring intubation. He was diagnosed with respiratory failure, aspiration pneumonia, and hypotension.
+
+The patient's current condition is as follows:
+
+* Respiratory status: Intubated and ventilated, with FiO2 at 60% and PEEP at 10 cmH2O. His ABG shows a pH of 7.37, PaO2 of 155, and PaCO2 of 42.
+* Hemodynamic status: Hypotensive, with a blood pressure of 88/65 mmHg, but responded to IV fluid boluses. His heart rate is 74 bpm.
+* Neurological status: Sedated and intubated, with a Glasgow Coma Scale (GCS) score not provided.
+* Laboratory results: The patient's hemoglobin is 7.9 g/dL, platelet count is 147 K/uL, and white blood cell count is 4.5 K/uL. His liver enzymes are elevated, with an AST of 39 U/L and ALT of 20 U/L. His electrolyte levels are within normal limits, except for a slightly low potassium level of 3.6 mEq/L.
+
+The patient's potential medical complications include:
+
+* Respiratory failure: The patient's respiratory status is critical, and he requires close monitoring and adjustment of his ventilator settings to maintain adequate oxygenation and ventilation.
+* Pneumonia: The patient has aspiration pneumonia, which is likely caused by ethanol aspiration. He requires treatment with antibiotics, and follow-up cultures are needed to monitor the progression of the infection.
+* Hypotension: The patient's hypotension may be due to a combination of factors, including total body fluid deficit, oversedation, and blood loss. He requires close monitoring of his blood pressure and volume status, and IV fluid boluses may be necessary to maintain adequate blood pressure.
+* Ethanol withdrawal: The patient is at risk for continued ethanol withdrawal symptoms, including seizures and cardiac arrhythmias. He requires close monitoring of his vital signs and neurological status, and medication adjustments may be necessary to manage his withdrawal symptoms.
+* Anemia: The patient's anemia may be due to blood loss from his mandibular fractures. He requires close monitoring of his hemoglobin level and transfusion as necessary to maintain adequate oxygen delivery.
+* Mandibular fractures: The patient will require surgical repair of his mandibular fractures at some point, and the orthopedic team is following his case.
+
+The patient's plan of care includes:
+
+* Continue sedation with fentanyl and versed, and wean as tolerated.
+* Monitor for hemodynamic signs of ethanol withdrawal.
+* Wean FiO2 as tolerated.
+* Continue treatment for pneumonia with vancomycin, cefepime, and flagyl.
+* Monitor for signs of respiratory failure and adjust ventilator settings as necessary.
+* Monitor for signs of hypotension and adjust IV fluid boluses as necessary.
+* Monitor for signs of anemia and transfuse as necessary.
+* Plan for surgical repair of mandibular fractures when other issues have stabilized."
+157868.0,244365,2199-07-23 06:28:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   fall, mandibular fxs
+   24 Hour Events:
+   - patient withdrawing in the morning, receiving hourly ativan
+   - desatted around 9am, CXR showed new RLL infiltrate
+   - started on vanco/cefepime/flagyl for HAP and aspiration coverage
+   - sputum culture pending
+   - around 2pm, had increasing aggitation, HR to 150s, worsening O2
+   saturation
+   - intuabted successfully
+   - vitals stabalized with HRs in 100s, SBPs in 100s on fent/versed
+   - OMFS (Dr. [**First Name (STitle) 3020**] does not want to take to OR for mandibular fractures
+   until stabalized
+   - overnight has low UO and hypotension, responded to IVF fluid boluses
+   - hct trended down to 23, transfused 1 uPRBCs
+   - had desats and 2 ABGs showed low PcO2, increased FiO2 to 60 and PEEP
+   to 10; repeat CXR showed worsening PNA
+   - turned down Tv from 600 to 500
+   - pan cultured for hypotension
+   - received second 1L bolus for mod UOP
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 12:04 PM
+   Vancomycin - [**2199-7-22**] 08:45 PM
+   Metronidazole - [**2199-7-23**] 02:20 AM
+   Cefipime - [**2199-7-23**] 03:30 AM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 07:50 PM
+   Famotidine (Pepcid) - [**2199-7-22**] 08:00 PM
+   Heparin Sodium (Prophylaxis) - [**2199-7-22**] 08:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-23**] 06:27 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.9
+C (98.4
+   HR: 74 (68 - 144) bpm
+   BP: 88/65(70) {87/58(65) - 153/137(141)} mmHg
+   RR: 14 (14 - 32) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                  3,007 mL
+                                                                  2,323 mL
+   PO:
+           TF:
+   IVF:
+                                                                  3,007 mL
+                                                                  1,973 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                  1,674 mL
+                                                                    102 mL
+   Urine:
+                                                                  1,674 mL
+                                                                    102 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,333 mL
+                                                                  2,221 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST
+   Vt (Set): 500 (500 - 600) mL
+   RR (Set): 14
+   RR (Spontaneous): 0
+   PEEP: 10 cmH2O
+   FiO2: 60%
+   PIP: 22 cmH2O
+   Plateau: 19 cmH2O
+   Compliance: 35.7 cmH2O/mL
+   SpO2: 99%
+   ABG: 7.37/42/92.[**Numeric Identifier 491**]/22/0
+   Ve: 6.3 L/min
+   PaO2 / FiO2: 155
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   147 K/uL
+   7.9 g/dL
+   165 mg/dL
+   0.6 mg/dL
+   22 mEq/L
+   3.6 mEq/L
+   7 mg/dL
+   109 mEq/L
+   138 mEq/L
+   23.2 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+                             [**2199-7-22**]  02:35 PM
+                             [**2199-7-22**]  05:25 PM
+                             [**2199-7-23**]  01:07 AM
+                             [**2199-7-23**]  02:14 AM
+                             [**2199-7-23**]  02:42 AM
+                             [**2199-7-23**]  03:28 AM
+                             [**2199-7-23**]  03:33 AM
+   WBC
+   4.5
+   5.4
+   Hct
+   24.9
+   31.0
+   23.6
+   23.2
+   Plt
+   129
+   147
+   Cr
+   0.7
+   0.7
+   0.6
+   TropT
+   <0.01
+   TCO2
+   27
+   25
+   25
+   25
+   Glucose
+   129
+   181
+   165
+   Other labs: PT / PTT / INR:12.7/29.8/1.1, CK / CKMB /
+   Troponin-T:74//<0.01, ALT / AST:20/39, Alk Phos / T Bili:40/0.5,
+   Differential-Neuts:78.2 %, Lymph:14.8 %, Mono:5.1 %, Eos:1.7 %, Lactic
+   Acid:0.8 mmol/L, Albumin:2.8 g/dL, LDH:155 IU/L, Ca++:7.7 mg/dL,
+   Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+ FRACTURE, OTHER
+ ANEMIA, ACUTE, SECONDARY TO BLOOD LOSS (HEMORRHAGE, BLEEDING)
+ PNEUMONIA, OTHER
+ ALCOHOL WITHDRAWAL (INCLUDING DELIRIUM TREMENS, DTS, SEIZURES)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2199-7-22**] 06:52 PM
+   18 Gauge - [**2199-7-22**] 07:58 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   fall, mandibular fxs
+   24 Hour Events:
+   - patient withdrawing in the morning, receiving hourly ativan
+   - desatted around 9am, CXR showed new RLL infiltrate
+   - started on vanco/cefepime/flagyl for HAP and aspiration coverage
+   - sputum culture pending
+   - around 2pm, had increasing aggitation, HR to 150s, worsening O2
+   saturation
+   - intuabted successfully
+   - vitals stabalized with HRs in 100s, SBPs in 100s on fent/versed
+   - OMFS (Dr. [**First Name (STitle) 3020**] does not want to take to OR for mandibular fractures
+   until stabalized
+   - overnight has low UO and hypotension, responded to IVF fluid boluses
+   - hct trended down to 23, transfused 1 uPRBCs
+   - had desats and 2 ABGs showed low PcO2, increased FiO2 to 60 and PEEP
+   to 10; repeat CXR showed worsening PNA
+   - turned down Tv from 600 to 500
+   - pan cultured for hypotension
+   - received second 1L bolus for mod UOP
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 12:04 PM
+   Vancomycin - [**2199-7-22**] 08:45 PM
+   Metronidazole - [**2199-7-23**] 02:20 AM
+   Cefipime - [**2199-7-23**] 03:30 AM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 07:50 PM
+   Famotidine (Pepcid) - [**2199-7-22**] 08:00 PM
+   Heparin Sodium (Prophylaxis) - [**2199-7-22**] 08:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-23**] 06:27 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.9
+C (98.4
+   HR: 74 (68 - 144) bpm
+   BP: 88/65(70) {87/58(65) - 153/137(141)} mmHg
+   RR: 14 (14 - 32) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                  3,007 mL
+                                                                  2,323 mL
+   PO:
+           TF:
+   IVF:
+                                                                  3,007 mL
+                                                                  1,973 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                  1,674 mL
+                                                                    102 mL
+   Urine:
+                                                                  1,674 mL
+                                                                    102 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,333 mL
+                                                                  2,221 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST
+   Vt (Set): 500 (500 - 600) mL
+   RR (Set): 14
+   RR (Spontaneous): 0
+   PEEP: 10 cmH2O
+   FiO2: 60%
+   PIP: 22 cmH2O
+   Plateau: 19 cmH2O
+   Compliance: 35.7 cmH2O/mL
+   SpO2: 99%
+   ABG: 7.37/42/92.[**Numeric Identifier 491**]/22/0
+   Ve: 6.3 L/min
+   PaO2 / FiO2: 155
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   147 K/uL
+   7.9 g/dL
+   165 mg/dL
+   0.6 mg/dL
+   22 mEq/L
+   3.6 mEq/L
+   7 mg/dL
+   109 mEq/L
+   138 mEq/L
+   23.2 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+                             [**2199-7-22**]  02:35 PM
+                             [**2199-7-22**]  05:25 PM
+                             [**2199-7-23**]  01:07 AM
+                             [**2199-7-23**]  02:14 AM
+                             [**2199-7-23**]  02:42 AM
+                             [**2199-7-23**]  03:28 AM
+                             [**2199-7-23**]  03:33 AM
+   WBC
+   4.5
+   5.4
+   Hct
+   24.9
+   31.0
+   23.6
+   23.2
+   Plt
+   129
+   147
+   Cr
+   0.7
+   0.7
+   0.6
+   TropT
+   <0.01
+   TCO2
+   27
+   25
+   25
+   25
+   Glucose
+   129
+   181
+   165
+   Other labs: PT / PTT / INR:12.7/29.8/1.1, CK / CKMB /
+   Troponin-T:74//<0.01, ALT / AST:20/39, Alk Phos / T Bili:40/0.5,
+   Differential-Neuts:78.2 %, Lymph:14.8 %, Mono:5.1 %, Eos:1.7 %, Lactic
+   Acid:0.8 mmol/L, Albumin:2.8 g/dL, LDH:155 IU/L, Ca++:7.7 mg/dL,
+   Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+ FRACTURE, OTHER
+ ANEMIA, ACUTE, SECONDARY TO BLOOD LOSS (HEMORRHAGE, BLEEDING)
+ PNEUMONIA, OTHER
+ ALCOHOL WITHDRAWAL (INCLUDING DELIRIUM TREMENS, DTS, SEIZURES)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2199-7-22**] 06:52 PM
+   18 Gauge - [**2199-7-22**] 07:58 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 24-year-old male who was admitted to the ICU with a chief complaint of a fall and mandibular fractures. The patient has been experiencing withdrawal symptoms, which have been managed with hourly Ativan. The patient developed desaturation around 9 am, and a chest X-ray showed a new right lower lobe infiltrate. The patient was started on antibiotics for hospital-acquired pneumonia and aspiration coverage. The patient's vital signs have been unstable, with increasing agitation, heart rate in the 150s, and worsening oxygen saturation. The patient was intubated successfully and stabilized with fentanyl and versed. The patient has low urine output and hypotension, which responded to IV fluid boluses. The patient's hematocrit trended down to 23, and one unit of packed red blood cells was transfused. The patient's blood cultures are pending.
+
+Potential medical complications:
+
+1. Pneumonia: The patient's chest X-ray showed a new right lower lobe infiltrate, which is consistent with pneumonia. The patient's respiratory status is unstable, and the pneumonia may be worsening.
+2. Sepsis: The patient's hypotension and low urine output may be indicative of sepsis. The patient's blood cultures are pending, but the presence of pneumonia and aspiration coverage may increase the risk of sepsis.
+3. Anemia: The patient's hematocrit trended down to 23, which may be due to blood loss or inadequate transfusion. The patient's anemia may be contributing to their hypotension and low urine output.
+4. Delirium: The patient's increasing agitation and worsening oxygen saturation may be indicative of delirium. The patient's alcohol withdrawal may be contributing to their delirium.
+5. DVT: The patient is at risk for DVT due to their prolonged immobility and the presence of central lines.
+6. VAP: The patient's intubation and mechanical ventilation may increase the risk of VAP.
+7. Stress ulcer: The patient's hypotension and low urine output may increase the risk of stress ulcer.
+
+Recommendations:
+
+1. Continue antibiotics for pneumonia and aspiration coverage.
+2. Monitor the patient's respiratory status closely and consider adjusting their ventilator settings as necessary.
+3. Continue IV fluid boluses to manage hypotension and low urine output.
+4. Consider transfusing additional packed red blood cells to improve the patient's anemia.
+5. Monitor the patient's delirium and consider adjusting their medication regimen as necessary.
+6. Consider placing the patient on DVT prophylaxis.
+7. Monitor the patient's risk for VAP and consider adjusting their ventilator settings as necessary.
+8. Consider placing the patient on stress ulcer prophylaxis."
+157868.0,244365,2199-07-23 06:28:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   fall, mandibular fxs
+   24 Hour Events:
+   - patient withdrawing in the morning, receiving hourly ativan
+   - desatted around 9am, CXR showed new RLL infiltrate
+   - started on vanco/cefepime/flagyl for HAP and aspiration coverage
+   - sputum culture pending
+   - around 2pm, had increasing aggitation, HR to 150s, worsening O2
+   saturation
+   - intuabted successfully
+   - vitals stabalized with HRs in 100s, SBPs in 100s on fent/versed
+   - OMFS (Dr. [**First Name (STitle) 3020**] does not want to take to OR for mandibular fractures
+   until stabalized
+   - overnight has low UO and hypotension, responded to IVF fluid boluses
+   - hct trended down to 23, transfused 1 uPRBCs
+   - had desats and 2 ABGs showed low PcO2, increased FiO2 to 60 and PEEP
+   to 10; repeat CXR showed worsening PNA
+   - turned down Tv from 600 to 500
+   - pan cultured for hypotension
+   - received second 1L bolus for mod UOP
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 12:04 PM
+   Vancomycin - [**2199-7-22**] 08:45 PM
+   Metronidazole - [**2199-7-23**] 02:20 AM
+   Cefipime - [**2199-7-23**] 03:30 AM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 07:50 PM
+   Famotidine (Pepcid) - [**2199-7-22**] 08:00 PM
+   Heparin Sodium (Prophylaxis) - [**2199-7-22**] 08:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-23**] 06:27 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.9
+C (98.4
+   HR: 74 (68 - 144) bpm
+   BP: 88/65(70) {87/58(65) - 153/137(141)} mmHg
+   RR: 14 (14 - 32) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                  3,007 mL
+                                                                  2,323 mL
+   PO:
+           TF:
+   IVF:
+                                                                  3,007 mL
+                                                                  1,973 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                  1,674 mL
+                                                                    102 mL
+   Urine:
+                                                                  1,674 mL
+                                                                    102 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,333 mL
+                                                                  2,221 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST
+   Vt (Set): 500 (500 - 600) mL
+   RR (Set): 14
+   RR (Spontaneous): 0
+   PEEP: 10 cmH2O
+   FiO2: 60%
+   PIP: 22 cmH2O
+   Plateau: 19 cmH2O
+   Compliance: 35.7 cmH2O/mL
+   SpO2: 99%
+   ABG: 7.37/42/92.[**Numeric Identifier 491**]/22/0
+   Ve: 6.3 L/min
+   PaO2 / FiO2: 155
+   Physical Examination
+   General: Sedated and sleeping, no acute distress
+   HEENT: Sclera anicteric, ecchymoses over mandible.
+   Lungs: Mild crackles bilaterally, no wheezes, rhonchi
+   CV: Regular, tachycardic, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen: Soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly percussed
+   Ext: Warm, well perfused, 2+ pulses, very chapped skin on pedal aspect
+   of feet.
+   Neuro: Sedated as above. PERRL. DTR symmetric. Toes downgoing on
+   Babinski.
+   Labs / Radiology
+   147 K/uL
+   7.9 g/dL
+   165 mg/dL
+   0.6 mg/dL
+   22 mEq/L
+   3.6 mEq/L
+   7 mg/dL
+   109 mEq/L
+   138 mEq/L
+   23.2 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+                             [**2199-7-22**]  02:35 PM
+                             [**2199-7-22**]  05:25 PM
+                             [**2199-7-23**]  01:07 AM
+                             [**2199-7-23**]  02:14 AM
+                             [**2199-7-23**]  02:42 AM
+                             [**2199-7-23**]  03:28 AM
+                             [**2199-7-23**]  03:33 AM
+   WBC
+   4.5
+   5.4
+   Hct
+   24.9
+   31.0
+   23.6
+   23.2
+   Plt
+   129
+   147
+   Cr
+   0.7
+   0.7
+   0.6
+   TropT
+   <0.01
+   TCO2
+   27
+   25
+   25
+   25
+   Glucose
+   129
+   181
+   165
+   Other labs: PT / PTT / INR:12.7/29.8/1.1, CK / CKMB /
+   Troponin-T:74//<0.01, ALT / AST:20/39, Alk Phos / T Bili:40/0.5,
+   Differential-Neuts:78.2 %, Lymph:14.8 %, Mono:5.1 %, Eos:1.7 %, Lactic
+   Acid:0.8 mmol/L, Albumin:2.8 g/dL, LDH:155 IU/L, Ca++:7.7 mg/dL,
+   Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+ FRACTURE, OTHER
+ ANEMIA, ACUTE, SECONDARY TO BLOOD LOSS (HEMORRHAGE, BLEEDING)
+ PNEUMONIA, OTHER
+ ALCOHOL WITHDRAWAL (INCLUDING DELIRIUM TREMENS, DTS, SEIZURES)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2199-7-22**] 06:52 PM
+   18 Gauge - [**2199-7-22**] 07:58 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   fall, mandibular fxs
+   24 Hour Events:
+   - patient withdrawing in the morning, receiving hourly ativan
+   - desatted around 9am, CXR showed new RLL infiltrate
+   - started on vanco/cefepime/flagyl for HAP and aspiration coverage
+   - sputum culture pending
+   - around 2pm, had increasing aggitation, HR to 150s, worsening O2
+   saturation
+   - intuabted successfully
+   - vitals stabalized with HRs in 100s, SBPs in 100s on fent/versed
+   - OMFS (Dr. [**First Name (STitle) 3020**] does not want to take to OR for mandibular fractures
+   until stabalized
+   - overnight has low UO and hypotension, responded to IVF fluid boluses
+   - hct trended down to 23, transfused 1 uPRBCs
+   - had desats and 2 ABGs showed low PcO2, increased FiO2 to 60 and PEEP
+   to 10; repeat CXR showed worsening PNA
+   - turned down Tv from 600 to 500
+   - pan cultured for hypotension
+   - received second 1L bolus for mod UOP
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 12:04 PM
+   Vancomycin - [**2199-7-22**] 08:45 PM
+   Metronidazole - [**2199-7-23**] 02:20 AM
+   Cefipime - [**2199-7-23**] 03:30 AM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 07:50 PM
+   Famotidine (Pepcid) - [**2199-7-22**] 08:00 PM
+   Heparin Sodium (Prophylaxis) - [**2199-7-22**] 08:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-23**] 06:27 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.9
+C (98.4
+   HR: 74 (68 - 144) bpm
+   BP: 88/65(70) {87/58(65) - 153/137(141)} mmHg
+   RR: 14 (14 - 32) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                  3,007 mL
+                                                                  2,323 mL
+   PO:
+           TF:
+   IVF:
+                                                                  3,007 mL
+                                                                  1,973 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                  1,674 mL
+                                                                    102 mL
+   Urine:
+                                                                  1,674 mL
+                                                                    102 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,333 mL
+                                                                  2,221 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST
+   Vt (Set): 500 (500 - 600) mL
+   RR (Set): 14
+   RR (Spontaneous): 0
+   PEEP: 10 cmH2O
+   FiO2: 60%
+   PIP: 22 cmH2O
+   Plateau: 19 cmH2O
+   Compliance: 35.7 cmH2O/mL
+   SpO2: 99%
+   ABG: 7.37/42/92.[**Numeric Identifier 491**]/22/0
+   Ve: 6.3 L/min
+   PaO2 / FiO2: 155
+   Physical Examination
+   General: Sedated and sleeping, no acute distress
+   HEENT: Sclera anicteric, ecchymoses over mandible.
+   Lungs: Mild crackles bilaterally, no wheezes, rhonchi
+   CV: Regular, tachycardic, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen: Soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly percussed
+   Ext: Warm, well perfused, 2+ pulses, very chapped skin on pedal aspect
+   of feet.
+   Neuro: Sedated as above. PERRL. DTR symmetric. Toes downgoing on
+   Babinski.
+   Labs / Radiology
+   147 K/uL
+   7.9 g/dL
+   165 mg/dL
+   0.6 mg/dL
+   22 mEq/L
+   3.6 mEq/L
+   7 mg/dL
+   109 mEq/L
+   138 mEq/L
+   23.2 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+                             [**2199-7-22**]  02:35 PM
+                             [**2199-7-22**]  05:25 PM
+                             [**2199-7-23**]  01:07 AM
+                             [**2199-7-23**]  02:14 AM
+                             [**2199-7-23**]  02:42 AM
+                             [**2199-7-23**]  03:28 AM
+                             [**2199-7-23**]  03:33 AM
+   WBC
+   4.5
+   5.4
+   Hct
+   24.9
+   31.0
+   23.6
+   23.2
+   Plt
+   129
+   147
+   Cr
+   0.7
+   0.7
+   0.6
+   TropT
+   <0.01
+   TCO2
+   27
+   25
+   25
+   25
+   Glucose
+   129
+   181
+   165
+   Other labs: PT / PTT / INR:12.7/29.8/1.1, CK / CKMB /
+   Troponin-T:74//<0.01, ALT / AST:20/39, Alk Phos / T Bili:40/0.5,
+   Differential-Neuts:78.2 %, Lymph:14.8 %, Mono:5.1 %, Eos:1.7 %, Lactic
+   Acid:0.8 mmol/L, Albumin:2.8 g/dL, LDH:155 IU/L, Ca++:7.7 mg/dL,
+   Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+ FRACTURE, OTHER
+ ANEMIA, ACUTE, SECONDARY TO BLOOD LOSS (HEMORRHAGE, BLEEDING)
+ PNEUMONIA, OTHER
+ ALCOHOL WITHDRAWAL (INCLUDING DELIRIUM TREMENS, DTS, SEIZURES)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2199-7-22**] 06:52 PM
+   18 Gauge - [**2199-7-22**] 07:58 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient, a 24-year-old male, was admitted to the ICU with a chief complaint of fall and mandibular fractures. He was sedated and intubated due to increasing agitation, tachycardia, and worsening oxygen saturation. The patient was diagnosed with HAP and aspiration coverage, and was started on vancomycin, cefepime, and flagyl. He has a history of anemia, acute, secondary to blood loss (hemorrhage, bleeding), and pneumonia, other. The patient's condition has been unstable, with low urine output and hypotension, requiring IVF fluid boluses. He has also had desats and 2 ABGs showed low PCO2, increased FiO2 to 60 and PEEP to 10, and repeat CXR showed worsening PNA.
+
+Potential Medical Complications:
+
+1. Respiratory failure: The patient's condition is worsening, with decreasing PCO2 and increasing FiO2, which may indicate respiratory failure.
+2. Sepsis: The patient has a diagnosis of HAP and aspiration coverage, which may lead to sepsis.
+3. Anemia: The patient's anemia is acute, secondary to blood loss, which may worsen his condition.
+4. Pneumonia: The patient's pneumonia is worsening, which may lead to respiratory failure and other complications.
+5. Delirium: The patient's increasing agitation and tachycardia may be indicative of delirium, which may worsen his condition.
+6. DVT: The patient's history of anemia and pneumonia may increase his risk of DVT.
+7. VAP: The patient's intubation and respiratory failure may increase his risk of VAP.
+8. Stress ulcer: The patient's respiratory failure and anemia may increase his risk of stress ulcer.
+
+Recommendations:
+
+1. Continue to monitor the patient's respiratory status closely, and consider adjusting his ventilator settings as needed.
+2. Continue to monitor the patient's hemodynamic status closely, and consider adjusting his fluid management as needed.
+3. Continue to monitor the patient's anemia and consider transfusing blood products as needed.
+4. Consider adjusting the patient's antibiotic regimen as needed to treat his HAP and aspiration coverage.
+5. Consider considering delirium treatment options, such as benzodiazepines or antipsychotics, to manage the patient's agitation.
+6. Consider considering DVT prophylaxis options, such as heparin or low-molecular-weight heparin, to reduce the patient's risk of DVT.
+7. Consider considering VAP prophylaxis options, such as oral care and humidification, to reduce the patient's risk of VAP.
+8. Consider considering stress ulcer prophylaxis options, such as histamine-2 blockers or proton pump inhibitors, to reduce the patient's risk of stress ulcer."
+157868.0,244365,2199-07-23 06:28:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   fall, mandibular fxs
+   24 Hour Events:
+   - patient withdrawing in the morning, receiving hourly ativan
+   - desatted around 9am, CXR showed new RLL infiltrate
+   - started on vanco/cefepime/flagyl for HAP and aspiration coverage
+   - sputum culture pending
+   - around 2pm, had increasing aggitation, HR to 150s, worsening O2
+   saturation
+   - intuabted successfully
+   - vitals stabalized with HRs in 100s, SBPs in 100s on fent/versed
+   - OMFS (Dr. [**First Name (STitle) 3020**] does not want to take to OR for mandibular fractures
+   until stabalized
+   - overnight has low UO and hypotension, responded to IVF fluid boluses
+   - hct trended down to 23, transfused 1 uPRBCs
+   - had desats and 2 ABGs showed low PcO2, increased FiO2 to 60 and PEEP
+   to 10; repeat CXR showed worsening PNA
+   - turned down Tv from 600 to 500
+   - pan cultured for hypotension
+   - received second 1L bolus for mod UOP
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 12:04 PM
+   Vancomycin - [**2199-7-22**] 08:45 PM
+   Metronidazole - [**2199-7-23**] 02:20 AM
+   Cefipime - [**2199-7-23**] 03:30 AM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 07:50 PM
+   Famotidine (Pepcid) - [**2199-7-22**] 08:00 PM
+   Heparin Sodium (Prophylaxis) - [**2199-7-22**] 08:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-23**] 06:27 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.9
+C (98.4
+   HR: 74 (68 - 144) bpm
+   BP: 88/65(70) {87/58(65) - 153/137(141)} mmHg
+   RR: 14 (14 - 32) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                  3,007 mL
+                                                                  2,323 mL
+   PO:
+           TF:
+   IVF:
+                                                                  3,007 mL
+                                                                  1,973 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                  1,674 mL
+                                                                    102 mL
+   Urine:
+                                                                  1,674 mL
+                                                                    102 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,333 mL
+                                                                  2,221 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST
+   Vt (Set): 500 (500 - 600) mL
+   RR (Set): 14
+   RR (Spontaneous): 0
+   PEEP: 10 cmH2O
+   FiO2: 60%
+   PIP: 22 cmH2O
+   Plateau: 19 cmH2O
+   Compliance: 35.7 cmH2O/mL
+   SpO2: 99%
+   ABG: 7.37/42/92.[**Numeric Identifier 491**]/22/0
+   Ve: 6.3 L/min
+   PaO2 / FiO2: 155
+   Physical Examination
+   General: Sedated and sleeping, no acute distress
+   HEENT: Sclera anicteric, ecchymoses over mandible.
+   Lungs: Mild crackles bilaterally, no wheezes, rhonchi
+   CV: Regular, tachycardic, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen: Soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly percussed
+   Ext: Warm, well perfused, 2+ pulses, very chapped skin on pedal aspect
+   of feet.
+   Neuro: Sedated as above. PERRL. DTR symmetric. Toes downgoing on
+   Babinski.
+   Labs / Radiology
+   147 K/uL
+   7.9 g/dL
+   165 mg/dL
+   0.6 mg/dL
+   22 mEq/L
+   3.6 mEq/L
+   7 mg/dL
+   109 mEq/L
+   138 mEq/L
+   23.2 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+                             [**2199-7-22**]  02:35 PM
+                             [**2199-7-22**]  05:25 PM
+                             [**2199-7-23**]  01:07 AM
+                             [**2199-7-23**]  02:14 AM
+                             [**2199-7-23**]  02:42 AM
+                             [**2199-7-23**]  03:28 AM
+                             [**2199-7-23**]  03:33 AM
+   WBC
+   4.5
+   5.4
+   Hct
+   24.9
+   31.0
+   23.6
+   23.2
+   Plt
+   129
+   147
+   Cr
+   0.7
+   0.7
+   0.6
+   TropT
+   <0.01
+   TCO2
+   27
+   25
+   25
+   25
+   Glucose
+   129
+   181
+   165
+   Other labs: PT / PTT / INR:12.7/29.8/1.1, CK / CKMB /
+   Troponin-T:74//<0.01, ALT / AST:20/39, Alk Phos / T Bili:40/0.5,
+   Differential-Neuts:78.2 %, Lymph:14.8 %, Mono:5.1 %, Eos:1.7 %, Lactic
+   Acid:0.8 mmol/L, Albumin:2.8 g/dL, LDH:155 IU/L, Ca++:7.7 mg/dL,
+   Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   56 y/o M with hx of HTN and etoh abuse presents from trauma [**Doctor First Name 91**]
+   service after bilateral mandibular fxs on [**7-19**] with etoh withdrawl and
+   now new PNA, likely aspiration.  Now with respiratory failure requiring
+   intubation and labile hemodynamics.
+   .
+   # ETOH withdrawl
+ last drink was Friday [**7-19**], the day of his fall.  No
+   known history, but likley heavy etoh use.  Went into severe withdrawl
+   on [**7-21**] with hallucinations, delerium, hypertenison and tachycardia.
+   Responded initially to IV ativan, but then continued to be hypertensive
+   and tachycardic to 160s prior to intubation.  Delerious enough that he
+   likely had aspiration pneumonia, so needed to protect airway
+   - continue sedation with fentanyl and versed; ativan no longer being
+   used
+   - monitor for hemodynamic signs of withdrawl
+   - wean sedation as tolerated by patient
+   - folate, MVI, thiamine
+   .
+   # Respiratory Distress
+ not protecting airway due to aggiation and
+   copious secretions, intubated [**7-22**].  Overnight vent settings needed to
+   be titrated up for low O2 sats and low PcO2.  Responded well to
+   increased PEEP and FiO2, decreased Vt as well.
+   - continue to monitor, wean FiO2 as tolerated today
+   - pneumonia treatment as below
+   - consider early ARDS if patient respiratory status not improving
+   .
+   # Pneumonia
+ after having desats, CXR showed RLL pneumonia, likely
+   aspiration.  Has been in hospital for >72 hrs and should be treated for
+   HAP as well.
+   - vanco, cefepime, flagyl for treatment
+   - sputum culture to be sent
+   - intubation as above
+   .
+   # Anemia
+ likely due to blood loss in hematomas on chest and jaw,
+   trending Hct
+   - transfuse Hxt <21
+   .
+   # Mandibular Fx
+ will need surgical repair at some point, will wait
+   until other issues have stabalized.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2199-7-22**] 06:52 PM
+   18 Gauge - [**2199-7-22**] 07:58 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   fall, mandibular fxs
+   24 Hour Events:
+   - patient withdrawing in the morning, receiving hourly ativan
+   - desatted around 9am, CXR showed new RLL infiltrate
+   - started on vanco/cefepime/flagyl for HAP and aspiration coverage
+   - sputum culture pending
+   - around 2pm, had increasing aggitation, HR to 150s, worsening O2
+   saturation
+   - intuabted successfully
+   - vitals stabalized with HRs in 100s, SBPs in 100s on fent/versed
+   - OMFS (Dr. [**First Name (STitle) 3020**] does not want to take to OR for mandibular fractures
+   until stabalized
+   - overnight has low UO and hypotension, responded to IVF fluid boluses
+   - hct trended down to 23, transfused 1 uPRBCs
+   - had desats and 2 ABGs showed low PcO2, increased FiO2 to 60 and PEEP
+   to 10; repeat CXR showed worsening PNA
+   - turned down Tv from 600 to 500
+   - pan cultured for hypotension
+   - received second 1L bolus for mod UOP
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 12:04 PM
+   Vancomycin - [**2199-7-22**] 08:45 PM
+   Metronidazole - [**2199-7-23**] 02:20 AM
+   Cefipime - [**2199-7-23**] 03:30 AM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 07:50 PM
+   Famotidine (Pepcid) - [**2199-7-22**] 08:00 PM
+   Heparin Sodium (Prophylaxis) - [**2199-7-22**] 08:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-23**] 06:27 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.9
+C (98.4
+   HR: 74 (68 - 144) bpm
+   BP: 88/65(70) {87/58(65) - 153/137(141)} mmHg
+   RR: 14 (14 - 32) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                  3,007 mL
+                                                                  2,323 mL
+   PO:
+           TF:
+   IVF:
+                                                                  3,007 mL
+                                                                  1,973 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                  1,674 mL
+                                                                    102 mL
+   Urine:
+                                                                  1,674 mL
+                                                                    102 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,333 mL
+                                                                  2,221 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST
+   Vt (Set): 500 (500 - 600) mL
+   RR (Set): 14
+   RR (Spontaneous): 0
+   PEEP: 10 cmH2O
+   FiO2: 60%
+   PIP: 22 cmH2O
+   Plateau: 19 cmH2O
+   Compliance: 35.7 cmH2O/mL
+   SpO2: 99%
+   ABG: 7.37/42/92.[**Numeric Identifier 491**]/22/0
+   Ve: 6.3 L/min
+   PaO2 / FiO2: 155
+   Physical Examination
+   General: Sedated and sleeping, no acute distress
+   HEENT: Sclera anicteric, ecchymoses over mandible.
+   Lungs: Mild crackles bilaterally, no wheezes, rhonchi
+   CV: Regular, tachycardic, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen: Soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly percussed
+   Ext: Warm, well perfused, 2+ pulses, very chapped skin on pedal aspect
+   of feet.
+   Neuro: Sedated as above. PERRL. DTR symmetric. Toes downgoing on
+   Babinski.
+   Labs / Radiology
+   147 K/uL
+   7.9 g/dL
+   165 mg/dL
+   0.6 mg/dL
+   22 mEq/L
+   3.6 mEq/L
+   7 mg/dL
+   109 mEq/L
+   138 mEq/L
+   23.2 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+                             [**2199-7-22**]  02:35 PM
+                             [**2199-7-22**]  05:25 PM
+                             [**2199-7-23**]  01:07 AM
+                             [**2199-7-23**]  02:14 AM
+                             [**2199-7-23**]  02:42 AM
+                             [**2199-7-23**]  03:28 AM
+                             [**2199-7-23**]  03:33 AM
+   WBC
+   4.5
+   5.4
+   Hct
+   24.9
+   31.0
+   23.6
+   23.2
+   Plt
+   129
+   147
+   Cr
+   0.7
+   0.7
+   0.6
+   TropT
+   <0.01
+   TCO2
+   27
+   25
+   25
+   25
+   Glucose
+   129
+   181
+   165
+   Other labs: PT / PTT / INR:12.7/29.8/1.1, CK / CKMB /
+   Troponin-T:74//<0.01, ALT / AST:20/39, Alk Phos / T Bili:40/0.5,
+   Differential-Neuts:78.2 %, Lymph:14.8 %, Mono:5.1 %, Eos:1.7 %, Lactic
+   Acid:0.8 mmol/L, Albumin:2.8 g/dL, LDH:155 IU/L, Ca++:7.7 mg/dL,
+   Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   56 y/o M with hx of HTN and etoh abuse presents from trauma [**Doctor First Name 91**]
+   service after bilateral mandibular fxs on [**7-19**] with etoh withdrawl and
+   now new PNA, likely aspiration.  Now with respiratory failure requiring
+   intubation and labile hemodynamics.
+   .
+   # ETOH withdrawl
+ last drink was Friday [**7-19**], the day of his fall.  No
+   known history, but likley heavy etoh use.  Went into severe withdrawl
+   on [**7-21**] with hallucinations, delerium, hypertenison and tachycardia.
+   Responded initially to IV ativan, but then continued to be hypertensive
+   and tachycardic to 160s prior to intubation.  Delerious enough that he
+   likely had aspiration pneumonia, so needed to protect airway
+   - continue sedation with fentanyl and versed; ativan no longer being
+   used
+   - monitor for hemodynamic signs of withdrawl
+   - wean sedation as tolerated by patient
+   - folate, MVI, thiamine
+   .
+   # Respiratory Distress
+ not protecting airway due to aggiation and
+   copious secretions, intubated [**7-22**].  Overnight vent settings needed to
+   be titrated up for low O2 sats and low PcO2.  Responded well to
+   increased PEEP and FiO2, decreased Vt as well.
+   - continue to monitor, wean FiO2 as tolerated today
+   - pneumonia treatment as below
+   - consider early ARDS if patient respiratory status not improving
+   .
+   # Pneumonia
+ after having desats, CXR showed RLL pneumonia, likely
+   aspiration.  Has been in hospital for >72 hrs and should be treated for
+   HAP as well.
+   - vanco, cefepime, flagyl for treatment
+   - sputum culture to be sent
+   - intubation as above
+   .
+   # Anemia
+ likely due to blood loss in hematomas on chest and jaw,
+   trending Hct
+   - transfuse Hxt <21
+   .
+   # Mandibular Fx
+ will need surgical repair at some point, will wait
+   until other issues have stabalized.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2199-7-22**] 06:52 PM
+   18 Gauge - [**2199-7-22**] 07:58 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 56-year-old male who was admitted to the ICU with bilateral mandibular fractures, ethanol withdrawal, and respiratory failure. He has a history of hypertension and ethanol abuse.
+
+The patient's condition has been unstable, with increasing agitation, hypertension, and tachycardia. He required intubation and mechanical ventilation due to respiratory failure. A CXR showed a new right lower lobe infiltrate, likely aspiration pneumonia.
+
+The patient has received antibiotics for hospital-acquired pneumonia (HAP) and aspiration coverage. He has also been treated for ethanol withdrawal with fentanyl and versed, and has received fluid boluses for hypotension.
+
+The patient's lab results show anemia, with a decreasing hemoglobin level and a hemocrit trended down to 23%. He has also had low urine output and has required fluid boluses.
+
+The patient's respiratory status has been unstable, with low oxygen saturation and low partial pressure of carbon dioxide (PcO2). He has required increased PEEP and FiO2 to improve his oxygenation.
+
+Potential medical complications that can arise include:
+
+1. Respiratory failure: The patient's respiratory status is unstable, and he requires mechanical ventilation. He may continue to experience respiratory failure if his condition does not improve.
+2. Pneumonia: The patient has a new right lower lobe infiltrate, likely aspiration pneumonia. He may develop further complications from this infection, such as sepsis or respiratory failure.
+3. Ethanol withdrawal: The patient has a history of ethanol abuse and has experienced severe withdrawal symptoms, including hallucinations, delirium, hypertension, and tachycardia. He may continue to experience withdrawal symptoms if he is not properly managed.
+4. Anemia: The patient has anemia, which may worsen if he continues to experience blood loss or if his hemoglobin level does not improve.
+5. Sepsis: The patient has a new infection, and he may develop sepsis if his condition does not improve.
+6. ARDS: The patient's respiratory status is unstable, and he may develop acute respiratory distress syndrome (ARDS) if his condition does not improve.
+7. DVT: The patient is at risk for deep vein thrombosis (DVT) due to his immobility and underlying medical conditions.
+8. VAP: The patient is at risk for ventilator-associated pneumonia (VAP) due to his prolonged intubation.
+
+Overall, the patient requires close monitoring and management of his respiratory, cardiovascular, and hematological status to prevent further complications."
+157868.0,244365,2199-07-23 06:28:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   fall, mandibular fxs
+   24 Hour Events:
+   - patient withdrawing in the morning, receiving hourly ativan
+   - desatted around 9am, CXR showed new RLL infiltrate
+   - started on vanco/cefepime/flagyl for HAP and aspiration coverage
+   - sputum culture pending
+   - around 2pm, had increasing aggitation, HR to 150s, worsening O2
+   saturation
+   - intuabted successfully
+   - vitals stabalized with HRs in 100s, SBPs in 100s on fent/versed
+   - OMFS (Dr. [**First Name (STitle) 3020**] does not want to take to OR for mandibular fractures
+   until stabalized
+   - overnight has low UO and hypotension, responded to IVF fluid boluses
+   - hct trended down to 23, transfused 1 uPRBCs
+   - had desats and 2 ABGs showed low PcO2, increased FiO2 to 60 and PEEP
+   to 10; repeat CXR showed worsening PNA
+   - turned down Tv from 600 to 500
+   - pan cultured for hypotension
+   - received second 1L bolus for mod UOP
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 12:04 PM
+   Vancomycin - [**2199-7-22**] 08:45 PM
+   Metronidazole - [**2199-7-23**] 02:20 AM
+   Cefipime - [**2199-7-23**] 03:30 AM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 07:50 PM
+   Famotidine (Pepcid) - [**2199-7-22**] 08:00 PM
+   Heparin Sodium (Prophylaxis) - [**2199-7-22**] 08:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-23**] 06:27 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.9
+C (98.4
+   HR: 74 (68 - 144) bpm
+   BP: 88/65(70) {87/58(65) - 153/137(141)} mmHg
+   RR: 14 (14 - 32) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                  3,007 mL
+                                                                  2,323 mL
+   PO:
+           TF:
+   IVF:
+                                                                  3,007 mL
+                                                                  1,973 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                  1,674 mL
+                                                                    102 mL
+   Urine:
+                                                                  1,674 mL
+                                                                    102 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,333 mL
+                                                                  2,221 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST
+   Vt (Set): 500 (500 - 600) mL
+   RR (Set): 14
+   RR (Spontaneous): 0
+   PEEP: 10 cmH2O
+   FiO2: 60%
+   PIP: 22 cmH2O
+   Plateau: 19 cmH2O
+   Compliance: 35.7 cmH2O/mL
+   SpO2: 99%
+   ABG: 7.37/42/92.[**Numeric Identifier 491**]/22/0
+   Ve: 6.3 L/min
+   PaO2 / FiO2: 155
+   Physical Examination
+   General: Sedated and sleeping, no acute distress
+   HEENT: intubated and sedated, Sclera anicteric, ecchymoses over
+   mandible.
+   Lungs: Mild crackles bilaterally, rhonchorous throughout, greater on R
+   than L
+   CV: Regular, tachycardic, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen: Soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly percussed
+   Ext: Warm, well perfused, 2+ pulses, very chapped skin on pedal aspect
+   of feet.
+   Neuro: Sedated as above. PERRL. DTR symmetric. Toes downgoing on
+   Babinski.
+   Labs / Radiology
+   147 K/uL
+   7.9 g/dL
+   165 mg/dL
+   0.6 mg/dL
+   22 mEq/L
+   3.6 mEq/L
+   7 mg/dL
+   109 mEq/L
+   138 mEq/L
+   23.2 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+                             [**2199-7-22**]  02:35 PM
+                             [**2199-7-22**]  05:25 PM
+                             [**2199-7-23**]  01:07 AM
+                             [**2199-7-23**]  02:14 AM
+                             [**2199-7-23**]  02:42 AM
+                             [**2199-7-23**]  03:28 AM
+                             [**2199-7-23**]  03:33 AM
+   WBC
+   4.5
+   5.4
+   Hct
+   24.9
+   31.0
+   23.6
+   23.2
+   Plt
+   129
+   147
+   Cr
+   0.7
+   0.7
+   0.6
+   TropT
+   <0.01
+   TCO2
+   27
+   25
+   25
+   25
+   Glucose
+   129
+   181
+   165
+   Other labs: PT / PTT / INR:12.7/29.8/1.1, CK / CKMB /
+   Troponin-T:74//<0.01, ALT / AST:20/39, Alk Phos / T Bili:40/0.5,
+   Differential-Neuts:78.2 %, Lymph:14.8 %, Mono:5.1 %, Eos:1.7 %, Lactic
+   Acid:0.8 mmol/L, Albumin:2.8 g/dL, LDH:155 IU/L, Ca++:7.7 mg/dL,
+   Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   56 y/o M with hx of HTN and etoh abuse presents from trauma [**Doctor First Name 91**]
+   service after bilateral mandibular fxs on [**7-19**] with etoh withdrawl and
+   now new PNA, likely aspiration.  Now with respiratory failure requiring
+   intubation and labile hemodynamics.
+   .
+   # ETOH withdrawl
+ last drink was Friday [**7-19**], the day of his fall.  No
+   known history, but likley heavy etoh use.  Went into severe withdrawl
+   on [**7-21**] with hallucinations, delerium, hypertenison and tachycardia.
+   Responded initially to IV ativan, but then continued to be hypertensive
+   and tachycardic to 160s prior to intubation.  Delerious enough that he
+   likely had aspiration pneumonia, so needed to protect airway
+   - continue sedation with fentanyl and versed; ativan no longer being
+   used
+   - monitor for hemodynamic signs of withdrawl
+   - wean sedation as tolerated by patient
+   - folate, MVI, thiamine
+   .
+   # Respiratory Distress
+ not protecting airway due to aggiation and
+   copious secretions, intubated [**7-22**].  Overnight vent settings needed to
+   be titrated up for low O2 sats and low PcO2.  Responded well to
+   increased PEEP and FiO2, decreased Vt as well.
+   - continue to monitor, wean FiO2 as tolerated today
+   - pneumonia treatment as below
+   - consider early ARDS if patient respiratory status not improving
+   .
+   # Hypotension
+ was moderately hypotensive overnight, although
+   responsive to IVFs.  Likely due to total body fluid deficit as urine
+   output was low, too.  Surprisingly, pt not tachycardic.  Also could
+   have been related to oversedation in setting of new intubation.
+   Overnight stabalized to SBPs around 100.
+   - IVF boluses PRN
+   - consider CVL placement
+   - tx one [**Location **] for possible blood loss as cause
+   - trended CEs, negative so far
+   .
+   # Pneumonia
+ after having desats, CXR showed RLL pneumonia, likely
+   aspiration.  Has been in hospital for >72 hrs and should be treated for
+   HAP as well.  Was hypotensive overnight, although not tachycardic or
+   febrile.  Pancultured, though.
+   - vanco, cefepime, flagyl for treatment of HAP and aspiration
+   - follow up cultures
+   - intubation as above with goal to wean as tolerated
+   .
+   # Anemia
+ likely due to blood loss in hematomas on chest and jaw,
+   trending Hct
+   - transfused one unit overnight
+   - transfuse for hemodynamic instability of hct <21
+   - abd CT to evaluate for bleed
+   .
+   # Mandibular Fx
+ will need surgical repair at some point, will wait
+   until other issues have stabalized.  Ortho team following along with
+   plans for ORIF.
+   - appreciate recs
+   ICU Care
+   Nutrition: NPO, no TFs prior to scan
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2199-7-22**] 06:52 PM
+   18 Gauge - [**2199-7-22**] 07:58 PM
+   Prophylaxis:
+   DVT: SQ hep
+   Stress ulcer:  famotidine
+   VAP:
+   Comments:
+   Communication:  Comments: no known family
+   Code status: Full code
+   Disposition: to trauma service this morning
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   fall, mandibular fxs
+   24 Hour Events:
+   - patient withdrawing in the morning, receiving hourly ativan
+   - desatted around 9am, CXR showed new RLL infiltrate
+   - started on vanco/cefepime/flagyl for HAP and aspiration coverage
+   - sputum culture pending
+   - around 2pm, had increasing aggitation, HR to 150s, worsening O2
+   saturation
+   - intuabted successfully
+   - vitals stabalized with HRs in 100s, SBPs in 100s on fent/versed
+   - OMFS (Dr. [**First Name (STitle) 3020**] does not want to take to OR for mandibular fractures
+   until stabalized
+   - overnight has low UO and hypotension, responded to IVF fluid boluses
+   - hct trended down to 23, transfused 1 uPRBCs
+   - had desats and 2 ABGs showed low PcO2, increased FiO2 to 60 and PEEP
+   to 10; repeat CXR showed worsening PNA
+   - turned down Tv from 600 to 500
+   - pan cultured for hypotension
+   - received second 1L bolus for mod UOP
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 12:04 PM
+   Vancomycin - [**2199-7-22**] 08:45 PM
+   Metronidazole - [**2199-7-23**] 02:20 AM
+   Cefipime - [**2199-7-23**] 03:30 AM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 07:50 PM
+   Famotidine (Pepcid) - [**2199-7-22**] 08:00 PM
+   Heparin Sodium (Prophylaxis) - [**2199-7-22**] 08:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-23**] 06:27 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.9
+C (98.4
+   HR: 74 (68 - 144) bpm
+   BP: 88/65(70) {87/58(65) - 153/137(141)} mmHg
+   RR: 14 (14 - 32) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                  3,007 mL
+                                                                  2,323 mL
+   PO:
+           TF:
+   IVF:
+                                                                  3,007 mL
+                                                                  1,973 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                  1,674 mL
+                                                                    102 mL
+   Urine:
+                                                                  1,674 mL
+                                                                    102 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,333 mL
+                                                                  2,221 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST
+   Vt (Set): 500 (500 - 600) mL
+   RR (Set): 14
+   RR (Spontaneous): 0
+   PEEP: 10 cmH2O
+   FiO2: 60%
+   PIP: 22 cmH2O
+   Plateau: 19 cmH2O
+   Compliance: 35.7 cmH2O/mL
+   SpO2: 99%
+   ABG: 7.37/42/92.[**Numeric Identifier 491**]/22/0
+   Ve: 6.3 L/min
+   PaO2 / FiO2: 155
+   Physical Examination
+   General: Sedated and sleeping, no acute distress
+   HEENT: intubated and sedated, Sclera anicteric, ecchymoses over
+   mandible.
+   Lungs: Mild crackles bilaterally, rhonchorous throughout, greater on R
+   than L
+   CV: Regular, tachycardic, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen: Soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly percussed
+   Ext: Warm, well perfused, 2+ pulses, very chapped skin on pedal aspect
+   of feet.
+   Neuro: Sedated as above. PERRL. DTR symmetric. Toes downgoing on
+   Babinski.
+   Labs / Radiology
+   147 K/uL
+   7.9 g/dL
+   165 mg/dL
+   0.6 mg/dL
+   22 mEq/L
+   3.6 mEq/L
+   7 mg/dL
+   109 mEq/L
+   138 mEq/L
+   23.2 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+                             [**2199-7-22**]  02:35 PM
+                             [**2199-7-22**]  05:25 PM
+                             [**2199-7-23**]  01:07 AM
+                             [**2199-7-23**]  02:14 AM
+                             [**2199-7-23**]  02:42 AM
+                             [**2199-7-23**]  03:28 AM
+                             [**2199-7-23**]  03:33 AM
+   WBC
+   4.5
+   5.4
+   Hct
+   24.9
+   31.0
+   23.6
+   23.2
+   Plt
+   129
+   147
+   Cr
+   0.7
+   0.7
+   0.6
+   TropT
+   <0.01
+   TCO2
+   27
+   25
+   25
+   25
+   Glucose
+   129
+   181
+   165
+   Other labs: PT / PTT / INR:12.7/29.8/1.1, CK / CKMB /
+   Troponin-T:74//<0.01, ALT / AST:20/39, Alk Phos / T Bili:40/0.5,
+   Differential-Neuts:78.2 %, Lymph:14.8 %, Mono:5.1 %, Eos:1.7 %, Lactic
+   Acid:0.8 mmol/L, Albumin:2.8 g/dL, LDH:155 IU/L, Ca++:7.7 mg/dL,
+   Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   56 y/o M with hx of HTN and etoh abuse presents from trauma [**Doctor First Name 91**]
+   service after bilateral mandibular fxs on [**7-19**] with etoh withdrawl and
+   now new PNA, likely aspiration.  Now with respiratory failure requiring
+   intubation and labile hemodynamics.
+   .
+   # ETOH withdrawl
+ last drink was Friday [**7-19**], the day of his fall.  No
+   known history, but likley heavy etoh use.  Went into severe withdrawl
+   on [**7-21**] with hallucinations, delerium, hypertenison and tachycardia.
+   Responded initially to IV ativan, but then continued to be hypertensive
+   and tachycardic to 160s prior to intubation.  Delerious enough that he
+   likely had aspiration pneumonia, so needed to protect airway
+   - continue sedation with fentanyl and versed; ativan no longer being
+   used
+   - monitor for hemodynamic signs of withdrawl
+   - wean sedation as tolerated by patient
+   - folate, MVI, thiamine
+   .
+   # Respiratory Distress
+ not protecting airway due to aggiation and
+   copious secretions, intubated [**7-22**].  Overnight vent settings needed to
+   be titrated up for low O2 sats and low PcO2.  Responded well to
+   increased PEEP and FiO2, decreased Vt as well.
+   - continue to monitor, wean FiO2 as tolerated today
+   - pneumonia treatment as below
+   - consider early ARDS if patient respiratory status not improving
+   .
+   # Hypotension
+ was moderately hypotensive overnight, although
+   responsive to IVFs.  Likely due to total body fluid deficit as urine
+   output was low, too.  Surprisingly, pt not tachycardic.  Also could
+   have been related to oversedation in setting of new intubation.
+   Overnight stabalized to SBPs around 100.
+   - IVF boluses PRN
+   - consider CVL placement
+   - tx one [**Location **] for possible blood loss as cause
+   - trended CEs, negative so far
+   .
+   # Pneumonia
+ after having desats, CXR showed RLL pneumonia, likely
+   aspiration.  Has been in hospital for >72 hrs and should be treated for
+   HAP as well.  Was hypotensive overnight, although not tachycardic or
+   febrile.  Pancultured, though.
+   - vanco, cefepime, flagyl for treatment of HAP and aspiration
+   - follow up cultures
+   - intubation as above with goal to wean as tolerated
+   .
+   # Anemia
+ likely due to blood loss in hematomas on chest and jaw,
+   trending Hct
+   - transfused one unit overnight
+   - transfuse for hemodynamic instability of hct <21
+   - abd CT to evaluate for bleed
+   .
+   # Mandibular Fx
+ will need surgical repair at some point, will wait
+   until other issues have stabalized.  Ortho team following along with
+   plans for ORIF.
+   - appreciate recs
+   ICU Care
+   Nutrition: NPO, no TFs prior to scan
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2199-7-22**] 06:52 PM
+   18 Gauge - [**2199-7-22**] 07:58 PM
+   Prophylaxis:
+   DVT: SQ hep
+   Stress ulcer:  famotidine
+   VAP:
+   Comments:
+   Communication:  Comments: no known family
+   Code status: Full code
+   Disposition: to trauma service this morning<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient, a 56-year-old male, was admitted to the ICU after falling and sustaining bilateral mandibular fractures, ethanol withdrawal, and aspiration pneumonia. He was intubated due to respiratory failure and has been receiving sedation with fentanyl and versed. His vital signs have been labile, with hypertension and tachycardia, but has responded to IV fluid boluses. He has been treated with antibiotics for hospital-acquired pneumonia and aspiration, and his Hct has trended down, requiring a transfusion of one unit of PRBCs. He has also been diagnosed with anemia, likely due to blood loss, and is being monitored for hemodynamic instability.
+
+Potential Medical Complications:
+
+1. Respiratory failure: The patient's respiratory status is labile, and he requires ongoing respiratory support. He may require further titration of his ventilator settings to ensure adequate oxygenation and ventilation.
+2. Pneumonia: The patient has aspiration pneumonia, which may require further treatment and monitoring to prevent complications such as sepsis or respiratory failure.
+3. Anemia: The patient's Hct has trended down, and he may require further transfusions to maintain adequate hemoglobin levels. He should be monitored for signs of hemodynamic instability.
+4. Hypotension: The patient has been hypotensive overnight, which may be due to total body fluid deficit or oversedation. He should be monitored for signs of hypotension and responded to with IV fluid boluses as needed.
+5. Ethanol withdrawal: The patient is still experiencing ethanol withdrawal symptoms, which may require ongoing treatment with sedatives and other medications.
+6. Mandibular fractures: The patient's mandibular fractures will require surgical repair at some point, but will be delayed until other issues have stabilized.
+
+Recommendations:
+
+1. Continue to monitor the patient's respiratory status and adjust ventilator settings as needed.
+2. Continue to treat the patient's pneumonia with antibiotics and monitor for signs of sepsis or respiratory failure.
+3. Monitor the patient's Hct and transfuse as needed to maintain adequate hemoglobin levels.
+4. Monitor the patient's blood pressure and respond to hypotension with IV fluid boluses as needed.
+5. Continue to treat the patient's ethanol withdrawal symptoms with sedatives and other medications.
+6. Coordinate with the trauma service and orthopedic team to plan for surgical repair of the patient's mandibular fractures."
+157868.0,244365,2199-07-23 06:28:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   fall, mandibular fxs
+   24 Hour Events:
+   - patient withdrawing in the morning, receiving hourly ativan
+   - desatted around 9am, CXR showed new RLL infiltrate
+   - started on vanco/cefepime/flagyl for HAP and aspiration coverage
+   - sputum culture pending
+   - around 2pm, had increasing aggitation, HR to 150s, worsening O2
+   saturation
+   - intuabted successfully
+   - vitals stabalized with HRs in 100s, SBPs in 100s on fent/versed
+   - OMFS (Dr. [**First Name (STitle) 3020**] does not want to take to OR for mandibular fractures
+   until stabalized
+   - overnight has low UO and hypotension, responded to IVF fluid boluses
+   - hct trended down to 23, transfused 1 uPRBCs
+   - had desats and 2 ABGs showed low PcO2, increased FiO2 to 60 and PEEP
+   to 10; repeat CXR showed worsening PNA
+   - turned down Tv from 600 to 500
+   - pan cultured for hypotension
+   - received second 1L bolus for mod UOP
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 12:04 PM
+   Vancomycin - [**2199-7-22**] 08:45 PM
+   Metronidazole - [**2199-7-23**] 02:20 AM
+   Cefipime - [**2199-7-23**] 03:30 AM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 07:50 PM
+   Famotidine (Pepcid) - [**2199-7-22**] 08:00 PM
+   Heparin Sodium (Prophylaxis) - [**2199-7-22**] 08:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-23**] 06:27 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.9
+C (98.4
+   HR: 74 (68 - 144) bpm
+   BP: 88/65(70) {87/58(65) - 153/137(141)} mmHg
+   RR: 14 (14 - 32) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                  3,007 mL
+                                                                  2,323 mL
+   PO:
+           TF:
+   IVF:
+                                                                  3,007 mL
+                                                                  1,973 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                  1,674 mL
+                                                                    102 mL
+   Urine:
+                                                                  1,674 mL
+                                                                    102 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,333 mL
+                                                                  2,221 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST
+   Vt (Set): 500 (500 - 600) mL
+   RR (Set): 14
+   RR (Spontaneous): 0
+   PEEP: 10 cmH2O
+   FiO2: 60%
+   PIP: 22 cmH2O
+   Plateau: 19 cmH2O
+   Compliance: 35.7 cmH2O/mL
+   SpO2: 99%
+   ABG: 7.37/42/92.[**Numeric Identifier 491**]/22/0
+   Ve: 6.3 L/min
+   PaO2 / FiO2: 155
+   Physical Examination
+   General: Sedated and sleeping, no acute distress
+   HEENT: intubated and sedated, Sclera anicteric, ecchymoses over
+   mandible.
+   Lungs: Mild crackles bilaterally, rhonchorous throughout, greater on R
+   than L
+   CV: Regular, tachycardic, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen: Soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly percussed
+   Ext: Warm, well perfused, 2+ pulses, very chapped skin on pedal aspect
+   of feet.
+   Neuro: Sedated as above. PERRL. DTR symmetric. Toes downgoing on
+   Babinski.
+   Labs / Radiology
+   147 K/uL
+   7.9 g/dL
+   165 mg/dL
+   0.6 mg/dL
+   22 mEq/L
+   3.6 mEq/L
+   7 mg/dL
+   109 mEq/L
+   138 mEq/L
+   23.2 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+                             [**2199-7-22**]  02:35 PM
+                             [**2199-7-22**]  05:25 PM
+                             [**2199-7-23**]  01:07 AM
+                             [**2199-7-23**]  02:14 AM
+                             [**2199-7-23**]  02:42 AM
+                             [**2199-7-23**]  03:28 AM
+                             [**2199-7-23**]  03:33 AM
+   WBC
+   4.5
+   5.4
+   Hct
+   24.9
+   31.0
+   23.6
+   23.2
+   Plt
+   129
+   147
+   Cr
+   0.7
+   0.7
+   0.6
+   TropT
+   <0.01
+   TCO2
+   27
+   25
+   25
+   25
+   Glucose
+   129
+   181
+   165
+   Other labs: PT / PTT / INR:12.7/29.8/1.1, CK / CKMB /
+   Troponin-T:74//<0.01, ALT / AST:20/39, Alk Phos / T Bili:40/0.5,
+   Differential-Neuts:78.2 %, Lymph:14.8 %, Mono:5.1 %, Eos:1.7 %, Lactic
+   Acid:0.8 mmol/L, Albumin:2.8 g/dL, LDH:155 IU/L, Ca++:7.7 mg/dL,
+   Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   56 y/o M with hx of HTN and etoh abuse presents from trauma [**Doctor First Name 91**]
+   service after bilateral mandibular fxs on [**7-19**] with etoh withdrawl and
+   now new PNA, likely aspiration.  Now with respiratory failure requiring
+   intubation and labile hemodynamics.
+   .
+   # ETOH withdrawl
+ last drink was Friday [**7-19**], the day of his fall.  No
+   known history, but likley heavy etoh use.  Went into severe withdrawl
+   on [**7-21**] with hallucinations, delerium, hypertenison and tachycardia.
+   Responded initially to IV ativan, but then continued to be hypertensive
+   and tachycardic to 160s prior to intubation.  Delerious enough that he
+   likely had aspiration pneumonia, so needed to protect airway
+   - continue sedation with fentanyl and versed; ativan no longer being
+   used
+   - monitor for hemodynamic signs of withdrawl
+   - wean sedation as tolerated by patient
+   - folate, MVI, thiamine
+   .
+   # Respiratory Distress
+ not protecting airway due to aggiation and
+   copious secretions, intubated [**7-22**].  Overnight vent settings needed to
+   be titrated up for low O2 sats and low PcO2.  Responded well to
+   increased PEEP and FiO2, decreased Vt as well.
+   - continue to monitor, wean FiO2 as tolerated today
+   - pneumonia treatment as below
+   - consider early ARDS if patient respiratory status not improving
+   .
+   # Hypotension
+ was moderately hypotensive overnight, although
+   responsive to IVFs.  Likely due to total body fluid deficit as urine
+   output was low, too.  Surprisingly, pt not tachycardic.  Also could
+   have been related to oversedation in setting of new intubation.
+   Overnight stabalized to SBPs around 100.
+   - IVF boluses PRN
+   - consider CVL placement
+   - tx one [**Location **] for possible blood loss as cause
+   - trended CEs, negative so far
+   .
+   # Pneumonia
+ after having desats, CXR showed RLL pneumonia, likely
+   aspiration.  Has been in hospital for >72 hrs and should be treated for
+   HAP as well.  Was hypotensive overnight, although not tachycardic or
+   febrile.  Pancultured, though.
+   - vanco, cefepime, flagyl for treatment of HAP and aspiration
+   - follow up cultures
+   - intubation as above with goal to wean as tolerated
+   .
+   # Anemia
+ likely due to blood loss in hematomas on chest and jaw,
+   trending Hct
+   - transfused one unit overnight
+   - transfuse for hemodynamic instability of hct <21
+   .
+   # Mandibular Fx
+ will need surgical repair at some point, will wait
+   until other issues have stabalized.  Ortho team following along with
+   plans for ORIF.
+   - appreciate recs
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2199-7-22**] 06:52 PM
+   18 Gauge - [**2199-7-22**] 07:58 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   fall, mandibular fxs
+   24 Hour Events:
+   - patient withdrawing in the morning, receiving hourly ativan
+   - desatted around 9am, CXR showed new RLL infiltrate
+   - started on vanco/cefepime/flagyl for HAP and aspiration coverage
+   - sputum culture pending
+   - around 2pm, had increasing aggitation, HR to 150s, worsening O2
+   saturation
+   - intuabted successfully
+   - vitals stabalized with HRs in 100s, SBPs in 100s on fent/versed
+   - OMFS (Dr. [**First Name (STitle) 3020**] does not want to take to OR for mandibular fractures
+   until stabalized
+   - overnight has low UO and hypotension, responded to IVF fluid boluses
+   - hct trended down to 23, transfused 1 uPRBCs
+   - had desats and 2 ABGs showed low PcO2, increased FiO2 to 60 and PEEP
+   to 10; repeat CXR showed worsening PNA
+   - turned down Tv from 600 to 500
+   - pan cultured for hypotension
+   - received second 1L bolus for mod UOP
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 12:04 PM
+   Vancomycin - [**2199-7-22**] 08:45 PM
+   Metronidazole - [**2199-7-23**] 02:20 AM
+   Cefipime - [**2199-7-23**] 03:30 AM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 07:50 PM
+   Famotidine (Pepcid) - [**2199-7-22**] 08:00 PM
+   Heparin Sodium (Prophylaxis) - [**2199-7-22**] 08:00 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-23**] 06:27 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 36.9
+C (98.4
+   HR: 74 (68 - 144) bpm
+   BP: 88/65(70) {87/58(65) - 153/137(141)} mmHg
+   RR: 14 (14 - 32) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                  3,007 mL
+                                                                  2,323 mL
+   PO:
+           TF:
+   IVF:
+                                                                  3,007 mL
+                                                                  1,973 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                  1,674 mL
+                                                                    102 mL
+   Urine:
+                                                                  1,674 mL
+                                                                    102 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,333 mL
+                                                                  2,221 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST
+   Vt (Set): 500 (500 - 600) mL
+   RR (Set): 14
+   RR (Spontaneous): 0
+   PEEP: 10 cmH2O
+   FiO2: 60%
+   PIP: 22 cmH2O
+   Plateau: 19 cmH2O
+   Compliance: 35.7 cmH2O/mL
+   SpO2: 99%
+   ABG: 7.37/42/92.[**Numeric Identifier 491**]/22/0
+   Ve: 6.3 L/min
+   PaO2 / FiO2: 155
+   Physical Examination
+   General: Sedated and sleeping, no acute distress
+   HEENT: intubated and sedated, Sclera anicteric, ecchymoses over
+   mandible.
+   Lungs: Mild crackles bilaterally, rhonchorous throughout, greater on R
+   than L
+   CV: Regular, tachycardic, normal S1 + S2, no murmurs, rubs, gallops
+   Abdomen: Soft, non-tender, non-distended, bowel sounds present, no
+   rebound tenderness or guarding, no organomegaly percussed
+   Ext: Warm, well perfused, 2+ pulses, very chapped skin on pedal aspect
+   of feet.
+   Neuro: Sedated as above. PERRL. DTR symmetric. Toes downgoing on
+   Babinski.
+   Labs / Radiology
+   147 K/uL
+   7.9 g/dL
+   165 mg/dL
+   0.6 mg/dL
+   22 mEq/L
+   3.6 mEq/L
+   7 mg/dL
+   109 mEq/L
+   138 mEq/L
+   23.2 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+                             [**2199-7-22**]  02:35 PM
+                             [**2199-7-22**]  05:25 PM
+                             [**2199-7-23**]  01:07 AM
+                             [**2199-7-23**]  02:14 AM
+                             [**2199-7-23**]  02:42 AM
+                             [**2199-7-23**]  03:28 AM
+                             [**2199-7-23**]  03:33 AM
+   WBC
+   4.5
+   5.4
+   Hct
+   24.9
+   31.0
+   23.6
+   23.2
+   Plt
+   129
+   147
+   Cr
+   0.7
+   0.7
+   0.6
+   TropT
+   <0.01
+   TCO2
+   27
+   25
+   25
+   25
+   Glucose
+   129
+   181
+   165
+   Other labs: PT / PTT / INR:12.7/29.8/1.1, CK / CKMB /
+   Troponin-T:74//<0.01, ALT / AST:20/39, Alk Phos / T Bili:40/0.5,
+   Differential-Neuts:78.2 %, Lymph:14.8 %, Mono:5.1 %, Eos:1.7 %, Lactic
+   Acid:0.8 mmol/L, Albumin:2.8 g/dL, LDH:155 IU/L, Ca++:7.7 mg/dL,
+   Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Assessment and Plan
+   56 y/o M with hx of HTN and etoh abuse presents from trauma [**Doctor First Name 91**]
+   service after bilateral mandibular fxs on [**7-19**] with etoh withdrawl and
+   now new PNA, likely aspiration.  Now with respiratory failure requiring
+   intubation and labile hemodynamics.
+   .
+   # ETOH withdrawl
+ last drink was Friday [**7-19**], the day of his fall.  No
+   known history, but likley heavy etoh use.  Went into severe withdrawl
+   on [**7-21**] with hallucinations, delerium, hypertenison and tachycardia.
+   Responded initially to IV ativan, but then continued to be hypertensive
+   and tachycardic to 160s prior to intubation.  Delerious enough that he
+   likely had aspiration pneumonia, so needed to protect airway
+   - continue sedation with fentanyl and versed; ativan no longer being
+   used
+   - monitor for hemodynamic signs of withdrawl
+   - wean sedation as tolerated by patient
+   - folate, MVI, thiamine
+   .
+   # Respiratory Distress
+ not protecting airway due to aggiation and
+   copious secretions, intubated [**7-22**].  Overnight vent settings needed to
+   be titrated up for low O2 sats and low PcO2.  Responded well to
+   increased PEEP and FiO2, decreased Vt as well.
+   - continue to monitor, wean FiO2 as tolerated today
+   - pneumonia treatment as below
+   - consider early ARDS if patient respiratory status not improving
+   .
+   # Hypotension
+ was moderately hypotensive overnight, although
+   responsive to IVFs.  Likely due to total body fluid deficit as urine
+   output was low, too.  Surprisingly, pt not tachycardic.  Also could
+   have been related to oversedation in setting of new intubation.
+   Overnight stabalized to SBPs around 100.
+   - IVF boluses PRN
+   - consider CVL placement
+   - tx one [**Location **] for possible blood loss as cause
+   - trended CEs, negative so far
+   .
+   # Pneumonia
+ after having desats, CXR showed RLL pneumonia, likely
+   aspiration.  Has been in hospital for >72 hrs and should be treated for
+   HAP as well.  Was hypotensive overnight, although not tachycardic or
+   febrile.  Pancultured, though.
+   - vanco, cefepime, flagyl for treatment of HAP and aspiration
+   - follow up cultures
+   - intubation as above with goal to wean as tolerated
+   .
+   # Anemia
+ likely due to blood loss in hematomas on chest and jaw,
+   trending Hct
+   - transfused one unit overnight
+   - transfuse for hemodynamic instability of hct <21
+   .
+   # Mandibular Fx
+ will need surgical repair at some point, will wait
+   until other issues have stabalized.  Ortho team following along with
+   plans for ORIF.
+   - appreciate recs
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2199-7-22**] 06:52 PM
+   18 Gauge - [**2199-7-22**] 07:58 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 56-year-old male who presents with bilateral mandibular fractures, ethanol withdrawal, and new pneumonia, likely aspiration. He was intubated due to respiratory failure and is currently receiving mechanical ventilation. The patient's vital signs are unstable, with a heart rate in the 100s, blood pressure in the 100s, and oxygen saturation of 99%.
+
+The patient has a history of hypertension and ethanol abuse. He went into severe ethanol withdrawal on [**7-21**] with hallucinations, delirium, hypertension, and tachycardia, which responded initially to IV ativan but continued to be hypertensive and tachycardic prior to intubation.
+
+The patient has several potential medical complications that need to be monitored and managed:
+
+1. Ethanol withdrawal: The patient is still experiencing withdrawal symptoms, including hypertension and tachycardia, and requires continued sedation with fentanyl and versed. Monitoring for hemodynamic signs of withdrawal is essential.
+2. Respiratory distress: The patient is intubated and requires mechanical ventilation. The overnight vent settings needed to be titrated up for low O2 sats and low PcO2, and the patient responded well to increased PEEP and FiO2. Weaning of FiO2 as tolerated today is recommended.
+3. Hypotension: The patient was moderately hypotensive overnight, which responded to IVF boluses. Total body fluid deficit and oversedation in the setting of new intubation may have contributed to the hypotension. IVF boluses PRN, consideration of CVL placement, and tx one [**Location **] for possible blood loss as cause are recommended.
+4. Pneumonia: The patient has new RLL pneumonia, likely aspiration, and should be treated for HAP as well. Vancomycin, cefepime, and flagyl have been started for treatment of HAP and aspiration, and follow-up cultures are recommended.
+5. Anemia: The patient has a low Hct due to blood loss in hematomas on chest and jaw, and has been transfused one unit overnight. Transfusion for hemodynamic instability of Hct <21 is recommended.
+6. Mandibular fractures: The patient will need surgical repair at some point, and the ortho team is following along with plans for ORIF.
+
+In conclusion, the patient requires close monitoring and management of his multiple medical complications, including ethanol withdrawal, respiratory distress, hypotension, pneumonia, anemia, and mandibular fractures."
+157868.0,244365,2199-07-23 09:05:00,Physician ,Physician Attending Progress Note,"Chief Complaint:
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+   Intubated yest for agitation and hypoxemic respiratory failure.
+   Post-intubation CXR w/ concern for RLL infiltrate. PEEP and FiO2
+   titrated up for low PaO2. SBP dropped to the 80s but fluid responsive.
+   Hct dropped to 24, transfused 1uPRBC. Vent settings changed to ARDSnet
+   strategy (Vt dropped).
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 12:04 PM
+   Vancomycin - [**2199-7-22**] 08:45 PM
+   Metronidazole - [**2199-7-23**] 02:20 AM
+   Cefipime - [**2199-7-23**] 03:30 AM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 07:50 PM
+   Famotidine (Pepcid) - [**2199-7-22**] 08:00 PM
+   Heparin Sodium (Prophylaxis) - [**2199-7-22**] 08:00 PM
+   Other medications:
+   thiamine, folate, Peridex, Vanco IV, Flagyl IV, Cefepime IV, Ativan prn
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-23**] 09:05 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37
+C (98.6
+   HR: 79 (68 - 144) bpm
+   BP: 95/61(69) {87/58(65) - 153/137(141)} mmHg
+   RR: 15 (14 - 32) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                  3,007 mL
+                                                                  3,702 mL
+   PO:
+           TF:
+   IVF:
+                                                                  3,007 mL
+                                                                  3,352 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                  1,674 mL
+                                                                    118 mL
+   Urine:
+                                                                  1,674 mL
+                                                                    118 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,333 mL
+                                                                  3,584 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 500 (500 - 600) mL
+   RR (Set): 14
+   RR (Spontaneous): 0
+   PEEP: 10 cmH2O
+   FiO2: 60%
+   PIP: 24 cmH2O
+   Plateau: 19 cmH2O
+   Compliance: 35.7 cmH2O/mL
+   SpO2: 99%
+   ABG: 7.37/42/92.[**Numeric Identifier 491**]/22/0
+   Ve: 8.3 L/min
+   PaO2 / FiO2: 155
+   Physical Examination
+   General Appearance: No acute distress
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Endotracheal tube, OG tube
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Breath Sounds: Rhonchorous: diffusely)
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Sedated,
+   Tone: Not assessed
+   Labs / Radiology
+   7.9 g/dL
+   147 K/uL
+   165 mg/dL
+   0.6 mg/dL
+   22 mEq/L
+   3.6 mEq/L
+   7 mg/dL
+   109 mEq/L
+   138 mEq/L
+   23.2 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+                             [**2199-7-22**]  02:35 PM
+                             [**2199-7-22**]  05:25 PM
+                             [**2199-7-23**]  01:07 AM
+                             [**2199-7-23**]  02:14 AM
+                             [**2199-7-23**]  02:42 AM
+                             [**2199-7-23**]  03:28 AM
+                             [**2199-7-23**]  03:33 AM
+   WBC
+   4.5
+   5.4
+   Hct
+   24.9
+   31.0
+   23.6
+   23.2
+   Plt
+   129
+   147
+   Cr
+   0.7
+   0.7
+   0.6
+   TropT
+   <0.01
+   TCO2
+   27
+   25
+   25
+   25
+   Glucose
+   129
+   181
+   165
+   Other labs: PT / PTT / INR:12.7/29.8/1.1, CK / CKMB /
+   Troponin-T:74//<0.01, ALT / AST:20/39, Alk Phos / T Bili:40/0.5,
+   Differential-Neuts:78.2 %, Lymph:14.8 %, Mono:5.1 %, Eos:1.7 %, Lactic
+   Acid:0.8 mmol/L, Albumin:2.8 g/dL, LDH:155 IU/L, Ca++:7.7 mg/dL,
+   Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Imaging: [**7-23**] CXR-
+   Microbiology: [**7-22**] Pan culture- pending
+   Assessment and Plan
+   56 male with known history of EtOH abuse with bilateral mandibular
+   fracture s/p fall onto face in the setting of EtOH intoxication,
+   admitted  to MICU for presumed EtOH withdrawal, intubated for agitation
+   and hypoxemic respiratory failure.
+   Hypoxemic respiratory failure: intubated [**7-23**]. DDx includes aspiration
+   pna +/- R-sided pleural effusion
+   -wean FiO2 and PEEP as tolerated
+   -poss PSV trial later today
+   -ABX as below
+   -head of bed up/ aspiration precautions
+   -aggressive pulm toilet
+   -follow CXR, ETT may need further adjustment
+   Poss aspiration pna:
+   -covering w/ vanco + cefepime + metronidazole, follow cx data
+   -CT chest might be helpful to further define extent of an effusion/
+   infiltrate
+   EtOH withdrawal: Known h/o EtOH abuse. Last drink [**7-19**] am.
+   - currently stable on Versed and fentanyl gtt
+   - daily MVI, folate, thiamine
+   - SW consult once extubated and more alert
+   - serial lytes monitored
+   Anemia: may be related to fall and fracture versus dilutional,
+   underlying poor marrow fxn from EtOH
+   -CT torso to evaluate for occult bleeding in the setting of prior
+   trauma
+   -trend Hct
+   Bilateral Mandible fracture: Plan for OR pending stabilization. Would
+   recommend deferring surgery for now given active EtOH withdrawal
+   - Trauma and OMFS following
+   Fall: likely related to EtOH but considering syncope
+   -get EEG and TTE as per Neuro rec's once pt more stabilized
+   -tele monitoring
+   -fall precautions
+   Disposition: per Trauma service to transfer to their service today
+   Remainder of plan as per housestaff note.
+   ICU Care
+   Nutrition:
+   Comments: tube feeds held for CT torso today
+   Glycemic Control:  Blood sugar well controlled
+   Lines:
+   20 Gauge - [**2199-7-22**] 06:52 PM
+   18 Gauge - [**2199-7-22**] 07:58 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: H2 blocker
+   VAP: HOB elevation, Mouth care, Daily wake up, RSBI
+   Need for restraints reviewed
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition :ICU
+   Total time spent: 35 minutes
+   Patient is critically ill
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+   Intubated yest for agitation and hypoxemic respiratory failure.
+   Post-intubation CXR w/ concern for RLL infiltrate. PEEP and FiO2
+   titrated up for low PaO2. SBP dropped to the 80s but fluid responsive.
+   Hct dropped to 24, transfused 1uPRBC. Vent settings changed to ARDSnet
+   strategy (Vt dropped).
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Ampicillin - [**2199-7-22**] 12:04 PM
+   Vancomycin - [**2199-7-22**] 08:45 PM
+   Metronidazole - [**2199-7-23**] 02:20 AM
+   Cefipime - [**2199-7-23**] 03:30 AM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Other ICU medications:
+   Lorazepam (Ativan) - [**2199-7-22**] 07:50 PM
+   Famotidine (Pepcid) - [**2199-7-22**] 08:00 PM
+   Heparin Sodium (Prophylaxis) - [**2199-7-22**] 08:00 PM
+   Other medications:
+   thiamine, folate, Peridex, Vanco IV, Flagyl IV, Cefepime IV, Ativan prn
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-7-23**] 09:05 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.7
+C (99.8
+   Tcurrent: 37
+C (98.6
+   HR: 79 (68 - 144) bpm
+   BP: 95/61(69) {87/58(65) - 153/137(141)} mmHg
+   RR: 15 (14 - 32) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                  3,007 mL
+                                                                  3,702 mL
+   PO:
+           TF:
+   IVF:
+                                                                  3,007 mL
+                                                                  3,352 mL
+   Blood products:
+   350 mL
+   Total out:
+                                                                  1,674 mL
+                                                                    118 mL
+   Urine:
+                                                                  1,674 mL
+                                                                    118 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,333 mL
+                                                                  3,584 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 500 (500 - 600) mL
+   RR (Set): 14
+   RR (Spontaneous): 0
+   PEEP: 10 cmH2O
+   FiO2: 60%
+   PIP: 24 cmH2O
+   Plateau: 19 cmH2O
+   Compliance: 35.7 cmH2O/mL
+   SpO2: 99%
+   ABG: 7.37/42/92.[**Numeric Identifier 491**]/22/0
+   Ve: 8.3 L/min
+   PaO2 / FiO2: 155
+   Physical Examination
+   General Appearance: No acute distress
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Endotracheal tube, OG tube
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Breath Sounds: Rhonchorous: diffusely)
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Sedated,
+   Tone: Not assessed
+   Labs / Radiology
+   7.9 g/dL
+   147 K/uL
+   165 mg/dL
+   0.6 mg/dL
+   22 mEq/L
+   3.6 mEq/L
+   7 mg/dL
+   109 mEq/L
+   138 mEq/L
+   23.2 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2199-7-22**]  03:22 AM
+                             [**2199-7-22**]  02:35 PM
+                             [**2199-7-22**]  05:25 PM
+                             [**2199-7-23**]  01:07 AM
+                             [**2199-7-23**]  02:14 AM
+                             [**2199-7-23**]  02:42 AM
+                             [**2199-7-23**]  03:28 AM
+                             [**2199-7-23**]  03:33 AM
+   WBC
+   4.5
+   5.4
+   Hct
+   24.9
+   31.0
+   23.6
+   23.2
+   Plt
+   129
+   147
+   Cr
+   0.7
+   0.7
+   0.6
+   TropT
+   <0.01
+   TCO2
+   27
+   25
+   25
+   25
+   Glucose
+   129
+   181
+   165
+   Other labs: PT / PTT / INR:12.7/29.8/1.1, CK / CKMB /
+   Troponin-T:74//<0.01, ALT / AST:20/39, Alk Phos / T Bili:40/0.5,
+   Differential-Neuts:78.2 %, Lymph:14.8 %, Mono:5.1 %, Eos:1.7 %, Lactic
+   Acid:0.8 mmol/L, Albumin:2.8 g/dL, LDH:155 IU/L, Ca++:7.7 mg/dL,
+   Mg++:1.6 mg/dL, PO4:3.6 mg/dL
+   Imaging: [**7-23**] CXR-
+   Microbiology: [**7-22**] Pan culture- pending
+   Assessment and Plan
+   56 male with known history of EtOH abuse with bilateral mandibular
+   fracture s/p fall onto face in the setting of EtOH intoxication,
+   admitted  to MICU for presumed EtOH withdrawal, intubated for agitation
+   and hypoxemic respiratory failure.
+   Hypoxemic respiratory failure: intubated [**7-23**]. DDx includes aspiration
+   pna +/- R-sided pleural effusion
+   -wean FiO2 and PEEP as tolerated
+   -poss PSV trial later today
+   -ABX as below
+   -head of bed up/ aspiration precautions
+   -aggressive pulm toilet
+   -follow CXR, ETT may need further adjustment
+   Poss aspiration pna:
+   -covering w/ vanco + cefepime + metronidazole, follow cx data
+   -CT chest might be helpful to further define extent of an effusion/
+   infiltrate
+   EtOH withdrawal: Known h/o EtOH abuse. Last drink [**7-19**] am.
+   - currently stable on Versed and fentanyl gtt
+   - daily MVI, folate, thiamine
+   - SW consult once extubated and more alert
+   - serial lytes monitored
+   Anemia: may be related to fall and fracture versus dilutional,
+   underlying poor marrow fxn from EtOH
+   -CT torso to evaluate for occult bleeding in the setting of prior
+   trauma
+   -trend Hct
+   Bilateral Mandible fracture: Plan for OR pending stabilization. Would
+   recommend deferring surgery for now given active EtOH withdrawal
+   - Trauma and OMFS following
+   Fall: likely related to EtOH but considering syncope
+   -get EEG and TTE as per Neuro rec's once pt more stabilized
+   -tele monitoring
+   -fall precautions
+   Disposition: per Trauma service to transfer to their service today
+   Remainder of plan as per housestaff note.
+   ICU Care
+   Nutrition:
+   Comments: tube feeds held for CT torso today
+   Glycemic Control:  Blood sugar well controlled
+   Lines:
+   20 Gauge - [**2199-7-22**] 06:52 PM
+   18 Gauge - [**2199-7-22**] 07:58 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: H2 blocker
+   VAP: HOB elevation, Mouth care, Daily wake up, RSBI
+   Need for restraints reviewed
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition :ICU
+   Total time spent: 35 minutes
+   Patient is critically ill<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 56-year-old male admitted to the MICU for presumed EtOH withdrawal, intubated for agitation and hypoxemic respiratory failure. The patient has a history of EtOH abuse and bilateral mandibular fracture sustained from a fall onto his face while intoxicated.
+
+The patient's current condition is stable, with controlled blood sugar levels and adequate fluid management. However, there are several potential medical complications that need to be addressed:
+
+1. Hypoxemic respiratory failure: The patient's FiO2 and PEEP settings need to be weaned as tolerated, and a possible PSV trial may be considered later today. The patient's CXR shows a RLL infiltrate, which may indicate aspiration pneumonia or a R-sided pleural effusion.
+2. Aspiration pneumonia: The patient is at risk for developing aspiration pneumonia due to his intubation and potential aspiration of gastric contents. The patient's antibiotics have been changed to cover for this possibility, and a CT chest may be helpful to further define the extent of any effusion or infiltrate.
+3. EtOH withdrawal: The patient is currently stable on Versed and fentanyl, but his EtOH withdrawal symptoms need to be closely monitored. He requires daily MVI, folate, and thiamine supplementation, and a social worker consult may be necessary once he is extubated and more alert.
+4. Anemia: The patient's anemia may be related to his fall and fracture, as well as potential dilutional anemia from fluid administration. A CT torso may be necessary to evaluate for occult bleeding in the setting of prior trauma, and his Hct levels should be trended.
+5. Bilateral mandible fracture: The patient's bilateral mandible fracture requires further evaluation and management. Surgery may be necessary, but it is recommended to defer surgery for now due to the patient's active EtOH withdrawal.
+6. Fall: The patient's fall may be related to EtOH intoxication, but syncope cannot be ruled out. An EEG and TTE may be necessary once the patient is more stabilized.
+7. DVT prophylaxis: The patient is at risk for developing DVT and requires SQ UF heparin prophylaxis.
+8. Stress ulcer prophylaxis: The patient is at risk for developing stress ulcers and requires H2 blocker prophylaxis.
+9. VAP prophylaxis: The patient is at risk for developing VAP and requires HOB elevation, mouth care, daily wake-up, and RSBI.
+
+In summary, the patient is critically ill and requires close monitoring and management of his various medical complications."

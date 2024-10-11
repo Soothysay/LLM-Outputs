@@ -1,0 +1,3076 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+179721.0,277705,2161-03-23 06:31:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ FEVER - 102.0
+F - [**2161-3-22**] 08:00 PM
+ CALLED OUT
+   Allergies:
+   Lasix (Oral) (Furosemide)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2161-3-21**] 08:30 AM
+   Cefipime - [**2161-3-22**] 11:50 PM
+   Infusions:
+   Other ICU medications:
+   Diazepam (Valium) - [**2161-3-22**] 09:12 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-3-23**] 06:31 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.9
+C (102
+   Tcurrent: 38.5
+C (101.3
+   HR: 103 (103 - 154) bpm
+   BP: 113/55(70) {103/50(69) - 153/78(97)} mmHg
+   RR: 19 (17 - 34) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 68 Inch
+             Total In:
+                                                                  1,507 mL
+                                                                  1,307 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,507 mL
+                                                                  1,307 mL
+   Blood products:
+   Total out:
+                                                                    440 mL
+                                                                  1,330 mL
+   Urine:
+                                                                    440 mL
+                                                                  1,330 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,067 mL
+                                                                    -23 mL
+   Respiratory support
+   SpO2: 95%
+   ABG: ///23/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   64 K/uL
+   8.2 g/dL
+   119 mg/dL
+   0.5 mg/dL
+   23 mEq/L
+   3.1 mEq/L
+   4 mg/dL
+   105 mEq/L
+   136 mEq/L
+   24.0 %
+   1.2 K/uL
+        [image002.jpg]
+                             [**2161-3-19**]  09:03 PM
+                             [**2161-3-20**]  03:10 AM
+                             [**2161-3-20**]  05:16 AM
+                             [**2161-3-20**]  09:57 AM
+                             [**2161-3-20**]  01:45 PM
+                             [**2161-3-20**]  05:56 PM
+                             [**2161-3-21**]  02:03 AM
+                             [**2161-3-21**]  09:46 AM
+                             [**2161-3-22**]  11:42 PM
+                             [**2161-3-23**]  05:36 AM
+   WBC
+   4.1
+   3.1
+   3.0
+   1.4
+   1.2
+   Hct
+   20.5
+   22.4
+   22.8
+   23.9
+   24.1
+   23.3
+   24.8
+   24.0
+   Plt
+   28
+   48
+   37
+   64
+   64
+   Cr
+   0.9
+   0.9
+   0.8
+   0.8
+   0.7
+   0.7
+   0.7
+   0.5
+   Glucose
+   146
+   131
+   121
+   147
+   127
+   121
+   112
+   120
+   119
+   Other labs: PT / PTT / INR:18.9/33.7/1.7, ALT / AST:49/103, Alk Phos /
+   T Bili:146/1.9, Amylase / Lipase:/226, Differential-Neuts:55.3 %,
+   Lymph:20.2 %, Mono:23.0 %, Eos:0.4 %, Lactic Acid:1.1 mmol/L,
+   Albumin:2.9 g/dL, LDH:215 IU/L, Ca++:7.7 mg/dL, Mg++:1.9 mg/dL, PO4:2.2
+   mg/dL
+   Assessment and Plan
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN)
+ ELECTROLYTE & FLUID DISORDER, OTHER
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+ TACHYCARDIA, OTHER
+ HYPOPHOSPHATEMIA (LOW PHOSPHATE)
+ ALCOHOL ABUSE
+ CIRRHOSIS OF LIVER, ALCOHOLIC
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-3-22**] 08:48 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ FEVER - 102.0
+F - [**2161-3-22**] 08:00 PM
+ CALLED OUT
+   Allergies:
+   Lasix (Oral) (Furosemide)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2161-3-21**] 08:30 AM
+   Cefipime - [**2161-3-22**] 11:50 PM
+   Infusions:
+   Other ICU medications:
+   Diazepam (Valium) - [**2161-3-22**] 09:12 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-3-23**] 06:31 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.9
+C (102
+   Tcurrent: 38.5
+C (101.3
+   HR: 103 (103 - 154) bpm
+   BP: 113/55(70) {103/50(69) - 153/78(97)} mmHg
+   RR: 19 (17 - 34) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 68 Inch
+             Total In:
+                                                                  1,507 mL
+                                                                  1,307 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,507 mL
+                                                                  1,307 mL
+   Blood products:
+   Total out:
+                                                                    440 mL
+                                                                  1,330 mL
+   Urine:
+                                                                    440 mL
+                                                                  1,330 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,067 mL
+                                                                    -23 mL
+   Respiratory support
+   SpO2: 95%
+   ABG: ///23/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   64 K/uL
+   8.2 g/dL
+   119 mg/dL
+   0.5 mg/dL
+   23 mEq/L
+   3.1 mEq/L
+   4 mg/dL
+   105 mEq/L
+   136 mEq/L
+   24.0 %
+   1.2 K/uL
+        [image002.jpg]
+                             [**2161-3-19**]  09:03 PM
+                             [**2161-3-20**]  03:10 AM
+                             [**2161-3-20**]  05:16 AM
+                             [**2161-3-20**]  09:57 AM
+                             [**2161-3-20**]  01:45 PM
+                             [**2161-3-20**]  05:56 PM
+                             [**2161-3-21**]  02:03 AM
+                             [**2161-3-21**]  09:46 AM
+                             [**2161-3-22**]  11:42 PM
+                             [**2161-3-23**]  05:36 AM
+   WBC
+   4.1
+   3.1
+   3.0
+   1.4
+   1.2
+   Hct
+   20.5
+   22.4
+   22.8
+   23.9
+   24.1
+   23.3
+   24.8
+   24.0
+   Plt
+   28
+   48
+   37
+   64
+   64
+   Cr
+   0.9
+   0.9
+   0.8
+   0.8
+   0.7
+   0.7
+   0.7
+   0.5
+   Glucose
+   146
+   131
+   121
+   147
+   127
+   121
+   112
+   120
+   119
+   Other labs: PT / PTT / INR:18.9/33.7/1.7, ALT / AST:49/103, Alk Phos /
+   T Bili:146/1.9, Amylase / Lipase:/226, Differential-Neuts:55.3 %,
+   Lymph:20.2 %, Mono:23.0 %, Eos:0.4 %, Lactic Acid:1.1 mmol/L,
+   Albumin:2.9 g/dL, LDH:215 IU/L, Ca++:7.7 mg/dL, Mg++:1.9 mg/dL, PO4:2.2
+   mg/dL
+   Assessment and Plan
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN)
+ ELECTROLYTE & FLUID DISORDER, OTHER
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+ TACHYCARDIA, OTHER
+ HYPOPHOSPHATEMIA (LOW PHOSPHATE)
+ ALCOHOL ABUSE
+ CIRRHOSIS OF LIVER, ALCOHOLIC
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-3-22**] 08:48 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 68-inch tall individual who has been admitted to the Intensive Care Unit (ICU) with a fever of 102.0°F (38.9°C) and tachycardia. The patient has a history of alcohol abuse and cirrhosis of the liver. The patient has received various medications, including antibiotics, and has undergone infusions of fluids and medications.
+
+The patient's vital signs are as follows:
+
+* Temperature: 102.0°F (38.9°C)
+* Heart rate: 103 beats per minute (bpm)
+* Blood pressure: 113/55 mmHg
+* Respiratory rate: 19 inspirations per minute (insp/min)
+* Oxygen saturation: 95%
+* Heart rhythm: Sinus rhythm
+
+The patient's laboratory results are as follows:
+
+* White blood cell count: 4.1 x 10^9/L
+* Hemoglobin: 8.2 g/dL
+* Platelet count: 28 x 10^9/L
+* Creatinine: 0.9 mg/dL
+* Glucose: 146 mg/dL
+* Electrolyte levels: sodium: 119 mg/dL, potassium: 23 mEq/L, chloride: 105 mEq/L, and phosphorus: 0.5 mg/dL
+
+The patient has a diagnosis of fever, electrolyte and fluid disorder, gastrointestinal bleeding, tachycardia, and hypophosphatemia. The patient is also at risk for development of ventilator-associated pneumonia (VAP) and stress ulcer.
+
+Potential medical complications that can arise from the patient's condition include:
+
+* Sepsis and septic shock due to the patient's fever and tachycardia
+* Respiratory failure due to the patient's tachypnea and low oxygen saturation
+* Cardiac arrhythmias due to the patient's tachycardia and electrolyte imbalance
+* Hepatic encephalopathy due to the patient's cirrhosis and electrolyte imbalance
+* Renal failure due to the patient's hypophosphatemia and electrolyte imbalance
+* Gastrointestinal bleeding due to the patient's coagulopathy and electrolyte imbalance
+* VAP due to the patient's prolonged mechanical ventilation and risk factors for VAP development"
+179721.0,277705,2161-03-24 07:08:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Echo: dilated and hypokinetic right ventricle with sparing of the
+   apex. Normal regional and global left ventricular systolic function.
+   - CTA done as Echo raised suspicion of PE: no PE although limited by
+   motion. Numerous pulmonary nodules.
+   - Found to have 2/2 bottles Staph aureus bacteremia; T max 101.8
+   overnight, blood cultures drawn again.
+   - Start Nadolol tomorrow (unable to initiate today due to low-normal
+   BPs).
+   Allergies:
+   Lasix (Oral) (Furosemide)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2161-3-21**] 08:30 AM
+   Vancomycin - [**2161-3-23**] 08:51 PM
+   Cefipime - [**2161-3-24**] 02:16 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2161-3-23**] 08:16 AM
+   Carafate (Sucralfate) - [**2161-3-23**] 10:20 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-3-24**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.8
+C (101.8
+   Tcurrent: 37.7
+C (99.9
+   HR: 98 (94 - 121) bpm
+   BP: 108/58(69) {100/39(53) - 138/100(110)} mmHg
+   RR: 17 (15 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 68 Inch
+             Total In:
+                                                                  3,682 mL
+                                                                    250 mL
+   PO:
+                                                                  1,540 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,142 mL
+                                                                    130 mL
+   Blood products:
+   Total out:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   Urine:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -468 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   83 K/uL
+   9.6 g/dL
+   107 mg/dL
+   0.7 mg/dL
+   25 mEq/L
+   3.9 mEq/L
+   4 mg/dL
+   104 mEq/L
+   136 mEq/L
+   28.7 %
+   1.7 K/uL
+        [image002.jpg]
+                             [**2161-3-20**]  09:57 AM
+                             [**2161-3-20**]  01:45 PM
+                             [**2161-3-20**]  05:56 PM
+                             [**2161-3-21**]  02:03 AM
+                             [**2161-3-21**]  09:46 AM
+                             [**2161-3-22**]  11:42 PM
+                             [**2161-3-23**]  05:36 AM
+                             [**2161-3-23**]  03:03 PM
+                             [**2161-3-23**]  03:04 PM
+                             [**2161-3-24**]  01:01 AM
+   WBC
+   3.0
+   1.4
+   1.2
+   1.7
+   Hct
+   22.8
+   23.9
+   24.1
+   23.3
+   24.8
+   24.0
+   25.2
+   28.7
+   Plt
+   37
+   64
+   64
+   83
+   Cr
+   0.8
+   0.7
+   0.7
+   0.7
+   0.5
+   0.5
+   0.7
+   Glucose
+   147
+   127
+   121
+   112
+   120
+   119
+   118
+   107
+   Other labs: PT / PTT / INR:17.9/31.0/1.6, ALT / AST:52/92, Alk Phos / T
+   Bili:189/1.7, Amylase / Lipase:/226, Differential-Neuts:60.0 %,
+   Band:8.0 %, Lymph:22.0 %, Mono:8.0 %, Eos:0.0 %, Lactic Acid:1.1
+   mmol/L, Albumin:3.2 g/dL, LDH:215 IU/L, Ca++:8.1 mg/dL, Mg++:1.8 mg/dL,
+   PO4:2.2 mg/dL
+   Assessment and Plan
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN)
+ ELECTROLYTE & FLUID DISORDER, OTHER
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+ TACHYCARDIA, OTHER
+ HYPOPHOSPHATEMIA (LOW PHOSPHATE)
+ ALCOHOL ABUSE
+ CIRRHOSIS OF LIVER, ALCOHOLIC
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-3-22**] 08:47 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Echo: dilated and hypokinetic right ventricle with sparing of the
+   apex. Normal regional and global left ventricular systolic function.
+   - CTA done as Echo raised suspicion of PE: no PE although limited by
+   motion. Numerous pulmonary nodules.
+   - Found to have 2/2 bottles Staph aureus bacteremia; T max 101.8
+   overnight, blood cultures drawn again.
+   - Start Nadolol tomorrow (unable to initiate today due to low-normal
+   BPs).
+   Allergies:
+   Lasix (Oral) (Furosemide)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2161-3-21**] 08:30 AM
+   Vancomycin - [**2161-3-23**] 08:51 PM
+   Cefipime - [**2161-3-24**] 02:16 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2161-3-23**] 08:16 AM
+   Carafate (Sucralfate) - [**2161-3-23**] 10:20 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-3-24**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.8
+C (101.8
+   Tcurrent: 37.7
+C (99.9
+   HR: 98 (94 - 121) bpm
+   BP: 108/58(69) {100/39(53) - 138/100(110)} mmHg
+   RR: 17 (15 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 68 Inch
+             Total In:
+                                                                  3,682 mL
+                                                                    250 mL
+   PO:
+                                                                  1,540 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,142 mL
+                                                                    130 mL
+   Blood products:
+   Total out:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   Urine:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -468 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   83 K/uL
+   9.6 g/dL
+   107 mg/dL
+   0.7 mg/dL
+   25 mEq/L
+   3.9 mEq/L
+   4 mg/dL
+   104 mEq/L
+   136 mEq/L
+   28.7 %
+   1.7 K/uL
+        [image002.jpg]
+                             [**2161-3-20**]  09:57 AM
+                             [**2161-3-20**]  01:45 PM
+                             [**2161-3-20**]  05:56 PM
+                             [**2161-3-21**]  02:03 AM
+                             [**2161-3-21**]  09:46 AM
+                             [**2161-3-22**]  11:42 PM
+                             [**2161-3-23**]  05:36 AM
+                             [**2161-3-23**]  03:03 PM
+                             [**2161-3-23**]  03:04 PM
+                             [**2161-3-24**]  01:01 AM
+   WBC
+   3.0
+   1.4
+   1.2
+   1.7
+   Hct
+   22.8
+   23.9
+   24.1
+   23.3
+   24.8
+   24.0
+   25.2
+   28.7
+   Plt
+   37
+   64
+   64
+   83
+   Cr
+   0.8
+   0.7
+   0.7
+   0.7
+   0.5
+   0.5
+   0.7
+   Glucose
+   147
+   127
+   121
+   112
+   120
+   119
+   118
+   107
+   Other labs: PT / PTT / INR:17.9/31.0/1.6, ALT / AST:52/92, Alk Phos / T
+   Bili:189/1.7, Amylase / Lipase:/226, Differential-Neuts:60.0 %,
+   Band:8.0 %, Lymph:22.0 %, Mono:8.0 %, Eos:0.0 %, Lactic Acid:1.1
+   mmol/L, Albumin:3.2 g/dL, LDH:215 IU/L, Ca++:8.1 mg/dL, Mg++:1.8 mg/dL,
+   PO4:2.2 mg/dL
+   Assessment and Plan
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN)
+ ELECTROLYTE & FLUID DISORDER, OTHER
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+ TACHYCARDIA, OTHER
+ HYPOPHOSPHATEMIA (LOW PHOSPHATE)
+ ALCOHOL ABUSE
+ CIRRHOSIS OF LIVER, ALCOHOLIC
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-3-22**] 08:47 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 68-inch tall individual admitted to the ICU with a chief complaint of fever, bacteremia, and pulmonary nodules. The patient's 24-hour events include an echocardiogram showing dilated and hypokinetic right ventricle with sparing of the apex, as well as numerous pulmonary nodules on a computed tomography angiogram (CTA). The patient has been diagnosed with Staphylococcus aureus bacteremia and has been started on antibiotics. The patient's vital signs include a temperature of 101.8°F (38.8°C), blood pressure of 108/58 mmHg, heart rate of 98 beats per minute, and respiratory rate of 17 breaths per minute.
+
+The patient's laboratory results show a white blood cell count of 3.0 K/μL, hemoglobin of 9.6 g/dL, and platelet count of 83 K/μL. The patient's electrolyte levels are abnormal, with potassium at 4.1 mEq/L, sodium at 136 mEq/L, and phosphorus at 1.7 mg/dL. The patient's liver function tests are abnormal, with an aspartate aminotransferase (AST) of 92 IU/L and an alanine aminotransferase (ALT) of 52 IU/L.
+
+Potential medical complications:
+
+1. Sepsis: The patient's bacteremia and elevated temperature may indicate the development of sepsis, a life-threatening condition that requires prompt recognition and treatment.
+2. Cardiac complications: The patient's echocardiogram showed dilated and hypokinetic right ventricle, which may indicate cardiac dysfunction. This could lead to cardiac failure, arrhythmias, or even cardiac arrest.
+3. Pulmonary complications: The patient's pulmonary nodules on the CTA may indicate lung disease, which could lead to respiratory failure, pneumonia, or other complications.
+4. Electrolyte imbalances: The patient's abnormal electrolyte levels, particularly hypophosphatemia, may require correction to prevent complications such as muscle weakness, cardiac arrhythmias, or respiratory failure.
+5. Liver dysfunction: The patient's abnormal liver function tests may indicate liver damage or dysfunction, which could lead to complications such as encephalopathy, bleeding, or jaundice.
+6. Gastrointestinal bleeding: The patient's melena may indicate gastrointestinal bleeding, which could lead to anemia, hypovolemic shock, or other complications.
+7. Tachycardia: The patient's elevated heart rate may indicate cardiac stress or instability, which could lead to cardiac arrhythmias, heart failure, or other complications.
+
+It is essential to closely monitor the patient's condition and adjust treatment accordingly to prevent these potential complications and ensure the patient's overall well-being."
+179721.0,277705,2161-03-24 07:08:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Echo: dilated and hypokinetic right ventricle with sparing of the
+   apex. Normal regional and global left ventricular systolic function.
+   - CTA done as Echo raised suspicion of PE: no PE although limited by
+   motion. Numerous pulmonary nodules.
+   - Found to have 2/2 bottles Staph aureus bacteremia; T max 101.8
+   overnight, blood cultures drawn again.
+   - Start Nadolol tomorrow (unable to initiate today due to low-normal
+   BPs).
+   Allergies:
+   Lasix (Oral) (Furosemide)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2161-3-21**] 08:30 AM
+   Vancomycin - [**2161-3-23**] 08:51 PM
+   Cefipime - [**2161-3-24**] 02:16 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2161-3-23**] 08:16 AM
+   Carafate (Sucralfate) - [**2161-3-23**] 10:20 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-3-24**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.8
+C (101.8
+   Tcurrent: 37.7
+C (99.9
+   HR: 98 (94 - 121) bpm
+   BP: 108/58(69) {100/39(53) - 138/100(110)} mmHg
+   RR: 17 (15 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 68 Inch
+             Total In:
+                                                                  3,682 mL
+                                                                    250 mL
+   PO:
+                                                                  1,540 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,142 mL
+                                                                    130 mL
+   Blood products:
+   Total out:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   Urine:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -468 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: No(t) Well nourished, No(t) No acute distress,
+   Anxious, Diaphoretic
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic, Poor dentition, No(t)
+   Endotracheal tube
+   Cardiovascular: (S1: Normal), (S2: Normal), No(t) S3, No(t) S4, No(t)
+   Rub
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds:
+   Diminished: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent, RUE with erythema, no
+   fluctuance at prior IV site
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): x2-3, confused about month, Movement: Not
+   assessed, Tone: Not assessed, 4+ b/l LE weakness greater in distal
+   muscle groups
+   Labs / Radiology
+   83 K/uL
+   9.6 g/dL
+   107 mg/dL
+   0.7 mg/dL
+   25 mEq/L
+   3.9 mEq/L
+   4 mg/dL
+   104 mEq/L
+   136 mEq/L
+   28.7 %
+   1.7 K/uL
+        [image002.jpg]
+                             [**2161-3-20**]  09:57 AM
+                             [**2161-3-20**]  01:45 PM
+                             [**2161-3-20**]  05:56 PM
+                             [**2161-3-21**]  02:03 AM
+                             [**2161-3-21**]  09:46 AM
+                             [**2161-3-22**]  11:42 PM
+                             [**2161-3-23**]  05:36 AM
+                             [**2161-3-23**]  03:03 PM
+                             [**2161-3-23**]  03:04 PM
+                             [**2161-3-24**]  01:01 AM
+   WBC
+   3.0
+   1.4
+   1.2
+   1.7
+   Hct
+   22.8
+   23.9
+   24.1
+   23.3
+   24.8
+   24.0
+   25.2
+   28.7
+   Plt
+   37
+   64
+   64
+   83
+   Cr
+   0.8
+   0.7
+   0.7
+   0.7
+   0.5
+   0.5
+   0.7
+   Glucose
+   147
+   127
+   121
+   112
+   120
+   119
+   118
+   107
+   Other labs: PT / PTT / INR:17.9/31.0/1.6, ALT / AST:52/92, Alk Phos / T
+   Bili:189/1.7, Amylase / Lipase:/226, Differential-Neuts:60.0 %,
+   Band:8.0 %, Lymph:22.0 %, Mono:8.0 %, Eos:0.0 %, Lactic Acid:1.1
+   mmol/L, Albumin:3.2 g/dL, LDH:215 IU/L, Ca++:8.1 mg/dL, Mg++:1.8 mg/dL,
+   PO4:2.2 mg/dL
+   Assessment and Plan
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN)
+ ELECTROLYTE & FLUID DISORDER, OTHER
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+ TACHYCARDIA, OTHER
+ HYPOPHOSPHATEMIA (LOW PHOSPHATE)
+ ALCOHOL ABUSE
+ CIRRHOSIS OF LIVER, ALCOHOLIC
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-3-22**] 08:47 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Echo: dilated and hypokinetic right ventricle with sparing of the
+   apex. Normal regional and global left ventricular systolic function.
+   - CTA done as Echo raised suspicion of PE: no PE although limited by
+   motion. Numerous pulmonary nodules.
+   - Found to have 2/2 bottles Staph aureus bacteremia; T max 101.8
+   overnight, blood cultures drawn again.
+   - Start Nadolol tomorrow (unable to initiate today due to low-normal
+   BPs).
+   Allergies:
+   Lasix (Oral) (Furosemide)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2161-3-21**] 08:30 AM
+   Vancomycin - [**2161-3-23**] 08:51 PM
+   Cefipime - [**2161-3-24**] 02:16 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2161-3-23**] 08:16 AM
+   Carafate (Sucralfate) - [**2161-3-23**] 10:20 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-3-24**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.8
+C (101.8
+   Tcurrent: 37.7
+C (99.9
+   HR: 98 (94 - 121) bpm
+   BP: 108/58(69) {100/39(53) - 138/100(110)} mmHg
+   RR: 17 (15 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 68 Inch
+             Total In:
+                                                                  3,682 mL
+                                                                    250 mL
+   PO:
+                                                                  1,540 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,142 mL
+                                                                    130 mL
+   Blood products:
+   Total out:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   Urine:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -468 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: No(t) Well nourished, No(t) No acute distress,
+   Anxious, Diaphoretic
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic, Poor dentition, No(t)
+   Endotracheal tube
+   Cardiovascular: (S1: Normal), (S2: Normal), No(t) S3, No(t) S4, No(t)
+   Rub
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds:
+   Diminished: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent, RUE with erythema, no
+   fluctuance at prior IV site
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): x2-3, confused about month, Movement: Not
+   assessed, Tone: Not assessed, 4+ b/l LE weakness greater in distal
+   muscle groups
+   Labs / Radiology
+   83 K/uL
+   9.6 g/dL
+   107 mg/dL
+   0.7 mg/dL
+   25 mEq/L
+   3.9 mEq/L
+   4 mg/dL
+   104 mEq/L
+   136 mEq/L
+   28.7 %
+   1.7 K/uL
+        [image002.jpg]
+                             [**2161-3-20**]  09:57 AM
+                             [**2161-3-20**]  01:45 PM
+                             [**2161-3-20**]  05:56 PM
+                             [**2161-3-21**]  02:03 AM
+                             [**2161-3-21**]  09:46 AM
+                             [**2161-3-22**]  11:42 PM
+                             [**2161-3-23**]  05:36 AM
+                             [**2161-3-23**]  03:03 PM
+                             [**2161-3-23**]  03:04 PM
+                             [**2161-3-24**]  01:01 AM
+   WBC
+   3.0
+   1.4
+   1.2
+   1.7
+   Hct
+   22.8
+   23.9
+   24.1
+   23.3
+   24.8
+   24.0
+   25.2
+   28.7
+   Plt
+   37
+   64
+   64
+   83
+   Cr
+   0.8
+   0.7
+   0.7
+   0.7
+   0.5
+   0.5
+   0.7
+   Glucose
+   147
+   127
+   121
+   112
+   120
+   119
+   118
+   107
+   Other labs: PT / PTT / INR:17.9/31.0/1.6, ALT / AST:52/92, Alk Phos / T
+   Bili:189/1.7, Amylase / Lipase:/226, Differential-Neuts:60.0 %,
+   Band:8.0 %, Lymph:22.0 %, Mono:8.0 %, Eos:0.0 %, Lactic Acid:1.1
+   mmol/L, Albumin:3.2 g/dL, LDH:215 IU/L, Ca++:8.1 mg/dL, Mg++:1.8 mg/dL,
+   PO4:2.2 mg/dL
+   Assessment and Plan
+ FEVER (HYPERTHERMIA, PYREXIA, NOT FEVER OF UNKNOWN ORIGIN)
+ ELECTROLYTE & FLUID DISORDER, OTHER
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+ TACHYCARDIA, OTHER
+ HYPOPHOSPHATEMIA (LOW PHOSPHATE)
+ ALCOHOL ABUSE
+ CIRRHOSIS OF LIVER, ALCOHOLIC
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-3-22**] 08:47 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 68-inch tall individual with a weight not specified, admitted to the ICU with a chief complaint of fever, bacteremia, and pulmonary nodules. The patient has a history of alcohol abuse and cirrhosis of the liver.
+
+The patient's 24-hour events include an echocardiogram showing dilated and hypokinetic right ventricle with sparing of the apex, and numerous pulmonary nodules on computed tomography angiography (CTA). The patient was found to have Staph aureus bacteremia, and blood cultures were drawn again. The patient's temperature peaked at 101.8°C overnight.
+
+The patient's vital signs are as follows:
+
+* Temperature: 37.7°C
+* Heart rate: 98 bpm
+* Blood pressure: 108/58 mmHg
+* Respiratory rate: 17 inspirations per minute
+* SpO2: 98%
+* Heart rhythm: Sinus rhythm
+
+The patient's physical examination reveals:
+
+* General appearance: Not well-nourished, anxious, and diaphoretic
+* Eyes and conjunctiva: PERRL (pupils equal and reactive to light)
+* Cardiovascular: Normal S1 and S2 heart sounds, no S3 or S4, no rub
+* Peripheral vascular: Present radial and digital pulses on both sides
+* Respiratory: Symmetric chest expansion, diminished breath sounds
+* Abdominal: Soft, non-tender, and bowel sounds present
+* Extremities: Right arm and leg erythema, no fluctuance at prior IV site
+* Skin: Not assessed
+* Neurologic: Attentive, follows simple commands, and oriented to person and place
+
+Laboratory results show:
+
+* White blood cell count: 3.0 K/uL
+* Hemoglobin: 9.6 g/dL
+* Platelet count: 37 K/uL
+* Blood urea nitrogen: 25 mEq/L
+* Creatinine: 0.7 mg/dL
+* Glucose: 147 mg/dL
+* Electrolyte levels: Normal
+* Liver function tests: Elevated ALT and AST
+* Amylase and lipase: Normal
+* Lactic acid: 1.1 mmol/L
+* Albumin: 3.2 g/dL
+* LDH: 215 IU/L
+* Calcium: 8.1 mg/dL
+* Magnesium: 1.8 mg/dL
+* Phosphorus: 2.2 mg/dL
+
+The patient's medical complications include:
+
+1. Fever: Hypothermia, pyrexia, and electrolyte imbalance
+2. Electrolyte and fluid disorder
+3. Gastrointestinal bleeding (melena, GI bleed, GIB)
+4. Tachycardia
+5. Hypophosphatemia (low phosphate)
+6. Alcoholic liver disease
+7. Cirrhosis of the liver
+
+The patient's ICU care includes:
+
+1. Nutrition: Glycemic control
+2. Lines: 18-gauge line inserted
+3. Prophylaxis: DVT, stress ulcer, and VAP
+4. Comments: Communication and code status
+
+The patient's disposition is not specified."
+179721.0,277705,2161-03-24 07:08:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Echo: dilated and hypokinetic right ventricle with sparing of the
+   apex. Normal regional and global left ventricular systolic function.
+   - CTA done as Echo raised suspicion of PE: no PE although limited by
+   motion. Numerous pulmonary nodules.
+   - Found to have 2/2 bottles Staph aureus bacteremia; T max 101.8
+   overnight, blood cultures drawn again.
+   - Start Nadolol tomorrow (unable to initiate today due to low-normal
+   BPs).
+   Allergies:
+   Lasix (Oral) (Furosemide)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2161-3-21**] 08:30 AM
+   Vancomycin - [**2161-3-23**] 08:51 PM
+   Cefipime - [**2161-3-24**] 02:16 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2161-3-23**] 08:16 AM
+   Carafate (Sucralfate) - [**2161-3-23**] 10:20 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-3-24**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.8
+C (101.8
+   Tcurrent: 37.7
+C (99.9
+   HR: 98 (94 - 121) bpm
+   BP: 108/58(69) {100/39(53) - 138/100(110)} mmHg
+   RR: 17 (15 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 68 Inch
+             Total In:
+                                                                  3,682 mL
+                                                                    250 mL
+   PO:
+                                                                  1,540 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,142 mL
+                                                                    130 mL
+   Blood products:
+   Total out:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   Urine:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -468 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: No(t) Well nourished, No(t) No acute distress,
+   Anxious, Diaphoretic
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic, Poor dentition, No(t)
+   Endotracheal tube
+   Cardiovascular: (S1: Normal), (S2: Normal), No(t) S3, No(t) S4, No(t)
+   Rub
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds:
+   Diminished: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent, RUE with erythema, no
+   fluctuance at prior IV site
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): x2-3, confused about month, Movement: Not
+   assessed, Tone: Not assessed, 4+ b/l LE weakness greater in distal
+   muscle groups
+   Labs / Radiology
+   83 K/uL
+   9.6 g/dL
+   107 mg/dL
+   0.7 mg/dL
+   25 mEq/L
+   3.9 mEq/L
+   4 mg/dL
+   104 mEq/L
+   136 mEq/L
+   28.7 %
+   1.7 K/uL
+        [image002.jpg]
+                             [**2161-3-20**]  09:57 AM
+                             [**2161-3-20**]  01:45 PM
+                             [**2161-3-20**]  05:56 PM
+                             [**2161-3-21**]  02:03 AM
+                             [**2161-3-21**]  09:46 AM
+                             [**2161-3-22**]  11:42 PM
+                             [**2161-3-23**]  05:36 AM
+                             [**2161-3-23**]  03:03 PM
+                             [**2161-3-23**]  03:04 PM
+                             [**2161-3-24**]  01:01 AM
+   WBC
+   3.0
+   1.4
+   1.2
+   1.7
+   Hct
+   22.8
+   23.9
+   24.1
+   23.3
+   24.8
+   24.0
+   25.2
+   28.7
+   Plt
+   37
+   64
+   64
+   83
+   Cr
+   0.8
+   0.7
+   0.7
+   0.7
+   0.5
+   0.5
+   0.7
+   Glucose
+   147
+   127
+   121
+   112
+   120
+   119
+   118
+   107
+   Other labs: PT / PTT / INR:17.9/31.0/1.6, ALT / AST:52/92, Alk Phos / T
+   Bili:189/1.7, Amylase / Lipase:/226, Differential-Neuts:60.0 %,
+   Band:8.0 %, Lymph:22.0 %, Mono:8.0 %, Eos:0.0 %, Lactic Acid:1.1
+   mmol/L, Albumin:3.2 g/dL, LDH:215 IU/L, Ca++:8.1 mg/dL, Mg++:1.8 mg/dL,
+   PO4:2.2 mg/dL
+   Assessment and Plan
+   This is a 49 y/o M w/ h/o etoh cirrhosis with multiple previous
+   admissions for UGIB [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **] tear's, and esophagitis now
+   represents with hematemsis [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **], but with persistent
+   tachycardia and fever of unclear etiology.
+   .
+   # Fever: No localizing source at this time.  Patient has a h/o mild
+   pancytopenia in past, but most recent counts are off baseline.  This
+   could suggest sequestration [**2-23**] to liver disease, acute viral
+   infection, or malignancy.  Less likely would be medication effect.
+   Un-evaluated sources include CNS infection, sinusitis, or prostatitis.
+   - Check ANC and cover with vanc/cefepime if neutropenia
+   - Check HIV, hepatitis serologies
+   - Pan culture
+   - Trend WBC count.
+   - Consider LP in AM.
+   - Echo given persistent fevers and +blood cultures
+   - continue to trend lactate
+   .
+   # Tachycardia: Differential includes sepsis, PE, etoh withdrawal,
+   hyperthyroid, fever, beri-beri, pain, anxiety and less likely
+   GIB/hypovolemia.  Had been on beta-blocker as outpatient so would
+   consider beta-blocker withdrawal as well.
+   - 500cc NS bolus now
+   - 5mg IV diazepam now
+   - q3H CIWA with ativan overnight
+   - trend HCT
+   - continue carafate
+   - check TSH
+   - CTA chest.
+   - follow UOP which currently is at goal.
+   - consider restart nadolol given possible beta-blocker withdrawal and
+   patient remains hypertensive, concern for bleeding is low.
+   .
+   # Upper GI Bleed: [**2-23**] to severe erosive esophagitis
+   - Continue carafate, PPI
+   - check Hct now and trend [**Hospital1 **] for now
+   - Active type and screen
+   .
+   # Etoh Cirrhosis: consider restart nadolol.  10mg IV diazepam given in
+   ED.  Continue lactulose.
+   - CIWA scale with ativan given liver disease.
+   - trend LFT's
+   .
+   # Weakness: Effecting distal muscle groups more than proximal
+   suggesting neuropathy.  Check B12, TSH, and continue folate/thiamine.
+   - consider EMG/NCS and neuro consult
+   - check CK
+   .
+   # Hyponatremia: Unlikely hypovolemic.  will volume challenge and then
+   send urine lytes.
+   .
+   # Depression: Restart celexa/seroquel
+   .
+   # FEN: IVF, blood, replete electrolytes, NPO after 12am
+   .
+   # Prophylaxis: pneumoboots
+   .
+   # Access: peripherals with 2x 18guage
+   .
+   # Code: full
+   .
+   # Communication: Patient
+   .
+   # Disposition: pending above
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-3-22**] 08:47 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Echo: dilated and hypokinetic right ventricle with sparing of the
+   apex. Normal regional and global left ventricular systolic function.
+   - CTA done as Echo raised suspicion of PE: no PE although limited by
+   motion. Numerous pulmonary nodules.
+   - Found to have 2/2 bottles Staph aureus bacteremia; T max 101.8
+   overnight, blood cultures drawn again.
+   - Start Nadolol tomorrow (unable to initiate today due to low-normal
+   BPs).
+   Allergies:
+   Lasix (Oral) (Furosemide)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2161-3-21**] 08:30 AM
+   Vancomycin - [**2161-3-23**] 08:51 PM
+   Cefipime - [**2161-3-24**] 02:16 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2161-3-23**] 08:16 AM
+   Carafate (Sucralfate) - [**2161-3-23**] 10:20 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-3-24**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.8
+C (101.8
+   Tcurrent: 37.7
+C (99.9
+   HR: 98 (94 - 121) bpm
+   BP: 108/58(69) {100/39(53) - 138/100(110)} mmHg
+   RR: 17 (15 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 68 Inch
+             Total In:
+                                                                  3,682 mL
+                                                                    250 mL
+   PO:
+                                                                  1,540 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,142 mL
+                                                                    130 mL
+   Blood products:
+   Total out:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   Urine:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -468 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: No(t) Well nourished, No(t) No acute distress,
+   Anxious, Diaphoretic
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic, Poor dentition, No(t)
+   Endotracheal tube
+   Cardiovascular: (S1: Normal), (S2: Normal), No(t) S3, No(t) S4, No(t)
+   Rub
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds:
+   Diminished: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent, RUE with erythema, no
+   fluctuance at prior IV site
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): x2-3, confused about month, Movement: Not
+   assessed, Tone: Not assessed, 4+ b/l LE weakness greater in distal
+   muscle groups
+   Labs / Radiology
+   83 K/uL
+   9.6 g/dL
+   107 mg/dL
+   0.7 mg/dL
+   25 mEq/L
+   3.9 mEq/L
+   4 mg/dL
+   104 mEq/L
+   136 mEq/L
+   28.7 %
+   1.7 K/uL
+        [image002.jpg]
+                             [**2161-3-20**]  09:57 AM
+                             [**2161-3-20**]  01:45 PM
+                             [**2161-3-20**]  05:56 PM
+                             [**2161-3-21**]  02:03 AM
+                             [**2161-3-21**]  09:46 AM
+                             [**2161-3-22**]  11:42 PM
+                             [**2161-3-23**]  05:36 AM
+                             [**2161-3-23**]  03:03 PM
+                             [**2161-3-23**]  03:04 PM
+                             [**2161-3-24**]  01:01 AM
+   WBC
+   3.0
+   1.4
+   1.2
+   1.7
+   Hct
+   22.8
+   23.9
+   24.1
+   23.3
+   24.8
+   24.0
+   25.2
+   28.7
+   Plt
+   37
+   64
+   64
+   83
+   Cr
+   0.8
+   0.7
+   0.7
+   0.7
+   0.5
+   0.5
+   0.7
+   Glucose
+   147
+   127
+   121
+   112
+   120
+   119
+   118
+   107
+   Other labs: PT / PTT / INR:17.9/31.0/1.6, ALT / AST:52/92, Alk Phos / T
+   Bili:189/1.7, Amylase / Lipase:/226, Differential-Neuts:60.0 %,
+   Band:8.0 %, Lymph:22.0 %, Mono:8.0 %, Eos:0.0 %, Lactic Acid:1.1
+   mmol/L, Albumin:3.2 g/dL, LDH:215 IU/L, Ca++:8.1 mg/dL, Mg++:1.8 mg/dL,
+   PO4:2.2 mg/dL
+   Assessment and Plan
+   This is a 49 y/o M w/ h/o etoh cirrhosis with multiple previous
+   admissions for UGIB [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **] tear's, and esophagitis now
+   represents with hematemsis [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **], but with persistent
+   tachycardia and fever of unclear etiology.
+   .
+   # Fever: No localizing source at this time.  Patient has a h/o mild
+   pancytopenia in past, but most recent counts are off baseline.  This
+   could suggest sequestration [**2-23**] to liver disease, acute viral
+   infection, or malignancy.  Less likely would be medication effect.
+   Un-evaluated sources include CNS infection, sinusitis, or prostatitis.
+   - Check ANC and cover with vanc/cefepime if neutropenia
+   - Check HIV, hepatitis serologies
+   - Pan culture
+   - Trend WBC count.
+   - Consider LP in AM.
+   - Echo given persistent fevers and +blood cultures
+   - continue to trend lactate
+   .
+   # Tachycardia: Differential includes sepsis, PE, etoh withdrawal,
+   hyperthyroid, fever, beri-beri, pain, anxiety and less likely
+   GIB/hypovolemia.  Had been on beta-blocker as outpatient so would
+   consider beta-blocker withdrawal as well.
+   - 500cc NS bolus now
+   - 5mg IV diazepam now
+   - q3H CIWA with ativan overnight
+   - trend HCT
+   - continue carafate
+   - check TSH
+   - CTA chest.
+   - follow UOP which currently is at goal.
+   - consider restart nadolol given possible beta-blocker withdrawal and
+   patient remains hypertensive, concern for bleeding is low.
+   .
+   # Upper GI Bleed: [**2-23**] to severe erosive esophagitis
+   - Continue carafate, PPI
+   - check Hct now and trend [**Hospital1 **] for now
+   - Active type and screen
+   .
+   # Etoh Cirrhosis: consider restart nadolol.  10mg IV diazepam given in
+   ED.  Continue lactulose.
+   - CIWA scale with ativan given liver disease.
+   - trend LFT's
+   .
+   # Weakness: Effecting distal muscle groups more than proximal
+   suggesting neuropathy.  Check B12, TSH, and continue folate/thiamine.
+   - consider EMG/NCS and neuro consult
+   - check CK
+   .
+   # Hyponatremia: Unlikely hypovolemic.  will volume challenge and then
+   send urine lytes.
+   .
+   # Depression: Restart celexa/seroquel
+   .
+   # FEN: IVF, blood, replete electrolytes, NPO after 12am
+   .
+   # Prophylaxis: pneumoboots
+   .
+   # Access: peripherals with 2x 18guage
+   .
+   # Code: full
+   .
+   # Communication: Patient
+   .
+   # Disposition: pending above
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-3-22**] 08:47 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, here is a summary of the patient's condition and potential medical complications:
+
+**Current Condition:**
+
+* The patient is a 49-year-old male with a history of ethanol cirrhosis, multiple previous admissions for upper gastrointestinal bleeding (UGIB), and esophagitis.
+* He is currently admitted to the ICU with fever, tachycardia, and hematemesis of unclear etiology.
+* The patient has a dilated and hypokinetic right ventricle with sparing of the apex on echocardiogram, and numerous pulmonary nodules were seen on computed tomography angiography (CTA).
+* He has bacteremia with Staph aureus, and blood cultures were drawn again.
+* The patient is receiving various medications, including antibiotics, antacids, and sedatives.
+
+**Potential Medical Complications:**
+
+* Sepsis: Given the patient's fever, tachycardia, and bacteremia, there is a high risk of developing sepsis, which can lead to organ dysfunction and death.
+* Upper Gastrointestinal Bleeding (UGIB): The patient has a history of UGIB, and his current hematemesis may be related to this condition. There is a risk of further bleeding, which can lead to hypovolemic shock and death.
+* Ethanol Withdrawal: The patient has a history of ethanol cirrhosis, and there is a risk of ethanol withdrawal syndrome, which can cause seizures, hallucinations, and other complications.
+* Neurological Complications: The patient's weakness, particularly in distal muscle groups, may be related to neuropathy, which can be caused by various factors, including ethanol toxicity, malnutrition, and vitamin deficiencies.
+* Hyponatremia: The patient's hyponatremia may be related to various factors, including hypovolemia, liver disease, and medication use. If left untreated, it can lead to seizures, coma, and death.
+* Infection: The patient's fever and bacteremia may be related to an underlying infection, which can spread to other parts of the body and cause serious complications.
+* Pulmonary Complications: The patient's numerous pulmonary nodules seen on CTA may be related to various conditions, including infection, inflammation, or cancer. There is a risk of pulmonary embolism or other respiratory complications.
+* Cardiovascular Complications: The patient's dilated and hypokinetic right ventricle may be related to various conditions, including cardiomyopathy, heart failure, or pulmonary hypertension. There is a risk of cardiac arrest or other cardiovascular complications.
+
+**Recommendations:**
+
+* Continue to monitor the patient's vital signs, laboratory results, and imaging studies to identify any changes or complications.
+* Consider restarting nadolol to control hypertension and bleeding risk.
+* Check ANC and cover with vanc/cefepime if neutropenia is present.
+* Check HIV, hepatitis serologies, and other serologies to identify any underlying infections or diseases.
+* Trend WBC count and consider LP in the morning to evaluate for meningitis or other central nervous system infections.
+* Consider EMG/NCS and neuro consult to evaluate for neuropathy or other neurological complications.
+* Continue lactulose and consider restarting celexa/seroquel for depression.
+* Monitor for signs of sepsis, UGIB, and other complications, and adjust treatment accordingly."
+179721.0,277705,2161-03-24 07:08:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Echo: dilated and hypokinetic right ventricle with sparing of the
+   apex. Normal regional and global left ventricular systolic function.
+   - CTA done as Echo raised suspicion of PE: no PE although limited by
+   motion. Numerous pulmonary nodules.
+   - Found to have 2/2 bottles Staph aureus bacteremia; T max 101.8
+   overnight, blood cultures drawn again.
+   - Start Nadolol tomorrow (unable to initiate today due to low-normal
+   BPs).
+   Allergies:
+   Lasix (Oral) (Furosemide)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2161-3-21**] 08:30 AM
+   Vancomycin - [**2161-3-23**] 08:51 PM
+   Cefipime - [**2161-3-24**] 02:16 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2161-3-23**] 08:16 AM
+   Carafate (Sucralfate) - [**2161-3-23**] 10:20 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-3-24**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.8
+C (101.8
+   Tcurrent: 37.7
+C (99.9
+   HR: 98 (94 - 121) bpm
+   BP: 108/58(69) {100/39(53) - 138/100(110)} mmHg
+   RR: 17 (15 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 68 Inch
+             Total In:
+                                                                  3,682 mL
+                                                                    250 mL
+   PO:
+                                                                  1,540 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,142 mL
+                                                                    130 mL
+   Blood products:
+   Total out:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   Urine:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -468 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: No(t) Well nourished, No(t) No acute distress,
+   Anxious, Diaphoretic
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic, Poor dentition, No(t)
+   Endotracheal tube
+   Cardiovascular: (S1: Normal), (S2: Normal), No(t) S3, No(t) S4, No(t)
+   Rub
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds:
+   Diminished: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent, RUE with erythema, no
+   fluctuance at prior IV site
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): x2-3, confused about month, Movement: Not
+   assessed, Tone: Not assessed, 4+ b/l LE weakness greater in distal
+   muscle groups
+   Labs / Radiology
+   83 K/uL
+   9.6 g/dL
+   107 mg/dL
+   0.7 mg/dL
+   25 mEq/L
+   3.9 mEq/L
+   4 mg/dL
+   104 mEq/L
+   136 mEq/L
+   28.7 %
+   1.7 K/uL
+        [image002.jpg]
+                             [**2161-3-20**]  09:57 AM
+                             [**2161-3-20**]  01:45 PM
+                             [**2161-3-20**]  05:56 PM
+                             [**2161-3-21**]  02:03 AM
+                             [**2161-3-21**]  09:46 AM
+                             [**2161-3-22**]  11:42 PM
+                             [**2161-3-23**]  05:36 AM
+                             [**2161-3-23**]  03:03 PM
+                             [**2161-3-23**]  03:04 PM
+                             [**2161-3-24**]  01:01 AM
+   WBC
+   3.0
+   1.4
+   1.2
+   1.7
+   Hct
+   22.8
+   23.9
+   24.1
+   23.3
+   24.8
+   24.0
+   25.2
+   28.7
+   Plt
+   37
+   64
+   64
+   83
+   Cr
+   0.8
+   0.7
+   0.7
+   0.7
+   0.5
+   0.5
+   0.7
+   Glucose
+   147
+   127
+   121
+   112
+   120
+   119
+   118
+   107
+   Other labs: PT / PTT / INR:17.9/31.0/1.6, ALT / AST:52/92, Alk Phos / T
+   Bili:189/1.7, Amylase / Lipase:/226, Differential-Neuts:60.0 %,
+   Band:8.0 %, Lymph:22.0 %, Mono:8.0 %, Eos:0.0 %, Lactic Acid:1.1
+   mmol/L, Albumin:3.2 g/dL, LDH:215 IU/L, Ca++:8.1 mg/dL, Mg++:1.8 mg/dL,
+   PO4:2.2 mg/dL
+   Assessment and Plan
+   This is a 49 y/o M w/ h/o etoh cirrhosis with multiple previous
+   admissions for UGIB [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **] tear's, and esophagitis now
+   represents with hematemsis [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **], but with persistent
+   tachycardia and fever of unclear etiology.
+   .
+   # Fever: No localizing source at this time.  Patient has a h/o mild
+   pancytopenia in past, but most recent counts are off baseline.  This
+   could suggest sequestration [**2-23**] to liver disease, acute viral
+   infection, or malignancy.  Less likely would be medication effect.
+   Un-evaluated sources include CNS infection, sinusitis, or prostatitis.
+   - Check ANC and cover with vanc/cefepime if neutropenia
+   - Check HIV, hepatitis serologies
+   - Pan culture
+   - Trend WBC count.
+   - Consider LP in AM.
+   - Echo given persistent fevers and +blood cultures
+   - continue to trend lactate
+   .
+   # Tachycardia: Differential includes sepsis, PE, etoh withdrawal,
+   hyperthyroid, fever, beri-beri, pain, anxiety and less likely
+   GIB/hypovolemia.  Had been on beta-blocker as outpatient so would
+   consider beta-blocker withdrawal as well.
+   - 500cc NS bolus now
+   - 5mg IV diazepam now
+   - q3H CIWA with ativan overnight
+   - trend HCT
+   - continue carafate
+   - check TSH
+   - CTA chest.
+   - follow UOP which currently is at goal.
+   - consider restart nadolol given possible beta-blocker withdrawal and
+   patient remains hypertensive, concern for bleeding is low.
+   .
+   # Upper GI Bleed: [**2-23**] to severe erosive esophagitis
+   - Continue carafate, PPI
+   - check Hct now and trend [**Hospital1 **] for now
+   - Active type and screen
+   .
+   # Etoh Cirrhosis: consider restart nadolol.  10mg IV diazepam given in
+   ED.  Continue lactulose.
+   - CIWA scale with ativan given liver disease.
+   - trend LFT's
+   .
+   # Weakness: Effecting distal muscle groups more than proximal
+   suggesting neuropathy.  Check B12, TSH, and continue folate/thiamine.
+   - consider EMG/NCS and neuro consult
+   - check CK
+   .
+   # Hyponatremia: Unlikely hypovolemic.  will volume challenge and then
+   send urine lytes.
+   .
+   # Depression: Restart celexa/seroquel
+   .
+   # FEN: IVF, blood, replete electrolytes, NPO after 12am
+   .
+   # Prophylaxis: pneumoboots
+   .
+   # Access: peripherals with 2x 18guage
+   .
+   # Code: full
+   .
+   # Communication: Patient
+   .
+   # Disposition: pending above
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-3-22**] 08:47 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Echo: dilated and hypokinetic right ventricle with sparing of the
+   apex. Normal regional and global left ventricular systolic function.
+   - CTA done as Echo raised suspicion of PE: no PE although limited by
+   motion. Numerous pulmonary nodules.
+   - Found to have 2/2 bottles Staph aureus bacteremia; T max 101.8
+   overnight, blood cultures drawn again.
+   - Start Nadolol tomorrow (unable to initiate today due to low-normal
+   BPs).
+   Allergies:
+   Lasix (Oral) (Furosemide)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2161-3-21**] 08:30 AM
+   Vancomycin - [**2161-3-23**] 08:51 PM
+   Cefipime - [**2161-3-24**] 02:16 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2161-3-23**] 08:16 AM
+   Carafate (Sucralfate) - [**2161-3-23**] 10:20 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-3-24**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.8
+C (101.8
+   Tcurrent: 37.7
+C (99.9
+   HR: 98 (94 - 121) bpm
+   BP: 108/58(69) {100/39(53) - 138/100(110)} mmHg
+   RR: 17 (15 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 68 Inch
+             Total In:
+                                                                  3,682 mL
+                                                                    250 mL
+   PO:
+                                                                  1,540 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,142 mL
+                                                                    130 mL
+   Blood products:
+   Total out:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   Urine:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -468 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: No(t) Well nourished, No(t) No acute distress,
+   Anxious, Diaphoretic
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic, Poor dentition, No(t)
+   Endotracheal tube
+   Cardiovascular: (S1: Normal), (S2: Normal), No(t) S3, No(t) S4, No(t)
+   Rub
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds:
+   Diminished: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent, RUE with erythema, no
+   fluctuance at prior IV site
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): x2-3, confused about month, Movement: Not
+   assessed, Tone: Not assessed, 4+ b/l LE weakness greater in distal
+   muscle groups
+   Labs / Radiology
+   83 K/uL
+   9.6 g/dL
+   107 mg/dL
+   0.7 mg/dL
+   25 mEq/L
+   3.9 mEq/L
+   4 mg/dL
+   104 mEq/L
+   136 mEq/L
+   28.7 %
+   1.7 K/uL
+        [image002.jpg]
+                             [**2161-3-20**]  09:57 AM
+                             [**2161-3-20**]  01:45 PM
+                             [**2161-3-20**]  05:56 PM
+                             [**2161-3-21**]  02:03 AM
+                             [**2161-3-21**]  09:46 AM
+                             [**2161-3-22**]  11:42 PM
+                             [**2161-3-23**]  05:36 AM
+                             [**2161-3-23**]  03:03 PM
+                             [**2161-3-23**]  03:04 PM
+                             [**2161-3-24**]  01:01 AM
+   WBC
+   3.0
+   1.4
+   1.2
+   1.7
+   Hct
+   22.8
+   23.9
+   24.1
+   23.3
+   24.8
+   24.0
+   25.2
+   28.7
+   Plt
+   37
+   64
+   64
+   83
+   Cr
+   0.8
+   0.7
+   0.7
+   0.7
+   0.5
+   0.5
+   0.7
+   Glucose
+   147
+   127
+   121
+   112
+   120
+   119
+   118
+   107
+   Other labs: PT / PTT / INR:17.9/31.0/1.6, ALT / AST:52/92, Alk Phos / T
+   Bili:189/1.7, Amylase / Lipase:/226, Differential-Neuts:60.0 %,
+   Band:8.0 %, Lymph:22.0 %, Mono:8.0 %, Eos:0.0 %, Lactic Acid:1.1
+   mmol/L, Albumin:3.2 g/dL, LDH:215 IU/L, Ca++:8.1 mg/dL, Mg++:1.8 mg/dL,
+   PO4:2.2 mg/dL
+   Assessment and Plan
+   This is a 49 y/o M w/ h/o etoh cirrhosis with multiple previous
+   admissions for UGIB [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **] tear's, and esophagitis now
+   represents with hematemsis [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **], but with persistent
+   tachycardia and fever of unclear etiology.
+   .
+   # Fever: No localizing source at this time.  Patient has a h/o mild
+   pancytopenia in past, but most recent counts are off baseline.  This
+   could suggest sequestration [**2-23**] to liver disease, acute viral
+   infection, or malignancy.  Less likely would be medication effect.
+   Un-evaluated sources include CNS infection, sinusitis, or prostatitis.
+   - Check ANC and cover with vanc/cefepime if neutropenia
+   - Check HIV, hepatitis serologies
+   - Pan culture
+   - Trend WBC count.
+   - Consider LP in AM.
+   - Echo given persistent fevers and +blood cultures
+   - continue to trend lactate
+   .
+   # Tachycardia: Differential includes sepsis, PE, etoh withdrawal,
+   hyperthyroid, fever, beri-beri, pain, anxiety and less likely
+   GIB/hypovolemia.  Had been on beta-blocker as outpatient so would
+   consider beta-blocker withdrawal as well.
+   - 500cc NS bolus now
+   - 5mg IV diazepam now
+   - q3H CIWA with ativan overnight
+   - trend HCT
+   - continue carafate
+   - check TSH
+   - CTA chest.
+   - follow UOP which currently is at goal.
+   - consider restart nadolol given possible beta-blocker withdrawal and
+   patient remains hypertensive, concern for bleeding is low.
+   .
+   # Upper GI Bleed: [**2-23**] to severe erosive esophagitis
+   - Continue carafate, PPI
+   - check Hct now and trend [**Hospital1 **] for now
+   - Active type and screen
+   .
+   # Etoh Cirrhosis: consider restart nadolol.  10mg IV diazepam given in
+   ED.  Continue lactulose.
+   - CIWA scale with ativan given liver disease.
+   - trend LFT's
+   .
+   # Weakness: Effecting distal muscle groups more than proximal
+   suggesting neuropathy.  Check B12, TSH, and continue folate/thiamine.
+   - consider EMG/NCS and neuro consult
+   - check CK
+   .
+   # Hyponatremia: Unlikely hypovolemic.  will volume challenge and then
+   send urine lytes.
+   .
+   # Depression: Restart celexa/seroquel
+   .
+   # FEN: IVF, blood, replete electrolytes, NPO after 12am
+   .
+   # Prophylaxis: pneumoboots
+   .
+   # Access: peripherals with 2x 18guage
+   .
+   # Code: full
+   .
+   # Communication: Patient
+   .
+   # Disposition: pending above
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-3-22**] 08:47 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 49-year-old male with a history of ethanol cirrhosis, multiple previous admissions for upper gastrointestinal bleeding (UGIB), and esophagitis. He was recently admitted with hematemesis and persistent tachycardia and fever of unclear etiology. The patient has a history of mild pancytopenia, and his current blood counts are off baseline, suggesting sequestration, liver disease, acute viral infection, or malignancy. The patient has been treated with antibiotics, and blood cultures are pending. He has been diagnosed with dilated and hypokinetic right ventricle with sparing of the apex on echocardiogram.
+
+Potential Medical Complications:
+
+1. Sepsis: The patient's persistent fever and tachycardia may indicate sepsis, which could lead to organ dysfunction and failure.
+2. Pulmonary Embolism (PE): The patient's CTA chest was negative, but PE cannot be ruled out, especially given the patient's history of UGIB and cirrhosis.
+3. Right Ventricular Failure: The patient's dilated and hypokinetic right ventricle may lead to right ventricular failure, which could result in decreased cardiac output and organ perfusion.
+4. Hepatic Encephalopathy: The patient's history of ethanol cirrhosis and mild pancytopenia may increase his risk of developing hepatic encephalopathy, which could lead to altered mental status, seizures, and coma.
+5. Infection: The patient's history of pancytopenia and neutropenia may increase his risk of developing infection, which could be life-threatening.
+6. Malignancy: The patient's history of mild pancytopenia and off-baseline blood counts may indicate the presence of underlying malignancy, which could lead to further complications and decreased quality of life.
+7. Neurological Complications: The patient's weakness, especially affecting distal muscle groups, may indicate neuropathy, which could lead to further complications, such as muscle wasting and decreased mobility.
+8. Electrolyte Imbalance: The patient's hyponatremia and potential electrolyte imbalance may lead to further complications, such as seizures, muscle weakness, and cardiac arrhythmias.
+9. Bleeding: The patient's history of UGIB and cirrhosis may increase his risk of bleeding, which could lead to further complications, such as anemia, hypovolemia, and organ failure.
+
+Recommendations:
+
+1. Continue to monitor the patient's vital signs, laboratory results, and imaging studies to detect any changes in his condition.
+2. Consider repeating the CTA chest to rule out PE.
+3. Continue to treat the patient's infection with antibiotics, and consider adding antifungal therapy if fungal infection is suspected.
+4. Monitor the patient's liver function tests (LFTs) and consider repeating the echocardiogram to assess right ventricular function.
+5. Consider repeating the patient's blood counts to monitor for any changes in his pancytopenia.
+6. Consider referring the patient to a neurologist or neurosurgeon to assess his weakness and potential neuropathy.
+7. Monitor the patient's electrolyte levels and consider repeating the urine lytes to detect any changes in his electrolyte imbalance.
+8. Consider restarting the patient's beta-blocker, nadolol, given his history of UGIB and cirrhosis.
+9. Monitor the patient's mental status and consider repeating the lactate level to detect any changes in his metabolic status."
+179721.0,277705,2161-03-24 07:08:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Echo: dilated and hypokinetic right ventricle with sparing of the
+   apex. Normal regional and global left ventricular systolic function.
+   - CTA done as Echo raised suspicion of PE: no PE although limited by
+   motion. Numerous pulmonary nodules.
+   - Found to have 2/2 bottles Staph aureus bacteremia; T max 101.8
+   overnight, blood cultures drawn again.
+   - Start Nadolol tomorrow (unable to initiate today due to low-normal
+   BPs).
+   Allergies:
+   Lasix (Oral) (Furosemide)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2161-3-21**] 08:30 AM
+   Vancomycin - [**2161-3-23**] 08:51 PM
+   Cefipime - [**2161-3-24**] 02:16 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2161-3-23**] 08:16 AM
+   Carafate (Sucralfate) - [**2161-3-23**] 10:20 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-3-24**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.8
+C (101.8
+   Tcurrent: 37.7
+C (99.9
+   HR: 98 (94 - 121) bpm
+   BP: 108/58(69) {100/39(53) - 138/100(110)} mmHg
+   RR: 17 (15 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 68 Inch
+             Total In:
+                                                                  3,682 mL
+                                                                    250 mL
+   PO:
+                                                                  1,540 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,142 mL
+                                                                    130 mL
+   Blood products:
+   Total out:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   Urine:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -468 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: No(t) Well nourished, No(t) No acute distress
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic, Poor dentition, No(t)
+   Endotracheal tube
+   Cardiovascular: (S1: Normal), (S2: Normal), No(t) S3, No(t) S4, No(t)
+   Rub
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds:
+   Diminished: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent, RUE with erythema and edema
+   resolving, no fluctuance at prior IV site
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): x2-3, confused about month, Movement: Not
+   assessed, Tone: Not assessed, 5/5 strength in all [**4-25**] extr
+   Labs / Radiology
+   83 K/uL
+   9.6 g/dL
+   107 mg/dL
+   0.7 mg/dL
+   25 mEq/L
+   3.9 mEq/L
+   4 mg/dL
+   104 mEq/L
+   136 mEq/L
+   28.7 %
+   1.7 K/uL
+        [image002.jpg]
+                             [**2161-3-20**]  09:57 AM
+                             [**2161-3-20**]  01:45 PM
+                             [**2161-3-20**]  05:56 PM
+                             [**2161-3-21**]  02:03 AM
+                             [**2161-3-21**]  09:46 AM
+                             [**2161-3-22**]  11:42 PM
+                             [**2161-3-23**]  05:36 AM
+                             [**2161-3-23**]  03:03 PM
+                             [**2161-3-23**]  03:04 PM
+                             [**2161-3-24**]  01:01 AM
+   WBC
+   3.0
+   1.4
+   1.2
+   1.7
+   Hct
+   22.8
+   23.9
+   24.1
+   23.3
+   24.8
+   24.0
+   25.2
+   28.7
+   Plt
+   37
+   64
+   64
+   83
+   Cr
+   0.8
+   0.7
+   0.7
+   0.7
+   0.5
+   0.5
+   0.7
+   Glucose
+   147
+   127
+   121
+   112
+   120
+   119
+   118
+   107
+   Other labs: PT / PTT / INR:17.9/31.0/1.6, ALT / AST:52/92, Alk Phos / T
+   Bili:189/1.7, Amylase / Lipase:/226, Differential-Neuts:60.0 %,
+   Band:8.0 %, Lymph:22.0 %, Mono:8.0 %, Eos:0.0 %, Lactic Acid:1.1
+   mmol/L, Albumin:3.2 g/dL, LDH:215 IU/L, Ca++:8.1 mg/dL, Mg++:1.8 mg/dL,
+   PO4:2.2 mg/dL
+   Assessment and Plan
+   This is a 49 y/o M w/ h/o etoh cirrhosis with multiple previous
+   admissions for UGIB [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **] tear's, and esophagitis now
+   represents with hematemsis [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **], but with persistent
+   tachycardia and fever of unclear etiology.
+   .
+   # Fever: No localizing source at this time.  Patient has a h/o mild
+   pancytopenia in past, but most recent counts are off baseline.  This
+   could suggest sequestration [**2-23**] to liver disease, acute viral
+   infection, or malignancy.  Less likely would be medication effect.
+   Un-evaluated sources include CNS infection, sinusitis, or prostatitis.
+   - Check ANC and cover with vanc/cefepime for suspected neutropenia
+   - Check HIV, EBV serologies - pending
+   - F/u cultures
+   - Trend WBC count - improving
+   - TTE showed RV dysfunction and pulm HTN, will get TEE to look for
+   vegetations as fever continues
+   - continue to trend lactate
+ stable at 2.2
+   .
+   # Tachycardia: Differential includes sepsis, PE, etoh withdrawal,
+   hyperthyroid, fever, beri-beri, pain, anxiety and less likely
+   GIB/hypovolemia.  Had been on beta-blocker as outpatient so would
+   consider beta-blocker withdrawal as well.
+   - 5mg IV diazepam [**Hospital1 **]
+   - q3H CIWA with ativan
+ not [**Doctor Last Name 93**]
+   - trend HCT - improving
+   - continue carafate
+   - TSH - nl
+   - CTA chest
+ no PE, but small pulm nodules seen
+   - follow UOP which currently is at goal.
+   - Restarted nadolol
+   .
+   # Upper GI Bleed: [**2-23**] to severe erosive esophagitis
+   - Continue carafate, PPI
+   - HCT stable and improving
+   - Active type and screen
+   .
+   # Etoh Cirrhosis: restart nadolol.  10mg IV diazepam given in ED.
+   Continue lactulose.
+   - CIWA scale with ativan given liver disease.
+   - trend LFT's - stable
+   .
+   # Weakness: Effecting distal muscle groups more than proximal
+   suggesting neuropathy.  Check B12, TSH, and continue folate/thiamine.
+   - consider EMG/NCS and neuro consult if worsens
+ appears to be
+   improving
+   - check CK
+   .
+   # Hyponatremia: Unlikely hypovolemic.  will volume challenge and then
+   send urine lytes.
+   .
+   # Depression: Restart celexa/seroquel
+   .
+   # FEN: IVF, blood, replete electrolytes, NPO after 12am
+   .
+   # Prophylaxis: pneumoboots
+   .
+   # Access: peripherals with 2x 18guage
+   .
+   # Code: full
+   .
+   # Communication: Patient
+   .
+   # Disposition: pending above
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-3-22**] 08:47 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Echo: dilated and hypokinetic right ventricle with sparing of the
+   apex. Normal regional and global left ventricular systolic function.
+   - CTA done as Echo raised suspicion of PE: no PE although limited by
+   motion. Numerous pulmonary nodules.
+   - Found to have 2/2 bottles Staph aureus bacteremia; T max 101.8
+   overnight, blood cultures drawn again.
+   - Start Nadolol tomorrow (unable to initiate today due to low-normal
+   BPs).
+   Allergies:
+   Lasix (Oral) (Furosemide)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2161-3-21**] 08:30 AM
+   Vancomycin - [**2161-3-23**] 08:51 PM
+   Cefipime - [**2161-3-24**] 02:16 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2161-3-23**] 08:16 AM
+   Carafate (Sucralfate) - [**2161-3-23**] 10:20 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-3-24**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.8
+C (101.8
+   Tcurrent: 37.7
+C (99.9
+   HR: 98 (94 - 121) bpm
+   BP: 108/58(69) {100/39(53) - 138/100(110)} mmHg
+   RR: 17 (15 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 68 Inch
+             Total In:
+                                                                  3,682 mL
+                                                                    250 mL
+   PO:
+                                                                  1,540 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,142 mL
+                                                                    130 mL
+   Blood products:
+   Total out:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   Urine:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -468 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: No(t) Well nourished, No(t) No acute distress
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic, Poor dentition, No(t)
+   Endotracheal tube
+   Cardiovascular: (S1: Normal), (S2: Normal), No(t) S3, No(t) S4, No(t)
+   Rub
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds:
+   Diminished: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent, RUE with erythema and edema
+   resolving, no fluctuance at prior IV site
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): x2-3, confused about month, Movement: Not
+   assessed, Tone: Not assessed, 5/5 strength in all [**4-25**] extr
+   Labs / Radiology
+   83 K/uL
+   9.6 g/dL
+   107 mg/dL
+   0.7 mg/dL
+   25 mEq/L
+   3.9 mEq/L
+   4 mg/dL
+   104 mEq/L
+   136 mEq/L
+   28.7 %
+   1.7 K/uL
+        [image002.jpg]
+                             [**2161-3-20**]  09:57 AM
+                             [**2161-3-20**]  01:45 PM
+                             [**2161-3-20**]  05:56 PM
+                             [**2161-3-21**]  02:03 AM
+                             [**2161-3-21**]  09:46 AM
+                             [**2161-3-22**]  11:42 PM
+                             [**2161-3-23**]  05:36 AM
+                             [**2161-3-23**]  03:03 PM
+                             [**2161-3-23**]  03:04 PM
+                             [**2161-3-24**]  01:01 AM
+   WBC
+   3.0
+   1.4
+   1.2
+   1.7
+   Hct
+   22.8
+   23.9
+   24.1
+   23.3
+   24.8
+   24.0
+   25.2
+   28.7
+   Plt
+   37
+   64
+   64
+   83
+   Cr
+   0.8
+   0.7
+   0.7
+   0.7
+   0.5
+   0.5
+   0.7
+   Glucose
+   147
+   127
+   121
+   112
+   120
+   119
+   118
+   107
+   Other labs: PT / PTT / INR:17.9/31.0/1.6, ALT / AST:52/92, Alk Phos / T
+   Bili:189/1.7, Amylase / Lipase:/226, Differential-Neuts:60.0 %,
+   Band:8.0 %, Lymph:22.0 %, Mono:8.0 %, Eos:0.0 %, Lactic Acid:1.1
+   mmol/L, Albumin:3.2 g/dL, LDH:215 IU/L, Ca++:8.1 mg/dL, Mg++:1.8 mg/dL,
+   PO4:2.2 mg/dL
+   Assessment and Plan
+   This is a 49 y/o M w/ h/o etoh cirrhosis with multiple previous
+   admissions for UGIB [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **] tear's, and esophagitis now
+   represents with hematemsis [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **], but with persistent
+   tachycardia and fever of unclear etiology.
+   .
+   # Fever: No localizing source at this time.  Patient has a h/o mild
+   pancytopenia in past, but most recent counts are off baseline.  This
+   could suggest sequestration [**2-23**] to liver disease, acute viral
+   infection, or malignancy.  Less likely would be medication effect.
+   Un-evaluated sources include CNS infection, sinusitis, or prostatitis.
+   - Check ANC and cover with vanc/cefepime for suspected neutropenia
+   - Check HIV, EBV serologies - pending
+   - F/u cultures
+   - Trend WBC count - improving
+   - TTE showed RV dysfunction and pulm HTN, will get TEE to look for
+   vegetations as fever continues
+   - continue to trend lactate
+ stable at 2.2
+   .
+   # Tachycardia: Differential includes sepsis, PE, etoh withdrawal,
+   hyperthyroid, fever, beri-beri, pain, anxiety and less likely
+   GIB/hypovolemia.  Had been on beta-blocker as outpatient so would
+   consider beta-blocker withdrawal as well.
+   - 5mg IV diazepam [**Hospital1 **]
+   - q3H CIWA with ativan
+ not [**Doctor Last Name 93**]
+   - trend HCT - improving
+   - continue carafate
+   - TSH - nl
+   - CTA chest
+ no PE, but small pulm nodules seen
+   - follow UOP which currently is at goal.
+   - Restarted nadolol
+   .
+   # Upper GI Bleed: [**2-23**] to severe erosive esophagitis
+   - Continue carafate, PPI
+   - HCT stable and improving
+   - Active type and screen
+   .
+   # Etoh Cirrhosis: restart nadolol.  10mg IV diazepam given in ED.
+   Continue lactulose.
+   - CIWA scale with ativan given liver disease.
+   - trend LFT's - stable
+   .
+   # Weakness: Effecting distal muscle groups more than proximal
+   suggesting neuropathy.  Check B12, TSH, and continue folate/thiamine.
+   - consider EMG/NCS and neuro consult if worsens
+ appears to be
+   improving
+   - check CK
+   .
+   # Hyponatremia: Unlikely hypovolemic.  will volume challenge and then
+   send urine lytes.
+   .
+   # Depression: Restart celexa/seroquel
+   .
+   # FEN: IVF, blood, replete electrolytes, NPO after 12am
+   .
+   # Prophylaxis: pneumoboots
+   .
+   # Access: peripherals with 2x 18guage
+   .
+   # Code: full
+   .
+   # Communication: Patient
+   .
+   # Disposition: pending above
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-3-22**] 08:47 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, the following medical complications can arise:
+
+1. Sepsis: The patient has a fever of 101.8°F (38.8°C) and tachycardia, which may indicate sepsis. The note mentions that the patient has a history of mild pancytopenia, which could suggest sequestration of blood cells due to liver disease, acute viral infection, or malignancy.
+2. Neutropenia: The patient's ANC is low, which may indicate neutropenia. The note recommends checking ANC and covering with vancomycin and cefepime for suspected neutropenia.
+3. Upper Gastrointestinal Bleeding (UGIB): The patient has a history of UGIB and is currently taking carafate and PPI to prevent further bleeding.
+4. Etoh Cirrhosis: The patient has a history of etoh cirrhosis, which may lead to complications such as liver failure, encephalopathy, and bleeding.
+5. Hypothyroidism: The patient's TSH is not mentioned in the note, but the patient has a history of mild pancytopenia, which could suggest hypothyroidism.
+6. Hyponatremia: The patient has hyponatremia, which may be due to hypovolemia, but the note suggests that it is unlikely. The patient will be volume-challenged and sent urine lytes to determine the cause.
+7. Depression: The patient is taking celexa/seroquel for depression, but the note does not mention any current depressive symptoms.
+8. Folate Deficiency: The patient is taking folate and thiamine to prevent folate deficiency, but the note does not mention any current deficiency.
+9. Thiamine Deficiency: The patient is taking thiamine to prevent thiamine deficiency, but the note does not mention any current deficiency.
+10. Electrolyte Imbalance: The patient has an electrolyte imbalance, which may be due to various causes such as hypovolemia, diarrhea, or vomiting. The patient will be replete with electrolytes.
+11. Malnutrition: The patient is NPO after 12 am and has a history of malnutrition, which may lead to further malnutrition if not addressed.
+12. Pneumonia: The patient has a history of pneumonia, which may lead to further complications such as respiratory failure.
+13. Stress Ulcer: The patient has a history of stress ulcer, which may lead to further complications such as bleeding or perforation.
+14. Venous Thromboembolism (VTE): The patient has a history of VTE, which may lead to further complications such as pulmonary embolism or deep vein thrombosis.
+15. Neurological Complications: The patient has a history of neuropathy, which may lead to further complications such as weakness, numbness, or tingling.
+
+These are some of the potential medical complications that can arise based on the patient's progress note."
+179721.0,277705,2161-03-24 07:08:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Echo: dilated and hypokinetic right ventricle with sparing of the
+   apex. Normal regional and global left ventricular systolic function.
+   - CTA done as Echo raised suspicion of PE: no PE although limited by
+   motion. Numerous pulmonary nodules.
+   - Found to have 2/2 bottles Staph aureus bacteremia; T max 101.8
+   overnight, blood cultures drawn again.
+   - Start Nadolol tomorrow (unable to initiate today due to low-normal
+   BPs).
+   Allergies:
+   Lasix (Oral) (Furosemide)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2161-3-21**] 08:30 AM
+   Vancomycin - [**2161-3-23**] 08:51 PM
+   Cefipime - [**2161-3-24**] 02:16 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2161-3-23**] 08:16 AM
+   Carafate (Sucralfate) - [**2161-3-23**] 10:20 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-3-24**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.8
+C (101.8
+   Tcurrent: 37.7
+C (99.9
+   HR: 98 (94 - 121) bpm
+   BP: 108/58(69) {100/39(53) - 138/100(110)} mmHg
+   RR: 17 (15 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 68 Inch
+             Total In:
+                                                                  3,682 mL
+                                                                    250 mL
+   PO:
+                                                                  1,540 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,142 mL
+                                                                    130 mL
+   Blood products:
+   Total out:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   Urine:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -468 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: No(t) Well nourished, No(t) No acute distress
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic, Poor dentition, No(t)
+   Endotracheal tube
+   Cardiovascular: (S1: Normal), (S2: Normal), No(t) S3, No(t) S4, No(t)
+   Rub
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds:
+   Diminished: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent, RUE with erythema and edema
+   resolving, no fluctuance at prior IV site
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): x2-3, confused about month, Movement: Not
+   assessed, Tone: Not assessed, 5/5 strength in all [**4-25**] extr
+   Labs / Radiology
+   83 K/uL
+   9.6 g/dL
+   107 mg/dL
+   0.7 mg/dL
+   25 mEq/L
+   3.9 mEq/L
+   4 mg/dL
+   104 mEq/L
+   136 mEq/L
+   28.7 %
+   1.7 K/uL
+        [image002.jpg]
+                             [**2161-3-20**]  09:57 AM
+                             [**2161-3-20**]  01:45 PM
+                             [**2161-3-20**]  05:56 PM
+                             [**2161-3-21**]  02:03 AM
+                             [**2161-3-21**]  09:46 AM
+                             [**2161-3-22**]  11:42 PM
+                             [**2161-3-23**]  05:36 AM
+                             [**2161-3-23**]  03:03 PM
+                             [**2161-3-23**]  03:04 PM
+                             [**2161-3-24**]  01:01 AM
+   WBC
+   3.0
+   1.4
+   1.2
+   1.7
+   Hct
+   22.8
+   23.9
+   24.1
+   23.3
+   24.8
+   24.0
+   25.2
+   28.7
+   Plt
+   37
+   64
+   64
+   83
+   Cr
+   0.8
+   0.7
+   0.7
+   0.7
+   0.5
+   0.5
+   0.7
+   Glucose
+   147
+   127
+   121
+   112
+   120
+   119
+   118
+   107
+   Other labs: PT / PTT / INR:17.9/31.0/1.6, ALT / AST:52/92, Alk Phos / T
+   Bili:189/1.7, Amylase / Lipase:/226, Differential-Neuts:60.0 %,
+   Band:8.0 %, Lymph:22.0 %, Mono:8.0 %, Eos:0.0 %, Lactic Acid:1.1
+   mmol/L, Albumin:3.2 g/dL, LDH:215 IU/L, Ca++:8.1 mg/dL, Mg++:1.8 mg/dL,
+   PO4:2.2 mg/dL
+   Assessment and Plan
+   This is a 49 y/o M w/ h/o etoh cirrhosis with multiple previous
+   admissions for UGIB [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **] tear's, and esophagitis now
+   represents with hematemsis [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **], but with persistent
+   tachycardia and fever of unclear etiology.
+   .
+   # Fever: No localizing source at this time.  Patient has a h/o mild
+   pancytopenia in past, but most recent counts are off baseline.  This
+   could suggest sequestration [**2-23**] to liver disease, acute viral
+   infection, or malignancy.  Less likely would be medication effect.
+   Un-evaluated sources include CNS infection, sinusitis, or prostatitis.
+   - Cover with vanc/cefepime for suspected neutropenia
+ not neutropenic,
+   but was septic and now has [**2-23**] Bld Cx pos for MRSA
+   - Check HIV, EBV serologies - pending
+   - F/u cultures
+   - Trend WBC count - improving
+   - TTE showed RV dysfunction and pulm HTN, will get TEE to look for
+   vegetations as fever continues
+   - continue to trend lactate
+ stable at 2.2
+   .
+   # Tachycardia: Differential includes sepsis, PE, etoh withdrawal,
+   hyperthyroid, fever, beri-beri, pain, anxiety and less likely
+   GIB/hypovolemia.  Had been on beta-blocker as outpatient so would
+   consider beta-blocker withdrawal as well.
+   - 5mg IV diazepam [**Hospital1 **]
+   - q3H CIWA with ativan
+ not [**Doctor Last Name 93**]
+   - trend HCT - improving
+   - continue carafate
+   - TSH - nl
+   - CTA chest
+ no PE, but small pulm nodules seen
+   - follow UOP which currently is at goal.
+   - Restarted nadolol
+   .
+   # Upper GI Bleed: [**2-23**] to severe erosive esophagitis
+   - Continue carafate, PPI
+   - HCT stable and improving
+   - Active type and screen
+   .
+   # Etoh Cirrhosis: restart nadolol.  10mg IV diazepam given in ED.
+   Continue lactulose.
+   - CIWA scale with ativan given liver disease.
+   - trend LFT's - stable
+   .
+   # Weakness: Effecting distal muscle groups more than proximal
+   suggesting neuropathy.  Check B12, TSH, and continue folate/thiamine.
+   - consider EMG/NCS and neuro consult if worsens
+ appears to be
+   improving
+   - CK not elevated
+   .
+   # Hyponatremia: Unlikely hypovolemic.  Resolved
+   .
+   # Depression: Restart celexa/seroquel
+   .
+   # FEN: Clears, IVF, replete electrolytes
+   .
+   # Prophylaxis: pneumoboots
+   .
+   # Access: peripherals with 1x 18guage, would like to place PICC when
+   afebrile
+   .
+   # Code: full
+   .
+   # Communication: Patient
+   .
+   # Disposition: pending above
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-3-22**] 08:47 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Echo: dilated and hypokinetic right ventricle with sparing of the
+   apex. Normal regional and global left ventricular systolic function.
+   - CTA done as Echo raised suspicion of PE: no PE although limited by
+   motion. Numerous pulmonary nodules.
+   - Found to have 2/2 bottles Staph aureus bacteremia; T max 101.8
+   overnight, blood cultures drawn again.
+   - Start Nadolol tomorrow (unable to initiate today due to low-normal
+   BPs).
+   Allergies:
+   Lasix (Oral) (Furosemide)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2161-3-21**] 08:30 AM
+   Vancomycin - [**2161-3-23**] 08:51 PM
+   Cefipime - [**2161-3-24**] 02:16 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2161-3-23**] 08:16 AM
+   Carafate (Sucralfate) - [**2161-3-23**] 10:20 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2161-3-24**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.8
+C (101.8
+   Tcurrent: 37.7
+C (99.9
+   HR: 98 (94 - 121) bpm
+   BP: 108/58(69) {100/39(53) - 138/100(110)} mmHg
+   RR: 17 (15 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 68 Inch
+             Total In:
+                                                                  3,682 mL
+                                                                    250 mL
+   PO:
+                                                                  1,540 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,142 mL
+                                                                    130 mL
+   Blood products:
+   Total out:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   Urine:
+                                                                  4,150 mL
+                                                                  1,250 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -468 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: No(t) Well nourished, No(t) No acute distress
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic, Poor dentition, No(t)
+   Endotracheal tube
+   Cardiovascular: (S1: Normal), (S2: Normal), No(t) S3, No(t) S4, No(t)
+   Rub
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds:
+   Diminished: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent, RUE with erythema and edema
+   resolving, no fluctuance at prior IV site
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): x2-3, confused about month, Movement: Not
+   assessed, Tone: Not assessed, 5/5 strength in all [**4-25**] extr
+   Labs / Radiology
+   83 K/uL
+   9.6 g/dL
+   107 mg/dL
+   0.7 mg/dL
+   25 mEq/L
+   3.9 mEq/L
+   4 mg/dL
+   104 mEq/L
+   136 mEq/L
+   28.7 %
+   1.7 K/uL
+        [image002.jpg]
+                             [**2161-3-20**]  09:57 AM
+                             [**2161-3-20**]  01:45 PM
+                             [**2161-3-20**]  05:56 PM
+                             [**2161-3-21**]  02:03 AM
+                             [**2161-3-21**]  09:46 AM
+                             [**2161-3-22**]  11:42 PM
+                             [**2161-3-23**]  05:36 AM
+                             [**2161-3-23**]  03:03 PM
+                             [**2161-3-23**]  03:04 PM
+                             [**2161-3-24**]  01:01 AM
+   WBC
+   3.0
+   1.4
+   1.2
+   1.7
+   Hct
+   22.8
+   23.9
+   24.1
+   23.3
+   24.8
+   24.0
+   25.2
+   28.7
+   Plt
+   37
+   64
+   64
+   83
+   Cr
+   0.8
+   0.7
+   0.7
+   0.7
+   0.5
+   0.5
+   0.7
+   Glucose
+   147
+   127
+   121
+   112
+   120
+   119
+   118
+   107
+   Other labs: PT / PTT / INR:17.9/31.0/1.6, ALT / AST:52/92, Alk Phos / T
+   Bili:189/1.7, Amylase / Lipase:/226, Differential-Neuts:60.0 %,
+   Band:8.0 %, Lymph:22.0 %, Mono:8.0 %, Eos:0.0 %, Lactic Acid:1.1
+   mmol/L, Albumin:3.2 g/dL, LDH:215 IU/L, Ca++:8.1 mg/dL, Mg++:1.8 mg/dL,
+   PO4:2.2 mg/dL
+   Assessment and Plan
+   This is a 49 y/o M w/ h/o etoh cirrhosis with multiple previous
+   admissions for UGIB [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **] tear's, and esophagitis now
+   represents with hematemsis [**2-23**] to [**Doctor First Name **] [**Doctor Last Name **], but with persistent
+   tachycardia and fever of unclear etiology.
+   .
+   # Fever: No localizing source at this time.  Patient has a h/o mild
+   pancytopenia in past, but most recent counts are off baseline.  This
+   could suggest sequestration [**2-23**] to liver disease, acute viral
+   infection, or malignancy.  Less likely would be medication effect.
+   Un-evaluated sources include CNS infection, sinusitis, or prostatitis.
+   - Cover with vanc/cefepime for suspected neutropenia
+ not neutropenic,
+   but was septic and now has [**2-23**] Bld Cx pos for MRSA
+   - Check HIV, EBV serologies - pending
+   - F/u cultures
+   - Trend WBC count - improving
+   - TTE showed RV dysfunction and pulm HTN, will get TEE to look for
+   vegetations as fever continues
+   - continue to trend lactate
+ stable at 2.2
+   .
+   # Tachycardia: Differential includes sepsis, PE, etoh withdrawal,
+   hyperthyroid, fever, beri-beri, pain, anxiety and less likely
+   GIB/hypovolemia.  Had been on beta-blocker as outpatient so would
+   consider beta-blocker withdrawal as well.
+   - 5mg IV diazepam [**Hospital1 **]
+   - q3H CIWA with ativan
+ not [**Doctor Last Name 93**]
+   - trend HCT - improving
+   - continue carafate
+   - TSH - nl
+   - CTA chest
+ no PE, but small pulm nodules seen
+   - follow UOP which currently is at goal.
+   - Restarted nadolol
+   .
+   # Upper GI Bleed: [**2-23**] to severe erosive esophagitis
+   - Continue carafate, PPI
+   - HCT stable and improving
+   - Active type and screen
+   .
+   # Etoh Cirrhosis: restart nadolol.  10mg IV diazepam given in ED.
+   Continue lactulose.
+   - CIWA scale with ativan given liver disease.
+   - trend LFT's - stable
+   .
+   # Weakness: Effecting distal muscle groups more than proximal
+   suggesting neuropathy.  Check B12, TSH, and continue folate/thiamine.
+   - consider EMG/NCS and neuro consult if worsens
+ appears to be
+   improving
+   - CK not elevated
+   .
+   # Hyponatremia: Unlikely hypovolemic.  Resolved
+   .
+   # Depression: Restart celexa/seroquel
+   .
+   # FEN: Clears, IVF, replete electrolytes
+   .
+   # Prophylaxis: pneumoboots
+   .
+   # Access: peripherals with 1x 18guage, would like to place PICC when
+   afebrile
+   .
+   # Code: full
+   .
+   # Communication: Patient
+   .
+   # Disposition: pending above
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2161-3-22**] 08:47 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, the following medical complications can arise:
+
+1. Sepsis: The patient has been diagnosed with bacteremia and has a temperature of 101.8°F, which increases the risk of sepsis. The patient's neutrophil count is low, which may suggest sequestration of neutrophils in the liver, acute viral infection, or malignancy.
+2. Right Ventricular Dysfunction: The patient's echocardiogram shows dilated and hypokinetic right ventricle, which may lead to right ventricular failure and pulmonary hypertension.
+3. Pulmonary Embolism: Although the CTA did not show a pulmonary embolism, the patient's symptoms and lab results suggest the possibility of a pulmonary embolism.
+4. Neutropenia: The patient's neutrophil count is low, which may increase the risk of infection.
+5. Anemia: The patient's hemoglobin level is 9.6 g/dL, which is low, and may indicate anemia.
+6. Thrombocytopenia: The patient's platelet count is 37 K/uL, which is low, and may increase the risk of bleeding.
+7. Hyperglycemia: The patient's blood glucose level is 147 mg/dL, which is high, and may indicate diabetes or hyperglycemia.
+8. Hypomagnesemia: The patient's magnesium level is 0.7 mg/dL, which is low, and may increase the risk of muscle weakness and cardiac arrhythmias.
+9. Hyponatremia: The patient's sodium level is 107 mg/dL, which is low, and may indicate dehydration or electrolyte imbalance.
+10. Depression: The patient's history of depression and the use of antidepressants may increase the risk of depression.
+11. Weakness: The patient's weakness, particularly in the distal muscle groups, may be due to neuropathy, malnutrition, or electrolyte imbalance.
+12. Liver Disease: The patient's history of ethanol cirrhosis and the use of lactulose may indicate liver disease or liver failure.
+13. Respiratory Failure: The patient's respiratory status is unstable, and the use of oxygen therapy and mechanical ventilation may be necessary to support the patient's respiratory function.
+
+Based on these complications, the patient's treatment plan should include:
+
+1. Antibiotics to cover the suspected infection.
+2. Fluid resuscitation to prevent dehydration and hypotension.
+3. Cardiovascular support to manage the patient's cardiac function.
+4. Respiratory support to manage the patient's respiratory status.
+5. Electrolyte management to prevent electrolyte imbalance.
+6. Nutritional support to prevent malnutrition.
+7. Psychological support to manage the patient's depression.
+8. Liver support to manage the patient's liver disease.
+9. Hematological support to manage the patient's anemia and thrombocytopenia.
+10. Pain management to manage the patient's pain and discomfort.
+
+The patient's treatment plan should be individualized based on the patient's specific needs and the patient's response to treatment."

@@ -1,0 +1,2075 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+126561.0,291144,2167-10-25 06:42:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Decision made by GI not to scope during the day
+   - Hct bump appropriate after two units
+   - Pt hemodynamically stable without further Melena overnight
+   - Hct trended down this AM, hemodynamically stable without new BRBPR,
+   Melena or hemoptysis.
+   Allergies:
+   Enalapril
+   Cough;
+   Shellfish
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2167-10-24**] 07:55 PM
+   Other medications:
+   Changes to medical and family history: Unchanged
+   Review of systems is unchanged from admission except as noted below
+   Review of systems: Pt feeling well without complaints. No N/V. No
+   Melena, BRBPR or hematemesis. No visual changes or lightheadedness.
+   Flowsheet Data as of  [**2167-10-25**] 06:41 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.4
+C (97.6
+   HR: 92 (73 - 97) bpm
+   BP: 128/54(71) {109/34(54) - 190/69(97)} mmHg
+   RR: 20 (9 - 26) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 81.6 kg (admission): 81.6 kg
+             Total In:
+                                                                  3,506 mL
+                                                                    501 mL
+   PO:
+             TF:
+   IVF:
+                                                                    926 mL
+                                                                    501 mL
+   Blood products:
+                                                                    580 mL
+   Total out:
+                                                                    300 mL
+                                                                      0 mL
+   Urine:
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,206 mL
+                                                                    501 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 99%
+   ABG: ///29/
+   Physical Examination
+   GEN: Well-appearing, well-nourished, NAD, A0x3
+   HEENT: EOMI, PERRL, MMM,
+   NECK: No JVD, carotid pulses brisk, no bruits, no cervical
+   lymphadenopathy, trachea midline
+   COR:  S1 S2, Bruit sounds radiating from patients AV fistula in L UE.
+   PULM: Lungs CTAB,
+   ABD: Soft, NT, ND, +BS, no HSM,
+   EXT: No C/C/E
+   Labs / Radiology
+   172 K/uL
+   8.2 g/dL
+   89 mg/dL
+   3.7 mg/dL
+   29 mEq/L
+   3.7 mEq/L
+   49 mg/dL
+   108 mEq/L
+   145 mEq/L
+   23.8 %
+   8.1 K/uL
+        [image002.jpg]
+                            [**2167-10-24**]  02:07 PM
+                            [**2167-10-24**]  07:50 PM
+                            [**2167-10-25**]  02:00 AM
+   WBC
+   10.9
+   8.1
+   Hct
+   25.8
+   25.9
+   23.8
+   Plt
+   196
+   172
+   Cr
+   3.7
+   Glucose
+   89
+   Other labs: PT / PTT / INR:13.3/29.9/1.1, Lactic Acid:1.2 mmol/L,
+   Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:3.1 mg/dL
+   Assessment and Plan
+   76 yo female with hx of ischemic colitis and lower GIB, ESRD on HD,
+   presenting with acute to subacute HCT drop most likely due to upper
+   GIB
+   .
+   # GI Bleed. Upper vs Right sided lower given patients prior symptoms.
+   Remains hemodynamically stable although Hct has trended down. No signs
+   of active bleeding.
+   - 2 Large Bore Peripheral IVs
+   - IV Protonix
+   - d/w GI reguarding potential EGD today vs EGD + Colonscopy tomorrow
+   - HCT Q6H
+   .
+   # ESRD: Pt on dialysis, had HD yesterday
+   - d/w Renal, likely HD tomorrow
+   .
+   # Chronic Systolic CHF: Stable. UF at dialysis.
+   .
+   # DM: [**12-10**] of usual ISS while NPO
+   ICU Care
+   Nutrition: NPO (with potential change to clears)
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2167-10-24**] 11:00 AM
+   20 Gauge - [**2167-10-24**] 11:37 AM
+   Prophylaxis:
+   DVT: Pneumoboots, OOB to chair
+   Stress ulcer:  PPi
+   Code status: Full
+   Disposition: [**Hospital Unit Name 44**] for EGD, will transfer to floor if pt hemodyanically
+   stable, will d/w GI
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Decision made by GI not to scope during the day
+   - Hct bump appropriate after two units
+   - Pt hemodynamically stable without further Melena overnight
+   - Hct trended down this AM, hemodynamically stable without new BRBPR,
+   Melena or hemoptysis.
+   Allergies:
+   Enalapril
+   Cough;
+   Shellfish
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2167-10-24**] 07:55 PM
+   Other medications:
+   Changes to medical and family history: Unchanged
+   Review of systems is unchanged from admission except as noted below
+   Review of systems: Pt feeling well without complaints. No N/V. No
+   Melena, BRBPR or hematemesis. No visual changes or lightheadedness.
+   Flowsheet Data as of  [**2167-10-25**] 06:41 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.4
+C (97.6
+   HR: 92 (73 - 97) bpm
+   BP: 128/54(71) {109/34(54) - 190/69(97)} mmHg
+   RR: 20 (9 - 26) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 81.6 kg (admission): 81.6 kg
+             Total In:
+                                                                  3,506 mL
+                                                                    501 mL
+   PO:
+             TF:
+   IVF:
+                                                                    926 mL
+                                                                    501 mL
+   Blood products:
+                                                                    580 mL
+   Total out:
+                                                                    300 mL
+                                                                      0 mL
+   Urine:
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,206 mL
+                                                                    501 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 99%
+   ABG: ///29/
+   Physical Examination
+   GEN: Well-appearing, well-nourished, NAD, A0x3
+   HEENT: EOMI, PERRL, MMM,
+   NECK: No JVD, carotid pulses brisk, no bruits, no cervical
+   lymphadenopathy, trachea midline
+   COR:  S1 S2, Bruit sounds radiating from patients AV fistula in L UE.
+   PULM: Lungs CTAB,
+   ABD: Soft, NT, ND, +BS, no HSM,
+   EXT: No C/C/E
+   Labs / Radiology
+   172 K/uL
+   8.2 g/dL
+   89 mg/dL
+   3.7 mg/dL
+   29 mEq/L
+   3.7 mEq/L
+   49 mg/dL
+   108 mEq/L
+   145 mEq/L
+   23.8 %
+   8.1 K/uL
+        [image002.jpg]
+                            [**2167-10-24**]  02:07 PM
+                            [**2167-10-24**]  07:50 PM
+                            [**2167-10-25**]  02:00 AM
+   WBC
+   10.9
+   8.1
+   Hct
+   25.8
+   25.9
+   23.8
+   Plt
+   196
+   172
+   Cr
+   3.7
+   Glucose
+   89
+   Other labs: PT / PTT / INR:13.3/29.9/1.1, Lactic Acid:1.2 mmol/L,
+   Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:3.1 mg/dL
+   Assessment and Plan
+   76 yo female with hx of ischemic colitis and lower GIB, ESRD on HD,
+   presenting with acute to subacute HCT drop most likely due to upper
+   GIB
+   .
+   # GI Bleed. Upper vs Right sided lower given patients prior symptoms.
+   Remains hemodynamically stable although Hct has trended down. No signs
+   of active bleeding.
+   - 2 Large Bore Peripheral IVs
+   - IV Protonix
+   - d/w GI reguarding potential EGD today vs EGD + Colonscopy tomorrow
+   - HCT Q6H
+   .
+   # ESRD: Pt on dialysis, had HD yesterday
+   - d/w Renal, likely HD tomorrow
+   .
+   # Chronic Systolic CHF: Stable. UF at dialysis.
+   .
+   # DM: [**12-10**] of usual ISS while NPO
+   ICU Care
+   Nutrition: NPO (with potential change to clears)
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2167-10-24**] 11:00 AM
+   20 Gauge - [**2167-10-24**] 11:37 AM
+   Prophylaxis:
+   DVT: Pneumoboots, OOB to chair
+   Stress ulcer:  PPi
+   Code status: Full
+   Disposition: [**Hospital Unit Name 44**] for EGD, will transfer to floor if pt hemodyanically
+   stable, will d/w GI<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient, a 76-year-old female with a history of ischemic colitis, lower gastrointestinal bleeding (GIB), end-stage renal disease (ESRD) on hemodialysis (HD), and chronic systolic congestive heart failure (CHF), has been admitted to the intensive care unit (ICU) with acute to subacute hemoglobin concentration (Hct) drop. The patient is hemodynamically stable, with no signs of active bleeding, and is being treated with proton pump inhibitors (PPI) and hematinics. The patient's Hct trended down overnight, but the patient remains stable without new bleeding, hemoptysis, or respiratory distress.
+
+Potential Medical Complications:
+
+1. Upper gastrointestinal bleeding (UGIB): The patient's Hct drop and prior symptoms suggest the possibility of UGIB, which may require endoscopy and treatment.
+2. Chronic systolic CHF: The patient's history of CHF and the use of ultrafiltration (UF) at dialysis may lead to complications such as cardiac failure or arrhythmias.
+3. ESRD: The patient's ESRD and HD may lead to complications such as electrolyte imbalances, fluid overload, or infections.
+4. Diabetes: The patient's history of diabetes and the use of insulin may lead to complications such as hyperglycemia or hypoglycemia.
+5. Gastrointestinal bleeding: The patient's history of lower GIB and the possibility of UGIB may lead to complications such as bleeding, anemia, or sepsis.
+6. Infections: The patient's history of ESRD and HD may lead to complications such as infections, particularly in the urinary tract or peritoneum.
+7. Cardiovascular complications: The patient's history of CHF and the use of UF at dialysis may lead to complications such as cardiac failure, arrhythmias, or cardiac arrest.
+8. Respiratory complications: The patient's history of CHF and the use of UF at dialysis may lead to complications such as respiratory failure, particularly in the setting of acute respiratory distress syndrome (ARDS)."
+126561.0,291144,2167-10-25 06:42:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   Allergies:
+   Enalapril
+   Cough;
+   Shellfish
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2167-10-24**] 07:55 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2167-10-25**] 06:41 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.4
+C (97.6
+   HR: 92 (73 - 97) bpm
+   BP: 128/54(71) {109/34(54) - 190/69(97)} mmHg
+   RR: 20 (9 - 26) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 81.6 kg (admission): 81.6 kg
+             Total In:
+                                                                  3,506 mL
+                                                                    501 mL
+   PO:
+             TF:
+   IVF:
+                                                                    926 mL
+                                                                    501 mL
+   Blood products:
+                                                                    580 mL
+   Total out:
+                                                                    300 mL
+                                                                      0 mL
+   Urine:
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,206 mL
+                                                                    501 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 99%
+   ABG: ///29/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   172 K/uL
+   8.2 g/dL
+   89 mg/dL
+   3.7 mg/dL
+   29 mEq/L
+   3.7 mEq/L
+   49 mg/dL
+   108 mEq/L
+   145 mEq/L
+   23.8 %
+   8.1 K/uL
+        [image002.jpg]
+                            [**2167-10-24**]  02:07 PM
+                            [**2167-10-24**]  07:50 PM
+                            [**2167-10-25**]  02:00 AM
+   WBC
+   10.9
+   8.1
+   Hct
+   25.8
+   25.9
+   23.8
+   Plt
+   196
+   172
+   Cr
+   3.7
+   Glucose
+   89
+   Other labs: PT / PTT / INR:13.3/29.9/1.1, Lactic Acid:1.2 mmol/L,
+   Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:3.1 mg/dL
+   Assessment and Plan
+ .H/O DIABETES MELLITUS (DM), TYPE II
+ GASTROINTESTINAL BLEED, OTHER (GI BLEED, GIB)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2167-10-24**] 11:00 AM
+   20 Gauge - [**2167-10-24**] 11:37 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   Allergies:
+   Enalapril
+   Cough;
+   Shellfish
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2167-10-24**] 07:55 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2167-10-25**] 06:41 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.4
+C (97.6
+   HR: 92 (73 - 97) bpm
+   BP: 128/54(71) {109/34(54) - 190/69(97)} mmHg
+   RR: 20 (9 - 26) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 81.6 kg (admission): 81.6 kg
+             Total In:
+                                                                  3,506 mL
+                                                                    501 mL
+   PO:
+             TF:
+   IVF:
+                                                                    926 mL
+                                                                    501 mL
+   Blood products:
+                                                                    580 mL
+   Total out:
+                                                                    300 mL
+                                                                      0 mL
+   Urine:
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,206 mL
+                                                                    501 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 99%
+   ABG: ///29/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   172 K/uL
+   8.2 g/dL
+   89 mg/dL
+   3.7 mg/dL
+   29 mEq/L
+   3.7 mEq/L
+   49 mg/dL
+   108 mEq/L
+   145 mEq/L
+   23.8 %
+   8.1 K/uL
+        [image002.jpg]
+                            [**2167-10-24**]  02:07 PM
+                            [**2167-10-24**]  07:50 PM
+                            [**2167-10-25**]  02:00 AM
+   WBC
+   10.9
+   8.1
+   Hct
+   25.8
+   25.9
+   23.8
+   Plt
+   196
+   172
+   Cr
+   3.7
+   Glucose
+   89
+   Other labs: PT / PTT / INR:13.3/29.9/1.1, Lactic Acid:1.2 mmol/L,
+   Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:3.1 mg/dL
+   Assessment and Plan
+ .H/O DIABETES MELLITUS (DM), TYPE II
+ GASTROINTESTINAL BLEED, OTHER (GI BLEED, GIB)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2167-10-24**] 11:00 AM
+   20 Gauge - [**2167-10-24**] 11:37 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 81.6 kg male with a chief complaint of cough and shellfish allergy. He is currently in the ICU and has been receiving various medications, including pantoprazole, enalapril, and other ICU medications.
+
+The patient's vital signs are stable, with a temperature of 36.4°C, heart rate of 92 bpm, and blood pressure of 128/54 mmHg. His respiratory rate is 20 breaths per minute, and his oxygen saturation is 99%. He is receiving no respiratory support and his ABG results are normal.
+
+The patient's physical examination is limited due to his lack of assessment in certain areas, including peripheral vascular, skin, neurologic, and movement. His labs and radiology results show abnormal values for his white blood cell count, hemoglobin, and platelet count.
+
+The patient has a history of diabetes mellitus, type II, and gastrointestinal bleed. He is currently receiving ICU care, including nutrition, glycemic control, and prophylaxis for DVT, stress ulcer, and VAP.
+
+Potential medical complications that can arise from this patient's condition include:
+
+1. Infection: The patient's abnormal lab results, including white blood cell count and platelet count, may indicate an underlying infection.
+2. Bleeding: The patient's history of gastrointestinal bleed and abnormal lab results may increase his risk of bleeding complications.
+3. Respiratory failure: The patient's cough and respiratory rate may indicate respiratory distress, which could lead to respiratory failure.
+4. Sepsis: The patient's abnormal lab results and temperature may indicate sepsis, which could lead to organ dysfunction and death.
+5. DVT: The patient's prophylaxis for DVT may not be effective, and he may be at risk for developing a DVT.
+6. Stress ulcer: The patient's prophylaxis for stress ulcer may not be effective, and he may be at risk for developing a stress ulcer.
+7. VAP: The patient's prophylaxis for VAP may not be effective, and he may be at risk for developing a VAP.
+
+It is essential to monitor the patient's condition closely and adjust his treatment plan accordingly to prevent or manage these potential complications."
+126561.0,291144,2167-10-25 06:42:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Decision made by GI not to scope during the day
+   - Hct bump appropriate after two units
+   - Pt hemodynamically stable without further Melena overnight
+   Allergies:
+   Enalapril
+   Cough;
+   Shellfish
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2167-10-24**] 07:55 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2167-10-25**] 06:41 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.4
+C (97.6
+   HR: 92 (73 - 97) bpm
+   BP: 128/54(71) {109/34(54) - 190/69(97)} mmHg
+   RR: 20 (9 - 26) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 81.6 kg (admission): 81.6 kg
+             Total In:
+                                                                  3,506 mL
+                                                                    501 mL
+   PO:
+             TF:
+   IVF:
+                                                                    926 mL
+                                                                    501 mL
+   Blood products:
+                                                                    580 mL
+   Total out:
+                                                                    300 mL
+                                                                      0 mL
+   Urine:
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,206 mL
+                                                                    501 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 99%
+   ABG: ///29/
+   Physical Examination
+   GEN: Well-appearing, well-nourished, no acute distress
+   HEENT: EOMI, PERRL, sclera anicteric, no epistaxis or rhinorrhea, MMM,
+   OP Clear
+   NECK: No JVD, carotid pulses brisk, no bruits, no cervical
+   lymphadenopathy, trachea midline
+   COR: RRR, no M/G/R, normal S1 S2, radial pulses +2
+   PULM: Lungs CTAB, no W/R/R
+   ABD: Soft, NT, ND, +BS, no HSM, no masses
+   EXT: No C/C/E, no palpable cords
+   NEURO: alert, oriented to person, place, and time. CN II
+ XII grossly
+   intact. Moves all 4 extremities. Strength 5/5 in upper and lower
+   extremities. Patellar DTR +1. Plantar reflex downgoing. No gait
+   disturbance. No cerebellar dysfunction.
+   SKIN: No jaundice, cyanosis, or gross dermatitis. No ecchymoses.
+   Labs / Radiology
+   172 K/uL
+   8.2 g/dL
+   89 mg/dL
+   3.7 mg/dL
+   29 mEq/L
+   3.7 mEq/L
+   49 mg/dL
+   108 mEq/L
+   145 mEq/L
+   23.8 %
+   8.1 K/uL
+        [image002.jpg]
+                            [**2167-10-24**]  02:07 PM
+                            [**2167-10-24**]  07:50 PM
+                            [**2167-10-25**]  02:00 AM
+   WBC
+   10.9
+   8.1
+   Hct
+   25.8
+   25.9
+   23.8
+   Plt
+   196
+   172
+   Cr
+   3.7
+   Glucose
+   89
+   Other labs: PT / PTT / INR:13.3/29.9/1.1, Lactic Acid:1.2 mmol/L,
+   Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:3.1 mg/dL
+   Assessment and Plan
+   76 yo female with hx of ischemic colitis and lower GIB, ESRD on HD, who
+   presents with acute to subacute HCT drop most likely due to upper GIB
+   .
+   Plan:
+   # Bleeding: Pt presented with a Hct of 21.7.
+   - 2 Large Bore Peripheral IVs
+   - Type and Cross
+   - IV Protonix
+   - Follow-Up EGD/Colonoscopy, GI aware
+   - HCT Q6H transfuse for >25
+   .
+   # ESRD: Pt on dialysis, missed yesterdays session, renal aware and may
+   have HD
+   .
+   # chronic systolic CHF: stable, take fluid off at dialysis. cont
+   outpatient medication
+   .
+   # DM: [**12-10**] of usual ISS as long as npo, advance to diabetic diet
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2167-10-24**] 11:00 AM
+   20 Gauge - [**2167-10-24**] 11:37 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Decision made by GI not to scope during the day
+   - Hct bump appropriate after two units
+   - Pt hemodynamically stable without further Melena overnight
+   Allergies:
+   Enalapril
+   Cough;
+   Shellfish
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2167-10-24**] 07:55 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2167-10-25**] 06:41 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.4
+C (97.6
+   HR: 92 (73 - 97) bpm
+   BP: 128/54(71) {109/34(54) - 190/69(97)} mmHg
+   RR: 20 (9 - 26) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 81.6 kg (admission): 81.6 kg
+             Total In:
+                                                                  3,506 mL
+                                                                    501 mL
+   PO:
+             TF:
+   IVF:
+                                                                    926 mL
+                                                                    501 mL
+   Blood products:
+                                                                    580 mL
+   Total out:
+                                                                    300 mL
+                                                                      0 mL
+   Urine:
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,206 mL
+                                                                    501 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 99%
+   ABG: ///29/
+   Physical Examination
+   GEN: Well-appearing, well-nourished, no acute distress
+   HEENT: EOMI, PERRL, sclera anicteric, no epistaxis or rhinorrhea, MMM,
+   OP Clear
+   NECK: No JVD, carotid pulses brisk, no bruits, no cervical
+   lymphadenopathy, trachea midline
+   COR: RRR, no M/G/R, normal S1 S2, radial pulses +2
+   PULM: Lungs CTAB, no W/R/R
+   ABD: Soft, NT, ND, +BS, no HSM, no masses
+   EXT: No C/C/E, no palpable cords
+   NEURO: alert, oriented to person, place, and time. CN II
+ XII grossly
+   intact. Moves all 4 extremities. Strength 5/5 in upper and lower
+   extremities. Patellar DTR +1. Plantar reflex downgoing. No gait
+   disturbance. No cerebellar dysfunction.
+   SKIN: No jaundice, cyanosis, or gross dermatitis. No ecchymoses.
+   Labs / Radiology
+   172 K/uL
+   8.2 g/dL
+   89 mg/dL
+   3.7 mg/dL
+   29 mEq/L
+   3.7 mEq/L
+   49 mg/dL
+   108 mEq/L
+   145 mEq/L
+   23.8 %
+   8.1 K/uL
+        [image002.jpg]
+                            [**2167-10-24**]  02:07 PM
+                            [**2167-10-24**]  07:50 PM
+                            [**2167-10-25**]  02:00 AM
+   WBC
+   10.9
+   8.1
+   Hct
+   25.8
+   25.9
+   23.8
+   Plt
+   196
+   172
+   Cr
+   3.7
+   Glucose
+   89
+   Other labs: PT / PTT / INR:13.3/29.9/1.1, Lactic Acid:1.2 mmol/L,
+   Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:3.1 mg/dL
+   Assessment and Plan
+   76 yo female with hx of ischemic colitis and lower GIB, ESRD on HD, who
+   presents with acute to subacute HCT drop most likely due to upper GIB
+   .
+   Plan:
+   # Bleeding: Pt presented with a Hct of 21.7.
+   - 2 Large Bore Peripheral IVs
+   - Type and Cross
+   - IV Protonix
+   - Follow-Up EGD/Colonoscopy, GI aware
+   - HCT Q6H transfuse for >25
+   .
+   # ESRD: Pt on dialysis, missed yesterdays session, renal aware and may
+   have HD
+   .
+   # chronic systolic CHF: stable, take fluid off at dialysis. cont
+   outpatient medication
+   .
+   # DM: [**12-10**] of usual ISS as long as npo, advance to diabetic diet
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2167-10-24**] 11:00 AM
+   20 Gauge - [**2167-10-24**] 11:37 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 76-year-old female with a history of ischemic colitis, lower gastrointestinal bleeding, and end-stage renal disease on hemodialysis. She presented with an acute to subacute hemoglobin drop, likely due to upper gastrointestinal bleeding. She is currently hemodynamically stable and receiving treatment for bleeding, including proton pump inhibitors and transfusions for hemoglobin levels below 25.
+
+The patient is on dialysis and missed her session yesterday, but may receive it today. She has chronic systolic heart failure and is taking outpatient medications. She also has diabetes and is being managed with insulin sliding scale therapy while NPO, with plans to advance to a diabetic diet when able.
+
+Potential medical complications that can arise:
+
+1. Bleeding: The patient's hemoglobin levels are still dropping, and further bleeding could occur, leading to hypovolemic shock, anemia, and increased risk of cardiovascular events.
+2. Infection: The patient is at risk of developing infections, particularly pneumonia, due to her chronic lung disease and immobility in the ICU.
+3. Fluid overload: The patient's heart failure and chronic kidney disease make her susceptible to fluid overload, which could worsen her cardiovascular status and increase the risk of acute kidney injury.
+4. Malnutrition: The patient's poor nutritional status and inability to eat due to gastrointestinal bleeding may lead to malnutrition, which could exacerbate her underlying medical conditions.
+5. Hyperglycemia: The patient's diabetes and use of insulin sliding scale therapy may lead to hyperglycemia, which could increase her risk of cardiovascular events and other complications.
+6. Respiratory failure: The patient's chronic lung disease and potential respiratory complications, such as pneumonia or respiratory failure, could worsen her respiratory status and increase her risk of mortality.
+7. Cardiac complications: The patient's chronic systolic heart failure and potential cardiac complications, such as arrhythmias or cardiogenic shock, could worsen her cardiovascular status and increase her risk of mortality.
+8. Gastrointestinal complications: The patient's upper gastrointestinal bleeding and potential gastrointestinal complications, such as perforation or abscess, could worsen her gastrointestinal status and increase her risk of mortality."
+126561.0,291144,2167-10-26 06:22:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   -Per GI, Hct stable so started on clears in afternoon but NPO after
+   midnight for EGD in am
+   -6p Hct 22.8 from 24.8. Given 2uPRBCs
+   -Per renal, d/c'd epo and started D5 1/2NS at 50cc/hr
+   - No BMs overnight
+   Allergies:
+   Enalapril
+   Cough;
+   Shellfish
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2167-10-25**] 08:38 AM
+   Other medications:
+   Changes to medical and family history: No changes
+   Review of systems is unchanged from admission except as noted below
+   Review of systems: Feeling well. No lightheadedness, no visual changes.
+   No HA/CP/SOB.
+   Flowsheet Data as of  [**2167-10-26**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.1
+   Tcurrent: 36.7
+C (98
+   HR: 89 (86 - 104) bpm
+   BP: 149/66(87) {118/46(62) - 152/72(90)} mmHg
+   RR: 20 (9 - 26) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 81.6 kg (admission): 81.6 kg
+    Orthostatics:
+   Lying 148/64, HR 68
+   Sitting 160/67, HR 88
+   Standing 156/65 HR 110
+   Total In:
+                                                                  2,374 mL
+                                                                    461 mL
+   PO:
+                                                                    360 mL
+                         TF:
+   IVF:
+                                                                  1,510 mL
+                                                                    314 mL
+   Blood products:
+                                                                    504 mL
+                                                                    146 mL
+   Total out:
+                                                                    950 mL
+                                                                    300 mL
+   Urine:
+                                                                    950 mL
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,424 mL
+                                                                    161 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   GEN: NAD, A0x3
+   HEENT: EOMI, PERRL, MMM,
+   NECK: No JVD, Supple
+   COR:  S1 S2, Bruit sounds radiating from patients AV fistula in L UE.
+   PULM: Lungs CTAB
+   ABD: Soft, NT, ND, +BS, no HSM,
+   EXT: No C/C/E, Good capillary refill
+   Labs / Radiology
+   195 K/uL
+   10.1 g/dL
+   111 mg/dL
+   4.2 mg/dL
+   25 mEq/L
+   4.3 mEq/L
+   69 mg/dL
+   106 mEq/L
+   139 mEq/L
+   29.2 %
+   8.4 K/uL
+        [image002.jpg]
+                            [**2167-10-24**]  02:07 PM
+                            [**2167-10-24**]  07:50 PM
+                            [**2167-10-25**]  02:00 AM
+                            [**2167-10-25**]  11:00 AM
+                            [**2167-10-25**]  06:05 PM
+                            [**2167-10-26**]  03:13 AM
+   WBC
+   10.9
+   8.1
+   8.4
+   Hct
+   25.8
+   25.9
+   23.8
+   24.8
+   22.8
+   29.2
+   Plt
+   196
+   172
+   195
+   Cr
+   3.7
+   4.2
+   Glucose
+   89
+   111
+   Other labs: PT / PTT / INR:13.0/30.4/1.1, Lactic Acid:1.2 mmol/L,
+   Ca++:8.6 mg/dL, Mg++:1.9 mg/dL, PO4:4.1 mg/dL
+   Assessment and Plan
+   76 yo female with hx of ischemic colitis and lower GIB, ESRD on HD,
+   presenting with acute to subacute HCT drop: DDx Upper vs Right sided
+   GIB
+   .
+   # GI Bleed. Upper vs Right sided lower given patients prior symptoms.
+   Remains hemodynamically stable although Hct has trended down.
+   Appropriate Hct jump overnight following 2 units. No signs of active
+   bleeding.
+   - 2 Large Bore Peripheral IVs
+   - IV Protonix
+   - EGD today, with potential colonoscopy tomorrow if no findings seen
+   - HCT Q6H
+   .
+   # ESRD: M, W, F schedule
+   - HD today, need to discuss with renal patients true dry weight since
+   she may be getting over ultrafiltrated potentially.
+   .
+   # Chronic Systolic CHF: Stable. UF at dialysis.
+   .
+   # DM: [**12-10**] of usual ISS while NPO
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2167-10-24**] 11:00 AM
+   20 Gauge - [**2167-10-24**] 11:37 AM
+   Prophylaxis:
+   DVT:  Pneumoboots
+   Stress ulcer: PPi
+   Communication:  Comments: Patient
+   Code status: Full
+   Disposition: [**Hospital Unit Name 44**], Call out to floor today
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   -Per GI, Hct stable so started on clears in afternoon but NPO after
+   midnight for EGD in am
+   -6p Hct 22.8 from 24.8. Given 2uPRBCs
+   -Per renal, d/c'd epo and started D5 1/2NS at 50cc/hr
+   - No BMs overnight
+   Allergies:
+   Enalapril
+   Cough;
+   Shellfish
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2167-10-25**] 08:38 AM
+   Other medications:
+   Changes to medical and family history: No changes
+   Review of systems is unchanged from admission except as noted below
+   Review of systems: Feeling well. No lightheadedness, no visual changes.
+   No HA/CP/SOB.
+   Flowsheet Data as of  [**2167-10-26**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.1
+   Tcurrent: 36.7
+C (98
+   HR: 89 (86 - 104) bpm
+   BP: 149/66(87) {118/46(62) - 152/72(90)} mmHg
+   RR: 20 (9 - 26) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 81.6 kg (admission): 81.6 kg
+    Orthostatics:
+   Lying 148/64, HR 68
+   Sitting 160/67, HR 88
+   Standing 156/65 HR 110
+   Total In:
+                                                                  2,374 mL
+                                                                    461 mL
+   PO:
+                                                                    360 mL
+                         TF:
+   IVF:
+                                                                  1,510 mL
+                                                                    314 mL
+   Blood products:
+                                                                    504 mL
+                                                                    146 mL
+   Total out:
+                                                                    950 mL
+                                                                    300 mL
+   Urine:
+                                                                    950 mL
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,424 mL
+                                                                    161 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   GEN: NAD, A0x3
+   HEENT: EOMI, PERRL, MMM,
+   NECK: No JVD, Supple
+   COR:  S1 S2, Bruit sounds radiating from patients AV fistula in L UE.
+   PULM: Lungs CTAB
+   ABD: Soft, NT, ND, +BS, no HSM,
+   EXT: No C/C/E, Good capillary refill
+   Labs / Radiology
+   195 K/uL
+   10.1 g/dL
+   111 mg/dL
+   4.2 mg/dL
+   25 mEq/L
+   4.3 mEq/L
+   69 mg/dL
+   106 mEq/L
+   139 mEq/L
+   29.2 %
+   8.4 K/uL
+        [image002.jpg]
+                            [**2167-10-24**]  02:07 PM
+                            [**2167-10-24**]  07:50 PM
+                            [**2167-10-25**]  02:00 AM
+                            [**2167-10-25**]  11:00 AM
+                            [**2167-10-25**]  06:05 PM
+                            [**2167-10-26**]  03:13 AM
+   WBC
+   10.9
+   8.1
+   8.4
+   Hct
+   25.8
+   25.9
+   23.8
+   24.8
+   22.8
+   29.2
+   Plt
+   196
+   172
+   195
+   Cr
+   3.7
+   4.2
+   Glucose
+   89
+   111
+   Other labs: PT / PTT / INR:13.0/30.4/1.1, Lactic Acid:1.2 mmol/L,
+   Ca++:8.6 mg/dL, Mg++:1.9 mg/dL, PO4:4.1 mg/dL
+   Assessment and Plan
+   76 yo female with hx of ischemic colitis and lower GIB, ESRD on HD,
+   presenting with acute to subacute HCT drop: DDx Upper vs Right sided
+   GIB
+   .
+   # GI Bleed. Upper vs Right sided lower given patients prior symptoms.
+   Remains hemodynamically stable although Hct has trended down.
+   Appropriate Hct jump overnight following 2 units. No signs of active
+   bleeding.
+   - 2 Large Bore Peripheral IVs
+   - IV Protonix
+   - EGD today, with potential colonoscopy tomorrow if no findings seen
+   - HCT Q6H
+   .
+   # ESRD: M, W, F schedule
+   - HD today, need to discuss with renal patients true dry weight since
+   she may be getting over ultrafiltrated potentially.
+   .
+   # Chronic Systolic CHF: Stable. UF at dialysis.
+   .
+   # DM: [**12-10**] of usual ISS while NPO
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2167-10-24**] 11:00 AM
+   20 Gauge - [**2167-10-24**] 11:37 AM
+   Prophylaxis:
+   DVT:  Pneumoboots
+   Stress ulcer: PPi
+   Communication:  Comments: Patient
+   Code status: Full
+   Disposition: [**Hospital Unit Name 44**], Call out to floor today<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 76-year-old female with a history of ischemic colitis, lower gastrointestinal bleeding (GIB), and end-stage renal disease (ESRD) on hemodialysis (HD). She was admitted to the intensive care unit (ICU) due to an acute to subacute hemoglobin (Hct) drop.
+
+The patient's vital signs are stable, with a temperature of 36.7°C, heart rate of 89 beats per minute, and blood pressure of 149/66 mmHg. She is receiving oxygen therapy and has a SpO2 of 98%. Her respiratory support includes a non-rebreather mask.
+
+The patient's physical examination is unremarkable, except for a bruit sound radiating from her arteriovenous (AV) fistula in the left upper extremity. Her laboratory results show a decreasing Hct level, with a current value of 22.8%. Her white blood cell count is within normal limits, and her platelet count is 196 K/uL.
+
+The patient's medical conditions include chronic systolic heart failure, diabetes mellitus, and ESRD. She is receiving proton pump inhibitor (PPI) therapy for stress ulcer prophylaxis and is at risk for deep vein thrombosis (DVT) due to her immobility.
+
+Potential medical complications that can arise from the patient's conditions include:
+
+1. Gastrointestinal bleeding: The patient's history of ischemic colitis and lower GIB puts her at risk for further bleeding episodes, which can lead to hypovolemic shock and organ dysfunction.
+2. Anemia: The patient's decreasing Hct level can lead to anemia, which can exacerbate her underlying medical conditions and increase her risk of complications.
+3. Dialysis-related complications: The patient's ESRD and HD therapy can lead to complications such as hypotension, hyperkalemia, and acidosis.
+4. Heart failure exacerbation: The patient's chronic systolic heart failure can worsen due to fluid overload, electrolyte imbalances, or medication non-adherence.
+5. Infection: The patient's immobility and invasive lines make her susceptible to infections, which can be life-threatening in the ICU setting.
+6. Thromboembolic events: The patient's risk of DVT is increased due to her immobility, and she may also be at risk for pulmonary embolism (PE) if she develops a DVT.
+7. Malnutrition: The patient's inability to eat due to her GIB and HD therapy can lead to malnutrition, which can worsen her underlying medical conditions and increase her risk of complications.
+
+In conclusion, the patient is at risk for various medical complications due to her underlying medical conditions and therapies. Close monitoring and management of her conditions are essential to prevent and treat these complications and improve her outcome."
+126561.0,291144,2167-10-26 06:22:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   -Per GI, Hct stable so started on clears in afternoon but NPO after
+   midnight for EGD in am
+   -6p Hct 22.8 from 24.8. Given 2uPRBCs
+   -Per renal, d/c'd epo and started D5 1/2NS at 50cc/hr
+   Allergies:
+   Enalapril
+   Cough;
+   Shellfish
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2167-10-25**] 08:38 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2167-10-26**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.1
+   Tcurrent: 36.7
+C (98
+   HR: 89 (86 - 104) bpm
+   BP: 149/66(87) {118/46(62) - 152/72(90)} mmHg
+   RR: 20 (9 - 26) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 81.6 kg (admission): 81.6 kg
+           Total In:
+                                                                  2,374 mL
+                                                                    461 mL
+   PO:
+                                                                    360 mL
+           TF:
+   IVF:
+                                                                  1,510 mL
+                                                                    314 mL
+   Blood products:
+                                                                    504 mL
+                                                                    146 mL
+   Total out:
+                                                                    950 mL
+                                                                    300 mL
+   Urine:
+                                                                    950 mL
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,424 mL
+                                                                    161 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   195 K/uL
+   10.1 g/dL
+   111 mg/dL
+   4.2 mg/dL
+   25 mEq/L
+   4.3 mEq/L
+   69 mg/dL
+   106 mEq/L
+   139 mEq/L
+   29.2 %
+   8.4 K/uL
+        [image002.jpg]
+                            [**2167-10-24**]  02:07 PM
+                            [**2167-10-24**]  07:50 PM
+                            [**2167-10-25**]  02:00 AM
+                            [**2167-10-25**]  11:00 AM
+                            [**2167-10-25**]  06:05 PM
+                            [**2167-10-26**]  03:13 AM
+   WBC
+   10.9
+   8.1
+   8.4
+   Hct
+   25.8
+   25.9
+   23.8
+   24.8
+   22.8
+   29.2
+   Plt
+   196
+   172
+   195
+   Cr
+   3.7
+   4.2
+   Glucose
+   89
+   111
+   Other labs: PT / PTT / INR:13.0/30.4/1.1, Lactic Acid:1.2 mmol/L,
+   Ca++:8.6 mg/dL, Mg++:1.9 mg/dL, PO4:4.1 mg/dL
+   Assessment and Plan
+ .H/O DIABETES MELLITUS (DM), TYPE II
+ GASTROINTESTINAL BLEED, OTHER (GI BLEED, GIB)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2167-10-24**] 11:00 AM
+   20 Gauge - [**2167-10-24**] 11:37 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   -Per GI, Hct stable so started on clears in afternoon but NPO after
+   midnight for EGD in am
+   -6p Hct 22.8 from 24.8. Given 2uPRBCs
+   -Per renal, d/c'd epo and started D5 1/2NS at 50cc/hr
+   Allergies:
+   Enalapril
+   Cough;
+   Shellfish
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2167-10-25**] 08:38 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2167-10-26**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.1
+   Tcurrent: 36.7
+C (98
+   HR: 89 (86 - 104) bpm
+   BP: 149/66(87) {118/46(62) - 152/72(90)} mmHg
+   RR: 20 (9 - 26) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 81.6 kg (admission): 81.6 kg
+           Total In:
+                                                                  2,374 mL
+                                                                    461 mL
+   PO:
+                                                                    360 mL
+           TF:
+   IVF:
+                                                                  1,510 mL
+                                                                    314 mL
+   Blood products:
+                                                                    504 mL
+                                                                    146 mL
+   Total out:
+                                                                    950 mL
+                                                                    300 mL
+   Urine:
+                                                                    950 mL
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,424 mL
+                                                                    161 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   195 K/uL
+   10.1 g/dL
+   111 mg/dL
+   4.2 mg/dL
+   25 mEq/L
+   4.3 mEq/L
+   69 mg/dL
+   106 mEq/L
+   139 mEq/L
+   29.2 %
+   8.4 K/uL
+        [image002.jpg]
+                            [**2167-10-24**]  02:07 PM
+                            [**2167-10-24**]  07:50 PM
+                            [**2167-10-25**]  02:00 AM
+                            [**2167-10-25**]  11:00 AM
+                            [**2167-10-25**]  06:05 PM
+                            [**2167-10-26**]  03:13 AM
+   WBC
+   10.9
+   8.1
+   8.4
+   Hct
+   25.8
+   25.9
+   23.8
+   24.8
+   22.8
+   29.2
+   Plt
+   196
+   172
+   195
+   Cr
+   3.7
+   4.2
+   Glucose
+   89
+   111
+   Other labs: PT / PTT / INR:13.0/30.4/1.1, Lactic Acid:1.2 mmol/L,
+   Ca++:8.6 mg/dL, Mg++:1.9 mg/dL, PO4:4.1 mg/dL
+   Assessment and Plan
+ .H/O DIABETES MELLITUS (DM), TYPE II
+ GASTROINTESTINAL BLEED, OTHER (GI BLEED, GIB)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2167-10-24**] 11:00 AM
+   20 Gauge - [**2167-10-24**] 11:37 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 24-hour old ICU admission with a history of type II diabetes mellitus and gastrointestinal bleed. The patient's hemoglobin concentration has decreased from 24.8 to 22.8 over the past 24 hours, prompting administration of 2 units of packed red blood cells. The patient's renal function is being monitored, and epoetin was discontinued, with D5 1/2NS infusions started at 50cc/hr.
+
+The patient's vital signs are stable, with a temperature of 36.7°C, heart rate of 89 beats per minute, and blood pressure of 149/66 mmHg. The patient is receiving oxygen therapy, with an SpO2 of 98%. The patient's respiratory rate is 20 inspirations per minute, and their heart rhythm is sinus rhythm.
+
+The patient's laboratory results show a white blood cell count of 10.9 x 10^9/L, hemoglobin concentration of 22.8%, and platelet count of 196 x 10^9/L. The patient's creatinine level is 3.7 mg/dL, and their glucose level is 89 mg/dL.
+
+Potential medical complications:
+
+1. Bleeding: The patient's hemoglobin concentration has decreased significantly over the past 24 hours, indicating ongoing bleeding. This may lead to further bleeding complications, including hypovolemic shock.
+2. Infection: The patient's white blood cell count is elevated, which may indicate an underlying infection. This could lead to sepsis, organ dysfunction, and mortality.
+3. Renal dysfunction: The patient's creatinine level is elevated, which may indicate kidney damage or dysfunction. This could lead to further kidney damage, electrolyte imbalances, and acidosis.
+4. Respiratory failure: The patient's oxygen requirements are not specified, but their SpO2 is 98%. This may indicate respiratory failure, which could lead to further respiratory complications, including intubation and mechanical ventilation.
+5. Hypoglycemia: The patient's glucose level is 89 mg/dL, which is below the normal range. This could lead to hypoglycemic symptoms, including seizures, coma, and death.
+6. Electrolyte imbalance: The patient's electrolyte levels are not specified, but their creatinine level is elevated. This could lead to electrolyte imbalances, including hyperkalemia, hypokalemia, and acidosis.
+7. Stress ulcer: The patient's gastrointestinal bleed may be complicated by stress ulcers, which could lead to further bleeding and complications.
+
+It is essential to closely monitor the patient's condition and adjust their treatment plan accordingly to prevent or manage these potential complications."
+126561.0,291144,2167-10-26 06:22:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   -Per GI, Hct stable so started on clears in afternoon but NPO after
+   midnight for EGD in am
+   -6p Hct 22.8 from 24.8. Given 2uPRBCs
+   -Per renal, d/c'd epo and started D5 1/2NS at 50cc/hr
+   Allergies:
+   Enalapril
+   Cough;
+   Shellfish
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2167-10-25**] 08:38 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2167-10-26**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.1
+   Tcurrent: 36.7
+C (98
+   HR: 89 (86 - 104) bpm
+   BP: 149/66(87) {118/46(62) - 152/72(90)} mmHg
+   RR: 20 (9 - 26) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 81.6 kg (admission): 81.6 kg
+           Total In:
+                                                                  2,374 mL
+                                                                    461 mL
+   PO:
+                                                                    360 mL
+           TF:
+   IVF:
+                                                                  1,510 mL
+                                                                    314 mL
+   Blood products:
+                                                                    504 mL
+                                                                    146 mL
+   Total out:
+                                                                    950 mL
+                                                                    300 mL
+   Urine:
+                                                                    950 mL
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,424 mL
+                                                                    161 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   GEN: Well-appearing, well-nourished, NAD, A0x3
+   HEENT: EOMI, PERRL, MMM,
+   NECK: No JVD, carotid pulses brisk, no bruits, no cervical
+   lymphadenopathy, trachea midline
+   COR:  S1 S2, Bruit sounds radiating from patients AV fistula in L UE.
+   PULM: Lungs CTAB,
+   ABD: Soft, NT, ND, +BS, no HSM,
+   EXT: No C/C/E
+   Labs / Radiology
+   195 K/uL
+   10.1 g/dL
+   111 mg/dL
+   4.2 mg/dL
+   25 mEq/L
+   4.3 mEq/L
+   69 mg/dL
+   106 mEq/L
+   139 mEq/L
+   29.2 %
+   8.4 K/uL
+        [image002.jpg]
+                            [**2167-10-24**]  02:07 PM
+                            [**2167-10-24**]  07:50 PM
+                            [**2167-10-25**]  02:00 AM
+                            [**2167-10-25**]  11:00 AM
+                            [**2167-10-25**]  06:05 PM
+                            [**2167-10-26**]  03:13 AM
+   WBC
+   10.9
+   8.1
+   8.4
+   Hct
+   25.8
+   25.9
+   23.8
+   24.8
+   22.8
+   29.2
+   Plt
+   196
+   172
+   195
+   Cr
+   3.7
+   4.2
+   Glucose
+   89
+   111
+   Other labs: PT / PTT / INR:13.0/30.4/1.1, Lactic Acid:1.2 mmol/L,
+   Ca++:8.6 mg/dL, Mg++:1.9 mg/dL, PO4:4.1 mg/dL
+   Assessment and Plan
+   76 yo female with hx of ischemic colitis and lower GIB, ESRD on HD,
+   presenting with acute to subacute HCT drop most likely due to upper
+   GIB
+   .
+   # GI Bleed. Upper vs Right sided lower given patients prior symptoms.
+   Remains hemodynamically stable although Hct has trended down. No signs
+   of active bleeding.
+   - 2 Large Bore Peripheral IVs
+   - IV Protonix
+   - d/w GI reguarding potential EGD today vs EGD + Colonscopy tomorrow
+   - HCT Q6H
+   .
+   # ESRD: Pt on dialysis, had HD yesterday
+   - d/w Renal, likely HD tomorrow
+   .
+   # Chronic Systolic CHF: Stable. UF at dialysis.
+   .
+   # DM: [**12-10**] of usual ISS while NPO
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2167-10-24**] 11:00 AM
+   20 Gauge - [**2167-10-24**] 11:37 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   -Per GI, Hct stable so started on clears in afternoon but NPO after
+   midnight for EGD in am
+   -6p Hct 22.8 from 24.8. Given 2uPRBCs
+   -Per renal, d/c'd epo and started D5 1/2NS at 50cc/hr
+   Allergies:
+   Enalapril
+   Cough;
+   Shellfish
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2167-10-25**] 08:38 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2167-10-26**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.1
+   Tcurrent: 36.7
+C (98
+   HR: 89 (86 - 104) bpm
+   BP: 149/66(87) {118/46(62) - 152/72(90)} mmHg
+   RR: 20 (9 - 26) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 81.6 kg (admission): 81.6 kg
+           Total In:
+                                                                  2,374 mL
+                                                                    461 mL
+   PO:
+                                                                    360 mL
+           TF:
+   IVF:
+                                                                  1,510 mL
+                                                                    314 mL
+   Blood products:
+                                                                    504 mL
+                                                                    146 mL
+   Total out:
+                                                                    950 mL
+                                                                    300 mL
+   Urine:
+                                                                    950 mL
+                                                                    300 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,424 mL
+                                                                    161 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///25/
+   Physical Examination
+   GEN: Well-appearing, well-nourished, NAD, A0x3
+   HEENT: EOMI, PERRL, MMM,
+   NECK: No JVD, carotid pulses brisk, no bruits, no cervical
+   lymphadenopathy, trachea midline
+   COR:  S1 S2, Bruit sounds radiating from patients AV fistula in L UE.
+   PULM: Lungs CTAB,
+   ABD: Soft, NT, ND, +BS, no HSM,
+   EXT: No C/C/E
+   Labs / Radiology
+   195 K/uL
+   10.1 g/dL
+   111 mg/dL
+   4.2 mg/dL
+   25 mEq/L
+   4.3 mEq/L
+   69 mg/dL
+   106 mEq/L
+   139 mEq/L
+   29.2 %
+   8.4 K/uL
+        [image002.jpg]
+                            [**2167-10-24**]  02:07 PM
+                            [**2167-10-24**]  07:50 PM
+                            [**2167-10-25**]  02:00 AM
+                            [**2167-10-25**]  11:00 AM
+                            [**2167-10-25**]  06:05 PM
+                            [**2167-10-26**]  03:13 AM
+   WBC
+   10.9
+   8.1
+   8.4
+   Hct
+   25.8
+   25.9
+   23.8
+   24.8
+   22.8
+   29.2
+   Plt
+   196
+   172
+   195
+   Cr
+   3.7
+   4.2
+   Glucose
+   89
+   111
+   Other labs: PT / PTT / INR:13.0/30.4/1.1, Lactic Acid:1.2 mmol/L,
+   Ca++:8.6 mg/dL, Mg++:1.9 mg/dL, PO4:4.1 mg/dL
+   Assessment and Plan
+   76 yo female with hx of ischemic colitis and lower GIB, ESRD on HD,
+   presenting with acute to subacute HCT drop most likely due to upper
+   GIB
+   .
+   # GI Bleed. Upper vs Right sided lower given patients prior symptoms.
+   Remains hemodynamically stable although Hct has trended down. No signs
+   of active bleeding.
+   - 2 Large Bore Peripheral IVs
+   - IV Protonix
+   - d/w GI reguarding potential EGD today vs EGD + Colonscopy tomorrow
+   - HCT Q6H
+   .
+   # ESRD: Pt on dialysis, had HD yesterday
+   - d/w Renal, likely HD tomorrow
+   .
+   # Chronic Systolic CHF: Stable. UF at dialysis.
+   .
+   # DM: [**12-10**] of usual ISS while NPO
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2167-10-24**] 11:00 AM
+   20 Gauge - [**2167-10-24**] 11:37 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 76-year-old female with a history of ischemic colitis, lower gastrointestinal bleeding (GIB), and end-stage renal disease (ESRD) on hemodialysis (HD). She presented with an acute to subacute hemoglobin (Hct) drop, likely due to upper GIB. She remains hemodynamically stable, but her Hct has trended down. The patient is currently on IV protonix, and her medical team is considering an endoscopy (EGD) today or tomorrow.
+
+Medical Complications:
+
+1. Upper gastrointestinal bleeding: The patient's Hct drop and trend down may indicate ongoing bleeding, which can lead to hypovolemic shock and organ dysfunction.
+2. Hypovolemic shock: The patient's decreased Hct and trend down may lead to hypovolemic shock, which can cause decreased cardiac output, decreased blood pressure, and decreased perfusion of vital organs.
+3. Electrolyte imbalance: The patient's laboratory results show an elevated potassium level (4.3 mEq/L) and a decreased calcium level (8.6 mg/dL), which can lead to cardiac arrhythmias and muscle weakness.
+4. Metabolic acidosis: The patient's lactic acid level is elevated (1.2 mmol/L), which can indicate poor tissue perfusion and metabolic acidosis.
+5. Chronic systolic heart failure: The patient's chronic systolic heart failure can exacerbate her condition, particularly if she experiences hypovolemic shock or electrolyte imbalance.
+6. Dialysis: The patient's ESRD requires dialysis, which can lead to complications such as hypotension, electrolyte imbalance, and bleeding due to platelet dysfunction.
+7. Infection: The patient's elevated white blood cell count (WBC) and C-reactive protein (CRP) levels may indicate an underlying infection, which can worsen her condition.
+8. Gastrointestinal perforation: The patient's history of ischemic colitis and lower GIB increases her risk of gastrointestinal perforation, which can lead to peritonitis and sepsis."
+126561.0,291144,2167-10-26 12:31:00,Physician ,Physician Attending Progress Note,"Chief Complaint: GI bleed, anemia secondary to blood loss
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   Patient's hct has drifted down over the past 48 hours after initial
+   transfusions. Has been hemodynamically stable. No bowel movements.
+   Patient received an additional 2 units of PRBC's last night; hct has
+   increased appropriately following the transfusion.
+   Patient to get dialysis today.
+   Excellent oxygen saturations without supplemental O2.
+   EGD this AM; no bleeding source visualized.
+   24 Hour Events:
+   History obtained from Patient
+   Allergies:
+   Enalapril
+   Cough;
+   Shellfish
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Protonix, insulin, tylenol
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2167-10-26**] 12:30 PM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.1
+   Tcurrent: 36.6
+C (97.8
+   HR: 88 (86 - 104) bpm
+   BP: 151/77(96) {118/48(67) - 156/77(96)} mmHg
+   RR: 20 (9 - 26) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 81.6 kg (admission): 81.6 kg
+           Total In:
+                                                                  2,374 mL
+                                                                    820 mL
+   PO:
+                                                                    360 mL
+           TF:
+   IVF:
+                                                                  1,510 mL
+                                                                    674 mL
+   Blood products:
+                                                                    504 mL
+                                                                    146 mL
+   Total out:
+                                                                    950 mL
+                                                                    800 mL
+   Urine:
+                                                                    950 mL
+                                                                    800 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,424 mL
+                                                                     20 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: Patient not in ICU; in endoscopy suite recovering
+   from her EGD.
+   Labs / Radiology
+   10.1 g/dL
+   195 K/uL
+   111 mg/dL
+   4.2 mg/dL
+   25 mEq/L
+   4.3 mEq/L
+   69 mg/dL
+   106 mEq/L
+   139 mEq/L
+   29.2 %
+   8.4 K/uL
+        [image002.jpg]
+                            [**2167-10-24**]  02:07 PM
+                            [**2167-10-24**]  07:50 PM
+                            [**2167-10-25**]  02:00 AM
+                            [**2167-10-25**]  11:00 AM
+                            [**2167-10-25**]  06:05 PM
+                            [**2167-10-26**]  03:13 AM
+   WBC
+   10.9
+   8.1
+   8.4
+   Hct
+   25.8
+   25.9
+   23.8
+   24.8
+   22.8
+   29.2
+   Plt
+   196
+   172
+   195
+   Cr
+   3.7
+   4.2
+   Glucose
+   89
+   111
+   Other labs: PT / PTT / INR:13.0/30.4/1.1, Lactic Acid:1.2 mmol/L,
+   Ca++:8.6 mg/dL, Mg++:1.9 mg/dL, PO4:4.1 mg/dL
+   Assessment and Plan
+ .H/O DIABETES MELLITUS (DM), TYPE II
+ GASTROINTESTINAL BLEED, OTHER (GI BLEED, GIB)
+   ANEMIA
+   CHRONIC RENAL FAILURE
+   Patient doing well. Perhaps has had slow oozing versus equilibration to
+   accont for drop in Hct over the weekend (especially given her renal
+   failure and thus greater tendencey to hemodilute between dialsysis
+   episodes). EGD, just completed, did not visualize a source of bleeding.
+   Patient will need to be prepped for colonoscopy; has hx of ischemic
+   colitis.  Hemodynamically stable other than mild orthostasis.
+   To go to dialysis today. Electrolytes acceptable. No acidosis.
+   ICU Care
+   Nutrition: NPO
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2167-10-24**] 11:00 AM
+   20 Gauge - [**2167-10-24**] 11:37 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: PPI
+   VAP:
+   Comments: Not applicable.
+   Communication: Patient discussed on interdisciplinary rounds , ICU
+   Code status: Full code
+   Disposition :Transfer to floor
+   Total time spent: 25 minutes
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: GI bleed, anemia secondary to blood loss
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   Patient's hct has drifted down over the past 48 hours after initial
+   transfusions. Has been hemodynamically stable. No bowel movements.
+   Patient received an additional 2 units of PRBC's last night; hct has
+   increased appropriately following the transfusion.
+   Patient to get dialysis today.
+   Excellent oxygen saturations without supplemental O2.
+   EGD this AM; no bleeding source visualized.
+   24 Hour Events:
+   History obtained from Patient
+   Allergies:
+   Enalapril
+   Cough;
+   Shellfish
+   Unknown;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Protonix, insulin, tylenol
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2167-10-26**] 12:30 PM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.1
+   Tcurrent: 36.6
+C (97.8
+   HR: 88 (86 - 104) bpm
+   BP: 151/77(96) {118/48(67) - 156/77(96)} mmHg
+   RR: 20 (9 - 26) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 81.6 kg (admission): 81.6 kg
+           Total In:
+                                                                  2,374 mL
+                                                                    820 mL
+   PO:
+                                                                    360 mL
+           TF:
+   IVF:
+                                                                  1,510 mL
+                                                                    674 mL
+   Blood products:
+                                                                    504 mL
+                                                                    146 mL
+   Total out:
+                                                                    950 mL
+                                                                    800 mL
+   Urine:
+                                                                    950 mL
+                                                                    800 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,424 mL
+                                                                     20 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: Patient not in ICU; in endoscopy suite recovering
+   from her EGD.
+   Labs / Radiology
+   10.1 g/dL
+   195 K/uL
+   111 mg/dL
+   4.2 mg/dL
+   25 mEq/L
+   4.3 mEq/L
+   69 mg/dL
+   106 mEq/L
+   139 mEq/L
+   29.2 %
+   8.4 K/uL
+        [image002.jpg]
+                            [**2167-10-24**]  02:07 PM
+                            [**2167-10-24**]  07:50 PM
+                            [**2167-10-25**]  02:00 AM
+                            [**2167-10-25**]  11:00 AM
+                            [**2167-10-25**]  06:05 PM
+                            [**2167-10-26**]  03:13 AM
+   WBC
+   10.9
+   8.1
+   8.4
+   Hct
+   25.8
+   25.9
+   23.8
+   24.8
+   22.8
+   29.2
+   Plt
+   196
+   172
+   195
+   Cr
+   3.7
+   4.2
+   Glucose
+   89
+   111
+   Other labs: PT / PTT / INR:13.0/30.4/1.1, Lactic Acid:1.2 mmol/L,
+   Ca++:8.6 mg/dL, Mg++:1.9 mg/dL, PO4:4.1 mg/dL
+   Assessment and Plan
+ .H/O DIABETES MELLITUS (DM), TYPE II
+ GASTROINTESTINAL BLEED, OTHER (GI BLEED, GIB)
+   ANEMIA
+   CHRONIC RENAL FAILURE
+   Patient doing well. Perhaps has had slow oozing versus equilibration to
+   accont for drop in Hct over the weekend (especially given her renal
+   failure and thus greater tendencey to hemodilute between dialsysis
+   episodes). EGD, just completed, did not visualize a source of bleeding.
+   Patient will need to be prepped for colonoscopy; has hx of ischemic
+   colitis.  Hemodynamically stable other than mild orthostasis.
+   To go to dialysis today. Electrolytes acceptable. No acidosis.
+   ICU Care
+   Nutrition: NPO
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2167-10-24**] 11:00 AM
+   20 Gauge - [**2167-10-24**] 11:37 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: PPI
+   VAP:
+   Comments: Not applicable.
+   Communication: Patient discussed on interdisciplinary rounds , ICU
+   Code status: Full code
+   Disposition :Transfer to floor
+   Total time spent: 25 minutes<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the progress note, the patient is a 81.6 kg individual who has been admitted to the ICU with a chief complaint of GI bleed and anemia secondary to blood loss. The patient has received transfusions of packed red blood cells (PRBCs) and has been hemodynamically stable. The patient's hemoglobin (Hct) has decreased over the past 48 hours, but has increased appropriately following the additional transfusion last night.
+
+The patient has undergone an esophagogastroduodenoscopy (EGD) this morning, which did not visualize a source of bleeding. The patient is scheduled to receive dialysis today.
+
+The patient's vital signs are stable, with a temperature of 36.6°C, heart rate of 88 bpm, and blood pressure of 151/77 mmHg. The patient's oxygen saturation is 100% without supplemental oxygen. The patient's respiratory support is minimal, with no need for mechanical ventilation.
+
+The patient's laboratory results show a decreasing Hct over the past few days, with a current value of 29.2%. The patient's white blood cell count (WBC) has increased slightly, while the platelet count (Plt) has remained stable. The patient's creatinine (Cr) level is 3.7 mg/dL, indicating chronic renal failure. The patient's glucose level is 89 mg/dL, and the patient is receiving insulin sliding scale for glycemic control.
+
+The patient's physical examination is notable for mild orthostasis and no bowel movements. The patient's EGD did not visualize a source of bleeding.
+
+Potential medical complications that can arise include:
+
+1. Continued bleeding: Despite the EGD not visualizing a source of bleeding, the patient's Hct continues to decrease, indicating ongoing bleeding.
+2. Anemia: The patient's Hct is critically low, and further transfusions may be necessary to prevent complications such as cardiac instability.
+3. Renal failure: The patient's chronic renal failure may worsen if not managed properly, leading to electrolyte imbalances and acidosis.
+4. Infection: The patient's decreased immune function due to chronic renal failure and anemia may increase the risk of infection.
+5. Ischemic colitis: The patient has a history of ischemic colitis, which may worsen if not managed properly.
+6. Gastrointestinal bleeding: The patient's history of GI bleed and lack of visualization of a source of bleeding on EGD may indicate ongoing bleeding or the development of new bleeding sites.
+
+Overall, the patient requires close monitoring and management to prevent these potential complications and ensure optimal care."

@@ -1,0 +1,3621 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+171753.0,282701,2191-06-01 06:58:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ PAN CULTURE - At [**2191-5-31**] 09:06 PM
+ INVASIVE VENTILATION - START [**2191-5-31**] 09:30 PM
+ MULTI LUMEN - START [**2191-6-1**] 12:45 AM
+ FEVER - 103.0
+F - [**2191-5-31**] 09:04 PM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-5-31**] 09:05 PM
+   Levofloxacin - [**2191-5-31**] 10:57 PM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Norepinephrine - 0.05 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2191-5-31**] 09:06 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-1**] 06:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.4
+C (103
+   Tcurrent: 38.3
+C (101
+   HR: 112 (108 - 146) bpm
+   BP: 105/44(57) {73/24(37) - 144/105(115)} mmHg
+   RR: 33 (15 - 60) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+    CVP: 12 (11 - 18)mmHg
+   Mixed Venous O2% Sat: 69 - 77
+   Total In:
+                                                                  1,514 mL
+                                                                  2,457 mL
+   PO:
+   TF:
+   IVF:
+                                                                  1,514 mL
+                                                                  2,457 mL
+   Blood products:
+   Total out:
+                                                                    360 mL
+                                                                    385 mL
+   Urine:
+                                                                    360 mL
+                                                                    385 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,154 mL
+                                                                  2,072 mL
+   Respiratory support
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 400 (400 - 550) mL
+   RR (Set): 20
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 37 cmH2O
+   Plateau: 34 cmH2O
+   SpO2: 99%
+   ABG: 7.41/37/201/22/0
+   Ve: 11.3 L/min
+   PaO2 / FiO2: 335
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   177 K/uL
+   7.7 g/dL
+   130 mg/dL
+   0.7 mg/dL
+   22 mEq/L
+   4.2 mEq/L
+   6 mg/dL
+   107 mEq/L
+   138 mEq/L
+   22.8 %
+   17.4 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  09:10 PM
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+   WBC
+   17.4
+   17.4
+   Hct
+   26.5
+   22.8
+   Plt
+   179
+   177
+   Cr
+   0.6
+   0.7
+   TCO2
+   24
+   Glucose
+   129
+   73
+   130
+   Other labs: PT / PTT / INR:15.1/28.0/1.3, ALT / AST:51/62, Alk Phos / T
+   Bili:101/0.4, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, LDH:384
+   IU/L, Ca++:6.8 mg/dL, Mg++:1.7 mg/dL, PO4:3.0 mg/dL
+   Assessment and Plan
+ FEVER, UNKNOWN ORIGIN (FUO, HYPERTHERMIA, PYREXIA)
+ HYPOXEMIA
+ HYPOTHERMIA
+ HYPOTENSION (NOT SHOCK)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2191-5-31**] 09:11 PM
+   18 Gauge - [**2191-5-31**] 09:12 PM
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ PAN CULTURE - At [**2191-5-31**] 09:06 PM
+ INVASIVE VENTILATION - START [**2191-5-31**] 09:30 PM
+ MULTI LUMEN - START [**2191-6-1**] 12:45 AM
+ FEVER - 103.0
+F - [**2191-5-31**] 09:04 PM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-5-31**] 09:05 PM
+   Levofloxacin - [**2191-5-31**] 10:57 PM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Norepinephrine - 0.05 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2191-5-31**] 09:06 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-1**] 06:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.4
+C (103
+   Tcurrent: 38.3
+C (101
+   HR: 112 (108 - 146) bpm
+   BP: 105/44(57) {73/24(37) - 144/105(115)} mmHg
+   RR: 33 (15 - 60) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+    CVP: 12 (11 - 18)mmHg
+   Mixed Venous O2% Sat: 69 - 77
+   Total In:
+                                                                  1,514 mL
+                                                                  2,457 mL
+   PO:
+   TF:
+   IVF:
+                                                                  1,514 mL
+                                                                  2,457 mL
+   Blood products:
+   Total out:
+                                                                    360 mL
+                                                                    385 mL
+   Urine:
+                                                                    360 mL
+                                                                    385 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,154 mL
+                                                                  2,072 mL
+   Respiratory support
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 400 (400 - 550) mL
+   RR (Set): 20
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 37 cmH2O
+   Plateau: 34 cmH2O
+   SpO2: 99%
+   ABG: 7.41/37/201/22/0
+   Ve: 11.3 L/min
+   PaO2 / FiO2: 335
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   177 K/uL
+   7.7 g/dL
+   130 mg/dL
+   0.7 mg/dL
+   22 mEq/L
+   4.2 mEq/L
+   6 mg/dL
+   107 mEq/L
+   138 mEq/L
+   22.8 %
+   17.4 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  09:10 PM
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+   WBC
+   17.4
+   17.4
+   Hct
+   26.5
+   22.8
+   Plt
+   179
+   177
+   Cr
+   0.6
+   0.7
+   TCO2
+   24
+   Glucose
+   129
+   73
+   130
+   Other labs: PT / PTT / INR:15.1/28.0/1.3, ALT / AST:51/62, Alk Phos / T
+   Bili:101/0.4, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, LDH:384
+   IU/L, Ca++:6.8 mg/dL, Mg++:1.7 mg/dL, PO4:3.0 mg/dL
+   Assessment and Plan
+ FEVER, UNKNOWN ORIGIN (FUO, HYPERTHERMIA, PYREXIA)
+ HYPOXEMIA
+ HYPOTHERMIA
+ HYPOTENSION (NOT SHOCK)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2191-5-31**] 09:11 PM
+   18 Gauge - [**2191-5-31**] 09:12 PM
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a critically ill individual in the Intensive Care Unit (ICU) with multiple ongoing medical conditions. The patient's chief complaint is fever, and they have been experiencing hypothermia, hypoxemia, and hypotension.
+
+The patient's vital signs are:
+
+* Temperature: 103°F (39.4°C) with a current temperature of 101°F (38.3°C)
+* Heart rate: 112 bpm with a range of 108-146 bpm
+* Blood pressure: 105/44 mmHg with a range of 57-144/105 mmHg
+* Respiratory rate: 33 breaths per minute with a range of 15-60 breaths per minute
+* SpO2: 99%
+* Heart rhythm: Sinus tachycardia
+
+The patient's laboratory results show:
+
+* White blood cell count: 17.4 K/uL
+* Hematocrit: 22.8%
+* Platelet count: 179 K/uL
+* Creatinine: 0.6 mg/dL
+* Total CO2: 24 mmHg
+* Glucose: 130 mg/dL
+* Other lab results: PT/PTT/INR: 15.1/28.0/1.3, ALT/AST: 51/62, Alk Phos/T Bili: 101/0.4, Fibrinogen: 625 mg/dL, Lactic Acid: 1.0 mmol/L, LDH: 384 IU/L, Ca++: 6.8 mg/dL, Mg++: 1.7 mg/dL, PO4: 3.0 mg/dL
+
+The patient's physical examination is incomplete due to their critical condition.
+
+The patient's medical conditions and potential complications include:
+
+* Fever of unknown origin (FUO) with a temperature of 103°F (39.4°C)
+* Hypoxemia with an SpO2 of 99%
+* Hypothermia with a current temperature of 101°F (38.3°C)
+* Hypotension with a blood pressure of 105/44 mmHg
+* Potential for sepsis or septic shock
+* Potential for respiratory failure due to hypoxemia and hypotension
+* Potential for cardiac arrhythmias due to hypotension and sinus tachycardia
+* Potential for kidney injury or failure due to hypotension and elevated creatinine
+* Potential for liver injury or failure due to elevated liver enzymes
+* Potential for coagulopathy due to elevated PT/PTT/INR
+
+The patient's ICU care plan includes:
+
+* Invasive ventilation
+* Multi-lumen catheter
+* Fentanyl infusion
+* Midazolam (Versed) infusion
+* Norepinephrine infusion
+* Morphine sulfate infusion
+* Vancomycin and levofloxacin antibiotics
+* Prophylactic medications for DVT, stress ulcer, and VAP
+* Glycemic control
+* Nutrition support
+
+The patient's disposition is uncertain at this time, and further monitoring and treatment are necessary to manage their critical condition."
+171753.0,282701,2191-06-01 06:58:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - LIJ placed for improved access
+   - Received 1.5 L boluses with MAP 50s. MvO2 69 with nl lactate. Given
+   500mg bolus over 5min x 3 with no improvement in MAP so started on
+   levophed gtt. Received add'l 1L bolus.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-5-31**] 09:05 PM
+   Levofloxacin - [**2191-5-31**] 10:57 PM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Norepinephrine - 0.05 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2191-5-31**] 09:06 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-1**] 06:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.4
+C (103
+   Tcurrent: 38.3
+C (101
+   HR: 112 (108 - 146) bpm
+   BP: 105/44(57) {73/24(37) - 144/105(115)} mmHg
+   RR: 33 (15 - 60) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+    CVP: 12 (11 - 18)mmHg
+   Mixed Venous O2% Sat: 69 - 77
+   Total In:
+                                                                  1,514 mL
+                                                                  2,457 mL
+   PO:
+   TF:
+   IVF:
+                                                                  1,514 mL
+                                                                  2,457 mL
+   Blood products:
+   Total out:
+                                                                    360 mL
+                                                                    385 mL
+   Urine:
+                                                                    360 mL
+                                                                    385 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,154 mL
+                                                                  2,072 mL
+   Respiratory support
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 400 (400 - 550) mL
+   RR (Set): 20
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 37 cmH2O
+   Plateau: 34 cmH2O
+   SpO2: 99%
+   ABG: 7.41/37/201/22/0
+   Ve: 11.3 L/min
+   PaO2 / FiO2: 335
+   Physical Examination
+   GENERAL: obese female, sedated
+   HEENT: +ET tube
+   CARDIAC: Regular rhythm, tachycardic. Normal S1, S2 but distant. No
+   murmurs, rubs or [**Last Name (un) 2911**]. JVP difficult to assess [**1-24**] habitus
+   LUNGS: Clear, no w/r/r
+   ABDOMEN: Obese, NABS. Soft, NT, ND. No HSM
+   EXTREMITIES: Right lower extremity wrapped with wound vac in place
+   draining bloody fluid. Right toes: warm, well perfused, good capillary
+   refill.
+   SKIN: No rashes/lesions, ecchymoses.
+   NEURO: Sedated. Pupils reactive.
+   Labs / Radiology
+   177 K/uL
+   7.7 g/dL
+   130 mg/dL
+   0.7 mg/dL
+   22 mEq/L
+   4.2 mEq/L
+   6 mg/dL
+   107 mEq/L
+   138 mEq/L
+   22.8 %
+   17.4 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  09:10 PM
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+   WBC
+   17.4
+   17.4
+   Hct
+   26.5
+   22.8
+   Plt
+   179
+   177
+   Cr
+   0.6
+   0.7
+   TCO2
+   24
+   Glucose
+   129
+   73
+   130
+   Other labs: PT / PTT / INR:15.1/28.0/1.3, ALT / AST:51/62, Alk Phos / T
+   Bili:101/0.4, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, LDH:384
+   IU/L, Ca++:6.8 mg/dL, Mg++:1.7 mg/dL, PO4:3.0 mg/dL
+   Assessment and Plan
+   20 F with no PMHx s/p MVA accident and tib-fib s/p ORIF transferred
+   from Ortho Service to Medicine and now MICU for worsening hypoxia.
+   # Hypoxia: Still unclear etiology with ARDS physiology. Considered
+   infection with atypical organisms vs flu, fat emboli, aspiration.
+   - Bronch today to r/o infection, eosinophilia and perhaps diagnose fat
+   emboli syndrome
+   - CXR to confirm ET tube placement as well as for interval assessment
+   - Continue vanco and zosyn for coverage of HAP as well as levofloxacin
+   for atypicals
+   - Follow fever and WBC curve
+   - F/u sputum cx, send urine legionella and influenza DFA
+   - Continue lovenox for ppx
+   - Supportive ventilation with fentanyl/versed for sedation-PRN morphine
+   for turns; wean as tolerated
+   - F/u any Pulm recs (consulted on floor)
+   - Re-attempt a-line today for repeated ABGs
+   - Change tidal volumes based on height
+   - consider esophageal balloon pressure today to ensure measuring lung
+   compliance and not chest wall compliance given obesity
+   # Hypotension: Hypotensive in setting of positive pressure on vent as
+   well as sedation. Concern for sepsis in setting of infection. Better
+   today after pressors and IVF.
+   - IVF boluses prn to maintain MAP >60. UOP >30. CVP>12
+   - Attempt to wean pressors today
+   - F/u panculture data; abx as above
+   - Trend Hct as post-op; already crossmatched x 4 units, maintain active
+   T&S
+   # Anemia: Baseline unclear but Hct 36 on admission; decreased to 26
+   which may be in setting of surgical repair of tib/fib with small amount
+   bloody drainage from wound vac. Now to 22 with aggressive IVF.
+   - Monitor [**Hospital1 **] Hcts
+   - Guaiac all stools
+   - CVL with active T&S as above; transfuse for Hct <21
+   #)Tib/Fib fx: S/p ORIF by Ortho with plan for revision on [**6-2**]. However
+   will postpone given acute decompensation.
+   - Fentanyl gtt/ morphine prn for pain control
+   - F/u ortho recs
+   # ?Syncope: Patient was involved in MVA with question of syncope prior
+   to collision. Has had negative CT head and monitored on tele with no
+   arrhythmia except sinus tachy thought [**1-24**] infection. EKG without
+   ischemic changes. TTE negative for structural disease. No h/o syncope
+   or seizures so suspicion in accident is low. Serum tox positive only
+   for opioids on arrival which could be accounted for by morphine
+   received at OSH.
+   - Monitor on tele
+   ICU Care
+   Nutrition: NPO. Start TFs today.
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2191-5-31**] 09:11 PM
+   18 Gauge - [**2191-5-31**] 09:12 PM
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Prophylaxis:
+   DVT: lovenox, boots
+   Stress ulcer: Change to H2 blocker today
+   VAP:  mouth care
+   Comments:
+   Communication:  Comments: Mother [**Name (NI) 6537**] [**0-0-**], Father [**Name (NI) 2446**]
+   [**Telephone/Fax (1) 6538**]. Contact PCP today for update.
+   Code status: Full
+   Disposition: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - LIJ placed for improved access
+   - Received 1.5 L boluses with MAP 50s. MvO2 69 with nl lactate. Given
+   500mg bolus over 5min x 3 with no improvement in MAP so started on
+   levophed gtt. Received add'l 1L bolus.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-5-31**] 09:05 PM
+   Levofloxacin - [**2191-5-31**] 10:57 PM
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 3 mg/hour
+   Norepinephrine - 0.05 mcg/Kg/min
+   Other ICU medications:
+   Morphine Sulfate - [**2191-5-31**] 09:06 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-1**] 06:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.4
+C (103
+   Tcurrent: 38.3
+C (101
+   HR: 112 (108 - 146) bpm
+   BP: 105/44(57) {73/24(37) - 144/105(115)} mmHg
+   RR: 33 (15 - 60) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+    CVP: 12 (11 - 18)mmHg
+   Mixed Venous O2% Sat: 69 - 77
+   Total In:
+                                                                  1,514 mL
+                                                                  2,457 mL
+   PO:
+   TF:
+   IVF:
+                                                                  1,514 mL
+                                                                  2,457 mL
+   Blood products:
+   Total out:
+                                                                    360 mL
+                                                                    385 mL
+   Urine:
+                                                                    360 mL
+                                                                    385 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,154 mL
+                                                                  2,072 mL
+   Respiratory support
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 400 (400 - 550) mL
+   RR (Set): 20
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 37 cmH2O
+   Plateau: 34 cmH2O
+   SpO2: 99%
+   ABG: 7.41/37/201/22/0
+   Ve: 11.3 L/min
+   PaO2 / FiO2: 335
+   Physical Examination
+   GENERAL: obese female, sedated
+   HEENT: +ET tube
+   CARDIAC: Regular rhythm, tachycardic. Normal S1, S2 but distant. No
+   murmurs, rubs or [**Last Name (un) 2911**]. JVP difficult to assess [**1-24**] habitus
+   LUNGS: Clear, no w/r/r
+   ABDOMEN: Obese, NABS. Soft, NT, ND. No HSM
+   EXTREMITIES: Right lower extremity wrapped with wound vac in place
+   draining bloody fluid. Right toes: warm, well perfused, good capillary
+   refill.
+   SKIN: No rashes/lesions, ecchymoses.
+   NEURO: Sedated. Pupils reactive.
+   Labs / Radiology
+   177 K/uL
+   7.7 g/dL
+   130 mg/dL
+   0.7 mg/dL
+   22 mEq/L
+   4.2 mEq/L
+   6 mg/dL
+   107 mEq/L
+   138 mEq/L
+   22.8 %
+   17.4 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  09:10 PM
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+   WBC
+   17.4
+   17.4
+   Hct
+   26.5
+   22.8
+   Plt
+   179
+   177
+   Cr
+   0.6
+   0.7
+   TCO2
+   24
+   Glucose
+   129
+   73
+   130
+   Other labs: PT / PTT / INR:15.1/28.0/1.3, ALT / AST:51/62, Alk Phos / T
+   Bili:101/0.4, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, LDH:384
+   IU/L, Ca++:6.8 mg/dL, Mg++:1.7 mg/dL, PO4:3.0 mg/dL
+   Assessment and Plan
+   20 F with no PMHx s/p MVA accident and tib-fib s/p ORIF transferred
+   from Ortho Service to Medicine and now MICU for worsening hypoxia.
+   # Hypoxia: Still unclear etiology with ARDS physiology. Considered
+   infection with atypical organisms vs flu, fat emboli, aspiration.
+   - Bronch today to r/o infection, eosinophilia and perhaps diagnose fat
+   emboli syndrome
+   - CXR to confirm ET tube placement as well as for interval assessment
+   - Continue vanco and zosyn for coverage of HAP as well as levofloxacin
+   for atypicals
+   - Follow fever and WBC curve
+   - F/u sputum cx, send urine legionella and influenza DFA
+   - Continue lovenox for ppx
+   - Supportive ventilation with fentanyl/versed for sedation-PRN morphine
+   for turns; wean as tolerated
+   - F/u any Pulm recs (consulted on floor)
+   - Re-attempt a-line today for repeated ABGs
+   - Change tidal volumes based on height
+   - consider esophageal balloon pressure today to ensure measuring lung
+   compliance and not chest wall compliance given obesity
+   # Hypotension: Hypotensive in setting of positive pressure on vent as
+   well as sedation. Concern for sepsis in setting of infection. Better
+   today after pressors and IVF.
+   - IVF boluses prn to maintain MAP >60. UOP >30. CVP>12
+   - Attempt to wean pressors today
+   - F/u panculture data; abx as above
+   - Trend Hct as post-op; already crossmatched x 4 units, maintain active
+   T&S
+   # Anemia: Baseline unclear but Hct 36 on admission; decreased to 26
+   which may be in setting of surgical repair of tib/fib with small amount
+   bloody drainage from wound vac. Now to 22 with aggressive IVF.
+   - Monitor [**Hospital1 **] Hcts
+   - Guaiac all stools
+   - CVL with active T&S as above; transfuse for Hct <21
+   #)Tib/Fib fx: S/p ORIF by Ortho with plan for revision on [**6-2**]. However
+   will postpone given acute decompensation.
+   - Fentanyl gtt/ morphine prn for pain control
+   - F/u ortho recs
+   # ?Syncope: Patient was involved in MVA with question of syncope prior
+   to collision. Has had negative CT head and monitored on tele with no
+   arrhythmia except sinus tachy thought [**1-24**] infection. EKG without
+   ischemic changes. TTE negative for structural disease. No h/o syncope
+   or seizures so suspicion in accident is low. Serum tox positive only
+   for opioids on arrival which could be accounted for by morphine
+   received at OSH.
+   - Monitor on tele
+   ICU Care
+   Nutrition: NPO. Start TFs today.
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2191-5-31**] 09:11 PM
+   18 Gauge - [**2191-5-31**] 09:12 PM
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Prophylaxis:
+   DVT: lovenox, boots
+   Stress ulcer: Change to H2 blocker today
+   VAP:  mouth care
+   Comments:
+   Communication:  Comments: Mother [**Name (NI) 6537**] [**0-0-**], Father [**Name (NI) 2446**]
+   [**Telephone/Fax (1) 6538**]. Contact PCP today for update.
+   Code status: Full
+   Disposition: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 20-year-old female who was admitted to the ICU after a motor vehicle accident (MVA) and underwent surgery for a tib-fib fracture. She is currently experiencing worsening hypoxia, hypotension, and anemia.
+
+The patient's vital signs are as follows:
+
+* Temperature: 39.4°C (103°F)
+* Heart rate: 112 beats per minute (bpm)
+* Blood pressure: 105/44 mmHg
+* Respiratory rate: 33 breaths per minute (bpm)
+* Oxygen saturation: 99%
+* Mixed venous oxygen saturation: 69-77%
+
+The patient is receiving mechanical ventilation with a tidal volume of 400 mL, respiratory rate of 20 breaths per minute, and PEEP of 15 cmH2O. She is also receiving fentanyl and midazolam infusions for sedation.
+
+The patient's laboratory results show:
+
+* White blood cell count: 17.4 K/uL
+* Hemoglobin: 7.7 g/dL
+* Platelet count: 179 K/uL
+* Creatinine: 0.7 mg/dL
+* Blood urea nitrogen: 22 mEq/L
+* Sodium: 138 mEq/L
+* Potassium: 4.2 mEq/L
+* Glucose: 130 mg/dL
+
+The patient's physical examination is significant for a wound vac on her right lower extremity, which is draining bloody fluid. Her abdomen is obese and soft, with no signs of ascites or organomegaly.
+
+Based on the patient's condition, potential medical complications that can arise include:
+
+1. Sepsis: The patient's worsening hypoxia and hypotension could be indicative of sepsis, particularly given her recent surgery and wound infection.
+2. Respiratory failure: The patient's respiratory status is critical, and she may require further respiratory support or consideration for extracorporeal membrane oxygenation (ECMO).
+3. Anemia: The patient's anemia is worsening, and she may require transfusions or further evaluation to determine the cause.
+4. Hypovolemic shock: The patient's hypotension and decreased blood pressure could be indicative of hypovolemic shock, particularly given her recent surgery and blood loss.
+5. Fat emboli syndrome: The patient's recent surgery and possible fat emboli could lead to respiratory failure, sepsis, or other complications.
+6. Pneumonia: The patient's worsening hypoxia and hypotension could be indicative of pneumonia, particularly given her recent surgery and potential aspiration.
+7. Ventilator-associated pneumonia (VAP): The patient's mechanical ventilation increases her risk of developing VAP, which could lead to sepsis and other complications.
+
+In summary, the patient is critically ill with worsening hypoxia, hypotension, and anemia. She requires close monitoring and aggressive management to prevent further complications."
+171753.0,282701,2191-06-02 06:57:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - A-line placed
+   - Bronch with some blood/hemorrhage of R lung, clear L lung, ? trauma
+   from ET suction vs. hemorrhage. Infuenza DFA negative.
+   - Given total of 3 U PRBC over yesterday ([**6-1**]) but Hct did not bump
+   appropriately
+   - Had desat episodes to low 90s with re-positioning despite elevating
+   FiO2 and PEEP requirements. Esophageal balloon in place.
+   - Started pressors back for MAPS<60 but weaned off this AM.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-6-1**] 08:08 PM
+   Levofloxacin - [**2191-6-1**] 09:46 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2191-6-2**] 06:06 AM
+   Infusions:
+   Fentanyl - 200 mcg/hour
+   Norepinephrine - 0.02 mcg/Kg/min
+   Midazolam (Versed) - 6 mg/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2191-6-1**] 08:00 AM
+   Famotidine (Pepcid) - [**2191-6-1**] 08:00 PM
+   Fentanyl - [**2191-6-1**] 09:13 PM
+   Midazolam (Versed) - [**2191-6-2**] 01:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.3
+C (102.7
+   Tcurrent: 39.2
+C (102.6
+   HR: 107 (101 - 125) bpm
+   BP: 106/59(73) {94/53(66) - 130/73(89)} mmHg
+   RR: 30 (25 - 39) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+   Height: 63 Inch
+    CVP: 19 (12 - 22)mmHg
+   Bladder pressure: 9 (9 - 9) mmHg
+   Mixed Venous O2% Sat: 65 - 65
+   Total In:
+                                                                  6,732 mL
+                                                                    566 mL
+   PO:
+   TF:
+                                                                     28 mL
+   IVF:
+                                                                  4,885 mL
+                                                                    508 mL
+   Blood products:
+                                                                    817 mL
+   Total out:
+                                                                  2,605 mL
+                                                                    800 mL
+   Urine:
+                                                                  2,355 mL
+                                                                    780 mL
+   NG:
+                                                                    100 mL
+                                                                     20 mL
+   Stool:
+   Drains:
+                                                                    150 mL
+   Balance:
+                                                                  4,127 mL
+                                                                   -234 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: VOL/AC
+   Vt (Set): 400 (400 - 400) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 30
+   RR (Spontaneous): 0
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 39 cmH2O
+   Plateau: 35 cmH2O
+   SpO2: 99%
+   ABG: 7.40/39/98.[**Numeric Identifier 500**]/24/0
+   Ve: 13.2 L/min
+   PaO2 / FiO2: 163
+   Physical Examination
+   GENERAL: Obese female, intubated and sedated
+   CARDIAC: Regular rhythm, tachycardic. Normal S1, S2 but distant.
+   LUNGS: Bronchial.
+   ABDOMEN: Obese, NABS. Soft, NT, ND. No HSM
+   EXTREMITIES: RLE bandaged with wound vac in place draining bloody
+   fluid. Right toes warm, well perfused, good capillary refill.
+   NEURO: Responds to commands, pupils reactive.
+   Labs / Radiology
+   195 K/uL
+   8.7 g/dL
+   112 mg/dL
+   0.7 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   7 mg/dL
+   108 mEq/L
+   139 mEq/L
+   25.6 %
+   15.5 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+                             [**2191-6-1**]  09:56 AM
+                             [**2191-6-1**]  03:27 PM
+                             [**2191-6-1**]  03:35 PM
+                             [**2191-6-1**]  08:30 PM
+                             [**2191-6-1**]  08:47 PM
+                             [**2191-6-2**]  01:00 AM
+                             [**2191-6-2**]  02:00 AM
+                             [**2191-6-2**]  02:22 AM
+   WBC
+   17.4
+   15.5
+   Hct
+   22.8
+   22.9
+   25.1
+   25.8
+   25.6
+   Plt
+   177
+   195
+   Cr
+   0.7
+   0.7
+   TCO2
+   24
+   24
+   26
+   26
+   25
+   Glucose
+   73
+   130
+   112
+   Other labs: PT / PTT / INR:14.2/28.8/1.2, ALT / AST:35/43, Alk Phos / T
+   Bili:86/1.2, Differential-Neuts:86.0 %, Lymph:9.1 %, Mono:4.6 %,
+   Eos:0.2 %, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, Albumin:2.6
+   g/dL, LDH:549 IU/L, Ca++:7.2 mg/dL, Mg++:2.5 mg/dL, PO4:2.3 mg/dL
+   CT abd/pelvis: Worsening of bilateral opacities at lung bases, Grade 1
+   liver laceration with small sliver of perihepatic fluid/hematoma.
+   Assessment and Plan20 F with no PMHx s/p MVA accident and tib-fib s/p
+   [**Hospital **] transferred from Ortho to Medicine and now MICU for worsening
+   hypoxia with ARDS picture.
+   # Hypoxia: ARDS physiology (PaO2/FiO2= 163) with evidence of
+   multi-focal PNA in the lung bases seen on CT abdomen yesterday.
+   Etiology may be [**1-24**] infection, contusion/trauma, fat emboli. Bronch
+   yesterday with R bronchus friability with bloody fluid, 2+ PMN
+s, no
+   organisms on gram stain. Urine legionella negative. Esophageal balloon
+   placed.
+   - Continue vanco and zosyn for coverage of HAP as well as levofloxacin
+   for atypicals, consider widening coverage
+   - Follow fever and WBC curve, daily CXR
+   - F/u sputum/BAL cx and cytology
+   - Check amylase/lipase to r/o trauma to pancreas
+   - Check LENIs; cont lovenox for ppx
+   - Supportive ventilation with fentanyl/versed for sedation; wean FiO2
+   as tolerated with target Vt 360 (adjusted per height); will let PCO2
+   ride for now
+   # Fever: Patient continues to spike despite Levo/Vanc/Zosyn.  Possible
+   etiologies include PNA, PE/DVT, urinary tract source, surgical wound
+   and area of skin breakdown on patient
+s buttocks, drug reaction.
+   - LENIs today
+   - Continue daily cx
+   - Check C. diff
+   - Consider widening coverage for VAP
+   - Review medication list for possible fever precipitants
+   # Hypotension: Patient less hypotensive with IVF and pressors since
+   admission to MICU, now requiring only levophed at 0.02.  Concern for
+   sepsis in setting of infection as primary etiology.
+   - On pressors now with goal MAP >60, UOP >30, CVP>12
+   - IV fluid boluses if BUN/Cr rises or SvO2, CVP low
+   - F/u panculture data; abx as above
+   - Trend Hct as post-op, maintain active T&S
+   # Anemia: Baseline unclear but Hct 36 on admission.  Hct was 22.8
+   yesterday am, she received 3 units pRBC over the course of the day with
+   an inappropriate bump to 25.6.  Possible etiologies include continued
+   blood loss (into pelvis/thigh) vs post-op fluid shift (dropping HCt
+   coincided with post-op day 3, when large fluid shifts are expected).
+   - Check CK and trend to monitor for compression syndrome
+   - F/u ortho recs
+   - Monitor [**Hospital1 **] Hcts
+   - Guaiac all stools
+   - Check haptoglobin to evaluate for hemolysis, retic count to evaluate
+   for marrow suppression
+   - CVL with active T&S as above; transfuse for Hct <21
+   #)Tib/Fib fx: S/p ORIF by Ortho with plan for revision on [**6-2**]
+   (post-poned). Ortho to change wound vac today.
+   - Fentanyl gtt with morphine prn for pain control
+   - F/u ortho and trauma recs
+   # Liver laceration: Seen on CT abd/pelvis
+   -Check abdominal pressure for baseline
+   # ?Syncope: Patient was involved in MVA with question of syncope prior
+   to collision. Has had negative CT head and monitored on tele with no
+   arrhythmia except sinus tachy thought [**1-24**] infection. EKG without
+   ischemic changes. TTE negative for structural disease. No h/o syncope
+   or seizures so suspicion in accident is low. Serum tox positive only
+   for opioids on arrival which could be accounted for by morphine
+   received at OSH.
+   - Monitor on tele
+   - Defer further workup until patient
+s clinical appearance has improved
+   ICU Care
+   Nutrition:
+   Replete with Fiber (Full) - [**2191-6-2**] 05:04 AM 15 mL/hour
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Arterial Line - [**2191-6-1**] 01:00 PM
+   18 Gauge - [**2191-6-1**] 03:00 PM
+   Prophylaxis:
+   DVT: lovenox, boots
+   Stress ulcer: H2 blocker
+   VAP:  mouth care
+   Comments: bowel regimen
+   Communication:  Comments: Mother [**Name (NI) 6537**] [**0-0-**], Father [**Name (NI) 2446**]
+   [**Telephone/Fax (1) 6538**]. Contact PCP today for update.
+   Code status: Full code
+   Disposition: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - A-line placed
+   - Bronch with some blood/hemorrhage of R lung, clear L lung, ? trauma
+   from ET suction vs. hemorrhage. Infuenza DFA negative.
+   - Given total of 3 U PRBC over yesterday ([**6-1**]) but Hct did not bump
+   appropriately
+   - Had desat episodes to low 90s with re-positioning despite elevating
+   FiO2 and PEEP requirements. Esophageal balloon in place.
+   - Started pressors back for MAPS<60 but weaned off this AM.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-6-1**] 08:08 PM
+   Levofloxacin - [**2191-6-1**] 09:46 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2191-6-2**] 06:06 AM
+   Infusions:
+   Fentanyl - 200 mcg/hour
+   Norepinephrine - 0.02 mcg/Kg/min
+   Midazolam (Versed) - 6 mg/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2191-6-1**] 08:00 AM
+   Famotidine (Pepcid) - [**2191-6-1**] 08:00 PM
+   Fentanyl - [**2191-6-1**] 09:13 PM
+   Midazolam (Versed) - [**2191-6-2**] 01:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.3
+C (102.7
+   Tcurrent: 39.2
+C (102.6
+   HR: 107 (101 - 125) bpm
+   BP: 106/59(73) {94/53(66) - 130/73(89)} mmHg
+   RR: 30 (25 - 39) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+   Height: 63 Inch
+    CVP: 19 (12 - 22)mmHg
+   Bladder pressure: 9 (9 - 9) mmHg
+   Mixed Venous O2% Sat: 65 - 65
+   Total In:
+                                                                  6,732 mL
+                                                                    566 mL
+   PO:
+   TF:
+                                                                     28 mL
+   IVF:
+                                                                  4,885 mL
+                                                                    508 mL
+   Blood products:
+                                                                    817 mL
+   Total out:
+                                                                  2,605 mL
+                                                                    800 mL
+   Urine:
+                                                                  2,355 mL
+                                                                    780 mL
+   NG:
+                                                                    100 mL
+                                                                     20 mL
+   Stool:
+   Drains:
+                                                                    150 mL
+   Balance:
+                                                                  4,127 mL
+                                                                   -234 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: VOL/AC
+   Vt (Set): 400 (400 - 400) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 30
+   RR (Spontaneous): 0
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 39 cmH2O
+   Plateau: 35 cmH2O
+   SpO2: 99%
+   ABG: 7.40/39/98.[**Numeric Identifier 500**]/24/0
+   Ve: 13.2 L/min
+   PaO2 / FiO2: 163
+   Physical Examination
+   GENERAL: Obese female, intubated and sedated
+   CARDIAC: Regular rhythm, tachycardic. Normal S1, S2 but distant.
+   LUNGS: Bronchial.
+   ABDOMEN: Obese, NABS. Soft, NT, ND. No HSM
+   EXTREMITIES: RLE bandaged with wound vac in place draining bloody
+   fluid. Right toes warm, well perfused, good capillary refill.
+   NEURO: Responds to commands, pupils reactive.
+   Labs / Radiology
+   195 K/uL
+   8.7 g/dL
+   112 mg/dL
+   0.7 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   7 mg/dL
+   108 mEq/L
+   139 mEq/L
+   25.6 %
+   15.5 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+                             [**2191-6-1**]  09:56 AM
+                             [**2191-6-1**]  03:27 PM
+                             [**2191-6-1**]  03:35 PM
+                             [**2191-6-1**]  08:30 PM
+                             [**2191-6-1**]  08:47 PM
+                             [**2191-6-2**]  01:00 AM
+                             [**2191-6-2**]  02:00 AM
+                             [**2191-6-2**]  02:22 AM
+   WBC
+   17.4
+   15.5
+   Hct
+   22.8
+   22.9
+   25.1
+   25.8
+   25.6
+   Plt
+   177
+   195
+   Cr
+   0.7
+   0.7
+   TCO2
+   24
+   24
+   26
+   26
+   25
+   Glucose
+   73
+   130
+   112
+   Other labs: PT / PTT / INR:14.2/28.8/1.2, ALT / AST:35/43, Alk Phos / T
+   Bili:86/1.2, Differential-Neuts:86.0 %, Lymph:9.1 %, Mono:4.6 %,
+   Eos:0.2 %, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, Albumin:2.6
+   g/dL, LDH:549 IU/L, Ca++:7.2 mg/dL, Mg++:2.5 mg/dL, PO4:2.3 mg/dL
+   CT abd/pelvis: Worsening of bilateral opacities at lung bases, Grade 1
+   liver laceration with small sliver of perihepatic fluid/hematoma.
+   Assessment and Plan20 F with no PMHx s/p MVA accident and tib-fib s/p
+   [**Hospital **] transferred from Ortho to Medicine and now MICU for worsening
+   hypoxia with ARDS picture.
+   # Hypoxia: ARDS physiology (PaO2/FiO2= 163) with evidence of
+   multi-focal PNA in the lung bases seen on CT abdomen yesterday.
+   Etiology may be [**1-24**] infection, contusion/trauma, fat emboli. Bronch
+   yesterday with R bronchus friability with bloody fluid, 2+ PMN
+s, no
+   organisms on gram stain. Urine legionella negative. Esophageal balloon
+   placed.
+   - Continue vanco and zosyn for coverage of HAP as well as levofloxacin
+   for atypicals, consider widening coverage
+   - Follow fever and WBC curve, daily CXR
+   - F/u sputum/BAL cx and cytology
+   - Check amylase/lipase to r/o trauma to pancreas
+   - Check LENIs; cont lovenox for ppx
+   - Supportive ventilation with fentanyl/versed for sedation; wean FiO2
+   as tolerated with target Vt 360 (adjusted per height); will let PCO2
+   ride for now
+   # Fever: Patient continues to spike despite Levo/Vanc/Zosyn.  Possible
+   etiologies include PNA, PE/DVT, urinary tract source, surgical wound
+   and area of skin breakdown on patient
+s buttocks, drug reaction.
+   - LENIs today
+   - Continue daily cx
+   - Check C. diff
+   - Consider widening coverage for VAP
+   - Review medication list for possible fever precipitants
+   # Hypotension: Patient less hypotensive with IVF and pressors since
+   admission to MICU, now requiring only levophed at 0.02.  Concern for
+   sepsis in setting of infection as primary etiology.
+   - On pressors now with goal MAP >60, UOP >30, CVP>12
+   - IV fluid boluses if BUN/Cr rises or SvO2, CVP low
+   - F/u panculture data; abx as above
+   - Trend Hct as post-op, maintain active T&S
+   # Anemia: Baseline unclear but Hct 36 on admission.  Hct was 22.8
+   yesterday am, she received 3 units pRBC over the course of the day with
+   an inappropriate bump to 25.6.  Possible etiologies include continued
+   blood loss (into pelvis/thigh) vs post-op fluid shift (dropping HCt
+   coincided with post-op day 3, when large fluid shifts are expected).
+   - Check CK and trend to monitor for compression syndrome
+   - F/u ortho recs
+   - Monitor [**Hospital1 **] Hcts
+   - Guaiac all stools
+   - Check haptoglobin to evaluate for hemolysis, retic count to evaluate
+   for marrow suppression
+   - CVL with active T&S as above; transfuse for Hct <21
+   #)Tib/Fib fx: S/p ORIF by Ortho with plan for revision on [**6-2**]
+   (post-poned). Ortho to change wound vac today.
+   - Fentanyl gtt with morphine prn for pain control
+   - F/u ortho and trauma recs
+   # Liver laceration: Seen on CT abd/pelvis
+   -Check abdominal pressure for baseline
+   # ?Syncope: Patient was involved in MVA with question of syncope prior
+   to collision. Has had negative CT head and monitored on tele with no
+   arrhythmia except sinus tachy thought [**1-24**] infection. EKG without
+   ischemic changes. TTE negative for structural disease. No h/o syncope
+   or seizures so suspicion in accident is low. Serum tox positive only
+   for opioids on arrival which could be accounted for by morphine
+   received at OSH.
+   - Monitor on tele
+   - Defer further workup until patient
+s clinical appearance has improved
+   ICU Care
+   Nutrition:
+   Replete with Fiber (Full) - [**2191-6-2**] 05:04 AM 15 mL/hour
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Arterial Line - [**2191-6-1**] 01:00 PM
+   18 Gauge - [**2191-6-1**] 03:00 PM
+   Prophylaxis:
+   DVT: lovenox, boots
+   Stress ulcer: H2 blocker
+   VAP:  mouth care
+   Comments: bowel regimen
+   Communication:  Comments: Mother [**Name (NI) 6537**] [**0-0-**], Father [**Name (NI) 2446**]
+   [**Telephone/Fax (1) 6538**]. Contact PCP today for update.
+   Code status: Full code
+   Disposition: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 24-year-old female who was admitted to the ICU after a motor vehicle accident (MVA) with multiple injuries, including a tib-fib fracture, liver laceration, and respiratory failure. The patient is currently intubated and sedated, with a respiratory rate of 30 breaths per minute and a PaO2/FiO2 ratio of 163, consistent with ARDS physiology.
+
+The patient has received multiple units of packed red blood cells (PRBC) over the past 24 hours, but her hemoglobin level has not increased appropriately, suggesting ongoing bleeding or blood loss. The patient's hemodynamic status is stable, with a mean arterial pressure (MAP) of 60 mmHg, but she is still receiving vasopressors.
+
+The patient has a fever, which is not well-controlled despite receiving antibiotics, and has a white blood cell count (WBC) of 17.4 x 10^9/L, suggesting an inflammatory response. The patient's liver function tests (LFTs) are mildly elevated, and she has a grade 1 liver laceration with a small amount of perihepatic fluid/hematoma.
+
+The patient has a tib-fib fracture that was stabilized with open reduction and internal fixation (ORIF) by orthopedic surgery, but the wound is still draining bloody fluid. The patient's skin is broken down in the area of the buttocks, and she has a possible source of infection.
+
+The patient's electrolyte levels are normal, and her renal function is mildly impaired, with a creatinine level of 0.7 mg/dL. Her blood glucose level is 112 mg/dL, and her lactate level is 1.0 mmol/L.
+
+The patient has a number of potential complications, including:
+
+1. Sepsis: The patient's fever and WBC count suggest an inflammatory response, and she has received antibiotics for coverage of potential infections.
+2. Respiratory failure: The patient's PaO2/FiO2 ratio of 163 suggests severe respiratory failure, and she is receiving mechanical ventilation.
+3. Bleeding: The patient's hemoglobin level has not increased appropriately, suggesting ongoing bleeding or blood loss.
+4. Liver failure: The patient's LFTs are mildly elevated, and she has a grade 1 liver laceration with a small amount of perihepatic fluid/hematoma.
+5. Infection: The patient has a possible source of infection in the area of the buttocks, and she has received antibiotics for coverage of potential infections.
+6. Pancreatitis: The patient's amylase and lipase levels are not reported, but she has received antibiotics for coverage of potential infections.
+7. Deep vein thrombosis (DVT): The patient is at risk for DVT due to her immobilization and recent surgery.
+
+Based on this information, the patient's management plan should include:
+
+1. Continued mechanical ventilation to support her respiratory failure.
+2. Antibiotics for coverage of potential infections, including pneumonia and urinary tract infections.
+3. Vasopressors to support her blood pressure and perfusion.
+4. Blood transfusions to correct her anemia and bleeding.
+5. Monitoring of her liver function and electrolyte levels.
+6. Management of her skin breakdown and potential source of infection.
+7. Prevention of DVT with anticoagulation therapy.
+
+The patient's code status is full code, and her disposition is ICU."
+171753.0,282701,2191-06-02 06:57:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - A-line placed
+   - Bronch with some blood/hemorrhage of R lung, clear L lung, ? trauma
+   from ET suction vs. hemorrhage. Infuenza DFA negative.
+   - Given total of 3 U PRBC over yesterday ([**6-1**]) but Hct did not bump
+   appropriately
+   - Had desat episodes to low 90s with re-positioning despite elevating
+   FiO2 and PEEP requirements. Esophageal balloon in place.
+   - Started pressors back for MAPS<60 but weaned off this AM.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-6-1**] 08:08 PM
+   Levofloxacin - [**2191-6-1**] 09:46 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2191-6-2**] 06:06 AM
+   Infusions:
+   Fentanyl - 200 mcg/hour
+   Norepinephrine - 0.02 mcg/Kg/min
+   Midazolam (Versed) - 6 mg/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2191-6-1**] 08:00 AM
+   Famotidine (Pepcid) - [**2191-6-1**] 08:00 PM
+   Fentanyl - [**2191-6-1**] 09:13 PM
+   Midazolam (Versed) - [**2191-6-2**] 01:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.3
+C (102.7
+   Tcurrent: 39.2
+C (102.6
+   HR: 107 (101 - 125) bpm
+   BP: 106/59(73) {94/53(66) - 130/73(89)} mmHg
+   RR: 30 (25 - 39) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+   Height: 63 Inch
+    CVP: 19 (12 - 22)mmHg
+   Bladder pressure: 9 (9 - 9) mmHg
+   Mixed Venous O2% Sat: 65 - 65
+   Total In:
+                                                                  6,732 mL
+                                                                    566 mL
+   PO:
+   TF:
+                                                                     28 mL
+   IVF:
+                                                                  4,885 mL
+                                                                    508 mL
+   Blood products:
+                                                                    817 mL
+   Total out:
+                                                                  2,605 mL
+                                                                    800 mL
+   Urine:
+                                                                  2,355 mL
+                                                                    780 mL
+   NG:
+                                                                    100 mL
+                                                                     20 mL
+   Stool:
+   Drains:
+                                                                    150 mL
+   Balance:
+                                                                  4,127 mL
+                                                                   -234 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: VOL/AC
+   Vt (Set): 400 (400 - 400) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 30
+   RR (Spontaneous): 0
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 39 cmH2O
+   Plateau: 35 cmH2O
+   SpO2: 99%
+   ABG: 7.40/39/98.[**Numeric Identifier 500**]/24/0
+   Ve: 13.2 L/min
+   PaO2 / FiO2: 163
+   Physical Examination
+   GENERAL: Obese female, intubated and sedated
+   CARDIAC: Regular rhythm, tachycardic. Normal S1, S2 but distant.
+   LUNGS: Bronchial.
+   ABDOMEN: Obese, NABS. Soft, NT, ND. No HSM
+   EXTREMITIES: RLE bandaged with wound vac in place draining bloody
+   fluid. Right toes warm, well perfused, good capillary refill.
+   NEURO: Responds to commands, pupils reactive.
+   Labs / Radiology
+   195 K/uL
+   8.7 g/dL
+   112 mg/dL
+   0.7 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   7 mg/dL
+   108 mEq/L
+   139 mEq/L
+   25.6 %
+   15.5 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+                             [**2191-6-1**]  09:56 AM
+                             [**2191-6-1**]  03:27 PM
+                             [**2191-6-1**]  03:35 PM
+                             [**2191-6-1**]  08:30 PM
+                             [**2191-6-1**]  08:47 PM
+                             [**2191-6-2**]  01:00 AM
+                             [**2191-6-2**]  02:00 AM
+                             [**2191-6-2**]  02:22 AM
+   WBC
+   17.4
+   15.5
+   Hct
+   22.8
+   22.9
+   25.1
+   25.8
+   25.6
+   Plt
+   177
+   195
+   Cr
+   0.7
+   0.7
+   TCO2
+   24
+   24
+   26
+   26
+   25
+   Glucose
+   73
+   130
+   112
+   Other labs: PT / PTT / INR:14.2/28.8/1.2, ALT / AST:35/43, Alk Phos / T
+   Bili:86/1.2, Differential-Neuts:86.0 %, Lymph:9.1 %, Mono:4.6 %,
+   Eos:0.2 %, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, Albumin:2.6
+   g/dL, LDH:549 IU/L, Ca++:7.2 mg/dL, Mg++:2.5 mg/dL, PO4:2.3 mg/dL
+   CT abd/pelvis: Worsening of bilateral opacities at lung bases, Grade 1
+   liver laceration with small sliver of perihepatic fluid/hematoma.
+   Assessment and Plan20 F with no PMHx s/p MVA accident and tib-fib s/p
+   [**Hospital **] transferred from Ortho to Medicine and now MICU for worsening
+   hypoxia with ARDS picture.
+   # Hypoxia: ARDS physiology (PaO2/FiO2= 163) with evidence of
+   multi-focal PNA in the lung bases seen on CT abdomen yesterday.
+   Etiology may be [**1-24**] infection, contusion/trauma, fat emboli. Bronch
+   yesterday with R bronchus friability with bloody fluid, 2+ PMN
+s, no
+   organisms on gram stain. Urine legionella negative. Esophageal balloon
+   placed.
+   - Continue vanco and zosyn for coverage of HAP as well as levofloxacin
+   for atypicals, consider widening coverage
+   - Follow fever and WBC curve, daily CXR
+   - F/u sputum/BAL cx and cytology
+   - Check amylase/lipase to r/o trauma to pancreas
+   - Check LENIs; cont lovenox for ppx
+   - Supportive ventilation with fentanyl/versed for sedation; wean FiO2
+   as tolerated with target Vt 360 (adjusted per height); will let PCO2
+   ride for now
+   # Fever: Patient continues to spike despite Levo/Vanc/Zosyn.  Possible
+   etiologies include PNA, urinary tract source, surgical wound and area
+   of skin breakdown on patient
+s buttocks, DVT/PE, and drug reaction.
+   - LENIs today
+   - continue daily cx
+   - check c diff
+   - consider widening coverage for VAP
+   - examine medication list for possible fever precipitants
+   # Hypotension: Patient less hypotensive with IVF and pressors since
+   admission to MICU, now requiring only levophed at 0.02.  Concern for
+   sepsis in setting of infection as primary etiology.
+   - On pressors now with goal MAP >60, UOP >30, CVP>12
+   - IV fluid boluses if BUN/Cr rises or SvO2, CVP low
+   - F/u panculture data; abx as above
+   - Trend Hct as post-op, maintain active T&S
+   # Anemia: Baseline unclear but Hct 36 on admission.  Hct was 22.8
+   yesterday am, she received 3 units pRBC over the course of the day with
+   an inappropriate bump to 25.6.  Possible etiologies include continued
+   blood loss (into pelvis/thigh) vs post-op fluid shift (dropping HCt
+   coincided with post-op day 3, when large fluid shifts are expected).
+   - Check CK and trend to monitor for compression syndrome
+   - F/u ortho recs
+   - Monitor [**Hospital1 **] Hcts
+   - Guaiac all stools
+   - Check haptoglobin to evaluate for hemolysis, retic count to evaluate
+   for marrow suppression
+   - CVL with active T&S as above; transfuse for Hct <21
+   #)Tib/Fib fx: S/p ORIF by Ortho with plan for revision on [**6-2**]
+   (post-poned). Ortho to change wound vac today.
+   - Fentanyl gtt with morphine prn for pain control
+   - F/u ortho recs
+   # Liver laceration: Seen on CT abd/pelvis
+   -Check abdominal pressure for baseline
+   # ?Syncope: Patient was involved in MVA with question of syncope prior
+   to collision. Has had negative CT head and monitored on tele with no
+   arrhythmia except sinus tachy thought [**1-24**] infection. EKG without
+   ischemic changes. TTE negative for structural disease. No h/o syncope
+   or seizures so suspicion in accident is low. Serum tox positive only
+   for opioids on arrival which could be accounted for by morphine
+   received at OSH.
+   - Monitor on tele
+   - Defer further workup until patient
+s clinical appearance has improved
+   ICU Care
+   Nutrition:
+   Replete with Fiber (Full) - [**2191-6-2**] 05:04 AM 15 mL/hour
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Arterial Line - [**2191-6-1**] 01:00 PM
+   18 Gauge - [**2191-6-1**] 03:00 PM
+   Prophylaxis:
+   DVT: lovenox, boots
+   Stress ulcer: H2 blocker
+   VAP:  mouth care
+   Comments:
+   Communication:  Comments: Mother [**Name (NI) 6537**] [**0-0-**], Father [**Name (NI) 2446**]
+   [**Telephone/Fax (1) 6538**]. Contact PCP today for update.
+   Code status: Full code
+   Disposition: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - A-line placed
+   - Bronch with some blood/hemorrhage of R lung, clear L lung, ? trauma
+   from ET suction vs. hemorrhage. Infuenza DFA negative.
+   - Given total of 3 U PRBC over yesterday ([**6-1**]) but Hct did not bump
+   appropriately
+   - Had desat episodes to low 90s with re-positioning despite elevating
+   FiO2 and PEEP requirements. Esophageal balloon in place.
+   - Started pressors back for MAPS<60 but weaned off this AM.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-6-1**] 08:08 PM
+   Levofloxacin - [**2191-6-1**] 09:46 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2191-6-2**] 06:06 AM
+   Infusions:
+   Fentanyl - 200 mcg/hour
+   Norepinephrine - 0.02 mcg/Kg/min
+   Midazolam (Versed) - 6 mg/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2191-6-1**] 08:00 AM
+   Famotidine (Pepcid) - [**2191-6-1**] 08:00 PM
+   Fentanyl - [**2191-6-1**] 09:13 PM
+   Midazolam (Versed) - [**2191-6-2**] 01:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.3
+C (102.7
+   Tcurrent: 39.2
+C (102.6
+   HR: 107 (101 - 125) bpm
+   BP: 106/59(73) {94/53(66) - 130/73(89)} mmHg
+   RR: 30 (25 - 39) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+   Height: 63 Inch
+    CVP: 19 (12 - 22)mmHg
+   Bladder pressure: 9 (9 - 9) mmHg
+   Mixed Venous O2% Sat: 65 - 65
+   Total In:
+                                                                  6,732 mL
+                                                                    566 mL
+   PO:
+   TF:
+                                                                     28 mL
+   IVF:
+                                                                  4,885 mL
+                                                                    508 mL
+   Blood products:
+                                                                    817 mL
+   Total out:
+                                                                  2,605 mL
+                                                                    800 mL
+   Urine:
+                                                                  2,355 mL
+                                                                    780 mL
+   NG:
+                                                                    100 mL
+                                                                     20 mL
+   Stool:
+   Drains:
+                                                                    150 mL
+   Balance:
+                                                                  4,127 mL
+                                                                   -234 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: VOL/AC
+   Vt (Set): 400 (400 - 400) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 30
+   RR (Spontaneous): 0
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 39 cmH2O
+   Plateau: 35 cmH2O
+   SpO2: 99%
+   ABG: 7.40/39/98.[**Numeric Identifier 500**]/24/0
+   Ve: 13.2 L/min
+   PaO2 / FiO2: 163
+   Physical Examination
+   GENERAL: Obese female, intubated and sedated
+   CARDIAC: Regular rhythm, tachycardic. Normal S1, S2 but distant.
+   LUNGS: Bronchial.
+   ABDOMEN: Obese, NABS. Soft, NT, ND. No HSM
+   EXTREMITIES: RLE bandaged with wound vac in place draining bloody
+   fluid. Right toes warm, well perfused, good capillary refill.
+   NEURO: Responds to commands, pupils reactive.
+   Labs / Radiology
+   195 K/uL
+   8.7 g/dL
+   112 mg/dL
+   0.7 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   7 mg/dL
+   108 mEq/L
+   139 mEq/L
+   25.6 %
+   15.5 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+                             [**2191-6-1**]  09:56 AM
+                             [**2191-6-1**]  03:27 PM
+                             [**2191-6-1**]  03:35 PM
+                             [**2191-6-1**]  08:30 PM
+                             [**2191-6-1**]  08:47 PM
+                             [**2191-6-2**]  01:00 AM
+                             [**2191-6-2**]  02:00 AM
+                             [**2191-6-2**]  02:22 AM
+   WBC
+   17.4
+   15.5
+   Hct
+   22.8
+   22.9
+   25.1
+   25.8
+   25.6
+   Plt
+   177
+   195
+   Cr
+   0.7
+   0.7
+   TCO2
+   24
+   24
+   26
+   26
+   25
+   Glucose
+   73
+   130
+   112
+   Other labs: PT / PTT / INR:14.2/28.8/1.2, ALT / AST:35/43, Alk Phos / T
+   Bili:86/1.2, Differential-Neuts:86.0 %, Lymph:9.1 %, Mono:4.6 %,
+   Eos:0.2 %, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, Albumin:2.6
+   g/dL, LDH:549 IU/L, Ca++:7.2 mg/dL, Mg++:2.5 mg/dL, PO4:2.3 mg/dL
+   CT abd/pelvis: Worsening of bilateral opacities at lung bases, Grade 1
+   liver laceration with small sliver of perihepatic fluid/hematoma.
+   Assessment and Plan20 F with no PMHx s/p MVA accident and tib-fib s/p
+   [**Hospital **] transferred from Ortho to Medicine and now MICU for worsening
+   hypoxia with ARDS picture.
+   # Hypoxia: ARDS physiology (PaO2/FiO2= 163) with evidence of
+   multi-focal PNA in the lung bases seen on CT abdomen yesterday.
+   Etiology may be [**1-24**] infection, contusion/trauma, fat emboli. Bronch
+   yesterday with R bronchus friability with bloody fluid, 2+ PMN
+s, no
+   organisms on gram stain. Urine legionella negative. Esophageal balloon
+   placed.
+   - Continue vanco and zosyn for coverage of HAP as well as levofloxacin
+   for atypicals, consider widening coverage
+   - Follow fever and WBC curve, daily CXR
+   - F/u sputum/BAL cx and cytology
+   - Check amylase/lipase to r/o trauma to pancreas
+   - Check LENIs; cont lovenox for ppx
+   - Supportive ventilation with fentanyl/versed for sedation; wean FiO2
+   as tolerated with target Vt 360 (adjusted per height); will let PCO2
+   ride for now
+   # Fever: Patient continues to spike despite Levo/Vanc/Zosyn.  Possible
+   etiologies include PNA, urinary tract source, surgical wound and area
+   of skin breakdown on patient
+s buttocks, DVT/PE, and drug reaction.
+   - LENIs today
+   - continue daily cx
+   - check c diff
+   - consider widening coverage for VAP
+   - examine medication list for possible fever precipitants
+   # Hypotension: Patient less hypotensive with IVF and pressors since
+   admission to MICU, now requiring only levophed at 0.02.  Concern for
+   sepsis in setting of infection as primary etiology.
+   - On pressors now with goal MAP >60, UOP >30, CVP>12
+   - IV fluid boluses if BUN/Cr rises or SvO2, CVP low
+   - F/u panculture data; abx as above
+   - Trend Hct as post-op, maintain active T&S
+   # Anemia: Baseline unclear but Hct 36 on admission.  Hct was 22.8
+   yesterday am, she received 3 units pRBC over the course of the day with
+   an inappropriate bump to 25.6.  Possible etiologies include continued
+   blood loss (into pelvis/thigh) vs post-op fluid shift (dropping HCt
+   coincided with post-op day 3, when large fluid shifts are expected).
+   - Check CK and trend to monitor for compression syndrome
+   - F/u ortho recs
+   - Monitor [**Hospital1 **] Hcts
+   - Guaiac all stools
+   - Check haptoglobin to evaluate for hemolysis, retic count to evaluate
+   for marrow suppression
+   - CVL with active T&S as above; transfuse for Hct <21
+   #)Tib/Fib fx: S/p ORIF by Ortho with plan for revision on [**6-2**]
+   (post-poned). Ortho to change wound vac today.
+   - Fentanyl gtt with morphine prn for pain control
+   - F/u ortho recs
+   # Liver laceration: Seen on CT abd/pelvis
+   -Check abdominal pressure for baseline
+   # ?Syncope: Patient was involved in MVA with question of syncope prior
+   to collision. Has had negative CT head and monitored on tele with no
+   arrhythmia except sinus tachy thought [**1-24**] infection. EKG without
+   ischemic changes. TTE negative for structural disease. No h/o syncope
+   or seizures so suspicion in accident is low. Serum tox positive only
+   for opioids on arrival which could be accounted for by morphine
+   received at OSH.
+   - Monitor on tele
+   - Defer further workup until patient
+s clinical appearance has improved
+   ICU Care
+   Nutrition:
+   Replete with Fiber (Full) - [**2191-6-2**] 05:04 AM 15 mL/hour
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Arterial Line - [**2191-6-1**] 01:00 PM
+   18 Gauge - [**2191-6-1**] 03:00 PM
+   Prophylaxis:
+   DVT: lovenox, boots
+   Stress ulcer: H2 blocker
+   VAP:  mouth care
+   Comments:
+   Communication:  Comments: Mother [**Name (NI) 6537**] [**0-0-**], Father [**Name (NI) 2446**]
+   [**Telephone/Fax (1) 6538**]. Contact PCP today for update.
+   Code status: Full code
+   Disposition: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the physician's daily progress note, the patient is a 24-year-old female who was admitted to the MICU with worsening hypoxia and ARDS physiology. She has a history of multiple trauma, including a motor vehicle accident and tib-fib fracture, and was previously treated for pneumonia.
+
+The patient's current condition is as follows:
+
+* Respiratory: The patient is intubated and receiving mechanical ventilation with a FiO2 of 60% and PEEP of 15 cmH2O. She has a PaO2/FiO2 ratio of 163, indicating ARDS physiology.
+* Cardiovascular: The patient is receiving vasopressors to maintain a MAP >60, and her blood pressure is 106/59 mmHg.
+* Hematology: The patient has anemia, with a baseline Hct of 36% and a current Hct of 25.6% after receiving 3 units of PRBC.
+* Infection: The patient has a possible infection, with bronchial lavage showing 2+ PMN, but no organisms on gram stain. She is receiving antibiotics for HAP and atypicals.
+* Fever: The patient has a fever, which may be due to PNA, urinary tract source, surgical wound, DVT/PE, or drug reaction.
+* Hypotension: The patient has hypotension, which may be due to sepsis or hypovolemia.
+
+Potential medical complications that may arise include:
+
+* Respiratory failure: The patient's ARDS physiology may progress to respiratory failure, requiring more aggressive ventilation and possible ECMO.
+* Sepsis: The patient's infection may progress to sepsis, requiring more aggressive antibiotic therapy and possible vasopressor support.
+* Anemia: The patient's anemia may worsen, requiring further transfusions and possible bone marrow suppression.
+* Liver laceration: The patient's liver laceration may worsen, requiring further evaluation and possible surgical intervention.
+* DVT/PE: The patient's DVT/PE may worsen, requiring further evaluation and possible anticoagulation therapy.
+* VAP: The patient's VAP may worsen, requiring further evaluation and possible antibiotic therapy.
+
+The patient's laboratory results are as follows:
+
+* WBC: 17.4
+* Hct: 22.8
+* Plt: 177
+* Cr: 0.7
+* TCO2: 24
+* Glucose: 73
+* Albumin: 2.6 g/dL
+* LDH: 549 IU/L
+* Ca++: 7.2 mg/dL
+* Mg++: 2.5 mg/dL
+* PO4: 2.3 mg/dL
+
+The patient's imaging studies are as follows:
+
+* CT abdomen/pelvis: Worsening of bilateral opacities at lung bases, Grade 1 liver laceration with small sliver of perihepatic fluid/hematoma.
+
+The patient's medication list includes:
+
+* Vancomycin
+* Levofloxacin
+* Piperacillin/Tazobactam (Zosyn)
+* Fentanyl
+* Norepinephrine
+* Midazolam (Versed)
+* Morphine Sulfate
+* Famotidine (Pepcid)
+
+The patient's care plan includes:
+
+* Continue vanco and zosyn for coverage of HAP and atypicals
+* Follow fever and WBC curve, daily CXR
+* F/u sputum/BAL cx and cytology
+* Check amylase/lipase to r/o trauma to pancreas
+* Check LENIs; cont lovenox for ppx
+* Supportive ventilation with fentanyl/versed for sedation; wean FiO2 as tolerated with target Vt 360 (adjusted per height); will let PCO2 ride for now
+* Monitor on tele
+* Defer further workup until patient's clinical appearance has improved"
+171753.0,282701,2191-06-02 06:57:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Flu DFA negative
+   -A-line placed
+   - Bronch with some blood/hemorrhage of R lung, clear L lung, ? trauma
+   from ET suction vs. hemorrhage.
+   - Given total of 3 U PRBC over yesterday ([**6-1**]) but Hct did not bump
+   appropriately.
+   - She had desat episodes to low 90s with re-positioning despite
+   elevating FiO2 and PEEP requirements. Esophageal balloon in place.
+   - Started pressors back for MAPS<60
+   - CT abdoment with worsening of bilateral opacities at lung bases,
+   Grade 1 liver laceration with small sliver of perihepatic
+   fluid/hematoma.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-6-1**] 08:08 PM
+   Levofloxacin - [**2191-6-1**] 09:46 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2191-6-2**] 06:06 AM
+   Infusions:
+   Fentanyl - 200 mcg/hour
+   Norepinephrine - 0.02 mcg/Kg/min
+   Midazolam (Versed) - 6 mg/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2191-6-1**] 08:00 AM
+   Famotidine (Pepcid) - [**2191-6-1**] 08:00 PM
+   Fentanyl - [**2191-6-1**] 09:13 PM
+   Midazolam (Versed) - [**2191-6-2**] 01:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.3
+C (102.7
+   Tcurrent: 39.2
+C (102.6
+   HR: 107 (101 - 125) bpm
+   BP: 106/59(73) {94/53(66) - 130/73(89)} mmHg
+   RR: 30 (25 - 39) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+   Height: 63 Inch
+    CVP: 19 (12 - 22)mmHg
+   Bladder pressure: 9 (9 - 9) mmHg
+   Mixed Venous O2% Sat: 65 - 65
+   Total In:
+                                                                  6,732 mL
+                                                                    566 mL
+   PO:
+   TF:
+                                                                     28 mL
+   IVF:
+                                                                  4,885 mL
+                                                                    508 mL
+   Blood products:
+                                                                    817 mL
+   Total out:
+                                                                  2,605 mL
+                                                                    800 mL
+   Urine:
+                                                                  2,355 mL
+                                                                    780 mL
+   NG:
+                                                                    100 mL
+                                                                     20 mL
+   Stool:
+   Drains:
+                                                                    150 mL
+   Balance:
+                                                                  4,127 mL
+                                                                   -234 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: VOL/AC
+   Vt (Set): 400 (400 - 400) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 30
+   RR (Spontaneous): 0
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 39 cmH2O
+   Plateau: 35 cmH2O
+   SpO2: 99%
+   ABG: 7.40/39/98.[**Numeric Identifier 500**]/24/0
+   Ve: 13.2 L/min
+   PaO2 / FiO2: 163
+   Physical Examination
+   GEN: Intubated. Sedated
+   HEENT:
+   LUNGS:
+   HEART:
+   ABD:
+   EXTREM: Vac dressing in place.
+   NEURO:
+   Labs / Radiology
+   195 K/uL
+   8.7 g/dL
+   112 mg/dL
+   0.7 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   7 mg/dL
+   108 mEq/L
+   139 mEq/L
+   25.6 %
+   15.5 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+                             [**2191-6-1**]  09:56 AM
+                             [**2191-6-1**]  03:27 PM
+                             [**2191-6-1**]  03:35 PM
+                             [**2191-6-1**]  08:30 PM
+                             [**2191-6-1**]  08:47 PM
+                             [**2191-6-2**]  01:00 AM
+                             [**2191-6-2**]  02:00 AM
+                             [**2191-6-2**]  02:22 AM
+   WBC
+   17.4
+   15.5
+   Hct
+   22.8
+   22.9
+   25.1
+   25.8
+   25.6
+   Plt
+   177
+   195
+   Cr
+   0.7
+   0.7
+   TCO2
+   24
+   24
+   26
+   26
+   25
+   Glucose
+   73
+   130
+   112
+   Other labs: PT / PTT / INR:14.2/28.8/1.2, ALT / AST:35/43, Alk Phos / T
+   Bili:86/1.2, Differential-Neuts:86.0 %, Lymph:9.1 %, Mono:4.6 %,
+   Eos:0.2 %, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, Albumin:2.6
+   g/dL, LDH:549 IU/L, Ca++:7.2 mg/dL, Mg++:2.5 mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan20 F with no PMHx s/p MVA accident and tib-fib s/p
+   [**Hospital **] transferred from Ortho Service to Medicine and now MICU for
+   worsening hypoxia.
+   # Hypoxia: [**Doctor Last Name 2**]/ARDS physiology (PaO2/FiO2= 163) with evidence of
+   multi-focal PNA in the lung bases seen on CT abdomen yesterday.  No
+   clinical evidence of fat emboli syndrome.  Bronch yesterday with some
+   bloody fluid, 2+ PMN
+s, no organisms on gram stain.   Urine legionella
+   negative.  Esophageal balloon blaced.
+   - Continue vanco and zosyn for coverage of HAP as well as levofloxacin
+   for atypicals, consider widening coverage
+   - Follow fever and WBC curve
+   - F/u sputum cx
+   - Continue lovenox for ppx
+   - Supportive ventilation with fentanyl/versed for sedation-PRN morphine
+   for turns; wean as tolerated
+   - CXR daily
+   - F/u any Pulm recs (consulted on floor)
+   # Fever: Patient continues to spike despite Levo/Vanc/Zosyn.  Possible
+   etiologies include PNA, urinary tract source, surgical wound and area
+   of skin breakdown on patient
+s buttocks, PE, and drug reaction.
+   - LENI
+s today, if evidence of clot would consider CTA
+   - continue daily cx
+   - check c diff
+   - consider widening coverage for VAP
+   - examine medication list for possible fever precipitants
+   # Hypotension: Patient less hypotensive with IVF and pressors since
+   admission to MICU, now requiring only levophed at 0.02.  Concern for
+   sepsis in setting of infection as primary etiology.
+   - IVF boluses prn to maintain MAP >60. UOP >30. CVP>12
+   - Attempt to wean pressors today
+   - F/u panculture data; abx as above
+   - Trend Hct as post-op, maintain active T&S
+   # Anemia: Baseline unclear but Hct 36 on admission.  Hct was 22.8
+   yesterday am, she received 3 u pRBC over the course of the day with an
+   inappropriate bump to 25.6.  Possible etiologies include continued
+   blood loss (into pelvis/thigh) vs post-op fluid shift (dropping HCt
+   coincided with post-op day 3, when large fluid shifts are expected).
+   - consider CT of legs
+   - Monitor [**Hospital1 **] Hcts
+   - Guaiac all stools
+   - check haptoglobin to evaluate for hemolysis, consider checking retic
+   count to evaluate for marrow suppression
+   - CVL with active T&S as above; transfuse for Hct <21
+   #)Tib/Fib fx: S/p ORIF by Ortho with plan for revision on [**6-2**]
+   (post-poned). Ortho to change wound vac today.
+   - Fentanyl gtt/ morphine prn for pain control
+   - F/u ortho recs
+   # ?Syncope: Patient was involved in MVA with question of syncope prior
+   to collision. Has had negative CT head and monitored on tele with no
+   arrhythmia except sinus tachy thought [**1-24**] infection. EKG without
+   ischemic changes. TTE negative for structural disease. No h/o syncope
+   or seizures so suspicion in accident is low. Serum tox positive only
+   for opioids on arrival which could be accounted for by morphine
+   received at OSH.
+   - Monitor on tele
+   - Defer further workup until patient
+s clinical appearance has improved
+   ICU Care
+   Nutrition:
+   Replete with Fiber (Full) - [**2191-6-2**] 05:04 AM 15 mL/hour
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Arterial Line - [**2191-6-1**] 01:00 PM
+   18 Gauge - [**2191-6-1**] 03:00 PM
+   Prophylaxis:
+   DVT: lovenox, boots
+   Stress ulcer: H2 blocker
+   VAP:  mouth care
+   Comments:
+   Communication:  Comments: Mother [**Name (NI) 6537**] [**0-0-**], Father [**Name (NI) 2446**]
+   [**Telephone/Fax (1) 6538**]. Contact PCP today for update.
+   Code status: Full code
+   Disposition: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Flu DFA negative
+   -A-line placed
+   - Bronch with some blood/hemorrhage of R lung, clear L lung, ? trauma
+   from ET suction vs. hemorrhage.
+   - Given total of 3 U PRBC over yesterday ([**6-1**]) but Hct did not bump
+   appropriately.
+   - She had desat episodes to low 90s with re-positioning despite
+   elevating FiO2 and PEEP requirements. Esophageal balloon in place.
+   - Started pressors back for MAPS<60
+   - CT abdoment with worsening of bilateral opacities at lung bases,
+   Grade 1 liver laceration with small sliver of perihepatic
+   fluid/hematoma.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-6-1**] 08:08 PM
+   Levofloxacin - [**2191-6-1**] 09:46 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2191-6-2**] 06:06 AM
+   Infusions:
+   Fentanyl - 200 mcg/hour
+   Norepinephrine - 0.02 mcg/Kg/min
+   Midazolam (Versed) - 6 mg/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2191-6-1**] 08:00 AM
+   Famotidine (Pepcid) - [**2191-6-1**] 08:00 PM
+   Fentanyl - [**2191-6-1**] 09:13 PM
+   Midazolam (Versed) - [**2191-6-2**] 01:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.3
+C (102.7
+   Tcurrent: 39.2
+C (102.6
+   HR: 107 (101 - 125) bpm
+   BP: 106/59(73) {94/53(66) - 130/73(89)} mmHg
+   RR: 30 (25 - 39) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+   Height: 63 Inch
+    CVP: 19 (12 - 22)mmHg
+   Bladder pressure: 9 (9 - 9) mmHg
+   Mixed Venous O2% Sat: 65 - 65
+   Total In:
+                                                                  6,732 mL
+                                                                    566 mL
+   PO:
+   TF:
+                                                                     28 mL
+   IVF:
+                                                                  4,885 mL
+                                                                    508 mL
+   Blood products:
+                                                                    817 mL
+   Total out:
+                                                                  2,605 mL
+                                                                    800 mL
+   Urine:
+                                                                  2,355 mL
+                                                                    780 mL
+   NG:
+                                                                    100 mL
+                                                                     20 mL
+   Stool:
+   Drains:
+                                                                    150 mL
+   Balance:
+                                                                  4,127 mL
+                                                                   -234 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: VOL/AC
+   Vt (Set): 400 (400 - 400) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 30
+   RR (Spontaneous): 0
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 39 cmH2O
+   Plateau: 35 cmH2O
+   SpO2: 99%
+   ABG: 7.40/39/98.[**Numeric Identifier 500**]/24/0
+   Ve: 13.2 L/min
+   PaO2 / FiO2: 163
+   Physical Examination
+   GEN: Intubated. Sedated
+   HEENT:
+   LUNGS:
+   HEART:
+   ABD:
+   EXTREM: Vac dressing in place.
+   NEURO:
+   Labs / Radiology
+   195 K/uL
+   8.7 g/dL
+   112 mg/dL
+   0.7 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   7 mg/dL
+   108 mEq/L
+   139 mEq/L
+   25.6 %
+   15.5 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+                             [**2191-6-1**]  09:56 AM
+                             [**2191-6-1**]  03:27 PM
+                             [**2191-6-1**]  03:35 PM
+                             [**2191-6-1**]  08:30 PM
+                             [**2191-6-1**]  08:47 PM
+                             [**2191-6-2**]  01:00 AM
+                             [**2191-6-2**]  02:00 AM
+                             [**2191-6-2**]  02:22 AM
+   WBC
+   17.4
+   15.5
+   Hct
+   22.8
+   22.9
+   25.1
+   25.8
+   25.6
+   Plt
+   177
+   195
+   Cr
+   0.7
+   0.7
+   TCO2
+   24
+   24
+   26
+   26
+   25
+   Glucose
+   73
+   130
+   112
+   Other labs: PT / PTT / INR:14.2/28.8/1.2, ALT / AST:35/43, Alk Phos / T
+   Bili:86/1.2, Differential-Neuts:86.0 %, Lymph:9.1 %, Mono:4.6 %,
+   Eos:0.2 %, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, Albumin:2.6
+   g/dL, LDH:549 IU/L, Ca++:7.2 mg/dL, Mg++:2.5 mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan20 F with no PMHx s/p MVA accident and tib-fib s/p
+   [**Hospital **] transferred from Ortho Service to Medicine and now MICU for
+   worsening hypoxia.
+   # Hypoxia: [**Doctor Last Name 2**]/ARDS physiology (PaO2/FiO2= 163) with evidence of
+   multi-focal PNA in the lung bases seen on CT abdomen yesterday.  No
+   clinical evidence of fat emboli syndrome.  Bronch yesterday with some
+   bloody fluid, 2+ PMN
+s, no organisms on gram stain.   Urine legionella
+   negative.  Esophageal balloon blaced.
+   - Continue vanco and zosyn for coverage of HAP as well as levofloxacin
+   for atypicals, consider widening coverage
+   - Follow fever and WBC curve
+   - F/u sputum cx
+   - Continue lovenox for ppx
+   - Supportive ventilation with fentanyl/versed for sedation-PRN morphine
+   for turns; wean as tolerated
+   - CXR daily
+   - F/u any Pulm recs (consulted on floor)
+   # Fever: Patient continues to spike despite Levo/Vanc/Zosyn.  Possible
+   etiologies include PNA, urinary tract source, surgical wound and area
+   of skin breakdown on patient
+s buttocks, PE, and drug reaction.
+   - LENI
+s today, if evidence of clot would consider CTA
+   - continue daily cx
+   - check c diff
+   - consider widening coverage for VAP
+   - examine medication list for possible fever precipitants
+   # Hypotension: Patient less hypotensive with IVF and pressors since
+   admission to MICU, now requiring only levophed at 0.02.  Concern for
+   sepsis in setting of infection as primary etiology.
+   - IVF boluses prn to maintain MAP >60. UOP >30. CVP>12
+   - Attempt to wean pressors today
+   - F/u panculture data; abx as above
+   - Trend Hct as post-op, maintain active T&S
+   # Anemia: Baseline unclear but Hct 36 on admission.  Hct was 22.8
+   yesterday am, she received 3 u pRBC over the course of the day with an
+   inappropriate bump to 25.6.  Possible etiologies include continued
+   blood loss (into pelvis/thigh) vs post-op fluid shift (dropping HCt
+   coincided with post-op day 3, when large fluid shifts are expected).
+   - consider CT of legs
+   - Monitor [**Hospital1 **] Hcts
+   - Guaiac all stools
+   - check haptoglobin to evaluate for hemolysis, consider checking retic
+   count to evaluate for marrow suppression
+   - CVL with active T&S as above; transfuse for Hct <21
+   #)Tib/Fib fx: S/p ORIF by Ortho with plan for revision on [**6-2**]
+   (post-poned). Ortho to change wound vac today.
+   - Fentanyl gtt/ morphine prn for pain control
+   - F/u ortho recs
+   # ?Syncope: Patient was involved in MVA with question of syncope prior
+   to collision. Has had negative CT head and monitored on tele with no
+   arrhythmia except sinus tachy thought [**1-24**] infection. EKG without
+   ischemic changes. TTE negative for structural disease. No h/o syncope
+   or seizures so suspicion in accident is low. Serum tox positive only
+   for opioids on arrival which could be accounted for by morphine
+   received at OSH.
+   - Monitor on tele
+   - Defer further workup until patient
+s clinical appearance has improved
+   ICU Care
+   Nutrition:
+   Replete with Fiber (Full) - [**2191-6-2**] 05:04 AM 15 mL/hour
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Arterial Line - [**2191-6-1**] 01:00 PM
+   18 Gauge - [**2191-6-1**] 03:00 PM
+   Prophylaxis:
+   DVT: lovenox, boots
+   Stress ulcer: H2 blocker
+   VAP:  mouth care
+   Comments:
+   Communication:  Comments: Mother [**Name (NI) 6537**] [**0-0-**], Father [**Name (NI) 2446**]
+   [**Telephone/Fax (1) 6538**]. Contact PCP today for update.
+   Code status: Full code
+   Disposition: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 24-year-old female who was involved in a motor vehicle accident (MVA) and subsequently developed hypoxia, which worsened despite treatment. She was intubated and placed on mechanical ventilation, and a CT abdomen showed bilateral opacities at the lung bases, indicating multi-focal pneumonia (PNA). The patient also has a Grade 1 liver laceration with a small sliver of perihepatic fluid/hematoma.
+
+The patient's vital signs are stable, with a temperature of 39.3°C (102.7°F), heart rate of 107 bpm, and blood pressure of 106/59 mmHg. Her oxygen saturation is 99% on 60% FiO2. Her respiratory support includes mechanical ventilation with a tidal volume of 400 mL, respiratory rate of 30 breaths per minute, and positive end-expiratory pressure (PEEP) of 15 cmH2O.
+
+The patient's laboratory results show anemia, with a hematocrit (Hct) of 22.8% on admission, which decreased to 25.6% despite receiving 3 units of packed red blood cells (PRBC). The patient's white blood cell count (WBC) is 17.4 K/uL, and her platelet count (Plt) is 177 K/uL.
+
+The patient's medical conditions include hypoxia, pneumonia, anemia, and possible sepsis. The potential medical complications that can arise from these conditions include:
+
+1. Respiratory failure: The patient's worsening hypoxia may lead to respiratory failure, which could require increased respiratory support or even extracorporeal membrane oxygenation (ECMO).
+2. Sepsis: The patient's septicemia may lead to multi-organ dysfunction, including respiratory, cardiovascular, and renal failure.
+3. Anemia: The patient's anemia may worsen if she continues to experience blood loss or has inadequate transfusion support.
+4. Pneumonia: The patient's pneumonia may worsen if she does not receive adequate antibiotic therapy or if she develops antibiotic resistance.
+5. Liver laceration: The patient's liver laceration may worsen if she experiences bleeding or infection, which could lead to liver failure.
+6. Sternal wound infection: The patient's sternal wound may become infected, which could lead to sternal osteomyelitis or mediastinitis.
+7. Vascular complications: The patient's vascular injuries may lead to bleeding, thrombosis, or embolism, which could affect her vital organs.
+
+Based on the patient's clinical presentation and laboratory results, the following plan is recommended:
+
+1. Continue vancomycin and piperacillin-tazobactam for coverage of hospital-acquired pneumonia (HAP) and atypical pathogens.
+2. Monitor the patient's fever and WBC count, and consider widening antibiotic coverage if the patient's condition does not improve.
+3. Follow up with sputum cultures and consider bronchoscopy to determine the etiology of the patient's pneumonia.
+4. Continue lovenox for prophylaxis against deep vein thrombosis (DVT).
+5. Monitor the patient's anemia and consider transfusion support if her Hct drops below 21%.
+6. Consider a CT of the legs to evaluate for any potential bleeding or injury.
+7. Monitor the patient's liver function and consider imaging studies to evaluate for any potential liver damage.
+8. Consider a stress ulcer prophylaxis to prevent gastrointestinal bleeding.
+9. Monitor the patient's nutritional status and consider tube feeding if she is unable to tolerate oral nutrition.
+10. Continue to monitor the patient's vital signs and laboratory results, and adjust her care plan accordingly."
+171753.0,282701,2191-06-02 06:57:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Flu DFA negative
+   -A-line placed
+   - Bronch with some blood/hemorrhage of R lung, clear L lung, ? trauma
+   from ET suction vs. hemorrhage.
+   - Given total of 3 U PRBC over yesterday ([**6-1**]) but Hct did not bump
+   appropriately.
+   - She had desat episodes to low 90s with re-positioning despite
+   elevating FiO2 and PEEP requirements. Esophageal balloon in place.
+   - Started pressors back for MAPS<60
+   - CT abdoment with worsening of bilateral opacities at lung bases,
+   Grade 1 liver laceration with small sliver of perihepatic
+   fluid/hematoma.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-6-1**] 08:08 PM
+   Levofloxacin - [**2191-6-1**] 09:46 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2191-6-2**] 06:06 AM
+   Infusions:
+   Fentanyl - 200 mcg/hour
+   Norepinephrine - 0.02 mcg/Kg/min
+   Midazolam (Versed) - 6 mg/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2191-6-1**] 08:00 AM
+   Famotidine (Pepcid) - [**2191-6-1**] 08:00 PM
+   Fentanyl - [**2191-6-1**] 09:13 PM
+   Midazolam (Versed) - [**2191-6-2**] 01:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.3
+C (102.7
+   Tcurrent: 39.2
+C (102.6
+   HR: 107 (101 - 125) bpm
+   BP: 106/59(73) {94/53(66) - 130/73(89)} mmHg
+   RR: 30 (25 - 39) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+   Height: 63 Inch
+    CVP: 19 (12 - 22)mmHg
+   Bladder pressure: 9 (9 - 9) mmHg
+   Mixed Venous O2% Sat: 65 - 65
+   Total In:
+                                                                  6,732 mL
+                                                                    566 mL
+   PO:
+   TF:
+                                                                     28 mL
+   IVF:
+                                                                  4,885 mL
+                                                                    508 mL
+   Blood products:
+                                                                    817 mL
+   Total out:
+                                                                  2,605 mL
+                                                                    800 mL
+   Urine:
+                                                                  2,355 mL
+                                                                    780 mL
+   NG:
+                                                                    100 mL
+                                                                     20 mL
+   Stool:
+   Drains:
+                                                                    150 mL
+   Balance:
+                                                                  4,127 mL
+                                                                   -234 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: VOL/AC
+   Vt (Set): 400 (400 - 400) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 30
+   RR (Spontaneous): 0
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 39 cmH2O
+   Plateau: 35 cmH2O
+   SpO2: 99%
+   ABG: 7.40/39/98.[**Numeric Identifier 500**]/24/0
+   Ve: 13.2 L/min
+   PaO2 / FiO2: 163
+   Physical Examination
+   GEN: Intubated. Sedated
+   HEENT:
+   LUNGS:
+   HEART:
+   ABD:
+   EXTREM: Vac dressing in place.
+   NEURO:
+   Labs / Radiology
+   195 K/uL
+   8.7 g/dL
+   112 mg/dL
+   0.7 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   7 mg/dL
+   108 mEq/L
+   139 mEq/L
+   25.6 %
+   15.5 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+                             [**2191-6-1**]  09:56 AM
+                             [**2191-6-1**]  03:27 PM
+                             [**2191-6-1**]  03:35 PM
+                             [**2191-6-1**]  08:30 PM
+                             [**2191-6-1**]  08:47 PM
+                             [**2191-6-2**]  01:00 AM
+                             [**2191-6-2**]  02:00 AM
+                             [**2191-6-2**]  02:22 AM
+   WBC
+   17.4
+   15.5
+   Hct
+   22.8
+   22.9
+   25.1
+   25.8
+   25.6
+   Plt
+   177
+   195
+   Cr
+   0.7
+   0.7
+   TCO2
+   24
+   24
+   26
+   26
+   25
+   Glucose
+   73
+   130
+   112
+   Other labs: PT / PTT / INR:14.2/28.8/1.2, ALT / AST:35/43, Alk Phos / T
+   Bili:86/1.2, Differential-Neuts:86.0 %, Lymph:9.1 %, Mono:4.6 %,
+   Eos:0.2 %, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, Albumin:2.6
+   g/dL, LDH:549 IU/L, Ca++:7.2 mg/dL, Mg++:2.5 mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan20 F with no PMHx s/p MVA accident and tib-fib s/p
+   [**Hospital **] transferred from Ortho Service to Medicine and now MICU for
+   worsening hypoxia.
+   # Hypoxia: [**Doctor Last Name 2**]/ARDS physiology (PaO2/FiO2= 163) with evidence of
+   multi-focal PNA in the lung bases seen on CT abdomen yesterday.
+   - Bronch today to r/o infection, eosinophilia and perhaps diagnose fat
+   emboli syndrome
+   - CXR to confirm ET tube placement as well as for interval assessment
+   - Continue vanco and zosyn for coverage of HAP as well as levofloxacin
+   for atypicals
+   - Follow fever and WBC curve
+   - F/u sputum cx, send urine legionella
+   - Continue lovenox for ppx
+   - Supportive ventilation with fentanyl/versed for sedation-PRN morphine
+   for turns; wean as tolerated
+   - F/u any Pulm recs (consulted on floor)
+   - Re-attempt a-line today for repeated ABGs
+   - Change tidal volumes based on height
+   - consider esophageal balloon pressure today to ensure measuring lung
+   compliance and not chest wall compliance given obesity
+   # Fever: Patient continues to spike despite Levo/Vanc/Zosyn
+   - LENI
+s today, if evidence of clot would consider CTA
+   # Hypotension: Hypotensive in setting of positive pressure on vent as
+   well as sedation. Concern for sepsis in setting of infection. Better
+   today after pressors and IVF.
+   - IVF boluses prn to maintain MAP >60. UOP >30. CVP>12
+   - Attempt to wean pressors today
+   - F/u panculture data; abx as above
+   - Trend Hct as post-op; already crossmatched x 4 units, maintain active
+   T&S
+   # Anemia: Baseline unclear but Hct 36 on admission.  Hct was 22.8
+   yesterday am, she received 3 u pRBC over the course of the day with an
+   inappropriate bump to 25.6.  Possible etiologies include continued
+   blood loss (into pelvis/thigh) vs post-op fluid shift (dropping HCt
+   coincided with post-op day 3, when large fluid shifts are expected).
+   - consider CT of legs
+   - Monitor [**Hospital1 **] Hcts
+   - Guaiac all stools
+   - check haptoglobin to evaluate for hemolysis, consider checking retic
+   count to evaluate for marrow suppression
+   - CVL with active T&S as above; transfuse for Hct <21
+   #)Tib/Fib fx: S/p ORIF by Ortho with plan for revision on [**6-2**]. However
+   will postpone given acute decompensation.
+   - Fentanyl gtt/ morphine prn for pain control
+   - F/u ortho recs
+   # ?Syncope: Patient was involved in MVA with question of syncope prior
+   to collision. Has had negative CT head and monitored on tele with no
+   arrhythmia except sinus tachy thought [**1-24**] infection. EKG without
+   ischemic changes. TTE negative for structural disease. No h/o syncope
+   or seizures so suspicion in accident is low. Serum tox positive only
+   for opioids on arrival which could be accounted for by morphine
+   received at OSH.
+   - Monitor on tele
+   ICU Care
+   Nutrition:
+   Replete with Fiber (Full) - [**2191-6-2**] 05:04 AM 15 mL/hour
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Arterial Line - [**2191-6-1**] 01:00 PM
+   18 Gauge - [**2191-6-1**] 03:00 PM
+   Prophylaxis:
+   DVT: lovenox, boots
+   Stress ulcer: H2 blocker today
+   VAP:  mouth care
+   Comments:
+   Communication:  Comments: Mother [**Name (NI) 6537**] [**0-0-**], Father [**Name (NI) 2446**]
+   [**Telephone/Fax (1) 6538**]. Contact PCP today for update.
+   Code status: Full code
+   Disposition: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Flu DFA negative
+   -A-line placed
+   - Bronch with some blood/hemorrhage of R lung, clear L lung, ? trauma
+   from ET suction vs. hemorrhage.
+   - Given total of 3 U PRBC over yesterday ([**6-1**]) but Hct did not bump
+   appropriately.
+   - She had desat episodes to low 90s with re-positioning despite
+   elevating FiO2 and PEEP requirements. Esophageal balloon in place.
+   - Started pressors back for MAPS<60
+   - CT abdoment with worsening of bilateral opacities at lung bases,
+   Grade 1 liver laceration with small sliver of perihepatic
+   fluid/hematoma.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-6-1**] 08:08 PM
+   Levofloxacin - [**2191-6-1**] 09:46 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2191-6-2**] 06:06 AM
+   Infusions:
+   Fentanyl - 200 mcg/hour
+   Norepinephrine - 0.02 mcg/Kg/min
+   Midazolam (Versed) - 6 mg/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2191-6-1**] 08:00 AM
+   Famotidine (Pepcid) - [**2191-6-1**] 08:00 PM
+   Fentanyl - [**2191-6-1**] 09:13 PM
+   Midazolam (Versed) - [**2191-6-2**] 01:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.3
+C (102.7
+   Tcurrent: 39.2
+C (102.6
+   HR: 107 (101 - 125) bpm
+   BP: 106/59(73) {94/53(66) - 130/73(89)} mmHg
+   RR: 30 (25 - 39) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+   Height: 63 Inch
+    CVP: 19 (12 - 22)mmHg
+   Bladder pressure: 9 (9 - 9) mmHg
+   Mixed Venous O2% Sat: 65 - 65
+   Total In:
+                                                                  6,732 mL
+                                                                    566 mL
+   PO:
+   TF:
+                                                                     28 mL
+   IVF:
+                                                                  4,885 mL
+                                                                    508 mL
+   Blood products:
+                                                                    817 mL
+   Total out:
+                                                                  2,605 mL
+                                                                    800 mL
+   Urine:
+                                                                  2,355 mL
+                                                                    780 mL
+   NG:
+                                                                    100 mL
+                                                                     20 mL
+   Stool:
+   Drains:
+                                                                    150 mL
+   Balance:
+                                                                  4,127 mL
+                                                                   -234 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: VOL/AC
+   Vt (Set): 400 (400 - 400) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 30
+   RR (Spontaneous): 0
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 39 cmH2O
+   Plateau: 35 cmH2O
+   SpO2: 99%
+   ABG: 7.40/39/98.[**Numeric Identifier 500**]/24/0
+   Ve: 13.2 L/min
+   PaO2 / FiO2: 163
+   Physical Examination
+   GEN: Intubated. Sedated
+   HEENT:
+   LUNGS:
+   HEART:
+   ABD:
+   EXTREM: Vac dressing in place.
+   NEURO:
+   Labs / Radiology
+   195 K/uL
+   8.7 g/dL
+   112 mg/dL
+   0.7 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   7 mg/dL
+   108 mEq/L
+   139 mEq/L
+   25.6 %
+   15.5 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+                             [**2191-6-1**]  09:56 AM
+                             [**2191-6-1**]  03:27 PM
+                             [**2191-6-1**]  03:35 PM
+                             [**2191-6-1**]  08:30 PM
+                             [**2191-6-1**]  08:47 PM
+                             [**2191-6-2**]  01:00 AM
+                             [**2191-6-2**]  02:00 AM
+                             [**2191-6-2**]  02:22 AM
+   WBC
+   17.4
+   15.5
+   Hct
+   22.8
+   22.9
+   25.1
+   25.8
+   25.6
+   Plt
+   177
+   195
+   Cr
+   0.7
+   0.7
+   TCO2
+   24
+   24
+   26
+   26
+   25
+   Glucose
+   73
+   130
+   112
+   Other labs: PT / PTT / INR:14.2/28.8/1.2, ALT / AST:35/43, Alk Phos / T
+   Bili:86/1.2, Differential-Neuts:86.0 %, Lymph:9.1 %, Mono:4.6 %,
+   Eos:0.2 %, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, Albumin:2.6
+   g/dL, LDH:549 IU/L, Ca++:7.2 mg/dL, Mg++:2.5 mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan20 F with no PMHx s/p MVA accident and tib-fib s/p
+   [**Hospital **] transferred from Ortho Service to Medicine and now MICU for
+   worsening hypoxia.
+   # Hypoxia: [**Doctor Last Name 2**]/ARDS physiology (PaO2/FiO2= 163) with evidence of
+   multi-focal PNA in the lung bases seen on CT abdomen yesterday.
+   - Bronch today to r/o infection, eosinophilia and perhaps diagnose fat
+   emboli syndrome
+   - CXR to confirm ET tube placement as well as for interval assessment
+   - Continue vanco and zosyn for coverage of HAP as well as levofloxacin
+   for atypicals
+   - Follow fever and WBC curve
+   - F/u sputum cx, send urine legionella
+   - Continue lovenox for ppx
+   - Supportive ventilation with fentanyl/versed for sedation-PRN morphine
+   for turns; wean as tolerated
+   - F/u any Pulm recs (consulted on floor)
+   - Re-attempt a-line today for repeated ABGs
+   - Change tidal volumes based on height
+   - consider esophageal balloon pressure today to ensure measuring lung
+   compliance and not chest wall compliance given obesity
+   # Fever: Patient continues to spike despite Levo/Vanc/Zosyn
+   - LENI
+s today, if evidence of clot would consider CTA
+   # Hypotension: Hypotensive in setting of positive pressure on vent as
+   well as sedation. Concern for sepsis in setting of infection. Better
+   today after pressors and IVF.
+   - IVF boluses prn to maintain MAP >60. UOP >30. CVP>12
+   - Attempt to wean pressors today
+   - F/u panculture data; abx as above
+   - Trend Hct as post-op; already crossmatched x 4 units, maintain active
+   T&S
+   # Anemia: Baseline unclear but Hct 36 on admission.  Hct was 22.8
+   yesterday am, she received 3 u pRBC over the course of the day with an
+   inappropriate bump to 25.6.  Possible etiologies include continued
+   blood loss (into pelvis/thigh) vs post-op fluid shift (dropping HCt
+   coincided with post-op day 3, when large fluid shifts are expected).
+   - consider CT of legs
+   - Monitor [**Hospital1 **] Hcts
+   - Guaiac all stools
+   - check haptoglobin to evaluate for hemolysis, consider checking retic
+   count to evaluate for marrow suppression
+   - CVL with active T&S as above; transfuse for Hct <21
+   #)Tib/Fib fx: S/p ORIF by Ortho with plan for revision on [**6-2**]. However
+   will postpone given acute decompensation.
+   - Fentanyl gtt/ morphine prn for pain control
+   - F/u ortho recs
+   # ?Syncope: Patient was involved in MVA with question of syncope prior
+   to collision. Has had negative CT head and monitored on tele with no
+   arrhythmia except sinus tachy thought [**1-24**] infection. EKG without
+   ischemic changes. TTE negative for structural disease. No h/o syncope
+   or seizures so suspicion in accident is low. Serum tox positive only
+   for opioids on arrival which could be accounted for by morphine
+   received at OSH.
+   - Monitor on tele
+   ICU Care
+   Nutrition:
+   Replete with Fiber (Full) - [**2191-6-2**] 05:04 AM 15 mL/hour
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Arterial Line - [**2191-6-1**] 01:00 PM
+   18 Gauge - [**2191-6-1**] 03:00 PM
+   Prophylaxis:
+   DVT: lovenox, boots
+   Stress ulcer: H2 blocker today
+   VAP:  mouth care
+   Comments:
+   Communication:  Comments: Mother [**Name (NI) 6537**] [**0-0-**], Father [**Name (NI) 2446**]
+   [**Telephone/Fax (1) 6538**]. Contact PCP today for update.
+   Code status: Full code
+   Disposition: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 24-year-old female who was admitted to the ICU with worsening hypoxia after a motor vehicle accident (MVA) and subsequent tib-fib fracture repair. The patient has been experiencing desaturation episodes, despite elevating FiO2 and PEEP requirements, and has required pressors to maintain a MAP >60.
+
+The patient's lab results show evidence of multi-focal pneumonia (PNA) in the lung bases, with a PaO2/FiO2 ratio of 163, consistent with ARDS physiology. The patient's WBC count is elevated, with a differential showing a neutrophil predominance. The patient's Hct is 22.8, with a recent transfusion of 3 U PRBC, but the Hct did not bump appropriately, suggesting ongoing blood loss or post-operative fluid shift.
+
+The patient's physical examination is notable for the presence of a vacuum dressing on the extremities and evidence of intubation and sedation. The patient's respiratory support includes mechanical ventilation with a tidal volume of 400 mL, PEEP of 15 cmH2O, and FiO2 of 60%.
+
+The patient's medical complications include:
+
+1. Hypoxia: The patient's PaO2/FiO2 ratio is 163, consistent with ARDS physiology. The patient's hypoxia is likely due to the presence of multi-focal PNA in the lung bases.
+2. Anemia: The patient's Hct is 22.8, with a recent transfusion of 3 U PRBC, but the Hct did not bump appropriately, suggesting ongoing blood loss or post-operative fluid shift.
+3. Hypotension: The patient's blood pressure is 106/59 mmHg, with a MAP of 60. The patient's hypotension is likely due to sepsis, as well as the presence of positive pressure ventilation and sedation.
+4. Fever: The patient's temperature is 39.3°C, with a recent spike despite antibiotics. The patient's fever is likely due to the presence of infection.
+5. Syncope: The patient was involved in a MVA with a question of syncope prior to the collision. The patient's serum tox screen was positive only for opioids on arrival, which could be accounted for by morphine received at the hospital.
+
+Potential medical complications that may arise include:
+
+1. Respiratory failure: The patient's hypoxia is likely due to the presence of multi-focal PNA in the lung bases, and may worsen if the patient's respiratory status does not improve.
+2. Sepsis: The patient's hypotension is likely due to sepsis, as well as the presence of positive pressure ventilation and sedation.
+3. Bleeding: The patient's Hct is 22.8, with a recent transfusion of 3 U PRBC, but the Hct did not bump appropriately, suggesting ongoing blood loss or post-operative fluid shift.
+4. Organ failure: The patient's hypoxia and hypotension may lead to organ failure, including renal and hepatic failure.
+5. Infection: The patient's fever is likely due to the presence of infection, and may worsen if the patient's infection is not properly treated.
+
+Based on the patient's medical complications and potential medical complications, the patient requires close monitoring and treatment to prevent and manage these complications."
+171753.0,282701,2191-06-02 06:57:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Flu DFA negative
+   -A-line placed
+   - Bronch with some blood/hemorrhage of R lung, clear L lung, ? trauma
+   from ET suction vs. hemorrhage.
+   - Given total of 3 U PRBC over yesterday ([**6-1**]) but Hct did not bump
+   appropriately.
+   - She had desat episodes to low 90s with re-positioning despite
+   elevating FiO2 and PEEP requirements. Esophageal balloon in place.
+   - Started pressors back for MAPS<60
+   - CT abdoment with worsening of bilateral opacities at lung bases,
+   Grade 1 liver laceration with small sliver of perihepatic
+   fluid/hematoma.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-6-1**] 08:08 PM
+   Levofloxacin - [**2191-6-1**] 09:46 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2191-6-2**] 06:06 AM
+   Infusions:
+   Fentanyl - 200 mcg/hour
+   Norepinephrine - 0.02 mcg/Kg/min
+   Midazolam (Versed) - 6 mg/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2191-6-1**] 08:00 AM
+   Famotidine (Pepcid) - [**2191-6-1**] 08:00 PM
+   Fentanyl - [**2191-6-1**] 09:13 PM
+   Midazolam (Versed) - [**2191-6-2**] 01:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.3
+C (102.7
+   Tcurrent: 39.2
+C (102.6
+   HR: 107 (101 - 125) bpm
+   BP: 106/59(73) {94/53(66) - 130/73(89)} mmHg
+   RR: 30 (25 - 39) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+   Height: 63 Inch
+    CVP: 19 (12 - 22)mmHg
+   Bladder pressure: 9 (9 - 9) mmHg
+   Mixed Venous O2% Sat: 65 - 65
+   Total In:
+                                                                  6,732 mL
+                                                                    566 mL
+   PO:
+   TF:
+                                                                     28 mL
+   IVF:
+                                                                  4,885 mL
+                                                                    508 mL
+   Blood products:
+                                                                    817 mL
+   Total out:
+                                                                  2,605 mL
+                                                                    800 mL
+   Urine:
+                                                                  2,355 mL
+                                                                    780 mL
+   NG:
+                                                                    100 mL
+                                                                     20 mL
+   Stool:
+   Drains:
+                                                                    150 mL
+   Balance:
+                                                                  4,127 mL
+                                                                   -234 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: VOL/AC
+   Vt (Set): 400 (400 - 400) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 30
+   RR (Spontaneous): 0
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 39 cmH2O
+   Plateau: 35 cmH2O
+   SpO2: 99%
+   ABG: 7.40/39/98.[**Numeric Identifier 500**]/24/0
+   Ve: 13.2 L/min
+   PaO2 / FiO2: 163
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   195 K/uL
+   8.7 g/dL
+   112 mg/dL
+   0.7 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   7 mg/dL
+   108 mEq/L
+   139 mEq/L
+   25.6 %
+   15.5 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+                             [**2191-6-1**]  09:56 AM
+                             [**2191-6-1**]  03:27 PM
+                             [**2191-6-1**]  03:35 PM
+                             [**2191-6-1**]  08:30 PM
+                             [**2191-6-1**]  08:47 PM
+                             [**2191-6-2**]  01:00 AM
+                             [**2191-6-2**]  02:00 AM
+                             [**2191-6-2**]  02:22 AM
+   WBC
+   17.4
+   15.5
+   Hct
+   22.8
+   22.9
+   25.1
+   25.8
+   25.6
+   Plt
+   177
+   195
+   Cr
+   0.7
+   0.7
+   TCO2
+   24
+   24
+   26
+   26
+   25
+   Glucose
+   73
+   130
+   112
+   Other labs: PT / PTT / INR:14.2/28.8/1.2, ALT / AST:35/43, Alk Phos / T
+   Bili:86/1.2, Differential-Neuts:86.0 %, Lymph:9.1 %, Mono:4.6 %,
+   Eos:0.2 %, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, Albumin:2.6
+   g/dL, LDH:549 IU/L, Ca++:7.2 mg/dL, Mg++:2.5 mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan
+ IMPAIRED SKIN INTEGRITY
+ FEVER, UNKNOWN ORIGIN (FUO, HYPERTHERMIA, PYREXIA)
+ HYPOXEMIA
+ HYPOTHERMIA
+ HYPOTENSION (NOT SHOCK)
+   ICU Care
+   Nutrition:
+   Replete with Fiber (Full) - [**2191-6-2**] 05:04 AM 15 mL/hour
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Arterial Line - [**2191-6-1**] 01:00 PM
+   18 Gauge - [**2191-6-1**] 03:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Flu DFA negative
+   -A-line placed
+   - Bronch with some blood/hemorrhage of R lung, clear L lung, ? trauma
+   from ET suction vs. hemorrhage.
+   - Given total of 3 U PRBC over yesterday ([**6-1**]) but Hct did not bump
+   appropriately.
+   - She had desat episodes to low 90s with re-positioning despite
+   elevating FiO2 and PEEP requirements. Esophageal balloon in place.
+   - Started pressors back for MAPS<60
+   - CT abdoment with worsening of bilateral opacities at lung bases,
+   Grade 1 liver laceration with small sliver of perihepatic
+   fluid/hematoma.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-6-1**] 08:08 PM
+   Levofloxacin - [**2191-6-1**] 09:46 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2191-6-2**] 06:06 AM
+   Infusions:
+   Fentanyl - 200 mcg/hour
+   Norepinephrine - 0.02 mcg/Kg/min
+   Midazolam (Versed) - 6 mg/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2191-6-1**] 08:00 AM
+   Famotidine (Pepcid) - [**2191-6-1**] 08:00 PM
+   Fentanyl - [**2191-6-1**] 09:13 PM
+   Midazolam (Versed) - [**2191-6-2**] 01:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.3
+C (102.7
+   Tcurrent: 39.2
+C (102.6
+   HR: 107 (101 - 125) bpm
+   BP: 106/59(73) {94/53(66) - 130/73(89)} mmHg
+   RR: 30 (25 - 39) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+   Height: 63 Inch
+    CVP: 19 (12 - 22)mmHg
+   Bladder pressure: 9 (9 - 9) mmHg
+   Mixed Venous O2% Sat: 65 - 65
+   Total In:
+                                                                  6,732 mL
+                                                                    566 mL
+   PO:
+   TF:
+                                                                     28 mL
+   IVF:
+                                                                  4,885 mL
+                                                                    508 mL
+   Blood products:
+                                                                    817 mL
+   Total out:
+                                                                  2,605 mL
+                                                                    800 mL
+   Urine:
+                                                                  2,355 mL
+                                                                    780 mL
+   NG:
+                                                                    100 mL
+                                                                     20 mL
+   Stool:
+   Drains:
+                                                                    150 mL
+   Balance:
+                                                                  4,127 mL
+                                                                   -234 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: VOL/AC
+   Vt (Set): 400 (400 - 400) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 30
+   RR (Spontaneous): 0
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 39 cmH2O
+   Plateau: 35 cmH2O
+   SpO2: 99%
+   ABG: 7.40/39/98.[**Numeric Identifier 500**]/24/0
+   Ve: 13.2 L/min
+   PaO2 / FiO2: 163
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   195 K/uL
+   8.7 g/dL
+   112 mg/dL
+   0.7 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   7 mg/dL
+   108 mEq/L
+   139 mEq/L
+   25.6 %
+   15.5 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+                             [**2191-6-1**]  09:56 AM
+                             [**2191-6-1**]  03:27 PM
+                             [**2191-6-1**]  03:35 PM
+                             [**2191-6-1**]  08:30 PM
+                             [**2191-6-1**]  08:47 PM
+                             [**2191-6-2**]  01:00 AM
+                             [**2191-6-2**]  02:00 AM
+                             [**2191-6-2**]  02:22 AM
+   WBC
+   17.4
+   15.5
+   Hct
+   22.8
+   22.9
+   25.1
+   25.8
+   25.6
+   Plt
+   177
+   195
+   Cr
+   0.7
+   0.7
+   TCO2
+   24
+   24
+   26
+   26
+   25
+   Glucose
+   73
+   130
+   112
+   Other labs: PT / PTT / INR:14.2/28.8/1.2, ALT / AST:35/43, Alk Phos / T
+   Bili:86/1.2, Differential-Neuts:86.0 %, Lymph:9.1 %, Mono:4.6 %,
+   Eos:0.2 %, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, Albumin:2.6
+   g/dL, LDH:549 IU/L, Ca++:7.2 mg/dL, Mg++:2.5 mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan
+ IMPAIRED SKIN INTEGRITY
+ FEVER, UNKNOWN ORIGIN (FUO, HYPERTHERMIA, PYREXIA)
+ HYPOXEMIA
+ HYPOTHERMIA
+ HYPOTENSION (NOT SHOCK)
+   ICU Care
+   Nutrition:
+   Replete with Fiber (Full) - [**2191-6-2**] 05:04 AM 15 mL/hour
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Arterial Line - [**2191-6-1**] 01:00 PM
+   18 Gauge - [**2191-6-1**] 03:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 63-inch tall, 146.5 kg (admission weight) individual with a complex medical condition. The patient's chief complaint is fever, and the patient has been experiencing desaturation episodes, which have been managed by elevating FiO2 and PEEP requirements.
+
+The patient's vital signs are:
+
+* Temperature: 39.3°C (102.7°F)
+* Heart rate: 107 bpm (101-125 bpm)
+* Blood pressure: 106/59 mmHg (73-130/89 mmHg)
+* Respiratory rate: 30 inspirations per minute (25-39 inspirations per minute)
+* SpO2: 99%
+
+The patient has a history of trauma, with a Grade 1 liver laceration and small perihepatic fluid/hematoma noted on CT abdomen. The patient has also had a bronch with blood/hemorrhage of the right lung, which may be related to trauma or ET suction.
+
+The patient has been receiving various medications, including pressors, antibiotics, and analgesics. The patient's laboratory results show:
+
+* Hemoglobin: 8.7 g/dL
+* Platelet count: 112 mg/dL
+* White blood cell count: 17.4 K/uL
+* Creatinine: 0.7 mg/dL
+* Blood urea nitrogen: 24 mEq/L
+* Electrolytes: 139 mEq/L (sodium), 3.9 mEq/L (potassium), 25.6% (hematocrit)
+
+The patient's medical complications include:
+
+* Impaired skin integrity
+* Fever, unknown origin (FUO, hypothermia, pyrexia)
+* Hypoxemia
+* Hypothermia
+* Hypotension (not in shock)
+
+The patient's potential medical complications include:
+
+* Respiratory failure
+* Sepsis
+* Multi-organ failure
+* Bleeding complications
+* Infection
+
+Given the patient's complex medical condition and potential complications, it is essential to continue close monitoring and management to prevent further deterioration."
+171753.0,282701,2191-06-02 06:57:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - Flu DFA negative
+   -A-line placed
+   - Bronch with some blood/hemorrhage of R lung, clear L lung, ? trauma
+   from ET suction vs. hemorrhage.
+   - Given total of 3 U PRBC over yesterday ([**6-1**]) but Hct did not bump
+   appropriately.
+   - She had desat episodes to low 90s with re-positioning despite
+   elevating FiO2 and PEEP requirements. Esophageal balloon in place.
+   - Started pressors back for MAPS<60
+   - CT abdoment with worsening of bilateral opacities at lung bases,
+   Grade 1 liver laceration with small sliver of perihepatic
+   fluid/hematoma.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-6-1**] 08:08 PM
+   Levofloxacin - [**2191-6-1**] 09:46 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2191-6-2**] 06:06 AM
+   Infusions:
+   Fentanyl - 200 mcg/hour
+   Norepinephrine - 0.02 mcg/Kg/min
+   Midazolam (Versed) - 6 mg/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2191-6-1**] 08:00 AM
+   Famotidine (Pepcid) - [**2191-6-1**] 08:00 PM
+   Fentanyl - [**2191-6-1**] 09:13 PM
+   Midazolam (Versed) - [**2191-6-2**] 01:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.3
+C (102.7
+   Tcurrent: 39.2
+C (102.6
+   HR: 107 (101 - 125) bpm
+   BP: 106/59(73) {94/53(66) - 130/73(89)} mmHg
+   RR: 30 (25 - 39) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+   Height: 63 Inch
+    CVP: 19 (12 - 22)mmHg
+   Bladder pressure: 9 (9 - 9) mmHg
+   Mixed Venous O2% Sat: 65 - 65
+   Total In:
+                                                                  6,732 mL
+                                                                    566 mL
+   PO:
+   TF:
+                                                                     28 mL
+   IVF:
+                                                                  4,885 mL
+                                                                    508 mL
+   Blood products:
+                                                                    817 mL
+   Total out:
+                                                                  2,605 mL
+                                                                    800 mL
+   Urine:
+                                                                  2,355 mL
+                                                                    780 mL
+   NG:
+                                                                    100 mL
+                                                                     20 mL
+   Stool:
+   Drains:
+                                                                    150 mL
+   Balance:
+                                                                  4,127 mL
+                                                                   -234 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: VOL/AC
+   Vt (Set): 400 (400 - 400) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 30
+   RR (Spontaneous): 0
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 39 cmH2O
+   Plateau: 35 cmH2O
+   SpO2: 99%
+   ABG: 7.40/39/98.[**Numeric Identifier 500**]/24/0
+   Ve: 13.2 L/min
+   PaO2 / FiO2: 163
+   Physical Examination
+   GEN: Intubated. Sedated
+   HEENT:
+   LUNGS:
+   HEART:
+   ABD:
+   EXTREM: Vac dressing in place.
+   NEURO:
+   Labs / Radiology
+   195 K/uL
+   8.7 g/dL
+   112 mg/dL
+   0.7 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   7 mg/dL
+   108 mEq/L
+   139 mEq/L
+   25.6 %
+   15.5 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+                             [**2191-6-1**]  09:56 AM
+                             [**2191-6-1**]  03:27 PM
+                             [**2191-6-1**]  03:35 PM
+                             [**2191-6-1**]  08:30 PM
+                             [**2191-6-1**]  08:47 PM
+                             [**2191-6-2**]  01:00 AM
+                             [**2191-6-2**]  02:00 AM
+                             [**2191-6-2**]  02:22 AM
+   WBC
+   17.4
+   15.5
+   Hct
+   22.8
+   22.9
+   25.1
+   25.8
+   25.6
+   Plt
+   177
+   195
+   Cr
+   0.7
+   0.7
+   TCO2
+   24
+   24
+   26
+   26
+   25
+   Glucose
+   73
+   130
+   112
+   Other labs: PT / PTT / INR:14.2/28.8/1.2, ALT / AST:35/43, Alk Phos / T
+   Bili:86/1.2, Differential-Neuts:86.0 %, Lymph:9.1 %, Mono:4.6 %,
+   Eos:0.2 %, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, Albumin:2.6
+   g/dL, LDH:549 IU/L, Ca++:7.2 mg/dL, Mg++:2.5 mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan20 F with no PMHx s/p MVA accident and tib-fib s/p
+   [**Hospital **] transferred from Ortho Service to Medicine and now MICU for
+   worsening hypoxia.
+   # Hypoxia: Still unclear etiology with ARDS physiology. Considered
+   infection with atypical organisms vs fat emboli syndrome, aspiration.
+   - Bronch today to r/o infection, eosinophilia and perhaps diagnose fat
+   emboli syndrome
+   - CXR to confirm ET tube placement as well as for interval assessment
+   - Continue vanco and zosyn for coverage of HAP as well as levofloxacin
+   for atypicals
+   - Follow fever and WBC curve
+   - F/u sputum cx, send urine legionella
+   - Continue lovenox for ppx
+   - Supportive ventilation with fentanyl/versed for sedation-PRN morphine
+   for turns; wean as tolerated
+   - F/u any Pulm recs (consulted on floor)
+   - Re-attempt a-line today for repeated ABGs
+   - Change tidal volumes based on height
+   - consider esophageal balloon pressure today to ensure measuring lung
+   compliance and not chest wall compliance given obesity
+   # Hypotension: Hypotensive in setting of positive pressure on vent as
+   well as sedation. Concern for sepsis in setting of infection. Better
+   today after pressors and IVF.
+   - IVF boluses prn to maintain MAP >60. UOP >30. CVP>12
+   - Attempt to wean pressors today
+   - F/u panculture data; abx as above
+   - Trend Hct as post-op; already crossmatched x 4 units, maintain active
+   T&S
+   # Anemia: Baseline unclear but Hct 36 on admission; decreased to 26
+   which may be in setting of surgical repair of tib/fib with small amount
+   bloody drainage from wound vac. Now to 22 with aggressive IVF.
+   - Monitor [**Hospital1 **] Hcts
+   - Guaiac all stools
+   - CVL with active T&S as above; transfuse for Hct <21
+   #)Tib/Fib fx: S/p ORIF by Ortho with plan for revision on [**6-2**]. However
+   will postpone given acute decompensation.
+   - Fentanyl gtt/ morphine prn for pain control
+   - F/u ortho recs
+   # ?Syncope: Patient was involved in MVA with question of syncope prior
+   to collision. Has had negative CT head and monitored on tele with no
+   arrhythmia except sinus tachy thought [**1-24**] infection. EKG without
+   ischemic changes. TTE negative for structural disease. No h/o syncope
+   or seizures so suspicion in accident is low. Serum tox positive only
+   for opioids on arrival which could be accounted for by morphine
+   received at OSH.
+   - Monitor on tele
+   ICU Care
+   Nutrition:
+   Replete with Fiber (Full) - [**2191-6-2**] 05:04 AM 15 mL/hour
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Arterial Line - [**2191-6-1**] 01:00 PM
+   18 Gauge - [**2191-6-1**] 03:00 PM
+   Prophylaxis:
+   DVT: lovenox, boots
+   Stress ulcer: H2 blocker today
+   VAP:  mouth care
+   Comments:
+   Communication:  Comments: Mother [**Name (NI) 6537**] [**0-0-**], Father [**Name (NI) 2446**]
+   [**Telephone/Fax (1) 6538**]. Contact PCP today for update.
+   Code status: Full code
+   Disposition: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - Flu DFA negative
+   -A-line placed
+   - Bronch with some blood/hemorrhage of R lung, clear L lung, ? trauma
+   from ET suction vs. hemorrhage.
+   - Given total of 3 U PRBC over yesterday ([**6-1**]) but Hct did not bump
+   appropriately.
+   - She had desat episodes to low 90s with re-positioning despite
+   elevating FiO2 and PEEP requirements. Esophageal balloon in place.
+   - Started pressors back for MAPS<60
+   - CT abdoment with worsening of bilateral opacities at lung bases,
+   Grade 1 liver laceration with small sliver of perihepatic
+   fluid/hematoma.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Vancomycin - [**2191-6-1**] 08:08 PM
+   Levofloxacin - [**2191-6-1**] 09:46 PM
+   Piperacillin/Tazobactam (Zosyn) - [**2191-6-2**] 06:06 AM
+   Infusions:
+   Fentanyl - 200 mcg/hour
+   Norepinephrine - 0.02 mcg/Kg/min
+   Midazolam (Versed) - 6 mg/hour
+   Other ICU medications:
+   Morphine Sulfate - [**2191-6-1**] 08:00 AM
+   Famotidine (Pepcid) - [**2191-6-1**] 08:00 PM
+   Fentanyl - [**2191-6-1**] 09:13 PM
+   Midazolam (Versed) - [**2191-6-2**] 01:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2191-6-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 39.3
+C (102.7
+   Tcurrent: 39.2
+C (102.6
+   HR: 107 (101 - 125) bpm
+   BP: 106/59(73) {94/53(66) - 130/73(89)} mmHg
+   RR: 30 (25 - 39) insp/min
+   SpO2: 99%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 146.5 kg (admission): 146.5 kg
+   Height: 63 Inch
+    CVP: 19 (12 - 22)mmHg
+   Bladder pressure: 9 (9 - 9) mmHg
+   Mixed Venous O2% Sat: 65 - 65
+   Total In:
+                                                                  6,732 mL
+                                                                    566 mL
+   PO:
+   TF:
+                                                                     28 mL
+   IVF:
+                                                                  4,885 mL
+                                                                    508 mL
+   Blood products:
+                                                                    817 mL
+   Total out:
+                                                                  2,605 mL
+                                                                    800 mL
+   Urine:
+                                                                  2,355 mL
+                                                                    780 mL
+   NG:
+                                                                    100 mL
+                                                                     20 mL
+   Stool:
+   Drains:
+                                                                    150 mL
+   Balance:
+                                                                  4,127 mL
+                                                                   -234 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: VOL/AC
+   Vt (Set): 400 (400 - 400) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 30
+   RR (Spontaneous): 0
+   PEEP: 15 cmH2O
+   FiO2: 60%
+   RSBI Deferred: PEEP > 10
+   PIP: 39 cmH2O
+   Plateau: 35 cmH2O
+   SpO2: 99%
+   ABG: 7.40/39/98.[**Numeric Identifier 500**]/24/0
+   Ve: 13.2 L/min
+   PaO2 / FiO2: 163
+   Physical Examination
+   GEN: Intubated. Sedated
+   HEENT:
+   LUNGS:
+   HEART:
+   ABD:
+   EXTREM: Vac dressing in place.
+   NEURO:
+   Labs / Radiology
+   195 K/uL
+   8.7 g/dL
+   112 mg/dL
+   0.7 mg/dL
+   24 mEq/L
+   3.9 mEq/L
+   7 mg/dL
+   108 mEq/L
+   139 mEq/L
+   25.6 %
+   15.5 K/uL
+        [image002.jpg]
+                             [**2191-5-31**]  10:22 PM
+                             [**2191-6-1**]  04:10 AM
+                             [**2191-6-1**]  09:56 AM
+                             [**2191-6-1**]  03:27 PM
+                             [**2191-6-1**]  03:35 PM
+                             [**2191-6-1**]  08:30 PM
+                             [**2191-6-1**]  08:47 PM
+                             [**2191-6-2**]  01:00 AM
+                             [**2191-6-2**]  02:00 AM
+                             [**2191-6-2**]  02:22 AM
+   WBC
+   17.4
+   15.5
+   Hct
+   22.8
+   22.9
+   25.1
+   25.8
+   25.6
+   Plt
+   177
+   195
+   Cr
+   0.7
+   0.7
+   TCO2
+   24
+   24
+   26
+   26
+   25
+   Glucose
+   73
+   130
+   112
+   Other labs: PT / PTT / INR:14.2/28.8/1.2, ALT / AST:35/43, Alk Phos / T
+   Bili:86/1.2, Differential-Neuts:86.0 %, Lymph:9.1 %, Mono:4.6 %,
+   Eos:0.2 %, Fibrinogen:625 mg/dL, Lactic Acid:1.0 mmol/L, Albumin:2.6
+   g/dL, LDH:549 IU/L, Ca++:7.2 mg/dL, Mg++:2.5 mg/dL, PO4:2.3 mg/dL
+   Assessment and Plan20 F with no PMHx s/p MVA accident and tib-fib s/p
+   [**Hospital **] transferred from Ortho Service to Medicine and now MICU for
+   worsening hypoxia.
+   # Hypoxia: Still unclear etiology with ARDS physiology. Considered
+   infection with atypical organisms vs fat emboli syndrome, aspiration.
+   - Bronch today to r/o infection, eosinophilia and perhaps diagnose fat
+   emboli syndrome
+   - CXR to confirm ET tube placement as well as for interval assessment
+   - Continue vanco and zosyn for coverage of HAP as well as levofloxacin
+   for atypicals
+   - Follow fever and WBC curve
+   - F/u sputum cx, send urine legionella
+   - Continue lovenox for ppx
+   - Supportive ventilation with fentanyl/versed for sedation-PRN morphine
+   for turns; wean as tolerated
+   - F/u any Pulm recs (consulted on floor)
+   - Re-attempt a-line today for repeated ABGs
+   - Change tidal volumes based on height
+   - consider esophageal balloon pressure today to ensure measuring lung
+   compliance and not chest wall compliance given obesity
+   # Hypotension: Hypotensive in setting of positive pressure on vent as
+   well as sedation. Concern for sepsis in setting of infection. Better
+   today after pressors and IVF.
+   - IVF boluses prn to maintain MAP >60. UOP >30. CVP>12
+   - Attempt to wean pressors today
+   - F/u panculture data; abx as above
+   - Trend Hct as post-op; already crossmatched x 4 units, maintain active
+   T&S
+   # Anemia: Baseline unclear but Hct 36 on admission; decreased to 26
+   which may be in setting of surgical repair of tib/fib with small amount
+   bloody drainage from wound vac. Now to 22 with aggressive IVF.
+   - Monitor [**Hospital1 **] Hcts
+   - Guaiac all stools
+   - CVL with active T&S as above; transfuse for Hct <21
+   #)Tib/Fib fx: S/p ORIF by Ortho with plan for revision on [**6-2**]. However
+   will postpone given acute decompensation.
+   - Fentanyl gtt/ morphine prn for pain control
+   - F/u ortho recs
+   # ?Syncope: Patient was involved in MVA with question of syncope prior
+   to collision. Has had negative CT head and monitored on tele with no
+   arrhythmia except sinus tachy thought [**1-24**] infection. EKG without
+   ischemic changes. TTE negative for structural disease. No h/o syncope
+   or seizures so suspicion in accident is low. Serum tox positive only
+   for opioids on arrival which could be accounted for by morphine
+   received at OSH.
+   - Monitor on tele
+   ICU Care
+   Nutrition:
+   Replete with Fiber (Full) - [**2191-6-2**] 05:04 AM 15 mL/hour
+   Glycemic Control:
+   Lines:
+   Multi Lumen - [**2191-6-1**] 12:45 AM
+   Arterial Line - [**2191-6-1**] 01:00 PM
+   18 Gauge - [**2191-6-1**] 03:00 PM
+   Prophylaxis:
+   DVT: lovenox, boots
+   Stress ulcer: H2 blocker today
+   VAP:  mouth care
+   Comments:
+   Communication:  Comments: Mother [**Name (NI) 6537**] [**0-0-**], Father [**Name (NI) 2446**]
+   [**Telephone/Fax (1) 6538**]. Contact PCP today for update.
+   Code status: Full code
+   Disposition: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 63-year-old female who was admitted to the ICU with worsening hypoxia, suspected sepsis, and multiple comorbidities. The patient has a complex medical history, including a recent MVA accident, tib-fib fracture, and surgical repair.
+
+The patient's current condition is characterized by:
+
+* Hypoxia: The patient has ARDS physiology, and the etiology is unclear. The patient is being treated with vancomycin, zosyn, and levofloxacin for coverage of HAP and atypical organisms.
+* Hypotension: The patient is hypotensive in the setting of positive pressure ventilation and sedation. The concern is for sepsis in the setting of infection. The patient is receiving IVF boluses to maintain MAP >60.
+* Anemia: The patient's Hct has decreased from 36 on admission to 22, which may be related to surgical repair of tib-fib with small amount of bloody drainage from wound vac.
+* Tib/Fib fx: The patient has a s/p ORIF by Ortho, but the plan for revision has been postponed due to acute decompensation.
+*?Syncope: The patient had a negative CT head and monitored on tele with no arrhythmia except sinus tachy thought to be related to infection. EKG showed no ischemic changes, and TTE was negative for structural disease.
+
+Potential medical complications that can arise include:
+
+* Sepsis: The patient's hypotension and suspected infection make sepsis a significant concern.
+* ARDS: The patient's ARDS physiology and worsening hypoxia may lead to further respiratory failure.
+* Anemia: The patient's anemia may worsen if not properly managed, leading to further complications.
+* Tib/Fib fx complications: The patient's tib-fib fracture may lead to further complications, such as infection, nonunion, or malunion.
+* Syncope: The patient's suspected syncope may be related to infection, and further evaluation is needed to rule out other causes.
+
+The patient's treatment plan includes:
+
+* Continue vancomycin, zosyn, and levofloxacin for coverage of HAP and atypical organisms.
+* Monitor Hct and transfuse for Hct <21.
+* Continue IVF boluses to maintain MAP >60.
+* F/u panculture data and abx as above.
+* Trend Hct as post-op.
+* Monitor on tele for signs of syncope or arrhythmia.
+* F/u ortho recs for tib-fib fx.
+* Continue lovenox for ppx.
+* Supportive ventilation with fentanyl/versed for sedation-PRN morphine for turns.
+* Wean pressors as tolerated."

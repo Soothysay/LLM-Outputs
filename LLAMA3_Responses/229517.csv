@@ -1,0 +1,4246 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+124328.0,229517,2192-04-01 07:23:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ PRESEP CATHETER - START [**2192-3-31**] 10:41 PM
+ EKG - At [**2192-3-31**] 10:57 PM
+   Admitted from ED, weaned down on levo to 0.1mcg/kg/min
+   Pt comfortable, sleeping, denying abd pain
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2192-3-31**] 10:50 PM
+   Fluconazole - [**2192-3-31**] 11:00 PM
+   Acyclovir - [**2192-4-1**] 12:00 AM
+   Metronidazole - [**2192-4-1**] 12:00 AM
+   Ceftriaxone - [**2192-4-1**] 12:45 AM
+   Infusions:
+   Norepinephrine - 0.1 mcg/Kg/min
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-3-31**] 11:00 PM
+   Heparin Sodium (Prophylaxis) - [**2192-4-1**] 12:00 AM
+   Other medications:
+   Flowsheet Data as of  [**2192-4-1**] 07:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.9
+C (98.4
+   HR: 50 (50 - 67) bpm
+   BP: 108/56(69) {101/49(62) - 137/70(82)} mmHg
+   RR: 16 (15 - 22) insp/min
+   SpO2: 98%
+   Heart rhythm: SB (Sinus Bradycardia)
+   Height: 66 Inch
+    CVP: 9 (2 - 12)mmHg
+   CO/CI (Fick): (47.6 L/min) / (28 L/min/m2)
+   SvO2: 95%
+   Total In:
+                                                                    199 mL
+                                                                  1,252 mL
+   PO:
+                                                                     50 mL
+                                                                    150 mL
+   TF:
+   IVF:
+                                                                    149 mL
+                                                                  1,102 mL
+   Blood products:
+   Total out:
+                                                                    400 mL
+                                                                  1,080 mL
+   Urine:
+                                                                    400 mL
+                                                                  1,080 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -201 mL
+                                                                    172 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///19/
+   Physical Examination
+   GEN:NAD, sleeping comfortably
+   HEENT: no LN, supple neck, R subclavian
+   CV: RR mildly brady, no m/r/g
+   RESP: CTAB no w/r
+   ABD: soft, NT/ND/NABS
+   EXTR: no c/c/e
+   Labs / Radiology
+   135 K/uL
+   11.1 g/dL
+   165 mg/dL
+   1.0 mg/dL
+   19 mEq/L
+   4.9 mEq/L
+   12 mg/dL
+   114 mEq/L
+   140 mEq/L
+   33.1 %
+   13.1 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   Hct
+   35.4
+   33.6
+   33.1
+   Plt
+   148
+   141
+   135
+   Cr
+   1.2
+   1.2
+   1.0
+   TropT
+   0.40
+   Glucose
+   [**Telephone/Fax (3) 1653**]
+   Other labs: CK / CKMB / Troponin-T:312/30/0.40, ALT / AST:35/63, Alk
+   Phos / T Bili:41/0.3, Amylase / Lipase:/13, Differential-Neuts:86.0 %,
+   Band:9.0 %, Lymph:3.0 %, Mono:2.0 %, Eos:0.0 %, Lactic Acid:1.8 mmol/L,
+   Albumin:2.9 g/dL, LDH:255 IU/L, Ca++:8.3 mg/dL, Mg++:2.6 mg/dL, PO4:3.5
+   mg/dL
+   Fluid analysis / Other labs:
+   1st set 12pm [**3-31**]:
+   CK 43 & Trop <0.01
+   2nd Set 8pm [**3-31**]:
+   CK 312/CKMB 30/Trop 0.40
+   3rd Set 4am [**4-1**]:
+   CK 312/CKMB      /Trop
+   Imaging: CXR from [**4-1**]
+   Microbiology: Blood & Urine Cx pending from [**3-31**]
+   Assessment and Plan
+   ICU Care
+   Nutrition: sips
+   Glycemic Control:
+   Lines: 18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: Heparin
+   Stress ulcer:  PPI
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ PRESEP CATHETER - START [**2192-3-31**] 10:41 PM
+ EKG - At [**2192-3-31**] 10:57 PM
+   Admitted from ED, weaned down on levo to 0.1mcg/kg/min
+   Pt comfortable, sleeping, denying abd pain
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2192-3-31**] 10:50 PM
+   Fluconazole - [**2192-3-31**] 11:00 PM
+   Acyclovir - [**2192-4-1**] 12:00 AM
+   Metronidazole - [**2192-4-1**] 12:00 AM
+   Ceftriaxone - [**2192-4-1**] 12:45 AM
+   Infusions:
+   Norepinephrine - 0.1 mcg/Kg/min
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-3-31**] 11:00 PM
+   Heparin Sodium (Prophylaxis) - [**2192-4-1**] 12:00 AM
+   Other medications:
+   Flowsheet Data as of  [**2192-4-1**] 07:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.9
+C (98.4
+   HR: 50 (50 - 67) bpm
+   BP: 108/56(69) {101/49(62) - 137/70(82)} mmHg
+   RR: 16 (15 - 22) insp/min
+   SpO2: 98%
+   Heart rhythm: SB (Sinus Bradycardia)
+   Height: 66 Inch
+    CVP: 9 (2 - 12)mmHg
+   CO/CI (Fick): (47.6 L/min) / (28 L/min/m2)
+   SvO2: 95%
+   Total In:
+                                                                    199 mL
+                                                                  1,252 mL
+   PO:
+                                                                     50 mL
+                                                                    150 mL
+   TF:
+   IVF:
+                                                                    149 mL
+                                                                  1,102 mL
+   Blood products:
+   Total out:
+                                                                    400 mL
+                                                                  1,080 mL
+   Urine:
+                                                                    400 mL
+                                                                  1,080 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -201 mL
+                                                                    172 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///19/
+   Physical Examination
+   GEN:NAD, sleeping comfortably
+   HEENT: no LN, supple neck, R subclavian
+   CV: RR mildly brady, no m/r/g
+   RESP: CTAB no w/r
+   ABD: soft, NT/ND/NABS
+   EXTR: no c/c/e
+   Labs / Radiology
+   135 K/uL
+   11.1 g/dL
+   165 mg/dL
+   1.0 mg/dL
+   19 mEq/L
+   4.9 mEq/L
+   12 mg/dL
+   114 mEq/L
+   140 mEq/L
+   33.1 %
+   13.1 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   Hct
+   35.4
+   33.6
+   33.1
+   Plt
+   148
+   141
+   135
+   Cr
+   1.2
+   1.2
+   1.0
+   TropT
+   0.40
+   Glucose
+   [**Telephone/Fax (3) 1653**]
+   Other labs: CK / CKMB / Troponin-T:312/30/0.40, ALT / AST:35/63, Alk
+   Phos / T Bili:41/0.3, Amylase / Lipase:/13, Differential-Neuts:86.0 %,
+   Band:9.0 %, Lymph:3.0 %, Mono:2.0 %, Eos:0.0 %, Lactic Acid:1.8 mmol/L,
+   Albumin:2.9 g/dL, LDH:255 IU/L, Ca++:8.3 mg/dL, Mg++:2.6 mg/dL, PO4:3.5
+   mg/dL
+   Fluid analysis / Other labs:
+   1st set 12pm [**3-31**]:
+   CK 43 & Trop <0.01
+   2nd Set 8pm [**3-31**]:
+   CK 312/CKMB 30/Trop 0.40
+   3rd Set 4am [**4-1**]:
+   CK 312/CKMB      /Trop
+   Imaging: CXR from [**4-1**]
+   Microbiology: Blood & Urine Cx pending from [**3-31**]
+   Assessment and Plan
+   ICU Care
+   Nutrition: sips
+   Glycemic Control:
+   Lines: 18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: Heparin
+   Stress ulcer:  PPI
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, here is a summary of the patient's health progress in the ICU:
+
+* The patient was admitted from the emergency department and was weaned down on levo to 0.1mcg/kg/min.
+* The patient's vital signs are stable, with a temperature of 36.9°C (98.4°F), heart rate of 50-67 bpm, blood pressure of 108/56 mmHg, respiratory rate of 16 breaths per minute, and oxygen saturation of 98%.
+* The patient's hemodynamic monitoring shows a central venous pressure (CVP) of 9 mmHg, cardiac output (CO) of 47.6 L/min, and cardiac index (CI) of 28 L/min/m².
+* The patient's laboratory results show elevated levels of troponin-T (0.40 ng/mL), creatine kinase (CK) (312 IU/L), and lactate dehydrogenase (LDH) (255 IU/L), indicating possible cardiac injury.
+* The patient's imaging studies, including a chest X-ray, are pending.
+* The patient's microbiology results, including blood and urine cultures, are pending.
+* The patient is receiving prophylactic medications for deep vein thrombosis (DVT) and stress ulcers.
+* The patient's code status is full code, and their disposition is still pending.
+
+Potential medical complications that can arise based on this information include:
+
+* Cardiac complications, such as acute coronary syndrome, due to elevated troponin-T levels and abnormal ECG findings.
+* Respiratory complications, such as acute respiratory distress syndrome (ARDS), due to the patient's underlying medical condition and potential for fluid overload.
+* Infectious complications, such as sepsis, due to the patient's pending microbiology results and potential for bacteremia or urinary tract infection.
+* Gastrointestinal complications, such as stress ulcer bleeding, due to the patient's underlying medical condition and prophylactic medication.
+* Hemodynamic instability, due to the patient's underlying medical condition and potential for fluid overload.
+* Neurological complications, such as stroke or seizures, due to the patient's underlying medical condition and potential for hypotension or hypoxia.
+
+It is essential to monitor the patient's condition closely and adjust their care plan accordingly to prevent or manage these potential complications."
+124328.0,229517,2192-04-01 07:23:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ PRESEP CATHETER - START [**2192-3-31**] 10:41 PM
+ EKG - At [**2192-3-31**] 10:57 PM
+   Admitted from ED, weaned down on levo to 0.1mcg/kg/min
+   Pt comfortable, sleeping, denying abd pain
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2192-3-31**] 10:50 PM
+   Fluconazole - [**2192-3-31**] 11:00 PM
+   Acyclovir - [**2192-4-1**] 12:00 AM
+   Metronidazole - [**2192-4-1**] 12:00 AM
+   Ceftriaxone - [**2192-4-1**] 12:45 AM
+   Infusions:
+   Norepinephrine - 0.1 mcg/Kg/min
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-3-31**] 11:00 PM
+   Heparin Sodium (Prophylaxis) - [**2192-4-1**] 12:00 AM
+   Other medications:
+   Flowsheet Data as of  [**2192-4-1**] 07:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.9
+C (98.4
+   HR: 50 (50 - 67) bpm
+   BP: 108/56(69) {101/49(62) - 137/70(82)} mmHg
+   RR: 16 (15 - 22) insp/min
+   SpO2: 98%
+   Heart rhythm: SB (Sinus Bradycardia)
+   Height: 66 Inch
+    CVP: 9 (2 - 12)mmHg
+   CO/CI (Fick): (47.6 L/min) / (28 L/min/m2)
+   SvO2: 95%
+   Total In:
+                                                                    199 mL
+                                                                  1,252 mL
+   PO:
+                                                                     50 mL
+                                                                    150 mL
+   TF:
+   IVF:
+                                                                    149 mL
+                                                                  1,102 mL
+   Blood products:
+   Total out:
+                                                                    400 mL
+                                                                  1,080 mL
+   Urine:
+                                                                    400 mL
+                                                                  1,080 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -201 mL
+                                                                    172 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///19/
+   Physical Examination
+   GEN:NAD, sleeping comfortably
+   HEENT: no LN, supple neck, R subclavian
+   CV: RR mildly brady, no m/r/g
+   RESP: CTAB no w/r
+   ABD: soft, NT/ND/NABS
+   EXTR: no c/c/e
+   Labs / Radiology
+   135 K/uL
+   11.1 g/dL
+   165 mg/dL
+   1.0 mg/dL
+   19 mEq/L
+   4.9 mEq/L
+   12 mg/dL
+   114 mEq/L
+   140 mEq/L
+   33.1 %
+   13.1 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   Hct
+   35.4
+   33.6
+   33.1
+   Plt
+   148
+   141
+   135
+   Cr
+   1.2
+   1.2
+   1.0
+   TropT
+   0.40
+   Glucose
+   [**Telephone/Fax (3) 1653**]
+   Other labs: CK / CKMB / Troponin-T:312/30/0.40, ALT / AST:35/63, Alk
+   Phos / T Bili:41/0.3, Amylase / Lipase:/13, Differential-Neuts:86.0 %,
+   Band:9.0 %, Lymph:3.0 %, Mono:2.0 %, Eos:0.0 %, Lactic Acid:1.8 mmol/L,
+   Albumin:2.9 g/dL, LDH:255 IU/L, Ca++:8.3 mg/dL, Mg++:2.6 mg/dL, PO4:3.5
+   mg/dL
+   Fluid analysis / Other labs:
+   1st set 12pm [**3-31**]:
+   CK 43 & Trop <0.01
+   2nd Set 8pm [**3-31**]:
+   CK 312/CKMB 30/Trop 0.40
+   3rd Set 4am [**4-1**]:
+   CK 312/CKMB      /Trop
+   Imaging: CXR from [**4-1**]
+   Microbiology: Blood & Urine Cx pending from [**3-31**]
+   Assessment and Plan
+   62F s/p allogenic BMT [**3-23**] for erythroleukemia/MDS, admitted with
+   fever, diarrhea, and hypotension.
+   .
+   # hypotension - concerning for septic picture given fever, wbc
+   elevation, bandemia & diarrhea.  Pt has not had any recurrence of
+   symptoms in house & CTabd/pelvis without pathology.  Ddx also includes
+   hypovolemic [**2-18**] diarrhea, ACS with + trop though m more likely [**2-18**]/
+   demand ischemia, adrenal insufficiency.  BP responding well to levo
+   gtt, though drops when off.
+   - no pulmonary symptoms to suggest flu.
+   - f/u stool cultures (cdiff, yersina, campy, vibrio, norovirus,
+   rotavirus) if has stool.
+   - f/u bcx, ucx.
+   - f/u CMV VL (low suspicion of fungal)
+   - continue empiric Vanc/Ceftriaxone/Flagyl
+   - on prednisone 5mg chronic, cortisol 9 here, [**Last Name (un) 45**] stim inappropriate
+   response?
+   - continue dexamethasone 4mg TID
+   - +trop, more likely [**2-18**] demand ischemia in setting of
+   sepsis/hypotension/tachycardia
+   -  ID consult in AM per primary onc attg.
+   .
+   # n/v/diarrhea -no recent abx.  Ddx includes bacterial vs viral
+   infection vs GVHD.  CT abd/pelvis without evidence of colitis or SBO.
+   LFTs unremarkable.
+   - check stool cultures (viral, campy, salmonella, cdiff, noro, o&p)
+   - advance sips/clears
+   - no recent medication changes.
+   - consider flex sig for sigmoid biopsy if not improving to r/o GVHD.
+   - avoid zofran for n/v given QTc 500s, use ativan instead.
+   .
+   # ARF
+ presented with Creatinine of 1.4 (baseline 0.9-1.1)  & non gap
+   acidosis likely [**2-18**] diarrhea, bicarbonate loss & NS resuscitation.
+   Creatinine trended down to baseline today with IVF
+   - hyperchloremic likely [**2-18**] IVF NS, use LR for IVF.
+   - continue IVF hydration, goal CVP > 10.
+   - am vanc level 9.9, will change to 1gram q12hr
+   - lactate WNL today
+   .
+   # ONC - dx with erythroleukemia evolving from MDS '[**80**], s/p allogeneic
+   BMT from an HLA matched sibling donor on [**2191-4-14**], c/b mild GVHD of
+   mouth, doing well over past year.
+   - continue routine prophylaxis with acyclovir, fluconazole (consider
+   d/c'ing fluc as can prolong QTc).
+   - pt on pentamadine for pcp prophylaxis, next dose due [**4-5**].
+   - continue dexamethasone for now
+   .
+   # cardiac - no chest pain, sob, though n/v could represent atypical
+   presentation of acs.  +trop on arrival to ED, +CK, though no EKG
+   changes suggestive of ischemia, likely [**2-18**] demand ischemia in setting
+   of hypotension and tachycardia.  Pt with sinus bradycardia & new
+   prolonged QT.  F/U repeat EKG this am.
+   - f/u am CE
+   - aspirin 325mg x 1 now.
+   - hold bb in setting of hypotension
+   - continue telemetry & replacing Ca/Mg/K
+   - avoid QT prolonging meds.
+   - consider d/c fluc as can prolong QTc also.
+   - consider TTE if CE trending up
+   .
+   ## hyperlipidemia: not currently on statin.  recruited to ED statin in
+   sepsis trial, so receiving study drug.
+   - consider starting statin in AM if CE trending up.
+   - per [**Doctor Last Name **] -> statin vs placebo in sepsis, attenuate il-6, pt is
+   receiving study drug (blinded).  pt may get cpk's ordered.
+   # GERD - continue PPI [**Hospital1 **].
+   .
+   #DM2: diet controlled at home, will cover here with SSI.
+   - RISS
+   .
+   # FEN: consider ADAT
+   - replacement scales for lytes
+   ICU Care
+   Nutrition: sips
+   Glycemic Control:
+   Lines: 18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: Heparin
+   Stress ulcer:  PPI
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ PRESEP CATHETER - START [**2192-3-31**] 10:41 PM
+ EKG - At [**2192-3-31**] 10:57 PM
+   Admitted from ED, weaned down on levo to 0.1mcg/kg/min
+   Pt comfortable, sleeping, denying abd pain
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2192-3-31**] 10:50 PM
+   Fluconazole - [**2192-3-31**] 11:00 PM
+   Acyclovir - [**2192-4-1**] 12:00 AM
+   Metronidazole - [**2192-4-1**] 12:00 AM
+   Ceftriaxone - [**2192-4-1**] 12:45 AM
+   Infusions:
+   Norepinephrine - 0.1 mcg/Kg/min
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-3-31**] 11:00 PM
+   Heparin Sodium (Prophylaxis) - [**2192-4-1**] 12:00 AM
+   Other medications:
+   Flowsheet Data as of  [**2192-4-1**] 07:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.9
+C (98.4
+   HR: 50 (50 - 67) bpm
+   BP: 108/56(69) {101/49(62) - 137/70(82)} mmHg
+   RR: 16 (15 - 22) insp/min
+   SpO2: 98%
+   Heart rhythm: SB (Sinus Bradycardia)
+   Height: 66 Inch
+    CVP: 9 (2 - 12)mmHg
+   CO/CI (Fick): (47.6 L/min) / (28 L/min/m2)
+   SvO2: 95%
+   Total In:
+                                                                    199 mL
+                                                                  1,252 mL
+   PO:
+                                                                     50 mL
+                                                                    150 mL
+   TF:
+   IVF:
+                                                                    149 mL
+                                                                  1,102 mL
+   Blood products:
+   Total out:
+                                                                    400 mL
+                                                                  1,080 mL
+   Urine:
+                                                                    400 mL
+                                                                  1,080 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -201 mL
+                                                                    172 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///19/
+   Physical Examination
+   GEN:NAD, sleeping comfortably
+   HEENT: no LN, supple neck, R subclavian
+   CV: RR mildly brady, no m/r/g
+   RESP: CTAB no w/r
+   ABD: soft, NT/ND/NABS
+   EXTR: no c/c/e
+   Labs / Radiology
+   135 K/uL
+   11.1 g/dL
+   165 mg/dL
+   1.0 mg/dL
+   19 mEq/L
+   4.9 mEq/L
+   12 mg/dL
+   114 mEq/L
+   140 mEq/L
+   33.1 %
+   13.1 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   Hct
+   35.4
+   33.6
+   33.1
+   Plt
+   148
+   141
+   135
+   Cr
+   1.2
+   1.2
+   1.0
+   TropT
+   0.40
+   Glucose
+   [**Telephone/Fax (3) 1653**]
+   Other labs: CK / CKMB / Troponin-T:312/30/0.40, ALT / AST:35/63, Alk
+   Phos / T Bili:41/0.3, Amylase / Lipase:/13, Differential-Neuts:86.0 %,
+   Band:9.0 %, Lymph:3.0 %, Mono:2.0 %, Eos:0.0 %, Lactic Acid:1.8 mmol/L,
+   Albumin:2.9 g/dL, LDH:255 IU/L, Ca++:8.3 mg/dL, Mg++:2.6 mg/dL, PO4:3.5
+   mg/dL
+   Fluid analysis / Other labs:
+   1st set 12pm [**3-31**]:
+   CK 43 & Trop <0.01
+   2nd Set 8pm [**3-31**]:
+   CK 312/CKMB 30/Trop 0.40
+   3rd Set 4am [**4-1**]:
+   CK 312/CKMB      /Trop
+   Imaging: CXR from [**4-1**]
+   Microbiology: Blood & Urine Cx pending from [**3-31**]
+   Assessment and Plan
+   62F s/p allogenic BMT [**3-23**] for erythroleukemia/MDS, admitted with
+   fever, diarrhea, and hypotension.
+   .
+   # hypotension - concerning for septic picture given fever, wbc
+   elevation, bandemia & diarrhea.  Pt has not had any recurrence of
+   symptoms in house & CTabd/pelvis without pathology.  Ddx also includes
+   hypovolemic [**2-18**] diarrhea, ACS with + trop though m more likely [**2-18**]/
+   demand ischemia, adrenal insufficiency.  BP responding well to levo
+   gtt, though drops when off.
+   - no pulmonary symptoms to suggest flu.
+   - f/u stool cultures (cdiff, yersina, campy, vibrio, norovirus,
+   rotavirus) if has stool.
+   - f/u bcx, ucx.
+   - f/u CMV VL (low suspicion of fungal)
+   - continue empiric Vanc/Ceftriaxone/Flagyl
+   - on prednisone 5mg chronic, cortisol 9 here, [**Last Name (un) 45**] stim inappropriate
+   response?
+   - continue dexamethasone 4mg TID
+   - +trop, more likely [**2-18**] demand ischemia in setting of
+   sepsis/hypotension/tachycardia
+   -  ID consult in AM per primary onc attg.
+   .
+   # n/v/diarrhea -no recent abx.  Ddx includes bacterial vs viral
+   infection vs GVHD.  CT abd/pelvis without evidence of colitis or SBO.
+   LFTs unremarkable.
+   - check stool cultures (viral, campy, salmonella, cdiff, noro, o&p)
+   - advance sips/clears
+   - no recent medication changes.
+   - consider flex sig for sigmoid biopsy if not improving to r/o GVHD.
+   - avoid zofran for n/v given QTc 500s, use ativan instead.
+   .
+   # ARF
+ presented with Creatinine of 1.4 (baseline 0.9-1.1)  & non gap
+   acidosis likely [**2-18**] diarrhea, bicarbonate loss & NS resuscitation.
+   Creatinine trended down to baseline today with IVF
+   - hyperchloremic likely [**2-18**] IVF NS, use LR for IVF.
+   - continue IVF hydration, goal CVP > 10.
+   - am vanc level 9.9, will change to 1gram q12hr
+   - lactate WNL today
+   .
+   # ONC - dx with erythroleukemia evolving from MDS '[**80**], s/p allogeneic
+   BMT from an HLA matched sibling donor on [**2191-4-14**], c/b mild GVHD of
+   mouth, doing well over past year.
+   - continue routine prophylaxis with acyclovir, fluconazole (consider
+   d/c'ing fluc as can prolong QTc).
+   - pt on pentamadine for pcp prophylaxis, next dose due [**4-5**].
+   - continue dexamethasone for now
+   .
+   # cardiac - no chest pain, sob, though n/v could represent atypical
+   presentation of acs.  +trop on arrival to ED, +CK, though no EKG
+   changes suggestive of ischemia, likely [**2-18**] demand ischemia in setting
+   of hypotension and tachycardia.  Pt with sinus bradycardia & new
+   prolonged QT.  F/U repeat EKG this am.
+   - f/u am CE
+   - aspirin 325mg x 1 now.
+   - hold bb in setting of hypotension
+   - continue telemetry & replacing Ca/Mg/K
+   - avoid QT prolonging meds.
+   - consider d/c fluc as can prolong QTc also.
+   - consider TTE if CE trending up
+   .
+   ## hyperlipidemia: not currently on statin.  recruited to ED statin in
+   sepsis trial, so receiving study drug.
+   - consider starting statin in AM if CE trending up.
+   - per [**Doctor Last Name **] -> statin vs placebo in sepsis, attenuate il-6, pt is
+   receiving study drug (blinded).  pt may get cpk's ordered.
+   # GERD - continue PPI [**Hospital1 **].
+   .
+   #DM2: diet controlled at home, will cover here with SSI.
+   - RISS
+   .
+   # FEN: consider ADAT
+   - replacement scales for lytes
+   ICU Care
+   Nutrition: sips
+   Glycemic Control:
+   Lines: 18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: Heparin
+   Stress ulcer:  PPI
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 62-year-old female who underwent allogenic bone marrow transplantation (BMT) for erythroleukemia/MDS. She was admitted to the ICU with fever, diarrhea, and hypotension. Her vital signs include a temperature of 36.9°C, heart rate of 50 bpm, blood pressure of 108/56 mmHg, respiratory rate of 16 breaths per minute, and oxygen saturation of 98% on nasal cannula. She has a sinus bradycardia and a prolonged QT interval. Laboratory results show elevated white blood cell count, bandemia, and troponin T levels. Imaging studies include a chest X-ray, and microbiology cultures are pending.
+
+Potential Medical Complications:
+
+1. Sepsis: The patient's fever, elevated white blood cell count, and bandemia suggest sepsis. The patient's hypotension and tachycardia also support this diagnosis.
+2. Cardiac Complications: The patient's troponin T levels are elevated, and she has a prolonged QT interval. This may indicate cardiac ischemia or cardiac injury. The patient's sinus bradycardia may be a sign of cardiac compromise.
+3. Acute Respiratory Distress Syndrome (ARDS): The patient's respiratory rate and oxygen saturation suggest possible respiratory compromise. The patient's chest X-ray may help identify any potential pulmonary complications.
+4. Acute Kidney Injury (AKI): The patient's creatinine levels are elevated, and she has a non-gap acidosis. This may indicate AKI, particularly given her diarrhea and bicarbonate loss.
+5. Gastrointestinal Complications: The patient's diarrhea and elevated troponin T levels suggest possible gastrointestinal ischemia or infarction. The patient's abdominal CT scan was negative for colitis or small bowel obstruction.
+6. Hyperlipidemia: The patient's elevated lipase and amylase levels suggest possible pancreatitis. The patient's hyperlipidemia may also contribute to her cardiac complications.
+7. Adrenal Insufficiency: The patient's hypotension and tachycardia may indicate adrenal insufficiency. The patient's cortisol levels are low, and her response to corticosteroids is inadequate.
+
+Assessment and Plan:
+
+The patient's sepsis, cardiac complications, and potential gastrointestinal and kidney complications require close monitoring and management. The patient's elevated troponin T levels and prolonged QT interval suggest possible cardiac ischemia or injury, and she requires further cardiac evaluation. The patient's diarrhea and elevated lipase and amylase levels suggest possible gastrointestinal complications, and she requires further gastrointestinal evaluation. The patient's hyperlipidemia and potential adrenal insufficiency require further evaluation and management."
+124328.0,229517,2192-04-01 07:23:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ PRESEP CATHETER - START [**2192-3-31**] 10:41 PM
+ EKG - At [**2192-3-31**] 10:57 PM
+   Admitted from ED, weaned down on levo to 0.1mcg/kg/min
+   Pt comfortable, sleeping, denying abd pain
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2192-3-31**] 10:50 PM
+   Fluconazole - [**2192-3-31**] 11:00 PM
+   Acyclovir - [**2192-4-1**] 12:00 AM
+   Metronidazole - [**2192-4-1**] 12:00 AM
+   Ceftriaxone - [**2192-4-1**] 12:45 AM
+   Infusions:
+   Norepinephrine - 0.1 mcg/Kg/min
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-3-31**] 11:00 PM
+   Heparin Sodium (Prophylaxis) - [**2192-4-1**] 12:00 AM
+   Other medications:
+   Flowsheet Data as of  [**2192-4-1**] 07:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.9
+C (98.4
+   HR: 50 (50 - 67) bpm
+   BP: 108/56(69) {101/49(62) - 137/70(82)} mmHg
+   RR: 16 (15 - 22) insp/min
+   SpO2: 98%
+   Heart rhythm: SB (Sinus Bradycardia)
+   Height: 66 Inch
+    CVP: 9 (2 - 12)mmHg
+   CO/CI (Fick): (47.6 L/min) / (28 L/min/m2)
+   SvO2: 95%
+   Total In:
+                                                                    199 mL
+                                                                  1,252 mL
+   PO:
+                                                                     50 mL
+                                                                    150 mL
+   TF:
+   IVF:
+                                                                    149 mL
+                                                                  1,102 mL
+   Blood products:
+   Total out:
+                                                                    400 mL
+                                                                  1,080 mL
+   Urine:
+                                                                    400 mL
+                                                                  1,080 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -201 mL
+                                                                    172 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///19/
+   Physical Examination
+   GEN:NAD, sleeping comfortably
+   HEENT: no LN, supple neck, R subclavian
+   CV: RR mildly brady, no m/r/g
+   RESP: CTAB no w/r
+   ABD: soft, NT/ND/NABS
+   EXTR: no c/c/e
+   Labs / Radiology
+   135 K/uL
+   11.1 g/dL
+   165 mg/dL
+   1.0 mg/dL
+   19 mEq/L
+   4.9 mEq/L
+   12 mg/dL
+   114 mEq/L
+   140 mEq/L
+   33.1 %
+   13.1 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   Hct
+   35.4
+   33.6
+   33.1
+   Plt
+   148
+   141
+   135
+   Cr
+   1.2
+   1.2
+   1.0
+   TropT
+   0.40
+   Glucose
+   [**Telephone/Fax (3) 1653**]
+   Other labs: CK / CKMB / Troponin-T:312/30/0.40, ALT / AST:35/63, Alk
+   Phos / T Bili:41/0.3, Amylase / Lipase:/13, Differential-Neuts:86.0 %,
+   Band:9.0 %, Lymph:3.0 %, Mono:2.0 %, Eos:0.0 %, Lactic Acid:1.8 mmol/L,
+   Albumin:2.9 g/dL, LDH:255 IU/L, Ca++:8.3 mg/dL, Mg++:2.6 mg/dL, PO4:3.5
+   mg/dL
+   Fluid analysis / Other labs:
+   1st set 12pm [**3-31**]:
+   CK 43 & Trop <0.01
+   2nd Set 8pm [**3-31**]:
+   CK 312/CKMB 30/Trop 0.40
+   3rd Set 4am [**4-1**]:
+   CK 312/CKMB      /Trop
+   Imaging: CXR from [**4-1**]
+   Microbiology: Blood & Urine Cx pending from [**3-31**]
+   Assessment and Plan
+   62F s/p allogenic BMT [**3-23**] for erythroleukemia/MDS, adm with fever,
+   diarrhea, and hypotension.
+   .
+   # Hypotension - concerning for septic picture given fever, wbc
+   elevation, bandemia & diarrhea.  Pt has not had any recurrence of
+   symptoms in house & CTabd/pelvis without pathology.  Ddx also includes
+   hypovolemic [**2-18**] diarrhea, ACS with + trop though more likely [**2-18**]/
+   demand ischemia, adrenal insufficiency likely contributed to profound
+   hypotension on adm given marginal [**Last Name (un) 45**] stim this am.  Currently weaning
+   levo
+   - f/u stool cultures (cdiff, yersina, campy, vibrio, norovirus,
+   rotavirus) if has stool.
+   - will get rapid viral screen & influenza DFA
+   - f/u Blood & Urine Cx.
+   - f/u CMV VL (low suspicion of fungal)
+   - continue empiric Vanc/Ceftriaxone/Flagyl
+   - Hydrocortizone 100mg TID given low [**Last Name (un) 45**] stim
+   -  ID consult in AM per primary onc attg.
+   .
+   # N/V/Diarrhea-no recent abx.  Ddx includes bacterial vs viral
+   infection vs GVHD.  CT abd/pelvis without evidence of colitis or SBO.
+   LFTs unremarkable.
+   - f/u stool cultures (viral, campy, salmonella, cdiff, noro, o&p)
+   - advance sips/clears
+   - consider flex sig for sigmoid biopsy if not improving to r/o GVHD.
+   - ativan prn nausea
+   .
+   # ARF
+ presented with Creatinine of 1.4 (baseline 0.9-1.1) & non gap
+   acidosis likely [**2-18**] diarrhea, bicarbonate loss & NS resuscitation.
+   Creatinine trended down to baseline today with IVF overnight.
+   Hyperchloremia likely 2/2 NS, will use LR for IVF.
+   - continue IVF hydration, goal CVP > 10.
+   - am vanc level 9.9, will change to 1gm q12hr
+   - lactate WNL today
+   .
+   # ONC - dx with erythroleukemia evolving from MDS '[**80**], s/p allogeneic
+   BMT from an HLA matched sibling donor on [**2191-4-14**], c/b mild GVHD of
+   mouth, doing well over past year.
+   - continue PPx with acyclovir, fluconazole, pentamadine for pcp
+   prophylaxis, next dose due [**4-5**].
+   - will start Hydrocortizone 100mg TID given marginal [**Last Name (un) 45**] stim this am,
+   wean as possible
+   .
+   # cardiac - no chest pain/sob, though n/v could represent atypical
+   presentation of acs.  +trop on arrival to ED, +CK, though no EKG
+   changes suggestive of ischemia, likely [**2-18**] demand ischemia in setting
+   of hypotension and tachycardia.  Pt with sinus bradycardia & new
+   prolonged QT.  Repeat EKG in am, QT in 480s, sinus brady.
+   - f/u am CE, continue aspirin 325mg for now
+   - hold bb in setting of hypotension/pressors
+   - continue telemetry & replacing Ca/Mg/K
+   - avoid QT prolonging meds.
+   - f/u TTE
+   .
+   ## hyperlipidemia: not currently on statin.  recruited to ED statin in
+   sepsis trial, so receiving study drug.
+   - consider starting statin in AM if CE trending up.
+   # GERD - continue PPI [**Hospital1 **].
+   .
+   #DM2: diet controlled at home, will cover here with SSI.
+   - RISS
+   .
+   # FEN: consider ADAT
+   - replacement scales for lytes
+   ICU Care
+   Nutrition: sips, ADAT
+   Glycemic Control:
+   Lines: 18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: Heparin
+   Stress ulcer:  PPI
+   Code status: Full code
+   Disposition: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ PRESEP CATHETER - START [**2192-3-31**] 10:41 PM
+ EKG - At [**2192-3-31**] 10:57 PM
+   Admitted from ED, weaned down on levo to 0.1mcg/kg/min
+   Pt comfortable, sleeping, denying abd pain
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2192-3-31**] 10:50 PM
+   Fluconazole - [**2192-3-31**] 11:00 PM
+   Acyclovir - [**2192-4-1**] 12:00 AM
+   Metronidazole - [**2192-4-1**] 12:00 AM
+   Ceftriaxone - [**2192-4-1**] 12:45 AM
+   Infusions:
+   Norepinephrine - 0.1 mcg/Kg/min
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-3-31**] 11:00 PM
+   Heparin Sodium (Prophylaxis) - [**2192-4-1**] 12:00 AM
+   Other medications:
+   Flowsheet Data as of  [**2192-4-1**] 07:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.9
+C (98.4
+   HR: 50 (50 - 67) bpm
+   BP: 108/56(69) {101/49(62) - 137/70(82)} mmHg
+   RR: 16 (15 - 22) insp/min
+   SpO2: 98%
+   Heart rhythm: SB (Sinus Bradycardia)
+   Height: 66 Inch
+    CVP: 9 (2 - 12)mmHg
+   CO/CI (Fick): (47.6 L/min) / (28 L/min/m2)
+   SvO2: 95%
+   Total In:
+                                                                    199 mL
+                                                                  1,252 mL
+   PO:
+                                                                     50 mL
+                                                                    150 mL
+   TF:
+   IVF:
+                                                                    149 mL
+                                                                  1,102 mL
+   Blood products:
+   Total out:
+                                                                    400 mL
+                                                                  1,080 mL
+   Urine:
+                                                                    400 mL
+                                                                  1,080 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -201 mL
+                                                                    172 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///19/
+   Physical Examination
+   GEN:NAD, sleeping comfortably
+   HEENT: no LN, supple neck, R subclavian
+   CV: RR mildly brady, no m/r/g
+   RESP: CTAB no w/r
+   ABD: soft, NT/ND/NABS
+   EXTR: no c/c/e
+   Labs / Radiology
+   135 K/uL
+   11.1 g/dL
+   165 mg/dL
+   1.0 mg/dL
+   19 mEq/L
+   4.9 mEq/L
+   12 mg/dL
+   114 mEq/L
+   140 mEq/L
+   33.1 %
+   13.1 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   Hct
+   35.4
+   33.6
+   33.1
+   Plt
+   148
+   141
+   135
+   Cr
+   1.2
+   1.2
+   1.0
+   TropT
+   0.40
+   Glucose
+   [**Telephone/Fax (3) 1653**]
+   Other labs: CK / CKMB / Troponin-T:312/30/0.40, ALT / AST:35/63, Alk
+   Phos / T Bili:41/0.3, Amylase / Lipase:/13, Differential-Neuts:86.0 %,
+   Band:9.0 %, Lymph:3.0 %, Mono:2.0 %, Eos:0.0 %, Lactic Acid:1.8 mmol/L,
+   Albumin:2.9 g/dL, LDH:255 IU/L, Ca++:8.3 mg/dL, Mg++:2.6 mg/dL, PO4:3.5
+   mg/dL
+   Fluid analysis / Other labs:
+   1st set 12pm [**3-31**]:
+   CK 43 & Trop <0.01
+   2nd Set 8pm [**3-31**]:
+   CK 312/CKMB 30/Trop 0.40
+   3rd Set 4am [**4-1**]:
+   CK 312/CKMB      /Trop
+   Imaging: CXR from [**4-1**]
+   Microbiology: Blood & Urine Cx pending from [**3-31**]
+   Assessment and Plan
+   62F s/p allogenic BMT [**3-23**] for erythroleukemia/MDS, adm with fever,
+   diarrhea, and hypotension.
+   .
+   # Hypotension - concerning for septic picture given fever, wbc
+   elevation, bandemia & diarrhea.  Pt has not had any recurrence of
+   symptoms in house & CTabd/pelvis without pathology.  Ddx also includes
+   hypovolemic [**2-18**] diarrhea, ACS with + trop though more likely [**2-18**]/
+   demand ischemia, adrenal insufficiency likely contributed to profound
+   hypotension on adm given marginal [**Last Name (un) 45**] stim this am.  Currently weaning
+   levo
+   - f/u stool cultures (cdiff, yersina, campy, vibrio, norovirus,
+   rotavirus) if has stool.
+   - will get rapid viral screen & influenza DFA
+   - f/u Blood & Urine Cx.
+   - f/u CMV VL (low suspicion of fungal)
+   - continue empiric Vanc/Ceftriaxone/Flagyl
+   - Hydrocortizone 100mg TID given low [**Last Name (un) 45**] stim
+   -  ID consult in AM per primary onc attg.
+   .
+   # N/V/Diarrhea-no recent abx.  Ddx includes bacterial vs viral
+   infection vs GVHD.  CT abd/pelvis without evidence of colitis or SBO.
+   LFTs unremarkable.
+   - f/u stool cultures (viral, campy, salmonella, cdiff, noro, o&p)
+   - advance sips/clears
+   - consider flex sig for sigmoid biopsy if not improving to r/o GVHD.
+   - ativan prn nausea
+   .
+   # ARF
+ presented with Creatinine of 1.4 (baseline 0.9-1.1) & non gap
+   acidosis likely [**2-18**] diarrhea, bicarbonate loss & NS resuscitation.
+   Creatinine trended down to baseline today with IVF overnight.
+   Hyperchloremia likely 2/2 NS, will use LR for IVF.
+   - continue IVF hydration, goal CVP > 10.
+   - am vanc level 9.9, will change to 1gm q12hr
+   - lactate WNL today
+   .
+   # ONC - dx with erythroleukemia evolving from MDS '[**80**], s/p allogeneic
+   BMT from an HLA matched sibling donor on [**2191-4-14**], c/b mild GVHD of
+   mouth, doing well over past year.
+   - continue PPx with acyclovir, fluconazole, pentamadine for pcp
+   prophylaxis, next dose due [**4-5**].
+   - will start Hydrocortizone 100mg TID given marginal [**Last Name (un) 45**] stim this am,
+   wean as possible
+   .
+   # cardiac - no chest pain/sob, though n/v could represent atypical
+   presentation of acs.  +trop on arrival to ED, +CK, though no EKG
+   changes suggestive of ischemia, likely [**2-18**] demand ischemia in setting
+   of hypotension and tachycardia.  Pt with sinus bradycardia & new
+   prolonged QT.  Repeat EKG in am, QT in 480s, sinus brady.
+   - f/u am CE, continue aspirin 325mg for now
+   - hold bb in setting of hypotension/pressors
+   - continue telemetry & replacing Ca/Mg/K
+   - avoid QT prolonging meds.
+   - f/u TTE
+   .
+   ## hyperlipidemia: not currently on statin.  recruited to ED statin in
+   sepsis trial, so receiving study drug.
+   - consider starting statin in AM if CE trending up.
+   # GERD - continue PPI [**Hospital1 **].
+   .
+   #DM2: diet controlled at home, will cover here with SSI.
+   - RISS
+   .
+   # FEN: consider ADAT
+   - replacement scales for lytes
+   ICU Care
+   Nutrition: sips, ADAT
+   Glycemic Control:
+   Lines: 18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: Heparin
+   Stress ulcer:  PPI
+   Code status: Full code
+   Disposition: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 62-year-old female who was admitted to the ICU with fever, diarrhea, and hypotension. She is a post-allogenic bone marrow transplant (BMT) patient with a history of erythroleukemia and MDS. The patient's initial presentation was concerning for septic shock, and she was treated with empiric antibiotics, vasopressors, and IV fluids. Laboratory results showed elevated white blood cell count, bandemia, and elevated troponin levels, which may indicate cardiac ischemia. The patient's cardiac rhythm is currently sinus bradycardia with a prolonged QT interval.
+
+Potential medical complications:
+
+1. Sepsis: The patient's initial presentation and laboratory results suggest a high risk of sepsis, which can lead to organ dysfunction and failure.
+2. Cardiac ischemia: The patient's elevated troponin levels and cardiac rhythm abnormalities may indicate cardiac ischemia, which can lead to myocardial infarction and cardiac failure.
+3. Acute kidney injury (AKI): The patient's initial creatinine level was elevated, and she may be at risk for AKI due to her underlying condition and treatment with nephrotoxic medications.
+4. Respiratory failure: The patient's oxygen saturation is within normal limits, but she may be at risk for respiratory failure due to her underlying condition and treatment with sedatives and analgesics.
+5. Gastrointestinal bleeding: The patient's diarrhea and elevated troponin levels may indicate gastrointestinal bleeding, which can lead to hypovolemic shock and organ failure.
+6. Infection: The patient's elevated white blood cell count and bandemia may indicate infection, which can lead to sepsis and organ failure.
+7. Mucositis: The patient's history of BMT and treatment with chemotherapy and radiation may put her at risk for mucositis, which can lead to gastrointestinal bleeding and infection.
+8. Thrombocytopenia: The patient's platelet count is low, which may increase her risk of bleeding and thrombocytopenic purpura.
+9. Hyperlipidemia: The patient's elevated lipase levels and history of hyperlipidemia may increase her risk of pancreatitis and cardiovascular events.
+10. Nutritional deficiencies: The patient's history of BMT and treatment with chemotherapy and radiation may put her at risk for nutritional deficiencies, which can lead to gastrointestinal bleeding, infection, and organ failure.
+
+Based on the patient's medical history, laboratory results, and treatment plan, it is essential to closely monitor her condition and adjust her treatment plan as necessary to prevent these potential complications."
+124328.0,229517,2192-04-02 06:59:00,Physician ,Physician Resident Progress Note,"Chief Complaint: 62F h/o AML (erythroleukemia s/p sibling-matched BMT
+   [**3-23**] c/b gvhd mouth, colon), who was in her usoh until [**3-26**], when she
+   awoke in the AM and had ~6 episodes of diarrhea (loose, non-bloody, not
+   watery).  her symptoms resolved completly by lunch and did not recur
+   until [**3-30**] ~9AM-12PM, when she had ~[**3-20**] more episodes of similar
+   diarrhea.  She reports recurrence again at 9PM.  On the morning of
+   [**3-31**], she notes increasing frequency of diarrhea, and while on toilet,
+   felt LH/dizzy, and ""my eyes rolled back in my head"" but no frank
+   syncope or head trauma.  EMS was activated, and she was brought to the
+   ED.
+   .
+   She denies any recent medication changes, antibiotics, shellfish or
+   seafood exposure (haddock x 1 last week), no new water sources, no
+   camping, no bloody stools.
+   .
+   ROS otherwise negative for fevers, chills, ns, cough, sore throat,
+   sinus congestion, body aches, ha/neck stiff, rash, n/v, abdominal pain
+   (other than mild cramping x 1 friday night), dysuria, melena.
+   .
+   Pt presented to the ED with VS: 98.6  110  88/64  16  96%2L.  No
+   complaints of cp/sob though did note abdominal pain and diarrhea. given
+   fever (103 rectal) and low BP (down to 59/38), was started on sepsis
+   protocol.  given 6L IVF, started on [**Last Name (un) **] gtt, lactate up to 2.4, given
+   decadron 10 iv, flagyl, ceftazadime at ~1250, and vancomycin 1gm @
+   1715.  also given zofran, humalog.  BP up to 139/57 on levo gtt 0.4, so
+   weaned down to 0.16. pt mentating throughout.
+   .
+   Given ongoing pressor requirement, pt transferred to [**Hospital Unit Name 44**] for further
+   w/o of sepsis.
+   24 Hour Events:
+   -- patient w/ elevated cardiac enzymes, trop peak of 1.12.  No active
+   ischemic changes on EKG.  Cards curbsided, who agreed that
+   anticoagulation not indicated and no emergent TTE for little concern of
+   cardiogenic shock.  Enzymes trending down.
+   -- weaned off levophed.  Was hypotensive at 2am w/ SBP of 90.  Was
+   bolused w/ 500cc, but remained hypotensive to SBP of 78.  Additional
+   500cc bolus give, w/ pressures of 85.  Patient as asx throughout.  CVP
+   of 9.  Restarted levophed at 0.1 w/ adequate response.  BCx sent.
+   -- ID saw patient at request of BMT.  Agree w/ current manegment,
+   recommending switching CTX to cipro if clinically worsens and QT okay.
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2192-3-31**] 10:50 PM
+   Fluconazole - [**2192-4-1**] 10:00 PM
+   Ceftriaxone - [**2192-4-2**] 12:00 AM
+   Acyclovir - [**2192-4-2**] 12:00 AM
+   Metronidazole - [**2192-4-2**] 12:00 AM
+   Vancomycin - [**2192-4-2**] 01:00 AM
+   Infusions:
+   Norepinephrine - 0.1 mcg/Kg/min
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-4-2**] 12:00 AM
+   Heparin Sodium (Prophylaxis) - [**2192-4-2**] 12:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No(t) Fatigue, No(t) Fever
+   Ear, Nose, Throat: No(t) Dry mouth
+   Cardiovascular: No(t) Chest pain, No(t) Palpitations, No(t) Edema,
+   No(t) Orthopnea
+   Respiratory: No(t) Cough, No(t) Dyspnea, No(t) Tachypnea
+   Gastrointestinal: No(t) Abdominal pain, No(t) Nausea, No(t) Emesis,
+   No(t) Diarrhea, NO BM
+   Genitourinary: Dysuria
+   Flowsheet Data as of  [**2192-4-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.4
+C (97.6
+   Tcurrent: 36.4
+C (97.5
+   HR: 59 (50 - 78) bpm
+   BP: 115/51(66) {77/36(46) - 124/63(75)} mmHg
+   RR: 17 (0 - 20) insp/min
+   SpO2: 97%
+   Heart rhythm: SB (Sinus Bradycardia)
+   Height: 66 Inch
+    CVP: 13 (5 - 15)mmHg
+   CO/CI (Fick): (30.8 L/min) / (18.1 L/min/m2)
+   SvO2: 96%
+   Total In:
+                                                                  3,883 mL
+                                                                    488 mL
+   PO:
+                                                                  1,187 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,696 mL
+                                                                    368 mL
+   Blood products:
+   Total out:
+                                                                  4,425 mL
+                                                                    840 mL
+   Urine:
+                                                                  4,425 mL
+                                                                    840 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -542 mL
+                                                                   -352 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ///21/
+   Physical Examination
+   General Appearance: Well nourished, Diaphoretic
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: No(t) Systolic,
+   No(t) Diastolic), hyperdynamic
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Not assessed), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Warm
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): PPT, Movement: Not assessed, Tone: Not
+   assessed
+   Labs / Radiology
+   113 K/uL
+   10.5 g/dL
+   154 mg/dL
+   0.9 mg/dL
+   21 mEq/L
+   4.0 mEq/L
+   13 mg/dL
+   117 mEq/L
+   144 mEq/L
+   30.4 %
+   12.6 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+                             [**2192-4-1**]  12:22 PM
+                             [**2192-4-1**]  02:42 PM
+                             [**2192-4-2**]  04:47 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   13.1
+   12.6
+   Hct
+   35.4
+   33.6
+   33.1
+   30.2
+   30.4
+   Plt
+   148
+   141
+   135
+   130
+   113
+   Cr
+   1.2
+   1.2
+   1.0
+   0.9
+   0.9
+   0.9
+   TropT
+   0.40
+   1.12
+   0.81
+   Glucose
+   [**Telephone/Fax (3) 1662**]69
+   200
+   154
+   Other labs: CK / CKMB / Troponin-T:199/41/0.81, ALT / AST:35/63, Alk
+   Phos / T Bili:41/0.3, Amylase / Lipase:/13, Differential-Neuts:88.7 %,
+   Band:0.0 %, Lymph:8.3 %, Mono:2.8 %, Eos:0.2 %, Lactic Acid:1.2 mmol/L,
+   Albumin:2.9 g/dL, LDH:255 IU/L, Ca++:8.2 mg/dL, Mg++:1.9 mg/dL, PO4:2.7
+   mg/dL
+   Fluid analysis / Other labs: CK: 312  MB: 57  MBI: 18.3  Trop-T: 1.12
+   CK: 78  MB: Pnd  Trop-T: Pnd
+   Imaging: Right IJ catheter terminates in the superior vena cava.  There
+   is a new patchy
+   opacity at the left lung base which could represent atelectasis.  Right
+   lung
+   is clear. Cardiomediastinal silhouette is unremarkable.
+   Microbiology: Legionella Urinary Antigen -PENDING
+   CMV Viral Load-PENDING
+   Blood Culture, Routine-PENDING
+   URINE CULTURE-FINAL ([**3-31**])
+   ECG: Resolution of QT prolongation.  No evidence of AV nodal blockade.
+   Assessment and Plan
+   62F s/p allogenic BMT [**3-23**] for erythroleukemia/MDS, adm with fever,
+   diarrhea, and hypotension.
+   # Hypotension - concerning for septic picture given fever, wbc
+   elevation, bandemia & diarrhea.  Pt has not had any recurrence of
+   symptoms in house & CTabd/pelvis without pathology.  Ddx also includes
+   hypovolemic [**2-18**] diarrhea, ACS with + trop though more likely [**2-18**]/
+   demand ischemia, adrenal insufficiency likely contributed to profound
+   hypotension on adm given marginal [**Last Name (un) 45**] stim this am.  Currently weaning
+   levo
+   - f/u stool cultures (cdiff, yersina, campy, vibrio, norovirus,
+   rotavirus) if has stool.
+   - f/u rapid viral screen & influenza DFA
+   - f/u Blood culture, Urine Cx negative.
+   - f/u CMV VL (low suspicion of fungal)
+   - continue empiric Vanc/Ceftriaxone/Flagyl --> ceftiaxone given w/
+   concern of prolonged TQ on admission
+   - Hydrocortizone 100mg TID given low [**Last Name (un) 45**] stim, begin aggressive taper
+   today to 60mg TID
+   -  ID requested by primary onc attg, no change in current plan.  Could
+   switch to cipro given persistent hypotension and unresolved
+   leukocytosis.  If stool Cx negative, could consider colonooscopy to
+   evaluate for GVHD.
+   - attempt to taper levophed again today.  Adequate CVP, so do no
+   suspect is an isue of hypovolumeia.  Patient is well perfused, EKG w/o
+   evidence of ischemic changes, and cardiac enzymes resolved, so little
+   suspicision of cardiogenic shock.
+   # N/V/Diarrhea-no recent abx.  Ddx includes bacterial vs viral
+   infection vs GVHD.  CT abd/pelvis without evidence of colitis or SBO.
+   LFTs unremarkable.
+   - f/u stool cultures (viral, campy, salmonella, cdiff, noro, o&p) once
+   has BM
+   - advance clears to regular
+   - consider flex sig for sigmoid biopsy if not improving to r/o GVHD.
+   - ativan prn nausea
+   # ARF
+ presented with Creatinine of 1.4 (baseline 0.9-1.1) & non gap
+   acidosis likely [**2-18**] diarrhea, bicarbonate loss & NS resuscitation.
+   Creatinine trended down to baseline today with IVF. Hyperchloremia
+   likely 2/2 NS, will use LR for IVF.
+   - IVF w/ goal CVP of 10
+   - vanc redosed to q12hr
+   - lactate WNL yesterday
+   # ONC - dx with erythroleukemia evolving from MDS '[**80**], s/p allogeneic
+   BMT from an HLA matched sibling donor on [**2191-4-14**], c/b mild GVHD of
+   mouth, doing well over past year.
+   - continue PPx with acyclovir, fluconazole, pentamadine for pcp
+   prophylaxis, next dose due [**4-5**].
+   - will start Hydrocortizone 100mg TID given marginal [**Last Name (un) 45**] stim
+   yesterday, wean as possible
+   # cardiac - no chest pain/sob, though n/v could represent atypical
+   presentation of acs.  +trop on arrival to ED w/ ST depression in
+   setting of hypotension/tachycardia.   CE continued to trend upwards w/
+   peak trop 1.12, now trending down.  Cards curbsided, who agreed little
+   susicison of cardiogenic shock or ACS that would require
+   anticoagulation.  Pt with sinus bradycardia & new prolonged QT.  Repeat
+   EKG in am, QT in 480s, sinus brady.
+   - decrease ASA from 325mg to 81mg
+   - hold bb in setting of hypotension/pressors and bradycardia
+   - continue telemetry & replacing Ca/Mg/K
+   - avoid QT prolonging meds if possible
+   - f/u TTE this am
+   .## hyperlipidemia: not currently on statin.  recruited to ED statin in
+   sepsis trial, so receiving study drug.
+   # GERD - continue PPI [**Hospital1 **].
+   #DM2: diet controlled at home, will cover here with SSI.
+   - RISS
+   .# FEN: consider ADAT
+   - replacement scales for lytes
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: 62F h/o AML (erythroleukemia s/p sibling-matched BMT
+   [**3-23**] c/b gvhd mouth, colon), who was in her usoh until [**3-26**], when she
+   awoke in the AM and had ~6 episodes of diarrhea (loose, non-bloody, not
+   watery).  her symptoms resolved completly by lunch and did not recur
+   until [**3-30**] ~9AM-12PM, when she had ~[**3-20**] more episodes of similar
+   diarrhea.  She reports recurrence again at 9PM.  On the morning of
+   [**3-31**], she notes increasing frequency of diarrhea, and while on toilet,
+   felt LH/dizzy, and ""my eyes rolled back in my head"" but no frank
+   syncope or head trauma.  EMS was activated, and she was brought to the
+   ED.
+   .
+   She denies any recent medication changes, antibiotics, shellfish or
+   seafood exposure (haddock x 1 last week), no new water sources, no
+   camping, no bloody stools.
+   .
+   ROS otherwise negative for fevers, chills, ns, cough, sore throat,
+   sinus congestion, body aches, ha/neck stiff, rash, n/v, abdominal pain
+   (other than mild cramping x 1 friday night), dysuria, melena.
+   .
+   Pt presented to the ED with VS: 98.6  110  88/64  16  96%2L.  No
+   complaints of cp/sob though did note abdominal pain and diarrhea. given
+   fever (103 rectal) and low BP (down to 59/38), was started on sepsis
+   protocol.  given 6L IVF, started on [**Last Name (un) **] gtt, lactate up to 2.4, given
+   decadron 10 iv, flagyl, ceftazadime at ~1250, and vancomycin 1gm @
+   1715.  also given zofran, humalog.  BP up to 139/57 on levo gtt 0.4, so
+   weaned down to 0.16. pt mentating throughout.
+   .
+   Given ongoing pressor requirement, pt transferred to [**Hospital Unit Name 44**] for further
+   w/o of sepsis.
+   24 Hour Events:
+   -- patient w/ elevated cardiac enzymes, trop peak of 1.12.  No active
+   ischemic changes on EKG.  Cards curbsided, who agreed that
+   anticoagulation not indicated and no emergent TTE for little concern of
+   cardiogenic shock.  Enzymes trending down.
+   -- weaned off levophed.  Was hypotensive at 2am w/ SBP of 90.  Was
+   bolused w/ 500cc, but remained hypotensive to SBP of 78.  Additional
+   500cc bolus give, w/ pressures of 85.  Patient as asx throughout.  CVP
+   of 9.  Restarted levophed at 0.1 w/ adequate response.  BCx sent.
+   -- ID saw patient at request of BMT.  Agree w/ current manegment,
+   recommending switching CTX to cipro if clinically worsens and QT okay.
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2192-3-31**] 10:50 PM
+   Fluconazole - [**2192-4-1**] 10:00 PM
+   Ceftriaxone - [**2192-4-2**] 12:00 AM
+   Acyclovir - [**2192-4-2**] 12:00 AM
+   Metronidazole - [**2192-4-2**] 12:00 AM
+   Vancomycin - [**2192-4-2**] 01:00 AM
+   Infusions:
+   Norepinephrine - 0.1 mcg/Kg/min
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-4-2**] 12:00 AM
+   Heparin Sodium (Prophylaxis) - [**2192-4-2**] 12:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No(t) Fatigue, No(t) Fever
+   Ear, Nose, Throat: No(t) Dry mouth
+   Cardiovascular: No(t) Chest pain, No(t) Palpitations, No(t) Edema,
+   No(t) Orthopnea
+   Respiratory: No(t) Cough, No(t) Dyspnea, No(t) Tachypnea
+   Gastrointestinal: No(t) Abdominal pain, No(t) Nausea, No(t) Emesis,
+   No(t) Diarrhea, NO BM
+   Genitourinary: Dysuria
+   Flowsheet Data as of  [**2192-4-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.4
+C (97.6
+   Tcurrent: 36.4
+C (97.5
+   HR: 59 (50 - 78) bpm
+   BP: 115/51(66) {77/36(46) - 124/63(75)} mmHg
+   RR: 17 (0 - 20) insp/min
+   SpO2: 97%
+   Heart rhythm: SB (Sinus Bradycardia)
+   Height: 66 Inch
+    CVP: 13 (5 - 15)mmHg
+   CO/CI (Fick): (30.8 L/min) / (18.1 L/min/m2)
+   SvO2: 96%
+   Total In:
+                                                                  3,883 mL
+                                                                    488 mL
+   PO:
+                                                                  1,187 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,696 mL
+                                                                    368 mL
+   Blood products:
+   Total out:
+                                                                  4,425 mL
+                                                                    840 mL
+   Urine:
+                                                                  4,425 mL
+                                                                    840 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -542 mL
+                                                                   -352 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ///21/
+   Physical Examination
+   General Appearance: Well nourished, Diaphoretic
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: No(t) Systolic,
+   No(t) Diastolic), hyperdynamic
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Not assessed), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Warm
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): PPT, Movement: Not assessed, Tone: Not
+   assessed
+   Labs / Radiology
+   113 K/uL
+   10.5 g/dL
+   154 mg/dL
+   0.9 mg/dL
+   21 mEq/L
+   4.0 mEq/L
+   13 mg/dL
+   117 mEq/L
+   144 mEq/L
+   30.4 %
+   12.6 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+                             [**2192-4-1**]  12:22 PM
+                             [**2192-4-1**]  02:42 PM
+                             [**2192-4-2**]  04:47 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   13.1
+   12.6
+   Hct
+   35.4
+   33.6
+   33.1
+   30.2
+   30.4
+   Plt
+   148
+   141
+   135
+   130
+   113
+   Cr
+   1.2
+   1.2
+   1.0
+   0.9
+   0.9
+   0.9
+   TropT
+   0.40
+   1.12
+   0.81
+   Glucose
+   [**Telephone/Fax (3) 1662**]69
+   200
+   154
+   Other labs: CK / CKMB / Troponin-T:199/41/0.81, ALT / AST:35/63, Alk
+   Phos / T Bili:41/0.3, Amylase / Lipase:/13, Differential-Neuts:88.7 %,
+   Band:0.0 %, Lymph:8.3 %, Mono:2.8 %, Eos:0.2 %, Lactic Acid:1.2 mmol/L,
+   Albumin:2.9 g/dL, LDH:255 IU/L, Ca++:8.2 mg/dL, Mg++:1.9 mg/dL, PO4:2.7
+   mg/dL
+   Fluid analysis / Other labs: CK: 312  MB: 57  MBI: 18.3  Trop-T: 1.12
+   CK: 78  MB: Pnd  Trop-T: Pnd
+   Imaging: Right IJ catheter terminates in the superior vena cava.  There
+   is a new patchy
+   opacity at the left lung base which could represent atelectasis.  Right
+   lung
+   is clear. Cardiomediastinal silhouette is unremarkable.
+   Microbiology: Legionella Urinary Antigen -PENDING
+   CMV Viral Load-PENDING
+   Blood Culture, Routine-PENDING
+   URINE CULTURE-FINAL ([**3-31**])
+   ECG: Resolution of QT prolongation.  No evidence of AV nodal blockade.
+   Assessment and Plan
+   62F s/p allogenic BMT [**3-23**] for erythroleukemia/MDS, adm with fever,
+   diarrhea, and hypotension.
+   # Hypotension - concerning for septic picture given fever, wbc
+   elevation, bandemia & diarrhea.  Pt has not had any recurrence of
+   symptoms in house & CTabd/pelvis without pathology.  Ddx also includes
+   hypovolemic [**2-18**] diarrhea, ACS with + trop though more likely [**2-18**]/
+   demand ischemia, adrenal insufficiency likely contributed to profound
+   hypotension on adm given marginal [**Last Name (un) 45**] stim this am.  Currently weaning
+   levo
+   - f/u stool cultures (cdiff, yersina, campy, vibrio, norovirus,
+   rotavirus) if has stool.
+   - f/u rapid viral screen & influenza DFA
+   - f/u Blood culture, Urine Cx negative.
+   - f/u CMV VL (low suspicion of fungal)
+   - continue empiric Vanc/Ceftriaxone/Flagyl --> ceftiaxone given w/
+   concern of prolonged TQ on admission
+   - Hydrocortizone 100mg TID given low [**Last Name (un) 45**] stim, begin aggressive taper
+   today to 60mg TID
+   -  ID requested by primary onc attg, no change in current plan.  Could
+   switch to cipro given persistent hypotension and unresolved
+   leukocytosis.  If stool Cx negative, could consider colonooscopy to
+   evaluate for GVHD.
+   - attempt to taper levophed again today.  Adequate CVP, so do no
+   suspect is an isue of hypovolumeia.  Patient is well perfused, EKG w/o
+   evidence of ischemic changes, and cardiac enzymes resolved, so little
+   suspicision of cardiogenic shock.
+   # N/V/Diarrhea-no recent abx.  Ddx includes bacterial vs viral
+   infection vs GVHD.  CT abd/pelvis without evidence of colitis or SBO.
+   LFTs unremarkable.
+   - f/u stool cultures (viral, campy, salmonella, cdiff, noro, o&p) once
+   has BM
+   - advance clears to regular
+   - consider flex sig for sigmoid biopsy if not improving to r/o GVHD.
+   - ativan prn nausea
+   # ARF
+ presented with Creatinine of 1.4 (baseline 0.9-1.1) & non gap
+   acidosis likely [**2-18**] diarrhea, bicarbonate loss & NS resuscitation.
+   Creatinine trended down to baseline today with IVF. Hyperchloremia
+   likely 2/2 NS, will use LR for IVF.
+   - IVF w/ goal CVP of 10
+   - vanc redosed to q12hr
+   - lactate WNL yesterday
+   # ONC - dx with erythroleukemia evolving from MDS '[**80**], s/p allogeneic
+   BMT from an HLA matched sibling donor on [**2191-4-14**], c/b mild GVHD of
+   mouth, doing well over past year.
+   - continue PPx with acyclovir, fluconazole, pentamadine for pcp
+   prophylaxis, next dose due [**4-5**].
+   - will start Hydrocortizone 100mg TID given marginal [**Last Name (un) 45**] stim
+   yesterday, wean as possible
+   # cardiac - no chest pain/sob, though n/v could represent atypical
+   presentation of acs.  +trop on arrival to ED w/ ST depression in
+   setting of hypotension/tachycardia.   CE continued to trend upwards w/
+   peak trop 1.12, now trending down.  Cards curbsided, who agreed little
+   susicison of cardiogenic shock or ACS that would require
+   anticoagulation.  Pt with sinus bradycardia & new prolonged QT.  Repeat
+   EKG in am, QT in 480s, sinus brady.
+   - decrease ASA from 325mg to 81mg
+   - hold bb in setting of hypotension/pressors and bradycardia
+   - continue telemetry & replacing Ca/Mg/K
+   - avoid QT prolonging meds if possible
+   - f/u TTE this am
+   .## hyperlipidemia: not currently on statin.  recruited to ED statin in
+   sepsis trial, so receiving study drug.
+   # GERD - continue PPI [**Hospital1 **].
+   #DM2: diet controlled at home, will cover here with SSI.
+   - RISS
+   .# FEN: consider ADAT
+   - replacement scales for lytes
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient, a 62-year-old female, was admitted to the ICU with a chief complaint of diarrhea, fever, and hypotension. She had undergone allogenic bone marrow transplantation (BMT) for erythroleukemia and had a history of mild graft-versus-host disease (GVHD) of the mouth. The patient's symptoms started on March 23rd, with 6 episodes of diarrhea, and recurred on March 30th and 31st. She was treated with antibiotics, antifungals, and antivirals, but her condition worsened, and she required vasopressor support.
+
+The patient's laboratory results showed an elevated white blood cell count, bandemia, and a positive troponin test, which suggested sepsis. Her cardiac enzymes were elevated, but the cardiologist did not suspect cardiogenic shock or acute coronary syndrome (ACS). The patient's electrocardiogram (ECG) showed sinus bradycardia and a prolonged QT interval.
+
+The patient's medical history included erythroleukemia evolving from myelodysplastic syndrome (MDS), allogenic BMT from an HLA-matched sibling donor, and mild GVHD of the mouth. She was also taking prophylactic medications for pneumonia, prophylaxis for fungal infections, and antiviral therapy.
+
+Potential Medical Complications:
+
+1. Sepsis: The patient's elevated white blood cell count, bandemia, and positive troponin test suggest sepsis, which can lead to multi-organ failure and death if not treated promptly and effectively.
+2. GVHD: The patient's history of GVHD and current symptoms of diarrhea and abdominal pain suggest a possibility of GVHD recurrence, which can lead to severe gastrointestinal complications and mortality.
+3. Cardiac Complications: The patient's elevated troponin test and prolonged QT interval on her ECG suggest cardiac complications, which can lead to arrhythmias, heart failure, and death.
+4. Respiratory Complications: The patient's symptoms of diarrhea and abdominal pain may lead to respiratory complications, such as pneumonia, which can be life-threatening.
+5. Infections: The patient's history of antibiotic use and current symptoms of fever and diarrhea suggest a possibility of infection, which can lead to sepsis, multi-organ failure, and death.
+6. Nutritional Deficiencies: The patient's diarrhea and abdominal pain may lead to nutritional deficiencies, which can exacerbate her underlying medical conditions and increase the risk of complications.
+7. Gastrointestinal Complications: The patient's symptoms of diarrhea and abdominal pain suggest gastrointestinal complications, which can lead to severe complications, such as bowel perforation, hemorrhage, and mortality."
+124328.0,229517,2192-04-02 06:59:00,Physician ,Physician Resident Progress Note,"Chief Complaint: 62F h/o AML (erythroleukemia s/p sibling-matched BMT
+   [**3-23**] c/b gvhd mouth, colon), who was in her usoh until [**3-26**], when she
+   awoke in the AM and had ~6 episodes of diarrhea (loose, non-bloody, not
+   watery).  her symptoms resolved completly by lunch and did not recur
+   until [**3-30**] ~9AM-12PM, when she had ~[**3-20**] more episodes of similar
+   diarrhea.  She reports recurrence again at 9PM.  On the morning of
+   [**3-31**], she notes increasing frequency of diarrhea, and while on toilet,
+   felt LH/dizzy, and ""my eyes rolled back in my head"" but no frank
+   syncope or head trauma.  EMS was activated, and she was brought to the
+   ED.
+   .
+   She denies any recent medication changes, antibiotics, shellfish or
+   seafood exposure (haddock x 1 last week), no new water sources, no
+   camping, no bloody stools.
+   .
+   ROS otherwise negative for fevers, chills, ns, cough, sore throat,
+   sinus congestion, body aches, ha/neck stiff, rash, n/v, abdominal pain
+   (other than mild cramping x 1 friday night), dysuria, melena.
+   .
+   Pt presented to the ED with VS: 98.6  110  88/64  16  96%2L.  No
+   complaints of cp/sob though did note abdominal pain and diarrhea. given
+   fever (103 rectal) and low BP (down to 59/38), was started on sepsis
+   protocol.  given 6L IVF, started on [**Last Name (un) **] gtt, lactate up to 2.4, given
+   decadron 10 iv, flagyl, ceftazadime at ~1250, and vancomycin 1gm @
+   1715.  also given zofran, humalog.  BP up to 139/57 on levo gtt 0.4, so
+   weaned down to 0.16. pt mentating throughout.
+   .
+   Given ongoing pressor requirement, pt transferred to [**Hospital Unit Name 44**] for further
+   w/o of sepsis.
+   24 Hour Events:
+   -- patient w/ elevated cardiac enzymes, trop peak of 1.12.  No active
+   ischemic changes on EKG.  Cards curbsided, who agreed that
+   anticoagulation not indicated and no emergent TTE for little concern of
+   cardiogenic shock.  Enzymes trending down.
+   -- weaned off levophed.  Was hypotensive at 2am w/ SBP of 90.  Was
+   bolused w/ 500cc, but remained hypotensive to SBP of 78.  Additional
+   500cc bolus give, w/ pressures of 85.  Patient as asx throughout.  CVP
+   of 9.  Restarted levophed at 0.1 w/ adequate response.  BCx sent.
+   -- ID saw patient at request of BMT.  Agree w/ current manegment,
+   recommending switching CTX to cipro if clinically worsens and QT okay.
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2192-3-31**] 10:50 PM
+   Fluconazole - [**2192-4-1**] 10:00 PM
+   Ceftriaxone - [**2192-4-2**] 12:00 AM
+   Acyclovir - [**2192-4-2**] 12:00 AM
+   Metronidazole - [**2192-4-2**] 12:00 AM
+   Vancomycin - [**2192-4-2**] 01:00 AM
+   Infusions:
+   Norepinephrine - 0.1 mcg/Kg/min
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-4-2**] 12:00 AM
+   Heparin Sodium (Prophylaxis) - [**2192-4-2**] 12:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No(t) Fatigue, No(t) Fever
+   Ear, Nose, Throat: No(t) Dry mouth
+   Cardiovascular: No(t) Chest pain, No(t) Palpitations, No(t) Edema,
+   No(t) Orthopnea
+   Respiratory: No(t) Cough, No(t) Dyspnea, No(t) Tachypnea
+   Gastrointestinal: No(t) Abdominal pain, No(t) Nausea, No(t) Emesis,
+   No(t) Diarrhea, NO BM
+   Genitourinary: Dysuria
+   Flowsheet Data as of  [**2192-4-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.4
+C (97.6
+   Tcurrent: 36.4
+C (97.5
+   HR: 59 (50 - 78) bpm
+   BP: 115/51(66) {77/36(46) - 124/63(75)} mmHg
+   RR: 17 (0 - 20) insp/min
+   SpO2: 97%
+   Heart rhythm: SB (Sinus Bradycardia)
+   Height: 66 Inch
+    CVP: 13 (5 - 15)mmHg
+   CO/CI (Fick): (30.8 L/min) / (18.1 L/min/m2)
+   SvO2: 96%
+   Total In:
+                                                                  3,883 mL
+                                                                    488 mL
+   PO:
+                                                                  1,187 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,696 mL
+                                                                    368 mL
+   Blood products:
+   Total out:
+                                                                  4,425 mL
+                                                                    840 mL
+   Urine:
+                                                                  4,425 mL
+                                                                    840 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -542 mL
+                                                                   -352 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ///21/
+   Physical Examination
+   General Appearance: Well nourished, Diaphoretic
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: No(t) Systolic,
+   No(t) Diastolic), hyperdynamic
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Not assessed), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Warm
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): PPT, Movement: Not assessed, Tone: Not
+   assessed
+   Labs / Radiology
+   113 K/uL
+   10.5 g/dL
+   154 mg/dL
+   0.9 mg/dL
+   21 mEq/L
+   4.0 mEq/L
+   13 mg/dL
+   117 mEq/L
+   144 mEq/L
+   30.4 %
+   12.6 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+                             [**2192-4-1**]  12:22 PM
+                             [**2192-4-1**]  02:42 PM
+                             [**2192-4-2**]  04:47 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   13.1
+   12.6
+   Hct
+   35.4
+   33.6
+   33.1
+   30.2
+   30.4
+   Plt
+   148
+   141
+   135
+   130
+   113
+   Cr
+   1.2
+   1.2
+   1.0
+   0.9
+   0.9
+   0.9
+   TropT
+   0.40
+   1.12
+   0.81
+   Glucose
+   [**Telephone/Fax (3) 1662**]69
+   200
+   154
+   Other labs: CK / CKMB / Troponin-T:199/41/0.81, ALT / AST:35/63, Alk
+   Phos / T Bili:41/0.3, Amylase / Lipase:/13, Differential-Neuts:88.7 %,
+   Band:0.0 %, Lymph:8.3 %, Mono:2.8 %, Eos:0.2 %, Lactic Acid:1.2 mmol/L,
+   Albumin:2.9 g/dL, LDH:255 IU/L, Ca++:8.2 mg/dL, Mg++:1.9 mg/dL, PO4:2.7
+   mg/dL
+   Fluid analysis / Other labs: CK: 312  MB: 57  MBI: 18.3  Trop-T: 1.12
+   CK: 78  MB: Pnd  Trop-T: Pnd
+   Imaging: Right IJ catheter terminates in the superior vena cava.  There
+   is a new patchy
+   opacity at the left lung base which could represent atelectasis.  Right
+   lung
+   is clear. Cardiomediastinal silhouette is unremarkable.
+   Microbiology: Legionella Urinary Antigen -PENDING
+   CMV Viral Load-PENDING
+   Blood Culture, Routine-PENDING
+   URINE CULTURE-FINAL ([**3-31**])
+   ECG: Resolution of QT prolongation.  No evidence of AV nodal blockade.
+   Assessment and Plan
+   62F s/p allogenic BMT [**3-23**] for erythroleukemia/MDS, adm with fever,
+   diarrhea, and hypotension.
+   # Hypotension - concerning for septic picture given fever, wbc
+   elevation, bandemia & diarrhea.  Pt has not had any recurrence of
+   diahrea symptoms in house & CTabd/pelvis without pathology.  Ddx also
+   includes hypovolemic [**2-18**] diarrhea, ACS with + trop (though more likely
+   [**2-18**]/ demand ischemia,) adrenal insufficiency likely contributed to
+   profound hypotension on adm given marginal [**Last Name (un) 45**] stim this am.  Nothing
+   on exam or vital monitoring sugest cargiogenic shock.  Needed to
+   restarted levophed overnight as was not responsive to fluid challenge.
+   Now almost weened off.
+   - f/u stool cultures (cdiff, yersina, campy, vibrio, norovirus,
+   rotavirus) if has stool.
+   - f/u rapid viral screen & influenza DFA
+   - f/u Blood culture, Urine Cx negative.
+   - f/u CMV VL (low suspicion of fungal)
+   - continue empiric Vanc/Ceftriaxone/Flagyl --> ceftiaxone given w/
+   concern of prolonged TQ on admission.
+   - Hydrocortizone 100mg TID given low [**Last Name (un) 45**] stim, given continued
+   hypotension, continue at dose, w/ aggressive taper once resolved.
+   -  ID requested by primary onc attg, no change in current plan.  Will
+   switch to cipro given persistent hypotension and unresolved
+   leukocytosis.
+   -  If stool Cx negative, could consider colonooscopy to evaluate for
+   GVHD.
+   - attempt to taper levophed again today.  Adequate CVP, so do no
+   suspect is an isue of hypovolumeia, but bolus w/ fluids PRN.
+   # N/V/Diarrhea-no recent abx.  Ddx includes bacterial vs viral
+   infection vs GVHD.  CT abd/pelvis without evidence of colitis or SBO.
+   LFTs unremarkable.
+   - f/u stool cultures (viral, campy, salmonella, cdiff, noro, o&p) once
+   has BM
+   - continue antibiotics given continued hypotension
+   - advance clears to regular
+   - consider flex sig for sigmoid biopsy if not improving to r/o GVHD.
+   - ativan prn nausea
+   # ARF
+ presented with Creatinine of 1.4 (baseline 0.9-1.1) & non gap
+   acidosis likely [**2-18**] diarrhea, bicarbonate loss & NS resuscitation.
+   Creatinine trended down to baseline today with IVF. Hyperchloremia
+   likely 2/2 NS, will use LR for IVF.
+   - IVF w/ goal CVP of 10
+   - vanc redosed to q12hr
+   - lactate WNL yesterday
+   # ONC - dx with erythroleukemia evolving from MDS '[**80**], s/p allogeneic
+   BMT from an HLA matched sibling donor on [**2191-4-14**], c/b mild GVHD of
+   mouth, doing well over past year.
+   - continue PPx with acyclovir, fluconazole, pentamadine for pcp
+   prophylaxis, next dose due [**4-5**].
+   - continue Hydrocortizone 100mg TID given marginal [**Last Name (un) 45**] stim yesterday,
+   wean as possible
+   # cardiac - no chest pain/sob, though n/v could represent atypical
+   presentation of acs.  +trop on arrival to ED w/ ST depression in
+   setting of hypotension/tachycardia.   CE continued to trend upwards w/
+   peak trop 1.12, now trending down.  Cards curbsided, who agreed little
+   susicison of cardiogenic shock or ACS that would require
+   anticoagulation.  Pt with sinus bradycardia & new prolonged QT.  Repeat
+   EKG in am, QT in 480s, sinus brady.  Patient essentially failed
+   physiologic stress test, and should have out patient cardiac follow up
+   w/ EST.
+   - decrease ASA from 325mg to 81mg
+   - continue telemetry & replacing Ca/Mg/K
+   - avoid QT prolonging meds if possible
+   - f/u TTE this am
+   .## hyperlipidemia: not currently on statin.  recruited to ED statin in
+   sepsis trial, so receiving study drug.
+   # GERD - continue PPI [**Hospital1 **].
+   #DM2: diet controlled at home, will cover here with SSI.
+   - RISS
+   .# FEN: consider ADAT
+   - replacement scales for lytes
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: 62F h/o AML (erythroleukemia s/p sibling-matched BMT
+   [**3-23**] c/b gvhd mouth, colon), who was in her usoh until [**3-26**], when she
+   awoke in the AM and had ~6 episodes of diarrhea (loose, non-bloody, not
+   watery).  her symptoms resolved completly by lunch and did not recur
+   until [**3-30**] ~9AM-12PM, when she had ~[**3-20**] more episodes of similar
+   diarrhea.  She reports recurrence again at 9PM.  On the morning of
+   [**3-31**], she notes increasing frequency of diarrhea, and while on toilet,
+   felt LH/dizzy, and ""my eyes rolled back in my head"" but no frank
+   syncope or head trauma.  EMS was activated, and she was brought to the
+   ED.
+   .
+   She denies any recent medication changes, antibiotics, shellfish or
+   seafood exposure (haddock x 1 last week), no new water sources, no
+   camping, no bloody stools.
+   .
+   ROS otherwise negative for fevers, chills, ns, cough, sore throat,
+   sinus congestion, body aches, ha/neck stiff, rash, n/v, abdominal pain
+   (other than mild cramping x 1 friday night), dysuria, melena.
+   .
+   Pt presented to the ED with VS: 98.6  110  88/64  16  96%2L.  No
+   complaints of cp/sob though did note abdominal pain and diarrhea. given
+   fever (103 rectal) and low BP (down to 59/38), was started on sepsis
+   protocol.  given 6L IVF, started on [**Last Name (un) **] gtt, lactate up to 2.4, given
+   decadron 10 iv, flagyl, ceftazadime at ~1250, and vancomycin 1gm @
+   1715.  also given zofran, humalog.  BP up to 139/57 on levo gtt 0.4, so
+   weaned down to 0.16. pt mentating throughout.
+   .
+   Given ongoing pressor requirement, pt transferred to [**Hospital Unit Name 44**] for further
+   w/o of sepsis.
+   24 Hour Events:
+   -- patient w/ elevated cardiac enzymes, trop peak of 1.12.  No active
+   ischemic changes on EKG.  Cards curbsided, who agreed that
+   anticoagulation not indicated and no emergent TTE for little concern of
+   cardiogenic shock.  Enzymes trending down.
+   -- weaned off levophed.  Was hypotensive at 2am w/ SBP of 90.  Was
+   bolused w/ 500cc, but remained hypotensive to SBP of 78.  Additional
+   500cc bolus give, w/ pressures of 85.  Patient as asx throughout.  CVP
+   of 9.  Restarted levophed at 0.1 w/ adequate response.  BCx sent.
+   -- ID saw patient at request of BMT.  Agree w/ current manegment,
+   recommending switching CTX to cipro if clinically worsens and QT okay.
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2192-3-31**] 10:50 PM
+   Fluconazole - [**2192-4-1**] 10:00 PM
+   Ceftriaxone - [**2192-4-2**] 12:00 AM
+   Acyclovir - [**2192-4-2**] 12:00 AM
+   Metronidazole - [**2192-4-2**] 12:00 AM
+   Vancomycin - [**2192-4-2**] 01:00 AM
+   Infusions:
+   Norepinephrine - 0.1 mcg/Kg/min
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-4-2**] 12:00 AM
+   Heparin Sodium (Prophylaxis) - [**2192-4-2**] 12:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No(t) Fatigue, No(t) Fever
+   Ear, Nose, Throat: No(t) Dry mouth
+   Cardiovascular: No(t) Chest pain, No(t) Palpitations, No(t) Edema,
+   No(t) Orthopnea
+   Respiratory: No(t) Cough, No(t) Dyspnea, No(t) Tachypnea
+   Gastrointestinal: No(t) Abdominal pain, No(t) Nausea, No(t) Emesis,
+   No(t) Diarrhea, NO BM
+   Genitourinary: Dysuria
+   Flowsheet Data as of  [**2192-4-2**] 06:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.4
+C (97.6
+   Tcurrent: 36.4
+C (97.5
+   HR: 59 (50 - 78) bpm
+   BP: 115/51(66) {77/36(46) - 124/63(75)} mmHg
+   RR: 17 (0 - 20) insp/min
+   SpO2: 97%
+   Heart rhythm: SB (Sinus Bradycardia)
+   Height: 66 Inch
+    CVP: 13 (5 - 15)mmHg
+   CO/CI (Fick): (30.8 L/min) / (18.1 L/min/m2)
+   SvO2: 96%
+   Total In:
+                                                                  3,883 mL
+                                                                    488 mL
+   PO:
+                                                                  1,187 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,696 mL
+                                                                    368 mL
+   Blood products:
+   Total out:
+                                                                  4,425 mL
+                                                                    840 mL
+   Urine:
+                                                                  4,425 mL
+                                                                    840 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -542 mL
+                                                                   -352 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ///21/
+   Physical Examination
+   General Appearance: Well nourished, Diaphoretic
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: No(t) Systolic,
+   No(t) Diastolic), hyperdynamic
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Not assessed), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Warm
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): PPT, Movement: Not assessed, Tone: Not
+   assessed
+   Labs / Radiology
+   113 K/uL
+   10.5 g/dL
+   154 mg/dL
+   0.9 mg/dL
+   21 mEq/L
+   4.0 mEq/L
+   13 mg/dL
+   117 mEq/L
+   144 mEq/L
+   30.4 %
+   12.6 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+                             [**2192-4-1**]  12:22 PM
+                             [**2192-4-1**]  02:42 PM
+                             [**2192-4-2**]  04:47 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   13.1
+   12.6
+   Hct
+   35.4
+   33.6
+   33.1
+   30.2
+   30.4
+   Plt
+   148
+   141
+   135
+   130
+   113
+   Cr
+   1.2
+   1.2
+   1.0
+   0.9
+   0.9
+   0.9
+   TropT
+   0.40
+   1.12
+   0.81
+   Glucose
+   [**Telephone/Fax (3) 1662**]69
+   200
+   154
+   Other labs: CK / CKMB / Troponin-T:199/41/0.81, ALT / AST:35/63, Alk
+   Phos / T Bili:41/0.3, Amylase / Lipase:/13, Differential-Neuts:88.7 %,
+   Band:0.0 %, Lymph:8.3 %, Mono:2.8 %, Eos:0.2 %, Lactic Acid:1.2 mmol/L,
+   Albumin:2.9 g/dL, LDH:255 IU/L, Ca++:8.2 mg/dL, Mg++:1.9 mg/dL, PO4:2.7
+   mg/dL
+   Fluid analysis / Other labs: CK: 312  MB: 57  MBI: 18.3  Trop-T: 1.12
+   CK: 78  MB: Pnd  Trop-T: Pnd
+   Imaging: Right IJ catheter terminates in the superior vena cava.  There
+   is a new patchy
+   opacity at the left lung base which could represent atelectasis.  Right
+   lung
+   is clear. Cardiomediastinal silhouette is unremarkable.
+   Microbiology: Legionella Urinary Antigen -PENDING
+   CMV Viral Load-PENDING
+   Blood Culture, Routine-PENDING
+   URINE CULTURE-FINAL ([**3-31**])
+   ECG: Resolution of QT prolongation.  No evidence of AV nodal blockade.
+   Assessment and Plan
+   62F s/p allogenic BMT [**3-23**] for erythroleukemia/MDS, adm with fever,
+   diarrhea, and hypotension.
+   # Hypotension - concerning for septic picture given fever, wbc
+   elevation, bandemia & diarrhea.  Pt has not had any recurrence of
+   diahrea symptoms in house & CTabd/pelvis without pathology.  Ddx also
+   includes hypovolemic [**2-18**] diarrhea, ACS with + trop (though more likely
+   [**2-18**]/ demand ischemia,) adrenal insufficiency likely contributed to
+   profound hypotension on adm given marginal [**Last Name (un) 45**] stim this am.  Nothing
+   on exam or vital monitoring sugest cargiogenic shock.  Needed to
+   restarted levophed overnight as was not responsive to fluid challenge.
+   Now almost weened off.
+   - f/u stool cultures (cdiff, yersina, campy, vibrio, norovirus,
+   rotavirus) if has stool.
+   - f/u rapid viral screen & influenza DFA
+   - f/u Blood culture, Urine Cx negative.
+   - f/u CMV VL (low suspicion of fungal)
+   - continue empiric Vanc/Ceftriaxone/Flagyl --> ceftiaxone given w/
+   concern of prolonged TQ on admission.
+   - Hydrocortizone 100mg TID given low [**Last Name (un) 45**] stim, given continued
+   hypotension, continue at dose, w/ aggressive taper once resolved.
+   -  ID requested by primary onc attg, no change in current plan.  Will
+   switch to cipro given persistent hypotension and unresolved
+   leukocytosis.
+   -  If stool Cx negative, could consider colonooscopy to evaluate for
+   GVHD.
+   - attempt to taper levophed again today.  Adequate CVP, so do no
+   suspect is an isue of hypovolumeia, but bolus w/ fluids PRN.
+   # N/V/Diarrhea-no recent abx.  Ddx includes bacterial vs viral
+   infection vs GVHD.  CT abd/pelvis without evidence of colitis or SBO.
+   LFTs unremarkable.
+   - f/u stool cultures (viral, campy, salmonella, cdiff, noro, o&p) once
+   has BM
+   - continue antibiotics given continued hypotension
+   - advance clears to regular
+   - consider flex sig for sigmoid biopsy if not improving to r/o GVHD.
+   - ativan prn nausea
+   # ARF
+ presented with Creatinine of 1.4 (baseline 0.9-1.1) & non gap
+   acidosis likely [**2-18**] diarrhea, bicarbonate loss & NS resuscitation.
+   Creatinine trended down to baseline today with IVF. Hyperchloremia
+   likely 2/2 NS, will use LR for IVF.
+   - IVF w/ goal CVP of 10
+   - vanc redosed to q12hr
+   - lactate WNL yesterday
+   # ONC - dx with erythroleukemia evolving from MDS '[**80**], s/p allogeneic
+   BMT from an HLA matched sibling donor on [**2191-4-14**], c/b mild GVHD of
+   mouth, doing well over past year.
+   - continue PPx with acyclovir, fluconazole, pentamadine for pcp
+   prophylaxis, next dose due [**4-5**].
+   - continue Hydrocortizone 100mg TID given marginal [**Last Name (un) 45**] stim yesterday,
+   wean as possible
+   # cardiac - no chest pain/sob, though n/v could represent atypical
+   presentation of acs.  +trop on arrival to ED w/ ST depression in
+   setting of hypotension/tachycardia.   CE continued to trend upwards w/
+   peak trop 1.12, now trending down.  Cards curbsided, who agreed little
+   susicison of cardiogenic shock or ACS that would require
+   anticoagulation.  Pt with sinus bradycardia & new prolonged QT.  Repeat
+   EKG in am, QT in 480s, sinus brady.  Patient essentially failed
+   physiologic stress test, and should have out patient cardiac follow up
+   w/ EST.
+   - decrease ASA from 325mg to 81mg
+   - continue telemetry & replacing Ca/Mg/K
+   - avoid QT prolonging meds if possible
+   - f/u TTE this am
+   .## hyperlipidemia: not currently on statin.  recruited to ED statin in
+   sepsis trial, so receiving study drug.
+   # GERD - continue PPI [**Hospital1 **].
+   #DM2: diet controlled at home, will cover here with SSI.
+   - RISS
+   .# FEN: consider ADAT
+   - replacement scales for lytes
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 62-year-old female with a history of acute myeloid leukemia (AML) who underwent allogenic bone marrow transplant (BMT) on 3/23. She presented to the emergency department with fever, diarrhea, and hypotension. She had a total of 6 episodes of diarrhea, with the last episode occurring at 9 PM on 3/31. She also reported increasing frequency of diarrhea and felt lightheaded and dizzy while on the toilet. The patient was started on sepsis protocol and received antibiotics, including vancomycin, ceftriaxone, and flagyl. She was also given decadron and lactate. Her blood pressure was low, and she required vasopressors to maintain blood pressure.
+
+The patient's laboratory results show:
+
+* WBC count: 13.2-14.3 K/uL
+* Hct: 35.4-33.6%
+* Plt: 148-141 K/uL
+* Cr: 1.2-1.0 mg/dL
+* Trop-T: 0.40-1.12 ng/mL
+* Lactic acid: 1.2 mmol/L
+* Albumin: 2.9 g/dL
+* LDH: 255 IU/L
+* Ca++: 8.2 mg/dL
+* Mg++: 1.9 mg/dL
+* PO4: 2.7 mg/dL
+
+The patient's imaging studies show:
+
+* Right IJ catheter terminates in the superior vena cava
+* Patchy opacity at the left lung base, which could represent atelectasis
+* Cardiomediastinal silhouette is unremarkable
+
+The patient's medical history includes:
+
+* AML
+* MDS
+* Allogenic BMT
+* Mild GVHD of mouth
+* Hypovolemic shock
+* ACS with +trop
+* Adrenal insufficiency
+
+The patient's medications include:
+
+* Hydrocortizone 100mg TID
+* Acyclovir
+* Fluconazole
+* Pentamadine
+* PPI
+* Statin
+* Vancomycin
+* Ceftriaxone
+* Flagyl
+* Lactate
+
+Potential Medical Complications:
+
+* Sepsis
+* Diarrhea
+* Hypotension
+* Cardiac complications (ACS, cardiogenic shock)
+* Adrenal insufficiency
+* Hyperlipidemia
+* GERD
+* DM2
+* FEN
+
+Assessment and Plan:
+
+The patient's assessment is that she has sepsis, likely due to a bacterial or viral infection, and is at risk for cardiac complications due to her history of ACS and cardiogenic shock. She also has adrenal insufficiency and is at risk for hyperlipidemia and GERD. The patient's plan includes:
+
+* Continue antibiotics and empiric therapy for sepsis
+* Monitor for signs of cardiac complications and adjust therapy as needed
+* Consider colonooscopy to evaluate for GVHD
+* Continue PPI and statin therapy
+* Monitor for signs of adrenal insufficiency and adjust therapy as needed
+* Consider FEN therapy
+* Monitor for signs of hyperlipidemia and adjust therapy as needed
+* Monitor for signs of GERD and adjust therapy as needed
+* Consider ADAT therapy for FEN."
+124328.0,229517,2192-04-02 10:08:00,Physician ,Physician Attending Progress Note,"Chief Complaint:
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+   Taken off Levophed.
+   Overnight, BP dropped to 90 [**First Name9 (NamePattern2) 1666**]
+   [**Last Name (un) **] stim done [**4-1**]
+   MEDS reviewed
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2192-3-31**] 10:50 PM
+   Fluconazole - [**2192-4-1**] 10:00 PM
+   Ceftriaxone - [**2192-4-2**] 12:00 AM
+   Acyclovir - [**2192-4-2**] 12:00 AM
+   Metronidazole - [**2192-4-2**] 12:00 AM
+   Vancomycin - [**2192-4-2**] 08:45 AM
+   Infusions:
+   Norepinephrine - 0.08 mcg/Kg/min
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-4-2**] 12:00 AM
+   Heparin Sodium (Prophylaxis) - [**2192-4-2**] 12:00 AM
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Cardiovascular: No(t) Chest pain
+   Respiratory: No(t) Cough
+   Gastrointestinal: No(t) Abdominal pain
+   Flowsheet Data as of  [**2192-4-2**] 10:06 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.6
+C (97.8
+   Tcurrent: 36.6
+C (97.8
+   HR: 65 (56 - 78) bpm
+   BP: 120/59(73) {77/36(46) - 130/63(76)} mmHg
+   RR: 18 (15 - 20) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 66 Inch
+   CVP: 13 (5 - 15)mmHg
+   CO/CI (Fick): (30.8 L/min) / (18.1 L/min/m2)
+   SvO2: 96%
+   Total In:
+                                                                  3,883 mL
+                                                                    794 mL
+   PO:
+                                                                  1,187 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,696 mL
+                                                                    674 mL
+   Blood products:
+   Total out:
+                                                                  4,425 mL
+                                                                    980 mL
+   Urine:
+                                                                  4,425 mL
+                                                                    980 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -542 mL
+                                                                   -186 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ///21/
+   Physical Examination
+   Eyes / Conjunctiva: No(t) Conjunctiva pale
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Normal), No(t) Rub, (Murmur: No(t)
+   Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Warm, No(t) Rash:
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   10.5 g/dL
+   113 K/uL
+   154 mg/dL
+   0.9 mg/dL
+   21 mEq/L
+   4.0 mEq/L
+   13 mg/dL
+   117 mEq/L
+   144 mEq/L
+   30.4 %
+   12.6 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+                             [**2192-4-1**]  12:22 PM
+                             [**2192-4-1**]  02:42 PM
+                             [**2192-4-2**]  04:47 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   13.1
+   12.6
+   Hct
+   35.4
+   33.6
+   33.1
+   30.2
+   30.4
+   Plt
+   148
+   141
+   135
+   130
+   113
+   Cr
+   1.2
+   1.2
+   1.0
+   0.9
+   0.9
+   0.9
+   TropT
+   0.40
+   1.12
+   0.81
+   0.39
+   Glucose
+   [**Telephone/Fax (3) 1662**]69
+   200
+   154
+   Other labs: CK / CKMB / Troponin-T:78/16/0.39, ALT / AST:35/63, Alk
+   Phos / T Bili:41/0.3, Amylase / Lipase:/13, Differential-Neuts:88.7 %,
+   Band:0.0 %, Lymph:8.3 %, Mono:2.8 %, Eos:0.2 %, Lactic Acid:1.2 mmol/L,
+   Albumin:2.9 g/dL, LDH:255 IU/L, Ca++:8.2 mg/dL, Mg++:1.9 mg/dL, PO4:2.7
+   mg/dL
+   Fluid analysis / Other labs: [**Last Name (un) **] stim test - 3 to 12
+   Imaging: CXR [**4-1**] reviewed personally
+   Assessment and Plan
+   62 yo woman with with presyncope, found to be hypotensive in setting of
+   diarrhea, possible adrenal insufficiency vs sepsis.
+   1. Hypotension vs sepsis: diarrhea/hypovolemia as most likely primary
+   etiology exacerbated by sepsis vs AI. Responsed well to initial fluid
+   resusitation but overnight was bolused and remained negative overall.
+   Good urine output.  Has low baseline cortisol of 3, and did not respond
+   to cosyntropin as well - switch to hydrocortisone as stress dose. Wean
+   levophed today as tolerated.
+   2. Diarrhea/fever: Now on CTX/flagyl/vanc (held fluoroquinolones given
+   QT-prologation). No other sources of fever for the moment.  F/u
+   cultures, stool studies to be sent, check influenza DFA. ID input
+   appreciated.
+   3. cardiac ischemia:  troponins trending down, no evidence for acute
+   coronary syndrome.  Likely demand ischemia with leak. Getting aspirin.
+   4. ARF: Cr improving in setting of adequate fluid resusitation.
+   5. Non-gap acidosis: Likely due to saline resuscitation, vomiting
+   6. On simvastatin vs placebo in sepsis study. Call [**First Name4 (NamePattern1) 831**] [**Last Name (NamePattern1) 313**] if any
+   concerns.
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition :ICU
+   Total time spent: 33 minutes critical care time
+   Patient is critically ill
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+   Taken off Levophed.
+   Overnight, BP dropped to 90 [**First Name9 (NamePattern2) 1666**]
+   [**Last Name (un) **] stim done [**4-1**]
+   MEDS reviewed
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2192-3-31**] 10:50 PM
+   Fluconazole - [**2192-4-1**] 10:00 PM
+   Ceftriaxone - [**2192-4-2**] 12:00 AM
+   Acyclovir - [**2192-4-2**] 12:00 AM
+   Metronidazole - [**2192-4-2**] 12:00 AM
+   Vancomycin - [**2192-4-2**] 08:45 AM
+   Infusions:
+   Norepinephrine - 0.08 mcg/Kg/min
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-4-2**] 12:00 AM
+   Heparin Sodium (Prophylaxis) - [**2192-4-2**] 12:00 AM
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Cardiovascular: No(t) Chest pain
+   Respiratory: No(t) Cough
+   Gastrointestinal: No(t) Abdominal pain
+   Flowsheet Data as of  [**2192-4-2**] 10:06 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.6
+C (97.8
+   Tcurrent: 36.6
+C (97.8
+   HR: 65 (56 - 78) bpm
+   BP: 120/59(73) {77/36(46) - 130/63(76)} mmHg
+   RR: 18 (15 - 20) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 66 Inch
+   CVP: 13 (5 - 15)mmHg
+   CO/CI (Fick): (30.8 L/min) / (18.1 L/min/m2)
+   SvO2: 96%
+   Total In:
+                                                                  3,883 mL
+                                                                    794 mL
+   PO:
+                                                                  1,187 mL
+                                                                    120 mL
+   TF:
+   IVF:
+                                                                  2,696 mL
+                                                                    674 mL
+   Blood products:
+   Total out:
+                                                                  4,425 mL
+                                                                    980 mL
+   Urine:
+                                                                  4,425 mL
+                                                                    980 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -542 mL
+                                                                   -186 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ///21/
+   Physical Examination
+   Eyes / Conjunctiva: No(t) Conjunctiva pale
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Normal), No(t) Rub, (Murmur: No(t)
+   Systolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Warm, No(t) Rash:
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   10.5 g/dL
+   113 K/uL
+   154 mg/dL
+   0.9 mg/dL
+   21 mEq/L
+   4.0 mEq/L
+   13 mg/dL
+   117 mEq/L
+   144 mEq/L
+   30.4 %
+   12.6 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+                             [**2192-4-1**]  12:22 PM
+                             [**2192-4-1**]  02:42 PM
+                             [**2192-4-2**]  04:47 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   13.1
+   12.6
+   Hct
+   35.4
+   33.6
+   33.1
+   30.2
+   30.4
+   Plt
+   148
+   141
+   135
+   130
+   113
+   Cr
+   1.2
+   1.2
+   1.0
+   0.9
+   0.9
+   0.9
+   TropT
+   0.40
+   1.12
+   0.81
+   0.39
+   Glucose
+   [**Telephone/Fax (3) 1662**]69
+   200
+   154
+   Other labs: CK / CKMB / Troponin-T:78/16/0.39, ALT / AST:35/63, Alk
+   Phos / T Bili:41/0.3, Amylase / Lipase:/13, Differential-Neuts:88.7 %,
+   Band:0.0 %, Lymph:8.3 %, Mono:2.8 %, Eos:0.2 %, Lactic Acid:1.2 mmol/L,
+   Albumin:2.9 g/dL, LDH:255 IU/L, Ca++:8.2 mg/dL, Mg++:1.9 mg/dL, PO4:2.7
+   mg/dL
+   Fluid analysis / Other labs: [**Last Name (un) **] stim test - 3 to 12
+   Imaging: CXR [**4-1**] reviewed personally
+   Assessment and Plan
+   62 yo woman with with presyncope, found to be hypotensive in setting of
+   diarrhea, possible adrenal insufficiency vs sepsis.
+   1. Hypotension vs sepsis: diarrhea/hypovolemia as most likely primary
+   etiology exacerbated by sepsis vs AI. Responsed well to initial fluid
+   resusitation but overnight was bolused and remained negative overall.
+   Good urine output.  Has low baseline cortisol of 3, and did not respond
+   to cosyntropin as well - switch to hydrocortisone as stress dose. Wean
+   levophed today as tolerated.
+   2. Diarrhea/fever: Now on CTX/flagyl/vanc (held fluoroquinolones given
+   QT-prologation). No other sources of fever for the moment.  F/u
+   cultures, stool studies to be sent, check influenza DFA. ID input
+   appreciated.
+   3. cardiac ischemia:  troponins trending down, no evidence for acute
+   coronary syndrome.  Likely demand ischemia with leak. Getting aspirin.
+   4. ARF: Cr improving in setting of adequate fluid resusitation.
+   5. Non-gap acidosis: Likely due to saline resuscitation, vomiting
+   6. On simvastatin vs placebo in sepsis study. Call [**First Name4 (NamePattern1) 831**] [**Last Name (NamePattern1) 313**] if any
+   concerns.
+   ICU Care
+   Nutrition:
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition :ICU
+   Total time spent: 33 minutes critical care time
+   Patient is critically ill<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 62-year-old woman who was admitted to the ICU with presyncope, hypotension, and diarrhea. She has a history of possible adrenal insufficiency and sepsis. She was initially treated with fluid resuscitation and Levophed, but her blood pressure dropped to 90/60 mmHg overnight. She was given a stim test, which showed a low cortisol level, and was started on hydrocortisone as a stress dose. Her diarrhea and fever are being managed with antibiotics, and she is being monitored for cardiac ischemia, acute kidney injury, and non-gap acidosis.
+
+Potential Medical Complications:
+
+1. Adrenal Insufficiency: The patient's low cortisol level and lack of response to cosyntropin suggest adrenal insufficiency, which can lead to hypotension, electrolyte imbalances, and adrenal crisis.
+2. Sepsis: The patient's fever, tachycardia, and hypotension suggest sepsis, which can lead to organ dysfunction, including acute kidney injury, cardiac ischemia, and respiratory failure.
+3. Cardiac Ischemia: The patient's troponin levels are trending down, but she may still be at risk for cardiac ischemia, which can lead to myocardial infarction, arrhythmias, and cardiac arrest.
+4. Acute Kidney Injury: The patient's creatinine levels are elevated, and she may be at risk for acute kidney injury, which can lead to electrolyte imbalances, fluid overload, and end-stage renal disease.
+5. Non-Gap Acidosis: The patient's non-gap acidosis may be due to saline resuscitation, vomiting, or other causes, and can lead to respiratory and metabolic complications.
+6. Diarrhea and Fever: The patient's diarrhea and fever may be due to an underlying infection, which can lead to sepsis, dehydration, and electrolyte imbalances.
+7. Gastrointestinal Bleeding: The patient's diarrhea and vomiting may lead to gastrointestinal bleeding, which can lead to anemia, hypovolemia, and shock.
+8. Respiratory Failure: The patient's tachypnea and hypoxemia may indicate respiratory failure, which can lead to respiratory arrest, pneumothorax, and other complications.
+
+Overall, the patient is critically ill and requires close monitoring and management to prevent these potential complications."
+124328.0,229517,2192-04-03 06:51:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - ok off pressors since 10am
+   - ctx changed to cipro
+   - TTE - unremarkable
+   - some facial tightness and flushing following vanc infusion
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Vancomycin - [**2192-4-2**] 08:21 PM
+   Ciprofloxacin - [**2192-4-2**] 10:00 PM
+   Fluconazole - [**2192-4-2**] 10:00 PM
+   Ceftriaxone - [**2192-4-3**] 12:00 AM
+   Metronidazole - [**2192-4-3**] 12:00 AM
+   Acyclovir - [**2192-4-3**] 12:00 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-4-2**] 10:00 PM
+   Heparin Sodium (Prophylaxis) - [**2192-4-3**] 12:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No(t) Fatigue, No(t) Fever
+   Cardiovascular: No(t) Chest pain, No(t) Palpitations, No(t) Edema,
+   No(t) Tachycardia, No(t) Orthopnea
+   Respiratory: No(t) Cough, No(t) Dyspnea, No(t) Tachypnea
+   Gastrointestinal: No(t) Abdominal pain, No(t) Nausea, No(t) Emesis,
+   Diarrhea, No(t) Constipation
+   Flowsheet Data as of  [**2192-4-3**] 06:40 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.7
+   Tcurrent: 36.9
+C (98.5
+   HR: 59 (59 - 80) bpm
+   BP: 96/69(74) {88/42(53) - 130/69(76)} mmHg
+   RR: 16 (14 - 20) insp/min
+   SpO2: 98%
+   Heart rhythm: SB (Sinus Bradycardia)
+   Height: 66 Inch
+    CVP: 1 (1 - 12)mmHg
+   Total In:
+                                                                  2,739 mL
+                                                                    114 mL
+   PO:
+                                                                  1,220 mL
+   TF:
+   IVF:
+                                                                  1,519 mL
+                                                                    114 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                    650 mL
+   Urine:
+                                                                  2,200 mL
+                                                                    650 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    539 mL
+                                                                   -536 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///22/
+   Physical Examination
+   General Appearance: Well nourished
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: No(t) Systolic,
+   No(t) Diastolic)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Not assessed), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): PP,T, Movement: Not assessed, Tone: Not
+   assessed
+   Labs / Radiology
+   107 K/uL
+   10.0 g/dL
+   106 mg/dL
+   0.8 mg/dL
+   22 mEq/L
+   3.4 mEq/L
+   12 mg/dL
+   114 mEq/L
+   144 mEq/L
+   29.5 %
+   6.7 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+                             [**2192-4-1**]  12:22 PM
+                             [**2192-4-1**]  02:42 PM
+                             [**2192-4-2**]  04:47 AM
+                             [**2192-4-3**]  04:37 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   13.1
+   12.6
+   6.7
+   Hct
+   35.4
+   33.6
+   33.1
+   30.2
+   30.4
+   29.5
+   Plt
+   148
+   141
+   135
+   130
+   113
+   107
+   Cr
+   1.2
+   1.2
+   1.0
+   0.9
+   0.9
+   0.9
+   0.8
+   TropT
+   0.40
+   1.12
+   0.81
+   0.39
+   Glucose
+   [**Telephone/Fax (3) 1662**]69
+   200
+   154
+   106
+   Other labs: CK / CKMB / Troponin-T:78/16/0.39, ALT / AST:33/19, Alk
+   Phos / T Bili:37/0.3, Amylase / Lipase:/13, Differential-Neuts:88.7 %,
+   Band:0.0 %, Lymph:8.3 %, Mono:2.8 %, Eos:0.2 %, Lactic Acid:1.2 mmol/L,
+   Albumin:2.9 g/dL, LDH:274 IU/L, Ca++:7.6 mg/dL, Mg++:2.0 mg/dL, PO4:2.6
+   mg/dL
+   Imaging: TTE:  Normal biventricular cavity sizes with preserved global
+   and regional biventricular systolic function. No structural cardiac
+   cause of syncope identified.
+   Compared with the prior report (images unvailable for review) of
+   [**2191-6-6**], the findings are similar.
+   Microbiology: FECAL CULTURE (Pending):  CAMPYLOBACTER CULTURE
+   (Pending):
+   OVA + PARASITES (Pending):
+   FECAL CULTURE - R/O VIBRIO (Pending):
+   FECAL CULTURE - R/O YERSINIA (Pending):
+    FECAL CULTURE - R/O E.COLI 0157:H7 (Pending):
+   CLOSTRIDIUM DIFFICILE TOXIN ASSAY (Pending):
+   VIRAL CULTURE (Pending):
+   DIRECT INFLUENZA A ANTIGEN TEST (Final [**2192-4-2**]):
+         Negative for Influenza A viral antigen.
+    DIRECT INFLUENZA B ANTIGEN TEST (Final [**2192-4-2**]):
+         NEGATIVE FOR INFLUENZA B VIRAL ANTIGEN.
+   Assessment and Plan
+   62F s/p allogenic BMT [**3-23**] for erythroleukemia/MDS, adm with fever,
+   diarrhea, and hypotension.
+   # Sepsis - concerning for septic picture given fever, wbc elevation,
+   bandemia & diarrhea.  Unclear source.  Pt has not first episode of
+   diahrea symptoms in house & CTabd/pelvis without pathology.  Ddx also
+   includes hypovolemic [**2-18**] diarrhea, ACS with + trop (though more likely
+   [**2-18**]/ demand ischemia,) adrenal insufficiency likely contributed to
+   profound hypotension on adm given marginal [**Last Name (un) 45**] stim this am.  Nothing
+   on exam or vital monitoring sugest cargiogenic shock.  Patient weened
+   off levophed yesterday morning and BP has tolerated well.  WBC has
+   resolved to normal.  Patient has been afebile
+   - f/u stool cultures (cdiff, yersina, campy, vibrio, norovirus,
+   rotavirus) sent yesterday
+   - f/u rapid viral screen culture /  influenza DFA negative
+   - f/u Blood culture, Urine Cx negative, urine legionella negative
+   - f/u CMV VL (low suspicion of fungal)
+   - d/c vanc as all cultures negative vanc, continue cipro/flagyl for GI
+   coverage for now
+   - Hydrocortizone 100mg TID given low [**Last Name (un) 45**] stim, as no longer
+   hypotensive, will begin to taper today
+   -  ID requested by primary onc attg, no change in current plan
+   -  If stool Cx negative, could consider colonooscopy to evaluate for
+   GVHD.
+   - fluid boluses PRN for hypotension.
+   # N/V/Diarrhea-no recent abx.  Ddx includes bacterial vs viral
+   infection vs GVHD.  CT abd/pelvis without evidence of colitis or SBO.
+   LFTs unremarkable.
+   - f/u stool cultures (viral, campy, salmonella, cdiff, noro, o&p) once
+   has BM
+   - tolerating regular diet
+   - consider flex sig for sigmoid biopsy to r/o GVHD as outpatient
+   - ativan prn nausea
+   # ARF
+ presented with Creatinine of 1.4 (baseline 0.9-1.1) & non gap
+   acidosis likely [**2-18**] diarrhea, bicarbonate loss & NS resuscitation.
+   Creatinine trended down to baseline with IVF. Hyperchloremia likely [**2-18**]
+   NS, will use LR for IVF.
+   - IVF w/ goal CVP of 10
+   - lactate WNL yesterday
+   # ONC - dx with erythroleukemia evolving from MDS '[**80**], s/p allogeneic
+   BMT from an HLA matched sibling donor on [**2191-4-14**], c/b mild GVHD of
+   mouth, doing well over past year.
+   - continue PPx with acyclovir, fluconazole, pentamadine for pcp
+   prophylaxis, next dose due [**4-5**].
+   - continue Hydrocortizone 100mg TID given marginal [**Last Name (un) 45**] stim yesterday,
+   begin taper today
+   # cardiac - no chest pain/sob, though n/v could represent atypical
+   presentation of acs.  +trop on arrival to ED w/ ST depression in
+   setting of hypotension/tachycardia.   CE continued to trend upwards w/
+   peak trop 1.12, now trending down.  Cards curbsided, who agreed little
+   susicison of cardiogenic shock or ACS that would require
+   anticoagulation.  Pt with sinus bradycardia & new prolonged QT.  Repeat
+   EKG in am, QT in 480s, sinus brady.  Patient essentially failed
+   physiologic stress test, and should have out patient cardiac follow up
+   w/ EST.  TTE unchanged.
+   - decrease ASA from 325mg to 81mg
+   - continue telemetry & replacing Ca/Mg/K
+   - avoid QT prolonging meds if possible
+   .## hyperlipidemia: not currently on statin.  recruited to ED statin in
+   sepsis trial, so receiving study drug.
+   # GERD - continue PPI [**Hospital1 **].
+   #DM2: diet controlled at home, will cover here with SSI.
+   - RISS
+   ICU Care
+   Nutrition:
+   Comments: Regular Diet
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: Call out to Floor
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - ok off pressors since 10am
+   - ctx changed to cipro
+   - TTE - unremarkable
+   - some facial tightness and flushing following vanc infusion
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Vancomycin - [**2192-4-2**] 08:21 PM
+   Ciprofloxacin - [**2192-4-2**] 10:00 PM
+   Fluconazole - [**2192-4-2**] 10:00 PM
+   Ceftriaxone - [**2192-4-3**] 12:00 AM
+   Metronidazole - [**2192-4-3**] 12:00 AM
+   Acyclovir - [**2192-4-3**] 12:00 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-4-2**] 10:00 PM
+   Heparin Sodium (Prophylaxis) - [**2192-4-3**] 12:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No(t) Fatigue, No(t) Fever
+   Cardiovascular: No(t) Chest pain, No(t) Palpitations, No(t) Edema,
+   No(t) Tachycardia, No(t) Orthopnea
+   Respiratory: No(t) Cough, No(t) Dyspnea, No(t) Tachypnea
+   Gastrointestinal: No(t) Abdominal pain, No(t) Nausea, No(t) Emesis,
+   Diarrhea, No(t) Constipation
+   Flowsheet Data as of  [**2192-4-3**] 06:40 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.7
+   Tcurrent: 36.9
+C (98.5
+   HR: 59 (59 - 80) bpm
+   BP: 96/69(74) {88/42(53) - 130/69(76)} mmHg
+   RR: 16 (14 - 20) insp/min
+   SpO2: 98%
+   Heart rhythm: SB (Sinus Bradycardia)
+   Height: 66 Inch
+    CVP: 1 (1 - 12)mmHg
+   Total In:
+                                                                  2,739 mL
+                                                                    114 mL
+   PO:
+                                                                  1,220 mL
+   TF:
+   IVF:
+                                                                  1,519 mL
+                                                                    114 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                    650 mL
+   Urine:
+                                                                  2,200 mL
+                                                                    650 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    539 mL
+                                                                   -536 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///22/
+   Physical Examination
+   General Appearance: Well nourished
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: No(t) Systolic,
+   No(t) Diastolic)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Not assessed), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): PP,T, Movement: Not assessed, Tone: Not
+   assessed
+   Labs / Radiology
+   107 K/uL
+   10.0 g/dL
+   106 mg/dL
+   0.8 mg/dL
+   22 mEq/L
+   3.4 mEq/L
+   12 mg/dL
+   114 mEq/L
+   144 mEq/L
+   29.5 %
+   6.7 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+                             [**2192-4-1**]  12:22 PM
+                             [**2192-4-1**]  02:42 PM
+                             [**2192-4-2**]  04:47 AM
+                             [**2192-4-3**]  04:37 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   13.1
+   12.6
+   6.7
+   Hct
+   35.4
+   33.6
+   33.1
+   30.2
+   30.4
+   29.5
+   Plt
+   148
+   141
+   135
+   130
+   113
+   107
+   Cr
+   1.2
+   1.2
+   1.0
+   0.9
+   0.9
+   0.9
+   0.8
+   TropT
+   0.40
+   1.12
+   0.81
+   0.39
+   Glucose
+   [**Telephone/Fax (3) 1662**]69
+   200
+   154
+   106
+   Other labs: CK / CKMB / Troponin-T:78/16/0.39, ALT / AST:33/19, Alk
+   Phos / T Bili:37/0.3, Amylase / Lipase:/13, Differential-Neuts:88.7 %,
+   Band:0.0 %, Lymph:8.3 %, Mono:2.8 %, Eos:0.2 %, Lactic Acid:1.2 mmol/L,
+   Albumin:2.9 g/dL, LDH:274 IU/L, Ca++:7.6 mg/dL, Mg++:2.0 mg/dL, PO4:2.6
+   mg/dL
+   Imaging: TTE:  Normal biventricular cavity sizes with preserved global
+   and regional biventricular systolic function. No structural cardiac
+   cause of syncope identified.
+   Compared with the prior report (images unvailable for review) of
+   [**2191-6-6**], the findings are similar.
+   Microbiology: FECAL CULTURE (Pending):  CAMPYLOBACTER CULTURE
+   (Pending):
+   OVA + PARASITES (Pending):
+   FECAL CULTURE - R/O VIBRIO (Pending):
+   FECAL CULTURE - R/O YERSINIA (Pending):
+    FECAL CULTURE - R/O E.COLI 0157:H7 (Pending):
+   CLOSTRIDIUM DIFFICILE TOXIN ASSAY (Pending):
+   VIRAL CULTURE (Pending):
+   DIRECT INFLUENZA A ANTIGEN TEST (Final [**2192-4-2**]):
+         Negative for Influenza A viral antigen.
+    DIRECT INFLUENZA B ANTIGEN TEST (Final [**2192-4-2**]):
+         NEGATIVE FOR INFLUENZA B VIRAL ANTIGEN.
+   Assessment and Plan
+   62F s/p allogenic BMT [**3-23**] for erythroleukemia/MDS, adm with fever,
+   diarrhea, and hypotension.
+   # Sepsis - concerning for septic picture given fever, wbc elevation,
+   bandemia & diarrhea.  Unclear source.  Pt has not first episode of
+   diahrea symptoms in house & CTabd/pelvis without pathology.  Ddx also
+   includes hypovolemic [**2-18**] diarrhea, ACS with + trop (though more likely
+   [**2-18**]/ demand ischemia,) adrenal insufficiency likely contributed to
+   profound hypotension on adm given marginal [**Last Name (un) 45**] stim this am.  Nothing
+   on exam or vital monitoring sugest cargiogenic shock.  Patient weened
+   off levophed yesterday morning and BP has tolerated well.  WBC has
+   resolved to normal.  Patient has been afebile
+   - f/u stool cultures (cdiff, yersina, campy, vibrio, norovirus,
+   rotavirus) sent yesterday
+   - f/u rapid viral screen culture /  influenza DFA negative
+   - f/u Blood culture, Urine Cx negative, urine legionella negative
+   - f/u CMV VL (low suspicion of fungal)
+   - d/c vanc as all cultures negative vanc, continue cipro/flagyl for GI
+   coverage for now
+   - Hydrocortizone 100mg TID given low [**Last Name (un) 45**] stim, as no longer
+   hypotensive, will begin to taper today
+   -  ID requested by primary onc attg, no change in current plan
+   -  If stool Cx negative, could consider colonooscopy to evaluate for
+   GVHD.
+   - fluid boluses PRN for hypotension.
+   # N/V/Diarrhea-no recent abx.  Ddx includes bacterial vs viral
+   infection vs GVHD.  CT abd/pelvis without evidence of colitis or SBO.
+   LFTs unremarkable.
+   - f/u stool cultures (viral, campy, salmonella, cdiff, noro, o&p) once
+   has BM
+   - tolerating regular diet
+   - consider flex sig for sigmoid biopsy to r/o GVHD as outpatient
+   - ativan prn nausea
+   # ARF
+ presented with Creatinine of 1.4 (baseline 0.9-1.1) & non gap
+   acidosis likely [**2-18**] diarrhea, bicarbonate loss & NS resuscitation.
+   Creatinine trended down to baseline with IVF. Hyperchloremia likely [**2-18**]
+   NS, will use LR for IVF.
+   - IVF w/ goal CVP of 10
+   - lactate WNL yesterday
+   # ONC - dx with erythroleukemia evolving from MDS '[**80**], s/p allogeneic
+   BMT from an HLA matched sibling donor on [**2191-4-14**], c/b mild GVHD of
+   mouth, doing well over past year.
+   - continue PPx with acyclovir, fluconazole, pentamadine for pcp
+   prophylaxis, next dose due [**4-5**].
+   - continue Hydrocortizone 100mg TID given marginal [**Last Name (un) 45**] stim yesterday,
+   begin taper today
+   # cardiac - no chest pain/sob, though n/v could represent atypical
+   presentation of acs.  +trop on arrival to ED w/ ST depression in
+   setting of hypotension/tachycardia.   CE continued to trend upwards w/
+   peak trop 1.12, now trending down.  Cards curbsided, who agreed little
+   susicison of cardiogenic shock or ACS that would require
+   anticoagulation.  Pt with sinus bradycardia & new prolonged QT.  Repeat
+   EKG in am, QT in 480s, sinus brady.  Patient essentially failed
+   physiologic stress test, and should have out patient cardiac follow up
+   w/ EST.  TTE unchanged.
+   - decrease ASA from 325mg to 81mg
+   - continue telemetry & replacing Ca/Mg/K
+   - avoid QT prolonging meds if possible
+   .## hyperlipidemia: not currently on statin.  recruited to ED statin in
+   sepsis trial, so receiving study drug.
+   # GERD - continue PPI [**Hospital1 **].
+   #DM2: diet controlled at home, will cover here with SSI.
+   - RISS
+   ICU Care
+   Nutrition:
+   Comments: Regular Diet
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: Call out to Floor<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 62-year-old male who underwent allogenic BMT for erythroleukemia/MDS and is currently admitted to the ICU with fever, diarrhea, and hypotension. He has a history of marginal [Last Name (un) 45] stim and is on prophylaxis for Pneumocystis carinii pneumonia (PCP). He has a WBC count of 13.2, and his troponin T level is 0.40. He has been weaned off levophed and his blood pressure has been stable. He has a normal ECG and a normal TTE.
+
+The patient's lab results show:
+
+* WBC: 13.2
+* Hct: 35.4
+* Plt: 148
+* Cr: 1.2
+* TropT: 0.40
+* Glucose: 69
+* Albumin: 2.9 g/dL
+* LDH: 274 IU/L
+* Ca++: 7.6 mg/dL
+* Mg++: 2.0 mg/dL
+* PO4: 2.6 mg/dL
+
+The patient's imaging studies show:
+
+* TTE: Normal biventricular cavity sizes with preserved global and regional biventricular systolic function. No structural cardiac cause of syncope identified.
+
+Potential medical complications that can arise:
+
+* Sepsis: The patient's fever, WBC elevation, and diarrhea suggest sepsis, which can lead to organ dysfunction and death.
+* Diarrhea: The patient's diarrhea may be due to bacterial or viral infection, or GVHD.
+* Acute Respiratory Failure (ARF): The patient's hypotension and non-gap acidosis suggest ARF, which can lead to respiratory failure and death.
+* Cardiac Complications: The patient's troponin T level and ST depression on ECG suggest cardiac complications, which can lead to cardiac arrest and death.
+* Adrenal Insufficiency: The patient's hypotension and marginal [Last Name (un) 45] stim suggest adrenal insufficiency, which can lead to hypotension and death.
+* Hyperlipidemia: The patient's hyperlipidemia may increase his risk of cardiovascular complications.
+* GERD: The patient's GERD may lead to aspiration and respiratory complications.
+* DM2: The patient's DM2 may lead to hyperglycemia and ketoacidosis.
+
+The patient's treatment plan includes:
+
+* IVF with goal CVP of 10
+* Lactate WNL yesterday
+* Continue PPx with acyclovir, fluconazole, and pentamadine for PCP prophylaxis
+* Continue Hydrocortizone 100mg TID given marginal [Last Name (un) 45] stim yesterday, begin taper today
+* Decrease ASA from 325mg to 81mg
+* Continue telemetry and replacing Ca/Mg/K
+* Avoid QT prolonging meds if possible
+* Consider colonooscopy to evaluate for GVHD
+* Fluid boluses PRN for hypotension
+* Consider flex sig for sigmoid biopsy to r/o GVHD as outpatient
+* Ativan PRN for nausea
+* IVF with goal CVP of 10
+* Continue PPI for GERD
+* Cover DM2 with SSI
+* RISS"
+124328.0,229517,2192-04-03 06:51:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   - ok off pressors since 10am
+   - ctx changed to cipro
+   - TTE - unremarkable
+   - some facial tightness and flushing following vanc infusion
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Vancomycin - [**2192-4-2**] 08:21 PM
+   Ciprofloxacin - [**2192-4-2**] 10:00 PM
+   Fluconazole - [**2192-4-2**] 10:00 PM
+   Ceftriaxone - [**2192-4-3**] 12:00 AM
+   Metronidazole - [**2192-4-3**] 12:00 AM
+   Acyclovir - [**2192-4-3**] 12:00 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-4-2**] 10:00 PM
+   Heparin Sodium (Prophylaxis) - [**2192-4-3**] 12:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No(t) Fatigue, No(t) Fever
+   Cardiovascular: No(t) Chest pain, No(t) Palpitations, No(t) Edema,
+   No(t) Tachycardia, No(t) Orthopnea
+   Respiratory: No(t) Cough, No(t) Dyspnea, No(t) Tachypnea
+   Gastrointestinal: No(t) Abdominal pain, No(t) Nausea, No(t) Emesis,
+   Diarrhea, No(t) Constipation
+   Flowsheet Data as of  [**2192-4-3**] 06:40 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.7
+   Tcurrent: 36.9
+C (98.5
+   HR: 59 (59 - 80) bpm
+   BP: 96/69(74) {88/42(53) - 130/69(76)} mmHg
+   RR: 16 (14 - 20) insp/min
+   SpO2: 98%
+   Heart rhythm: SB (Sinus Bradycardia)
+   Height: 66 Inch
+    CVP: 1 (1 - 12)mmHg
+   Total In:
+                                                                  2,739 mL
+                                                                    114 mL
+   PO:
+                                                                  1,220 mL
+   TF:
+   IVF:
+                                                                  1,519 mL
+                                                                    114 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                    650 mL
+   Urine:
+                                                                  2,200 mL
+                                                                    650 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    539 mL
+                                                                   -536 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///22/
+   Physical Examination
+   General Appearance: Well nourished
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: No(t) Systolic,
+   No(t) Diastolic)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Not assessed), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): PP,T, Movement: Not assessed, Tone: Not
+   assessed
+   Labs / Radiology
+   107 K/uL
+   10.0 g/dL
+   106 mg/dL
+   0.8 mg/dL
+   22 mEq/L
+   3.4 mEq/L
+   12 mg/dL
+   114 mEq/L
+   144 mEq/L
+   29.5 %
+   6.7 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+                             [**2192-4-1**]  12:22 PM
+                             [**2192-4-1**]  02:42 PM
+                             [**2192-4-2**]  04:47 AM
+                             [**2192-4-3**]  04:37 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   13.1
+   12.6
+   6.7
+   Hct
+   35.4
+   33.6
+   33.1
+   30.2
+   30.4
+   29.5
+   Plt
+   148
+   141
+   135
+   130
+   113
+   107
+   Cr
+   1.2
+   1.2
+   1.0
+   0.9
+   0.9
+   0.9
+   0.8
+   TropT
+   0.40
+   1.12
+   0.81
+   0.39
+   Glucose
+   [**Telephone/Fax (3) 1662**]69
+   200
+   154
+   106
+   Other labs: CK / CKMB / Troponin-T:78/16/0.39, ALT / AST:33/19, Alk
+   Phos / T Bili:37/0.3, Amylase / Lipase:/13, Differential-Neuts:88.7 %,
+   Band:0.0 %, Lymph:8.3 %, Mono:2.8 %, Eos:0.2 %, Lactic Acid:1.2 mmol/L,
+   Albumin:2.9 g/dL, LDH:274 IU/L, Ca++:7.6 mg/dL, Mg++:2.0 mg/dL, PO4:2.6
+   mg/dL
+   Imaging: TTE:  Normal biventricular cavity sizes with preserved global
+   and regional biventricular systolic function. No structural cardiac
+   cause of syncope identified.
+   Compared with the prior report (images unvailable for review) of
+   [**2191-6-6**], the findings are similar.
+   Microbiology: FECAL CULTURE (Pending):  CAMPYLOBACTER CULTURE
+   (Pending):
+   OVA + PARASITES (Pending):
+   FECAL CULTURE - R/O VIBRIO (Pending):
+   FECAL CULTURE - R/O YERSINIA (Pending):
+    FECAL CULTURE - R/O E.COLI 0157:H7 (Pending):
+   CLOSTRIDIUM DIFFICILE TOXIN ASSAY (Pending):
+   VIRAL CULTURE (Pending):
+   DIRECT INFLUENZA A ANTIGEN TEST (Final [**2192-4-2**]):
+         Negative for Influenza A viral antigen.
+    DIRECT INFLUENZA B ANTIGEN TEST (Final [**2192-4-2**]):
+         NEGATIVE FOR INFLUENZA B VIRAL ANTIGEN.
+   Assessment and Plan
+   62F s/p allogenic BMT [**3-23**] for erythroleukemia/MDS, adm with fever,
+   diarrhea, and hypotension.
+   # Sepsis - concerning for septic picture given fever, wbc elevation,
+   bandemia & diarrhea.  Unclear source.  Pt has not first episode of
+   diahrea symptoms in house & CTabd/pelvis without pathology.  Ddx also
+   includes hypovolemic [**2-18**] diarrhea, ACS with + trop (though more likely
+   [**2-18**]/ demand ischemia,) adrenal insufficiency likely contributed to
+   profound hypotension on adm given marginal [**Last Name (un) 45**] stim this am.  Nothing
+   on exam or vital monitoring sugest cargiogenic shock.  Patient weened
+   off levophed yesterday morning and BP has tolerated well.  WBC has
+   resolved to normal.  Patient has been afebile
+   - f/u stool cultures (cdiff, yersina, campy, vibrio, norovirus,
+   rotavirus) sent yesterday
+   - f/u rapid viral screen culture /  influenza DFA negative
+   - f/u Blood culture, Urine Cx negative, urine legionella negative
+   - f/u CMV VL (low suspicion of fungal)
+   - continue empiric Vanc/cipro/Flagyl, d/c tomorrow if stool cx negative
+   - Hydrocortizone 100mg TID given low [**Last Name (un) 45**] stim, as no longer
+   hypotensive, will begin to taper [**Last Name (un) 1330**]
+   -  ID requested by primary onc attg, no change in current plan
+   -  If stool Cx negative, could consider colonooscopy to evaluate for
+   GVHD.
+   - fluid boluses PRN for hypotension.
+   # N/V/Diarrhea-no recent abx.  Ddx includes bacterial vs viral
+   infection vs GVHD.  CT abd/pelvis without evidence of colitis or SBO.
+   LFTs unremarkable.
+   - f/u stool cultures (viral, campy, salmonella, cdiff, noro, o&p) once
+   has BM
+   - tolerating regular diet
+   - consider flex sig for sigmoid biopsy if not improving to r/o GVHD.
+   - ativan prn nausea
+   # ARF
+ presented with Creatinine of 1.4 (baseline 0.9-1.1) & non gap
+   acidosis likely [**2-18**] diarrhea, bicarbonate loss & NS resuscitation.
+   Creatinine trended down to baseline with IVF. Hyperchloremia likely [**2-18**]
+   NS, will use LR for IVF.
+   - IVF w/ goal CVP of 10
+   - vanc redosed to q12hr
+   - lactate WNL yesterday
+   # ONC - dx with erythroleukemia evolving from MDS '[**80**], s/p allogeneic
+   BMT from an HLA matched sibling donor on [**2191-4-14**], c/b mild GVHD of
+   mouth, doing well over past year.
+   - continue PPx with acyclovir, fluconazole, pentamadine for pcp
+   prophylaxis, next dose due [**4-5**].
+   - continue Hydrocortizone 100mg TID given marginal [**Last Name (un) 45**] stim yesterday,
+   begin taper [**Last Name (un) 1330**]
+   # cardiac - no chest pain/sob, though n/v could represent atypical
+   presentation of acs.  +trop on arrival to ED w/ ST depression in
+   setting of hypotension/tachycardia.   CE continued to trend upwards w/
+   peak trop 1.12, now trending down.  Cards curbsided, who agreed little
+   susicison of cardiogenic shock or ACS that would require
+   anticoagulation.  Pt with sinus bradycardia & new prolonged QT.  Repeat
+   EKG in am, QT in 480s, sinus brady.  Patient essentially failed
+   physiologic stress test, and should have out patient cardiac follow up
+   w/ EST.  TTE unchanged.
+   - decrease ASA from 325mg to 81mg
+   - continue telemetry & replacing Ca/Mg/K
+   - avoid QT prolonging meds if possible
+   .## hyperlipidemia: not currently on statin.  recruited to ED statin in
+   sepsis trial, so receiving study drug.
+   # GERD - continue PPI [**Hospital1 **].
+   #DM2: diet controlled at home, will cover here with SSI.
+   - RISS
+   ICU Care
+   Nutrition:
+   Comments: TF
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   - ok off pressors since 10am
+   - ctx changed to cipro
+   - TTE - unremarkable
+   - some facial tightness and flushing following vanc infusion
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Vancomycin - [**2192-4-2**] 08:21 PM
+   Ciprofloxacin - [**2192-4-2**] 10:00 PM
+   Fluconazole - [**2192-4-2**] 10:00 PM
+   Ceftriaxone - [**2192-4-3**] 12:00 AM
+   Metronidazole - [**2192-4-3**] 12:00 AM
+   Acyclovir - [**2192-4-3**] 12:00 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-4-2**] 10:00 PM
+   Heparin Sodium (Prophylaxis) - [**2192-4-3**] 12:00 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No(t) Fatigue, No(t) Fever
+   Cardiovascular: No(t) Chest pain, No(t) Palpitations, No(t) Edema,
+   No(t) Tachycardia, No(t) Orthopnea
+   Respiratory: No(t) Cough, No(t) Dyspnea, No(t) Tachypnea
+   Gastrointestinal: No(t) Abdominal pain, No(t) Nausea, No(t) Emesis,
+   Diarrhea, No(t) Constipation
+   Flowsheet Data as of  [**2192-4-3**] 06:40 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.7
+   Tcurrent: 36.9
+C (98.5
+   HR: 59 (59 - 80) bpm
+   BP: 96/69(74) {88/42(53) - 130/69(76)} mmHg
+   RR: 16 (14 - 20) insp/min
+   SpO2: 98%
+   Heart rhythm: SB (Sinus Bradycardia)
+   Height: 66 Inch
+    CVP: 1 (1 - 12)mmHg
+   Total In:
+                                                                  2,739 mL
+                                                                    114 mL
+   PO:
+                                                                  1,220 mL
+   TF:
+   IVF:
+                                                                  1,519 mL
+                                                                    114 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                    650 mL
+   Urine:
+                                                                  2,200 mL
+                                                                    650 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    539 mL
+                                                                   -536 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///22/
+   Physical Examination
+   General Appearance: Well nourished
+   Cardiovascular: (S1: Normal), (S2: Normal), (Murmur: No(t) Systolic,
+   No(t) Diastolic)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Not assessed), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): PP,T, Movement: Not assessed, Tone: Not
+   assessed
+   Labs / Radiology
+   107 K/uL
+   10.0 g/dL
+   106 mg/dL
+   0.8 mg/dL
+   22 mEq/L
+   3.4 mEq/L
+   12 mg/dL
+   114 mEq/L
+   144 mEq/L
+   29.5 %
+   6.7 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+                             [**2192-4-1**]  12:22 PM
+                             [**2192-4-1**]  02:42 PM
+                             [**2192-4-2**]  04:47 AM
+                             [**2192-4-3**]  04:37 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   13.1
+   12.6
+   6.7
+   Hct
+   35.4
+   33.6
+   33.1
+   30.2
+   30.4
+   29.5
+   Plt
+   148
+   141
+   135
+   130
+   113
+   107
+   Cr
+   1.2
+   1.2
+   1.0
+   0.9
+   0.9
+   0.9
+   0.8
+   TropT
+   0.40
+   1.12
+   0.81
+   0.39
+   Glucose
+   [**Telephone/Fax (3) 1662**]69
+   200
+   154
+   106
+   Other labs: CK / CKMB / Troponin-T:78/16/0.39, ALT / AST:33/19, Alk
+   Phos / T Bili:37/0.3, Amylase / Lipase:/13, Differential-Neuts:88.7 %,
+   Band:0.0 %, Lymph:8.3 %, Mono:2.8 %, Eos:0.2 %, Lactic Acid:1.2 mmol/L,
+   Albumin:2.9 g/dL, LDH:274 IU/L, Ca++:7.6 mg/dL, Mg++:2.0 mg/dL, PO4:2.6
+   mg/dL
+   Imaging: TTE:  Normal biventricular cavity sizes with preserved global
+   and regional biventricular systolic function. No structural cardiac
+   cause of syncope identified.
+   Compared with the prior report (images unvailable for review) of
+   [**2191-6-6**], the findings are similar.
+   Microbiology: FECAL CULTURE (Pending):  CAMPYLOBACTER CULTURE
+   (Pending):
+   OVA + PARASITES (Pending):
+   FECAL CULTURE - R/O VIBRIO (Pending):
+   FECAL CULTURE - R/O YERSINIA (Pending):
+    FECAL CULTURE - R/O E.COLI 0157:H7 (Pending):
+   CLOSTRIDIUM DIFFICILE TOXIN ASSAY (Pending):
+   VIRAL CULTURE (Pending):
+   DIRECT INFLUENZA A ANTIGEN TEST (Final [**2192-4-2**]):
+         Negative for Influenza A viral antigen.
+    DIRECT INFLUENZA B ANTIGEN TEST (Final [**2192-4-2**]):
+         NEGATIVE FOR INFLUENZA B VIRAL ANTIGEN.
+   Assessment and Plan
+   62F s/p allogenic BMT [**3-23**] for erythroleukemia/MDS, adm with fever,
+   diarrhea, and hypotension.
+   # Sepsis - concerning for septic picture given fever, wbc elevation,
+   bandemia & diarrhea.  Unclear source.  Pt has not first episode of
+   diahrea symptoms in house & CTabd/pelvis without pathology.  Ddx also
+   includes hypovolemic [**2-18**] diarrhea, ACS with + trop (though more likely
+   [**2-18**]/ demand ischemia,) adrenal insufficiency likely contributed to
+   profound hypotension on adm given marginal [**Last Name (un) 45**] stim this am.  Nothing
+   on exam or vital monitoring sugest cargiogenic shock.  Patient weened
+   off levophed yesterday morning and BP has tolerated well.  WBC has
+   resolved to normal.  Patient has been afebile
+   - f/u stool cultures (cdiff, yersina, campy, vibrio, norovirus,
+   rotavirus) sent yesterday
+   - f/u rapid viral screen culture /  influenza DFA negative
+   - f/u Blood culture, Urine Cx negative, urine legionella negative
+   - f/u CMV VL (low suspicion of fungal)
+   - continue empiric Vanc/cipro/Flagyl, d/c tomorrow if stool cx negative
+   - Hydrocortizone 100mg TID given low [**Last Name (un) 45**] stim, as no longer
+   hypotensive, will begin to taper [**Last Name (un) 1330**]
+   -  ID requested by primary onc attg, no change in current plan
+   -  If stool Cx negative, could consider colonooscopy to evaluate for
+   GVHD.
+   - fluid boluses PRN for hypotension.
+   # N/V/Diarrhea-no recent abx.  Ddx includes bacterial vs viral
+   infection vs GVHD.  CT abd/pelvis without evidence of colitis or SBO.
+   LFTs unremarkable.
+   - f/u stool cultures (viral, campy, salmonella, cdiff, noro, o&p) once
+   has BM
+   - tolerating regular diet
+   - consider flex sig for sigmoid biopsy if not improving to r/o GVHD.
+   - ativan prn nausea
+   # ARF
+ presented with Creatinine of 1.4 (baseline 0.9-1.1) & non gap
+   acidosis likely [**2-18**] diarrhea, bicarbonate loss & NS resuscitation.
+   Creatinine trended down to baseline with IVF. Hyperchloremia likely [**2-18**]
+   NS, will use LR for IVF.
+   - IVF w/ goal CVP of 10
+   - vanc redosed to q12hr
+   - lactate WNL yesterday
+   # ONC - dx with erythroleukemia evolving from MDS '[**80**], s/p allogeneic
+   BMT from an HLA matched sibling donor on [**2191-4-14**], c/b mild GVHD of
+   mouth, doing well over past year.
+   - continue PPx with acyclovir, fluconazole, pentamadine for pcp
+   prophylaxis, next dose due [**4-5**].
+   - continue Hydrocortizone 100mg TID given marginal [**Last Name (un) 45**] stim yesterday,
+   begin taper [**Last Name (un) 1330**]
+   # cardiac - no chest pain/sob, though n/v could represent atypical
+   presentation of acs.  +trop on arrival to ED w/ ST depression in
+   setting of hypotension/tachycardia.   CE continued to trend upwards w/
+   peak trop 1.12, now trending down.  Cards curbsided, who agreed little
+   susicison of cardiogenic shock or ACS that would require
+   anticoagulation.  Pt with sinus bradycardia & new prolonged QT.  Repeat
+   EKG in am, QT in 480s, sinus brady.  Patient essentially failed
+   physiologic stress test, and should have out patient cardiac follow up
+   w/ EST.  TTE unchanged.
+   - decrease ASA from 325mg to 81mg
+   - continue telemetry & replacing Ca/Mg/K
+   - avoid QT prolonging meds if possible
+   .## hyperlipidemia: not currently on statin.  recruited to ED statin in
+   sepsis trial, so receiving study drug.
+   # GERD - continue PPI [**Hospital1 **].
+   #DM2: diet controlled at home, will cover here with SSI.
+   - RISS
+   ICU Care
+   Nutrition:
+   Comments: TF
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 62-year-old female who underwent allogenic BMT for erythroleukemia/MDS and was admitted with fever, diarrhea, and hypotension. She has a concerning septic picture with elevated WBC, bandemia, and diarrhea, with an unclear source. The patient has been weaned off pressors and her blood pressure has been stable. She has normal WBC counts, and stool cultures are pending. The patient is being treated with empiric antibiotics and has received hydrocortisone for adrenal insufficiency. She has also been given lactate to correct acidosis.
+
+Potential Medical Complications:
+
+1. Sepsis: The patient's septic picture is concerning, and the source of the infection is unclear. Further evaluation and management are necessary to prevent septic shock and organ failure.
+2. Gastrointestinal bleeding: The patient's diarrhea and abdominal pain could be indicative of gastrointestinal bleeding, which could lead to hypovolemic shock and organ failure.
+3. Cardiac complications: The patient's history of erythroleukemia/MDS and her current condition could increase her risk of cardiac complications, such as arrhythmias, cardiogenic shock, and cardiac failure.
+4. Respiratory failure: The patient's history of respiratory failure and her current condition could increase her risk of respiratory failure, which could lead to hypoxia and organ failure.
+5. Renal failure: The patient's history of kidney disease and her current condition could increase her risk of renal failure, which could lead to end-stage renal disease and organ failure.
+6. Neurological complications: The patient's history of neurological symptoms and her current condition could increase her risk of neurological complications, such as seizures, stroke, and encephalopathy.
+7. Infection: The patient's history of infection and her current condition could increase her risk of infection, which could lead to sepsis and organ failure.
+
+Recommendations:
+
+1. Continue empiric antibiotics and monitor for signs of sepsis.
+2. Monitor the patient's WBC counts and stool cultures to determine the source of the infection.
+3. Consider colonoscopy to evaluate for GVHD.
+4. Monitor the patient's blood pressure and cardiac function to prevent cardiac complications.
+5. Monitor the patient's respiratory function to prevent respiratory failure.
+6. Monitor the patient's renal function to prevent renal failure.
+7. Monitor the patient's neurological function to prevent neurological complications.
+8. Consider anticoagulation therapy to prevent thrombosis.
+9. Consider stress ulcer prophylaxis to prevent gastrointestinal bleeding.
+10. Consider lactate therapy to correct acidosis."
+124328.0,229517,2192-04-03 10:54:00,Physician ,Physician Attending Progress Note,"Chief Complaint:
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+   Off pressors since yesterday AM
+   Remained afeb
+   TTE done
+   Off O2
+   Vanco/Cipro/CFTX/Flagyl
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2192-4-2**] 10:00 PM
+   Fluconazole - [**2192-4-2**] 10:00 PM
+   Ceftriaxone - [**2192-4-3**] 12:00 AM
+   Acyclovir - [**2192-4-3**] 12:00 AM
+   Metronidazole - [**2192-4-3**] 12:00 AM
+   Vancomycin - [**2192-4-3**] 08:00 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-4-2**] 10:00 PM
+   Heparin Sodium (Prophylaxis) - [**2192-4-3**] 12:00 AM
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No(t) Fever
+   Cardiovascular: No(t) Chest pain
+   Respiratory: No(t) Dyspnea
+   Gastrointestinal: No(t) Abdominal pain, Loose stool BM
+   Flowsheet Data as of  [**2192-4-3**] 10:53 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.7
+   Tcurrent: 36.9
+C (98.5
+   HR: 60 (59 - 80) bpm
+   BP: 106/54(65) {88/42(53) - 118/69(74)} mmHg
+   RR: 16 (14 - 20) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 66 Inch
+   CVP: 1 (1 - 12)mmHg
+   Total In:
+                                                                  2,739 mL
+                                                                    357 mL
+   PO:
+                                                                  1,220 mL
+   TF:
+   IVF:
+                                                                  1,519 mL
+                                                                    357 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                    850 mL
+   Urine:
+                                                                  2,200 mL
+                                                                    850 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    539 mL
+                                                                   -493 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///22/
+   Physical Examination
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Warm
+   Neurologic: Attentive, Responds to: Not assessed, Movement: Not
+   assessed, Tone: Not assessed
+   Labs / Radiology
+   10.0 g/dL
+   107 K/uL
+   106 mg/dL
+   0.8 mg/dL
+   22 mEq/L
+   3.4 mEq/L
+   12 mg/dL
+   114 mEq/L
+   144 mEq/L
+   29.5 %
+   6.7 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+                             [**2192-4-1**]  12:22 PM
+                             [**2192-4-1**]  02:42 PM
+                             [**2192-4-2**]  04:47 AM
+                             [**2192-4-3**]  04:37 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   13.1
+   12.6
+   6.7
+   Hct
+   35.4
+   33.6
+   33.1
+   30.2
+   30.4
+   29.5
+   Plt
+   148
+   141
+   135
+   130
+   113
+   107
+   Cr
+   1.2
+   1.2
+   1.0
+   0.9
+   0.9
+   0.9
+   0.8
+   TropT
+   0.40
+   1.12
+   0.81
+   0.39
+   Glucose
+   [**Telephone/Fax (3) 1662**]69
+   200
+   154
+   106
+   Other labs: PT / PTT / INR:14.8/36.4/1.3, CK / CKMB /
+   Troponin-T:78/16/0.39, ALT / AST:33/19, Alk Phos / T Bili:37/0.3,
+   Amylase / Lipase:/13, Differential-Neuts:88.7 %, Band:0.0 %, Lymph:8.3
+   %, Mono:2.8 %, Eos:0.2 %, Lactic Acid:1.2 mmol/L, Albumin:2.9 g/dL,
+   LDH:274 IU/L, Ca++:7.6 mg/dL, Mg++:2.0 mg/dL, PO4:2.6 mg/dL
+   Imaging: Echo - preserved systolic function
+   Microbiology: Stool sent for culture
+   DFA pending
+   Urine cx and legionella Ag neg
+   Assessment and Plan
+   Assessment and Plan
+   62 yo woman with with presyncope, found to be hypotensive in setting of
+   diarrhea, possible adrenal insufficiency vs sepsis (bandemia).
+   1. Hypotension vs sepsis: diarrhea/hypovolemia as most likely primary
+   etiology exacerbated by possible sepsis vs AI. Responsed well to
+   initial fluid resusitation and now off pressors. Good urine output.
+   Has low baseline cortisol of 3, and did not respond to cosyntropin as
+   well - on HC 100 TID. Will switch to pred 60 [**Hospital1 **]. Suggest rapid taper
+   down to home dose of 5 mg daily.
+   2. Diarrhea/fever: Now on Vanc/CTX/flagyl/Cipro. No other sources of
+   fever for the moment. F/u cultures, stool studies. ID input
+   appreciated. Will d/c vanc and CFTX.
+   3. cardiac ischemia:  troponins trending down, no evidence for acute
+   coronary syndrome.  Likely demand ischemia with leak. Getting aspirin.
+   4. ARF: Cr continues to improve, likely was prerenal.
+   5. Non-gap acidosis: improving.
+   6. On simvastatin vs placebo in sepsis study. Please call [**First Name4 (NamePattern1) 831**] [**Last Name (NamePattern1) 313**]
+   if any concerns.
+   ICU Care
+   Nutrition: PO diet
+   Glycemic Control:
+   Lines: subclav, to be removed today
+   18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition :Transfer to floor
+   Total time spent: 35 minutes
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+   Off pressors since yesterday AM
+   Remained afeb
+   TTE done
+   Off O2
+   Vanco/Cipro/CFTX/Flagyl
+   Allergies:
+   Vancomycin
+   Redman Syndrome
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2192-4-2**] 10:00 PM
+   Fluconazole - [**2192-4-2**] 10:00 PM
+   Ceftriaxone - [**2192-4-3**] 12:00 AM
+   Acyclovir - [**2192-4-3**] 12:00 AM
+   Metronidazole - [**2192-4-3**] 12:00 AM
+   Vancomycin - [**2192-4-3**] 08:00 AM
+   Infusions:
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2192-4-2**] 10:00 PM
+   Heparin Sodium (Prophylaxis) - [**2192-4-3**] 12:00 AM
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No(t) Fever
+   Cardiovascular: No(t) Chest pain
+   Respiratory: No(t) Dyspnea
+   Gastrointestinal: No(t) Abdominal pain, Loose stool BM
+   Flowsheet Data as of  [**2192-4-3**] 10:53 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.1
+C (98.7
+   Tcurrent: 36.9
+C (98.5
+   HR: 60 (59 - 80) bpm
+   BP: 106/54(65) {88/42(53) - 118/69(74)} mmHg
+   RR: 16 (14 - 20) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 66 Inch
+   CVP: 1 (1 - 12)mmHg
+   Total In:
+                                                                  2,739 mL
+                                                                    357 mL
+   PO:
+                                                                  1,220 mL
+   TF:
+   IVF:
+                                                                  1,519 mL
+                                                                    357 mL
+   Blood products:
+   Total out:
+                                                                  2,200 mL
+                                                                    850 mL
+   Urine:
+                                                                  2,200 mL
+                                                                    850 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    539 mL
+                                                                   -493 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 98%
+   ABG: ///22/
+   Physical Examination
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Warm
+   Neurologic: Attentive, Responds to: Not assessed, Movement: Not
+   assessed, Tone: Not assessed
+   Labs / Radiology
+   10.0 g/dL
+   107 K/uL
+   106 mg/dL
+   0.8 mg/dL
+   22 mEq/L
+   3.4 mEq/L
+   12 mg/dL
+   114 mEq/L
+   144 mEq/L
+   29.5 %
+   6.7 K/uL
+        [image002.jpg]
+                             [**2192-3-31**]  08:30 PM
+                             [**2192-3-31**]  11:54 PM
+                             [**2192-4-1**]  05:41 AM
+                             [**2192-4-1**]  12:22 PM
+                             [**2192-4-1**]  02:42 PM
+                             [**2192-4-2**]  04:47 AM
+                             [**2192-4-3**]  04:37 AM
+   WBC
+   13.2
+   14.3
+   13.1
+   13.1
+   12.6
+   6.7
+   Hct
+   35.4
+   33.6
+   33.1
+   30.2
+   30.4
+   29.5
+   Plt
+   148
+   141
+   135
+   130
+   113
+   107
+   Cr
+   1.2
+   1.2
+   1.0
+   0.9
+   0.9
+   0.9
+   0.8
+   TropT
+   0.40
+   1.12
+   0.81
+   0.39
+   Glucose
+   [**Telephone/Fax (3) 1662**]69
+   200
+   154
+   106
+   Other labs: PT / PTT / INR:14.8/36.4/1.3, CK / CKMB /
+   Troponin-T:78/16/0.39, ALT / AST:33/19, Alk Phos / T Bili:37/0.3,
+   Amylase / Lipase:/13, Differential-Neuts:88.7 %, Band:0.0 %, Lymph:8.3
+   %, Mono:2.8 %, Eos:0.2 %, Lactic Acid:1.2 mmol/L, Albumin:2.9 g/dL,
+   LDH:274 IU/L, Ca++:7.6 mg/dL, Mg++:2.0 mg/dL, PO4:2.6 mg/dL
+   Imaging: Echo - preserved systolic function
+   Microbiology: Stool sent for culture
+   DFA pending
+   Urine cx and legionella Ag neg
+   Assessment and Plan
+   Assessment and Plan
+   62 yo woman with with presyncope, found to be hypotensive in setting of
+   diarrhea, possible adrenal insufficiency vs sepsis (bandemia).
+   1. Hypotension vs sepsis: diarrhea/hypovolemia as most likely primary
+   etiology exacerbated by possible sepsis vs AI. Responsed well to
+   initial fluid resusitation and now off pressors. Good urine output.
+   Has low baseline cortisol of 3, and did not respond to cosyntropin as
+   well - on HC 100 TID. Will switch to pred 60 [**Hospital1 **]. Suggest rapid taper
+   down to home dose of 5 mg daily.
+   2. Diarrhea/fever: Now on Vanc/CTX/flagyl/Cipro. No other sources of
+   fever for the moment. F/u cultures, stool studies. ID input
+   appreciated. Will d/c vanc and CFTX.
+   3. cardiac ischemia:  troponins trending down, no evidence for acute
+   coronary syndrome.  Likely demand ischemia with leak. Getting aspirin.
+   4. ARF: Cr continues to improve, likely was prerenal.
+   5. Non-gap acidosis: improving.
+   6. On simvastatin vs placebo in sepsis study. Please call [**First Name4 (NamePattern1) 831**] [**Last Name (NamePattern1) 313**]
+   if any concerns.
+   ICU Care
+   Nutrition: PO diet
+   Glycemic Control:
+   Lines: subclav, to be removed today
+   18 Gauge - [**2192-3-31**] 10:39 PM
+   Presep Catheter - [**2192-3-31**] 10:41 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition :Transfer to floor
+   Total time spent: 35 minutes<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 62-year-old woman admitted to the ICU with presyncope, hypotension, and diarrhea. She has been treated with fluids, antibiotics, and corticosteroids. Her condition has improved, and she is now off pressors. However, she remains at risk for several medical complications.
+
+Potential Medical Complications:
+
+1. Adrenal Insufficiency: The patient's low baseline cortisol level and lack of response to cosyntropin suggest adrenal insufficiency. She is being treated with hydrocortisone, but will need to be tapered down to a home dose of 5mg daily.
+2. Sepsis: The patient's bandemia and non-gap acidosis suggest sepsis. She is being treated with antibiotics, but the source of the infection remains unclear.
+3. Cardiac Ischemia: The patient's troponin levels are trending down, but she is still at risk for cardiac ischemia. She will be started on aspirin and monitored closely.
+4. Acute Renal Failure: The patient's creatinine levels have improved, but she remains at risk for acute renal failure. She will need to be closely monitored for any signs of worsening kidney function.
+5. Non-Gap Acidosis: The patient's acidosis is improving, but she will need to be monitored closely to ensure that it does not worsen.
+6. Diarrhea: The patient's diarrhea is ongoing, and she will need to be treated with anti-diarrheal medications and monitored for signs of dehydration.
+7. Infection: The patient's stool culture is pending, and she may be at risk for infection. She will need to be closely monitored for any signs of infection, such as fever, chills, or increased white blood cell count.
+
+Overall, the patient is at risk for several medical complications, and will need to be closely monitored and treated aggressively to prevent these complications from occurring."

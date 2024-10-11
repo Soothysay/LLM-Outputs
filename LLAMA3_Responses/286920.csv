@@ -1,0 +1,2366 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+172174.0,286920,2114-10-25 07:21:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ ULTRASOUND - At [**2114-10-24**] 08:40 PM
+ CARDIAC CATH - At [**2114-10-24**] 08:45 PM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Dopamine - 3 mcg/Kg/min
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-10-25**] 07:01 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (98.9
+   Tcurrent: 36.7
+C (98.1
+   HR: 84 (80 - 113) bpm
+   BP: 97/51(62) {94/47(62) - 127/75(85)} mmHg
+   RR: 20 (12 - 25) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 69 Inch
+             Total In:
+                                                                  1,934 mL
+                                                                    754 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,934 mL
+                                                                    754 mL
+   Blood products:
+   Total out:
+                                                                    900 mL
+                                                                  1,350 mL
+   Urine:
+                                                                    900 mL
+                                                                  1,350 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,034 mL
+                                                                   -595 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ////
+   Physical Examination
+   NECK: Supple, JVP flat
+   CARDIAC: PMI located in 5th intercostal space, midclavicular line. RR,
+   normal S1, S2. No m/r/g.
+   LUNGS:  Resp were unlabored, no accessory muscle use. CTAB
+   ABDOMEN: Soft, NTND. No HSM or tenderness.
+   EXTREMITIES: No c/c/e.
+   PULSES:
+   Right: Carotid 2+ Femoral 2+  DP 2+ PT 2+
+   Left: Carotid 2+ Femoral 2+  DP 2+ PT 2+
+   Labs / Radiology
+        [image002.jpg]
+   Assessment and Plan
+   ASSESSMENT AND PLAN 67 yo asymptomatic male with h/o hyperlipidemia who
+   presented for diagnostic/interventional cath given abnormal Cardiac CT
+   and found to have LAD and LCX dz now s/p DES to LAD.
+   .
+   # CORONARIES: Pt underwent cath which showed occluded mid-LAD and 70%
+   prox LAD stenosis, LCX with mild dz, now s/p PCI to LAD--> DES placed
+   in mid LAD and 1 DES in prox LAD; balloon angioplasty at ostium of
+   diag.
+   -Integrillin x 18 hrs
+   -asa, plavix, lipitor
+   -IVF given high large dye load
+   -Bedrest until 22:30
+   -Repeat EKG in AM
+   -Repeat K, Cr, CBC in AM
+   .
+   # PUMP: Normal echo post-cath; normal EF 55%, euvolemic on exam
+   .
+   # [**Name (NI) 477**] Pt had episode in cath lab requiring dopamine gtt.
+   Unclear etiology but may be related to a ? vagal episode in the setting
+   of GI upset/stomach was full of air.  Other causes may include high dye
+   load causing vasodilation/low body temp.
+   -Continue dopamine to keep MAP>55 but goal to wean off tonight
+   -Bear hugger to improve body temp.
+   .
+   #OSA- Continue home CPAP
+   .
+   FEN: Cardiac diet
+   ACCESS: PIV's
+   PROPHYLAXIS:
+   -DVT ppx with integrellin
+   CODE: FULL (Confirmed with pt)
+   DISPO: CCU
+   CONTACT: WIFE:  [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+   .
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2114-10-24**] 08:48 PM
+   20 Gauge - [**2114-10-24**] 08:48 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ ULTRASOUND - At [**2114-10-24**] 08:40 PM
+ CARDIAC CATH - At [**2114-10-24**] 08:45 PM
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Dopamine - 3 mcg/Kg/min
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-10-25**] 07:01 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (98.9
+   Tcurrent: 36.7
+C (98.1
+   HR: 84 (80 - 113) bpm
+   BP: 97/51(62) {94/47(62) - 127/75(85)} mmHg
+   RR: 20 (12 - 25) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 69 Inch
+             Total In:
+                                                                  1,934 mL
+                                                                    754 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,934 mL
+                                                                    754 mL
+   Blood products:
+   Total out:
+                                                                    900 mL
+                                                                  1,350 mL
+   Urine:
+                                                                    900 mL
+                                                                  1,350 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,034 mL
+                                                                   -595 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ////
+   Physical Examination
+   NECK: Supple, JVP flat
+   CARDIAC: PMI located in 5th intercostal space, midclavicular line. RR,
+   normal S1, S2. No m/r/g.
+   LUNGS:  Resp were unlabored, no accessory muscle use. CTAB
+   ABDOMEN: Soft, NTND. No HSM or tenderness.
+   EXTREMITIES: No c/c/e.
+   PULSES:
+   Right: Carotid 2+ Femoral 2+  DP 2+ PT 2+
+   Left: Carotid 2+ Femoral 2+  DP 2+ PT 2+
+   Labs / Radiology
+        [image002.jpg]
+   Assessment and Plan
+   ASSESSMENT AND PLAN 67 yo asymptomatic male with h/o hyperlipidemia who
+   presented for diagnostic/interventional cath given abnormal Cardiac CT
+   and found to have LAD and LCX dz now s/p DES to LAD.
+   .
+   # CORONARIES: Pt underwent cath which showed occluded mid-LAD and 70%
+   prox LAD stenosis, LCX with mild dz, now s/p PCI to LAD--> DES placed
+   in mid LAD and 1 DES in prox LAD; balloon angioplasty at ostium of
+   diag.
+   -Integrillin x 18 hrs
+   -asa, plavix, lipitor
+   -IVF given high large dye load
+   -Bedrest until 22:30
+   -Repeat EKG in AM
+   -Repeat K, Cr, CBC in AM
+   .
+   # PUMP: Normal echo post-cath; normal EF 55%, euvolemic on exam
+   .
+   # [**Name (NI) 477**] Pt had episode in cath lab requiring dopamine gtt.
+   Unclear etiology but may be related to a ? vagal episode in the setting
+   of GI upset/stomach was full of air.  Other causes may include high dye
+   load causing vasodilation/low body temp.
+   -Continue dopamine to keep MAP>55 but goal to wean off tonight
+   -Bear hugger to improve body temp.
+   .
+   #OSA- Continue home CPAP
+   .
+   FEN: Cardiac diet
+   ACCESS: PIV's
+   PROPHYLAXIS:
+   -DVT ppx with integrellin
+   CODE: FULL (Confirmed with pt)
+   DISPO: CCU
+   CONTACT: WIFE:  [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+   .
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2114-10-24**] 08:48 PM
+   20 Gauge - [**2114-10-24**] 08:48 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 67-year-old male who underwent diagnostic/interventional cardiac catheterization for abnormal Cardiac CT findings. The catheterization revealed occluded mid-LAD and 70% proximal LAD stenosis, with mild disease in the LCX. The patient received DES placement in the mid-LAD and proximal LAD, as well as balloon angioplasty at the ostium of the diagonal.
+
+The patient experienced an episode during the catheterization that required dopamine infusion, which was unclear in etiology but may be related to a possible vagal episode in the setting of GI upset and a full stomach. The patient's vital signs are stable, with a temperature of 36.7°C, heart rate of 84 bpm, and blood pressure of 97/51 mmHg.
+
+Potential medical complications that can arise include:
+
+1. Cardiac complications: The patient has a history of coronary artery disease and has undergone PCI with DES placement. There is a risk of restenosis, stent thrombosis, and cardiac arrhythmias.
+2. Vascular complications: The patient received a high dose of dye during the catheterization, which may have caused vasodilation and low body temperature. This could lead to complications such as vasodilatory shock or cardiac arrest.
+3. Respiratory complications: The patient's oxygen saturation is 96%, but there is a risk of respiratory failure or acute respiratory distress syndrome (ARDS) due to the patient's underlying cardiac disease and potential for fluid overload.
+4. Neurological complications: The patient's episode during the catheterization may have been related to a vagal episode, which could lead to complications such as bradycardia, hypotension, or even cardiac arrest.
+5. Infection: The patient has a central line in place, which increases the risk of central line-associated bloodstream infection (CLABSI) or catheter-related bloodstream infection (CRBSI).
+6. Bleeding complications: The patient received anticoagulation therapy with integrillin, which increases the risk of bleeding complications such as gastrointestinal bleeding or intracranial hemorrhage.
+
+Overall, the patient requires close monitoring and management to prevent and address potential complications."
+172174.0,286920,2114-10-25 07:21:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   Hypotension during
+   cath
+   24 Hour Events:
+   Pt maintained SBPs overnight.  No acute events.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Dopamine - 3 mcg/Kg/min
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-10-25**] 07:01 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (98.9
+   Tcurrent: 36.7
+C (98.1
+   HR: 84 (80 - 113) bpm
+   BP: 97/51(62) {94/47(62) - 127/75(85)} mmHg
+   RR: 20 (12 - 25) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 69 Inch
+             Total In:
+                                                                  1,934 mL
+                                                                    754 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,934 mL
+                                                                    754 mL
+   Blood products:
+   Total out:
+                                                                    900 mL
+                                                                  1,350 mL
+   Urine:
+                                                                    900 mL
+                                                                  1,350 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,034 mL
+                                                                   -595 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ////
+   Physical Examination
+   NECK: Supple, JVP flat
+   CARDIAC: PMI located in 5th intercostal space, midclavicular line. RR,
+   normal S1, S2. No m/r/g.
+   LUNGS:  Resp were unlabored, no accessory muscle use. CTAB
+   ABDOMEN: Soft, NTND. No HSM or tenderness.
+   EXTREMITIES: No c/c/e.
+   PULSES:
+   Right: Carotid 2+ Femoral 2+  DP 2+ PT 2+
+   Left: Carotid 2+ Femoral 2+  DP 2+ PT 2+
+   Labs / Radiology
+   141
+                               [image002.gif]
+                                     108
+                               [image002.gif]
+                                     22
+   [image004.gif]
+   147
+                                                                   AGap=13
+   [image005.gif]
+   3.5
+                               [image002.gif]
+                                     24
+                               [image002.gif]
+                                     1.1
+   [image007.gif]
+   Mg: 1.4
+   ALT: 12
+   AP:
+   Tbili: 0.3
+   Alb: 3.3
+   AST: 16
+   LDH: 168
+   Dbili:
+   TProt:
+   [**Doctor First Name 354**]:
+   Lip:
+   86
+                                                                      12.0
+                                                            [image007.gif]
+                                    13.1
+   [image004.gif]
+   10
+                                   [image008.gif]
+   [image004.gif]
+                                    38.0
+   [image007.gif]
+   N:97.2 L:1.3 M:1.3 E:0.1 Bas:0.1
+   Assessment and Plan
+   ASSESSMENT AND PLAN 67 yo asymptomatic male with h/o hyperlipidemia who
+   presented for diagnostic/interventional cath given abnormal Cardiac CT
+   and found to have LAD and LCX dz now s/p DES to LAD.
+   .
+   # CORONARIES: Pt underwent cath which showed occluded mid-LAD and 70%
+   prox LAD stenosis, LCX with mild dz, now s/p PCI to LAD--> DES placed
+   in mid LAD and 1 DES in prox LAD; balloon angioplasty at ostium of
+   diag.
+   -Integrillin x 18 hrs, stop at 1pm
+   -asa, plavix, lipitor
+   -IVF given high large dye load
+   - Repeat CBC, concern for low platelets.  If low, stop integrillin.
+   .
+   # PUMP: Normal echo post-cath; normal EF 55%, euvolemic on exam
+   .
+   # Hypotension- resolved.  Pt had episode in cath lab requiring dopamine
+   gtt.  Unclear etiology but may be related to a ? vagal episode in the
+   setting of GI upset/stomach was full of air.  Other causes may include
+   high dye load causing vasodilation/low body temp.
+   -Stop dopamine -Bear hugger to improve body temp.
+   .
+   #OSA- Continue home CPAP
+   .
+   FEN: Cardiac diet
+   ACCESS: PIV's
+   PROPHYLAXIS:
+   -DVT ppx with integrellin
+   CODE: FULL (Confirmed with pt)
+   DISPO: CCU
+   CONTACT: WIFE:  [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+   .
+       1000 mL NS Bolus 1000 ml Over 120 mins Order date: [**10-25**] @ 0009
+   7. Clopidogrel 75 mg PO DAILY  Order date: [**10-24**] @ 2140
+   2. 1000 mL NS
+   Continuous at 125 ml/hr for 1500 ml Order date: [**10-25**] @ 0009
+   8. DOPamine 5-10 mcg/kg/min IV DRIP TITRATE TO SBP> 100 or MAP >65
+   Order date: [**10-25**] @ 1010
+   3. Acetaminophen 325-650 mg PO Q6H:PRN  Order date: [**10-24**] @ 2140
+   9. Docusate Sodium 100 mg PO DAILY:PRN  Order date: [**10-24**] @ 2140
+   4. Aspirin EC 325 mg PO DAILY  Order date: [**10-25**] @ 1015
+   10. Eptifibatide 2 mcg/kg/min IV DRIP INFUSION Duration: 18 Hours Order
+   date: [**10-24**] @ 2140
+   5. Aspirin EC 243 mg PO ONCE Duration: 1 Doses Start: [**2114-10-25**] Order
+   date: [**10-25**] @ 1016
+   11. Magnesium Sulfate 4 gm IV ONCE Duration: 1 Doses Order date: [**10-25**]
+   @ 1012
+   6. Atorvastatin 10 mg PO DAILY  Order date: [**10-24**] @ 2140
+   12. Potassium Chloride 60 mEq PO ONCE Duration: 1 Doses Order date:
+   [**10-25**] @ 1012
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   Hypotension during
+   cath
+   24 Hour Events:
+   Pt maintained SBPs overnight.  No acute events.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Dopamine - 3 mcg/Kg/min
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-10-25**] 07:01 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (98.9
+   Tcurrent: 36.7
+C (98.1
+   HR: 84 (80 - 113) bpm
+   BP: 97/51(62) {94/47(62) - 127/75(85)} mmHg
+   RR: 20 (12 - 25) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 69 Inch
+             Total In:
+                                                                  1,934 mL
+                                                                    754 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,934 mL
+                                                                    754 mL
+   Blood products:
+   Total out:
+                                                                    900 mL
+                                                                  1,350 mL
+   Urine:
+                                                                    900 mL
+                                                                  1,350 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,034 mL
+                                                                   -595 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ////
+   Physical Examination
+   NECK: Supple, JVP flat
+   CARDIAC: PMI located in 5th intercostal space, midclavicular line. RR,
+   normal S1, S2. No m/r/g.
+   LUNGS:  Resp were unlabored, no accessory muscle use. CTAB
+   ABDOMEN: Soft, NTND. No HSM or tenderness.
+   EXTREMITIES: No c/c/e.
+   PULSES:
+   Right: Carotid 2+ Femoral 2+  DP 2+ PT 2+
+   Left: Carotid 2+ Femoral 2+  DP 2+ PT 2+
+   Labs / Radiology
+   141
+                               [image002.gif]
+                                     108
+                               [image002.gif]
+                                     22
+   [image004.gif]
+   147
+                                                                   AGap=13
+   [image005.gif]
+   3.5
+                               [image002.gif]
+                                     24
+                               [image002.gif]
+                                     1.1
+   [image007.gif]
+   Mg: 1.4
+   ALT: 12
+   AP:
+   Tbili: 0.3
+   Alb: 3.3
+   AST: 16
+   LDH: 168
+   Dbili:
+   TProt:
+   [**Doctor First Name 354**]:
+   Lip:
+   86
+                                                                      12.0
+                                                            [image007.gif]
+                                    13.1
+   [image004.gif]
+   10
+                                   [image008.gif]
+   [image004.gif]
+                                    38.0
+   [image007.gif]
+   N:97.2 L:1.3 M:1.3 E:0.1 Bas:0.1
+   Assessment and Plan
+   ASSESSMENT AND PLAN 67 yo asymptomatic male with h/o hyperlipidemia who
+   presented for diagnostic/interventional cath given abnormal Cardiac CT
+   and found to have LAD and LCX dz now s/p DES to LAD.
+   .
+   # CORONARIES: Pt underwent cath which showed occluded mid-LAD and 70%
+   prox LAD stenosis, LCX with mild dz, now s/p PCI to LAD--> DES placed
+   in mid LAD and 1 DES in prox LAD; balloon angioplasty at ostium of
+   diag.
+   -Integrillin x 18 hrs, stop at 1pm
+   -asa, plavix, lipitor
+   -IVF given high large dye load
+   - Repeat CBC, concern for low platelets.  If low, stop integrillin.
+   .
+   # PUMP: Normal echo post-cath; normal EF 55%, euvolemic on exam
+   .
+   # Hypotension- resolved.  Pt had episode in cath lab requiring dopamine
+   gtt.  Unclear etiology but may be related to a ? vagal episode in the
+   setting of GI upset/stomach was full of air.  Other causes may include
+   high dye load causing vasodilation/low body temp.
+   -Stop dopamine -Bear hugger to improve body temp.
+   .
+   #OSA- Continue home CPAP
+   .
+   FEN: Cardiac diet
+   ACCESS: PIV's
+   PROPHYLAXIS:
+   -DVT ppx with integrellin
+   CODE: FULL (Confirmed with pt)
+   DISPO: CCU
+   CONTACT: WIFE:  [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+   .
+       1000 mL NS Bolus 1000 ml Over 120 mins Order date: [**10-25**] @ 0009
+   7. Clopidogrel 75 mg PO DAILY  Order date: [**10-24**] @ 2140
+   2. 1000 mL NS
+   Continuous at 125 ml/hr for 1500 ml Order date: [**10-25**] @ 0009
+   8. DOPamine 5-10 mcg/kg/min IV DRIP TITRATE TO SBP> 100 or MAP >65
+   Order date: [**10-25**] @ 1010
+   3. Acetaminophen 325-650 mg PO Q6H:PRN  Order date: [**10-24**] @ 2140
+   9. Docusate Sodium 100 mg PO DAILY:PRN  Order date: [**10-24**] @ 2140
+   4. Aspirin EC 325 mg PO DAILY  Order date: [**10-25**] @ 1015
+   10. Eptifibatide 2 mcg/kg/min IV DRIP INFUSION Duration: 18 Hours Order
+   date: [**10-24**] @ 2140
+   5. Aspirin EC 243 mg PO ONCE Duration: 1 Doses Start: [**2114-10-25**] Order
+   date: [**10-25**] @ 1016
+   11. Magnesium Sulfate 4 gm IV ONCE Duration: 1 Doses Order date: [**10-25**]
+   @ 1012
+   6. Atorvastatin 10 mg PO DAILY  Order date: [**10-24**] @ 2140
+   12. Potassium Chloride 60 mEq PO ONCE Duration: 1 Doses Order date:
+   [**10-25**] @ 1012<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 67-year-old male who presented with abnormal cardiac CT and was found to have LAD and LCX disease. He underwent diagnostic/interventional catheterization, which showed occluded mid-LAD and 70% proximal LAD stenosis, and mild disease in LCX. He was treated with DES placement in mid-LAD and proximal LAD, and balloon angioplasty at the ostium of the diagonal branch. He was given Integrillin for 18 hours, ASA, Plavix, and Lipitor.
+
+The patient had an episode of hypotension during the procedure, which was treated with dopamine infusion. The etiology of the hypotension is unclear, but may be related to a vagal episode or high dye load causing vasodilation/low body temperature.
+
+The patient is currently being treated with IV fluids, dopamine, and other medications. He is also being monitored for low platelets and is being given a cardiac diet.
+
+Potential medical complications that can arise:
+
+1. Low platelets: The patient is at risk for low platelets due to the Integrillin infusion. If the platelet count drops, the Integrillin may need to be stopped.
+2. Hypotension: The patient had an episode of hypotension during the procedure, which may be related to a vagal episode or high dye load causing vasodilation/low body temperature. The patient may be at risk for further episodes of hypotension.
+3. Cardiac complications: The patient has LAD and LCX disease, which may increase his risk for cardiac complications such as myocardial infarction, arrhythmias, and heart failure.
+4. Gastrointestinal complications: The patient had a full stomach during the procedure, which may have contributed to his hypotensive episode. He may be at risk for further gastrointestinal complications such as nausea, vomiting, and abdominal pain.
+5. Respiratory complications: The patient is being treated with oxygen therapy, which may increase his risk for respiratory complications such as respiratory failure and pneumonia.
+6. Renal complications: The patient is at risk for renal complications such as acute kidney injury and chronic kidney disease due to the use of IV fluids and medications.
+7. Infection: The patient is at risk for infection due to the use of invasive devices such as central lines and arterial lines."
+172174.0,286920,2114-10-26 07:06:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint: Cath
+   24 Hour Events:
+   AM Platelets 10, repeated 5. Thought to be integralin induced so
+   stopped (had received 16hrs). Transfused 1unit platelets with repeat
+   Plt 31. Pt very concerned of ""system error"" that plts were not checked
+   prior to AM labs.
+   Off dobutamine drip, BPs stable.
+   History obtained from Patient
+   Allergies:
+   History obtained from PatientIntegrilin (Intraven) (Eptifibatide)
+   Thrombocytopeni
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No lightheadedness/dizziness, no tingling
+   Respiratory: No SOB
+   Gastrointestinal: no abd pain, N/V, D/C
+   Musculoskeletal: No Groin pain
+   Pain: No pain / appears comfortable
+   Flowsheet Data as of  [**2114-10-26**] 07:04 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37
+C (98.6
+   HR: 65 (62 - 96) bpm
+   BP: 98/51(63) {86/46(61) - 139/99(111)} mmHg
+   RR: 15 (12 - 28) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 69 Inch
+                  Total In:
+                                                                  2,314 mL
+                  PO:
+                                                                    750 mL
+                  TF:
+   IVF:
+                                                                  1,337 mL
+   Blood products:
+                                                                    227 mL
+   Total out:
+                                                                  2,300 mL
+                                                                  1,000 mL
+   Urine:
+                                                                  2,300 mL
+                                                                  1,000 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     14 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: moist MM
+   Cardiovascular: (S1: Normal), (S2: Normal), regular rate and rhythm
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Breath Sounds: Crackles : bilateral bases)
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Warm
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): person, place and time, Movement: Not
+   assessed, Tone: Not assessed
+   Labs / Radiology
+   41 K/uL
+   10.4 g/dL
+   90 mg/dL
+   0.9 mg/dL
+   25 mEq/L
+   3.5 mEq/L
+   22 mg/dL
+   113 mEq/L
+   144 mEq/L
+   29.6 %
+   6.2 K/uL
+        [image002.jpg]
+                             [**2114-10-25**]  05:56 AM
+                             [**2114-10-25**]  10:46 AM
+                             [**2114-10-25**]  02:10 PM
+                             [**2114-10-25**]  04:41 PM
+                             [**2114-10-26**]  04:27 AM
+   WBC
+   12.0
+   8.9
+   6.2
+   Hct
+   38.0
+   33.6
+   29.6
+   Plt
+   10
+   5
+   5
+   32
+   41
+   Cr
+   1.1
+   0.9
+   Glucose
+   147
+   90
+   Other labs: PT / PTT / INR:13.7/26.9/1.2, CK / CKMB / Troponin-T:49/3/,
+   ALT / AST:[**12-4**], Alk Phos / T Bili:/0.3, Differential-Neuts:97.2 %,
+   Lymph:1.3 %, Mono:1.3 %, Eos:0.1 %, D-dimer:2409 ng/mL, Fibrinogen:336
+   mg/dL, Albumin:3.3 g/dL, LDH:174 IU/L, Ca++:7.0 mg/dL, Mg++:2.0 mg/dL,
+   PO4:1.9 mg/dL
+   Assessment and Plan
+   67 yo asymptomatic male with h/o hyperlipidemia who presented for
+   diagnostic/interventional cath given abnormal Cardiac CT and found to
+   have LAD and LCX dz now s/p DES to LAD.
+   .
+   # CORONARIES: s/p Cath with PCI to LAD (DES placed in mid LAD and 1 DES
+   in prox LAD)
+   -asa, plavix, lipitor
+   -Integrillin stopped due to thrombocytopenia. Received 16hrs.
+   .
+   # THROMBOCYTOPENIA:
+   - Baseline normal plts on [**10-24**], dropped to 10 morning of [**10-25**]
+   - Attributed to integrelin, stopped early and transfused 1 unit plts.
+   - Trending up this AM
+   - Pt concerned that plt was not checked evening of cath after being
+   started in cath unit.
+   .
+   # PUMP: Normal echo post-cath; normal EF 55%, euvolemic on exam
+   .
+   # HYPOCALCEMIA:
+   -
+   .
+   # ANEMIA: HCT down 9 points in 24hrs (38 -> 33.6->29.6)
+   - No sign of hematoma at groin sites
+   - Will recheck
+   .
+   # Hypotension- resolved, off dopabutamine.
+   Pt had episode in cath lab requiring dopamine gtt. Unclear etiology
+   .
+   #OSA- Continue home CPAP
+   .
+   FEN: Cardiac diet
+   ACCESS: PIV's  18 Gauge - [**2114-10-24**] 08:48 PM, 20 Gauge - [**2114-10-24**]
+   08:48 PM
+   PROPHYLAXIS:  None
+   CODE: FULL (Confirmed with pt)
+   DISPO: CCU
+   CONTACT: WIFE: [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+   Active Medications [**Known lastname 3342**],[**Known firstname 3343**]
+   1. Acetaminophen 325-650 mg PO Q6H:PRN  Order date: [**10-24**] @ 2140
+   2. Aspirin EC 325 mg PO DAILY  Order date: [**10-25**] @ 1015
+   3. Atorvastatin 10 mg PO DAILY  Order date: [**10-24**] @ 2140
+   4. Clopidogrel 75 mg PO DAILY  Order date: [**10-24**] @ 2140
+   5. Docusate Sodium 100 mg PO DAILY:PRN  Order date: [**10-24**] @ 2140
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint: Cath
+   24 Hour Events:
+   AM Platelets 10, repeated 5. Thought to be integralin induced so
+   stopped (had received 16hrs). Transfused 1unit platelets with repeat
+   Plt 31. Pt very concerned of ""system error"" that plts were not checked
+   prior to AM labs.
+   Off dobutamine drip, BPs stable.
+   History obtained from Patient
+   Allergies:
+   History obtained from PatientIntegrilin (Intraven) (Eptifibatide)
+   Thrombocytopeni
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No lightheadedness/dizziness, no tingling
+   Respiratory: No SOB
+   Gastrointestinal: no abd pain, N/V, D/C
+   Musculoskeletal: No Groin pain
+   Pain: No pain / appears comfortable
+   Flowsheet Data as of  [**2114-10-26**] 07:04 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37
+C (98.6
+   HR: 65 (62 - 96) bpm
+   BP: 98/51(63) {86/46(61) - 139/99(111)} mmHg
+   RR: 15 (12 - 28) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 69 Inch
+                  Total In:
+                                                                  2,314 mL
+                  PO:
+                                                                    750 mL
+                  TF:
+   IVF:
+                                                                  1,337 mL
+   Blood products:
+                                                                    227 mL
+   Total out:
+                                                                  2,300 mL
+                                                                  1,000 mL
+   Urine:
+                                                                  2,300 mL
+                                                                  1,000 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     14 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: moist MM
+   Cardiovascular: (S1: Normal), (S2: Normal), regular rate and rhythm
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Breath Sounds: Crackles : bilateral bases)
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Absent, Left: Absent
+   Skin:  Warm
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): person, place and time, Movement: Not
+   assessed, Tone: Not assessed
+   Labs / Radiology
+   41 K/uL
+   10.4 g/dL
+   90 mg/dL
+   0.9 mg/dL
+   25 mEq/L
+   3.5 mEq/L
+   22 mg/dL
+   113 mEq/L
+   144 mEq/L
+   29.6 %
+   6.2 K/uL
+        [image002.jpg]
+                             [**2114-10-25**]  05:56 AM
+                             [**2114-10-25**]  10:46 AM
+                             [**2114-10-25**]  02:10 PM
+                             [**2114-10-25**]  04:41 PM
+                             [**2114-10-26**]  04:27 AM
+   WBC
+   12.0
+   8.9
+   6.2
+   Hct
+   38.0
+   33.6
+   29.6
+   Plt
+   10
+   5
+   5
+   32
+   41
+   Cr
+   1.1
+   0.9
+   Glucose
+   147
+   90
+   Other labs: PT / PTT / INR:13.7/26.9/1.2, CK / CKMB / Troponin-T:49/3/,
+   ALT / AST:[**12-4**], Alk Phos / T Bili:/0.3, Differential-Neuts:97.2 %,
+   Lymph:1.3 %, Mono:1.3 %, Eos:0.1 %, D-dimer:2409 ng/mL, Fibrinogen:336
+   mg/dL, Albumin:3.3 g/dL, LDH:174 IU/L, Ca++:7.0 mg/dL, Mg++:2.0 mg/dL,
+   PO4:1.9 mg/dL
+   Assessment and Plan
+   67 yo asymptomatic male with h/o hyperlipidemia who presented for
+   diagnostic/interventional cath given abnormal Cardiac CT and found to
+   have LAD and LCX dz now s/p DES to LAD.
+   .
+   # CORONARIES: s/p Cath with PCI to LAD (DES placed in mid LAD and 1 DES
+   in prox LAD)
+   -asa, plavix, lipitor
+   -Integrillin stopped due to thrombocytopenia. Received 16hrs.
+   .
+   # THROMBOCYTOPENIA:
+   - Baseline normal plts on [**10-24**], dropped to 10 morning of [**10-25**]
+   - Attributed to integrelin, stopped early and transfused 1 unit plts.
+   - Trending up this AM
+   - Pt concerned that plt was not checked evening of cath after being
+   started in cath unit.
+   .
+   # PUMP: Normal echo post-cath; normal EF 55%, euvolemic on exam
+   .
+   # HYPOCALCEMIA:
+   -
+   .
+   # ANEMIA: HCT down 9 points in 24hrs (38 -> 33.6->29.6)
+   - No sign of hematoma at groin sites
+   - Will recheck
+   .
+   # Hypotension- resolved, off dopabutamine.
+   Pt had episode in cath lab requiring dopamine gtt. Unclear etiology
+   .
+   #OSA- Continue home CPAP
+   .
+   FEN: Cardiac diet
+   ACCESS: PIV's  18 Gauge - [**2114-10-24**] 08:48 PM, 20 Gauge - [**2114-10-24**]
+   08:48 PM
+   PROPHYLAXIS:  None
+   CODE: FULL (Confirmed with pt)
+   DISPO: CCU
+   CONTACT: WIFE: [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+   Active Medications [**Known lastname 3342**],[**Known firstname 3343**]
+   1. Acetaminophen 325-650 mg PO Q6H:PRN  Order date: [**10-24**] @ 2140
+   2. Aspirin EC 325 mg PO DAILY  Order date: [**10-25**] @ 1015
+   3. Atorvastatin 10 mg PO DAILY  Order date: [**10-24**] @ 2140
+   4. Clopidogrel 75 mg PO DAILY  Order date: [**10-24**] @ 2140
+   5. Docusate Sodium 100 mg PO DAILY:PRN  Order date: [**10-24**] @ 2140<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, the following key points are noted:
+
+1. The patient is a 67-year-old male with a history of hyperlipidemia who underwent diagnostic/interventional catheterization with PCI to the left anterior descending (LAD) artery due to abnormal cardiac CT findings.
+2. The patient developed thrombocytopenia (platelet count of 10) after receiving integrilin, which was attributed to the medication and was stopped early. The patient received 1 unit of platelets and is trending up.
+3. The patient's platelet count was not checked in the evening of the catheterization, which caused concern for the patient.
+4. The patient's hemodynamic monitoring shows stable vital signs, with a heart rate of 65 bpm, blood pressure of 98/51 mmHg, and oxygen saturation of 96%.
+5. The patient's laboratory results show anemia (HCT down 9 points in 24 hours), hypocalcemia (Ca++ 7.0 mg/dL), and elevated D-dimer (2409 ng/mL).
+6. The patient's physical examination shows a well-nourished appearance, normal heart sounds, and bilateral breath sounds.
+7. The patient's medications include aspirin, atorvastatin, clopidogrel, docusate sodium, and acetaminophen.
+
+Potential medical complications that can arise based on the patient's condition include:
+
+1. Bleeding complications due to thrombocytopenia, especially with the use of anticoagulant medications such as aspirin and clopidogrel.
+2. Anemia may worsen if the patient's hematocrit continues to decrease, potentially leading to decreased oxygen delivery to tissues.
+3. Hypocalcemia may lead to cardiac arrhythmias, muscle cramps, and seizures if not adequately managed.
+4. Elevated D-dimer levels may indicate a risk of venous thromboembolism (VTE) or pulmonary embolism (PE), which requires close monitoring and potential anticoagulation therapy.
+5. The patient's history of hyperlipidemia and cardiac disease may increase the risk of future cardiovascular events, such as myocardial infarction or stroke.
+
+Overall, the patient requires close monitoring and management of his thrombocytopenia, anemia, hypocalcemia, and other potential complications to ensure optimal care and minimize the risk of adverse events."
+172174.0,286920,2114-10-26 07:06:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint: Cath
+   24 Hour Events:
+   AM Platelets 10, repeated 5. Thought to be integralin induced so
+   stopped (had received 16hrs). Transfused 1unit platelets with repeat
+   Plt 31. Pt very concerned of system error that plts were not checked
+   until AM labs after initiating integrelin.
+   Off dobutamine drip, BPs stable.
+   History obtained from Patient
+   Allergies:
+   History obtained from PatientIntegrilin (Intraven) (Eptifibatide)
+   Thrombocytopeni
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No lightheadedness/dizziness, no tingling
+   Respiratory: No SOB
+   Gastrointestinal: no abd pain, N/V, D/C
+   Musculoskeletal: No Groin pain
+   Pain: No pain / appears comfortable
+   Flowsheet Data as of  [**2114-10-26**] 07:04 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37
+C (98.6
+   HR: 65 (62 - 96) bpm
+   BP: 98/51(63) {86/46(61) - 139/99(111)} mmHg
+   RR: 15 (12 - 28) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 69 Inch
+                  Total In:
+                                                                  2,314 mL
+                  PO:
+                                                                    750 mL
+                  TF:
+   IVF:
+                                                                  1,337 mL
+   Blood products:
+                                                                    227 mL
+   Total out:
+                                                                  2,300 mL
+                                                                  1,000 mL
+   Urine:
+                                                                  2,300 mL
+                                                                  1,000 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     14 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: moist MM
+   Cardiovascular: Normal S1S2, regular rate and rhythm, no murmurs
+   Peripheral Vascular: strong distal pulses
+   Respiratory / Chest: Bilateral basilar crackles.
+   Abdominal: Soft, Non-tender, Bowel sounds present, groin with bilateral
+   ecchymoses, small right firm hematoma (dime size),  larger left
+   hematoma (2inches) with ? fluid in lateral hip.
+   Extremities: no edema, warm well perfused.
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): person, place and time,
+   Labs / Radiology
+   41 K/uL
+   10.4 g/dL
+   90 mg/dL
+   0.9 mg/dL
+   25 mEq/L
+   3.5 mEq/L
+   22 mg/dL
+   113 mEq/L
+   144 mEq/L
+   29.6 %
+   6.2 K/uL
+        [image002.jpg]
+                             [**2114-10-25**]  05:56 AM
+                             [**2114-10-25**]  10:46 AM
+                             [**2114-10-25**]  02:10 PM
+                             [**2114-10-25**]  04:41 PM
+                             [**2114-10-26**]  04:27 AM
+   WBC
+   12.0
+   8.9
+   6.2
+   Hct
+   38.0
+   33.6
+   29.6
+   Plt
+   10
+   5
+   5
+   32
+   41
+   Cr
+   1.1
+   0.9
+   Glucose
+   147
+   90
+   Other labs: PT / PTT / INR:13.7/26.9/1.2, CK / CKMB / Troponin-T:49/3/,
+   ALT / AST:[**12-4**], Alk Phos / T Bili:/0.3, Differential-Neuts:97.2 %,
+   Lymph:1.3 %, Mono:1.3 %, Eos:0.1 %, D-dimer:2409 ng/mL, Fibrinogen:336
+   mg/dL, Albumin:3.3 g/dL, LDH:174 IU/L, Ca++:7.0 mg/dL, Mg++:2.0 mg/dL,
+   PO4:1.9 mg/dL
+   Assessment and Plan
+   67 yo asymptomatic male with h/o hyperlipidemia who presented for
+   diagnostic/interventional cath given abnormal Cardiac CT and found to
+   have LAD and LCX dz now s/p DES to LAD.
+   .
+   # CORONARIES: s/p Cath with PCI to LAD (DES placed in mid LAD and 1 DES
+   in prox LAD)
+   -asa, plavix, lipitor
+   -Integrillin stopped due to thrombocytopenia. Received 16hrs.
+   .
+   # THROMBOCYTOPENIA:
+   - Baseline normal plts on [**10-24**], dropped to 10 morning of [**10-25**]
+   - Attributed to integrelin, stopped early and transfused 1 unit plts.
+   - Trending up this AM
+   - Will recheck, would like >60 prior to DC.
+   .
+   # PUMP: Normal echo post-cath; normal EF 55%, euvolemic on exam
+   .
+   # ANEMIA: HCT down 9 points in 24hrs (38 -> 33.6->29.6), pt
+   asymptomatic
+   - Only small hematomas at groin sites, with ? lateral hip blood
+   collection. ? if enough to explain Hct drop.
+   - Will recheck Hct at 1pm and 9pm. CT abdomen to look for
+   retroperitoneal bleed.
+   - Transfuse RBCs or Plts as needed if bleeding.
+   .
+   # Hypotension- resolved, off dopabutamine.
+   Pt had episode in cath lab requiring dopamine gtt. Unclear etiology
+   .
+   #OSA- Continue home CPAP
+   .
+   FEN: Cardiac diet
+   ACCESS: PIV's  18 Gauge - [**2114-10-24**] 08:48 PM, 20 Gauge - [**2114-10-24**]
+   08:48 PM
+   PROPHYLAXIS:  None
+   CODE: FULL (Confirmed with pt)
+   DISPO: CCU
+   CONTACT: WIFE: [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+   Active Medications [**Known lastname 3342**],[**Known firstname 3343**]
+   1. Acetaminophen 325-650 mg PO Q6H:PRN  Order date: [**10-24**] @ 2140
+   2. Aspirin EC 325 mg PO DAILY  Order date: [**10-25**] @ 1015
+   3. Atorvastatin 10 mg PO DAILY  Order date: [**10-24**] @ 2140
+   4. Clopidogrel 75 mg PO DAILY  Order date: [**10-24**] @ 2140
+   5. Docusate Sodium 100 mg PO DAILY:PRN  Order date: [**10-24**] @ 2140
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint: Cath
+   24 Hour Events:
+   AM Platelets 10, repeated 5. Thought to be integralin induced so
+   stopped (had received 16hrs). Transfused 1unit platelets with repeat
+   Plt 31. Pt very concerned of system error that plts were not checked
+   until AM labs after initiating integrelin.
+   Off dobutamine drip, BPs stable.
+   History obtained from Patient
+   Allergies:
+   History obtained from PatientIntegrilin (Intraven) (Eptifibatide)
+   Thrombocytopeni
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No lightheadedness/dizziness, no tingling
+   Respiratory: No SOB
+   Gastrointestinal: no abd pain, N/V, D/C
+   Musculoskeletal: No Groin pain
+   Pain: No pain / appears comfortable
+   Flowsheet Data as of  [**2114-10-26**] 07:04 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37
+C (98.6
+   HR: 65 (62 - 96) bpm
+   BP: 98/51(63) {86/46(61) - 139/99(111)} mmHg
+   RR: 15 (12 - 28) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 69 Inch
+                  Total In:
+                                                                  2,314 mL
+                  PO:
+                                                                    750 mL
+                  TF:
+   IVF:
+                                                                  1,337 mL
+   Blood products:
+                                                                    227 mL
+   Total out:
+                                                                  2,300 mL
+                                                                  1,000 mL
+   Urine:
+                                                                  2,300 mL
+                                                                  1,000 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                     14 mL
+                                                                 -1,000 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: moist MM
+   Cardiovascular: Normal S1S2, regular rate and rhythm, no murmurs
+   Peripheral Vascular: strong distal pulses
+   Respiratory / Chest: Bilateral basilar crackles.
+   Abdominal: Soft, Non-tender, Bowel sounds present, groin with bilateral
+   ecchymoses, small right firm hematoma (dime size),  larger left
+   hematoma (2inches) with ? fluid in lateral hip.
+   Extremities: no edema, warm well perfused.
+   Neurologic: Attentive, Follows simple commands, Responds to: Not
+   assessed, Oriented (to): person, place and time,
+   Labs / Radiology
+   41 K/uL
+   10.4 g/dL
+   90 mg/dL
+   0.9 mg/dL
+   25 mEq/L
+   3.5 mEq/L
+   22 mg/dL
+   113 mEq/L
+   144 mEq/L
+   29.6 %
+   6.2 K/uL
+        [image002.jpg]
+                             [**2114-10-25**]  05:56 AM
+                             [**2114-10-25**]  10:46 AM
+                             [**2114-10-25**]  02:10 PM
+                             [**2114-10-25**]  04:41 PM
+                             [**2114-10-26**]  04:27 AM
+   WBC
+   12.0
+   8.9
+   6.2
+   Hct
+   38.0
+   33.6
+   29.6
+   Plt
+   10
+   5
+   5
+   32
+   41
+   Cr
+   1.1
+   0.9
+   Glucose
+   147
+   90
+   Other labs: PT / PTT / INR:13.7/26.9/1.2, CK / CKMB / Troponin-T:49/3/,
+   ALT / AST:[**12-4**], Alk Phos / T Bili:/0.3, Differential-Neuts:97.2 %,
+   Lymph:1.3 %, Mono:1.3 %, Eos:0.1 %, D-dimer:2409 ng/mL, Fibrinogen:336
+   mg/dL, Albumin:3.3 g/dL, LDH:174 IU/L, Ca++:7.0 mg/dL, Mg++:2.0 mg/dL,
+   PO4:1.9 mg/dL
+   Assessment and Plan
+   67 yo asymptomatic male with h/o hyperlipidemia who presented for
+   diagnostic/interventional cath given abnormal Cardiac CT and found to
+   have LAD and LCX dz now s/p DES to LAD.
+   .
+   # CORONARIES: s/p Cath with PCI to LAD (DES placed in mid LAD and 1 DES
+   in prox LAD)
+   -asa, plavix, lipitor
+   -Integrillin stopped due to thrombocytopenia. Received 16hrs.
+   .
+   # THROMBOCYTOPENIA:
+   - Baseline normal plts on [**10-24**], dropped to 10 morning of [**10-25**]
+   - Attributed to integrelin, stopped early and transfused 1 unit plts.
+   - Trending up this AM
+   - Will recheck, would like >60 prior to DC.
+   .
+   # PUMP: Normal echo post-cath; normal EF 55%, euvolemic on exam
+   .
+   # ANEMIA: HCT down 9 points in 24hrs (38 -> 33.6->29.6), pt
+   asymptomatic
+   - Only small hematomas at groin sites, with ? lateral hip blood
+   collection. ? if enough to explain Hct drop.
+   - Will recheck Hct at 1pm and 9pm. CT abdomen to look for
+   retroperitoneal bleed.
+   - Transfuse RBCs or Plts as needed if bleeding.
+   .
+   # Hypotension- resolved, off dopabutamine.
+   Pt had episode in cath lab requiring dopamine gtt. Unclear etiology
+   .
+   #OSA- Continue home CPAP
+   .
+   FEN: Cardiac diet
+   ACCESS: PIV's  18 Gauge - [**2114-10-24**] 08:48 PM, 20 Gauge - [**2114-10-24**]
+   08:48 PM
+   PROPHYLAXIS:  None
+   CODE: FULL (Confirmed with pt)
+   DISPO: CCU
+   CONTACT: WIFE: [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+   Active Medications [**Known lastname 3342**],[**Known firstname 3343**]
+   1. Acetaminophen 325-650 mg PO Q6H:PRN  Order date: [**10-24**] @ 2140
+   2. Aspirin EC 325 mg PO DAILY  Order date: [**10-25**] @ 1015
+   3. Atorvastatin 10 mg PO DAILY  Order date: [**10-24**] @ 2140
+   4. Clopidogrel 75 mg PO DAILY  Order date: [**10-24**] @ 2140
+   5. Docusate Sodium 100 mg PO DAILY:PRN  Order date: [**10-24**] @ 2140<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 67-year-old male who underwent diagnostic/interventional catheterization and found to have left anterior descending (LAD) and left circumflex (LCX) coronary artery disease. He received dual-antiplatelet therapy with aspirin and clopidogrel, as well as statin therapy with atorvastatin. However, he developed thrombocytopenia due to integrilin, which was stopped early and replaced with platelet transfusion. The patient's platelet count is trending up, but still below 60.
+
+The patient has a history of hyperlipidemia and presented with abnormal cardiac CT, which led to the diagnosis of coronary artery disease. He underwent PCI to LAD with DES placement in mid-LAD and proximal LAD.
+
+The patient's vital signs are stable, with a heart rate of 65 beats per minute, blood pressure of 98/51 mmHg, and respiratory rate of 15 breaths per minute. His oxygen saturation is 96% and he is on room air. He has bilateral basilar crackles on lung examination and ecchymoses at the groin sites with small right and large left hematomas.
+
+The patient's laboratory results show thrombocytopenia, anemia, and elevated D-dimer levels. His creatinine and blood urea nitrogen (BUN) levels are within normal limits.
+
+Potential Medical Complications:
+
+1. Bleeding: The patient has developed thrombocytopenia and anemia, which may increase the risk of bleeding complications.
+2. Infection: The patient has undergone PCI and has been exposed to various medications, which may increase the risk of infection.
+3. Cardiac complications: The patient has coronary artery disease and has undergone PCI, which may increase the risk of cardiac complications such as arrhythmias, angina, and heart failure.
+4. Thrombotic complications: The patient has developed thrombocytopenia, which may increase the risk of thrombotic complications such as deep vein thrombosis and pulmonary embolism.
+5. Anemia: The patient has developed anemia, which may increase the risk of fatigue, weakness, and shortness of breath.
+6. Hypotension: The patient had an episode of hypotension in the cath lab, which may increase the risk of recurrent hypotension.
+7. Retroperitoneal bleed: The patient has developed small hematomas at the groin sites and a large left hematoma, which may increase the risk of retroperitoneal bleed."
+172174.0,286920,2114-10-27 06:05:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   Allergies:
+   Integrilin (Intraven) (Eptifibatide)
+   Thrombocytopeni
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-10-27**] 05:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37.3
+C (99.1
+   HR: 82 (64 - 99) bpm
+   BP: 81/34(44) {81/34(44) - 135/96(102)} mmHg
+   RR: 23 (13 - 26) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 69 Inch
+                  Total In:
+                                                                    600 mL
+                  PO:
+                                                                    600 mL
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                  2,925 mL
+                                                                    625 mL
+   Urine:
+                                                                  2,925 mL
+                                                                    625 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,325 mL
+                                                                   -625 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 95%
+   ABG: ///30/
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: moist MM
+   Cardiovascular: Normal S1S2, regular rate and rhythm, no murmurs
+   Respiratory / Chest: Bilateral basilar crackles.
+   Abdominal: Soft, Non-tender, Bowel sounds present, groin with bilateral
+   ecchymoses L>R, small right firm hematoma (dime size),  larger left
+   hematoma (2inches) with ? fluid in lateral hip.
+   Extremities: no edema, warm well perfused, strong distal pulses
+   Neurologic: A+Ox3, strength and sensation in tact, CN 2-12 in tact
+   Labs / Radiology
+   57 K/uL
+   11.3 g/dL
+   95 mg/dL
+   1.2 mg/dL
+   30 mEq/L
+   4.5 mEq/L
+   25 mg/dL
+   106 mEq/L
+   140 mEq/L
+   32.1 %
+   5.9 K/uL
+        [image002.jpg]
+                             [**2114-10-25**]  05:56 AM
+                             [**2114-10-25**]  10:46 AM
+                             [**2114-10-25**]  02:10 PM
+                             [**2114-10-25**]  04:41 PM
+                             [**2114-10-26**]  04:27 AM
+                             [**2114-10-26**]  01:59 PM
+                             [**2114-10-27**]  04:16 AM
+   WBC
+   12.0
+   8.9
+   6.2
+   5.9
+   Hct
+   38.0
+   33.6
+   29.6
+   34.5
+   32.1
+   Plt
+   10
+   5
+   5
+   32
+   41
+   48
+   57
+   Cr
+   1.1
+   0.9
+   1.2
+   Glucose
+   147
+   90
+   95
+   Other labs: PT / PTT / INR:13.7/26.9/1.2, CK / CKMB / Troponin-T:49/3/,
+   ALT / AST:[**12-4**], Alk Phos / T Bili:/0.3, Differential-Neuts:97.2 %,
+   Lymph:1.3 %, Mono:1.3 %, Eos:0.1 %, D-dimer:2409 ng/mL, Fibrinogen:336
+   mg/dL, Albumin:3.3 g/dL, LDH:174 IU/L, Ca++:9.8 mg/dL, Mg++:2.1 mg/dL,
+   PO4:1.9 mg/dL
+   ASSESSMENT AND PLAN
+   67 yo asymptomatic male with h/o hyperlipidemia who presented for
+   diagnostic/interventional cath given abnormal Cardiac CT and found to
+   have LAD and LCX dz now s/p DES to LAD.
+   .
+   # CORONARIES: s/p Cath with PCI to LAD (DES placed in mid LAD and 1 DES
+   in prox LAD)
+   -asa, plavix, lipitor
+   -Integrillin stopped due to thrombocytopenia. Received 16hrs.
+   .
+   # THROMBOCYTOPENIA: Secondary to integrelin, now off
+   - Baseline platelets normal, trending up slowly, this AM 57
+   - Goal for discharge 60-80, will discuss
+   .
+   # ANEMIA: HCT dropped on [**10-25**] with small bilateral hematomas and
+   possible fluid collection in left hip.
+   - CT scan without retroperitoneal bleed
+   - Serial hematocrits stable (34.5, 32.1)
+   - Pt asymptomatic
+   .
+   # Hypotension- resolved, off dopabutamine
+   .
+   #OSA- Continue home CPAP
+   .
+   FEN: Cardiac diet
+   ACCESS: PIV's
+   PROPHYLAXIS: None
+   CODE: FULL (Confirmed with pt)
+   DISPO: Home from CCU once plts acceptable
+   CONTACT: WIFE:  [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+   Active Medications
+      1. Acetaminophen 325-650 mg PO Q6H:PRN  Order date: [**10-24**] @ 2140
+   5. Clopidogrel 75 mg PO DAILY  Order date: [**10-24**] @ 2140
+   2. Aspirin EC 325 mg PO DAILY  Order date: [**10-25**] @ 1015
+   6. Docusate Sodium 100 mg PO DAILY:PRN  Order date: [**10-24**] @ 2140
+   3. Atorvastatin 10 mg PO DAILY  Order date: [**10-24**] @ 2140
+   7. Potassium Chloride 60 mEq PO ONCE Duration: 1 Doses Order date:
+   [**10-26**] @ 0831
+   4. Calcium Gluconate 2 gm / 100 ml NS IV ONCE Duration: 1 Doses Order
+   date: [**10-26**] @ [**2029**]
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   Allergies:
+   Integrilin (Intraven) (Eptifibatide)
+   Thrombocytopeni
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2114-10-27**] 05:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37.3
+C (99.1
+   HR: 82 (64 - 99) bpm
+   BP: 81/34(44) {81/34(44) - 135/96(102)} mmHg
+   RR: 23 (13 - 26) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 69 Inch
+                  Total In:
+                                                                    600 mL
+                  PO:
+                                                                    600 mL
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                  2,925 mL
+                                                                    625 mL
+   Urine:
+                                                                  2,925 mL
+                                                                    625 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,325 mL
+                                                                   -625 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 95%
+   ABG: ///30/
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: moist MM
+   Cardiovascular: Normal S1S2, regular rate and rhythm, no murmurs
+   Respiratory / Chest: Bilateral basilar crackles.
+   Abdominal: Soft, Non-tender, Bowel sounds present, groin with bilateral
+   ecchymoses L>R, small right firm hematoma (dime size),  larger left
+   hematoma (2inches) with ? fluid in lateral hip.
+   Extremities: no edema, warm well perfused, strong distal pulses
+   Neurologic: A+Ox3, strength and sensation in tact, CN 2-12 in tact
+   Labs / Radiology
+   57 K/uL
+   11.3 g/dL
+   95 mg/dL
+   1.2 mg/dL
+   30 mEq/L
+   4.5 mEq/L
+   25 mg/dL
+   106 mEq/L
+   140 mEq/L
+   32.1 %
+   5.9 K/uL
+        [image002.jpg]
+                             [**2114-10-25**]  05:56 AM
+                             [**2114-10-25**]  10:46 AM
+                             [**2114-10-25**]  02:10 PM
+                             [**2114-10-25**]  04:41 PM
+                             [**2114-10-26**]  04:27 AM
+                             [**2114-10-26**]  01:59 PM
+                             [**2114-10-27**]  04:16 AM
+   WBC
+   12.0
+   8.9
+   6.2
+   5.9
+   Hct
+   38.0
+   33.6
+   29.6
+   34.5
+   32.1
+   Plt
+   10
+   5
+   5
+   32
+   41
+   48
+   57
+   Cr
+   1.1
+   0.9
+   1.2
+   Glucose
+   147
+   90
+   95
+   Other labs: PT / PTT / INR:13.7/26.9/1.2, CK / CKMB / Troponin-T:49/3/,
+   ALT / AST:[**12-4**], Alk Phos / T Bili:/0.3, Differential-Neuts:97.2 %,
+   Lymph:1.3 %, Mono:1.3 %, Eos:0.1 %, D-dimer:2409 ng/mL, Fibrinogen:336
+   mg/dL, Albumin:3.3 g/dL, LDH:174 IU/L, Ca++:9.8 mg/dL, Mg++:2.1 mg/dL,
+   PO4:1.9 mg/dL
+   ASSESSMENT AND PLAN
+   67 yo asymptomatic male with h/o hyperlipidemia who presented for
+   diagnostic/interventional cath given abnormal Cardiac CT and found to
+   have LAD and LCX dz now s/p DES to LAD.
+   .
+   # CORONARIES: s/p Cath with PCI to LAD (DES placed in mid LAD and 1 DES
+   in prox LAD)
+   -asa, plavix, lipitor
+   -Integrillin stopped due to thrombocytopenia. Received 16hrs.
+   .
+   # THROMBOCYTOPENIA: Secondary to integrelin, now off
+   - Baseline platelets normal, trending up slowly, this AM 57
+   - Goal for discharge 60-80, will discuss
+   .
+   # ANEMIA: HCT dropped on [**10-25**] with small bilateral hematomas and
+   possible fluid collection in left hip.
+   - CT scan without retroperitoneal bleed
+   - Serial hematocrits stable (34.5, 32.1)
+   - Pt asymptomatic
+   .
+   # Hypotension- resolved, off dopabutamine
+   .
+   #OSA- Continue home CPAP
+   .
+   FEN: Cardiac diet
+   ACCESS: PIV's
+   PROPHYLAXIS: None
+   CODE: FULL (Confirmed with pt)
+   DISPO: Home from CCU once plts acceptable
+   CONTACT: WIFE:  [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+   Active Medications
+      1. Acetaminophen 325-650 mg PO Q6H:PRN  Order date: [**10-24**] @ 2140
+   5. Clopidogrel 75 mg PO DAILY  Order date: [**10-24**] @ 2140
+   2. Aspirin EC 325 mg PO DAILY  Order date: [**10-25**] @ 1015
+   6. Docusate Sodium 100 mg PO DAILY:PRN  Order date: [**10-24**] @ 2140
+   3. Atorvastatin 10 mg PO DAILY  Order date: [**10-24**] @ 2140
+   7. Potassium Chloride 60 mEq PO ONCE Duration: 1 Doses Order date:
+   [**10-26**] @ 0831
+   4. Calcium Gluconate 2 gm / 100 ml NS IV ONCE Duration: 1 Doses Order
+   date: [**10-26**] @ [**2029**]<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 67-year-old male who underwent diagnostic/interventional catheterization due to abnormal cardiac CT findings, resulting in the placement of DES in the LAD and LCX arteries. He is currently in the ICU for close monitoring.
+
+The patient's vital signs are stable, with a temperature of 37.3°C, heart rate of 82 bpm, blood pressure of 81/34 mmHg, respiratory rate of 23 inspirations per minute, and SpO2 of 95%. His hemodynamic monitoring shows a normal sinus rhythm.
+
+The patient has developed thrombocytopenia secondary to Integrillin, which has been stopped. His platelet count is trending up slowly, with a current count of 57 K/uL. The goal for discharge is 60-80 K/uL.
+
+The patient has also developed anemia, with a hematocrit of 34.5% on [**10-25**] and 32.1% on [**10-27**]. He has small bilateral hematomas and possible fluid collection in his left hip, but is asymptomatic.
+
+The patient's hypotension has resolved, and he is no longer receiving dopamine. He is to continue his home CPAP therapy.
+
+The patient's laboratory results show:
+
+* WBC: 12.0, 8.9, 6.2, 5.9, and 5.5
+* Hct: 38.0, 33.6, 29.6, 34.5, and 32.1
+* Plt: 10, 5, 5, 32, 41, 48, 57, and 41
+* Cr: 1.1, 0.9, 1.2, and 1.1
+* Glucose: 147, 90, 95, and 90
+* Other labs: PT/PTT/INR: 13.7/26.9/1.2, CK/CKMB/Troponin-T: 49/3/, ALT/AST: [**12-4**], Alk Phos/T Bili: 0.3, Differential-Neuts: 97.2%, Lymph: 1.3%, Mono: 1.3%, Eos: 0.1%, D-dimer: 2409 ng/mL, Fibrinogen: 336 mg/dL, Albumin: 3.3 g/dL, LDH: 174 IU/L, Ca++: 9.8 mg/dL, Mg++: 2.1 mg/dL, PO4: 1.9 mg/dL
+
+The patient's plan includes:
+
+* Continue home CPAP therapy
+* Cardiac diet
+* PIV's for access
+* No prophylaxis
+* Full code confirmed with the patient
+* Discharge plan: home from CCU once platelet count is acceptable
+* Contact: wife at [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+
+Potential medical complications that can arise from this patient's condition include:
+
+* Bleeding complications due to thrombocytopenia
+* Anemia worsening due to ongoing blood loss
+* Hypotension and cardiovascular instability due to underlying cardiac conditions
+* Respiratory complications due to possible fluid collection in the left hip
+* Infection due to compromised immune system
+* Cardiovascular complications due to DES placement and potential stent thrombosis
+* Gastrointestinal complications due to cardiac diet and potential medication interactions."
+172174.0,286920,2114-10-27 06:05:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint: 67 yo asymptomatic male with h/o hyperlipidemia who
+   presented for diagnostic/interventional cath given abnormal Cardiac CT
+   and found to have LAD and LCX dz now s/p DES to LAD.
+   24 Hour Events:
+   Stable
+   CT scan to evaluate hematocrit drop showed
+    1. Moderate amount of stranding is noted localized to the presumed
+       left-sided catheterization site related to post-inflammatory
+       stranding and disseminated hematoma, however, no discrete
+       retroperitoneal hematoma is appreciated.
+    2. Multiple slightly irregular low attenuating hepatic lesions, likely
+       benign hepatic cysts.
+    3. Right renal simple cyst. Small punctate 1-2 mm nonobstructive
+       bilateral renal calculi.
+    4. Sigmoid diverticulosis without evidence of acute diverticulitis.
+   Afternoon labs showed improved Hct to 34.5 (from 29.6) and Plt to 48
+   (from 41)
+   Allergies:
+   Integrilin (Intraven) (Eptifibatide)
+   Thrombocytopeni
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history: None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems: No complaints
+   Flowsheet Data as of  [**2114-10-27**] 05:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37.3
+C (99.1
+   HR: 82 (64 - 99) bpm
+   BP: 81/34(44) {81/34(44) - 135/96(102)} mmHg
+   RR: 23 (13 - 26) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 69 Inch
+                  Total In:
+                                                                    600 mL
+                  PO:
+                                                                    600 mL
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                  2,925 mL
+                                                                    625 mL
+   Urine:
+                                                                  2,925 mL
+                                                                    625 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,325 mL
+                                                                   -625 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 95%
+   ABG: ///30/
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: moist MM
+   Cardiovascular: Normal S1S2, regular rate and rhythm, no murmurs
+   Respiratory / Chest: Bilateral basilar crackles.
+   Abdominal: Soft, Non-tender, Bowel sounds present, groin with bilateral
+   ecchymoses L>R, small right firm hematoma (dime size),  larger left
+   hematoma (2inches) with ? fluid in lateral hip.
+   Extremities: no edema, warm well perfused, strong distal pulses
+   Neurologic: A+Ox3, strength and sensation in tact, CN 2-12 in tact
+   Labs / Radiology
+   57 K/uL
+   11.3 g/dL
+   95 mg/dL
+   1.2 mg/dL
+   30 mEq/L
+   4.5 mEq/L
+   25 mg/dL
+   106 mEq/L
+   140 mEq/L
+   32.1 %
+   5.9 K/uL
+        [image002.jpg]
+                             [**2114-10-25**]  05:56 AM
+                             [**2114-10-25**]  10:46 AM
+                             [**2114-10-25**]  02:10 PM
+                             [**2114-10-25**]  04:41 PM
+                             [**2114-10-26**]  04:27 AM
+                             [**2114-10-26**]  01:59 PM
+                             [**2114-10-27**]  04:16 AM
+   WBC
+   12.0
+   8.9
+   6.2
+   5.9
+   Hct
+   38.0
+   33.6
+   29.6
+   34.5
+   32.1
+   Plt
+   10
+   5
+   5
+   32
+   41
+   48
+   57
+   Cr
+   1.1
+   0.9
+   1.2
+   Glucose
+   147
+   90
+   95
+   Other labs: PT / PTT / INR:13.7/26.9/1.2, CK / CKMB / Troponin-T:49/3/,
+   ALT / AST:[**12-4**], Alk Phos / T Bili:/0.3, Differential-Neuts:97.2 %,
+   Lymph:1.3 %, Mono:1.3 %, Eos:0.1 %, D-dimer:2409 ng/mL, Fibrinogen:336
+   mg/dL, Albumin:3.3 g/dL, LDH:174 IU/L, Ca++:9.8 mg/dL, Mg++:2.1 mg/dL,
+   PO4:1.9 mg/dL
+   ASSESSMENT AND PLAN
+   67 yo asymptomatic male with h/o hyperlipidemia who presented for
+   diagnostic/interventional cath given abnormal Cardiac CT and found to
+   have LAD and LCX dz now s/p DES to LAD.
+   .
+   # CORONARIES: s/p Cath with PCI to LAD (DES placed in mid LAD and 1 DES
+   in prox LAD)
+   -asa, plavix, lipitor
+   -Integrillin stopped due to thrombocytopenia. Received 16hrs.
+   .
+   # THROMBOCYTOPENIA: Secondary to integrelin, now off
+   - Baseline platelets normal, trending up slowly, this AM 57
+   - Goal for discharge 60-80, will discuss
+   .
+   # ANEMIA: HCT dropped on [**10-25**] with small bilateral hematomas and
+   possible fluid collection in left hip.
+   - CT scan without retroperitoneal bleed
+   - Serial hematocrits stable (34.5, 32.1)
+   - Pt asymptomatic
+   .
+   # Hypotension- resolved, off dopabutamine
+   .
+   #OSA- Continue home CPAP
+   .
+   FEN: Cardiac diet
+   ACCESS: PIV's
+   PROPHYLAXIS: None
+   CODE: FULL (Confirmed with pt)
+   DISPO: Home from CCU once plts acceptable
+   CONTACT: WIFE:  [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+   Active Medications
+      1. Acetaminophen 325-650 mg PO Q6H:PRN  Order date: [**10-24**] @ 2140
+   5. Clopidogrel 75 mg PO DAILY  Order date: [**10-24**] @ 2140
+   2. Aspirin EC 325 mg PO DAILY  Order date: [**10-25**] @ 1015
+   6. Docusate Sodium 100 mg PO DAILY:PRN  Order date: [**10-24**] @ 2140
+   3. Atorvastatin 10 mg PO DAILY  Order date: [**10-24**] @ 2140
+   7. Potassium Chloride 60 mEq PO ONCE Duration: 1 Doses Order date:
+   [**10-26**] @ 0831
+   4. Calcium Gluconate 2 gm / 100 ml NS IV ONCE Duration: 1 Doses Order
+   date: [**10-26**] @ [**2029**]
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint: 67 yo asymptomatic male with h/o hyperlipidemia who
+   presented for diagnostic/interventional cath given abnormal Cardiac CT
+   and found to have LAD and LCX dz now s/p DES to LAD.
+   24 Hour Events:
+   Stable
+   CT scan to evaluate hematocrit drop showed
+    1. Moderate amount of stranding is noted localized to the presumed
+       left-sided catheterization site related to post-inflammatory
+       stranding and disseminated hematoma, however, no discrete
+       retroperitoneal hematoma is appreciated.
+    2. Multiple slightly irregular low attenuating hepatic lesions, likely
+       benign hepatic cysts.
+    3. Right renal simple cyst. Small punctate 1-2 mm nonobstructive
+       bilateral renal calculi.
+    4. Sigmoid diverticulosis without evidence of acute diverticulitis.
+   Afternoon labs showed improved Hct to 34.5 (from 29.6) and Plt to 48
+   (from 41)
+   Allergies:
+   Integrilin (Intraven) (Eptifibatide)
+   Thrombocytopeni
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history: None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems: No complaints
+   Flowsheet Data as of  [**2114-10-27**] 05:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37.3
+C (99.1
+   HR: 82 (64 - 99) bpm
+   BP: 81/34(44) {81/34(44) - 135/96(102)} mmHg
+   RR: 23 (13 - 26) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 69 Inch
+                  Total In:
+                                                                    600 mL
+                  PO:
+                                                                    600 mL
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                  2,925 mL
+                                                                    625 mL
+   Urine:
+                                                                  2,925 mL
+                                                                    625 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,325 mL
+                                                                   -625 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 95%
+   ABG: ///30/
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: moist MM
+   Cardiovascular: Normal S1S2, regular rate and rhythm, no murmurs
+   Respiratory / Chest: Bilateral basilar crackles.
+   Abdominal: Soft, Non-tender, Bowel sounds present, groin with bilateral
+   ecchymoses L>R, small right firm hematoma (dime size),  larger left
+   hematoma (2inches) with ? fluid in lateral hip.
+   Extremities: no edema, warm well perfused, strong distal pulses
+   Neurologic: A+Ox3, strength and sensation in tact, CN 2-12 in tact
+   Labs / Radiology
+   57 K/uL
+   11.3 g/dL
+   95 mg/dL
+   1.2 mg/dL
+   30 mEq/L
+   4.5 mEq/L
+   25 mg/dL
+   106 mEq/L
+   140 mEq/L
+   32.1 %
+   5.9 K/uL
+        [image002.jpg]
+                             [**2114-10-25**]  05:56 AM
+                             [**2114-10-25**]  10:46 AM
+                             [**2114-10-25**]  02:10 PM
+                             [**2114-10-25**]  04:41 PM
+                             [**2114-10-26**]  04:27 AM
+                             [**2114-10-26**]  01:59 PM
+                             [**2114-10-27**]  04:16 AM
+   WBC
+   12.0
+   8.9
+   6.2
+   5.9
+   Hct
+   38.0
+   33.6
+   29.6
+   34.5
+   32.1
+   Plt
+   10
+   5
+   5
+   32
+   41
+   48
+   57
+   Cr
+   1.1
+   0.9
+   1.2
+   Glucose
+   147
+   90
+   95
+   Other labs: PT / PTT / INR:13.7/26.9/1.2, CK / CKMB / Troponin-T:49/3/,
+   ALT / AST:[**12-4**], Alk Phos / T Bili:/0.3, Differential-Neuts:97.2 %,
+   Lymph:1.3 %, Mono:1.3 %, Eos:0.1 %, D-dimer:2409 ng/mL, Fibrinogen:336
+   mg/dL, Albumin:3.3 g/dL, LDH:174 IU/L, Ca++:9.8 mg/dL, Mg++:2.1 mg/dL,
+   PO4:1.9 mg/dL
+   ASSESSMENT AND PLAN
+   67 yo asymptomatic male with h/o hyperlipidemia who presented for
+   diagnostic/interventional cath given abnormal Cardiac CT and found to
+   have LAD and LCX dz now s/p DES to LAD.
+   .
+   # CORONARIES: s/p Cath with PCI to LAD (DES placed in mid LAD and 1 DES
+   in prox LAD)
+   -asa, plavix, lipitor
+   -Integrillin stopped due to thrombocytopenia. Received 16hrs.
+   .
+   # THROMBOCYTOPENIA: Secondary to integrelin, now off
+   - Baseline platelets normal, trending up slowly, this AM 57
+   - Goal for discharge 60-80, will discuss
+   .
+   # ANEMIA: HCT dropped on [**10-25**] with small bilateral hematomas and
+   possible fluid collection in left hip.
+   - CT scan without retroperitoneal bleed
+   - Serial hematocrits stable (34.5, 32.1)
+   - Pt asymptomatic
+   .
+   # Hypotension- resolved, off dopabutamine
+   .
+   #OSA- Continue home CPAP
+   .
+   FEN: Cardiac diet
+   ACCESS: PIV's
+   PROPHYLAXIS: None
+   CODE: FULL (Confirmed with pt)
+   DISPO: Home from CCU once plts acceptable
+   CONTACT: WIFE:  [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+   Active Medications
+      1. Acetaminophen 325-650 mg PO Q6H:PRN  Order date: [**10-24**] @ 2140
+   5. Clopidogrel 75 mg PO DAILY  Order date: [**10-24**] @ 2140
+   2. Aspirin EC 325 mg PO DAILY  Order date: [**10-25**] @ 1015
+   6. Docusate Sodium 100 mg PO DAILY:PRN  Order date: [**10-24**] @ 2140
+   3. Atorvastatin 10 mg PO DAILY  Order date: [**10-24**] @ 2140
+   7. Potassium Chloride 60 mEq PO ONCE Duration: 1 Doses Order date:
+   [**10-26**] @ 0831
+   4. Calcium Gluconate 2 gm / 100 ml NS IV ONCE Duration: 1 Doses Order
+   date: [**10-26**] @ [**2029**]<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 67-year-old male who presented for diagnostic/interventional catheterization due to abnormal Cardiac CT findings. He was found to have LAD and LCX disease and underwent DES placement to LAD.
+
+The patient has been experiencing thrombocytopenia, which was secondary to Integrilin, and has since been stopped. His platelet count is trending up slowly, with the current count being 57 K/uL.
+
+The patient also has anemia, with a hematocrit drop on [**10-25**] due to small bilateral hematomas and possible fluid collection in the left hip. His serial hematocrits have been stable, with the current count being 34.5.
+
+The patient's vital signs are stable, with a temperature of 37.3°C, heart rate of 82 bpm, blood pressure of 81/34 mmHg, and respiratory rate of 23 inspirations per minute. His oxygen saturation is 95%, and his heart rhythm is sinus rhythm.
+
+The patient's physical examination is notable for bilateral basilar crackles, soft and non-tender abdomen, and ecchymoses in the groin area with a small right firm hematoma and a larger left hematoma with possible fluid in the lateral hip.
+
+The patient's laboratory results show a white blood cell count of 12.0, hemoglobin of 11.3 g/dL, and platelet count of 57 K/uL. His creatinine is 1.2 mg/dL, and his glucose is 147 mg/dL. His D-dimer is elevated at 2409 ng/mL.
+
+The patient's assessment and plan include continuation of ASA, Plavix, and Lipitor, as well as close monitoring of his platelet count and hematocrit. He is also to receive a cardiac diet and continue home CPAP therapy.
+
+Potential medical complications that may arise include:
+
+1. Bleeding complications due to thrombocytopenia and possible fluid collection in the left hip.
+2. Anemia and potential need for blood transfusions.
+3. Hypotension, which has already been resolved.
+4. Respiratory complications due to bilateral basilar crackles.
+5. Cardiovascular complications due to underlying LAD and LCX disease.
+6. Neurological complications due to possible fluid collection in the left hip.
+7. Infection due to small bilateral hematomas and possible fluid collection in the left hip.
+
+Overall, the patient requires close monitoring and management of his thrombocytopenia, anemia, and possible fluid collection in the left hip."
+172174.0,286920,2114-10-27 06:05:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint: 67 yo asymptomatic male with h/o hyperlipidemia who
+   presented for diagnostic/interventional cath given abnormal Cardiac CT
+   and found to have LAD and LCX dz now s/p DES to LAD.
+   24 Hour Events:
+   Stable
+   CT scan to evaluate hematocrit drop showed
+    1. Moderate amount of stranding is noted localized to the presumed
+       left-sided catheterization site related to post-inflammatory
+       stranding and disseminated hematoma, however, no discrete
+       retroperitoneal hematoma is appreciated.
+    2. Multiple slightly irregular low attenuating hepatic lesions, likely
+       benign hepatic cysts.
+    3. Right renal simple cyst. Small punctate 1-2 mm nonobstructive
+       bilateral renal calculi.
+    4. Sigmoid diverticulosis without evidence of acute diverticulitis.
+   Afternoon labs showed improved Hct to 34.5 (from 29.6) and Plt to 48
+   (from 41)
+   Allergies:
+   Integrilin (Intraven) (Eptifibatide)
+   Thrombocytopeni
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history: None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems: No complaints
+   Flowsheet Data as of  [**2114-10-27**] 05:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37.3
+C (99.1
+   HR: 82 (64 - 99) bpm
+   BP: 81/34(44) {81/34(44) - 135/96(102)} mmHg
+   RR: 23 (13 - 26) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 69 Inch
+                  Total In:
+                                                                    600 mL
+                  PO:
+                                                                    600 mL
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                  2,925 mL
+                                                                    625 mL
+   Urine:
+                                                                  2,925 mL
+                                                                    625 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,325 mL
+                                                                   -625 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 95%
+   ABG: ///30/
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: moist MM
+   Cardiovascular: Normal S1S2, regular rate and rhythm, no murmurs
+   Respiratory / Chest: Bilateral basilar crackles.
+   Abdominal: Soft, Non-tender, Bowel sounds present, groin with bilateral
+   ecchymoses L>R, tiny right firm hematoma , small left hematoma.
+   Extremities: no edema, warm well perfused, strong distal pulses
+   Neurologic: A+Ox3, strength and sensation in tact, CN 2-12 in tact
+   Labs / Radiology
+   57 K/uL
+   11.3 g/dL
+   95 mg/dL
+   1.2 mg/dL
+   30 mEq/L
+   4.5 mEq/L
+   25 mg/dL
+   106 mEq/L
+   140 mEq/L
+   32.1 %
+   5.9 K/uL
+        [image002.jpg]
+                             [**2114-10-25**]  05:56 AM
+                             [**2114-10-25**]  10:46 AM
+                             [**2114-10-25**]  02:10 PM
+                             [**2114-10-25**]  04:41 PM
+                             [**2114-10-26**]  04:27 AM
+                             [**2114-10-26**]  01:59 PM
+                             [**2114-10-27**]  04:16 AM
+   WBC
+   12.0
+   8.9
+   6.2
+   5.9
+   Hct
+   38.0
+   33.6
+   29.6
+   34.5
+   32.1
+   Plt
+   10
+   5
+   5
+   32
+   41
+   48
+   57
+   Cr
+   1.1
+   0.9
+   1.2
+   Glucose
+   147
+   90
+   95
+   Other labs: PT / PTT / INR:13.7/26.9/1.2, CK / CKMB / Troponin-T:49/3/,
+   ALT / AST:[**12-4**], Alk Phos / T Bili:/0.3, Differential-Neuts:97.2 %,
+   Lymph:1.3 %, Mono:1.3 %, Eos:0.1 %, D-dimer:2409 ng/mL, Fibrinogen:336
+   mg/dL, Albumin:3.3 g/dL, LDH:174 IU/L, Ca++:9.8 mg/dL, Mg++:2.1 mg/dL,
+   PO4:1.9 mg/dL
+   ASSESSMENT AND PLAN
+   67 yo asymptomatic male with h/o hyperlipidemia who presented for
+   diagnostic/interventional cath given abnormal Cardiac CT and found to
+   have LAD and LCX dz now s/p DES to LAD.
+   .
+   # CORONARIES: s/p Cath with PCI to LAD (DES placed in mid LAD and 1 DES
+   in prox LAD)
+   -asa, plavix, lipitor
+   -Integrillin stopped due to thrombocytopenia. Received 16hrs.
+   .
+   # THROMBOCYTOPENIA: Secondary to integrelin, now off
+   - Baseline platelets normal, trending up slowly, this AM 57
+   - Goal for discharge 60-80, will discuss
+   .
+   # ANEMIA: HCT dropped on [**10-25**] with small bilateral hematomas and
+   possible fluid collection in left hip.
+   - CT scan without retroperitoneal bleed
+   - Serial hematocrits stable (34.5, 32.1)
+   - Pt asymptomatic
+   .
+   # Hypotension- resolved, off dopabutamine
+   .
+   #OSA- Continue home CPAP
+   .
+   FEN: Cardiac diet
+   ACCESS: PIV's
+   PROPHYLAXIS: None
+   CODE: FULL (Confirmed with pt)
+   DISPO: Home from CCU once plts acceptable
+   CONTACT: WIFE:  [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+   Active Medications
+                   1. Acetaminophen 325-650 mg PO Q6H:PRN
+   4. Clopidogrel 75 mg PO DAILY
+   2. Aspirin EC 325 mg PO DAILY
+   5. Docusate Sodium 100 mg PO DAILY:PRN
+   3. Atorvastatin 10 mg PO DAILY
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint: 67 yo asymptomatic male with h/o hyperlipidemia who
+   presented for diagnostic/interventional cath given abnormal Cardiac CT
+   and found to have LAD and LCX dz now s/p DES to LAD.
+   24 Hour Events:
+   Stable
+   CT scan to evaluate hematocrit drop showed
+    1. Moderate amount of stranding is noted localized to the presumed
+       left-sided catheterization site related to post-inflammatory
+       stranding and disseminated hematoma, however, no discrete
+       retroperitoneal hematoma is appreciated.
+    2. Multiple slightly irregular low attenuating hepatic lesions, likely
+       benign hepatic cysts.
+    3. Right renal simple cyst. Small punctate 1-2 mm nonobstructive
+       bilateral renal calculi.
+    4. Sigmoid diverticulosis without evidence of acute diverticulitis.
+   Afternoon labs showed improved Hct to 34.5 (from 29.6) and Plt to 48
+   (from 41)
+   Allergies:
+   Integrilin (Intraven) (Eptifibatide)
+   Thrombocytopeni
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history: None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems: No complaints
+   Flowsheet Data as of  [**2114-10-27**] 05:57 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37.3
+C (99.1
+   HR: 82 (64 - 99) bpm
+   BP: 81/34(44) {81/34(44) - 135/96(102)} mmHg
+   RR: 23 (13 - 26) insp/min
+   SpO2: 95%
+   Heart rhythm: SR (Sinus Rhythm)
+   Height: 69 Inch
+                  Total In:
+                                                                    600 mL
+                  PO:
+                                                                    600 mL
+                  TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                  2,925 mL
+                                                                    625 mL
+   Urine:
+                                                                  2,925 mL
+                                                                    625 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -2,325 mL
+                                                                   -625 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 95%
+   ABG: ///30/
+   Physical Examination
+   General Appearance: Well nourished, No acute distress
+   Head, Ears, Nose, Throat: moist MM
+   Cardiovascular: Normal S1S2, regular rate and rhythm, no murmurs
+   Respiratory / Chest: Bilateral basilar crackles.
+   Abdominal: Soft, Non-tender, Bowel sounds present, groin with bilateral
+   ecchymoses L>R, tiny right firm hematoma , small left hematoma.
+   Extremities: no edema, warm well perfused, strong distal pulses
+   Neurologic: A+Ox3, strength and sensation in tact, CN 2-12 in tact
+   Labs / Radiology
+   57 K/uL
+   11.3 g/dL
+   95 mg/dL
+   1.2 mg/dL
+   30 mEq/L
+   4.5 mEq/L
+   25 mg/dL
+   106 mEq/L
+   140 mEq/L
+   32.1 %
+   5.9 K/uL
+        [image002.jpg]
+                             [**2114-10-25**]  05:56 AM
+                             [**2114-10-25**]  10:46 AM
+                             [**2114-10-25**]  02:10 PM
+                             [**2114-10-25**]  04:41 PM
+                             [**2114-10-26**]  04:27 AM
+                             [**2114-10-26**]  01:59 PM
+                             [**2114-10-27**]  04:16 AM
+   WBC
+   12.0
+   8.9
+   6.2
+   5.9
+   Hct
+   38.0
+   33.6
+   29.6
+   34.5
+   32.1
+   Plt
+   10
+   5
+   5
+   32
+   41
+   48
+   57
+   Cr
+   1.1
+   0.9
+   1.2
+   Glucose
+   147
+   90
+   95
+   Other labs: PT / PTT / INR:13.7/26.9/1.2, CK / CKMB / Troponin-T:49/3/,
+   ALT / AST:[**12-4**], Alk Phos / T Bili:/0.3, Differential-Neuts:97.2 %,
+   Lymph:1.3 %, Mono:1.3 %, Eos:0.1 %, D-dimer:2409 ng/mL, Fibrinogen:336
+   mg/dL, Albumin:3.3 g/dL, LDH:174 IU/L, Ca++:9.8 mg/dL, Mg++:2.1 mg/dL,
+   PO4:1.9 mg/dL
+   ASSESSMENT AND PLAN
+   67 yo asymptomatic male with h/o hyperlipidemia who presented for
+   diagnostic/interventional cath given abnormal Cardiac CT and found to
+   have LAD and LCX dz now s/p DES to LAD.
+   .
+   # CORONARIES: s/p Cath with PCI to LAD (DES placed in mid LAD and 1 DES
+   in prox LAD)
+   -asa, plavix, lipitor
+   -Integrillin stopped due to thrombocytopenia. Received 16hrs.
+   .
+   # THROMBOCYTOPENIA: Secondary to integrelin, now off
+   - Baseline platelets normal, trending up slowly, this AM 57
+   - Goal for discharge 60-80, will discuss
+   .
+   # ANEMIA: HCT dropped on [**10-25**] with small bilateral hematomas and
+   possible fluid collection in left hip.
+   - CT scan without retroperitoneal bleed
+   - Serial hematocrits stable (34.5, 32.1)
+   - Pt asymptomatic
+   .
+   # Hypotension- resolved, off dopabutamine
+   .
+   #OSA- Continue home CPAP
+   .
+   FEN: Cardiac diet
+   ACCESS: PIV's
+   PROPHYLAXIS: None
+   CODE: FULL (Confirmed with pt)
+   DISPO: Home from CCU once plts acceptable
+   CONTACT: WIFE:  [**Name (NI) 505**] [**Telephone/Fax (1) 3303**]
+   Active Medications
+                   1. Acetaminophen 325-650 mg PO Q6H:PRN
+   4. Clopidogrel 75 mg PO DAILY
+   2. Aspirin EC 325 mg PO DAILY
+   5. Docusate Sodium 100 mg PO DAILY:PRN
+   3. Atorvastatin 10 mg PO DAILY<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 67-year-old male who underwent diagnostic/interventional catheterization due to abnormal Cardiac CT findings, revealing LAD and LCX disease. He was treated with DES to LAD and has been in the ICU since. The patient's 24-hour events were stable, with a moderate amount of stranding noted on CT scan at the presumed left-sided catheterization site. His labs showed improved hematocrit to 34.5 and platelet count to 48.
+
+The patient's vital signs are stable, with a temperature of 37.3°C, heart rate of 82 bpm, blood pressure of 81/34 mmHg, and respiratory rate of 23 breaths per minute. He is on oxygen therapy with a saturation of 95%. His physical examination is unremarkable, except for bilateral ecchymoses in the groin and small hematomas in the left and right sides.
+
+The patient's laboratory results show a platelet count of 57 K/μL, which is trending up slowly. His hematocrit is stable, and his other lab results are within normal limits.
+
+Assessment and Plan:
+
+The patient has thrombocytopenia secondary to Integrillin, which has been stopped. His platelet count is trending up slowly, and his goal for discharge is 60-80 K/μL. He has anemia, which is being monitored with serial hematocrits. His hypotension has resolved, and he is off dopamine. He will continue his home CPAP therapy.
+
+Potential Medical Complications:
+
+1. Bleeding: The patient has a history of bleeding complications, and his platelet count is still low. He may be at risk for bleeding complications, especially if he experiences trauma or undergoes invasive procedures.
+2. Infection: The patient has been in the ICU for an extended period, which increases his risk of developing infections.
+3. Thrombosis: The patient has a history of coronary artery disease and has undergone PCI with DES placement. He may be at risk for thrombotic complications, especially if he has a platelet count that is still low.
+4. Anemia: The patient has anemia, which may worsen if he experiences bleeding or has a prolonged hospital stay.
+5. Hypotension: The patient's blood pressure is still low, and he may be at risk for hypotension if he experiences vasodilation or has a decrease in his blood volume.
+6. Respiratory failure: The patient has been on oxygen therapy for an extended period, and he may be at risk for respiratory failure if he experiences a decline in his lung function or has a prolonged hospital stay.
+
+It is essential to monitor the patient's platelet count and hematocrit closely to prevent bleeding complications. He should also be closely monitored for signs of infection, thrombosis, anemia, hypotension, and respiratory failure."

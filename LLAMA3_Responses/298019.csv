@@ -1,0 +1,4701 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+174314.0,298019,2153-12-26 08:23:00,Physician ,Physician Attending Progress Note,"HPI:
+   20yoF admitted with acetaminophen and benadryl overdose.
+   24 Hour Events:
+   Following admission to ICU; had arterial line placed.  Mental status
+   gradually improved.  Received 2L D5 1/2NS with bicarbonate with
+   improvement in her acidosis.  ALT/AST trending downwards, though
+   bilirubin continues to rise.  INR stable at 1.5.
+   Allergies: NKDA
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-26**] 05:31 AM
+   Other medications:
+   NAC
+   Famotidine
+   Insulin sliding scale
+   Changes to medical and family history:
+   None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   None
+   Flowsheet Data as of  [**2153-12-26**] 08:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37.3
+C (99.2
+   HR: 104 (98 - 141) bpm
+   BP: 138/85(104) {104/76(85) - 146/95(111)} mmHg
+   RR: 24 (20 - 27) insp/min
+   SpO2: 100%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+                                                                  3,971 mL
+                                                                  1,871 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,971 mL
+                                                                  1,871 mL
+   Blood products:
+   Total out:
+                                                                  2,135 mL
+                                                                    170 mL
+   Urine:
+                                                                  1,360 mL
+                                                                    170 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,836 mL
+                                                                  1,701 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: 7.42/24/118/18
+   Physical Examination
+   Gen: Awake, NAD; oriented to person, knows
+hospital
+ place
+[**Hospital1 190**]
+   Chest:  Lungs clear
+   CV: RRR no murmur
+   Abd: s/nt/nd
+   Ext: no edema
+   Neuro: no asterixis
+   Labs / Radiology
+   12.4 g/dL
+   328 K/uL
+   191 mg/dL
+   0.8 mg/dL
+   18 mEq/L
+   3.6 mEq/L
+   8 mg/dL
+   113 mEq/L
+   142 mEq/L
+   36.1 %
+   7.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+   WBC
+   9.6
+   7.0
+   Hct
+   40.5
+   36.1
+   Plt
+   388
+   328
+   Cr
+   0.8
+   0.8
+   TCO2
+   16
+   Glucose
+   122
+   191
+   Other labs: PT / PTT / INR:17.2/35.0/1.5, CK / CKMB / Troponin-T:632//,
+   ALT / AST:268/115, Alk Phos / T Bili:36/2.9, Differential-Neuts:78.3 %,
+   Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, LDH:189 IU/L, Ca++:8.5 mg/dL,
+   Mg++:2.4 mg/dL, PO4:2.1 mg/dL
+   Liver U/S: pending
+   Assessment and Plan
+   20yoF s/p suicide attempt with Tylenol PM causing APAP and
+   anticholinergic toxicity.
+   1. APAP:  AST/ALT trending down; bili up, INR stable
+   - will continue to follow LFTs, coags q4h
+   - NAC
+   - Follow glucose/neuro exam
+   - Liver service following
+   - Pre-transplant liver evaluation in case worsens
+   - Psych to see regarding suicide attempt
+   - Social work to see
+   2.  Anticholinergic toxicity:
+   - Improving mental status and toxidrome.
+   3. Acidosis:  Tox screen without other explanation.
+   - Improving with bicarbonate and IVF hydration.
+   - + ketones and mild hyperglycemia, but no history of DM.  Will
+   continue to follow glucose and acidosis.
+   - Hydrate
+   - CXR
+   ICU Care
+   Nutrition: Ice chips, advance to clears.
+   Glycemic Control:  Monitoring glucose with concern for hypoglycemia
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   Arterial Line - [**2153-12-25**] 09:51 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Prophylaxis:
+   DVT: Heparin
+   Stress ulcer: No indication for PPI/H2
+   VAP:  Not intubated
+   Communication:  Family updated
+   Code status: Full code
+   Disposition :  Critically ill.
+   Total time spent:  35minutes CCT
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+HPI:
+   20yoF admitted with acetaminophen and benadryl overdose.
+   24 Hour Events:
+   Following admission to ICU; had arterial line placed.  Mental status
+   gradually improved.  Received 2L D5 1/2NS with bicarbonate with
+   improvement in her acidosis.  ALT/AST trending downwards, though
+   bilirubin continues to rise.  INR stable at 1.5.
+   Allergies: NKDA
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-26**] 05:31 AM
+   Other medications:
+   NAC
+   Famotidine
+   Insulin sliding scale
+   Changes to medical and family history:
+   None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   None
+   Flowsheet Data as of  [**2153-12-26**] 08:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37.3
+C (99.2
+   HR: 104 (98 - 141) bpm
+   BP: 138/85(104) {104/76(85) - 146/95(111)} mmHg
+   RR: 24 (20 - 27) insp/min
+   SpO2: 100%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+                                                                  3,971 mL
+                                                                  1,871 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,971 mL
+                                                                  1,871 mL
+   Blood products:
+   Total out:
+                                                                  2,135 mL
+                                                                    170 mL
+   Urine:
+                                                                  1,360 mL
+                                                                    170 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,836 mL
+                                                                  1,701 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: 7.42/24/118/18
+   Physical Examination
+   Gen: Awake, NAD; oriented to person, knows
+hospital
+ place
+[**Hospital1 190**]
+   Chest:  Lungs clear
+   CV: RRR no murmur
+   Abd: s/nt/nd
+   Ext: no edema
+   Neuro: no asterixis
+   Labs / Radiology
+   12.4 g/dL
+   328 K/uL
+   191 mg/dL
+   0.8 mg/dL
+   18 mEq/L
+   3.6 mEq/L
+   8 mg/dL
+   113 mEq/L
+   142 mEq/L
+   36.1 %
+   7.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+   WBC
+   9.6
+   7.0
+   Hct
+   40.5
+   36.1
+   Plt
+   388
+   328
+   Cr
+   0.8
+   0.8
+   TCO2
+   16
+   Glucose
+   122
+   191
+   Other labs: PT / PTT / INR:17.2/35.0/1.5, CK / CKMB / Troponin-T:632//,
+   ALT / AST:268/115, Alk Phos / T Bili:36/2.9, Differential-Neuts:78.3 %,
+   Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, LDH:189 IU/L, Ca++:8.5 mg/dL,
+   Mg++:2.4 mg/dL, PO4:2.1 mg/dL
+   Liver U/S: pending
+   Assessment and Plan
+   20yoF s/p suicide attempt with Tylenol PM causing APAP and
+   anticholinergic toxicity.
+   1. APAP:  AST/ALT trending down; bili up, INR stable
+   - will continue to follow LFTs, coags q4h
+   - NAC
+   - Follow glucose/neuro exam
+   - Liver service following
+   - Pre-transplant liver evaluation in case worsens
+   - Psych to see regarding suicide attempt
+   - Social work to see
+   2.  Anticholinergic toxicity:
+   - Improving mental status and toxidrome.
+   3. Acidosis:  Tox screen without other explanation.
+   - Improving with bicarbonate and IVF hydration.
+   - + ketones and mild hyperglycemia, but no history of DM.  Will
+   continue to follow glucose and acidosis.
+   - Hydrate
+   - CXR
+   ICU Care
+   Nutrition: Ice chips, advance to clears.
+   Glycemic Control:  Monitoring glucose with concern for hypoglycemia
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   Arterial Line - [**2153-12-25**] 09:51 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Prophylaxis:
+   DVT: Heparin
+   Stress ulcer: No indication for PPI/H2
+   VAP:  Not intubated
+   Communication:  Family updated
+   Code status: Full code
+   Disposition :  Critically ill.
+   Total time spent:  35minutes CCT<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 20-year-old female who was admitted to the ICU after an acetaminophen and benadryl overdose. She has shown improvement in her mental status and acidosis, with trending down AST/ALT levels and stable INR. However, her bilirubin levels continue to rise. She is receiving NAC, famotidine, and insulin sliding scale, and is being hydrated with IV fluids and bicarbonate.
+
+Potential medical complications:
+
+1. Hepatic failure: The patient's bilirubin levels are rising, indicating potential liver damage. Further monitoring of liver function tests and imaging studies (e.g. liver ultrasound) are necessary to assess the severity of liver damage.
+2. Renal failure: The patient's creatinine levels are elevated, indicating potential kidney damage. Close monitoring of kidney function and consideration of dialysis may be necessary.
+3. Hypoglycemia: The patient's glucose levels are being monitored due to concern for hypoglycemia, especially given the insulin sliding scale medication.
+4. Respiratory complications: The patient's SpO2 levels are 100%, but further monitoring of respiratory status and consideration of non-invasive ventilation may be necessary to prevent respiratory failure.
+5. Neurological complications: The patient's mental status has improved, but further monitoring of neurological status and consideration of neuroimaging studies (e.g. CT or MRI) may be necessary to assess for potential neurological damage.
+6. Infectious complications: The patient's WBC count is elevated, indicating potential infection. Further monitoring of infection and consideration of antibiotic therapy may be necessary.
+7. Cardiovascular complications: The patient's heart rhythm is sinus tachycardia, which may be a response to the overdose or other underlying conditions. Close monitoring of cardiovascular status and consideration of cardiovascular medications may be necessary.
+
+Overall, the patient requires close monitoring and management of her medical conditions to prevent potential complications and ensure optimal recovery."
+174314.0,298019,2153-12-26 08:23:00,Physician ,Physician Attending Progress Note,"Chief Complaint:
+   HPI:
+   20yoF admitted with acetaminophen and benadryl overdose.
+   24 Hour Events:
+   Admitted yesterday for APAP toxicity.
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-26**] 05:31 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-26**] 08:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37.3
+C (99.2
+   HR: 104 (98 - 141) bpm
+   BP: 138/85(104) {104/76(85) - 146/95(111)} mmHg
+   RR: 24 (20 - 27) insp/min
+   SpO2: 100%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+                                                                  3,971 mL
+                                                                  1,871 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,971 mL
+                                                                  1,871 mL
+   Blood products:
+   Total out:
+                                                                  2,135 mL
+                                                                    170 mL
+   Urine:
+                                                                  1,360 mL
+                                                                    170 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,836 mL
+                                                                  1,701 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: 7.42/24/118/18/-6
+   Physical Examination
+   Gen:
+   Chest:
+   CV:
+   Abd:
+   Ext:
+   Labs / Radiology
+   12.4 g/dL
+   328 K/uL
+   191 mg/dL
+   0.8 mg/dL
+   18 mEq/L
+   3.6 mEq/L
+   8 mg/dL
+   113 mEq/L
+   142 mEq/L
+   36.1 %
+   7.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+   WBC
+   9.6
+   7.0
+   Hct
+   40.5
+   36.1
+   Plt
+   388
+   328
+   Cr
+   0.8
+   0.8
+   TCO2
+   16
+   Glucose
+   122
+   191
+   Other labs: PT / PTT / INR:17.2/35.0/1.5, CK / CKMB / Troponin-T:632//,
+   ALT / AST:268/115, Alk Phos / T Bili:36/2.9, Differential-Neuts:78.3 %,
+   Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, LDH:189 IU/L, Ca++:8.5 mg/dL,
+   Mg++:2.4 mg/dL, PO4:2.1 mg/dL
+   Assessment and Plan
+ POISONING / OVERDOSE, ACETAMINOPHEN (TYLENOL, APAP)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   Arterial Line - [**2153-12-25**] 09:51 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition :
+   Total time spent:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   HPI:
+   20yoF admitted with acetaminophen and benadryl overdose.
+   24 Hour Events:
+   Admitted yesterday for APAP toxicity.
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-26**] 05:31 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-26**] 08:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37.3
+C (99.2
+   HR: 104 (98 - 141) bpm
+   BP: 138/85(104) {104/76(85) - 146/95(111)} mmHg
+   RR: 24 (20 - 27) insp/min
+   SpO2: 100%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+                                                                  3,971 mL
+                                                                  1,871 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,971 mL
+                                                                  1,871 mL
+   Blood products:
+   Total out:
+                                                                  2,135 mL
+                                                                    170 mL
+   Urine:
+                                                                  1,360 mL
+                                                                    170 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,836 mL
+                                                                  1,701 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: 7.42/24/118/18/-6
+   Physical Examination
+   Gen:
+   Chest:
+   CV:
+   Abd:
+   Ext:
+   Labs / Radiology
+   12.4 g/dL
+   328 K/uL
+   191 mg/dL
+   0.8 mg/dL
+   18 mEq/L
+   3.6 mEq/L
+   8 mg/dL
+   113 mEq/L
+   142 mEq/L
+   36.1 %
+   7.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+   WBC
+   9.6
+   7.0
+   Hct
+   40.5
+   36.1
+   Plt
+   388
+   328
+   Cr
+   0.8
+   0.8
+   TCO2
+   16
+   Glucose
+   122
+   191
+   Other labs: PT / PTT / INR:17.2/35.0/1.5, CK / CKMB / Troponin-T:632//,
+   ALT / AST:268/115, Alk Phos / T Bili:36/2.9, Differential-Neuts:78.3 %,
+   Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, LDH:189 IU/L, Ca++:8.5 mg/dL,
+   Mg++:2.4 mg/dL, PO4:2.1 mg/dL
+   Assessment and Plan
+ POISONING / OVERDOSE, ACETAMINOPHEN (TYLENOL, APAP)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   Arterial Line - [**2153-12-25**] 09:51 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition :
+   Total time spent:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient, a 20-year-old female, was admitted to the ICU with an acetaminophen and Benadryl overdose. She has been receiving prophylactic heparin sodium and antibiotics. Her vital signs are stable, with a temperature of 37.3°C, heart rate of 104 bpm, blood pressure of 138/85 mmHg, respiratory rate of 24 inspirations per minute, and oxygen saturation of 100%. She is receiving fluid support and has a positive fluid balance. Her laboratory results show evidence of liver damage, with elevated ALT and AST levels. Her platelet count is slightly low, and her creatinine level is slightly elevated. She has a mild metabolic acidosis, with a bicarbonate level of 18 mEq/L.
+
+Potential medical complications:
+
+1. Hepatorenal syndrome: Given the patient's liver damage and elevated creatinine level, there is a risk of developing hepatorenal syndrome, which can lead to acute kidney injury and potentially life-threatening complications.
+2. Coagulopathy: The patient's platelet count is slightly low, which may increase her risk of bleeding complications, especially with the use of anticoagulant medications.
+3. Respiratory failure: The patient's oxygen saturation is 100%, but her respiratory rate is slightly elevated, which may indicate early signs of respiratory failure.
+4. Infection: The patient's laboratory results show evidence of liver damage, which may increase her risk of developing infections, particularly in the liver.
+5. Gastrointestinal bleeding: The patient's use of anticoagulant medications and her liver damage may increase her risk of gastrointestinal bleeding.
+6. Cardiac complications: The patient's tachycardia and mild metabolic acidosis may indicate early signs of cardiac complications, such as cardiac arrhythmias or cardiac failure.
+7. Renal failure: The patient's elevated creatinine level and fluid overload may increase her risk of developing acute kidney injury or chronic kidney disease.
+8. Sepsis: The patient's liver damage and elevated inflammatory markers may increase her risk of developing sepsis, which can lead to life-threatening complications.
+
+Based on this information, it is essential to continue monitoring the patient's vital signs, laboratory results, and clinical status closely to detect any potential complications early and intervene promptly to prevent adverse outcomes."
+174314.0,298019,2153-12-26 08:23:00,Physician ,Physician Attending Progress Note,"HPI:
+   20yoF admitted with acetaminophen and benadryl overdose.
+   24 Hour Events:
+   Following admission to ICU; had arterial line placed.  Mental status
+   gradually improved.  Received 2L D5 1/2NS with bicarbonate with
+   improvement in her acidosis.  ALT/AST trending downwards, though
+   bilirubin continues to rise.  INR stable at 1.5.
+   Allergies: NKDA
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-26**] 05:31 AM
+   Other medications:
+   NAC
+   Famotidine
+   Insulin sliding scale
+   Changes to medical and family history:
+   None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   None
+   Flowsheet Data as of  [**2153-12-26**] 08:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37.3
+C (99.2
+   HR: 104 (98 - 141) bpm
+   BP: 138/85(104) {104/76(85) - 146/95(111)} mmHg
+   RR: 24 (20 - 27) insp/min
+   SpO2: 100%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+                                                                  3,971 mL
+                                                                  1,871 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,971 mL
+                                                                  1,871 mL
+   Blood products:
+   Total out:
+                                                                  2,135 mL
+                                                                    170 mL
+   Urine:
+                                                                  1,360 mL
+                                                                    170 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,836 mL
+                                                                  1,701 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: 7.42/24/118/18
+   Physical Examination
+   Gen: Awake, NAD; oriented to person, knows
+hospital
+ place
+[**Hospital1 190**]
+   Chest:  Lungs clear
+   CV: RRR no murmur
+   Abd: s/nt/nd
+   Ext: no edema
+   Neuro: no asterixis
+   Labs / Radiology
+   12.4 g/dL
+   328 K/uL
+   191 mg/dL
+   0.8 mg/dL
+   18 mEq/L
+   3.6 mEq/L
+   8 mg/dL
+   113 mEq/L
+   142 mEq/L
+   36.1 %
+   7.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+   WBC
+   9.6
+   7.0
+   Hct
+   40.5
+   36.1
+   Plt
+   388
+   328
+   Cr
+   0.8
+   0.8
+   TCO2
+   16
+   Glucose
+   122
+   191
+   Other labs: PT / PTT / INR:17.2/35.0/1.5, CK / CKMB / Troponin-T:632//,
+   ALT / AST:268/115, Alk Phos / T Bili:36/2.9, Differential-Neuts:78.3 %,
+   Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, LDH:189 IU/L, Ca++:8.5 mg/dL,
+   Mg++:2.4 mg/dL, PO4:2.1 mg/dL
+   Liver U/S: pending
+   Assessment and Plan
+   20yoF s/p suicide attempt with Tylenol PM causing APAP and
+   anticholinergic toxicity.
+   1. APAP:  AST/ALT trending down; bili up, INR stable
+   - will continue to follow LFTs, coags q4h
+   - NAC
+   - Follow glucose/neuro exam
+   - Liver service following
+   - Pre-transplant liver evaluation in case worsens
+   - Psych to see regarding suicide attempt
+   - Social work to see
+   2.  Anticholinergic toxicity:
+   - Improving mental status and toxidrome.
+   3. Acidosis:  Tox screen without other explanation.
+   - Improving with bicarbonate and IVF hydration.
+   - + ketones and mild hyperglycemia, but no history of DM.  Will
+   continue to follow glucose and acidosis.
+   - Hydrate
+   - CXR
+   ICU Care
+   Nutrition: Ice chips, advance to clears.
+   Glycemic Control:  Monitoring glucose with concern for hypoglycemia
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   Arterial Line - [**2153-12-25**] 09:51 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Prophylaxis:
+   DVT: Heparin
+   Stress ulcer: No indication for PPI/H2
+   VAP:  Not intubated
+   Communication:  Family updated
+   Code status: Full code
+   Disposition :  Remains in ICU pending stable labs can call-out later
+   today or tomorrow.
+   Total time spent:  35minutes CCT
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+HPI:
+   20yoF admitted with acetaminophen and benadryl overdose.
+   24 Hour Events:
+   Following admission to ICU; had arterial line placed.  Mental status
+   gradually improved.  Received 2L D5 1/2NS with bicarbonate with
+   improvement in her acidosis.  ALT/AST trending downwards, though
+   bilirubin continues to rise.  INR stable at 1.5.
+   Allergies: NKDA
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-26**] 05:31 AM
+   Other medications:
+   NAC
+   Famotidine
+   Insulin sliding scale
+   Changes to medical and family history:
+   None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   None
+   Flowsheet Data as of  [**2153-12-26**] 08:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.3
+C (99.2
+   Tcurrent: 37.3
+C (99.2
+   HR: 104 (98 - 141) bpm
+   BP: 138/85(104) {104/76(85) - 146/95(111)} mmHg
+   RR: 24 (20 - 27) insp/min
+   SpO2: 100%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+                                                                  3,971 mL
+                                                                  1,871 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,971 mL
+                                                                  1,871 mL
+   Blood products:
+   Total out:
+                                                                  2,135 mL
+                                                                    170 mL
+   Urine:
+                                                                  1,360 mL
+                                                                    170 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,836 mL
+                                                                  1,701 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 100%
+   ABG: 7.42/24/118/18
+   Physical Examination
+   Gen: Awake, NAD; oriented to person, knows
+hospital
+ place
+[**Hospital1 190**]
+   Chest:  Lungs clear
+   CV: RRR no murmur
+   Abd: s/nt/nd
+   Ext: no edema
+   Neuro: no asterixis
+   Labs / Radiology
+   12.4 g/dL
+   328 K/uL
+   191 mg/dL
+   0.8 mg/dL
+   18 mEq/L
+   3.6 mEq/L
+   8 mg/dL
+   113 mEq/L
+   142 mEq/L
+   36.1 %
+   7.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+   WBC
+   9.6
+   7.0
+   Hct
+   40.5
+   36.1
+   Plt
+   388
+   328
+   Cr
+   0.8
+   0.8
+   TCO2
+   16
+   Glucose
+   122
+   191
+   Other labs: PT / PTT / INR:17.2/35.0/1.5, CK / CKMB / Troponin-T:632//,
+   ALT / AST:268/115, Alk Phos / T Bili:36/2.9, Differential-Neuts:78.3 %,
+   Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, LDH:189 IU/L, Ca++:8.5 mg/dL,
+   Mg++:2.4 mg/dL, PO4:2.1 mg/dL
+   Liver U/S: pending
+   Assessment and Plan
+   20yoF s/p suicide attempt with Tylenol PM causing APAP and
+   anticholinergic toxicity.
+   1. APAP:  AST/ALT trending down; bili up, INR stable
+   - will continue to follow LFTs, coags q4h
+   - NAC
+   - Follow glucose/neuro exam
+   - Liver service following
+   - Pre-transplant liver evaluation in case worsens
+   - Psych to see regarding suicide attempt
+   - Social work to see
+   2.  Anticholinergic toxicity:
+   - Improving mental status and toxidrome.
+   3. Acidosis:  Tox screen without other explanation.
+   - Improving with bicarbonate and IVF hydration.
+   - + ketones and mild hyperglycemia, but no history of DM.  Will
+   continue to follow glucose and acidosis.
+   - Hydrate
+   - CXR
+   ICU Care
+   Nutrition: Ice chips, advance to clears.
+   Glycemic Control:  Monitoring glucose with concern for hypoglycemia
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   Arterial Line - [**2153-12-25**] 09:51 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Prophylaxis:
+   DVT: Heparin
+   Stress ulcer: No indication for PPI/H2
+   VAP:  Not intubated
+   Communication:  Family updated
+   Code status: Full code
+   Disposition :  Remains in ICU pending stable labs can call-out later
+   today or tomorrow.
+   Total time spent:  35minutes CCT<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient, a 20-year-old female, was admitted to the ICU following an acetaminophen and benadryl overdose. Her mental status has improved, and her acidosis has resolved with bicarbonate and IV fluid hydration. Her liver enzymes (ALT/AST) are trending downwards, but her bilirubin levels continue to rise. She is receiving NAC and has been started on insulin sliding scale. Her other lab results show a stable INR, normal white blood cell count, and elevated liver enzymes. She is being monitored for potential complications, including liver failure, and is being considered for a pre-transplant liver evaluation.
+
+Potential Medical Complications:
+
+1. Liver failure: The patient's bilirubin levels are rising, and her liver enzymes are still elevated. This may indicate ongoing liver damage, which could lead to liver failure if not managed promptly.
+2. Coagulopathy: The patient's INR is stable, but it may still be elevated, which could increase the risk of bleeding.
+3. Hypoglycemia: The patient is receiving insulin sliding scale, and her glucose levels are being monitored closely to prevent hypoglycemia.
+4. Respiratory complications: The patient's acidosis has resolved, but she may still be at risk for respiratory complications, such as pneumonia, given her recent overdose and hospitalization.
+5. Cardiovascular complications: The patient's tachycardia and hypertension may be related to her overdose and may require monitoring and management to prevent cardiovascular complications.
+6. Neurological complications: The patient's anticholinergic toxicity is improving, but she may still be at risk for neurological complications, such as seizures or delirium, given her recent overdose and hospitalization.
+7. Infection: The patient is at risk for infection, given her recent hospitalization and IV lines. Close monitoring and prompt treatment of any infections are necessary to prevent complications."
+174314.0,298019,2153-12-26 11:32:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ ARTERIAL LINE - START [**2153-12-25**] 09:51 PM
+ ULTRASOUND - At [**2153-12-25**] 10:21 PM
+   liver and spleen
+   Mental status significantly improved overnight
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-26**] 05:31 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-26**] 11:26 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.5
+C (99.5
+   HR: 108 (90 - 141) bpm
+   BP: 143/98(114) {104/76(85) - 146/98(114)} mmHg
+   RR: 18 (18 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+                                                                  3,971 mL
+                                                                  1,969 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,971 mL
+                                                                  1,969 mL
+   Blood products:
+   Total out:
+                                                                  2,135 mL
+                                                                    670 mL
+   Urine:
+                                                                  1,360 mL
+                                                                    570 mL
+   NG:
+   100 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,836 mL
+                                                                  1,299 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/18/-2
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   328 K/uL
+   12.4 g/dL
+   191 mg/dL
+   0.8 mg/dL
+   18 mEq/L
+   3.6 mEq/L
+   8 mg/dL
+   113 mEq/L
+   142 mEq/L
+   36.1 %
+   7.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+   WBC
+   9.6
+   7.0
+   Hct
+   40.5
+   36.1
+   Plt
+   388
+   328
+   Cr
+   0.8
+   0.8
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   Other labs: PT / PTT / INR:17.2/35.0/1.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:268/115, Alk Phos / T Bili:36/2.9, Differential-Neuts:78.3 %,
+   Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L, LDH:189
+   IU/L, Ca++:8.5 mg/dL, Mg++:2.4 mg/dL, PO4:2.1 mg/dL
+   Assessment and Plan
+   :  20 yo F w/ APAP OD and anticholinergic toxidrome.
+   #  Anticholinergic toxidrome: Appears Significantly improved, decreased
+   myoclonic jerking.
+   - Q4 neuro checks
+   .
+   # APAP OD: Transaminases trending downward, Tbili climbing. Hepatology
+   thinks that she looks good and may be possible to call out to the floor
+   today.
+   - Transplant surgery following
+   - Consult SW [**First Name8 (NamePattern2) 3274**] [**Last Name (NamePattern1) 1441**]
+   - consult psyc
+   - Q4 LFTs and coags
+   - Q4 neuro checks
+   - F/u pre-transplant liver battery and HIV per hepatology team
+   - F/U RUQ U/S
+   .
+   # AG metabolic acidosis: Improving
+   - Loose SSI
+   - follow finger sticks
+   .
+   #Nuvaring: Per mother pt. has been using nuvaring for birth control
+   - pelvic exam to remove ring in am if mental status clears
+   .
+   .
+   # FEN: IVFs NPO for now given vomiting
+   # PPX: famotidine, heparin SQ
+   # ACCESS: [**Last Name (LF) 3173**], [**First Name3 (LF) 1619**]
+   # CODE:  Full confirmed w/ Mother
+   # CONTACT:  Father and mother.
+   # DISPO: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ ARTERIAL LINE - START [**2153-12-25**] 09:51 PM
+ ULTRASOUND - At [**2153-12-25**] 10:21 PM
+   liver and spleen
+   Mental status significantly improved overnight
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-26**] 05:31 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-26**] 11:26 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.5
+C (99.5
+   HR: 108 (90 - 141) bpm
+   BP: 143/98(114) {104/76(85) - 146/98(114)} mmHg
+   RR: 18 (18 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+                                                                  3,971 mL
+                                                                  1,969 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,971 mL
+                                                                  1,969 mL
+   Blood products:
+   Total out:
+                                                                  2,135 mL
+                                                                    670 mL
+   Urine:
+                                                                  1,360 mL
+                                                                    570 mL
+   NG:
+   100 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,836 mL
+                                                                  1,299 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/18/-2
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   328 K/uL
+   12.4 g/dL
+   191 mg/dL
+   0.8 mg/dL
+   18 mEq/L
+   3.6 mEq/L
+   8 mg/dL
+   113 mEq/L
+   142 mEq/L
+   36.1 %
+   7.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+   WBC
+   9.6
+   7.0
+   Hct
+   40.5
+   36.1
+   Plt
+   388
+   328
+   Cr
+   0.8
+   0.8
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   Other labs: PT / PTT / INR:17.2/35.0/1.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:268/115, Alk Phos / T Bili:36/2.9, Differential-Neuts:78.3 %,
+   Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L, LDH:189
+   IU/L, Ca++:8.5 mg/dL, Mg++:2.4 mg/dL, PO4:2.1 mg/dL
+   Assessment and Plan
+   :  20 yo F w/ APAP OD and anticholinergic toxidrome.
+   #  Anticholinergic toxidrome: Appears Significantly improved, decreased
+   myoclonic jerking.
+   - Q4 neuro checks
+   .
+   # APAP OD: Transaminases trending downward, Tbili climbing. Hepatology
+   thinks that she looks good and may be possible to call out to the floor
+   today.
+   - Transplant surgery following
+   - Consult SW [**First Name8 (NamePattern2) 3274**] [**Last Name (NamePattern1) 1441**]
+   - consult psyc
+   - Q4 LFTs and coags
+   - Q4 neuro checks
+   - F/u pre-transplant liver battery and HIV per hepatology team
+   - F/U RUQ U/S
+   .
+   # AG metabolic acidosis: Improving
+   - Loose SSI
+   - follow finger sticks
+   .
+   #Nuvaring: Per mother pt. has been using nuvaring for birth control
+   - pelvic exam to remove ring in am if mental status clears
+   .
+   .
+   # FEN: IVFs NPO for now given vomiting
+   # PPX: famotidine, heparin SQ
+   # ACCESS: [**Last Name (LF) 3173**], [**First Name3 (LF) 1619**]
+   # CODE:  Full confirmed w/ Mother
+   # CONTACT:  Father and mother.
+   # DISPO: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient, a 20-year-old female, is being treated in the ICU for acute pancreatitis, anticholinergic toxidrome, and APAP overdose. Her mental status has improved significantly overnight, and her myoclonic jerking has decreased. Her liver enzymes are trending downward, but her bilirubin levels are increasing. The patient is at risk for metabolic acidosis, which is improving with treatment. She has a history of using Nuvaring for birth control and has been vomiting, which has led to IV fluids being held for now.
+
+Potential Medical Complications:
+
+1. Hepatic failure: The patient's liver enzymes are trending downward, but her bilirubin levels are increasing, which may indicate hepatic failure.
+2. Metabolic acidosis: The patient's metabolic acidosis is improving, but it is essential to continue monitoring and adjusting treatment as needed.
+3. APAP-induced liver damage: The patient's APAP overdose may have caused liver damage, which could lead to liver failure or chronic liver disease.
+4. Anticholinergic toxidrome: The patient's anticholinergic toxidrome may cause ongoing symptoms such as myoclonic jerking, which could be managed with further treatment.
+5. Infection: The patient's prolonged ICU stay and invasive lines increase her risk of developing infections, which could be life-threatening.
+6. Gastrointestinal bleeding: The patient's vomiting and APAP overdose may increase her risk of gastrointestinal bleeding, which could be life-threatening.
+7. Renal failure: The patient's APAP overdose and liver damage may increase her risk of developing renal failure, which could be life-threatening.
+
+Recommendations:
+
+1. Continue monitoring the patient's liver enzymes and bilirubin levels to assess for any further liver damage.
+2. Continue treatment for metabolic acidosis and adjust as needed.
+3. Consider consult with a gastroenterologist or hepatologist to further evaluate the patient's liver function and potential for liver transplantation.
+4. Monitor the patient's mental status and adjust treatment as needed to manage her anticholinergic toxidrome.
+5. Continue to monitor the patient for signs of infection and take measures to prevent infection.
+6. Consider consult with a psychiatrist to evaluate the patient's mental status and potential for psychological sequelae.
+7. Monitor the patient's renal function and adjust treatment as needed to prevent renal failure."
+174314.0,298019,2153-12-26 11:32:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ ARTERIAL LINE - START [**2153-12-25**] 09:51 PM
+ ULTRASOUND - At [**2153-12-25**] 10:21 PM
+   liver and spleen
+   Mental status significantly improved overnight
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-26**] 05:31 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-26**] 11:26 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.5
+C (99.5
+   HR: 108 (90 - 141) bpm
+   BP: 143/98(114) {104/76(85) - 146/98(114)} mmHg
+   RR: 18 (18 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+                                                                  3,971 mL
+                                                                  1,969 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,971 mL
+                                                                  1,969 mL
+   Blood products:
+   Total out:
+                                                                  2,135 mL
+                                                                    670 mL
+   Urine:
+                                                                  1,360 mL
+                                                                    570 mL
+   NG:
+   100 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,836 mL
+                                                                  1,299 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/18/-2
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   328 K/uL
+   12.4 g/dL
+   191 mg/dL
+   0.8 mg/dL
+   18 mEq/L
+   3.6 mEq/L
+   8 mg/dL
+   113 mEq/L
+   142 mEq/L
+   36.1 %
+   7.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+   WBC
+   9.6
+   7.0
+   Hct
+   40.5
+   36.1
+   Plt
+   388
+   328
+   Cr
+   0.8
+   0.8
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   Other labs: PT / PTT / INR:17.2/35.0/1.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:268/115, Alk Phos / T Bili:36/2.9, Differential-Neuts:78.3 %,
+   Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L, LDH:189
+   IU/L, Ca++:8.5 mg/dL, Mg++:2.4 mg/dL, PO4:2.1 mg/dL
+   Assessment and Plan
+   :  20 yo F w/ APAP OD and anticholinergic toxidrome.
+   #  Anticholinergic toxidrome: Appears Significantly improved, decreased
+   myoclonic jerking.
+   - Q4 neuro checks
+   .
+   # APAP OD: Transaminases trending downward, Tbili climbing. Hepatology
+   thinks that she looks good and may be possible to call out to the floor
+   today.
+   - Transplant surgery following
+   - Consult SW [**First Name8 (NamePattern2) 3274**] [**Last Name (NamePattern1) 1441**]
+   - consult psyc
+   - Q4 LFTs and coags
+   - Q4 neuro checks
+   - F/u pre-transplant liver battery and HIV per hepatology team
+   - F/U RUQ U/S
+   .
+   # AG metabolic acidosis: Improving
+   - Loose SSI
+   - follow finger sticks
+   .
+   #Nuvaring: Per mother pt. has been using nuvaring for birth control
+   - pelvic exam to remove ring in am if mental status clears
+   .
+   .
+   # FEN: IVFs NPO for now given vomiting
+   # PPX: famotidine, heparin SQ
+   # ACCESS: [**Last Name (LF) 3173**], [**First Name3 (LF) 1619**]
+   # CODE:  Full confirmed w/ Mother
+   # CONTACT:  Father and mother.
+   # DISPO: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ ARTERIAL LINE - START [**2153-12-25**] 09:51 PM
+ ULTRASOUND - At [**2153-12-25**] 10:21 PM
+   liver and spleen
+   Mental status significantly improved overnight
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-26**] 05:31 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-26**] 11:26 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.5
+C (99.5
+   HR: 108 (90 - 141) bpm
+   BP: 143/98(114) {104/76(85) - 146/98(114)} mmHg
+   RR: 18 (18 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: ST (Sinus Tachycardia)
+             Total In:
+                                                                  3,971 mL
+                                                                  1,969 mL
+   PO:
+             TF:
+   IVF:
+                                                                  1,971 mL
+                                                                  1,969 mL
+   Blood products:
+   Total out:
+                                                                  2,135 mL
+                                                                    670 mL
+   Urine:
+                                                                  1,360 mL
+                                                                    570 mL
+   NG:
+   100 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  1,836 mL
+                                                                  1,299 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/18/-2
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   328 K/uL
+   12.4 g/dL
+   191 mg/dL
+   0.8 mg/dL
+   18 mEq/L
+   3.6 mEq/L
+   8 mg/dL
+   113 mEq/L
+   142 mEq/L
+   36.1 %
+   7.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+   WBC
+   9.6
+   7.0
+   Hct
+   40.5
+   36.1
+   Plt
+   388
+   328
+   Cr
+   0.8
+   0.8
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   Other labs: PT / PTT / INR:17.2/35.0/1.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:268/115, Alk Phos / T Bili:36/2.9, Differential-Neuts:78.3 %,
+   Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L, LDH:189
+   IU/L, Ca++:8.5 mg/dL, Mg++:2.4 mg/dL, PO4:2.1 mg/dL
+   Assessment and Plan
+   :  20 yo F w/ APAP OD and anticholinergic toxidrome.
+   #  Anticholinergic toxidrome: Appears Significantly improved, decreased
+   myoclonic jerking.
+   - Q4 neuro checks
+   .
+   # APAP OD: Transaminases trending downward, Tbili climbing. Hepatology
+   thinks that she looks good and may be possible to call out to the floor
+   today.
+   - Transplant surgery following
+   - Consult SW [**First Name8 (NamePattern2) 3274**] [**Last Name (NamePattern1) 1441**]
+   - consult psyc
+   - Q4 LFTs and coags
+   - Q4 neuro checks
+   - F/u pre-transplant liver battery and HIV per hepatology team
+   - F/U RUQ U/S
+   .
+   # AG metabolic acidosis: Improving
+   - Loose SSI
+   - follow finger sticks
+   .
+   #Nuvaring: Per mother pt. has been using nuvaring for birth control
+   - pelvic exam to remove ring in am if mental status clears
+   .
+   .
+   # FEN: IVFs NPO for now given vomiting
+   # PPX: famotidine, heparin SQ
+   # ACCESS: [**Last Name (LF) 3173**], [**First Name3 (LF) 1619**]
+   # CODE:  Full confirmed w/ Mother
+   # CONTACT:  Father and mother.
+   # DISPO: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, here is a summary of the information:
+
+The patient is a 20-year-old female admitted to the ICU with acute pancreatitis and anticholinergic toxidrome. She has been receiving treatment with antibiotics, heparin, and other medications. Her vital signs are stable, with a temperature of 37.6°C, heart rate of 108 bpm, blood pressure of 143/98 mmHg, respiratory rate of 18 inspirations per minute, and oxygen saturation of 96%. Her laboratory results show elevated liver enzymes, but transaminases are trending downward. She has a metabolic acidosis, which is improving.
+
+The patient's neurological status has improved overnight, with decreased myoclonic jerking. However, her physical examination is limited due to her altered mental status.
+
+Potential medical complications that can arise include:
+
+1. Hepatic failure: The patient's liver enzymes are elevated, and her bilirubin levels are increasing. This can lead to hepatic failure, which can be life-threatening.
+2. Respiratory failure: The patient's respiratory rate is elevated, and she is at risk for respiratory failure, particularly if her oxygen saturation drops.
+3. Cardiac arrhythmias: The patient's heart rhythm is sinus tachycardia, which can increase her risk for cardiac arrhythmias.
+4. Sepsis: The patient is at risk for sepsis due to her antibiotics and other medications.
+5. Gastrointestinal bleeding: The patient's vomiting and loose stools increase her risk for gastrointestinal bleeding.
+6. Infection: The patient is at risk for infection due to her immunosuppressed state and the use of antibiotics.
+7. Renal failure: The patient's creatinine levels are elevated, which can indicate renal failure.
+
+Overall, the patient requires close monitoring and management to prevent these complications and ensure her safe transition to the floor."
+174314.0,298019,2153-12-27 07:06:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ ARTERIAL LINE - STOP [**2153-12-26**] 12:36 PM
+ MULTI LUMEN - START [**2153-12-26**] 06:38 PM
+   LFTs and INR worsened but mental status stable, continued on NAC
+   CVL placed in anticipation of worsening coagulopathy later
+   Sent further transplant labs in anticipation of worsening
+   UOP trended down but improved with increased IVF and bolus
+   Started on clears but still having N/V, liver ok with zofran
+   U/S showing starry [**Hospital Ward Name **] appearance consistent with acute hepatitis
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 06:33 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-27**] 07:05 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.4
+C (99.3
+   HR: 68 (62 - 119) bpm
+   BP: 137/74(91) {120/74(86) - 138/90(99)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 9 (6 - 17)mmHg
+   Total In:
+                                                                  5,407 mL
+                                                                  1,403 mL
+   PO:
+   TF:
+   IVF:
+                                                                  5,407 mL
+                                                                  1,403 mL
+   Blood products:
+   Total out:
+                                                                  1,690 mL
+                                                                    440 mL
+   Urine:
+                                                                  1,140 mL
+                                                                    440 mL
+   NG:
+                                                                    550 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,717 mL
+                                                                    964 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/26/-2
+   Physical Examination
+   GENERAL: Nauseus, sedate
+   HEENT:  PERRL
+   CARDIAC:  RRR
+   LUNG:  CTAB
+   ABDOMEN:  Soft, NT, ND, BS+
+   EXT:  No edema, 2+ DP and PT pulses
+   NEURO:  A&Ox3. CNII-XII intact, moves all four extremities
+   independently. Able to do months of the year backwards in 14 seconds.
+   No asterixis.
+   DERM:  No rashes
+   Labs / Radiology
+   215 K/uL
+   11.0 g/dL
+   138 mg/dL
+   0.6 mg/dL
+   26 mEq/L
+   3.1 mEq/L
+   5 mg/dL
+   115 mEq/L
+   145 mEq/L
+   31.9 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   Hct
+   40.5
+   36.1
+   31.9
+   Plt
+   388
+   328
+   215
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   Other labs: PT / PTT / INR:26.1/50.2/2.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:4378/2913, Alk Phos / T Bili:32/1.0, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   LDH:2129 IU/L, Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:1.4 mg/dL
+   CMV, EBV, VZV, Toxo, Blood cultures, rubeola Pending
+   RPR NR
+   Imaging:
+   Ultrasound: Starry [**Hospital Ward Name **] appearance of the liver compatible with acute
+   hepatitis. No focal liver lesions identified. Patent portal vein.
+   KUB: No radiopaque foreign body. Overall paucity of bowel gas
+ POISONING / OVERDOSE, ACETAMINOPHEN (TYLENOL, APAP)
+   Assessment and Plan: 20 yo F w/ APAP OD and anticholinergic toxidrome.
+   # APAP OD: Transaminases in the increased to 4000 range with elevated
+   INR and TBili.  Access placed.  Transplant workup initiated. RUQ U/S
+   c/w acute hepatitis.  Transplant workup testing pending.
+   - Active type and screen.  Will monitor for bleeding and correct
+   coagulopathy as needed.
+   - Q4 neuro checks, consider neurosurg involvement/cooling if elevated
+   ICP.
+   - Transplant surgery following
+   - Q6 LFTs and coags
+   .
+   #  Anticholinergic toxidrome: Appears to be improving, tachycardia
+   improving and MS improving. Protecting her airway.
+   - Continue to follow neurologic exam
+   .
+   # AG metabolic acidosis:  Resolved.  Initially presented with Ketones
+   in urine and blood, no osmolar gap.
+   .
+   # Nuvaring: in place.
+   .
+   ICU Care
+   # FEN: IVFs and clears.  Advance if vomiting improves.
+   # PPX: heparin SQ
+   # ACCESS:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   # CODE:  Full confirmed w/ Mother
+   # CONTACT:  Father and mother.
+   # DISPO: ICU sessment and Plan
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ ARTERIAL LINE - STOP [**2153-12-26**] 12:36 PM
+ MULTI LUMEN - START [**2153-12-26**] 06:38 PM
+   LFTs and INR worsened but mental status stable, continued on NAC
+   CVL placed in anticipation of worsening coagulopathy later
+   Sent further transplant labs in anticipation of worsening
+   UOP trended down but improved with increased IVF and bolus
+   Started on clears but still having N/V, liver ok with zofran
+   U/S showing starry [**Hospital Ward Name **] appearance consistent with acute hepatitis
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 06:33 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-27**] 07:05 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.4
+C (99.3
+   HR: 68 (62 - 119) bpm
+   BP: 137/74(91) {120/74(86) - 138/90(99)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 9 (6 - 17)mmHg
+   Total In:
+                                                                  5,407 mL
+                                                                  1,403 mL
+   PO:
+   TF:
+   IVF:
+                                                                  5,407 mL
+                                                                  1,403 mL
+   Blood products:
+   Total out:
+                                                                  1,690 mL
+                                                                    440 mL
+   Urine:
+                                                                  1,140 mL
+                                                                    440 mL
+   NG:
+                                                                    550 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,717 mL
+                                                                    964 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/26/-2
+   Physical Examination
+   GENERAL: Nauseus, sedate
+   HEENT:  PERRL
+   CARDIAC:  RRR
+   LUNG:  CTAB
+   ABDOMEN:  Soft, NT, ND, BS+
+   EXT:  No edema, 2+ DP and PT pulses
+   NEURO:  A&Ox3. CNII-XII intact, moves all four extremities
+   independently. Able to do months of the year backwards in 14 seconds.
+   No asterixis.
+   DERM:  No rashes
+   Labs / Radiology
+   215 K/uL
+   11.0 g/dL
+   138 mg/dL
+   0.6 mg/dL
+   26 mEq/L
+   3.1 mEq/L
+   5 mg/dL
+   115 mEq/L
+   145 mEq/L
+   31.9 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   Hct
+   40.5
+   36.1
+   31.9
+   Plt
+   388
+   328
+   215
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   Other labs: PT / PTT / INR:26.1/50.2/2.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:4378/2913, Alk Phos / T Bili:32/1.0, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   LDH:2129 IU/L, Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:1.4 mg/dL
+   CMV, EBV, VZV, Toxo, Blood cultures, rubeola Pending
+   RPR NR
+   Imaging:
+   Ultrasound: Starry [**Hospital Ward Name **] appearance of the liver compatible with acute
+   hepatitis. No focal liver lesions identified. Patent portal vein.
+   KUB: No radiopaque foreign body. Overall paucity of bowel gas
+ POISONING / OVERDOSE, ACETAMINOPHEN (TYLENOL, APAP)
+   Assessment and Plan: 20 yo F w/ APAP OD and anticholinergic toxidrome.
+   # APAP OD: Transaminases in the increased to 4000 range with elevated
+   INR and TBili.  Access placed.  Transplant workup initiated. RUQ U/S
+   c/w acute hepatitis.  Transplant workup testing pending.
+   - Active type and screen.  Will monitor for bleeding and correct
+   coagulopathy as needed.
+   - Q4 neuro checks, consider neurosurg involvement/cooling if elevated
+   ICP.
+   - Transplant surgery following
+   - Q6 LFTs and coags
+   .
+   #  Anticholinergic toxidrome: Appears to be improving, tachycardia
+   improving and MS improving. Protecting her airway.
+   - Continue to follow neurologic exam
+   .
+   # AG metabolic acidosis:  Resolved.  Initially presented with Ketones
+   in urine and blood, no osmolar gap.
+   .
+   # Nuvaring: in place.
+   .
+   ICU Care
+   # FEN: IVFs and clears.  Advance if vomiting improves.
+   # PPX: heparin SQ
+   # ACCESS:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   # CODE:  Full confirmed w/ Mother
+   # CONTACT:  Father and mother.
+   # DISPO: ICU sessment and Plan<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 20-year-old female who has been admitted to the ICU with a diagnosis of acetaminophen overdose and anticholinergic toxidrome. The patient's vital signs are stable, with a temperature of 37.4°C, heart rate of 68 bpm, and blood pressure of 137/74 mmHg. The patient's respiratory status is also stable, with an oxygen saturation of 96% and a respiratory rate of 18 breaths per minute.
+
+The patient's laboratory results show elevated liver enzymes, including alanine aminotransferase (ALT) and aspartate aminotransferase (AST), with values of 4378 and 2913 IU/L, respectively. The patient's international normalized ratio (INR) is elevated at 2.5, indicating a coagulopathy. The patient's platelet count is low at 215 K/uL, and her white blood cell count is 9.6 K/uL.
+
+The patient's ultrasound results show a ""starry [**Hospital Ward Name **] appearance"" of the liver, which is consistent with acute hepatitis. The patient's imaging studies, including a KUB, are negative for radiopaque foreign bodies and show a paucity of bowel gas.
+
+The patient's medical history is significant for a Nuvaring, which is currently in place. The patient's allergies include penicillin, and she has a history of asthma.
+
+The patient's plan of care includes ongoing monitoring of her vital signs, laboratory results, and neurologic status. The patient will continue to receive IV fluids and clears, and her anticoagulation therapy will be adjusted as necessary. The patient will also be monitored for bleeding and coagulopathy, and will receive transfusions as needed.
+
+Potential medical complications that can arise include:
+
+* Hepatic failure
+* Coagulopathy
+* Bleeding
+* Infection
+* Neurologic complications, such as seizures or cerebral edema
+* Respiratory failure
+* Cardiac complications, such as arrhythmias or cardiac arrest
+* Renal failure
+* Pancreatitis
+
+It is essential to closely monitor the patient's condition and adjust her treatment plan as necessary to prevent these complications from occurring."
+174314.0,298019,2153-12-27 07:06:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ ARTERIAL LINE - STOP [**2153-12-26**] 12:36 PM
+ MULTI LUMEN - START [**2153-12-26**] 06:38 PM
+   LFTs and INR worsened but mental status stable, continued on NAC
+   CVL placed in anticipation of worsening coagulopathy later
+   Sent further transplant labs in anticipation of worsening
+   UOP trended down but improved with increased IVF and bolus
+   Started on clears but still having N/V, liver ok with zofran
+   U/S showing starry [**Hospital Ward Name **] appearance consistent with acute hepatitis
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 06:33 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-27**] 07:05 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.4
+C (99.3
+   HR: 68 (62 - 119) bpm
+   BP: 137/74(91) {120/74(86) - 138/90(99)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 9 (6 - 17)mmHg
+   Total In:
+                                                                  5,407 mL
+                                                                  1,403 mL
+   PO:
+   TF:
+   IVF:
+                                                                  5,407 mL
+                                                                  1,403 mL
+   Blood products:
+   Total out:
+                                                                  1,690 mL
+                                                                    440 mL
+   Urine:
+                                                                  1,140 mL
+                                                                    440 mL
+   NG:
+                                                                    550 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,717 mL
+                                                                    964 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/26/-2
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   215 K/uL
+   11.0 g/dL
+   138 mg/dL
+   0.6 mg/dL
+   26 mEq/L
+   3.1 mEq/L
+   5 mg/dL
+   115 mEq/L
+   145 mEq/L
+   31.9 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   Hct
+   40.5
+   36.1
+   31.9
+   Plt
+   388
+   328
+   215
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   Other labs: PT / PTT / INR:26.1/50.2/2.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:4378/2913, Alk Phos / T Bili:32/1.0, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   LDH:2129 IU/L, Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:1.4 mg/dL
+   As 20 yo F w/ APAP OD and anticholinergic toxidrome.
+   #  Anticholinergic toxidrome: Appears to be improving, tachycardia
+   improving and MS improving. Protecting her airway.
+   - Q4 neuro checks
+   - Q4hr EKGs
+   .
+   # APAP OD: Transaminases in the 300s, Tbili climbing. Per hepatology
+   team she has a good chance of full recovery w/o transplant. Toxicology
+   had recommended activated charcoal but pt. currently vomiting.
+   - Transplant surgery following
+   - Consult SW [**First Name8 (NamePattern2) 3274**] [**Last Name (NamePattern1) 1441**]
+   - consult psyc in am if she is clearing to eval for past suicidal
+   attempts
+   - Q4 LFTs and coags
+   - Q4 neuro checks
+   - Send pre-transplant liver battery and HIV per hepatology team
+   - RUQ U/S
+   .
+   # AG metabolic acidosis: Ketones in urine and blood, no osmolar gap.
+   She does not have a Hx of diabetes and would be extremely strange to
+   p/w DKA in the setting of OD.
+   - D5 1/2 NS w/ 1 amp bicarb
+   - Loose SSI
+   .
+   #Nuvaring: Per mother pt. has been using nuvaring for birth control
+   - pelvic exam to remove ring in am if mental status clears
+   .
+   .
+   # FEN: IVFs NPO for now given vomiting
+   # PPX: famotidine, heparin SQ
+   # ACCESS: PIV
+   # CODE:  Full confirmed w/ Mother
+   # CONTACT:  Father and mother.
+   # DISPO: ICU sessment and Plan
+ POISONING / OVERDOSE, ACETAMINOPHEN (TYLENOL, APAP)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ ARTERIAL LINE - STOP [**2153-12-26**] 12:36 PM
+ MULTI LUMEN - START [**2153-12-26**] 06:38 PM
+   LFTs and INR worsened but mental status stable, continued on NAC
+   CVL placed in anticipation of worsening coagulopathy later
+   Sent further transplant labs in anticipation of worsening
+   UOP trended down but improved with increased IVF and bolus
+   Started on clears but still having N/V, liver ok with zofran
+   U/S showing starry [**Hospital Ward Name **] appearance consistent with acute hepatitis
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 06:33 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-27**] 07:05 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.4
+C (99.3
+   HR: 68 (62 - 119) bpm
+   BP: 137/74(91) {120/74(86) - 138/90(99)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 9 (6 - 17)mmHg
+   Total In:
+                                                                  5,407 mL
+                                                                  1,403 mL
+   PO:
+   TF:
+   IVF:
+                                                                  5,407 mL
+                                                                  1,403 mL
+   Blood products:
+   Total out:
+                                                                  1,690 mL
+                                                                    440 mL
+   Urine:
+                                                                  1,140 mL
+                                                                    440 mL
+   NG:
+                                                                    550 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,717 mL
+                                                                    964 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/26/-2
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   215 K/uL
+   11.0 g/dL
+   138 mg/dL
+   0.6 mg/dL
+   26 mEq/L
+   3.1 mEq/L
+   5 mg/dL
+   115 mEq/L
+   145 mEq/L
+   31.9 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   Hct
+   40.5
+   36.1
+   31.9
+   Plt
+   388
+   328
+   215
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   Other labs: PT / PTT / INR:26.1/50.2/2.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:4378/2913, Alk Phos / T Bili:32/1.0, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   LDH:2129 IU/L, Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:1.4 mg/dL
+   As 20 yo F w/ APAP OD and anticholinergic toxidrome.
+   #  Anticholinergic toxidrome: Appears to be improving, tachycardia
+   improving and MS improving. Protecting her airway.
+   - Q4 neuro checks
+   - Q4hr EKGs
+   .
+   # APAP OD: Transaminases in the 300s, Tbili climbing. Per hepatology
+   team she has a good chance of full recovery w/o transplant. Toxicology
+   had recommended activated charcoal but pt. currently vomiting.
+   - Transplant surgery following
+   - Consult SW [**First Name8 (NamePattern2) 3274**] [**Last Name (NamePattern1) 1441**]
+   - consult psyc in am if she is clearing to eval for past suicidal
+   attempts
+   - Q4 LFTs and coags
+   - Q4 neuro checks
+   - Send pre-transplant liver battery and HIV per hepatology team
+   - RUQ U/S
+   .
+   # AG metabolic acidosis: Ketones in urine and blood, no osmolar gap.
+   She does not have a Hx of diabetes and would be extremely strange to
+   p/w DKA in the setting of OD.
+   - D5 1/2 NS w/ 1 amp bicarb
+   - Loose SSI
+   .
+   #Nuvaring: Per mother pt. has been using nuvaring for birth control
+   - pelvic exam to remove ring in am if mental status clears
+   .
+   .
+   # FEN: IVFs NPO for now given vomiting
+   # PPX: famotidine, heparin SQ
+   # ACCESS: PIV
+   # CODE:  Full confirmed w/ Mother
+   # CONTACT:  Father and mother.
+   # DISPO: ICU sessment and Plan
+ POISONING / OVERDOSE, ACETAMINOPHEN (TYLENOL, APAP)
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 20-year-old female who was admitted to the ICU with acute acetaminophen overdose (APAP) and anticholinergic toxidrome. The patient's vital signs are stable, with a temperature of 37.4°C, heart rate of 68 beats per minute, and blood pressure of 137/74 mmHg. The patient's respiratory status is stable, with an SpO2 of 96% and a respiratory rate of 18 breaths per minute.
+
+The patient's laboratory results show worsening liver function tests (LFTs) and international normalized ratio (INR), indicating ongoing liver damage. The patient's coagulation profile is abnormal, with a PT of 26.1 seconds and a PTT of 50.2 seconds. The patient's electrolyte levels are also abnormal, with a potassium level of 4.2 mEq/L and a phosphorus level of 1.4 mg/dL.
+
+The patient's physical examination is limited due to the anticholinergic toxidrome, which is causing muscle rigidity and altered mental status. The patient's neurologic examination is also limited due to the anticholinergic toxidrome.
+
+The patient's diagnosis is APAP overdose with anticholinergic toxidrome. The patient's treatment plan includes:
+
+1. Activated charcoal administration to help remove the APAP from the patient's system.
+2. N-acetylcysteine (NAC) administration to help reduce the risk of liver damage.
+3. Hepatology consultation to assess the patient's liver function and determine the need for liver transplantation.
+4. Psychiatric consultation to evaluate the patient's mental status and assess the risk of suicidal behavior.
+5. Continuous monitoring of the patient's vital signs and laboratory results to ensure that the patient is responding to treatment.
+
+Potential medical complications that can arise include:
+
+1. Hepatic failure: The patient's liver function is worsening, and there is a risk of hepatic failure if the patient does not receive appropriate treatment.
+2. Coagulopathy: The patient's coagulation profile is abnormal, and there is a risk of bleeding if the patient does not receive appropriate treatment.
+3. Electrolyte imbalance: The patient's electrolyte levels are abnormal, and there is a risk of electrolyte imbalance if the patient does not receive appropriate treatment.
+4. Anticholinergic toxidrome: The patient's anticholinergic toxidrome is causing muscle rigidity and altered mental status, and there is a risk of respiratory failure if the patient does not receive appropriate treatment.
+5. Infection: The patient is at risk of developing an infection due to the anticholinergic toxidrome and the patient's compromised immune system.
+6. Sepsis: The patient is at risk of developing sepsis due to the anticholinergic toxidrome and the patient's compromised immune system.
+7. Respiratory failure: The patient is at risk of developing respiratory failure due to the anticholinergic toxidrome and the patient's compromised respiratory status.
+8. Cardiac arrest: The patient is at risk of developing cardiac arrest due to the anticholinergic toxidrome and the patient's compromised cardiac status."
+174314.0,298019,2153-12-27 07:06:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ ARTERIAL LINE - STOP [**2153-12-26**] 12:36 PM
+ MULTI LUMEN - START [**2153-12-26**] 06:38 PM
+   LFTs and INR worsened but mental status stable, continued on NAC
+   CVL placed in anticipation of worsening coagulopathy later
+   Sent further transplant labs in anticipation of worsening
+   UOP trended down but improved with increased IVF and bolus
+   Started on clears but still having N/V, liver ok with zofran
+   U/S showing starry [**Hospital Ward Name **] appearance consistent with acute hepatitis
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 06:33 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-27**] 07:05 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.4
+C (99.3
+   HR: 68 (62 - 119) bpm
+   BP: 137/74(91) {120/74(86) - 138/90(99)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 9 (6 - 17)mmHg
+   Total In:
+                                                                  5,407 mL
+                                                                  1,403 mL
+   PO:
+   TF:
+   IVF:
+                                                                  5,407 mL
+                                                                  1,403 mL
+   Blood products:
+   Total out:
+                                                                  1,690 mL
+                                                                    440 mL
+   Urine:
+                                                                  1,140 mL
+                                                                    440 mL
+   NG:
+                                                                    550 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,717 mL
+                                                                    964 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/26/-2
+   Physical Examination
+   GENERAL: Nauseus, sedate
+   HEENT:  PERRL
+   CARDIAC:  RRR
+   LUNG:  CTAB
+   ABDOMEN:  Soft, NT, ND, BS+
+   EXT:  No edema, 2+ DP and PT pulses
+   NEURO:  CNII-XII intact, moves all four extremities independently. 2+
+   knee reflexes bilaterally.
+   DERM:  No rashes
+   Labs / Radiology
+   215 K/uL
+   11.0 g/dL
+   138 mg/dL
+   0.6 mg/dL
+   26 mEq/L
+   3.1 mEq/L
+   5 mg/dL
+   115 mEq/L
+   145 mEq/L
+   31.9 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   Hct
+   40.5
+   36.1
+   31.9
+   Plt
+   388
+   328
+   215
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   Other labs: PT / PTT / INR:26.1/50.2/2.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:4378/2913, Alk Phos / T Bili:32/1.0, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   LDH:2129 IU/L, Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:1.4 mg/dL
+   CMV, EBV, VZV, Toxo, Blood cultures, rubeola Pending
+   RPR NR
+   Imaging:
+   Ultrasound: Starry [**Hospital Ward Name **] appearance of the liver compatible with acute
+   hepatitis. No focal liver lesions identified. Patent portal vein.
+   KUB: No radiopaque foreign body. Overall paucity of bowel gas
+   A/P: 20 yo F w/ APAP OD and anticholinergic toxidrome.
+   # APAP OD: Transaminases in the increased to 4000 range with elevated
+   INR and TBili.  Access placed.  Transplant workup initiated. RUQ U/S
+   c/w acute hepatitis.  Transplant workup testing pending.
+   - Active type and screen.  Will monitor for bleeding and correct
+   coagulopathy as needed.
+   - Q4 neuro checks, consider neurosurg involvement/cooling if elevated
+   ICP.
+   - Transplant surgery following
+   - Q6 LFTs and coags
+   - RUQ U/S
+   #  Anticholinergic toxidrome: Appears to be improving, tachycardia
+   improving and MS improving. Protecting her airway.
+   - Continue to follow neurologic exam
+   .
+   # AG metabolic acidosis:  Resolved.  Initially presented with Ketones
+   in urine and blood, no osmolar gap.
+   .
+   #Nuvaring: in place.
+   .
+   ICU Care
+   # FEN: IVFs and clears.  Advance if vomiting improves.
+   # PPX: famotidine, heparin SQ
+   # ACCESS:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   # CODE:  Full confirmed w/ Mother
+   # CONTACT:  Father and mother.
+   # DISPO: ICU sessment and Plan
+ POISONING / OVERDOSE, ACETAMINOPHEN (TYLENOL, APAP)
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ ARTERIAL LINE - STOP [**2153-12-26**] 12:36 PM
+ MULTI LUMEN - START [**2153-12-26**] 06:38 PM
+   LFTs and INR worsened but mental status stable, continued on NAC
+   CVL placed in anticipation of worsening coagulopathy later
+   Sent further transplant labs in anticipation of worsening
+   UOP trended down but improved with increased IVF and bolus
+   Started on clears but still having N/V, liver ok with zofran
+   U/S showing starry [**Hospital Ward Name **] appearance consistent with acute hepatitis
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 06:33 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-27**] 07:05 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.4
+C (99.3
+   HR: 68 (62 - 119) bpm
+   BP: 137/74(91) {120/74(86) - 138/90(99)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 9 (6 - 17)mmHg
+   Total In:
+                                                                  5,407 mL
+                                                                  1,403 mL
+   PO:
+   TF:
+   IVF:
+                                                                  5,407 mL
+                                                                  1,403 mL
+   Blood products:
+   Total out:
+                                                                  1,690 mL
+                                                                    440 mL
+   Urine:
+                                                                  1,140 mL
+                                                                    440 mL
+   NG:
+                                                                    550 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,717 mL
+                                                                    964 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/26/-2
+   Physical Examination
+   GENERAL: Nauseus, sedate
+   HEENT:  PERRL
+   CARDIAC:  RRR
+   LUNG:  CTAB
+   ABDOMEN:  Soft, NT, ND, BS+
+   EXT:  No edema, 2+ DP and PT pulses
+   NEURO:  CNII-XII intact, moves all four extremities independently. 2+
+   knee reflexes bilaterally.
+   DERM:  No rashes
+   Labs / Radiology
+   215 K/uL
+   11.0 g/dL
+   138 mg/dL
+   0.6 mg/dL
+   26 mEq/L
+   3.1 mEq/L
+   5 mg/dL
+   115 mEq/L
+   145 mEq/L
+   31.9 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   Hct
+   40.5
+   36.1
+   31.9
+   Plt
+   388
+   328
+   215
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   Other labs: PT / PTT / INR:26.1/50.2/2.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:4378/2913, Alk Phos / T Bili:32/1.0, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   LDH:2129 IU/L, Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:1.4 mg/dL
+   CMV, EBV, VZV, Toxo, Blood cultures, rubeola Pending
+   RPR NR
+   Imaging:
+   Ultrasound: Starry [**Hospital Ward Name **] appearance of the liver compatible with acute
+   hepatitis. No focal liver lesions identified. Patent portal vein.
+   KUB: No radiopaque foreign body. Overall paucity of bowel gas
+   A/P: 20 yo F w/ APAP OD and anticholinergic toxidrome.
+   # APAP OD: Transaminases in the increased to 4000 range with elevated
+   INR and TBili.  Access placed.  Transplant workup initiated. RUQ U/S
+   c/w acute hepatitis.  Transplant workup testing pending.
+   - Active type and screen.  Will monitor for bleeding and correct
+   coagulopathy as needed.
+   - Q4 neuro checks, consider neurosurg involvement/cooling if elevated
+   ICP.
+   - Transplant surgery following
+   - Q6 LFTs and coags
+   - RUQ U/S
+   #  Anticholinergic toxidrome: Appears to be improving, tachycardia
+   improving and MS improving. Protecting her airway.
+   - Continue to follow neurologic exam
+   .
+   # AG metabolic acidosis:  Resolved.  Initially presented with Ketones
+   in urine and blood, no osmolar gap.
+   .
+   #Nuvaring: in place.
+   .
+   ICU Care
+   # FEN: IVFs and clears.  Advance if vomiting improves.
+   # PPX: famotidine, heparin SQ
+   # ACCESS:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   # CODE:  Full confirmed w/ Mother
+   # CONTACT:  Father and mother.
+   # DISPO: ICU sessment and Plan
+ POISONING / OVERDOSE, ACETAMINOPHEN (TYLENOL, APAP)<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 20-year-old female who was admitted to the ICU due to acetaminophen (Tylenol, APAP) overdose and anticholinergic toxidrome. The patient's condition has worsened, with increased transaminases, elevated INR, and T-bili. The patient is currently on N-acetylcysteine (NAC) therapy and has had a central venous line (CVL) placed in anticipation of worsening coagulopathy.
+
+The patient's vital signs are stable, with a temperature of 37.4°C (99.3°F), heart rate of 68 bpm, and blood pressure of 137/74 mmHg. The patient's respiratory rate is 18 breaths per minute, and oxygen saturation is 96% on room air.
+
+The patient's physical examination is notable for nausea, sedation, and abdominal tenderness. The patient's neurological examination is intact, with 2+ knee reflexes bilaterally.
+
+Laboratory results show elevated liver enzymes, including ALT and AST, as well as elevated bilirubin levels. The patient's coagulation profile is abnormal, with an INR of 2.5 and a PTT of 50.2 seconds.
+
+The patient's imaging studies, including ultrasound and computed tomography (CT), show a ""starry"" appearance of the liver consistent with acute hepatitis. There is no evidence of focal liver lesions or radiopaque foreign bodies.
+
+The patient's management plan includes continued NAC therapy, monitoring of coagulation parameters, and consideration of neurosurgical involvement if the patient's intracranial pressure (ICP) becomes elevated. The patient will also undergo transplant workup testing, including liver function tests and coagulation studies.
+
+Potential medical complications that can arise include:
+
+1. Hepatic failure: The patient's liver enzymes are significantly elevated, and the patient is at risk of developing hepatic failure.
+2. Coagulopathy: The patient's INR is elevated, and the patient is at risk of bleeding.
+3. Respiratory failure: The patient's oxygen saturation is 96% on room air, but the patient may require mechanical ventilation if the oxygen saturation drops.
+4. Renal failure: The patient's creatinine level is normal, but the patient is at risk of developing renal failure due to the underlying liver disease.
+5. Seizures: The patient's anticholinergic toxidrome may increase the risk of seizures.
+6. Infection: The patient is at risk of developing infections, particularly in the liver and other organs.
+7. Gastrointestinal bleeding: The patient's coagulopathy and liver disease may increase the risk of gastrointestinal bleeding.
+
+It is essential to closely monitor the patient's condition and adjust the management plan as needed to prevent these complications and ensure the patient's optimal outcome."
+174314.0,298019,2153-12-27 07:59:00,Physician ,Physician Attending Progress Note,"HPI:
+    20yoF with APAP overdose.
+   24 Hour Events:
+   Worsening LFTs and coags yesterday.  Placed RIJ CVL for access.  Mental
+   status remains adequate.
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 06:33 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-27**] 07:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.4
+C (99.3
+   HR: 68 (62 - 119) bpm
+   BP: 137/74(91) {120/74(86) - 138/90(99)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   CVP: 9 (6 - 17)mmHg
+   Total In:
+                                                                  5,407 mL
+                                                                  1,476 mL
+   PO:
+   TF:
+   IVF:
+                                                                  5,407 mL
+                                                                  1,476 mL
+   Blood products:
+   Total out:
+                                                                  1,690 mL
+                                                                    440 mL
+   Urine:
+                                                                  1,140 mL
+                                                                    440 mL
+   NG:
+                                                                    550 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,717 mL
+                                                                  1,036 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/26/-2
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   11.0 g/dL
+   215 K/uL
+   138 mg/dL
+   0.6 mg/dL
+   26 mEq/L
+   3.1 mEq/L
+   5 mg/dL
+   115 mEq/L
+   145 mEq/L
+   31.9 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   Hct
+   40.5
+   36.1
+   31.9
+   Plt
+   388
+   328
+   215
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   Other labs: PT / PTT / INR:26.1/50.2/2.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:4378/2913, Alk Phos / T Bili:32/1.0, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   LDH:2129 IU/L, Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:1.4 mg/dL
+   Assessment and Plan
+   20F with APAP overdose and heptotoxicity.
+   1.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition : Remains critically ill in ICU
+   Total time spent:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+HPI:
+    20yoF with APAP overdose.
+   24 Hour Events:
+   Worsening LFTs and coags yesterday.  Placed RIJ CVL for access.  Mental
+   status remains adequate.
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 06:33 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-27**] 07:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.4
+C (99.3
+   HR: 68 (62 - 119) bpm
+   BP: 137/74(91) {120/74(86) - 138/90(99)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   CVP: 9 (6 - 17)mmHg
+   Total In:
+                                                                  5,407 mL
+                                                                  1,476 mL
+   PO:
+   TF:
+   IVF:
+                                                                  5,407 mL
+                                                                  1,476 mL
+   Blood products:
+   Total out:
+                                                                  1,690 mL
+                                                                    440 mL
+   Urine:
+                                                                  1,140 mL
+                                                                    440 mL
+   NG:
+                                                                    550 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,717 mL
+                                                                  1,036 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/26/-2
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   11.0 g/dL
+   215 K/uL
+   138 mg/dL
+   0.6 mg/dL
+   26 mEq/L
+   3.1 mEq/L
+   5 mg/dL
+   115 mEq/L
+   145 mEq/L
+   31.9 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   Hct
+   40.5
+   36.1
+   31.9
+   Plt
+   388
+   328
+   215
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   Other labs: PT / PTT / INR:26.1/50.2/2.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:4378/2913, Alk Phos / T Bili:32/1.0, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   LDH:2129 IU/L, Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:1.4 mg/dL
+   Assessment and Plan
+   20F with APAP overdose and heptotoxicity.
+   1.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status:
+   Disposition : Remains critically ill in ICU
+   Total time spent:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, here is a summary of the information:
+
+The patient is a 20-year-old female who was admitted to the ICU due to an acetaminophen (APAP) overdose. She has developed worsening liver function tests (LFTs) and coagulopathy, requiring placement of a right internal jugular central venous catheter (CVL) for access. Her mental status remains adequate.
+
+The patient's vital signs are stable, with a temperature of 37.4°C, heart rate of 68 beats per minute, blood pressure of 137/74 mmHg, respiratory rate of 18 breaths per minute, and oxygen saturation of 96%. She has a sinus rhythm and a central venous pressure (CVP) of 9 mmHg.
+
+The patient has received various medications, including heparin for prophylaxis against deep vein thrombosis (DVT). She has also received antibiotics, but the last dose is not specified.
+
+The patient's laboratory results show worsening liver function, with elevated alanine transaminase (ALT) and aspartate transaminase (AST) levels. Her coagulopathy is also worsening, with a prolonged prothrombin time (PT) and activated partial thromboplastin time (aPTT). Her platelet count is low, at 215 K/uL.
+
+The patient's respiratory support is minimal, with an oxygen saturation of 96% and no mechanical ventilation. Her physical examination is limited due to the patient's critical condition, but her peripheral vascular examination is not assessed.
+
+Potential medical complications that can arise from the patient's condition include:
+
+1. Hepatic failure: The patient's worsening liver function tests (LFTs) and coagulopathy increase the risk of hepatic failure, which can lead to encephalopathy, bleeding, and death.
+2. Bleeding: The patient's coagulopathy and low platelet count increase the risk of bleeding, which can be life-threatening.
+3. Infection: The patient's immunocompromised state and prolonged hospitalization increase the risk of infection, which can be severe and life-threatening.
+4. Respiratory failure: The patient's worsening respiratory status and lack of mechanical ventilation increase the risk of respiratory failure, which can be life-threatening.
+5. Cardiac complications: The patient's sinus rhythm and normal blood pressure suggest that cardiac complications are less likely, but the patient's critical condition and potential for cardiac arrhythmias cannot be ruled out.
+
+Overall, the patient remains critically ill in the ICU and requires close monitoring and management to prevent and treat potential complications."
+174314.0,298019,2153-12-27 07:59:00,Physician ,Physician Attending Progress Note,"HPI:
+    20yoF with APAP overdose and hepatitis.
+   24 Hour Events:
+   Worsening LFTs and coags yesterday.  Placed RIJ CVL for access.  Mental
+   status remains adequate.  Urine output responded to IVF.
+   Allergies: NKDA
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 06:33 AM
+   Other medications:
+   NAC IV
+   Insulin sliding scale
+   Zofran
+   Changes to medical and family history:
+   None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-27**] 07:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.4
+C (99.3
+   HR: 68 (62 - 119) bpm
+   BP: 137/74(91) {120/74(86) - 138/90(99)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   CVP: 9 (6 - 17)mmHg
+   Total In:
+                                                                  5,407 mL
+                                                                  1,476 mL
+   PO:
+   TF:
+   IVF:
+                                                                  5,407 mL
+                                                                  1,476 mL
+   Blood products:
+   Total out:
+                                                                  1,690 mL
+                                                                    440 mL
+   Urine:
+                                                                  1,140 mL
+                                                                    440 mL
+   NG:
+                                                                    550 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,717 mL
+                                                                  1,036 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/26/-2
+   Physical Examination
+   Gen: Awake, alert, conversant NAD
+   Chest: Clear
+   CV: RRR no murmur
+   Abd: s/nd/mild epigastric tenderness
+   Ext: no edema
+   Neuro: Normal neuro exam
+   Labs / Radiology
+   11.0 g/dL
+   215 K/uL
+   138 mg/dL
+   0.6 mg/dL
+   26 mEq/L
+   3.1 mEq/L
+   5 mg/dL
+   115 mEq/L
+   145 mEq/L
+   31.9 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   Hct
+   40.5
+   36.1
+   31.9
+   Plt
+   388
+   328
+   215
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   Other labs: PT / PTT / INR:26.1/50.2/2.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:4378/2913, Alk Phos / T Bili:32/1.0, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   LDH:2129 IU/L, Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:1.4 mg/dL
+   Micro: pre-transplant labs pending
+   RUQ U/S: c/w acute hepatitis
+   Assessment and Plan
+   20F with APAP overdose and heptotoxicity.
+   1. Acute hepatitis secondary to APAP: INR 2.5 trending upwards, mental
+   status stable, glucose wnl.
+   - Continue NAC
+   - Follow coags/LFTs/glucose/mental status
+   - Ensure completion of pre-transplant evaluation if needed
+   ICU Care
+   Nutrition: Clears, advance as tolerated. IVF.
+   Glycemic Control:  Monitor FSG closely
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   Prophylaxis:
+   DVT: Heparin
+   Stress ulcer:  no indication for ulcer prophylaxis
+   VAP:  not intubated
+   Communication:  Updated family during rounds
+   Code status:  FULL
+   Disposition : Remains critically ill in ICU
+   Total time spent:  35minutes CCT
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+HPI:
+    20yoF with APAP overdose and hepatitis.
+   24 Hour Events:
+   Worsening LFTs and coags yesterday.  Placed RIJ CVL for access.  Mental
+   status remains adequate.  Urine output responded to IVF.
+   Allergies: NKDA
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 06:33 AM
+   Other medications:
+   NAC IV
+   Insulin sliding scale
+   Zofran
+   Changes to medical and family history:
+   None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-27**] 07:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.4
+C (99.3
+   HR: 68 (62 - 119) bpm
+   BP: 137/74(91) {120/74(86) - 138/90(99)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   CVP: 9 (6 - 17)mmHg
+   Total In:
+                                                                  5,407 mL
+                                                                  1,476 mL
+   PO:
+   TF:
+   IVF:
+                                                                  5,407 mL
+                                                                  1,476 mL
+   Blood products:
+   Total out:
+                                                                  1,690 mL
+                                                                    440 mL
+   Urine:
+                                                                  1,140 mL
+                                                                    440 mL
+   NG:
+                                                                    550 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,717 mL
+                                                                  1,036 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/26/-2
+   Physical Examination
+   Gen: Awake, alert, conversant NAD
+   Chest: Clear
+   CV: RRR no murmur
+   Abd: s/nd/mild epigastric tenderness
+   Ext: no edema
+   Neuro: Normal neuro exam
+   Labs / Radiology
+   11.0 g/dL
+   215 K/uL
+   138 mg/dL
+   0.6 mg/dL
+   26 mEq/L
+   3.1 mEq/L
+   5 mg/dL
+   115 mEq/L
+   145 mEq/L
+   31.9 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   Hct
+   40.5
+   36.1
+   31.9
+   Plt
+   388
+   328
+   215
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   Other labs: PT / PTT / INR:26.1/50.2/2.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:4378/2913, Alk Phos / T Bili:32/1.0, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   LDH:2129 IU/L, Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:1.4 mg/dL
+   Micro: pre-transplant labs pending
+   RUQ U/S: c/w acute hepatitis
+   Assessment and Plan
+   20F with APAP overdose and heptotoxicity.
+   1. Acute hepatitis secondary to APAP: INR 2.5 trending upwards, mental
+   status stable, glucose wnl.
+   - Continue NAC
+   - Follow coags/LFTs/glucose/mental status
+   - Ensure completion of pre-transplant evaluation if needed
+   ICU Care
+   Nutrition: Clears, advance as tolerated. IVF.
+   Glycemic Control:  Monitor FSG closely
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   Prophylaxis:
+   DVT: Heparin
+   Stress ulcer:  no indication for ulcer prophylaxis
+   VAP:  not intubated
+   Communication:  Updated family during rounds
+   Code status:  FULL
+   Disposition : Remains critically ill in ICU
+   Total time spent:  35minutes CCT<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 20-year-old female who was admitted to the ICU due to an acetaminophen (APAP) overdose and acute hepatitis. She has been receiving treatment with N-acetylcysteine (NAC) and has shown some improvement in her liver function tests (LFTs) and coagulation profile. However, her INR is trending upwards, indicating worsening liver function. She is also at risk for bleeding due to her coagulopathy.
+
+The patient's vital signs are stable, with a temperature of 37.4°C, heart rate of 68 beats per minute, and blood pressure of 137/74 mmHg. She is receiving IV fluids and has a urine output of 1,140 mL over the past 24 hours.
+
+The patient's laboratory results show evidence of liver damage, with elevated ALT and AST levels, as well as an elevated bilirubin level. Her coagulation profile is abnormal, with an INR of 2.5 and a prolonged PTT. Her electrolyte levels are also abnormal, with hypokalemia and hypophosphatemia.
+
+Potential medical complications:
+
+1. Bleeding: The patient's coagulopathy increases her risk of bleeding, particularly in the context of invasive procedures or trauma.
+2. Hepatic encephalopathy: The patient's acute hepatitis may progress to hepatic encephalopathy, which can cause confusion, disorientation, and even coma.
+3. Renal failure: The patient's hypotension and coagulopathy may lead to acute kidney injury or failure.
+4. Sepsis: The patient's invasive lines and devices increase her risk of developing sepsis, particularly if she has a compromised immune system.
+5. Respiratory failure: The patient's hypoxemia and hypercapnia may progress to respiratory failure, particularly if she is not receiving adequate oxygenation and ventilation.
+6. Cardiac arrest: The patient's coagulopathy and hypotension may increase her risk of cardiac arrest, particularly if she is not receiving adequate cardiovascular support.
+
+Based on the patient's current condition and potential complications, it is essential to continue monitoring her closely and adjusting her treatment plan as needed to prevent or manage these complications."
+174314.0,298019,2153-12-27 07:59:00,Physician ,Physician Attending Progress Note,"HPI:
+    20yoF with APAP overdose and hepatitis.
+   24 Hour Events:
+   Worsening LFTs and coags yesterday.  Placed RIJ CVL for access.  Mental
+   status remains adequate.  Urine output responded to IVF.
+   Allergies: NKDA
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 06:33 AM
+   Other medications:
+   NAC IV
+   Insulin sliding scale
+   Zofran
+   Changes to medical and family history:
+   None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-27**] 07:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.4
+C (99.3
+   HR: 68 (62 - 119) bpm
+   BP: 137/74(91) {120/74(86) - 138/90(99)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   CVP: 9 (6 - 17)mmHg
+   Total In:
+                                                                  5,407 mL
+                                                                  1,476 mL
+   PO:
+   TF:
+   IVF:
+                                                                  5,407 mL
+                                                                  1,476 mL
+   Blood products:
+   Total out:
+                                                                  1,690 mL
+                                                                    440 mL
+   Urine:
+                                                                  1,140 mL
+                                                                    440 mL
+   NG:
+                                                                    550 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,717 mL
+                                                                  1,036 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/26/-2
+   Physical Examination
+   Gen: Awake, alert, conversant NAD
+   Chest: Clear
+   CV: RRR no murmur
+   Abd: s/nd/mild epigastric tenderness
+   Ext: no edema
+   Neuro: Normal neuro exam
+   Labs / Radiology
+   11.0 g/dL
+   215 K/uL
+   138 mg/dL
+   0.6 mg/dL
+   26 mEq/L
+   3.1 mEq/L
+   5 mg/dL
+   115 mEq/L
+   145 mEq/L
+   31.9 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   Hct
+   40.5
+   36.1
+   31.9
+   Plt
+   388
+   328
+   215
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   Other labs: PT / PTT / INR:26.1/50.2/2.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:4378/2913, Alk Phos / T Bili:32/1.0, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   LDH:2129 IU/L, Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:1.4 mg/dL
+   Micro: pre-transplant labs pending
+   RUQ U/S: c/w acute hepatitis
+   Assessment and Plan
+   20F with APAP overdose and heptotoxicity.
+   1. Acute hepatitis secondary to APAP: INR 2.5 trending upwards, mental
+   status stable, glucose wnl.
+   - Continue NAC
+   - Follow coags/LFTs/glucose/mental status
+   - Ensure completion of pre-transplant evaluation if needed
+   ICU Care
+   Nutrition: Clears, advance as tolerated. IVF.
+   Glycemic Control:  Monitor FSG closely
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   Prophylaxis:
+   DVT: Heparin
+   Stress ulcer:  no indication for ulcer prophylaxis
+   VAP:  not intubated
+   Communication:  Updated family during rounds
+   Code status:  FULL
+   Disposition : Remains critically ill in ICU
+   Total time spent:  35minutes CCT
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+HPI:
+    20yoF with APAP overdose and hepatitis.
+   24 Hour Events:
+   Worsening LFTs and coags yesterday.  Placed RIJ CVL for access.  Mental
+   status remains adequate.  Urine output responded to IVF.
+   Allergies: NKDA
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 06:33 AM
+   Other medications:
+   NAC IV
+   Insulin sliding scale
+   Zofran
+   Changes to medical and family history:
+   None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-27**] 07:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.6
+C (99.6
+   Tcurrent: 37.4
+C (99.3
+   HR: 68 (62 - 119) bpm
+   BP: 137/74(91) {120/74(86) - 138/90(99)} mmHg
+   RR: 18 (17 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   CVP: 9 (6 - 17)mmHg
+   Total In:
+                                                                  5,407 mL
+                                                                  1,476 mL
+   PO:
+   TF:
+   IVF:
+                                                                  5,407 mL
+                                                                  1,476 mL
+   Blood products:
+   Total out:
+                                                                  1,690 mL
+                                                                    440 mL
+   Urine:
+                                                                  1,140 mL
+                                                                    440 mL
+   NG:
+                                                                    550 mL
+   Stool:
+   Drains:
+   Balance:
+                                                                  3,717 mL
+                                                                  1,036 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: 7.41/32/115/26/-2
+   Physical Examination
+   Gen: Awake, alert, conversant NAD
+   Chest: Clear
+   CV: RRR no murmur
+   Abd: s/nd/mild epigastric tenderness
+   Ext: no edema
+   Neuro: Normal neuro exam
+   Labs / Radiology
+   11.0 g/dL
+   215 K/uL
+   138 mg/dL
+   0.6 mg/dL
+   26 mEq/L
+   3.1 mEq/L
+   5 mg/dL
+   115 mEq/L
+   145 mEq/L
+   31.9 %
+   6.0 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   Hct
+   40.5
+   36.1
+   31.9
+   Plt
+   388
+   328
+   215
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   Other labs: PT / PTT / INR:26.1/50.2/2.5, CK / CKMB / Troponin-T:354//,
+   ALT / AST:4378/2913, Alk Phos / T Bili:32/1.0, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   LDH:2129 IU/L, Ca++:8.1 mg/dL, Mg++:1.9 mg/dL, PO4:1.4 mg/dL
+   Micro: pre-transplant labs pending
+   RUQ U/S: c/w acute hepatitis
+   Assessment and Plan
+   20F with APAP overdose and heptotoxicity.
+   1. Acute hepatitis secondary to APAP: INR 2.5 trending upwards, mental
+   status stable, glucose wnl.
+   - Continue NAC
+   - Follow coags/LFTs/glucose/mental status
+   - Ensure completion of pre-transplant evaluation if needed
+   ICU Care
+   Nutrition: Clears, advance as tolerated. IVF.
+   Glycemic Control:  Monitor FSG closely
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   Prophylaxis:
+   DVT: Heparin
+   Stress ulcer:  no indication for ulcer prophylaxis
+   VAP:  not intubated
+   Communication:  Updated family during rounds
+   Code status:  FULL
+   Disposition : Remains critically ill in ICU
+   Total time spent:  35minutes CCT<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, here is a summary of the information:
+
+The patient is a 20-year-old female with a history of APAP overdose and hepatitis. She was admitted to the ICU and has been receiving treatment with NAC, insulin sliding scale, and Zofran. Her vital signs are stable, with a temperature of 37.4°C, heart rate of 68 bpm, blood pressure of 137/74 mmHg, respiratory rate of 18 breaths per minute, and oxygen saturation of 96%. She has a sinus rhythm and a central venous pressure of 9 mmHg.
+
+Her laboratory results show worsening liver function tests (LFTs) and coagulation studies. Her international normalized ratio (INR) is 2.5, and her platelet count is 215 K/uL. Her white blood cell count is 9.6, and her hematocrit is 40.5%. Her creatinine level is 0.8 mg/dL, and her blood urea nitrogen (BUN) is 16 mg/dL.
+
+The patient's physical examination is notable for mild epigastric tenderness and no signs of edema. Her neurologic examination is normal.
+
+The patient's plan includes continuing NAC, monitoring her coagulation studies, liver function tests, glucose levels, and mental status. She will also undergo a pre-transplant evaluation if needed.
+
+Potential medical complications that can arise include:
+
+1. Hepatic failure: The patient's worsening LFTs and coagulation studies suggest that she may be at risk for hepatic failure.
+2. Coagulopathy: The patient's INR of 2.5 and platelet count of 215 K/uL suggest that she may be at risk for bleeding.
+3. Kidney injury: The patient's creatinine level of 0.8 mg/dL and BUN level of 16 mg/dL suggest that she may be at risk for kidney injury.
+4. Infection: The patient's pre-transplant evaluation will likely include a thorough evaluation for infection, which could be a potential complication.
+5. Gastrointestinal bleeding: The patient's mild epigastric tenderness and no signs of edema suggest that she may be at risk for gastrointestinal bleeding.
+
+It is essential to continue monitoring the patient's vital signs, laboratory results, and physical examination findings to identify any potential complications early and provide appropriate treatment."
+174314.0,298019,2153-12-28 07:59:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   LFTs improving, patient was stable, still nauseaus
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 10:05 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-28**] 07:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.8
+C (100.1
+   Tcurrent: 37.7
+C (99.9
+   HR: 72 (65 - 91) bpm
+   BP: 121/92(98) {106/66(78) - 137/92(98)} mmHg
+   RR: 18 (14 - 27) insp/min
+   SpO2: 94%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 10 (-2 - 12)mmHg
+   Total In:
+                                                                  4,006 mL
+                                                                  1,565 mL
+   PO:
+   TF:
+   IVF:
+                                                                  4,006 mL
+                                                                  1,565 mL
+   Blood products:
+   Total out:
+                                                                  1,465 mL
+                                                                  1,330 mL
+   Urine:
+                                                                  1,465 mL
+                                                                  1,330 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,541 mL
+                                                                    235 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 94%
+   ABG: ///28/
+   Physical Examination
+   GENERAL: Nauseus, sedate
+   HEENT:  PERRL
+   CARDIAC:  RRR
+   LUNG:  CTAB
+   ABDOMEN:  Soft, NT, ND, BS+
+   EXT:  No edema, 2+ DP and PT pulses
+   NEURO:  A&Ox3. CNII-XII intact, moves all four extremities
+   independently. Able to do months of the year backwards in 14 seconds.
+   No asterixis.
+   DERM:  No rashes
+   Labs / Radiology
+   128 K/uL
+   10.8 g/dL
+   131 mg/dL
+   0.5 mg/dL
+   28 mEq/L
+   2.5 mEq/L
+   5 mg/dL
+   107 mEq/L
+   142 mEq/L
+   30.6 %
+   4.7 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+                             [**2153-12-27**]  09:35 PM
+                             [**2153-12-28**]  03:48 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   4.7
+   Hct
+   40.5
+   36.1
+   31.9
+   31.8
+   30.6
+   Plt
+   388
+   328
+   215
+   128
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   0.5
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   131
+   Other labs: PT / PTT / INR:22.4/51.9/2.1, CK / CKMB / Troponin-T:354//,
+   ALT / AST:6630/3480, Alk Phos / T Bili:34/0.8, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   Albumin:3.5 g/dL, LDH:1622 IU/L, Ca++:8.1 mg/dL, Mg++:1.6 mg/dL,
+   PO4:2.5 mg/dL
+   Assessment and Plan: 20 yo F w/ APAP OD and anticholinergic toxidrome.
+   # APAP OD: Transaminases in the increased to 4000 range with elevated
+   INR and TBili.  Access placed.  Transplant workup initiated. RUQ U/S
+   c/w acute hepatitis.  Transplant workup testing pending.
+   - Active type and screen.  Will monitor for bleeding and correct
+   coagulopathy as needed.
+   - Transplant surgery following
+   - Q12h LFTs and coags
+   .
+   #  Anticholinergic toxidrome: Appears to be improving, tachycardia
+   improving and MS improving. Protecting her airway.
+   - Continue to follow neurologic exam
+   .
+   # AG metabolic acidosis:  Resolved.  Initially presented with Ketones
+   in urine and blood, no osmolar gap.
+   .
+   # Nuvaring: in place.
+   .
+   ICU Care
+   # FEN: IVFs and clears.  Advance if vomiting improves.
+   # PPX: heparin SQ
+   # ACCESS:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   # CODE:  Full confirmed w/ Mother
+   # CONTACT:  Father and mother.
+   # DISPO: ICU sessment and Plan
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   LFTs improving, patient was stable, still nauseaus
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 10:05 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-28**] 07:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.8
+C (100.1
+   Tcurrent: 37.7
+C (99.9
+   HR: 72 (65 - 91) bpm
+   BP: 121/92(98) {106/66(78) - 137/92(98)} mmHg
+   RR: 18 (14 - 27) insp/min
+   SpO2: 94%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 10 (-2 - 12)mmHg
+   Total In:
+                                                                  4,006 mL
+                                                                  1,565 mL
+   PO:
+   TF:
+   IVF:
+                                                                  4,006 mL
+                                                                  1,565 mL
+   Blood products:
+   Total out:
+                                                                  1,465 mL
+                                                                  1,330 mL
+   Urine:
+                                                                  1,465 mL
+                                                                  1,330 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,541 mL
+                                                                    235 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 94%
+   ABG: ///28/
+   Physical Examination
+   GENERAL: Nauseus, sedate
+   HEENT:  PERRL
+   CARDIAC:  RRR
+   LUNG:  CTAB
+   ABDOMEN:  Soft, NT, ND, BS+
+   EXT:  No edema, 2+ DP and PT pulses
+   NEURO:  A&Ox3. CNII-XII intact, moves all four extremities
+   independently. Able to do months of the year backwards in 14 seconds.
+   No asterixis.
+   DERM:  No rashes
+   Labs / Radiology
+   128 K/uL
+   10.8 g/dL
+   131 mg/dL
+   0.5 mg/dL
+   28 mEq/L
+   2.5 mEq/L
+   5 mg/dL
+   107 mEq/L
+   142 mEq/L
+   30.6 %
+   4.7 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+                             [**2153-12-27**]  09:35 PM
+                             [**2153-12-28**]  03:48 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   4.7
+   Hct
+   40.5
+   36.1
+   31.9
+   31.8
+   30.6
+   Plt
+   388
+   328
+   215
+   128
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   0.5
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   131
+   Other labs: PT / PTT / INR:22.4/51.9/2.1, CK / CKMB / Troponin-T:354//,
+   ALT / AST:6630/3480, Alk Phos / T Bili:34/0.8, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   Albumin:3.5 g/dL, LDH:1622 IU/L, Ca++:8.1 mg/dL, Mg++:1.6 mg/dL,
+   PO4:2.5 mg/dL
+   Assessment and Plan: 20 yo F w/ APAP OD and anticholinergic toxidrome.
+   # APAP OD: Transaminases in the increased to 4000 range with elevated
+   INR and TBili.  Access placed.  Transplant workup initiated. RUQ U/S
+   c/w acute hepatitis.  Transplant workup testing pending.
+   - Active type and screen.  Will monitor for bleeding and correct
+   coagulopathy as needed.
+   - Transplant surgery following
+   - Q12h LFTs and coags
+   .
+   #  Anticholinergic toxidrome: Appears to be improving, tachycardia
+   improving and MS improving. Protecting her airway.
+   - Continue to follow neurologic exam
+   .
+   # AG metabolic acidosis:  Resolved.  Initially presented with Ketones
+   in urine and blood, no osmolar gap.
+   .
+   # Nuvaring: in place.
+   .
+   ICU Care
+   # FEN: IVFs and clears.  Advance if vomiting improves.
+   # PPX: heparin SQ
+   # ACCESS:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   # CODE:  Full confirmed w/ Mother
+   # CONTACT:  Father and mother.
+   # DISPO: ICU sessment and Plan<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 20-year-old female who was admitted to the ICU with acute liver failure due to acetaminophen overdose (APAP) and anticholinergic toxidrome. She has been receiving IV fluids and has been monitored for bleeding and coagulopathy. Her liver function tests (LFTs) have been improving, and her transaminases have decreased to the 4000 range. She has also been experiencing nausea and has been protected with an airway. Her anticholinergic toxidrome symptoms are improving, and she is being monitored for any changes in her neurologic exam.
+
+Potential Medical Complications:
+
+1. Bleeding complications: Due to the patient's coagulopathy, there is a risk of bleeding complications, such as epistaxis, petechiae, or bleeding into organs.
+2. Liver failure: The patient's liver function is still compromised, and there is a risk of further liver damage or failure.
+3. Infection: The patient is at risk of developing infections due to her compromised immune system and the presence of invasive lines and tubes.
+4. Respiratory failure: The patient's airway is protected, but there is still a risk of respiratory failure if her condition worsens.
+5. Cardiac complications: The patient's tachycardia is improving, but there is still a risk of cardiac complications, such as arrhythmias or cardiac arrest.
+6. Neurologic complications: The patient's anticholinergic toxidrome symptoms are improving, but there is still a risk of neurologic complications, such as seizures or coma.
+7. Renal failure: The patient's kidney function is not compromised at this time, but there is a risk of developing renal failure if her condition worsens.
+
+Recommendations:
+
+1. Continue to monitor the patient's liver function and coagulopathy.
+2. Monitor the patient's airway and breathing status.
+3. Continue to administer IV fluids and medications as prescribed.
+4. Monitor the patient's neurologic status and watch for any signs of worsening anticholinergic toxidrome symptoms.
+5. Continue to monitor the patient's cardiac status and watch for any signs of cardiac complications.
+6. Monitor the patient's renal function and watch for any signs of worsening kidney function.
+7. Consider consulting with a transplant specialist to discuss the patient's potential for liver transplantation."
+174314.0,298019,2153-12-28 07:59:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   LFTs improving, patient was stable, still nauseaus
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 10:05 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-28**] 07:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.8
+C (100.1
+   Tcurrent: 37.7
+C (99.9
+   HR: 72 (65 - 91) bpm
+   BP: 121/92(98) {106/66(78) - 137/92(98)} mmHg
+   RR: 18 (14 - 27) insp/min
+   SpO2: 94%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 10 (-2 - 12)mmHg
+   Total In:
+                                                                  4,006 mL
+                                                                  1,565 mL
+   PO:
+   TF:
+   IVF:
+                                                                  4,006 mL
+                                                                  1,565 mL
+   Blood products:
+   Total out:
+                                                                  1,465 mL
+                                                                  1,330 mL
+   Urine:
+                                                                  1,465 mL
+                                                                  1,330 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,541 mL
+                                                                    235 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 94%
+   ABG: ///28/
+   Physical Examination
+   GENERAL: Nauseus, sedate
+   HEENT:  PERRL
+   CARDIAC:  RRR
+   LUNG:  CTAB
+   ABDOMEN:  Soft, NT, ND, BS+
+   EXT:  No edema, 2+ DP and PT pulses
+   NEURO:  A&Ox3. CNII-XII intact, moves all four extremities
+   independently. Able to do months of the year backwards in 14 seconds.
+   No asterixis.
+   DERM:  No rashes
+   Labs / Radiology
+   128 K/uL
+   10.8 g/dL
+   131 mg/dL
+   0.5 mg/dL
+   28 mEq/L
+   2.5 mEq/L
+   5 mg/dL
+   107 mEq/L
+   142 mEq/L
+   30.6 %
+   4.7 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+                             [**2153-12-27**]  09:35 PM
+                             [**2153-12-28**]  03:48 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   4.7
+   Hct
+   40.5
+   36.1
+   31.9
+   31.8
+   30.6
+   Plt
+   388
+   328
+   215
+   128
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   0.5
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   131
+   Other labs: PT / PTT / INR:22.4/51.9/2.1, CK / CKMB / Troponin-T:354//,
+   ALT / AST:6630/3480, Alk Phos / T Bili:34/0.8, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   Albumin:3.5 g/dL, LDH:1622 IU/L, Ca++:8.1 mg/dL, Mg++:1.6 mg/dL,
+   PO4:2.5 mg/dL
+   Assessment and Plan: 20 yo F w/ APAP OD and anticholinergic toxidrome.
+   # APAP OD: Transaminases in the increased to 4000 range with elevated
+   INR and TBili.  Access placed.  Transplant workup initiated. RUQ U/S
+   c/w acute hepatitis.  Transplant workup testing pending.
+   - Active type and screen.  Will monitor for bleeding and correct
+   coagulopathy as needed.
+   - Transplant surgery following
+   - Q12h LFTs and coags
+   .
+   #  Anticholinergic toxidrome: Appears to be improving, tachycardia
+   improving and MS improving. Protecting her airway.
+   - Continue to follow neurologic exam
+   .
+   # AG metabolic acidosis:  Resolved.  Initially presented with Ketones
+   in urine and blood, no osmolar gap.
+   .
+   # Nuvaring: in place.
+   .
+   ICU Care
+   # FEN: IVFs and clears.  Advance as tolerated
+   # PPX: heparin SQ
+   # ACCESS:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+ needs to have clip placed remove in
+   24-48 hrs
+   # CODE:  Full confirmed w/ Mother
+   # CONTACT:  Father and mother.
+   # DISPO: ICU sessment and Plan
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   LFTs improving, patient was stable, still nauseaus
+   Allergies:
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 10:05 PM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-28**] 07:58 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.8
+C (100.1
+   Tcurrent: 37.7
+C (99.9
+   HR: 72 (65 - 91) bpm
+   BP: 121/92(98) {106/66(78) - 137/92(98)} mmHg
+   RR: 18 (14 - 27) insp/min
+   SpO2: 94%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 10 (-2 - 12)mmHg
+   Total In:
+                                                                  4,006 mL
+                                                                  1,565 mL
+   PO:
+   TF:
+   IVF:
+                                                                  4,006 mL
+                                                                  1,565 mL
+   Blood products:
+   Total out:
+                                                                  1,465 mL
+                                                                  1,330 mL
+   Urine:
+                                                                  1,465 mL
+                                                                  1,330 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,541 mL
+                                                                    235 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 94%
+   ABG: ///28/
+   Physical Examination
+   GENERAL: Nauseus, sedate
+   HEENT:  PERRL
+   CARDIAC:  RRR
+   LUNG:  CTAB
+   ABDOMEN:  Soft, NT, ND, BS+
+   EXT:  No edema, 2+ DP and PT pulses
+   NEURO:  A&Ox3. CNII-XII intact, moves all four extremities
+   independently. Able to do months of the year backwards in 14 seconds.
+   No asterixis.
+   DERM:  No rashes
+   Labs / Radiology
+   128 K/uL
+   10.8 g/dL
+   131 mg/dL
+   0.5 mg/dL
+   28 mEq/L
+   2.5 mEq/L
+   5 mg/dL
+   107 mEq/L
+   142 mEq/L
+   30.6 %
+   4.7 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+                             [**2153-12-27**]  09:35 PM
+                             [**2153-12-28**]  03:48 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   4.7
+   Hct
+   40.5
+   36.1
+   31.9
+   31.8
+   30.6
+   Plt
+   388
+   328
+   215
+   128
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   0.5
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   131
+   Other labs: PT / PTT / INR:22.4/51.9/2.1, CK / CKMB / Troponin-T:354//,
+   ALT / AST:6630/3480, Alk Phos / T Bili:34/0.8, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   Albumin:3.5 g/dL, LDH:1622 IU/L, Ca++:8.1 mg/dL, Mg++:1.6 mg/dL,
+   PO4:2.5 mg/dL
+   Assessment and Plan: 20 yo F w/ APAP OD and anticholinergic toxidrome.
+   # APAP OD: Transaminases in the increased to 4000 range with elevated
+   INR and TBili.  Access placed.  Transplant workup initiated. RUQ U/S
+   c/w acute hepatitis.  Transplant workup testing pending.
+   - Active type and screen.  Will monitor for bleeding and correct
+   coagulopathy as needed.
+   - Transplant surgery following
+   - Q12h LFTs and coags
+   .
+   #  Anticholinergic toxidrome: Appears to be improving, tachycardia
+   improving and MS improving. Protecting her airway.
+   - Continue to follow neurologic exam
+   .
+   # AG metabolic acidosis:  Resolved.  Initially presented with Ketones
+   in urine and blood, no osmolar gap.
+   .
+   # Nuvaring: in place.
+   .
+   ICU Care
+   # FEN: IVFs and clears.  Advance as tolerated
+   # PPX: heparin SQ
+   # ACCESS:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+ needs to have clip placed remove in
+   24-48 hrs
+   # CODE:  Full confirmed w/ Mother
+   # CONTACT:  Father and mother.
+   # DISPO: ICU sessment and Plan<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 20-year-old female with acute poisoning from acetaminophen (APAP) overdose and anticholinergic toxidrome. The patient is currently in the ICU, where she is receiving treatment for her condition.
+
+The patient's vital signs are stable, with a temperature of 37.7°C, heart rate of 72 bpm, blood pressure of 121/92 mmHg, respiratory rate of 18 breaths per minute, and oxygen saturation of 94%. Her hemodynamic monitoring is stable, with a central venous pressure (CVP) of 10 mmHg.
+
+The patient's laboratory results show elevated liver enzymes, including aspartate aminotransferase (AST) and alanine aminotransferase (ALT), which are indicative of liver damage. Her international normalized ratio (INR) is elevated, which may indicate a coagulopathy. Her kidney function is normal, and her electrolytes are within normal range.
+
+The patient's physical examination reveals a soft, non-tender abdomen, and her neurological examination is intact, with no asterixis.
+
+Potential medical complications that can arise from the patient's condition include:
+
+1. Hepatic failure: The patient's elevated liver enzymes and coagulopathy may indicate a risk of hepatic failure.
+2. Bleeding complications: The patient's coagulopathy may increase the risk of bleeding, particularly in the context of invasive procedures or surgery.
+3. Infection: The patient's liver damage and coagulopathy may increase her risk of infection.
+4. Respiratory complications: The patient's anticholinergic toxidrome may cause respiratory depression, and her liver damage may increase her risk of respiratory failure.
+5. Renal failure: The patient's liver damage and coagulopathy may increase her risk of renal failure.
+
+Based on the patient's condition, the following plan is recommended:
+
+1. Continue to monitor the patient's vital signs and laboratory results closely.
+2. Adjust the patient's anticoagulation therapy as necessary to prevent bleeding complications.
+3. Monitor the patient's neurological status and adjust her anticholinergic medication as necessary to prevent respiratory depression.
+4. Consider referring the patient to a transplant center for further evaluation and management of her liver damage.
+5. Continue to follow the patient's liver function and adjust her treatment plan as necessary to prevent further liver damage."
+174314.0,298019,2153-12-28 10:33:00,Physician ,Physician Attending Progress Note,"HPI:
+   20yoF with suicide attempt with APAP and hepatitis.
+   24 Hour Events:
+   Improving INR overnight down to 2.1 from 2.5.
+   Called-out, awaiting bed.
+   Allergies: NKDA
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 10:05 PM
+   Other medications:
+   Mucomyst
+   Insulin sliding scale
+   Changes to medical and family history:
+   None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-28**] 10:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.8
+C (100.1
+   Tcurrent: 37.3
+C (99.1
+   HR: 77 (65 - 91) bpm
+   BP: 110/66(77) {106/66(77) - 137/92(98)} mmHg
+   RR: 18 (14 - 27) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   CVP: 8 (-2 - 12)mmHg
+   Total In:
+                                                                  4,007 mL
+                                                                  2,355 mL
+   PO:
+   TF:
+   IVF:
+                                                                  4,007 mL
+                                                                  2,355 mL
+   Blood products:
+   Total out:
+                                                                  1,465 mL
+                                                                  1,890 mL
+   Urine:
+                                                                  1,465 mL
+                                                                  1,890 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,542 mL
+                                                                    465 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 97%
+   ABG: ///28/
+   Physical Examination
+   Gen: Awake, alert, conversant
+   Chest: clear
+   CV: RRR no murmur
+   Abd: s/nt/nd
+   Ext: warm/no edema
+   Labs / Radiology
+   10.8 g/dL
+   128 K/uL
+   131 mg/dL
+   0.5 mg/dL
+   28 mEq/L
+   2.5 mEq/L
+   5 mg/dL
+   107 mEq/L
+   142 mEq/L
+   30.6 %
+   4.7 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+                             [**2153-12-27**]  09:35 PM
+                             [**2153-12-28**]  03:48 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   4.7
+   Hct
+   40.5
+   36.1
+   31.9
+   31.8
+   30.6
+   Plt
+   388
+   328
+   215
+   128
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   0.5
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   131
+   Other labs: PT / PTT / INR:22.4/51.9/2.1, CK / CKMB / Troponin-T:354//,
+   ALT / AST:6630/3480, Alk Phos / T Bili:34/0.8, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   Albumin:3.5 g/dL, LDH:1622 IU/L, Ca++:8.1 mg/dL, Mg++:1.6 mg/dL,
+   PO4:2.5 mg/dL
+   Assessment and Plan
+   20yoF with APAP overdose.
+   1.       APAP:  Improving INR.
+   - continue NAC
+   - Liver following
+   - Transfer to floor
+   2.  Suicide attempt
+   -  Case d/w psych [**Last Name (LF) 11924**], [**First Name3 (LF) **] need inpt stay, reassess today, sect
+   12 for w/e
+    - Above d/w father
+   Remainder of plan per resident progress note
+   ICU Care
+   Nutrition: Advance diet as tolerated
+   Glycemic Control:  d/c insulin sliding scale
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   Prophylaxis:
+   DVT: heparin
+   Stress ulcer: No indication
+   VAP: Not intubated
+   Communication:  Family and patient updated during rounds
+   Code status: Full code
+   Disposition : Transfer to floor
+   Total time spent:  25minutes
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+HPI:
+   20yoF with suicide attempt with APAP and hepatitis.
+   24 Hour Events:
+   Improving INR overnight down to 2.1 from 2.5.
+   Called-out, awaiting bed.
+   Allergies: NKDA
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 10:05 PM
+   Other medications:
+   Mucomyst
+   Insulin sliding scale
+   Changes to medical and family history:
+   None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-28**] 10:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.8
+C (100.1
+   Tcurrent: 37.3
+C (99.1
+   HR: 77 (65 - 91) bpm
+   BP: 110/66(77) {106/66(77) - 137/92(98)} mmHg
+   RR: 18 (14 - 27) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   CVP: 8 (-2 - 12)mmHg
+   Total In:
+                                                                  4,007 mL
+                                                                  2,355 mL
+   PO:
+   TF:
+   IVF:
+                                                                  4,007 mL
+                                                                  2,355 mL
+   Blood products:
+   Total out:
+                                                                  1,465 mL
+                                                                  1,890 mL
+   Urine:
+                                                                  1,465 mL
+                                                                  1,890 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,542 mL
+                                                                    465 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 97%
+   ABG: ///28/
+   Physical Examination
+   Gen: Awake, alert, conversant
+   Chest: clear
+   CV: RRR no murmur
+   Abd: s/nt/nd
+   Ext: warm/no edema
+   Labs / Radiology
+   10.8 g/dL
+   128 K/uL
+   131 mg/dL
+   0.5 mg/dL
+   28 mEq/L
+   2.5 mEq/L
+   5 mg/dL
+   107 mEq/L
+   142 mEq/L
+   30.6 %
+   4.7 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+                             [**2153-12-27**]  09:35 PM
+                             [**2153-12-28**]  03:48 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   4.7
+   Hct
+   40.5
+   36.1
+   31.9
+   31.8
+   30.6
+   Plt
+   388
+   328
+   215
+   128
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   0.5
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   131
+   Other labs: PT / PTT / INR:22.4/51.9/2.1, CK / CKMB / Troponin-T:354//,
+   ALT / AST:6630/3480, Alk Phos / T Bili:34/0.8, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   Albumin:3.5 g/dL, LDH:1622 IU/L, Ca++:8.1 mg/dL, Mg++:1.6 mg/dL,
+   PO4:2.5 mg/dL
+   Assessment and Plan
+   20yoF with APAP overdose.
+   1.       APAP:  Improving INR.
+   - continue NAC
+   - Liver following
+   - Transfer to floor
+   2.  Suicide attempt
+   -  Case d/w psych [**Last Name (LF) 11924**], [**First Name3 (LF) **] need inpt stay, reassess today, sect
+   12 for w/e
+    - Above d/w father
+   Remainder of plan per resident progress note
+   ICU Care
+   Nutrition: Advance diet as tolerated
+   Glycemic Control:  d/c insulin sliding scale
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   Prophylaxis:
+   DVT: heparin
+   Stress ulcer: No indication
+   VAP: Not intubated
+   Communication:  Family and patient updated during rounds
+   Code status: Full code
+   Disposition : Transfer to floor
+   Total time spent:  25minutes<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, here is a summary of the information:
+
+The patient is a 20-year-old female who attempted suicide by overdosing on acetaminophen (APAP) and has hepatitis. She is currently in the intensive care unit (ICU) and is being treated for liver damage.
+
+The patient's vital signs are stable, with a temperature of 37.8°C (100.1°F), heart rate of 77 beats per minute, and blood pressure of 110/66 mmHg. Her respiratory rate is 18 breaths per minute, and her oxygen saturation is 97% on room air.
+
+The patient's laboratory results show:
+
+* Liver enzymes: ALT 6630 IU/L, AST 3480 IU/L, and alkaline phosphatase 34 IU/L
+* Kidney function: creatinine 0.8 mg/dL, blood urea nitrogen 16 mg/dL, and albumin 3.5 g/dL
+* Coagulation profile: international normalized ratio (INR) 2.1, partial thromboplastin time (PTT) 51.9 seconds, and prothrombin time (PT) 22.4 seconds
+* Blood count: white blood cell count 9.6 K/μL, platelet count 388 K/μL, and hemoglobin 10.8 g/dL
+
+The patient's physical examination is unremarkable, with clear lung fields, a regular heart rhythm, and no signs of abdominal tenderness or extremity edema.
+
+The patient's plan includes:
+
+* Continuing treatment with N-acetylcysteine (NAC) for APAP overdose
+* Monitoring liver function and adjusting treatment as needed
+* Transferring the patient to the floor once her condition stabilizes
+* Reassessing the patient's suicide risk and providing counseling as needed
+
+Potential medical complications that may arise include:
+
+* Further liver damage or failure
+* Kidney damage or failure
+* Bleeding complications due to coagulopathy
+* Respiratory complications, such as pneumonia or respiratory failure
+* Infection, such as sepsis or septic shock
+* Psychiatric complications, such as depression or anxiety disorders
+
+It is essential to closely monitor the patient's condition and adjust treatment as needed to prevent or manage these potential complications."
+174314.0,298019,2153-12-28 10:33:00,Physician ,Physician Attending Progress Note,"HPI:
+   20yoF with suicide attempt with APAP and hepatitis.
+   24 Hour Events:
+   Improving INR overnight down to 2.1 from 2.5.
+   Called-out, awaiting bed.
+   Allergies: NKDA
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 10:05 PM
+   Other medications:
+   Mucomyst
+   Insulin sliding scale
+   Changes to medical and family history:
+   None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-28**] 10:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.8
+C (100.1
+   Tcurrent: 37.3
+C (99.1
+   HR: 77 (65 - 91) bpm
+   BP: 110/66(77) {106/66(77) - 137/92(98)} mmHg
+   RR: 18 (14 - 27) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   CVP: 8 (-2 - 12)mmHg
+   Total In:
+                                                                  4,007 mL
+                                                                  2,355 mL
+   PO:
+   TF:
+   IVF:
+                                                                  4,007 mL
+                                                                  2,355 mL
+   Blood products:
+   Total out:
+                                                                  1,465 mL
+                                                                  1,890 mL
+   Urine:
+                                                                  1,465 mL
+                                                                  1,890 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,542 mL
+                                                                    465 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 97%
+   ABG: ///28/
+   Physical Examination
+   Gen: Awake, alert, conversant
+   Chest: clear
+   CV: RRR no murmur
+   Abd: s/nt/nd
+   Ext: warm/no edema
+   Labs / Radiology
+   10.8 g/dL
+   128 K/uL
+   131 mg/dL
+   0.5 mg/dL
+   28 mEq/L
+   2.5 mEq/L
+   5 mg/dL
+   107 mEq/L
+   142 mEq/L
+   30.6 %
+   4.7 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+                             [**2153-12-27**]  09:35 PM
+                             [**2153-12-28**]  03:48 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   4.7
+   Hct
+   40.5
+   36.1
+   31.9
+   31.8
+   30.6
+   Plt
+   388
+   328
+   215
+   128
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   0.5
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   131
+   Other labs: PT / PTT / INR:22.4/51.9/2.1, CK / CKMB / Troponin-T:354//,
+   ALT / AST:6630/3480, Alk Phos / T Bili:34/0.8, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   Albumin:3.5 g/dL, LDH:1622 IU/L, Ca++:8.1 mg/dL, Mg++:1.6 mg/dL,
+   PO4:2.5 mg/dL
+   Assessment and Plan
+   20yoF with APAP overdose.
+   1.       APAP:  Improving INR.
+   - continue NAC
+   - Liver following
+   - Transfer to floor
+   Remainder of plan per resident progress note
+   ICU Care
+   Nutrition: Advance diet as tolerated
+   Glycemic Control:  d/c insulin sliding scale
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   Prophylaxis:
+   DVT: heparin
+   Stress ulcer: No indication
+   VAP: Not intubated
+   Communication:  Family and patient updated during rounds
+   Code status: Full code
+   Disposition : Transfer to floor
+   Total time spent:  25minutes
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+HPI:
+   20yoF with suicide attempt with APAP and hepatitis.
+   24 Hour Events:
+   Improving INR overnight down to 2.1 from 2.5.
+   Called-out, awaiting bed.
+   Allergies: NKDA
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2153-12-27**] 10:05 PM
+   Other medications:
+   Mucomyst
+   Insulin sliding scale
+   Changes to medical and family history:
+   None
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2153-12-28**] 10:20 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.8
+C (100.1
+   Tcurrent: 37.3
+C (99.1
+   HR: 77 (65 - 91) bpm
+   BP: 110/66(77) {106/66(77) - 137/92(98)} mmHg
+   RR: 18 (14 - 27) insp/min
+   SpO2: 97%
+   Heart rhythm: SR (Sinus Rhythm)
+   CVP: 8 (-2 - 12)mmHg
+   Total In:
+                                                                  4,007 mL
+                                                                  2,355 mL
+   PO:
+   TF:
+   IVF:
+                                                                  4,007 mL
+                                                                  2,355 mL
+   Blood products:
+   Total out:
+                                                                  1,465 mL
+                                                                  1,890 mL
+   Urine:
+                                                                  1,465 mL
+                                                                  1,890 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,542 mL
+                                                                    465 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 97%
+   ABG: ///28/
+   Physical Examination
+   Gen: Awake, alert, conversant
+   Chest: clear
+   CV: RRR no murmur
+   Abd: s/nt/nd
+   Ext: warm/no edema
+   Labs / Radiology
+   10.8 g/dL
+   128 K/uL
+   131 mg/dL
+   0.5 mg/dL
+   28 mEq/L
+   2.5 mEq/L
+   5 mg/dL
+   107 mEq/L
+   142 mEq/L
+   30.6 %
+   4.7 K/uL
+        [image002.jpg]
+                             [**2153-12-25**]  09:27 PM
+                             [**2153-12-25**]  09:36 PM
+                             [**2153-12-26**]  05:32 AM
+                             [**2153-12-26**]  08:17 AM
+                             [**2153-12-26**]  01:30 PM
+                             [**2153-12-26**]  04:54 PM
+                             [**2153-12-27**]  04:34 AM
+                             [**2153-12-27**]  09:35 PM
+                             [**2153-12-28**]  03:48 AM
+   WBC
+   9.6
+   7.0
+   6.0
+   4.7
+   Hct
+   40.5
+   36.1
+   31.9
+   31.8
+   30.6
+   Plt
+   388
+   328
+   215
+   128
+   Cr
+   0.8
+   0.8
+   0.8
+   0.7
+   0.6
+   0.5
+   TCO2
+   16
+   21
+   Glucose
+   122
+   191
+   157
+   138
+   131
+   Other labs: PT / PTT / INR:22.4/51.9/2.1, CK / CKMB / Troponin-T:354//,
+   ALT / AST:6630/3480, Alk Phos / T Bili:34/0.8, Differential-Neuts:78.3
+   %, Lymph:15.0 %, Mono:6.2 %, Eos:0.2 %, Lactic Acid:2.3 mmol/L,
+   Albumin:3.5 g/dL, LDH:1622 IU/L, Ca++:8.1 mg/dL, Mg++:1.6 mg/dL,
+   PO4:2.5 mg/dL
+   Assessment and Plan
+   20yoF with APAP overdose.
+   1.       APAP:  Improving INR.
+   - continue NAC
+   - Liver following
+   - Transfer to floor
+   Remainder of plan per resident progress note
+   ICU Care
+   Nutrition: Advance diet as tolerated
+   Glycemic Control:  d/c insulin sliding scale
+   Lines:
+   22 Gauge - [**2153-12-25**] 04:56 PM
+   20 Gauge - [**2153-12-25**] 10:11 PM
+   Multi Lumen - [**2153-12-26**] 06:38 PM
+   Prophylaxis:
+   DVT: heparin
+   Stress ulcer: No indication
+   VAP: Not intubated
+   Communication:  Family and patient updated during rounds
+   Code status: Full code
+   Disposition : Transfer to floor
+   Total time spent:  25minutes<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 20-year-old female who attempted suicide by overdosing on acetaminophen (APAP) and has hepatitis. She is currently in the Intensive Care Unit (ICU) and has been improving over the past 24 hours. Her International Normalized Ratio (INR) has decreased from 2.5 to 2.1, indicating improving liver function. She is awake, alert, and conversant, with a clear chest and no murmurs on cardiovascular examination.
+
+The patient is receiving various medications, including heparin for prophylaxis against deep vein thrombosis (DVT) and stress ulcers, and insulin sliding scale for glycemic control. She is also receiving nutrition through an advanced diet and has a multi-lumen central venous catheter for administration of medications and fluids.
+
+Potential Medical Complications:
+
+1. Hepatic failure: The patient's APAP overdose has caused significant liver damage, and she is at risk for hepatic failure. Close monitoring of her liver function tests and INR is essential to detect any worsening of her liver function.
+2. Coagulopathy: The patient's INR is still elevated, indicating a risk of bleeding. She is at risk for bleeding complications, particularly if her INR continues to increase.
+3. Infection: The patient is at risk for infection due to her prolonged stay in the ICU and her compromised immune system.
+4. Nutritional deficiencies: The patient's prolonged stay in the ICU and her compromised liver function may lead to nutritional deficiencies, particularly protein and calorie malnutrition.
+5. Psychological complications: The patient's suicide attempt and ongoing treatment may lead to psychological complications, including depression, anxiety, and post-traumatic stress disorder (PTSD).
+6. Complications related to medications: The patient is receiving multiple medications, including insulin and heparin, which may lead to complications such as hypoglycemia, bleeding, or allergic reactions.
+7. Cardiovascular complications: The patient's underlying liver disease and APAP overdose may lead to cardiovascular complications, including cardiomyopathy, arrhythmias, and heart failure."

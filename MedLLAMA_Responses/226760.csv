@@ -1,0 +1,999 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+148187.0,226760,2124-12-11 07:11:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2124-12-10**] 04:00 PM
+   Tele with complete heart block and junctional escape
+   Need to confirm code status with daughter
+   Allergies:
+   [**Name2 (NI) 83**] Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2124-12-11**] 07:06 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.9
+C (98.5
+   HR: 67 (40 - 75) bpm
+   BP: 150/68(87) {67/45(58) - 180/93(105)} mmHg
+   RR: 26 (14 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 62 Inch
+                  Total In:
+                                                                    120 mL
+                                                                    120 mL
+   PO:
+                                                                    120 mL
+                                                                    120 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    200 mL
+                                                                    350 mL
+   Urine:
+                                                                    200 mL
+                                                                    350 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -80 mL
+                                                                   -230 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ////
+   Physical Examination
+   Gen: Elderly female in NAD. Oriented x3. Mood, affect appropriate.
+   HEENT: NCAT. Sclera anicteric. PERRL, EOMI. Conjunctiva were pink, no
+   pallor or cyanosis of the oral mucosa. No xanthalesma.
+   Neck: Supple with JVP not visible
+   CV: PMI located in 5th intercostal space, midclavicular line. [**Last Name (un) **],
+   normal S1, S2. [**3-22**] crescendo/decrescendo SEM . No thrills, lifts. No S3
+   or S4.
+   Chest: No chest wall deformities, scoliosis or kyphosis. Resp were
+   unlabored, no accessory muscle use. CTAB, no crackles, wheezes or
+   rhonchi.
+   Abd: Soft, NTND. No HSM or tenderness. Abd aorta not enlarged by
+   palpation. No abdominial bruits.
+   Ext: No c/c/e. No femoral bruits.
+   Skin: No stasis dermatitis, ulcers, scars, or xanthomas.
+   Labs / Radiology
+        [image002.jpg]
+   Assessment and Plan
+   Patient is an 88 yo female with history of HTN, Hypercholesterolemia,
+   and atrial fibrillation who presents with lightheadedness and found to
+   be in complete heart block.
+   .
+   #. CHB: Unclear etiology. Possible degeneration of her conduction
+   system, ? from calcific valvular disease. Less likely to be acute
+   ischemia given normal CEZ. Unlikely to be Lyme as she has no exposures.
+   No signs of viral myocarditis on exam. Could be infiltration from prior
+   lymphoma. Digoxin or metoprolol could be contributing but digoxin level
+   normal. Currently hemodynamically stable, intermittently in CHB vs.
+   A.fib.
+   -Telemetry with pacer pads on
+   -Hold coumadin for likely PPM once INR reaches 2
+   -Hold all nodal agents, including digoxin and metoprolol
+   -Cycle CEZ
+   -Consider TTE or Cardiac MR [**First Name (Titles) **] [**Last Name (Titles) **] for infiltrative disease
+   .
+   #. Pump: No signs of volume overload currently.
+   -Con't home lasix
+   -Con't ASA
+   .
+   #. Afib: Hold digoxin and metoprolol given CHB. Gentle rate control if
+   starts going very fast.
+   -Hold coumadin
+   .
+   #. HTN: Hold metoprol given CHB.
+   -If becomes severely hypertensive, consider hydral or ACE for BP
+   control
+   .
+   # Hyperlipidemia: Con't Atorvastatin.
+   .
+   # Dementia: Con't Aricept
+   .
+   # GERD: Con't PPI
+   .
+   #. FEN: Low salt, cardiac diet
+   .
+   #. Access:  PIV
+   .
+   #. PPx: Coumadin, PPI
+   .
+   #. Code:  Patient states DNR/DNI but given dementia, will confirm with
+   HCP first.
+   .
+   #. Dispo:  CCU for now.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2124-12-10**] 04:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2124-12-10**] 04:00 PM
+   Tele with complete heart block and junctional escape
+   Need to confirm code status with daughter
+   Allergies:
+   [**Name2 (NI) 83**] Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2124-12-11**] 07:06 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.9
+C (98.5
+   HR: 67 (40 - 75) bpm
+   BP: 150/68(87) {67/45(58) - 180/93(105)} mmHg
+   RR: 26 (14 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 62 Inch
+                  Total In:
+                                                                    120 mL
+                                                                    120 mL
+   PO:
+                                                                    120 mL
+                                                                    120 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    200 mL
+                                                                    350 mL
+   Urine:
+                                                                    200 mL
+                                                                    350 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -80 mL
+                                                                   -230 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ////
+   Physical Examination
+   Gen: Elderly female in NAD. Oriented x3. Mood, affect appropriate.
+   HEENT: NCAT. Sclera anicteric. PERRL, EOMI. Conjunctiva were pink, no
+   pallor or cyanosis of the oral mucosa. No xanthalesma.
+   Neck: Supple with JVP not visible
+   CV: PMI located in 5th intercostal space, midclavicular line. [**Last Name (un) **],
+   normal S1, S2. [**3-22**] crescendo/decrescendo SEM . No thrills, lifts. No S3
+   or S4.
+   Chest: No chest wall deformities, scoliosis or kyphosis. Resp were
+   unlabored, no accessory muscle use. CTAB, no crackles, wheezes or
+   rhonchi.
+   Abd: Soft, NTND. No HSM or tenderness. Abd aorta not enlarged by
+   palpation. No abdominial bruits.
+   Ext: No c/c/e. No femoral bruits.
+   Skin: No stasis dermatitis, ulcers, scars, or xanthomas.
+   Labs / Radiology
+        [image002.jpg]
+   Assessment and Plan
+   Patient is an 88 yo female with history of HTN, Hypercholesterolemia,
+   and atrial fibrillation who presents with lightheadedness and found to
+   be in complete heart block.
+   .
+   #. CHB: Unclear etiology. Possible degeneration of her conduction
+   system, ? from calcific valvular disease. Less likely to be acute
+   ischemia given normal CEZ. Unlikely to be Lyme as she has no exposures.
+   No signs of viral myocarditis on exam. Could be infiltration from prior
+   lymphoma. Digoxin or metoprolol could be contributing but digoxin level
+   normal. Currently hemodynamically stable, intermittently in CHB vs.
+   A.fib.
+   -Telemetry with pacer pads on
+   -Hold coumadin for likely PPM once INR reaches 2
+   -Hold all nodal agents, including digoxin and metoprolol
+   -Cycle CEZ
+   -Consider TTE or Cardiac MR [**First Name (Titles) **] [**Last Name (Titles) **] for infiltrative disease
+   .
+   #. Pump: No signs of volume overload currently.
+   -Con't home lasix
+   -Con't ASA
+   .
+   #. Afib: Hold digoxin and metoprolol given CHB. Gentle rate control if
+   starts going very fast.
+   -Hold coumadin
+   .
+   #. HTN: Hold metoprol given CHB.
+   -If becomes severely hypertensive, consider hydral or ACE for BP
+   control
+   .
+   # Hyperlipidemia: Con't Atorvastatin.
+   .
+   # Dementia: Con't Aricept
+   .
+   # GERD: Con't PPI
+   .
+   #. FEN: Low salt, cardiac diet
+   .
+   #. Access:  PIV
+   .
+   #. PPx: Coumadin, PPI
+   .
+   #. Code:  Patient states DNR/DNI but given dementia, will confirm with
+   HCP first.
+   .
+   #. Dispo:  CCU for now.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2124-12-10**] 04:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is an 88-year-old female with a history of hypertension, hypercholesterolemia, and atrial fibrillation, who presented with lightheadedness and was found to be in complete heart block (CHB). The patient is currently hemodynamically stable, intermittently in CHB versus atrial fibrillation (AF). The etiology of CHB is unclear, but possible causes include degeneration of the conduction system, calcific valvular disease, or infiltration from prior lymphoma. The patient is being treated with telemetry, holding nodal agents, and considering further testing such as transesophageal echocardiogram (TTE) or cardiac MRI for infiltrative disease.
+
+Potential Medical Complications:
+
+1. Worsening of CHB: The patient's CHB may worsen, leading to decreased cardiac output, hypotension, and potentially life-threatening complications.
+2. Development of cardiac arrhythmias: The patient's atrial fibrillation may worsen, leading to further cardiac arrhythmias, such as ventricular tachycardia or ventricular fibrillation.
+3. Infection: The patient's compromised immune system due to dementia and recent lymphoma treatment may increase the risk of infection, particularly pneumonia or urinary tract infections.
+4. Volume overload: The patient's cardiac output may be compromised due to CHB, leading to volume overload and potential cardiac failure.
+5. Respiratory complications: The patient's respiratory status may deteriorate, particularly if they develop pneumonia or other respiratory infections.
+6. Neurological complications: The patient's dementia may worsen, leading to increased risk of falls, confusion, and other neurological complications.
+7. Gastrointestinal complications: The patient's gastrointestinal status may deteriorate, particularly if they develop gastrointestinal bleeding or other complications due to anticoagulation therapy.
+8. Thromboembolic complications: The patient's anticoagulation therapy may increase the risk of thromboembolic complications, such as deep vein thrombosis or pulmonary embolism."
+148187.0,226760,2124-12-11 07:11:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2124-12-10**] 04:00 PM
+   Tele with complete heart block and junctional escape
+   Need to confirm code status with daughter
+   Allergies:
+   [**Name2 (NI) 83**] Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2124-12-11**] 07:06 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.9
+C (98.5
+   HR: 67 (40 - 75) bpm
+   BP: 150/68(87) {67/45(58) - 180/93(105)} mmHg
+   RR: 26 (14 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 62 Inch
+                  Total In:
+                                                                    120 mL
+                                                                    120 mL
+   PO:
+                                                                    120 mL
+                                                                    120 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    200 mL
+                                                                    350 mL
+   Urine:
+                                                                    200 mL
+                                                                    350 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -80 mL
+                                                                   -230 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ////
+   Physical Examination
+   Gen: Elderly female in NAD. Oriented to
+Mon, [**Month (only) **]
+ What is this
+   place?... bright lights
+ . Mood, affect appropriate.
+   HEENT: NCAT. Sclera anicteric. PERRL, EOMI. Conjunctiva were pink, no
+   pallor or cyanosis of the oral mucosa. No xanthalesma.
+   Neck: Supple with JVP not visible
+   CV: PMI located in 5th intercostal space, midclavicular line. [**Last Name (un) **],
+   normal S1, S2. systolic at base. No thrills, lifts. No S3 or S4.
+   Chest: No chest wall deformities, scoliosis or kyphosis. Resp were
+   unlabored, no accessory muscle use. CTAB, no crackles, wheezes or
+   rhonchi.
+   Abd: Soft, NTND. No HSM or tenderness. Abd aorta not enlarged by
+   palpation. No abdominial bruits.
+   Ext: No c/c/e. No femoral bruits.
+   Skin: No stasis dermatitis, ulcers, scars, or xanthomas.  Sebhorragic
+   keratosis
+   Labs / Radiology
+   137
+                               [image002.gif]
+                                     105
+                               [image002.gif]
+                                     23
+   [image004.gif]
+   91
+                                                                    AGap=9
+   [image005.gif]
+   3.9
+                               [image002.gif]
+                                     27
+                               [image002.gif]
+                                     0.9
+   [image007.gif]
+   CK: 31
+   MB: Notdone
+   Trop-T: <0.01
+   Comments:
+   cTropnT: Ctropnt > 0.10 Ng/Ml Suggests Acute Mi
+   Ca: 9.5 Mg: 2.1 P: 3.9
+   87
+                                                                       6.7
+                                                            [image007.gif]
+                                    10.4
+   [image004.gif]
+   174
+                 [image008.gif]
+   [image004.gif]
+                                    29.8
+   [image007.gif]
+   PT: 28.9
+   PTT: 37.8
+   INR: 2.9
+   ASSESSMENT AND PLAN, AS REVIEWED AND DISCUSSED IN MULTIDISCIPLINARY
+   ROUNDS
+   Patient is an 88 yo female with history of HTN, Hypercholesterolemia,
+   and atrial fibrillation who presents with lightheadedness and found to
+   be in complete heart block.
+   .
+   #. COMPLETE HEART BLOCK. Heart block was thought to be secondary
+   medication effects and/or poor conduction system, possibly from
+   calcific valvular disease. Digoxin or metoprolol could be contributing
+   but digoxin level normal. A chest xray showed calicfications. Acute
+   ischemia is unlikely given normal cardiac enzymes. Also, unlikely to be
+   Lyme as she has no exposures. No signs of viral myocarditis on exam.
+   Infiltration from prior lymphoma would be rare but possible. She has
+   been hemodynamically stable since admission with rhythms alternating
+   between intermittent CHB and A.fib. Plan to observe until [**12-11**] to [**Month/Year (2) **]
+   for medication effects and then consider for pacemaker placement.
+   -Telemetry with pacer pads on
+   -Hold coumadin for likely PPM once INR reaches 2
+   -Hold all nodal agents, including digoxin and metoprolol
+   -Will do Echo today to rule out infiltrative disease and establish
+   baseline. If negative, will consider cardiac MRI.
+   .
+   #. Pump: No signs of volume overload currently.
+   -Con't home lasix
+   -Con't ASA
+   -Cardiac Echo
+   .
+   #. Afib: She was previously controlled on digoxin and metoprolol, with
+   coumadin for anticoagulation. Her rhythm agents were held given
+   presentation with CHB. Coumadin was held for possible pacemaker
+   placment. Would do rate control for rapid ventricular response.
+   .
+   #. HTN: She had low blood pressures and heart block on admission, so
+   metoprolol
+   -If becomes severely hypertensive, consider ACE for BP control
+   .
+   # Hyperlipidemia: Con't Atorvastatin.
+   .
+   # Dementia: Con't Aricept
+   .
+   # GERD: Con't PPI
+   .
+   #. FEN: Low salt, cardiac diet
+   .
+   #. Access: PIV
+   .
+   #. PPx: Coumadin, PPI
+   .
+   #. Code: Patient states DNR/DNI but given dementia, will confirm with
+   HCP first. Attempted to contact again on [**12-11**] but no one answered.
+   .
+   #. Dispo: CCU for now.
+   Active Medications [**Known lastname 1692**],[**Known firstname 1693**]
+   1. IV access: Peripheral line Order date: [**12-10**] @ 1609
+   9. Furosemide 20 mg PO DAILY
+   Hold for SBP<100  Order date: [**12-10**] @ 1609
+   2. Albuterol-Ipratropium [**2-16**] PUFF IH Q6H  Order date: [**12-10**] @ 1609
+   10. HydrALAzine 25 mg PO Q6H:PRN SBP>185 x2 readings  Order date: [**12-10**]
+   @ 1609
+   3. Aspirin EC 325 mg PO DAILY  Order date: [**12-10**] @ 1609
+   11. Influenza Virus Vaccine 0.5 mL IM ASDIR
+   Follow Influenza Protocol Document administration in POE   Order date:
+   [**12-10**] @ 1603
+   4. Atorvastatin 10 mg PO DAILY  Order date: [**12-10**] @ 1609
+   12. Omeprazole 20 mg PO DAILY  Order date: [**12-10**] @ 1609
+   5. Bisacodyl 10 mg PO/PR DAILY:PRN  Order date: [**12-10**] @ 1609
+   13. Pneumococcal Vac Polyvalent 0.5 ml IM ASDIR  Order date: [**12-10**] @
+   1603
+   6. Calcium Carbonate 500 mg PO BID  Order date: [**12-10**] @ 1609
+   14. Senna 1 TAB PO BID:PRN  Order date: [**12-10**] @ 1609
+   7. Donepezil 10 mg PO HS  Order date: [**12-10**] @ 1609
+   15. Sodium Chloride 0.9% Flush 3 mL IV PRN line flush
+   Peripheral line: Flush with 3 mL Normal Saline every 8 hours and PRN.
+   Order date: [**12-10**] @ 1609
+   8. Docusate Sodium 100 mg PO BID  Order date: [**12-10**] @ 1609
+   16. Vitamin D 400 UNIT PO BID  Order date: [**12-10**] @ 1609
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2124-12-10**] 04:00 PM
+   Tele with complete heart block and junctional escape
+   Need to confirm code status with daughter
+   Allergies:
+   [**Name2 (NI) 83**] Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2124-12-11**] 07:06 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.9
+C (98.5
+   HR: 67 (40 - 75) bpm
+   BP: 150/68(87) {67/45(58) - 180/93(105)} mmHg
+   RR: 26 (14 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 62 Inch
+                  Total In:
+                                                                    120 mL
+                                                                    120 mL
+   PO:
+                                                                    120 mL
+                                                                    120 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    200 mL
+                                                                    350 mL
+   Urine:
+                                                                    200 mL
+                                                                    350 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -80 mL
+                                                                   -230 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ////
+   Physical Examination
+   Gen: Elderly female in NAD. Oriented to
+Mon, [**Month (only) **]
+ What is this
+   place?... bright lights
+ . Mood, affect appropriate.
+   HEENT: NCAT. Sclera anicteric. PERRL, EOMI. Conjunctiva were pink, no
+   pallor or cyanosis of the oral mucosa. No xanthalesma.
+   Neck: Supple with JVP not visible
+   CV: PMI located in 5th intercostal space, midclavicular line. [**Last Name (un) **],
+   normal S1, S2. systolic at base. No thrills, lifts. No S3 or S4.
+   Chest: No chest wall deformities, scoliosis or kyphosis. Resp were
+   unlabored, no accessory muscle use. CTAB, no crackles, wheezes or
+   rhonchi.
+   Abd: Soft, NTND. No HSM or tenderness. Abd aorta not enlarged by
+   palpation. No abdominial bruits.
+   Ext: No c/c/e. No femoral bruits.
+   Skin: No stasis dermatitis, ulcers, scars, or xanthomas.  Sebhorragic
+   keratosis
+   Labs / Radiology
+   137
+                               [image002.gif]
+                                     105
+                               [image002.gif]
+                                     23
+   [image004.gif]
+   91
+                                                                    AGap=9
+   [image005.gif]
+   3.9
+                               [image002.gif]
+                                     27
+                               [image002.gif]
+                                     0.9
+   [image007.gif]
+   CK: 31
+   MB: Notdone
+   Trop-T: <0.01
+   Comments:
+   cTropnT: Ctropnt > 0.10 Ng/Ml Suggests Acute Mi
+   Ca: 9.5 Mg: 2.1 P: 3.9
+   87
+                                                                       6.7
+                                                            [image007.gif]
+                                    10.4
+   [image004.gif]
+   174
+                 [image008.gif]
+   [image004.gif]
+                                    29.8
+   [image007.gif]
+   PT: 28.9
+   PTT: 37.8
+   INR: 2.9
+   ASSESSMENT AND PLAN, AS REVIEWED AND DISCUSSED IN MULTIDISCIPLINARY
+   ROUNDS
+   Patient is an 88 yo female with history of HTN, Hypercholesterolemia,
+   and atrial fibrillation who presents with lightheadedness and found to
+   be in complete heart block.
+   .
+   #. COMPLETE HEART BLOCK. Heart block was thought to be secondary
+   medication effects and/or poor conduction system, possibly from
+   calcific valvular disease. Digoxin or metoprolol could be contributing
+   but digoxin level normal. A chest xray showed calicfications. Acute
+   ischemia is unlikely given normal cardiac enzymes. Also, unlikely to be
+   Lyme as she has no exposures. No signs of viral myocarditis on exam.
+   Infiltration from prior lymphoma would be rare but possible. She has
+   been hemodynamically stable since admission with rhythms alternating
+   between intermittent CHB and A.fib. Plan to observe until [**12-11**] to [**Month/Year (2) **]
+   for medication effects and then consider for pacemaker placement.
+   -Telemetry with pacer pads on
+   -Hold coumadin for likely PPM once INR reaches 2
+   -Hold all nodal agents, including digoxin and metoprolol
+   -Will do Echo today to rule out infiltrative disease and establish
+   baseline. If negative, will consider cardiac MRI.
+   .
+   #. Pump: No signs of volume overload currently.
+   -Con't home lasix
+   -Con't ASA
+   -Cardiac Echo
+   .
+   #. Afib: She was previously controlled on digoxin and metoprolol, with
+   coumadin for anticoagulation. Her rhythm agents were held given
+   presentation with CHB. Coumadin was held for possible pacemaker
+   placment. Would do rate control for rapid ventricular response.
+   .
+   #. HTN: She had low blood pressures and heart block on admission, so
+   metoprolol
+   -If becomes severely hypertensive, consider ACE for BP control
+   .
+   # Hyperlipidemia: Con't Atorvastatin.
+   .
+   # Dementia: Con't Aricept
+   .
+   # GERD: Con't PPI
+   .
+   #. FEN: Low salt, cardiac diet
+   .
+   #. Access: PIV
+   .
+   #. PPx: Coumadin, PPI
+   .
+   #. Code: Patient states DNR/DNI but given dementia, will confirm with
+   HCP first. Attempted to contact again on [**12-11**] but no one answered.
+   .
+   #. Dispo: CCU for now.
+   Active Medications [**Known lastname 1692**],[**Known firstname 1693**]
+   1. IV access: Peripheral line Order date: [**12-10**] @ 1609
+   9. Furosemide 20 mg PO DAILY
+   Hold for SBP<100  Order date: [**12-10**] @ 1609
+   2. Albuterol-Ipratropium [**2-16**] PUFF IH Q6H  Order date: [**12-10**] @ 1609
+   10. HydrALAzine 25 mg PO Q6H:PRN SBP>185 x2 readings  Order date: [**12-10**]
+   @ 1609
+   3. Aspirin EC 325 mg PO DAILY  Order date: [**12-10**] @ 1609
+   11. Influenza Virus Vaccine 0.5 mL IM ASDIR
+   Follow Influenza Protocol Document administration in POE   Order date:
+   [**12-10**] @ 1603
+   4. Atorvastatin 10 mg PO DAILY  Order date: [**12-10**] @ 1609
+   12. Omeprazole 20 mg PO DAILY  Order date: [**12-10**] @ 1609
+   5. Bisacodyl 10 mg PO/PR DAILY:PRN  Order date: [**12-10**] @ 1609
+   13. Pneumococcal Vac Polyvalent 0.5 ml IM ASDIR  Order date: [**12-10**] @
+   1603
+   6. Calcium Carbonate 500 mg PO BID  Order date: [**12-10**] @ 1609
+   14. Senna 1 TAB PO BID:PRN  Order date: [**12-10**] @ 1609
+   7. Donepezil 10 mg PO HS  Order date: [**12-10**] @ 1609
+   15. Sodium Chloride 0.9% Flush 3 mL IV PRN line flush
+   Peripheral line: Flush with 3 mL Normal Saline every 8 hours and PRN.
+   Order date: [**12-10**] @ 1609
+   8. Docusate Sodium 100 mg PO BID  Order date: [**12-10**] @ 1609
+   16. Vitamin D 400 UNIT PO BID  Order date: [**12-10**] @ 1609<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's progress note, the following is a summary of the information:
+
+The patient is an 88-year-old female with a history of hypertension, hypercholesterolemia, and atrial fibrillation who presents with lightheadedness and is found to be in complete heart block. The heart block is thought to be secondary to medication effects and/or poor conduction system, possibly due to calcific valvular disease. The patient has been hemodynamically stable since admission with rhythms alternating between intermittent complete heart block and atrial fibrillation.
+
+The patient's vital signs are:
+
+* Temperature: 36.9°C (98.5°F)
+* Heart rate: 67 beats per minute (bpm)
+* Blood pressure: 150/68 mmHg (87/45 mmHg - 180/93 mmHg)
+* Respiratory rate: 26 inspirations per minute
+* Oxygen saturation: 96%
+* Heart rhythm: Atrial fibrillation
+
+The patient's physical examination is notable for a supple neck with no jugular venous distension, a normal cardiac examination with no murmurs, and no signs of respiratory distress.
+
+The patient's laboratory results show:
+
+* Complete blood count: 137 (normal)
+* Electrolytes: 105 (normal), 23 (normal), 91 (normal)
+* Troponin: <0.01 (normal)
+* Creatine kinase: 31 (normal)
+* Calcium: 9.5 (normal)
+* Magnesium: 2.1 (normal)
+* Phosphorus: 3.9 (normal)
+
+The patient's plan is to observe for medication effects and then consider pacemaker placement. She is currently being treated with furosemide, albuterol-ipratropium, aspirin, atorvastatin, omeprazole, and donepezil.
+
+Potential medical complications that can arise include:
+
+* Worsening of heart block or atrial fibrillation
+* Development of cardiac tamponade or pericarditis
+* Pulmonary edema or respiratory failure
+* Infection or sepsis
+* Dementia or cognitive decline
+* Gastrointestinal bleeding or perforation
+* Hypertensive crisis or hypotension
+
+It is crucial to closely monitor the patient's vital signs, cardiac rhythm, and laboratory results to prevent or manage these potential complications."
+148187.0,226760,2124-12-11 07:11:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2124-12-10**] 04:00 PM
+   Tele with complete heart block and junctional escape
+   Need to confirm code status with daughter
+   Allergies:
+   [**Name2 (NI) 83**] Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2124-12-11**] 07:06 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.9
+C (98.5
+   HR: 67 (40 - 75) bpm
+   BP: 150/68(87) {67/45(58) - 180/93(105)} mmHg
+   RR: 26 (14 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 62 Inch
+                  Total In:
+                                                                    120 mL
+                                                                    120 mL
+   PO:
+                                                                    120 mL
+                                                                    120 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    200 mL
+                                                                    350 mL
+   Urine:
+                                                                    200 mL
+                                                                    350 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -80 mL
+                                                                   -230 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ////
+   Physical Examination
+   Gen: Elderly female in NAD. Oriented x3. Mood, affect appropriate.
+   HEENT: NCAT. Sclera anicteric. PERRL, EOMI. Conjunctiva were pink, no
+   pallor or cyanosis of the oral mucosa. No xanthalesma.
+   Neck: Supple with JVP not visible
+   CV: PMI located in 5th intercostal space, midclavicular line. [**Last Name (un) **],
+   normal S1, S2. [**3-22**] crescendo/decrescendo SEM . No thrills, lifts. No S3
+   or S4.
+   Chest: No chest wall deformities, scoliosis or kyphosis. Resp were
+   unlabored, no accessory muscle use. CTAB, no crackles, wheezes or
+   rhonchi.
+   Abd: Soft, NTND. No HSM or tenderness. Abd aorta not enlarged by
+   palpation. No abdominial bruits.
+   Ext: No c/c/e. No femoral bruits.
+   Skin: No stasis dermatitis, ulcers, scars, or xanthomas.
+   Labs / Radiology
+        [image002.jpg]
+   Assessment and Plan
+   Patient is an 88 yo female with history of HTN, Hypercholesterolemia,
+   and atrial fibrillation who presents with lightheadedness and found to
+   be in complete heart block.
+   .
+   #. CHB: Unclear etiology. Possible degeneration of her conduction
+   system, ? from calcific valvular disease. Less likely to be acute
+   ischemia given normal CEZ. Unlikely to be Lyme as she has no exposures.
+   No signs of viral myocarditis on exam. Could be infiltration from prior
+   lymphoma. Digoxin or metoprolol could be contributing but digoxin level
+   normal. Currently hemodynamically stable, intermittently in CHB vs.
+   A.fib.
+   -Telemetry with pacer pads on
+   -Hold coumadin for likely PPM once INR reaches 2
+   -Hold all nodal agents, including digoxin and metoprolol
+   -Cycle CEZ
+   -Consider TTE or Cardiac MR [**First Name (Titles) **] [**Last Name (Titles) **] for infiltrative disease
+   .
+   #. Pump: No signs of volume overload currently.
+   -Con't home lasix
+   -Con't ASA
+   .
+   #. Afib: Hold digoxin and metoprolol given CHB. Gentle rate control if
+   starts going very fast.
+   -Hold coumadin
+   .
+   #. HTN: Hold metoprol given CHB.
+   -If becomes severely hypertensive, consider hydral or ACE for BP
+   control
+   .
+   # Hyperlipidemia: Con't Atorvastatin.
+   .
+   # Dementia: Con't Aricept
+   .
+   # GERD: Con't PPI
+   .
+   #. FEN: Low salt, cardiac diet
+   .
+   #. Access:  PIV
+   .
+   #. PPx: Coumadin, PPI
+   .
+   #. Code:  Patient states DNR/DNI but given dementia, will confirm with
+   HCP first.
+   .
+   #. Dispo:  CCU for now.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2124-12-10**] 04:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ EKG - At [**2124-12-10**] 04:00 PM
+   Tele with complete heart block and junctional escape
+   Need to confirm code status with daughter
+   Allergies:
+   [**Name2 (NI) 83**] Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2124-12-11**] 07:06 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.5
+   Tcurrent: 36.9
+C (98.5
+   HR: 67 (40 - 75) bpm
+   BP: 150/68(87) {67/45(58) - 180/93(105)} mmHg
+   RR: 26 (14 - 27) insp/min
+   SpO2: 96%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 62 Inch
+                  Total In:
+                                                                    120 mL
+                                                                    120 mL
+   PO:
+                                                                    120 mL
+                                                                    120 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    200 mL
+                                                                    350 mL
+   Urine:
+                                                                    200 mL
+                                                                    350 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -80 mL
+                                                                   -230 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ////
+   Physical Examination
+   Gen: Elderly female in NAD. Oriented x3. Mood, affect appropriate.
+   HEENT: NCAT. Sclera anicteric. PERRL, EOMI. Conjunctiva were pink, no
+   pallor or cyanosis of the oral mucosa. No xanthalesma.
+   Neck: Supple with JVP not visible
+   CV: PMI located in 5th intercostal space, midclavicular line. [**Last Name (un) **],
+   normal S1, S2. [**3-22**] crescendo/decrescendo SEM . No thrills, lifts. No S3
+   or S4.
+   Chest: No chest wall deformities, scoliosis or kyphosis. Resp were
+   unlabored, no accessory muscle use. CTAB, no crackles, wheezes or
+   rhonchi.
+   Abd: Soft, NTND. No HSM or tenderness. Abd aorta not enlarged by
+   palpation. No abdominial bruits.
+   Ext: No c/c/e. No femoral bruits.
+   Skin: No stasis dermatitis, ulcers, scars, or xanthomas.
+   Labs / Radiology
+        [image002.jpg]
+   Assessment and Plan
+   Patient is an 88 yo female with history of HTN, Hypercholesterolemia,
+   and atrial fibrillation who presents with lightheadedness and found to
+   be in complete heart block.
+   .
+   #. CHB: Unclear etiology. Possible degeneration of her conduction
+   system, ? from calcific valvular disease. Less likely to be acute
+   ischemia given normal CEZ. Unlikely to be Lyme as she has no exposures.
+   No signs of viral myocarditis on exam. Could be infiltration from prior
+   lymphoma. Digoxin or metoprolol could be contributing but digoxin level
+   normal. Currently hemodynamically stable, intermittently in CHB vs.
+   A.fib.
+   -Telemetry with pacer pads on
+   -Hold coumadin for likely PPM once INR reaches 2
+   -Hold all nodal agents, including digoxin and metoprolol
+   -Cycle CEZ
+   -Consider TTE or Cardiac MR [**First Name (Titles) **] [**Last Name (Titles) **] for infiltrative disease
+   .
+   #. Pump: No signs of volume overload currently.
+   -Con't home lasix
+   -Con't ASA
+   .
+   #. Afib: Hold digoxin and metoprolol given CHB. Gentle rate control if
+   starts going very fast.
+   -Hold coumadin
+   .
+   #. HTN: Hold metoprol given CHB.
+   -If becomes severely hypertensive, consider hydral or ACE for BP
+   control
+   .
+   # Hyperlipidemia: Con't Atorvastatin.
+   .
+   # Dementia: Con't Aricept
+   .
+   # GERD: Con't PPI
+   .
+   #. FEN: Low salt, cardiac diet
+   .
+   #. Access:  PIV
+   .
+   #. PPx: Coumadin, PPI
+   .
+   #. Code:  Patient states DNR/DNI but given dementia, will confirm with
+   HCP first.
+   .
+   #. Dispo:  CCU for now.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2124-12-10**] 04:00 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is an 88-year-old female with a history of hypertension, hypercholesterolemia, and atrial fibrillation who presents with lightheadedness and is found to be in complete heart block. The patient's condition is currently stable, with a heart rate of 67 beats per minute and a blood pressure of 150/68 mmHg.
+
+The patient has a history of atrial fibrillation, which is currently present, and has been treated with digoxin and metoprolol. However, due to the development of complete heart block, these medications have been held. The patient's electrolyte levels are within normal limits, and her cardiac enzymes are normal.
+
+The patient's physical examination reveals a normal-sized heart with a regular rhythm, and her lung fields are clear. Her abdomen is soft and nontender, and her extremities are without edema.
+
+The patient's laboratory results show normal kidney function, and her liver function tests are within normal limits. Her complete blood count is normal, and her blood glucose level is within normal limits.
+
+The patient's potential medical complications include:
+
+1. Cardiac arrhythmias: The patient's history of atrial fibrillation and the development of complete heart block increase her risk of cardiac arrhythmias, including ventricular tachycardia or fibrillation.
+2. Heart failure: The patient's history of hypertension and hypercholesterolemia increase her risk of heart failure, and her current condition of complete heart block may worsen her heart failure.
+3. Stroke: The patient's history of atrial fibrillation increases her risk of stroke, and her current condition of complete heart block may worsen her risk of stroke.
+4. Infection: The patient's history of dementia and her current condition of complete heart block increase her risk of infection, and her current antibiotic therapy may not be sufficient to prevent infection.
+5. Malnutrition: The patient's history of dementia and her current condition of complete heart block may increase her risk of malnutrition, and her current nutrition therapy may not be sufficient to prevent malnutrition.
+
+The patient's plan of care includes:
+
+1. Telemetry with pacer pads on to monitor her heart rhythm.
+2. Hold coumadin for likely PPM once INR reaches 2.
+3. Hold all nodal agents, including digoxin and metoprolol.
+4. Cycle CEZ to control her heart rate.
+5. Consider TTE or cardiac MRI to evaluate for infiltrative disease.
+6. Continue home lasix and ASA to control her blood pressure.
+7. Continue atorvastatin to control her hyperlipidemia.
+8. Continue Aricept to control her dementia.
+9. Continue PPI to control her GERD.
+10. Provide low-salt, cardiac diet to control her heart failure.
+11. Monitor her access site for bleeding or infection.
+12. Consider code status with the patient's daughter.
+13. Discharge the patient to the CCU for further monitoring and treatment."

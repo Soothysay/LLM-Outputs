@@ -1,0 +1,3298 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+142755.0,250425,2147-11-05 06:43:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2147-11-4**] 08:00 AM
+ INVASIVE VENTILATION - STOP [**2147-11-4**] 04:49 PM
+     * extubated after MS improved
+     * hyponatremic to Na 120 -> restricted PO fluids and re-checked labs
+       -> Na 122
+     * patient stable overnight
+     * still to do: auto cpap v sleep study, consider re-image head
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2147-11-5**] 06:42 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.7
+C (98
+   HR: 112 (79 - 112) bpm
+   BP: 116/67(78) {86/40(51) - 138/82(95)} mmHg
+   RR: 16 (9 - 22) insp/min
+   SpO2: 95%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                    680 mL
+                                                                    270 mL
+   PO:
+                                                                    270 mL
+                                                                    270 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    730 mL
+                                                                    135 mL
+   Urine:
+                                                                    730 mL
+                                                                    135 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -50 mL
+                                                                    135 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 600 (600 - 600) mL
+   Vt (Spontaneous): 1,022 (979 - 1,069) mL
+   PS : 5 cmH2O
+   RR (Set): 12
+   RR (Spontaneous): 22
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 11 cmH2O
+   SpO2: 95%
+   ABG: 7.51/24/292/17/-1
+   Ve: 8.7 L/min
+   PaO2 / FiO2: 973
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   131 K/uL
+   9.7 g/dL
+   114 mg/dL
+   1.1 mg/dL
+   17 mEq/L
+   3.6 mEq/L
+   29 mg/dL
+   98 mEq/L
+   125 mEq/L
+   28.8 %
+   10.9 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+   WBC
+   10.9
+   Hct
+   28.8
+   Plt
+   131
+   Cr
+   1.1
+   1.0
+   1.1
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   Other labs: PT / PTT / INR:21.9/76.0/2.1, ALT / AST:89/164, Alk Phos /
+   T Bili:150/8.3, Albumin:2.9 g/dL, LDH:328 IU/L, Ca++:8.6 mg/dL,
+   Mg++:2.3 mg/dL, PO4:2.8 mg/dL
+   Assessment and Plan
+ .H/O ALKALOSIS, RESPIRATORY
+ HEPATIC ENCEPHALOPATHY
+ HYPONATREMIA (LOW SODIUM, HYPOSMOLALITY)
+ .H/O CIRRHOSIS OF LIVER, ALCOHOLIC
+ PULMONARY HYPERTENSION (PULM HTN, PHTN)
+ KNOWLEDGE DEFICIT
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-4**] 08:00 AM
+   22 Gauge - [**2147-11-4**] 08:00 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2147-11-4**] 08:00 AM
+ INVASIVE VENTILATION - STOP [**2147-11-4**] 04:49 PM
+     * extubated after MS improved
+     * hyponatremic to Na 120 -> restricted PO fluids and re-checked labs
+       -> Na 122
+     * patient stable overnight
+     * still to do: auto cpap v sleep study, consider re-image head
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2147-11-5**] 06:42 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.7
+C (98
+   HR: 112 (79 - 112) bpm
+   BP: 116/67(78) {86/40(51) - 138/82(95)} mmHg
+   RR: 16 (9 - 22) insp/min
+   SpO2: 95%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                    680 mL
+                                                                    270 mL
+   PO:
+                                                                    270 mL
+                                                                    270 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    730 mL
+                                                                    135 mL
+   Urine:
+                                                                    730 mL
+                                                                    135 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -50 mL
+                                                                    135 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 600 (600 - 600) mL
+   Vt (Spontaneous): 1,022 (979 - 1,069) mL
+   PS : 5 cmH2O
+   RR (Set): 12
+   RR (Spontaneous): 22
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 11 cmH2O
+   SpO2: 95%
+   ABG: 7.51/24/292/17/-1
+   Ve: 8.7 L/min
+   PaO2 / FiO2: 973
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   131 K/uL
+   9.7 g/dL
+   114 mg/dL
+   1.1 mg/dL
+   17 mEq/L
+   3.6 mEq/L
+   29 mg/dL
+   98 mEq/L
+   125 mEq/L
+   28.8 %
+   10.9 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+   WBC
+   10.9
+   Hct
+   28.8
+   Plt
+   131
+   Cr
+   1.1
+   1.0
+   1.1
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   Other labs: PT / PTT / INR:21.9/76.0/2.1, ALT / AST:89/164, Alk Phos /
+   T Bili:150/8.3, Albumin:2.9 g/dL, LDH:328 IU/L, Ca++:8.6 mg/dL,
+   Mg++:2.3 mg/dL, PO4:2.8 mg/dL
+   Assessment and Plan
+ .H/O ALKALOSIS, RESPIRATORY
+ HEPATIC ENCEPHALOPATHY
+ HYPONATREMIA (LOW SODIUM, HYPOSMOLALITY)
+ .H/O CIRRHOSIS OF LIVER, ALCOHOLIC
+ PULMONARY HYPERTENSION (PULM HTN, PHTN)
+ KNOWLEDGE DEFICIT
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-4**] 08:00 AM
+   22 Gauge - [**2147-11-4**] 08:00 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 78.6 kg individual admitted to the ICU with a diagnosis of cirrhosis of the liver, alcoholic, and pulmonary hypertension. The patient has been experiencing respiratory failure, requiring invasive ventilation for 24 hours, which was subsequently stopped and extubated due to improved respiratory status.
+
+The patient's vital signs are stable, with a temperature of 36.7°C, heart rate of 112 bpm, and blood pressure of 116/67 mmHg. The patient's respiratory rate is 16 inspirations per minute, and oxygen saturation is 95%.
+
+The patient's laboratory results indicate:
+
+* Hyponatremia (low sodium) with a serum sodium level of 122 mmol/L
+* Elevated liver enzymes (ALT and AST)
+* Elevated bilirubin levels
+* Low albumin levels
+* Elevated lactate dehydrogenase (LDH) levels
+* Normal calcium, magnesium, and phosphorus levels
+
+The patient's imaging studies show evidence of pulmonary hypertension and liver cirrhosis.
+
+The patient's assessment and plan include:
+
+* Alkalosis, respiratory
+* Hepatic encephalopathy
+* Hypornatremia (low sodium, hyposmolality)
+* Cirrhosis of the liver, alcoholic
+* Pulmonary hypertension
+* Knowledge deficit
+
+Potential medical complications that can arise from this patient's condition include:
+
+* Respiratory failure due to pulmonary hypertension
+* Hepatic encephalopathy, which can lead to altered mental status, seizures, and coma
+* Hyponatremia, which can lead to seizures, coma, and even death if severe
+* Malnutrition and weight loss due to liver disease and decreased appetite
+* Increased risk of infections due to impaired immune function
+* Bleeding complications due to coagulopathy
+* Development of ascites and other complications related to liver cirrhosis
+
+The patient's plan includes continued monitoring and management of their respiratory and liver function, as well as prophylaxis for deep vein thrombosis, stress ulcer, and ventilator-associated pneumonia."
+142755.0,250425,2147-11-05 06:43:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2147-11-4**] 08:00 AM
+ INVASIVE VENTILATION - STOP [**2147-11-4**] 04:49 PM
+     * extubated after MS improved
+     * hyponatremic to Na 120 -> restricted PO fluids and re-checked labs
+       -> Na 122
+     * patient stable overnight
+     * still to do: auto cpap v sleep study, consider re-image head
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2147-11-5**] 06:42 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.7
+C (98
+   HR: 112 (79 - 112) bpm
+   BP: 116/67(78) {86/40(51) - 138/82(95)} mmHg
+   RR: 16 (9 - 22) insp/min
+   SpO2: 95%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                    680 mL
+                                                                    270 mL
+   PO:
+                                                                    270 mL
+                                                                    270 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    730 mL
+                                                                    135 mL
+   Urine:
+                                                                    730 mL
+                                                                    135 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -50 mL
+                                                                    135 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 600 (600 - 600) mL
+   Vt (Spontaneous): 1,022 (979 - 1,069) mL
+   PS : 5 cmH2O
+   RR (Set): 12
+   RR (Spontaneous): 22
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 11 cmH2O
+   SpO2: 95%
+   ABG: 7.51/24/292/17/-1
+   Ve: 8.7 L/min
+   PaO2 / FiO2: 973
+   Physical Examination
+   General Appearance: intubated
+   Eyes / Conjunctiva: PERRL, Pupils dilated, icteric sclera
+   Head, Ears, Nose, Throat: Normocephalic, Endotracheal tube, OG tube
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   at the bases), course breath sounds
+   Abdominal: Soft, Non-tender, Bowel sounds present, Distended but soft.
+   Extremities: Right: Absent, Left: Absent
+   Neurologic: Responds to: Unresponsive, Movement: Non -purposeful,
+   Labs / Radiology
+   131 K/uL
+   9.7 g/dL
+   114 mg/dL
+   1.1 mg/dL
+   17 mEq/L
+   3.6 mEq/L
+   29 mg/dL
+   98 mEq/L
+   125 mEq/L
+   28.8 %
+   10.9 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+   WBC
+   10.9
+   Hct
+   28.8
+   Plt
+   131
+   Cr
+   1.1
+   1.0
+   1.1
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   Other labs: PT / PTT / INR:21.9/76.0/2.1, ALT / AST:89/164, Alk Phos /
+   T Bili:150/8.3, Albumin:2.9 g/dL, LDH:328 IU/L, Ca++:8.6 mg/dL,
+   Mg++:2.3 mg/dL, PO4:2.8 mg/dL
+   Assessment and Plan
+   A/P: 41 yo M with pulmonary hypertension, ESLD on transplant list with
+   Hep C cirrhosis, alcoholic cirrhosis, hypothyroidism who presents with
+   his third episode of altered mental status requiring intubation for
+   airway protection.
+   # Recurrent altered mental status: DDX includes infection (less likely
+   given this is the third episode in the last few weeks and work up for
+   infection has been negative, currently leukocytosis or fevers), stroke
+   or head bleed (unlikely for similar reason and prior CT x2 and MRI
+   brain all negative), encephalopathy (likely), hyponatremia (could be
+   contributing given sodium of 120 is lower than he has been given he
+   restarted diuretics yesterday), sleep disorder (given all episodes
+   occur first thing in the AM).
+   -for hepatic encephalopathy- dose lactulose q2hrs until bowel movements
+   then back down with goal bowel movements 5-6 per day, continue
+   rifaximine
+   -for hyponatremia- repeat labs in 4 hrs. If still hyponatremic, will
+   need repletion. Hold diuretics.
+   -sleep disorder- continuous oxygen monitoring, ABG when awake and
+   extubated for baseline. sleep study needed but may not be able to do in
+   house on the weekend. Consider auto titrating CPAP.
+   -infection- unlikely but could consider diagnostic para if not
+   improving. Two diagnostic [**Doctor First Name 3619**] this admission were negative
+   # alkylosis: Would think with altered mental status, that his CO2 would
+   be high causing an acidosis not alkylosis with low CO2. Could imply a
+   sleep disturbance as cause. See above.
+   -monitor ABG
+   -currently changing to PS ventilation and will resend ABG in 30 mins.
+   -ween vent as tolerated.
+   -has been extubated quickly on prior episodes.
+   # ESLD: Hep C and alcohol cirrhosis.
+   -continue lactulose as above, continue rifaximine
+   -hold diuretics
+   -continue ppx cipro for SBP
+   -follow up hepatology recs
+   # Pulmonary HTN: continue sildenafil. [**Month (only) 51**] not be able to get iloprost
+   while on vent. Will discuss with respiratory and pharmacy.
+   # Hypothyroidism: continue levothyroxine
+   # FEN: NPO for now. Monitor lytes as above
+   # PPX: heparin SQ for DVT ppx, PPI per home reg, bowel reg as above
+   # Code: full
+   # communication: mother
+   ICU [**Name (NI) 81**]
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-4**] 08:00 AM
+   22 Gauge - [**2147-11-4**] 08:00 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2147-11-4**] 08:00 AM
+ INVASIVE VENTILATION - STOP [**2147-11-4**] 04:49 PM
+     * extubated after MS improved
+     * hyponatremic to Na 120 -> restricted PO fluids and re-checked labs
+       -> Na 122
+     * patient stable overnight
+     * still to do: auto cpap v sleep study, consider re-image head
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2147-11-5**] 06:42 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.7
+C (98
+   HR: 112 (79 - 112) bpm
+   BP: 116/67(78) {86/40(51) - 138/82(95)} mmHg
+   RR: 16 (9 - 22) insp/min
+   SpO2: 95%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                    680 mL
+                                                                    270 mL
+   PO:
+                                                                    270 mL
+                                                                    270 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    730 mL
+                                                                    135 mL
+   Urine:
+                                                                    730 mL
+                                                                    135 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -50 mL
+                                                                    135 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 600 (600 - 600) mL
+   Vt (Spontaneous): 1,022 (979 - 1,069) mL
+   PS : 5 cmH2O
+   RR (Set): 12
+   RR (Spontaneous): 22
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 11 cmH2O
+   SpO2: 95%
+   ABG: 7.51/24/292/17/-1
+   Ve: 8.7 L/min
+   PaO2 / FiO2: 973
+   Physical Examination
+   General Appearance: intubated
+   Eyes / Conjunctiva: PERRL, Pupils dilated, icteric sclera
+   Head, Ears, Nose, Throat: Normocephalic, Endotracheal tube, OG tube
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   at the bases), course breath sounds
+   Abdominal: Soft, Non-tender, Bowel sounds present, Distended but soft.
+   Extremities: Right: Absent, Left: Absent
+   Neurologic: Responds to: Unresponsive, Movement: Non -purposeful,
+   Labs / Radiology
+   131 K/uL
+   9.7 g/dL
+   114 mg/dL
+   1.1 mg/dL
+   17 mEq/L
+   3.6 mEq/L
+   29 mg/dL
+   98 mEq/L
+   125 mEq/L
+   28.8 %
+   10.9 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+   WBC
+   10.9
+   Hct
+   28.8
+   Plt
+   131
+   Cr
+   1.1
+   1.0
+   1.1
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   Other labs: PT / PTT / INR:21.9/76.0/2.1, ALT / AST:89/164, Alk Phos /
+   T Bili:150/8.3, Albumin:2.9 g/dL, LDH:328 IU/L, Ca++:8.6 mg/dL,
+   Mg++:2.3 mg/dL, PO4:2.8 mg/dL
+   Assessment and Plan
+   A/P: 41 yo M with pulmonary hypertension, ESLD on transplant list with
+   Hep C cirrhosis, alcoholic cirrhosis, hypothyroidism who presents with
+   his third episode of altered mental status requiring intubation for
+   airway protection.
+   # Recurrent altered mental status: DDX includes infection (less likely
+   given this is the third episode in the last few weeks and work up for
+   infection has been negative, currently leukocytosis or fevers), stroke
+   or head bleed (unlikely for similar reason and prior CT x2 and MRI
+   brain all negative), encephalopathy (likely), hyponatremia (could be
+   contributing given sodium of 120 is lower than he has been given he
+   restarted diuretics yesterday), sleep disorder (given all episodes
+   occur first thing in the AM).
+   -for hepatic encephalopathy- dose lactulose q2hrs until bowel movements
+   then back down with goal bowel movements 5-6 per day, continue
+   rifaximine
+   -for hyponatremia- repeat labs in 4 hrs. If still hyponatremic, will
+   need repletion. Hold diuretics.
+   -sleep disorder- continuous oxygen monitoring, ABG when awake and
+   extubated for baseline. sleep study needed but may not be able to do in
+   house on the weekend. Consider auto titrating CPAP.
+   -infection- unlikely but could consider diagnostic para if not
+   improving. Two diagnostic [**Doctor First Name 3619**] this admission were negative
+   # alkylosis: Would think with altered mental status, that his CO2 would
+   be high causing an acidosis not alkylosis with low CO2. Could imply a
+   sleep disturbance as cause. See above.
+   -monitor ABG
+   -currently changing to PS ventilation and will resend ABG in 30 mins.
+   -ween vent as tolerated.
+   -has been extubated quickly on prior episodes.
+   # ESLD: Hep C and alcohol cirrhosis.
+   -continue lactulose as above, continue rifaximine
+   -hold diuretics
+   -continue ppx cipro for SBP
+   -follow up hepatology recs
+   # Pulmonary HTN: continue sildenafil. [**Month (only) 51**] not be able to get iloprost
+   while on vent. Will discuss with respiratory and pharmacy.
+   # Hypothyroidism: continue levothyroxine
+   # FEN: NPO for now. Monitor lytes as above
+   # PPX: heparin SQ for DVT ppx, PPI per home reg, bowel reg as above
+   # Code: full
+   # communication: mother
+   ICU [**Name (NI) 81**]
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-4**] 08:00 AM
+   22 Gauge - [**2147-11-4**] 08:00 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 41-year-old male with pulmonary hypertension, ESLD (liver disease), and hypothyroidism, admitted to the ICU for his third episode of altered mental status requiring intubation. He was extubated after his MS (mental status) improved, but is still requiring respiratory support with CPAP/PSV and oxygen therapy. His labs show hyponatremia (sodium level of 120), and he is being monitored for potential complications. His medical history includes Hep C cirrhosis, alcoholic cirrhosis, and hypothyroidism. He is on multiple medications, including lactulose, rifaximine, sildenafil, and levothyroxine.
+
+Potential Medical Complications:
+
+1. Recurrent Altered Mental Status: The patient's history of recurrent altered mental status episodes, including the current episode, requires careful monitoring and evaluation for underlying causes, such as infection, stroke, or head bleed.
+2. Hepatic Encephalopathy: The patient's ESLD and hyponatremia increase the risk of developing hepatic encephalopathy, which can lead to further decline in mental status.
+3. Sleep Disorder: The patient's history of altered mental status episodes occurring in the morning suggests a possible sleep disorder, which may be contributing to his condition.
+4. Hyponatremia: The patient's sodium level of 120 is below the normal range, which can lead to further complications if not addressed.
+5. Respiratory Complications: The patient's respiratory support with CPAP/PSV and oxygen therapy may lead to respiratory complications, such as pneumonia or respiratory failure, if not monitored closely.
+6. Infection: The patient's history of negative diagnostic para (paracentesis) and the presence of leukocytosis suggest a low risk of infection, but continued monitoring is necessary to rule out any underlying infections.
+7. Gastrointestinal Complications: The patient's ESLD and hyponatremia increase the risk of gastrointestinal complications, such as bleeding or perforation.
+8. Cardiovascular Complications: The patient's pulmonary hypertension and ESLD increase the risk of cardiovascular complications, such as heart failure or arrhythmias."
+142755.0,250425,2147-11-05 06:43:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2147-11-4**] 08:00 AM
+ INVASIVE VENTILATION - STOP [**2147-11-4**] 04:49 PM
+     * extubated after MS improved
+     * hyponatremic to Na 120 -> restricted PO fluids and re-checked labs
+       -> Na 122
+     * patient stable overnight
+     * still to do: auto cpap v sleep study, consider re-image head
+     * KUB with air-fluid levels
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2147-11-5**] 06:42 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.7
+C (98
+   HR: 112 (79 - 112) bpm
+   BP: 116/67(78) {86/40(51) - 138/82(95)} mmHg
+   RR: 16 (9 - 22) insp/min
+   SpO2: 95%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                    680 mL
+                                                                    270 mL
+   PO:
+                                                                    270 mL
+                                                                    270 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    730 mL
+                                                                    135 mL
+   Urine:
+                                                                    730 mL
+                                                                    135 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -50 mL
+                                                                    135 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 600 (600 - 600) mL
+   Vt (Spontaneous): 1,022 (979 - 1,069) mL
+   PS : 5 cmH2O
+   RR (Set): 12
+   RR (Spontaneous): 22
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 11 cmH2O
+   SpO2: 95%
+   ABG: 7.51/24/292/17/-1
+   Ve: 8.7 L/min
+   PaO2 / FiO2: 973
+   Physical Examination
+   General Appearance: intubated
+   Eyes / Conjunctiva: PERRL, Pupils dilated, icteric sclera
+   Head, Ears, Nose, Throat: Normocephalic, Endotracheal tube, OG tube
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   at the bases), course breath sounds
+   Abdominal: Soft, Non-tender, Bowel sounds present, Distended but soft.
+   Extremities: Right: Absent, Left: Absent
+   Neurologic: Responds to: Unresponsive, Movement: Non -purposeful,
+   Labs / Radiology
+   131 K/uL
+   9.7 g/dL
+   114 mg/dL
+   1.1 mg/dL
+   17 mEq/L
+   3.6 mEq/L
+   29 mg/dL
+   98 mEq/L
+   125 mEq/L
+   28.8 %
+   10.9 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+   WBC
+   10.9
+   Hct
+   28.8
+   Plt
+   131
+   Cr
+   1.1
+   1.0
+   1.1
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   Other labs: PT / PTT / INR:21.9/76.0/2.1, ALT / AST:89/164, Alk Phos /
+   T Bili:150/8.3, Albumin:2.9 g/dL, LDH:328 IU/L, Ca++:8.6 mg/dL,
+   Mg++:2.3 mg/dL, PO4:2.8 mg/dL
+   Assessment and Plan
+   A/P: 41 yo M with pulmonary hypertension, ESLD on transplant list with
+   Hep C cirrhosis, alcoholic cirrhosis, hypothyroidism who presents with
+   his third episode of altered mental status requiring intubation for
+   airway protection.
+   # Abdominal pain: KUB with air fluid levels concerning for SBO and
+   patient had no stools x 24 hours.  Made NPO including meds & CT scan to
+   check for SBO.  After drinking contrast patient had large volume stool
+   output.  CT scan preliminarily no SBO, but ascities present.  Abdominal
+   pain now resolved after BMs.  Will advance diet to clears then as
+   tolerated.
+   # Recurrent altered mental status: Mental status currently improved.
+   DDX includes infection (less likely given this is the third episode in
+   the last few weeks and work up for infection has been negative,
+   currently no leukocytosis or fevers), stroke or head bleed (unlikely
+   for similar reason and prior CT x2 and MRI brain all negative),
+   encephalopathy (likely), hyponatremia (could be contributing given
+   sodium of 120 is lower than he has been given he restarted diuretics
+   yesterday), sleep disorder (given all episodes occur first thing in the
+   AM).
+   -for hepatic encephalopathy- dose lactulose q2hrs until bowel movements
+   then back down with goal bowel movements 5-6 per day, continue
+   rifaximine
+   -for hyponatremia- improving, hold diuretics, check pm lytes
+   -sleep disorder- continuous oxygen monitoring, ABG when awake and
+   extubated for baseline. sleep study needed but may not be able to do in
+   house on the weekend. Consider auto titrating CPAP.
+   -infection- unlikely but could consider diagnostic para if not
+   improving. Two diagnostic [**Doctor First Name 3619**] this admission were negative
+   # alkylosis: Would think with altered mental status, that his CO2 would
+   be high causing an acidosis not alkylosis with low CO2. Could imply a
+   sleep disturbance as cause. See above.
+   -monitor ABG
+   -currently changing to PS ventilation and will resend ABG in 30 mins.
+   -ween vent as tolerated.
+   -has been extubated quickly on prior episodes.
+   # ESLD: Hep C and alcohol cirrhosis.
+   -continue lactulose as above, continue rifaximine
+   -hold diuretics
+   -continue ppx cipro for SBP
+   -follow up hepatology recs
+   # Pulmonary HTN: continue sildenafil and iloprost.
+   # Hypothyroidism: continue levothyroxine
+   # FEN: Clears advance to full liquids for now. Monitor lytes as above
+   # PPX: heparin SQ for DVT ppx, PPI per home reg, bowel reg as above
+   # Code: full
+   # communication: mother
+   ICU [**Name (NI) 81**]
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-4**] 08:00 AM
+   22 Gauge - [**2147-11-4**] 08:00 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2147-11-4**] 08:00 AM
+ INVASIVE VENTILATION - STOP [**2147-11-4**] 04:49 PM
+     * extubated after MS improved
+     * hyponatremic to Na 120 -> restricted PO fluids and re-checked labs
+       -> Na 122
+     * patient stable overnight
+     * still to do: auto cpap v sleep study, consider re-image head
+     * KUB with air-fluid levels
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2147-11-5**] 06:42 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.7
+C (98
+   HR: 112 (79 - 112) bpm
+   BP: 116/67(78) {86/40(51) - 138/82(95)} mmHg
+   RR: 16 (9 - 22) insp/min
+   SpO2: 95%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                    680 mL
+                                                                    270 mL
+   PO:
+                                                                    270 mL
+                                                                    270 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    730 mL
+                                                                    135 mL
+   Urine:
+                                                                    730 mL
+                                                                    135 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -50 mL
+                                                                    135 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 600 (600 - 600) mL
+   Vt (Spontaneous): 1,022 (979 - 1,069) mL
+   PS : 5 cmH2O
+   RR (Set): 12
+   RR (Spontaneous): 22
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 11 cmH2O
+   SpO2: 95%
+   ABG: 7.51/24/292/17/-1
+   Ve: 8.7 L/min
+   PaO2 / FiO2: 973
+   Physical Examination
+   General Appearance: intubated
+   Eyes / Conjunctiva: PERRL, Pupils dilated, icteric sclera
+   Head, Ears, Nose, Throat: Normocephalic, Endotracheal tube, OG tube
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   at the bases), course breath sounds
+   Abdominal: Soft, Non-tender, Bowel sounds present, Distended but soft.
+   Extremities: Right: Absent, Left: Absent
+   Neurologic: Responds to: Unresponsive, Movement: Non -purposeful,
+   Labs / Radiology
+   131 K/uL
+   9.7 g/dL
+   114 mg/dL
+   1.1 mg/dL
+   17 mEq/L
+   3.6 mEq/L
+   29 mg/dL
+   98 mEq/L
+   125 mEq/L
+   28.8 %
+   10.9 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+   WBC
+   10.9
+   Hct
+   28.8
+   Plt
+   131
+   Cr
+   1.1
+   1.0
+   1.1
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   Other labs: PT / PTT / INR:21.9/76.0/2.1, ALT / AST:89/164, Alk Phos /
+   T Bili:150/8.3, Albumin:2.9 g/dL, LDH:328 IU/L, Ca++:8.6 mg/dL,
+   Mg++:2.3 mg/dL, PO4:2.8 mg/dL
+   Assessment and Plan
+   A/P: 41 yo M with pulmonary hypertension, ESLD on transplant list with
+   Hep C cirrhosis, alcoholic cirrhosis, hypothyroidism who presents with
+   his third episode of altered mental status requiring intubation for
+   airway protection.
+   # Abdominal pain: KUB with air fluid levels concerning for SBO and
+   patient had no stools x 24 hours.  Made NPO including meds & CT scan to
+   check for SBO.  After drinking contrast patient had large volume stool
+   output.  CT scan preliminarily no SBO, but ascities present.  Abdominal
+   pain now resolved after BMs.  Will advance diet to clears then as
+   tolerated.
+   # Recurrent altered mental status: Mental status currently improved.
+   DDX includes infection (less likely given this is the third episode in
+   the last few weeks and work up for infection has been negative,
+   currently no leukocytosis or fevers), stroke or head bleed (unlikely
+   for similar reason and prior CT x2 and MRI brain all negative),
+   encephalopathy (likely), hyponatremia (could be contributing given
+   sodium of 120 is lower than he has been given he restarted diuretics
+   yesterday), sleep disorder (given all episodes occur first thing in the
+   AM).
+   -for hepatic encephalopathy- dose lactulose q2hrs until bowel movements
+   then back down with goal bowel movements 5-6 per day, continue
+   rifaximine
+   -for hyponatremia- improving, hold diuretics, check pm lytes
+   -sleep disorder- continuous oxygen monitoring, ABG when awake and
+   extubated for baseline. sleep study needed but may not be able to do in
+   house on the weekend. Consider auto titrating CPAP.
+   -infection- unlikely but could consider diagnostic para if not
+   improving. Two diagnostic [**Doctor First Name 3619**] this admission were negative
+   # alkylosis: Would think with altered mental status, that his CO2 would
+   be high causing an acidosis not alkylosis with low CO2. Could imply a
+   sleep disturbance as cause. See above.
+   -monitor ABG
+   -currently changing to PS ventilation and will resend ABG in 30 mins.
+   -ween vent as tolerated.
+   -has been extubated quickly on prior episodes.
+   # ESLD: Hep C and alcohol cirrhosis.
+   -continue lactulose as above, continue rifaximine
+   -hold diuretics
+   -continue ppx cipro for SBP
+   -follow up hepatology recs
+   # Pulmonary HTN: continue sildenafil and iloprost.
+   # Hypothyroidism: continue levothyroxine
+   # FEN: Clears advance to full liquids for now. Monitor lytes as above
+   # PPX: heparin SQ for DVT ppx, PPI per home reg, bowel reg as above
+   # Code: full
+   # communication: mother
+   ICU [**Name (NI) 81**]
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-4**] 08:00 AM
+   22 Gauge - [**2147-11-4**] 08:00 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 41-year-old male with pulmonary hypertension, ESLD due to Hep C and alcohol cirrhosis, and hypothyroidism. He was admitted with his third episode of altered mental status requiring intubation for airway protection. The patient was extubated after his mental status improved, and he was started on lactulose and rifaximine for hepatic encephalopathy. He was also restricted from PO fluids due to hyponatremia, which is improving. The patient's abdominal pain resolved after having a bowel movement, and a KUB with air-fluid levels showed no signs of small bowel obstruction. He is currently being managed with PS ventilation and is awaiting a sleep study.
+
+Potential Medical Complications:
+
+1. Respiratory failure: The patient's respiratory status is still unstable, and he may require further respiratory support.
+2. Hepatic encephalopathy: The patient's mental status may continue to deteriorate if his hepatic encephalopathy is not properly managed.
+3. Hyponatremia: The patient's sodium levels are still low, and he may require further fluid restriction to prevent further electrolyte imbalances.
+4. Sleep disorder: The patient's sleep disorder may be contributing to his recurrent episodes of altered mental status, and further evaluation is needed to determine the cause.
+5. Infection: Although the patient's workup for infection has been negative, he is still at risk for developing an infection, particularly given his immunocompromised state.
+6. Small bowel obstruction: The patient's abdominal pain resolved after having a bowel movement, but he is still at risk for developing a small bowel obstruction.
+7. Pulmonary hypertension: The patient's pulmonary hypertension may continue to worsen, and further evaluation and management are needed to prevent complications.
+8. ESLD: The patient's ESLD may continue to progress, and further evaluation and management are needed to prevent complications.
+
+Recommendations:
+
+1. Continue to monitor the patient's respiratory status and provide further respiratory support as needed.
+2. Continue to manage the patient's hepatic encephalopathy with lactulose and rifaximine.
+3. Monitor the patient's sodium levels and adjust his fluid restriction accordingly.
+4. Evaluate the patient's sleep disorder further and consider starting him on a sleep study.
+5. Continue to monitor the patient for signs of infection and consider starting him on antibiotics if necessary.
+6. Continue to monitor the patient for signs of small bowel obstruction and consider starting him on a bowel regimen if necessary.
+7. Continue to evaluate and manage the patient's pulmonary hypertension.
+8. Continue to evaluate and manage the patient's ESLD."
+142755.0,250425,2147-11-05 06:43:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2147-11-4**] 08:00 AM
+ INVASIVE VENTILATION - STOP [**2147-11-4**] 04:49 PM
+     * extubated after MS improved
+     * hyponatremic to Na 120 -> restricted PO fluids and re-checked labs
+       -> Na 122
+     * patient stable overnight
+     * still to do: auto cpap v sleep study, consider re-image head
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2147-11-5**] 06:42 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.7
+C (98
+   HR: 112 (79 - 112) bpm
+   BP: 116/67(78) {86/40(51) - 138/82(95)} mmHg
+   RR: 16 (9 - 22) insp/min
+   SpO2: 95%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                    680 mL
+                                                                    270 mL
+   PO:
+                                                                    270 mL
+                                                                    270 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    730 mL
+                                                                    135 mL
+   Urine:
+                                                                    730 mL
+                                                                    135 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -50 mL
+                                                                    135 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 600 (600 - 600) mL
+   Vt (Spontaneous): 1,022 (979 - 1,069) mL
+   PS : 5 cmH2O
+   RR (Set): 12
+   RR (Spontaneous): 22
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 11 cmH2O
+   SpO2: 95%
+   ABG: 7.51/24/292/17/-1
+   Ve: 8.7 L/min
+   PaO2 / FiO2: 973
+   Physical Examination
+   General Appearance: intubated
+   Eyes / Conjunctiva: PERRL, Pupils dilated, icteric sclera
+   Head, Ears, Nose, Throat: Normocephalic, Endotracheal tube, OG tube
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   at the bases), course breath sounds
+   Abdominal: Soft, Non-tender, Bowel sounds present, Distended but soft.
+   Extremities: Right: Absent, Left: Absent
+   Neurologic: Responds to: Unresponsive, Movement: Non -purposeful,
+   Labs / Radiology
+   131 K/uL
+   9.7 g/dL
+   114 mg/dL
+   1.1 mg/dL
+   17 mEq/L
+   3.6 mEq/L
+   29 mg/dL
+   98 mEq/L
+   125 mEq/L
+   28.8 %
+   10.9 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+   WBC
+   10.9
+   Hct
+   28.8
+   Plt
+   131
+   Cr
+   1.1
+   1.0
+   1.1
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   Other labs: PT / PTT / INR:21.9/76.0/2.1, ALT / AST:89/164, Alk Phos /
+   T Bili:150/8.3, Albumin:2.9 g/dL, LDH:328 IU/L, Ca++:8.6 mg/dL,
+   Mg++:2.3 mg/dL, PO4:2.8 mg/dL
+   Assessment and Plan
+   A/P: 41 yo M with pulmonary hypertension, ESLD on transplant list with
+   Hep C cirrhosis, alcoholic cirrhosis, hypothyroidism who presents with
+   his third episode of altered mental status requiring intubation for
+   airway protection.
+   # Recurrent altered mental status: DDX includes infection (less likely
+   given this is the third episode in the last few weeks and work up for
+   infection has been negative, currently leukocytosis or fevers), stroke
+   or head bleed (unlikely for similar reason and prior CT x2 and MRI
+   brain all negative), encephalopathy (likely), hyponatremia (could be
+   contributing given sodium of 120 is lower than he has been given he
+   restarted diuretics yesterday), sleep disorder (given all episodes
+   occur first thing in the AM).
+   -for hepatic encephalopathy- dose lactulose q2hrs until bowel movements
+   then back down with goal bowel movements 5-6 per day, continue
+   rifaximine
+   -for hyponatremia- repeat labs in 4 hrs. If still hyponatremic, will
+   need repletion. Hold diuretics.
+   -sleep disorder- continuous oxygen monitoring, ABG when awake and
+   extubated for baseline. sleep study needed but may not be able to do in
+   house on the weekend. Consider auto titrating CPAP.
+   -infection- unlikely but could consider diagnostic para if not
+   improving. Two diagnostic [**Doctor First Name 3619**] this admission were negative
+   # alkylosis: Would think with altered mental status, that his CO2 would
+   be high causing an acidosis not alkylosis with low CO2. Could imply a
+   sleep disturbance as cause. See above.
+   -monitor ABG
+   -currently changing to PS ventilation and will resend ABG in 30 mins.
+   -ween vent as tolerated.
+   -has been extubated quickly on prior episodes.
+   # ESLD: Hep C and alcohol cirrhosis.
+   -continue lactulose as above, continue rifaximine
+   -hold diuretics
+   -continue ppx cipro for SBP
+   -follow up hepatology recs
+   # Pulmonary HTN: continue sildenafil. [**Month (only) 51**] not be able to get iloprost
+   while on vent. Will discuss with respiratory and pharmacy.
+   # Hypothyroidism: continue levothyroxine
+   # FEN: NPO for now. Monitor lytes as above
+   # PPX: heparin SQ for DVT ppx, PPI per home reg, bowel reg as above
+   # Code: full
+   # communication: mother
+   ICU [**Name (NI) 81**]
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-4**] 08:00 AM
+   22 Gauge - [**2147-11-4**] 08:00 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2147-11-4**] 08:00 AM
+ INVASIVE VENTILATION - STOP [**2147-11-4**] 04:49 PM
+     * extubated after MS improved
+     * hyponatremic to Na 120 -> restricted PO fluids and re-checked labs
+       -> Na 122
+     * patient stable overnight
+     * still to do: auto cpap v sleep study, consider re-image head
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2147-11-5**] 06:42 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.7
+C (98
+   HR: 112 (79 - 112) bpm
+   BP: 116/67(78) {86/40(51) - 138/82(95)} mmHg
+   RR: 16 (9 - 22) insp/min
+   SpO2: 95%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                    680 mL
+                                                                    270 mL
+   PO:
+                                                                    270 mL
+                                                                    270 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    730 mL
+                                                                    135 mL
+   Urine:
+                                                                    730 mL
+                                                                    135 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -50 mL
+                                                                    135 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   Ventilator mode: CPAP/PSV
+   Vt (Set): 600 (600 - 600) mL
+   Vt (Spontaneous): 1,022 (979 - 1,069) mL
+   PS : 5 cmH2O
+   RR (Set): 12
+   RR (Spontaneous): 22
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 11 cmH2O
+   SpO2: 95%
+   ABG: 7.51/24/292/17/-1
+   Ve: 8.7 L/min
+   PaO2 / FiO2: 973
+   Physical Examination
+   General Appearance: intubated
+   Eyes / Conjunctiva: PERRL, Pupils dilated, icteric sclera
+   Head, Ears, Nose, Throat: Normocephalic, Endotracheal tube, OG tube
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   at the bases), course breath sounds
+   Abdominal: Soft, Non-tender, Bowel sounds present, Distended but soft.
+   Extremities: Right: Absent, Left: Absent
+   Neurologic: Responds to: Unresponsive, Movement: Non -purposeful,
+   Labs / Radiology
+   131 K/uL
+   9.7 g/dL
+   114 mg/dL
+   1.1 mg/dL
+   17 mEq/L
+   3.6 mEq/L
+   29 mg/dL
+   98 mEq/L
+   125 mEq/L
+   28.8 %
+   10.9 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+   WBC
+   10.9
+   Hct
+   28.8
+   Plt
+   131
+   Cr
+   1.1
+   1.0
+   1.1
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   Other labs: PT / PTT / INR:21.9/76.0/2.1, ALT / AST:89/164, Alk Phos /
+   T Bili:150/8.3, Albumin:2.9 g/dL, LDH:328 IU/L, Ca++:8.6 mg/dL,
+   Mg++:2.3 mg/dL, PO4:2.8 mg/dL
+   Assessment and Plan
+   A/P: 41 yo M with pulmonary hypertension, ESLD on transplant list with
+   Hep C cirrhosis, alcoholic cirrhosis, hypothyroidism who presents with
+   his third episode of altered mental status requiring intubation for
+   airway protection.
+   # Recurrent altered mental status: DDX includes infection (less likely
+   given this is the third episode in the last few weeks and work up for
+   infection has been negative, currently leukocytosis or fevers), stroke
+   or head bleed (unlikely for similar reason and prior CT x2 and MRI
+   brain all negative), encephalopathy (likely), hyponatremia (could be
+   contributing given sodium of 120 is lower than he has been given he
+   restarted diuretics yesterday), sleep disorder (given all episodes
+   occur first thing in the AM).
+   -for hepatic encephalopathy- dose lactulose q2hrs until bowel movements
+   then back down with goal bowel movements 5-6 per day, continue
+   rifaximine
+   -for hyponatremia- repeat labs in 4 hrs. If still hyponatremic, will
+   need repletion. Hold diuretics.
+   -sleep disorder- continuous oxygen monitoring, ABG when awake and
+   extubated for baseline. sleep study needed but may not be able to do in
+   house on the weekend. Consider auto titrating CPAP.
+   -infection- unlikely but could consider diagnostic para if not
+   improving. Two diagnostic [**Doctor First Name 3619**] this admission were negative
+   # alkylosis: Would think with altered mental status, that his CO2 would
+   be high causing an acidosis not alkylosis with low CO2. Could imply a
+   sleep disturbance as cause. See above.
+   -monitor ABG
+   -currently changing to PS ventilation and will resend ABG in 30 mins.
+   -ween vent as tolerated.
+   -has been extubated quickly on prior episodes.
+   # ESLD: Hep C and alcohol cirrhosis.
+   -continue lactulose as above, continue rifaximine
+   -hold diuretics
+   -continue ppx cipro for SBP
+   -follow up hepatology recs
+   # Pulmonary HTN: continue sildenafil. [**Month (only) 51**] not be able to get iloprost
+   while on vent. Will discuss with respiratory and pharmacy.
+   # Hypothyroidism: continue levothyroxine
+   # FEN: NPO for now. Monitor lytes as above
+   # PPX: heparin SQ for DVT ppx, PPI per home reg, bowel reg as above
+   # Code: full
+   # communication: mother
+   ICU [**Name (NI) 81**]
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-4**] 08:00 AM
+   22 Gauge - [**2147-11-4**] 08:00 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 41-year-old male with pulmonary hypertension, ESLD (end-stage liver disease) on the transplant list, and a history of Hep C cirrhosis, alcoholic cirrhosis, and hypothyroidism. The patient presented with his third episode of altered mental status requiring intubation for airway protection.
+
+The patient was extubated after 8 hours of invasive ventilation and is currently on CPAP/PSV with an FiO2 of 50%. His vital signs are stable, with a temperature of 36.7°C, heart rate of 112 bpm, and blood pressure of 116/67 mmHg.
+
+The patient's laboratory results show hyponatremia with a sodium level of 120 mmol/L, which has been treated with fluid restriction and re-checking of labs. His liver function tests are elevated, with a bilirubin level of 8.3 mg/dL and an albumin level of 2.9 g/dL.
+
+The patient's medical conditions include:
+
+1. Hepatic encephalopathy: The patient is being treated with lactulose and rifaximine.
+2. Hyponatremia: The patient's sodium level is being closely monitored, and diuretics have been held.
+3. Sleep disorder: The patient is being monitored for sleep apnea, and a sleep study is needed but may not be possible in-house on the weekend.
+4. Infection: The patient has had two diagnostic tests this admission, which were negative.
+5. Pulmonary hypertension: The patient is being treated with sildenafil.
+6. Hypothyroidism: The patient is being treated with levothyroxine.
+7. ESLD: The patient is on the transplant list and is being managed with lactulose, rifaximine, and diuretics.
+
+Potential medical complications that can arise include:
+
+1. Increased intracranial pressure due to hyponatremia and hepatic encephalopathy.
+2. Respiratory failure due to sleep apnea or pulmonary hypertension.
+3. Infection due to immobility and invasive lines.
+4. Bleeding due to coagulopathy and ESLD.
+5. Electrolyte imbalance due to diuretic use and hyponatremia.
+6. Hepatic encephalopathy exacerbation due to continued lactulose use.
+7. Sleep apnea exacerbation due to continued CPAP/PSV use.
+
+It is essential to closely monitor the patient's vital signs, laboratory results, and clinical condition to prevent these potential complications."
+142755.0,250425,2147-11-05 08:38:00,Physician ,Physician Attending Progress Note,"Chief Complaint: respiratory failure
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2147-11-4**] 08:00 AM
+ INVASIVE VENTILATION - STOP [**2147-11-4**] 04:49 PM
+   Extubated well
+   Abdominal pain this AM and KUB concerning for SBO versus ileus. Plan
+   for abd CT and Surgery consulted.
+   History obtained from Patient
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Lactulose,
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Gastrointestinal: Abdominal pain
+   Flowsheet Data as of  [**2147-11-5**] 08:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.4
+C (97.6
+   HR: 107 (79 - 112) bpm
+   BP: 110/65(75) {86/40(51) - 126/67(78)} mmHg
+   RR: 14 (9 - 20) insp/min
+   SpO2: 94%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                    680 mL
+                                                                    330 mL
+   PO:
+                                                                    270 mL
+                                                                    330 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    730 mL
+                                                                    260 mL
+   Urine:
+                                                                    730 mL
+                                                                    260 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -50 mL
+                                                                     70 mL
+   Respiratory support
+   O2 Delivery Device: None
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 1,022 (979 - 1,069) mL
+   PS : 5 cmH2O
+   RR (Spontaneous): 22
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 11 cmH2O
+   SpO2: 94%
+   ABG: 7.51/24/292/17/-1
+   Ve: 8.7 L/min
+   PaO2 / FiO2: 973
+   Physical Examination
+   General Appearance: Thin
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Breath Sounds: Diminished: )
+   Abdominal: Distended, Tender: , hypoactive bowel sounds
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   9.7 g/dL
+   131 K/uL
+   114 mg/dL
+   1.1 mg/dL
+   17 mEq/L
+   3.6 mEq/L
+   29 mg/dL
+   98 mEq/L
+   125 mEq/L
+   28.8 %
+   10.9 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+   WBC
+   10.9
+   Hct
+   28.8
+   Plt
+   131
+   Cr
+   1.1
+   1.0
+   1.1
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   Other labs: PT / PTT / INR:21.9/76.0/2.1, ALT / AST:89/164, Alk Phos /
+   T Bili:150/8.3, Albumin:2.9 g/dL, LDH:328 IU/L, Ca++:8.6 mg/dL,
+   Mg++:2.3 mg/dL, PO4:2.8 mg/dL
+   Assessment and Plan
+ .H/O ALKALOSIS, RESPIRATORY
+ HEPATIC ENCEPHALOPATHY
+ HYPONATREMIA (LOW SODIUM, HYPOSMOLALITY)
+ .H/O CIRRHOSIS OF LIVER, ALCOHOLIC
+ PULMONARY HYPERTENSION (PULM HTN, PHTN)
+ KNOWLEDGE DEFICIT
+   1.       Ileus/SBO: KUB concerning, and he has abdominal pain, will get
+   abd CT and surgical consult
+ holding off on NGT at present as not
+   vomiting and does have known varices, but will place if
+   2.       pHTN: due to NPO status not getting sildenafil, so needs to
+   take in haled iloprost and will restart sildenafil ASAP
+   3.       HypoNatremia: low urine Na, likely dry, start NS at 100 cc/hr
+   amd repeat Na this afternoon to make sure
+   4.       Cirrhosis: will give pr lactulose once abd CT does not show
+   complete obstruction
+   ICU Care
+   Nutrition: NPO for SBO at present will advance
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-4**] 08:00 AM
+   22 Gauge - [**2147-11-4**] 08:00 AM
+   Prophylaxis:
+   DVT: boots
+   Stress ulcer: PPI
+   Communication:  with pt and hepatology
+   Code status: Full code
+   Disposition :ICU
+   Total time spent:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: respiratory failure
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2147-11-4**] 08:00 AM
+ INVASIVE VENTILATION - STOP [**2147-11-4**] 04:49 PM
+   Extubated well
+   Abdominal pain this AM and KUB concerning for SBO versus ileus. Plan
+   for abd CT and Surgery consulted.
+   History obtained from Patient
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Lactulose,
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Gastrointestinal: Abdominal pain
+   Flowsheet Data as of  [**2147-11-5**] 08:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.4
+C (97.6
+   HR: 107 (79 - 112) bpm
+   BP: 110/65(75) {86/40(51) - 126/67(78)} mmHg
+   RR: 14 (9 - 20) insp/min
+   SpO2: 94%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                    680 mL
+                                                                    330 mL
+   PO:
+                                                                    270 mL
+                                                                    330 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    730 mL
+                                                                    260 mL
+   Urine:
+                                                                    730 mL
+                                                                    260 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -50 mL
+                                                                     70 mL
+   Respiratory support
+   O2 Delivery Device: None
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 1,022 (979 - 1,069) mL
+   PS : 5 cmH2O
+   RR (Spontaneous): 22
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 11 cmH2O
+   SpO2: 94%
+   ABG: 7.51/24/292/17/-1
+   Ve: 8.7 L/min
+   PaO2 / FiO2: 973
+   Physical Examination
+   General Appearance: Thin
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Breath Sounds: Diminished: )
+   Abdominal: Distended, Tender: , hypoactive bowel sounds
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   9.7 g/dL
+   131 K/uL
+   114 mg/dL
+   1.1 mg/dL
+   17 mEq/L
+   3.6 mEq/L
+   29 mg/dL
+   98 mEq/L
+   125 mEq/L
+   28.8 %
+   10.9 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+   WBC
+   10.9
+   Hct
+   28.8
+   Plt
+   131
+   Cr
+   1.1
+   1.0
+   1.1
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   Other labs: PT / PTT / INR:21.9/76.0/2.1, ALT / AST:89/164, Alk Phos /
+   T Bili:150/8.3, Albumin:2.9 g/dL, LDH:328 IU/L, Ca++:8.6 mg/dL,
+   Mg++:2.3 mg/dL, PO4:2.8 mg/dL
+   Assessment and Plan
+ .H/O ALKALOSIS, RESPIRATORY
+ HEPATIC ENCEPHALOPATHY
+ HYPONATREMIA (LOW SODIUM, HYPOSMOLALITY)
+ .H/O CIRRHOSIS OF LIVER, ALCOHOLIC
+ PULMONARY HYPERTENSION (PULM HTN, PHTN)
+ KNOWLEDGE DEFICIT
+   1.       Ileus/SBO: KUB concerning, and he has abdominal pain, will get
+   abd CT and surgical consult
+ holding off on NGT at present as not
+   vomiting and does have known varices, but will place if
+   2.       pHTN: due to NPO status not getting sildenafil, so needs to
+   take in haled iloprost and will restart sildenafil ASAP
+   3.       HypoNatremia: low urine Na, likely dry, start NS at 100 cc/hr
+   amd repeat Na this afternoon to make sure
+   4.       Cirrhosis: will give pr lactulose once abd CT does not show
+   complete obstruction
+   ICU Care
+   Nutrition: NPO for SBO at present will advance
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-4**] 08:00 AM
+   22 Gauge - [**2147-11-4**] 08:00 AM
+   Prophylaxis:
+   DVT: boots
+   Stress ulcer: PPI
+   Communication:  with pt and hepatology
+   Code status: Full code
+   Disposition :ICU
+   Total time spent:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 78.6 kg male admitted to the ICU for respiratory failure. He was intubated for 8 hours and extubated without complications. The patient has a history of cirrhosis of the liver, pulmonary hypertension, and is currently experiencing abdominal pain and concern for small bowel obstruction (SBO) versus ileus. The patient's vital signs are stable, with a temperature of 36.4°C, heart rate of 107 bpm, and blood pressure of 110/65 mmHg. The patient's respiratory support includes CPAP/PSV ventilation with a FiO2 of 50% and PEEP of 5 cmH2O.
+
+Potential Medical Complications:
+
+1. Small bowel obstruction (SBO): The patient's abdominal pain and concern for SBO versus ileus necessitate further evaluation with an abdominal CT scan and surgical consultation. Delaying nasogastric tube placement due to the patient's known varices.
+2. Pulmonary Hypertension (PHTN): The patient's PHTN is not being adequately managed due to his NPO status, and he requires inhaled iloprost and restarting sildenafil as soon as possible.
+3. HypoNatremia: The patient's low sodium levels are likely due to dryness, and he requires IV normal saline at 100 cc/hr. Repeat sodium levels are planned for later in the day.
+4. Cirrhosis: The patient's cirrhosis requires ongoing management with lactulose, and he may require further interventions to manage his liver disease.
+5. Respiratory Failure: The patient's respiratory failure is a significant concern, and close monitoring of his respiratory status is necessary to prevent further complications.
+6. Gastrointestinal bleeding: The patient's known varices and history of cirrhosis increase his risk of gastrointestinal bleeding, which requires close monitoring and prompt management if bleeding occurs.
+7. Infection: The patient's compromised immune system and history of cirrhosis increase his risk of infection, which requires close monitoring and prompt management if infection occurs.
+8. Cardiac complications: The patient's pulmonary hypertension and cirrhosis increase his risk of cardiac complications, such as heart failure and arrhythmias."
+142755.0,250425,2147-11-05 08:38:00,Physician ,Physician Attending Progress Note,"Chief Complaint: respiratory failure
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2147-11-4**] 08:00 AM
+ INVASIVE VENTILATION - STOP [**2147-11-4**] 04:49 PM
+   Extubated without difficulty. Did not wear BIPAP overnight.
+   Abdominal pain this AM and KUB concerning for SBO versus ileus. Plan
+   for abd CT and Surgery consulted.
+   History obtained from Patient
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Lactulose,
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Gastrointestinal: Abdominal pain
+   Flowsheet Data as of  [**2147-11-5**] 08:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.4
+C (97.6
+   HR: 107 (79 - 112) bpm
+   BP: 110/65(75) {86/40(51) - 126/67(78)} mmHg
+   RR: 14 (9 - 20) insp/min
+   SpO2: 94%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                    680 mL
+                                                                    330 mL
+   PO:
+                                                                    270 mL
+                                                                    330 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    730 mL
+                                                                    260 mL
+   Urine:
+                                                                    730 mL
+                                                                    260 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -50 mL
+                                                                     70 mL
+   Respiratory support
+   O2 Delivery Device: None
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 1,022 (979 - 1,069) mL
+   PS : 5 cmH2O
+   RR (Spontaneous): 22
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 11 cmH2O
+   SpO2: 94%
+   ABG: 7.51/24/292/17/-1
+   Ve: 8.7 L/min
+   PaO2 / FiO2: 973
+   Physical Examination
+   General Appearance: Thin
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Respiratory / Chest: (Breath Sounds: Diminished: , no wheezes
+   Abdominal: Distended, Tender: , hypoactive bowel sounds, no rebound or
+   guarding
+   Skin:  warm
+   Neurologic: alert and conversant
+   Labs / Radiology
+   9.7 g/dL
+   131 K/uL
+   114 mg/dL
+   1.1 mg/dL
+   17 mEq/L
+   3.6 mEq/L
+   29 mg/dL
+   98 mEq/L
+   125 mEq/L
+   28.8 %
+   10.9 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+   WBC
+   10.9
+   Hct
+   28.8
+   Plt
+   131
+   Cr
+   1.1
+   1.0
+   1.1
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   Other labs: PT / PTT / INR:21.9/76.0/2.1, ALT / AST:89/164, Alk Phos /
+   T Bili:150/8.3, Albumin:2.9 g/dL, LDH:328 IU/L, Ca++:8.6 mg/dL,
+   Mg++:2.3 mg/dL, PO4:2.8 mg/dL
+   Assessment and Plan
+ .H/O ALKALOSIS, RESPIRATORY
+ HEPATIC ENCEPHALOPATHY
+ HYPONATREMIA (LOW SODIUM, HYPOSMOLALITY)
+ .H/O CIRRHOSIS OF LIVER, ALCOHOLIC
+ PULMONARY HYPERTENSION (PULM HTN, PHTN)
+   1.       Ileus/SBO: KUB concerning, and he has abdominal pain, will get
+   abd CT and surgical consult
+ holding off on NGT at present as not
+   vomiting and does have known varices, but will place if worsening or CT
+   more concerning.
+   2.       pHTN: due to NPO status not getting sildenafil, so needs to
+   take in haled iloprost and will restart sildenafil ASAP
+   3.       HypoNatremia: low urine Na, likely dry, start NS at 100 cc/hr
+   amd repeat Na this afternoon to make sure Na rising
+   4.       Cirrhosis: will give pr lactulose once abd CT does not show
+   complete obstruction
+   Remining issues as per Housestaff notes
+   ICU Care
+   Nutrition: NPO for possible SBO at present will advance
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-4**] 08:00 AM
+   22 Gauge - [**2147-11-4**] 08:00 AM
+   Prophylaxis:
+   DVT: boots
+   Stress ulcer: PPI
+   Communication:  with pt and hepatology
+   Code status: Full code
+   Disposition :ICU
+   Total time spent:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: respiratory failure
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+ INVASIVE VENTILATION - START [**2147-11-4**] 08:00 AM
+ INVASIVE VENTILATION - STOP [**2147-11-4**] 04:49 PM
+   Extubated without difficulty. Did not wear BIPAP overnight.
+   Abdominal pain this AM and KUB concerning for SBO versus ileus. Plan
+   for abd CT and Surgery consulted.
+   History obtained from Patient
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Lactulose,
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Gastrointestinal: Abdominal pain
+   Flowsheet Data as of  [**2147-11-5**] 08:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.2
+C (99
+   Tcurrent: 36.4
+C (97.6
+   HR: 107 (79 - 112) bpm
+   BP: 110/65(75) {86/40(51) - 126/67(78)} mmHg
+   RR: 14 (9 - 20) insp/min
+   SpO2: 94%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                    680 mL
+                                                                    330 mL
+   PO:
+                                                                    270 mL
+                                                                    330 mL
+   TF:
+   IVF:
+   Blood products:
+   Total out:
+                                                                    730 mL
+                                                                    260 mL
+   Urine:
+                                                                    730 mL
+                                                                    260 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    -50 mL
+                                                                     70 mL
+   Respiratory support
+   O2 Delivery Device: None
+   Ventilator mode: CPAP/PSV
+   Vt (Spontaneous): 1,022 (979 - 1,069) mL
+   PS : 5 cmH2O
+   RR (Spontaneous): 22
+   PEEP: 5 cmH2O
+   FiO2: 50%
+   PIP: 11 cmH2O
+   SpO2: 94%
+   ABG: 7.51/24/292/17/-1
+   Ve: 8.7 L/min
+   PaO2 / FiO2: 973
+   Physical Examination
+   General Appearance: Thin
+   Eyes / Conjunctiva: PERRL
+   Head, Ears, Nose, Throat: Normocephalic
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Respiratory / Chest: (Breath Sounds: Diminished: , no wheezes
+   Abdominal: Distended, Tender: , hypoactive bowel sounds, no rebound or
+   guarding
+   Skin:  warm
+   Neurologic: alert and conversant
+   Labs / Radiology
+   9.7 g/dL
+   131 K/uL
+   114 mg/dL
+   1.1 mg/dL
+   17 mEq/L
+   3.6 mEq/L
+   29 mg/dL
+   98 mEq/L
+   125 mEq/L
+   28.8 %
+   10.9 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+   WBC
+   10.9
+   Hct
+   28.8
+   Plt
+   131
+   Cr
+   1.1
+   1.0
+   1.1
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   Other labs: PT / PTT / INR:21.9/76.0/2.1, ALT / AST:89/164, Alk Phos /
+   T Bili:150/8.3, Albumin:2.9 g/dL, LDH:328 IU/L, Ca++:8.6 mg/dL,
+   Mg++:2.3 mg/dL, PO4:2.8 mg/dL
+   Assessment and Plan
+ .H/O ALKALOSIS, RESPIRATORY
+ HEPATIC ENCEPHALOPATHY
+ HYPONATREMIA (LOW SODIUM, HYPOSMOLALITY)
+ .H/O CIRRHOSIS OF LIVER, ALCOHOLIC
+ PULMONARY HYPERTENSION (PULM HTN, PHTN)
+   1.       Ileus/SBO: KUB concerning, and he has abdominal pain, will get
+   abd CT and surgical consult
+ holding off on NGT at present as not
+   vomiting and does have known varices, but will place if worsening or CT
+   more concerning.
+   2.       pHTN: due to NPO status not getting sildenafil, so needs to
+   take in haled iloprost and will restart sildenafil ASAP
+   3.       HypoNatremia: low urine Na, likely dry, start NS at 100 cc/hr
+   amd repeat Na this afternoon to make sure Na rising
+   4.       Cirrhosis: will give pr lactulose once abd CT does not show
+   complete obstruction
+   Remining issues as per Housestaff notes
+   ICU Care
+   Nutrition: NPO for possible SBO at present will advance
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-4**] 08:00 AM
+   22 Gauge - [**2147-11-4**] 08:00 AM
+   Prophylaxis:
+   DVT: boots
+   Stress ulcer: PPI
+   Communication:  with pt and hepatology
+   Code status: Full code
+   Disposition :ICU
+   Total time spent:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 78.6 kg individual admitted to the ICU with respiratory failure, requiring invasive ventilation for 8 hours before being extubated without difficulty. They experienced abdominal pain and underwent a CT scan to rule out small bowel obstruction (SBO) or ileus. The patient has a history of cirrhosis of the liver, pulmonary hypertension, and has been NPO (nothing by mouth) due to concerns of SBO. They are currently on lactulose, and their medications include infusions, other ICU medications, and other medications such as amoxicillin.
+
+The patient's vital signs are stable, with a temperature of 36.4°C, heart rate of 107 bpm, and blood pressure of 110/65 mmHg. They have a respiratory rate of 14 breaths per minute and an oxygen saturation of 94%. The patient's laboratory results show mild anemia, mild thrombocytopenia, and mild hyperbilirubinemia. Their electrolyte levels are within normal limits, except for a slightly low sodium level.
+
+Potential Medical Complications:
+
+1. SBO or Ileus: The patient's abdominal pain and CT scan results are concerning for SBO or ileus. If left untreated, this could lead to further complications such as bowel perforation, sepsis, and death.
+2. Pulmonary Hypertension: The patient's pulmonary hypertension could worsen if they do not receive adequate treatment, leading to right ventricular failure, arrhythmias, and death.
+3. HypoNatremia: The patient's low sodium level could worsen if left untreated, leading to seizures, coma, and death.
+4. Cirrhosis of the Liver: The patient's cirrhosis could progress if they do not receive adequate treatment, leading to further complications such as esophageal varices, bleeding, and death.
+5. Respiratory Failure: The patient's respiratory failure could worsen if they do not receive adequate treatment, leading to further complications such as pneumonia, respiratory acidosis, and death.
+
+Recommendations:
+
+1. Continue to monitor the patient's vital signs and laboratory results closely.
+2. Treat the patient's abdominal pain and SBO or ileus with antibiotics, fluids, and nutritional support.
+3. Manage the patient's pulmonary hypertension with sildenafil and iloprost.
+4. Treat the patient's hypoNatremia with normal saline and electrolyte supplements.
+5. Provide supportive care for the patient's cirrhosis, including lactulose and antibiotics as needed.
+6. Monitor the patient's respiratory status closely and provide respiratory support as needed.
+7. Consider consulting with a gastroenterologist or hepatologist for further management of the patient's cirrhosis and SBO or ileus."
+142755.0,250425,2147-11-06 06:19:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - CT: no SBO, + ascites
+   - hepatology - do not tap unless painful
+   - abd px disappeared after 1800 cc stool output
+   - levothyroxin & cipro changed back to PO
+   - Iloprost started
+   - Needs sleep study
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2147-11-5**] 11:30 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2147-11-6**] 12:01 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2147-11-6**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37
+C (98.6
+   Tcurrent: 37
+C (98.6
+   HR: 103 (85 - 113) bpm
+   BP: 101/49(61) {88/37(50) - 136/72(84)} mmHg
+   RR: 14 (10 - 19) insp/min
+   SpO2: 96%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                  2,590 mL
+                                                                    240 mL
+   PO:
+                                                                  1,990 mL
+                                                                    240 mL
+   TF:
+   IVF:
+                                                                    600 mL
+   Blood products:
+   Total out:
+                                                                  3,670 mL
+                                                                    180 mL
+   Urine:
+                                                                  1,070 mL
+                                                                    180 mL
+   NG:
+   Stool:
+                                                                  2,600 mL
+   Drains:
+   Balance:
+                                                                 -1,080 mL
+                                                                     60 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ///20/
+   Physical Examination
+   General Appearance: intubated
+   Eyes / Conjunctiva: PERRL, Pupils dilated, icteric sclera
+   Head, Ears, Nose, Throat: Normocephalic, Endotracheal tube, OG tube
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   at the bases), course breath sounds
+   Abdominal: Soft, Non-tender, Bowel sounds present, Distended but soft.
+   Extremities: Right: Absent, Left: Absent
+   Neurologic: Responds to: Unresponsive, Movement: Non -purposeful,
+   Labs / Radiology
+   123 K/uL
+   9.4 g/dL
+   105 mg/dL
+   0.8 mg/dL
+   20 mEq/L
+   4.1 mEq/L
+   22 mg/dL
+   98 mEq/L
+   122 mEq/L
+   27.9 %
+   10.6 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+                            [**2147-11-5**]  07:44 PM
+                            [**2147-11-6**]  04:42 AM
+   WBC
+   10.9
+   10.6
+   Hct
+   28.8
+   27.9
+   Plt
+   131
+   123
+   Cr
+   1.1
+   1.0
+   1.1
+   0.8
+   0.8
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   143
+   105
+   Other labs: PT / PTT / INR:22.2/77.7/2.1, ALT / AST:86/150, Alk Phos /
+   T Bili:142/7.2, Albumin:2.8 g/dL, LDH:310 IU/L, Ca++:8.2 mg/dL,
+   Mg++:2.1 mg/dL, PO4:2.2 mg/dL
+   Assessment and Plan
+   A/P: 41 yo M with pulmonary hypertension, ESLD on transplant list with
+   Hep C cirrhosis, alcoholic cirrhosis, hypothyroidism who presents with
+   his third episode of altered mental status requiring intubation for
+   airway protection.
+   # Abdominal pain: KUB with air fluid levels concerning for SBO and
+   patient had no stools x 24 hours.  Made NPO including meds & CT scan to
+   check for SBO.  After drinking contrast patient had large volume stool
+   output.  CT scan preliminarily no SBO, but ascities present.  Abdominal
+   pain now resolved after BMs.  Will advance diet to clears then as
+   tolerated.
+   # Recurrent altered mental status: Mental status currently improved.
+   DDX includes infection (less likely given this is the third episode in
+   the last few weeks and work up for infection has been negative,
+   currently no leukocytosis or fevers), stroke or head bleed (unlikely
+   for similar reason and prior CT x2 and MRI brain all negative),
+   encephalopathy (likely), hyponatremia (could be contributing given
+   sodium of 120 is lower than he has been given he restarted diuretics
+   yesterday), sleep disorder (given all episodes occur first thing in the
+   AM).
+   -for hepatic encephalopathy- dose lactulose q2hrs until bowel movements
+   then back down with goal bowel movements 5-6 per day, continue
+   rifaximine
+   -for hyponatremia- improving, hold diuretics, check pm lytes
+   -sleep disorder- continuous oxygen monitoring, ABG when awake and
+   extubated for baseline. sleep study needed but may not be able to do in
+   house on the weekend. Consider auto titrating CPAP.
+   -infection- unlikely but could consider diagnostic para if not
+   improving. Two diagnostic [**Doctor First Name 3619**] this admission were negative
+   # alkylosis: Would think with altered mental status, that his CO2 would
+   be high causing an acidosis not alkylosis with low CO2. Could imply a
+   sleep disturbance as cause. See above.
+   -monitor ABG
+   -currently changing to PS ventilation and will resend ABG in 30 mins.
+   -ween vent as tolerated.
+   -has been extubated quickly on prior episodes.
+   # ESLD: Hep C and alcohol cirrhosis.
+   -continue lactulose as above, continue rifaximine
+   -hold diuretics
+   -continue ppx cipro for SBP
+   -follow up hepatology recs
+   # Pulmonary HTN: continue sildenafil and iloprost.
+   # Hypothyroidism: continue levothyroxine
+   # FEN: Clears advance to full liquids for now. Monitor lytes as above
+   # PPX: heparin SQ for DVT ppx, PPI per home reg, bowel reg as above
+   # Code: full
+   # communication: mother
+   ICU [**Name (NI) 81**]
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-5**] 04:29 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - CT: no SBO, + ascites
+   - hepatology - do not tap unless painful
+   - abd px disappeared after 1800 cc stool output
+   - levothyroxin & cipro changed back to PO
+   - Iloprost started
+   - Needs sleep study
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2147-11-5**] 11:30 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2147-11-6**] 12:01 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2147-11-6**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37
+C (98.6
+   Tcurrent: 37
+C (98.6
+   HR: 103 (85 - 113) bpm
+   BP: 101/49(61) {88/37(50) - 136/72(84)} mmHg
+   RR: 14 (10 - 19) insp/min
+   SpO2: 96%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                  2,590 mL
+                                                                    240 mL
+   PO:
+                                                                  1,990 mL
+                                                                    240 mL
+   TF:
+   IVF:
+                                                                    600 mL
+   Blood products:
+   Total out:
+                                                                  3,670 mL
+                                                                    180 mL
+   Urine:
+                                                                  1,070 mL
+                                                                    180 mL
+   NG:
+   Stool:
+                                                                  2,600 mL
+   Drains:
+   Balance:
+                                                                 -1,080 mL
+                                                                     60 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ///20/
+   Physical Examination
+   General Appearance: intubated
+   Eyes / Conjunctiva: PERRL, Pupils dilated, icteric sclera
+   Head, Ears, Nose, Throat: Normocephalic, Endotracheal tube, OG tube
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   at the bases), course breath sounds
+   Abdominal: Soft, Non-tender, Bowel sounds present, Distended but soft.
+   Extremities: Right: Absent, Left: Absent
+   Neurologic: Responds to: Unresponsive, Movement: Non -purposeful,
+   Labs / Radiology
+   123 K/uL
+   9.4 g/dL
+   105 mg/dL
+   0.8 mg/dL
+   20 mEq/L
+   4.1 mEq/L
+   22 mg/dL
+   98 mEq/L
+   122 mEq/L
+   27.9 %
+   10.6 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+                            [**2147-11-5**]  07:44 PM
+                            [**2147-11-6**]  04:42 AM
+   WBC
+   10.9
+   10.6
+   Hct
+   28.8
+   27.9
+   Plt
+   131
+   123
+   Cr
+   1.1
+   1.0
+   1.1
+   0.8
+   0.8
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   143
+   105
+   Other labs: PT / PTT / INR:22.2/77.7/2.1, ALT / AST:86/150, Alk Phos /
+   T Bili:142/7.2, Albumin:2.8 g/dL, LDH:310 IU/L, Ca++:8.2 mg/dL,
+   Mg++:2.1 mg/dL, PO4:2.2 mg/dL
+   Assessment and Plan
+   A/P: 41 yo M with pulmonary hypertension, ESLD on transplant list with
+   Hep C cirrhosis, alcoholic cirrhosis, hypothyroidism who presents with
+   his third episode of altered mental status requiring intubation for
+   airway protection.
+   # Abdominal pain: KUB with air fluid levels concerning for SBO and
+   patient had no stools x 24 hours.  Made NPO including meds & CT scan to
+   check for SBO.  After drinking contrast patient had large volume stool
+   output.  CT scan preliminarily no SBO, but ascities present.  Abdominal
+   pain now resolved after BMs.  Will advance diet to clears then as
+   tolerated.
+   # Recurrent altered mental status: Mental status currently improved.
+   DDX includes infection (less likely given this is the third episode in
+   the last few weeks and work up for infection has been negative,
+   currently no leukocytosis or fevers), stroke or head bleed (unlikely
+   for similar reason and prior CT x2 and MRI brain all negative),
+   encephalopathy (likely), hyponatremia (could be contributing given
+   sodium of 120 is lower than he has been given he restarted diuretics
+   yesterday), sleep disorder (given all episodes occur first thing in the
+   AM).
+   -for hepatic encephalopathy- dose lactulose q2hrs until bowel movements
+   then back down with goal bowel movements 5-6 per day, continue
+   rifaximine
+   -for hyponatremia- improving, hold diuretics, check pm lytes
+   -sleep disorder- continuous oxygen monitoring, ABG when awake and
+   extubated for baseline. sleep study needed but may not be able to do in
+   house on the weekend. Consider auto titrating CPAP.
+   -infection- unlikely but could consider diagnostic para if not
+   improving. Two diagnostic [**Doctor First Name 3619**] this admission were negative
+   # alkylosis: Would think with altered mental status, that his CO2 would
+   be high causing an acidosis not alkylosis with low CO2. Could imply a
+   sleep disturbance as cause. See above.
+   -monitor ABG
+   -currently changing to PS ventilation and will resend ABG in 30 mins.
+   -ween vent as tolerated.
+   -has been extubated quickly on prior episodes.
+   # ESLD: Hep C and alcohol cirrhosis.
+   -continue lactulose as above, continue rifaximine
+   -hold diuretics
+   -continue ppx cipro for SBP
+   -follow up hepatology recs
+   # Pulmonary HTN: continue sildenafil and iloprost.
+   # Hypothyroidism: continue levothyroxine
+   # FEN: Clears advance to full liquids for now. Monitor lytes as above
+   # PPX: heparin SQ for DVT ppx, PPI per home reg, bowel reg as above
+   # Code: full
+   # communication: mother
+   ICU [**Name (NI) 81**]
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-5**] 04:29 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 41-year-old male with pulmonary hypertension, ESLD (end-stage liver disease) due to Hepatitis C and alcohol cirrhosis, hypothyroidism, and on the transplant list. He has presented with his third episode of altered mental status, requiring intubation for airway protection.
+
+The patient's current vital signs are:
+
+* Temperature: 37°C (98.6°F)
+* Heart rate: 103 bpm (85-113 bpm)
+* Blood pressure: 101/49 mmHg (61-136/72 mmHg)
+* Respiratory rate: 14 inspirations per minute
+* Oxygen saturation: 96%
+* Heart rhythm: Sinus tachycardia
+
+The patient's physical examination reveals:
+
+* Intubated
+* PERRL (pupils equal and reactive to light)
+* Icteric sclera
+* Normocephalic, endotracheal tube, and OG tube
+* Soft, non-tender abdomen with bowel sounds present and distended
+* Absent peripheral pulses
+
+Laboratory results show:
+
+* WBC: 10.9-10.6 K/uL
+* Hct: 28.8-27.9%
+* Plt: 131-123 K/uL
+* Cr: 1.1-1.0 mg/dL
+* TCO2: 20 mmHg
+* Glucose: 98-143 mg/dL
+* Other labs: PT/PTT/INR: 22.2/77.7/2.1, ALT/AST: 86/150 IU/L, etc.
+
+The patient's plan includes:
+
+* Advancing diet to clear liquids and then as tolerated
+* Lactulose q2hrs until bowel movements are achieved, then decreasing dose to goal of 5-6 bowel movements per day
+* Continuing rifaximine
+* Holding diuretics and checking PM lytes
+* Continuous oxygen monitoring, ABG when awake and extubated for baseline
+* Sleep study needed, but may not be able to perform in-house on the weekend
+* Considering auto-titrating CPAP
+* Monitoring ABG
+* Changing to PS ventilation and will resend ABG in 30 minutes
+* Weaning vent as tolerated
+* Continuing lactulose, rifaximine, and levothyroxine
+* Holding diuretics and following up with hepatology recommendations
+
+Potential medical complications that can arise based on this information include:
+
+1. Hepatic encephalopathy: The patient's altered mental status and decreased level of consciousness are concerning for hepatic encephalopathy. Lactulose and rifaximine are being used to manage this condition.
+2. Hyponatremia: The patient's sodium level is 120 mmol/L, which is lower than his previous levels. This may be contributing to his altered mental status. Holding diuretics and checking PM lytes may help manage this condition.
+3. Sleep disorder: The patient's episodes of altered mental status often occur in the morning, which may be related to a sleep disorder. A sleep study is needed to further evaluate this possibility.
+4. Infection: Although infection is less likely given the patient's previous negative workup, it is still a possibility. Diagnostic para may be considered if the patient does not improve.
+5. Pulmonary hypertension: The patient's pulmonary hypertension is being managed with sildenafil and iloprost. However, further evaluation and management may be necessary to prevent complications.
+6. ESLD: The patient's ESLD is being managed with lactulose, rifaximine, and levothyroxine. However, further evaluation and management may be necessary to prevent complications.
+7. Alkylosis: The patient's low CO2 levels may suggest a sleep disturbance as a cause. Further evaluation and management may be necessary to address this possibility.
+
+Overall, the patient requires close monitoring and management of his various medical conditions to prevent complications and improve his overall outcome."
+142755.0,250425,2147-11-06 06:19:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - CT: no SBO, + ascites
+   - hepatology - do not tap unless painful
+   - abd px disappeared after 1800 cc stool output
+   - levothyroxin & cipro changed back to PO
+   - Iloprost started
+   - Needs sleep study
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2147-11-5**] 11:30 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2147-11-6**] 12:01 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2147-11-6**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37
+C (98.6
+   Tcurrent: 37
+C (98.6
+   HR: 103 (85 - 113) bpm
+   BP: 101/49(61) {88/37(50) - 136/72(84)} mmHg
+   RR: 14 (10 - 19) insp/min
+   SpO2: 96%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                  2,590 mL
+                                                                    240 mL
+   PO:
+                                                                  1,990 mL
+                                                                    240 mL
+   TF:
+   IVF:
+                                                                    600 mL
+   Blood products:
+   Total out:
+                                                                  3,670 mL
+                                                                    180 mL
+   Urine:
+                                                                  1,070 mL
+                                                                    180 mL
+   NG:
+   Stool:
+                                                                  2,600 mL
+   Drains:
+   Balance:
+                                                                 -1,080 mL
+                                                                     60 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ///20/
+   Physical Examination
+   General Appearance: intubated
+   Eyes / Conjunctiva: PERRL, Pupils dilated, icteric sclera
+   Head, Ears, Nose, Throat: Normocephalic, Endotracheal tube, OG tube
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   at the bases), course breath sounds
+   Abdominal: Soft, Non-tender, Bowel sounds present, Distended but soft.
+   Extremities: Right: Absent, Left: Absent
+   Neurologic: Responds to: Unresponsive, Movement: Non -purposeful,
+   Labs / Radiology
+   123 K/uL
+   9.4 g/dL
+   105 mg/dL
+   0.8 mg/dL
+   20 mEq/L
+   4.1 mEq/L
+   22 mg/dL
+   98 mEq/L
+   122 mEq/L
+   27.9 %
+   10.6 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+                            [**2147-11-5**]  07:44 PM
+                            [**2147-11-6**]  04:42 AM
+   WBC
+   10.9
+   10.6
+   Hct
+   28.8
+   27.9
+   Plt
+   131
+   123
+   Cr
+   1.1
+   1.0
+   1.1
+   0.8
+   0.8
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   143
+   105
+   Other labs: PT / PTT / INR:22.2/77.7/2.1, ALT / AST:86/150, Alk Phos /
+   T Bili:142/7.2, Albumin:2.8 g/dL, LDH:310 IU/L, Ca++:8.2 mg/dL,
+   Mg++:2.1 mg/dL, PO4:2.2 mg/dL
+   Assessment and Plan
+   A/P: 41 yo M with pulmonary hypertension, ESLD on transplant list with
+   Hep C cirrhosis, alcoholic cirrhosis, hypothyroidism who presents with
+   his third episode of altered mental status requiring intubation for
+   airway protection.
+   # Abdominal pain: Resolved.  Likely secondary to severe constipation.
+   After drinking contrast patient had large volume stool output.  CT scan
+   preliminarily no SBO, but ascities present.  Abdominal pain now
+   resolved after BMs.
+   - follow-up final CT abd/pelvis read
+   # Recurrent altered mental status: Mental status currently at
+   baseline.  Unclear why the patient continues to have these episodes of
+   AMS that resolve quickly.  Per report he had been taking his lactulose
+   on the floor prior to intubation.  No evidence for infections, stroke
+   or intracranial hemorrhage.  Hyponatremia is stable and patient is
+   currently mentating at baseline so likely not the explanation.  The
+   patient could have a sleep disorder, though maintained his O2 sats
+   throughout the night on telemetry monitoring.  Possible alkalosis
+   evidence for this thus far.
+   -Lactulose with goal of [**4-25**] BMs/day + rifaximine for hepatic
+   encephalopathy prevention
+   -for hyponatremia- see below
+   -sleep disorder- ABG this am for baseline.  Needs sleep study.
+   Consider auto titrating CPAP.
+   -infection- unlikely but could consider diagnostic para if not
+   improving. Two diagnostic [**Doctor First Name 3619**] this admission were negative
+   # Hyponatremia: Stable in the low 120s.  Has been in the low 130s
+   previously on this admission.  Patient got increased volume yesterday
+   secondary to drinking PO contrast.
+   - decrease fluid restriction to 1.2L
+   # ESLD: Hep C and alcohol cirrhosis.
+   -continue lactulose as above, continue rifaximine
+   -hold diuretics
+   -continue ppx cipro for SBP
+   -follow up hepatology recs
+   # Pulmonary HTN: continue sildenafil and iloprost.
+   # Hypothyroidism: continue levothyroxine
+   # FEN: Low Na diet. Fluid restriction 1.2L.  Monitor lytes as above
+   # PPX: heparin SQ for DVT ppx, PPI per home reg, bowel reg as above
+   # Dispo: c/o to [**Doctor Last Name 976**]-[**Doctor Last Name 2578**] service.
+   # Code: full
+   # communication: mother
+   ICU [**Name (NI) 81**]
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-5**] 04:29 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - CT: no SBO, + ascites
+   - hepatology - do not tap unless painful
+   - abd px disappeared after 1800 cc stool output
+   - levothyroxin & cipro changed back to PO
+   - Iloprost started
+   - Needs sleep study
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2147-11-5**] 11:30 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2147-11-6**] 12:01 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2147-11-6**] 06:18 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37
+C (98.6
+   Tcurrent: 37
+C (98.6
+   HR: 103 (85 - 113) bpm
+   BP: 101/49(61) {88/37(50) - 136/72(84)} mmHg
+   RR: 14 (10 - 19) insp/min
+   SpO2: 96%
+   Heart rhythm: ST (Sinus Tachycardia)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                  2,590 mL
+                                                                    240 mL
+   PO:
+                                                                  1,990 mL
+                                                                    240 mL
+   TF:
+   IVF:
+                                                                    600 mL
+   Blood products:
+   Total out:
+                                                                  3,670 mL
+                                                                    180 mL
+   Urine:
+                                                                  1,070 mL
+                                                                    180 mL
+   NG:
+   Stool:
+                                                                  2,600 mL
+   Drains:
+   Balance:
+                                                                 -1,080 mL
+                                                                     60 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ///20/
+   Physical Examination
+   General Appearance: intubated
+   Eyes / Conjunctiva: PERRL, Pupils dilated, icteric sclera
+   Head, Ears, Nose, Throat: Normocephalic, Endotracheal tube, OG tube
+   Cardiovascular: (S1: Normal), (S2: Normal)
+   Peripheral Vascular: (Right radial pulse: Present), (Left radial pulse:
+   Present), (Right DP pulse: Present), (Left DP pulse: Present)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Crackles :
+   at the bases), course breath sounds
+   Abdominal: Soft, Non-tender, Bowel sounds present, Distended but soft.
+   Extremities: Right: Absent, Left: Absent
+   Neurologic: Responds to: Unresponsive, Movement: Non -purposeful,
+   Labs / Radiology
+   123 K/uL
+   9.4 g/dL
+   105 mg/dL
+   0.8 mg/dL
+   20 mEq/L
+   4.1 mEq/L
+   22 mg/dL
+   98 mEq/L
+   122 mEq/L
+   27.9 %
+   10.6 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+                            [**2147-11-5**]  07:44 PM
+                            [**2147-11-6**]  04:42 AM
+   WBC
+   10.9
+   10.6
+   Hct
+   28.8
+   27.9
+   Plt
+   131
+   123
+   Cr
+   1.1
+   1.0
+   1.1
+   0.8
+   0.8
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   143
+   105
+   Other labs: PT / PTT / INR:22.2/77.7/2.1, ALT / AST:86/150, Alk Phos /
+   T Bili:142/7.2, Albumin:2.8 g/dL, LDH:310 IU/L, Ca++:8.2 mg/dL,
+   Mg++:2.1 mg/dL, PO4:2.2 mg/dL
+   Assessment and Plan
+   A/P: 41 yo M with pulmonary hypertension, ESLD on transplant list with
+   Hep C cirrhosis, alcoholic cirrhosis, hypothyroidism who presents with
+   his third episode of altered mental status requiring intubation for
+   airway protection.
+   # Abdominal pain: Resolved.  Likely secondary to severe constipation.
+   After drinking contrast patient had large volume stool output.  CT scan
+   preliminarily no SBO, but ascities present.  Abdominal pain now
+   resolved after BMs.
+   - follow-up final CT abd/pelvis read
+   # Recurrent altered mental status: Mental status currently at
+   baseline.  Unclear why the patient continues to have these episodes of
+   AMS that resolve quickly.  Per report he had been taking his lactulose
+   on the floor prior to intubation.  No evidence for infections, stroke
+   or intracranial hemorrhage.  Hyponatremia is stable and patient is
+   currently mentating at baseline so likely not the explanation.  The
+   patient could have a sleep disorder, though maintained his O2 sats
+   throughout the night on telemetry monitoring.  Possible alkalosis
+   evidence for this thus far.
+   -Lactulose with goal of [**4-25**] BMs/day + rifaximine for hepatic
+   encephalopathy prevention
+   -for hyponatremia- see below
+   -sleep disorder- ABG this am for baseline.  Needs sleep study.
+   Consider auto titrating CPAP.
+   -infection- unlikely but could consider diagnostic para if not
+   improving. Two diagnostic [**Doctor First Name 3619**] this admission were negative
+   # Hyponatremia: Stable in the low 120s.  Has been in the low 130s
+   previously on this admission.  Patient got increased volume yesterday
+   secondary to drinking PO contrast.
+   - decrease fluid restriction to 1.2L
+   # ESLD: Hep C and alcohol cirrhosis.
+   -continue lactulose as above, continue rifaximine
+   -hold diuretics
+   -continue ppx cipro for SBP
+   -follow up hepatology recs
+   # Pulmonary HTN: continue sildenafil and iloprost.
+   # Hypothyroidism: continue levothyroxine
+   # FEN: Low Na diet. Fluid restriction 1.2L.  Monitor lytes as above
+   # PPX: heparin SQ for DVT ppx, PPI per home reg, bowel reg as above
+   # Dispo: c/o to [**Doctor Last Name 976**]-[**Doctor Last Name 2578**] service.
+   # Code: full
+   # communication: mother
+   ICU [**Name (NI) 81**]
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-5**] 04:29 PM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 41-year-old male with pulmonary hypertension, ESLD due to Hep C and alcohol cirrhosis, and hypothyroidism who presented with his third episode of altered mental status requiring intubation for airway protection. He has been experiencing recurrent episodes of altered mental status, which resolve quickly, and has been taking lactulose as prescribed. His abdominal pain has resolved, and a CT scan showed no small bowel obstruction but ascites present. He is currently receiving treatment for hyponatremia, ESLD, pulmonary hypertension, and hypothyroidism.
+
+Potential Medical Complications:
+
+1. Re-occurrence of Altered Mental Status: The patient's episodes of altered mental status may continue to occur, and it is essential to monitor his mental status closely and consider further diagnostic tests to determine the underlying cause.
+2. Hepatic Encephalopathy: The patient's ESLD and hyponatremia increase the risk of hepatic encephalopathy, and it is crucial to monitor his liver function and electrolyte levels closely.
+3. Pulmonary Hypertension: The patient's pulmonary hypertension may worsen, leading to increased risk of right ventricular failure and death.
+4. Infection: The patient is at risk of developing infections, particularly in the gut and respiratory tract, due to his immunocompromised state.
+5. Sleep Disorder: The patient's sleep disorder may worsen, leading to decreased quality of life and increased risk of cardiovascular events.
+6. Electrolyte Imbalance: The patient's hyponatremia and electrolyte imbalance may worsen, leading to seizures, coma, and even death.
+7. Fluid Overload: The patient's fluid overload may worsen, leading to pulmonary edema and respiratory failure.
+8. Constipation: The patient's constipation may worsen, leading to bowel obstruction and increased risk of sepsis.
+9. Diabetic Ketoacidosis: The patient's hypothyroidism and ESLD increase the risk of developing diabetic ketoacidosis, which can be life-threatening if left untreated.
+10. Venous Thromboembolism: The patient's ESLD and immobility increase the risk of developing venous thromboembolism, which can be life-threatening if left untreated."
+142755.0,250425,2147-11-06 08:51:00,Physician ,Physician Attending Progress Note,"Chief Complaint: Respiratory Failure
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+   -Patient with large BM and CT scan without evidence of obstruction
+   History obtained from [**Hospital 15**] Medical records
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2147-11-5**] 11:30 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2147-11-6**] 12:01 AM
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: Fatigue
+   Flowsheet Data as of  [**2147-11-6**] 08:46 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37
+C (98.6
+   Tcurrent: 37
+C (98.6
+   HR: 96 (85 - 113) bpm
+   BP: 103/53(65) {88/37(50) - 136/72(84)} mmHg
+   RR: 9 (9 - 19) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                  2,590 mL
+                                                                    240 mL
+   PO:
+                                                                  1,990 mL
+                                                                    240 mL
+   TF:
+   IVF:
+                                                                    600 mL
+   Blood products:
+   Total out:
+                                                                  3,670 mL
+                                                                    240 mL
+   Urine:
+                                                                  1,070 mL
+                                                                    240 mL
+   NG:
+   Stool:
+                                                                  2,600 mL
+   Drains:
+   Balance:
+                                                                 -1,080 mL
+                                                                      0 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ///20/
+   Physical Examination
+   Cardiovascular: (S1: Normal), (S2: Distant)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds:
+   Diminished: )
+   Abdominal: Soft, Distended
+   Extremities: Right: 2+, Left: 2+
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   9.4 g/dL
+   123 K/uL
+   105 mg/dL
+   0.8 mg/dL
+   20 mEq/L
+   4.1 mEq/L
+   22 mg/dL
+   98 mEq/L
+   122 mEq/L
+   27.9 %
+   10.6 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+                            [**2147-11-5**]  07:44 PM
+                            [**2147-11-6**]  04:42 AM
+   WBC
+   10.9
+   10.6
+   Hct
+   28.8
+   27.9
+   Plt
+   131
+   123
+   Cr
+   1.1
+   1.0
+   1.1
+   0.8
+   0.8
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   143
+   105
+   Other labs: PT / PTT / INR:22.2/77.7/2.1, ALT / AST:86/150, Alk Phos /
+   T Bili:142/7.2, Albumin:2.8 g/dL, LDH:310 IU/L, Ca++:8.2 mg/dL,
+   Mg++:2.1 mg/dL, PO4:2.2 mg/dL
+   Assessment and Plan
+   41 yo male with known history of cirrhosis and now s/p extubation and
+   with rapid move to extubation and now with improving mental status in
+   the setting of lactulose therapy and return to active bowel movements.
+   Encephalopathy-
+   -Lactulose continuing
+   -Monitor bowel movement frequency
+   -No evidence of new or evolving infection
+   Ascites-
+   -Cipro to continue for prophylaxis
+   -Tap of fluid for any recurrent fevers seen
+   Respiratory Failure-
+   -Monitor O/N with limited PSG upon the floor
+   -In the setting of pulmonary HTN hypoxemia may be worsened and there is
+   not clear diagnosis or exclusion of hepato-pulmonary syndrome
+   -REM sleep may be an area of vulnerability and full night sleep study
+   would be of interest
+   -BIPAP if worsening seen
+   Pulmonary Hypertension-
+   -Likely porto-pulmonary HTN
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+ .H/O ALKALOSIS, RESPIRATORY
+ HEPATIC ENCEPHALOPATHY
+ HYPONATREMIA (LOW SODIUM, HYPOSMOLALITY)
+ .H/O CIRRHOSIS OF LIVER, ALCOHOLIC
+ PULMONARY HYPERTENSION (PULM HTN, PHTN)
+ KNOWLEDGE DEFICIT
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-5**] 04:29 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition :Transfer to floor
+   Total time spent: 35 minutes
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: Respiratory Failure
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   24 Hour Events:
+   -Patient with large BM and CT scan without evidence of obstruction
+   History obtained from [**Hospital 15**] Medical records
+   Allergies:
+   Amoxicillin
+   Rash;
+   Adhesive Bandage (Topical)
+   Rash;
+   Last dose of Antibiotics:
+   Ciprofloxacin - [**2147-11-5**] 11:30 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2147-11-6**] 12:01 AM
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: Fatigue
+   Flowsheet Data as of  [**2147-11-6**] 08:46 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37
+C (98.6
+   Tcurrent: 37
+C (98.6
+   HR: 96 (85 - 113) bpm
+   BP: 103/53(65) {88/37(50) - 136/72(84)} mmHg
+   RR: 9 (9 - 19) insp/min
+   SpO2: 96%
+   Heart rhythm: SR (Sinus Rhythm)
+   Wgt (current): 78.6 kg (admission): 78.6 kg
+                  Total In:
+                                                                  2,590 mL
+                                                                    240 mL
+   PO:
+                                                                  1,990 mL
+                                                                    240 mL
+   TF:
+   IVF:
+                                                                    600 mL
+   Blood products:
+   Total out:
+                                                                  3,670 mL
+                                                                    240 mL
+   Urine:
+                                                                  1,070 mL
+                                                                    240 mL
+   NG:
+   Stool:
+                                                                  2,600 mL
+   Drains:
+   Balance:
+                                                                 -1,080 mL
+                                                                      0 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ///20/
+   Physical Examination
+   Cardiovascular: (S1: Normal), (S2: Distant)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds:
+   Diminished: )
+   Abdominal: Soft, Distended
+   Extremities: Right: 2+, Left: 2+
+   Skin:  Not assessed
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   9.4 g/dL
+   123 K/uL
+   105 mg/dL
+   0.8 mg/dL
+   20 mEq/L
+   4.1 mEq/L
+   22 mg/dL
+   98 mEq/L
+   122 mEq/L
+   27.9 %
+   10.6 K/uL
+        [image002.jpg]
+                            [**2147-11-4**]  09:34 AM
+                            [**2147-11-4**]  12:56 PM
+                            [**2147-11-4**]  09:18 PM
+                            [**2147-11-5**]  03:19 AM
+                            [**2147-11-5**]  07:44 PM
+                            [**2147-11-6**]  04:42 AM
+   WBC
+   10.9
+   10.6
+   Hct
+   28.8
+   27.9
+   Plt
+   131
+   123
+   Cr
+   1.1
+   1.0
+   1.1
+   0.8
+   0.8
+   TCO2
+   20
+   Glucose
+   98
+   107
+   114
+   143
+   105
+   Other labs: PT / PTT / INR:22.2/77.7/2.1, ALT / AST:86/150, Alk Phos /
+   T Bili:142/7.2, Albumin:2.8 g/dL, LDH:310 IU/L, Ca++:8.2 mg/dL,
+   Mg++:2.1 mg/dL, PO4:2.2 mg/dL
+   Assessment and Plan
+   41 yo male with known history of cirrhosis and now s/p extubation and
+   with rapid move to extubation and now with improving mental status in
+   the setting of lactulose therapy and return to active bowel movements.
+   Encephalopathy-
+   -Lactulose continuing
+   -Monitor bowel movement frequency
+   -No evidence of new or evolving infection
+   Ascites-
+   -Cipro to continue for prophylaxis
+   -Tap of fluid for any recurrent fevers seen
+   Respiratory Failure-
+   -Monitor O/N with limited PSG upon the floor
+   -In the setting of pulmonary HTN hypoxemia may be worsened and there is
+   not clear diagnosis or exclusion of hepato-pulmonary syndrome
+   -REM sleep may be an area of vulnerability and full night sleep study
+   would be of interest
+   -BIPAP if worsening seen
+   Pulmonary Hypertension-
+   -Likely porto-pulmonary HTN
+ ABDOMINAL PAIN (INCLUDING ABDOMINAL TENDERNESS)
+ .H/O ALKALOSIS, RESPIRATORY
+ HEPATIC ENCEPHALOPATHY
+ HYPONATREMIA (LOW SODIUM, HYPOSMOLALITY)
+ .H/O CIRRHOSIS OF LIVER, ALCOHOLIC
+ PULMONARY HYPERTENSION (PULM HTN, PHTN)
+ KNOWLEDGE DEFICIT
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   20 Gauge - [**2147-11-5**] 04:29 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: PPI
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition :Transfer to floor
+   Total time spent: 35 minutes<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 41-year-old male with a history of cirrhosis who was admitted to the ICU with respiratory failure. He had a large bowel movement and a CT scan without evidence of obstruction. The patient received lactulose therapy and had a return to active bowel movements, improving his mental status. He is currently on prophylactic antibiotics and has no evidence of new or evolving infection. The patient is being monitored for ascites, respiratory failure, and pulmonary hypertension.
+
+Potential Medical Complications:
+
+1. Respiratory Failure: The patient's respiratory failure may worsen due to the lack of clear diagnosis or exclusion of hepato-pulmonary syndrome. REM sleep may be an area of vulnerability, and a full-night sleep study would be of interest.
+2. Pulmonary Hypertension: The patient's pulmonary hypertension may be worsened due to the lack of clear diagnosis or exclusion of porto-pulmonary hypertension.
+3. Hepatic Encephalopathy: The patient's hepatic encephalopathy may worsen due to the lack of clear diagnosis or exclusion of other causes.
+4. Ascites: The patient's ascites may worsen due to the lack of clear diagnosis or exclusion of other causes.
+5. Hypoxemia: The patient's hypoxemia may worsen due to the lack of clear diagnosis or exclusion of other causes.
+6. DVT: The patient is at risk for DVT due to immobility and the presence of central lines.
+7. Stress Ulcer: The patient is at risk for stress ulcer due to the presence of central lines and the use of prophylactic antibiotics.
+8. VAP: The patient is at risk for VAP due to the presence of central lines and the use of prophylactic antibiotics.
+9. Infection: The patient is at risk for infection due to the presence of central lines and the use of prophylactic antibiotics.
+10. Knowledge Deficit: The patient has a knowledge deficit due to his cirrhosis and may require additional education and support to manage his condition effectively."

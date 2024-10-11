@@ -1,0 +1,3705 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+187958.0,220810,2178-05-27 06:43:00,Physician ,Physician Resident Progress Note,"Chief Complaint: 77 year old man with hx of hypertension, DM2, prostate
+   cancer s/p XRT, and GI bleed presents following right total hip
+   arthroplasty complicated by post-operative bleeding
+   24 Hour Events:
+   - Remained hemodynamically stable
+   - Hct trended: 34.5 -> 26.4 -> 21.4
+   - Patient currently being transfused 2 units
+   - Ortho attending this am: requesting CVL for CVP monitoring
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 02:00 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-27**] 06:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.2
+   Tcurrent: 37.1
+C (98.7
+   HR: 73 (73 - 106) bpm
+   BP: 110/42(60) {94/41(56) - 134/57(74)} mmHg
+   RR: 14 (10 - 17) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                    525 mL
+                                                                  1,518 mL
+   PO:
+           TF:
+   IVF:
+                                                                    525 mL
+                                                                  1,288 mL
+   Blood products:
+   230 mL
+   Total out:
+                                                                    105 mL
+                                                                     85 mL
+   Urine:
+                                                                     55 mL
+                                                                     85 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     50 mL
+   Balance:
+                                                                    420 mL
+                                                                  1,433 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 100%
+   ABG: ///24/
+   Physical Examination
+   Gen: NAD
+   CV: RRR, no m/r/g
+   Pulm: CTAB anteriorly
+   Abd: Soft, NTND, obese
+   Ext: L thigh with tense skin, much larger than right, wound dressed and
+   intact, peripheral pulses full and symmetric bilat
+   Labs / Radiology
+   222
+   1.0
+   24
+   4.6
+   19
+   105
+   138
+   21.4 %
+        [image002.jpg] Ca 7.7 Mag 1.4 Phos 3.7
+   AM Labs pending
+                             [**2178-5-27**]  03:30 AM
+   Hct
+   21.4
+   Microbiology: No new
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+    # Acute blood loss anemia: likely secondary to surgical bleeding. No
+   stool output yet to suggest GI source. Hct with acute drop overnight
+   from 34.5 to 26.4 to 21.4.  Pt currently receiving 2 units PRBCs.
+   Orthopedics aware this morning.
+   - Post-tx Hct and cycle q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - CVL today for more definitive access as patient with only one working
+   PIV at this time (also very hard peripheral stick).  Will also aid with
+   overall volume monitoring
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - Touch base with orthopedics later this morning to confirm they do not
+   want further imaging/? If they would like to assess pressure in right
+   thigh with probe
+   - Awaiting am labs until CVL placed as unable to draw blood
+   peripherally
+   - IVF/blood prn volume; patient appears dry on exam
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, additional morphine being careful to avoid
+   sedation/somnolence
+   - Ortho recs
+   - PA/lat hip films final read
+   - Continue peri-op prophylactic antibiotics.
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT consult requested for POD 2 or 3 once acute issues resolved
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated
+   ICU Care
+   Nutrition: PO as tolerated
+   Glycemic Control:  ISS, holding oral meds
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: H2 blocker (famotidine)
+   VAP:  NA
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: 77 year old man with hx of hypertension, DM2, prostate
+   cancer s/p XRT, and GI bleed presents following right total hip
+   arthroplasty complicated by post-operative bleeding
+   24 Hour Events:
+   - Remained hemodynamically stable
+   - Hct trended: 34.5 -> 26.4 -> 21.4
+   - Patient currently being transfused 2 units
+   - Ortho attending this am: requesting CVL for CVP monitoring
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 02:00 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-27**] 06:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.2
+   Tcurrent: 37.1
+C (98.7
+   HR: 73 (73 - 106) bpm
+   BP: 110/42(60) {94/41(56) - 134/57(74)} mmHg
+   RR: 14 (10 - 17) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                    525 mL
+                                                                  1,518 mL
+   PO:
+           TF:
+   IVF:
+                                                                    525 mL
+                                                                  1,288 mL
+   Blood products:
+   230 mL
+   Total out:
+                                                                    105 mL
+                                                                     85 mL
+   Urine:
+                                                                     55 mL
+                                                                     85 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     50 mL
+   Balance:
+                                                                    420 mL
+                                                                  1,433 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 100%
+   ABG: ///24/
+   Physical Examination
+   Gen: NAD
+   CV: RRR, no m/r/g
+   Pulm: CTAB anteriorly
+   Abd: Soft, NTND, obese
+   Ext: L thigh with tense skin, much larger than right, wound dressed and
+   intact, peripheral pulses full and symmetric bilat
+   Labs / Radiology
+   222
+   1.0
+   24
+   4.6
+   19
+   105
+   138
+   21.4 %
+        [image002.jpg] Ca 7.7 Mag 1.4 Phos 3.7
+   AM Labs pending
+                             [**2178-5-27**]  03:30 AM
+   Hct
+   21.4
+   Microbiology: No new
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+    # Acute blood loss anemia: likely secondary to surgical bleeding. No
+   stool output yet to suggest GI source. Hct with acute drop overnight
+   from 34.5 to 26.4 to 21.4.  Pt currently receiving 2 units PRBCs.
+   Orthopedics aware this morning.
+   - Post-tx Hct and cycle q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - CVL today for more definitive access as patient with only one working
+   PIV at this time (also very hard peripheral stick).  Will also aid with
+   overall volume monitoring
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - Touch base with orthopedics later this morning to confirm they do not
+   want further imaging/? If they would like to assess pressure in right
+   thigh with probe
+   - Awaiting am labs until CVL placed as unable to draw blood
+   peripherally
+   - IVF/blood prn volume; patient appears dry on exam
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, additional morphine being careful to avoid
+   sedation/somnolence
+   - Ortho recs
+   - PA/lat hip films final read
+   - Continue peri-op prophylactic antibiotics.
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT consult requested for POD 2 or 3 once acute issues resolved
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated
+   ICU Care
+   Nutrition: PO as tolerated
+   Glycemic Control:  ISS, holding oral meds
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: H2 blocker (famotidine)
+   VAP:  NA
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old man with a history of hypertension, diabetes mellitus type 2, prostate cancer, and gastrointestinal bleed, who underwent right total hip arthroplasty complicated by post-operative bleeding. He is currently in the ICU and is receiving 2 units of packed red blood cells (PRBCs) due to acute blood loss anemia. His hemoglobin concentration has decreased from 34.5 to 26.4 to 21.4 over the past 24 hours. He is also receiving intravenous fluids and is being monitored for signs of compartment syndrome.
+
+Potential Medical Complications:
+
+1. Continued bleeding: The patient's hemoglobin concentration is decreasing rapidly, which may indicate ongoing bleeding. Further transfusions may be necessary to stabilize his hemoglobin level.
+2. Anemia: The patient's anemia may worsen if he continues to lose blood or if his body is unable to produce enough red blood cells.
+3. Hypovolemic shock: If the patient's blood loss is severe, he may develop hypovolemic shock, which can lead to organ failure and death.
+4. Compartment syndrome: The patient's leg is at risk for compartment syndrome due to swelling and bleeding. If left untreated, this can lead to nerve and muscle damage.
+5. Infection: The patient is at risk for infection due to the surgical procedure and the presence of foreign objects in his body.
+6. Respiratory failure: The patient's respiratory status is stable at present, but he may be at risk for respiratory failure if his oxygenation or ventilation is compromised.
+7. Cardiac complications: The patient's cardiac status is stable at present, but he may be at risk for cardiac complications if his blood pressure or heart rate becomes unstable.
+8. Neurological complications: The patient may be at risk for neurological complications, such as stroke or seizures, if his blood pressure or oxygenation becomes compromised."
+187958.0,220810,2178-05-27 06:43:00,Physician ,Physician Resident Progress Note,"Chief Complaint: s
+   24 Hour Events:
+   - Remained hemodynamically stable
+   - Hct trended: 34.5 -> 26.4 -> 21.4
+   - Patient currently being transfused 2 units
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 02:00 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-27**] 06:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.2
+   Tcurrent: 37.1
+C (98.7
+   HR: 73 (73 - 106) bpm
+   BP: 110/42(60) {94/41(56) - 134/57(74)} mmHg
+   RR: 14 (10 - 17) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                    525 mL
+                                                                  1,518 mL
+   PO:
+           TF:
+   IVF:
+                                                                    525 mL
+                                                                  1,288 mL
+   Blood products:
+   230 mL
+   Total out:
+                                                                    105 mL
+                                                                     85 mL
+   Urine:
+                                                                     55 mL
+                                                                     85 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     50 mL
+   Balance:
+                                                                    420 mL
+                                                                  1,433 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 100%
+   ABG: ///24/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   21.4 %
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+   Hct
+   21.4
+   Microbiology: No new
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+    # Acute blood loss anemia: likely secondary to surgical bleeding. no
+   stool output yet to suggest GI source. Hct with acute drop overnight
+   from 34.5 to 26.4 to 21.4.  Pt currently receiving 2 units PRBCs.
+   Orthopedics aware.
+   - Post-tx Hct and cycle q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   # Osteoarthritis s/p THA: now POD#O from surgery.
+   pain control with tylenol, additional morphine
+   - ortho recs
+   - PA/lat hip films
+   - peri-op prophylactic antibiotics.
+   - hold LMWH for now
+   - monitor peripheral pulses
+   - PT consult requested for POD 2 or 3
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: H2 blocker (famotidine)
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: s
+   24 Hour Events:
+   - Remained hemodynamically stable
+   - Hct trended: 34.5 -> 26.4 -> 21.4
+   - Patient currently being transfused 2 units
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 02:00 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-27**] 06:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.2
+   Tcurrent: 37.1
+C (98.7
+   HR: 73 (73 - 106) bpm
+   BP: 110/42(60) {94/41(56) - 134/57(74)} mmHg
+   RR: 14 (10 - 17) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                    525 mL
+                                                                  1,518 mL
+   PO:
+           TF:
+   IVF:
+                                                                    525 mL
+                                                                  1,288 mL
+   Blood products:
+   230 mL
+   Total out:
+                                                                    105 mL
+                                                                     85 mL
+   Urine:
+                                                                     55 mL
+                                                                     85 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     50 mL
+   Balance:
+                                                                    420 mL
+                                                                  1,433 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 100%
+   ABG: ///24/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   21.4 %
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+   Hct
+   21.4
+   Microbiology: No new
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+    # Acute blood loss anemia: likely secondary to surgical bleeding. no
+   stool output yet to suggest GI source. Hct with acute drop overnight
+   from 34.5 to 26.4 to 21.4.  Pt currently receiving 2 units PRBCs.
+   Orthopedics aware.
+   - Post-tx Hct and cycle q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   # Osteoarthritis s/p THA: now POD#O from surgery.
+   pain control with tylenol, additional morphine
+   - ortho recs
+   - PA/lat hip films
+   - peri-op prophylactic antibiotics.
+   - hold LMWH for now
+   - monitor peripheral pulses
+   - PT consult requested for POD 2 or 3
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: H2 blocker (famotidine)
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 77-year-old man with a history of DM2, HTN, and osteoarthritis who underwent right THA complicated by post-op bleeding. The patient's hemodynamic status has remained stable, but his Hct has trended downward from 34.5 to 26.4 to 21.4, indicating acute blood loss anemia. He is currently receiving 2 units of packed red blood cells (PRBCs).
+
+The patient's vital signs are within normal limits, with a Tmax of 37.9°C (100.2°F), Tcurrent of 37.1°C (98.7°F), HR of 73 bpm, BP of 110/42 mmHg, RR of 14 inspirations per minute, and SpO2 of 100%.
+
+The patient is receiving various medications, including antibiotics, pain control medications, and prophylactic antibiotics. He is also receiving fluids and blood products to address his anemia.
+
+Potential medical complications that may arise include:
+
+1. Further bleeding: Given the patient's history of post-op bleeding, there is a risk of further bleeding, which could worsen his anemia and hemodynamic instability.
+2. Infection: The patient is at risk of developing infection, particularly in the surgical site, given his compromised immune status and the presence of a foreign body (the hip replacement).
+3. Thromboembolic events: The patient is at risk of developing DVT or pulmonary embolism due to his immobility and the presence of a central line.
+4. Hypovolemic shock: If the patient's bleeding is not adequately managed, he may develop hypovolemic shock, which could lead to organ dysfunction and failure.
+5. Respiratory complications: The patient's anemia may lead to respiratory compromise, and his use of a face tent for oxygen delivery may increase his risk of respiratory complications.
+6. Gastrointestinal complications: The patient's anemia may also lead to gastrointestinal complications, such as nausea, vomiting, and bleeding.
+
+The patient's plan of care includes continued transfusion of PRBCs, guaiac testing of stools, and monitoring of his peripheral pulses. The orthopedic team is aware of the patient's condition, and the patient is scheduled for further imaging and treatment. The patient's diabetes and hypertension are being managed with adjustments to his medication regimen."
+187958.0,220810,2178-05-27 06:43:00,Physician ,Physician Resident Progress Note,"Chief Complaint: 77 year old man with hx of hypertension, DM2, prostate
+   cancer s/p XRT, and GI bleed presents following right total hip
+   arthroplasty complicated by post-operative bleeding
+   24 Hour Events:
+   - Remained hemodynamically stable
+   - Hct trended: 34.5 -> 26.4 -> 21.4
+   - Patient currently being transfused 2 units
+   - Ortho attending this am: requesting CVL for CVP monitoring
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 02:00 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-27**] 06:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.2
+   Tcurrent: 37.1
+C (98.7
+   HR: 73 (73 - 106) bpm
+   BP: 110/42(60) {94/41(56) - 134/57(74)} mmHg
+   RR: 14 (10 - 17) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                    525 mL
+                                                                  1,518 mL
+   PO:
+           TF:
+   IVF:
+                                                                    525 mL
+                                                                  1,288 mL
+   Blood products:
+   230 mL
+   Total out:
+                                                                    105 mL
+                                                                     85 mL
+   Urine:
+                                                                     55 mL
+                                                                     85 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     50 mL
+   Balance:
+                                                                    420 mL
+                                                                  1,433 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 100%
+   ABG: ///24/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   222
+   1.0
+   24
+   4.6
+   19
+   105
+   138
+   21.4 %
+        [image002.jpg] Ca 7.7 Mag 1.4 Phos 3.7
+   AM Labs pending
+                             [**2178-5-27**]  03:30 AM
+   Hct
+   21.4
+   Microbiology: No new
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+    # Acute blood loss anemia: likely secondary to surgical bleeding. no
+   stool output yet to suggest GI source. Hct with acute drop overnight
+   from 34.5 to 26.4 to 21.4.  Pt currently receiving 2 units PRBCs.
+   Orthopedics aware.
+   - Post-tx Hct and cycle q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   # Osteoarthritis s/p THA: now POD#O from surgery.
+   pain control with tylenol, additional morphine
+   - ortho recs
+   - PA/lat hip films
+   - peri-op prophylactic antibiotics.
+   - hold LMWH for now
+   - monitor peripheral pulses
+   - PT consult requested for POD 2 or 3
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: H2 blocker (famotidine)
+   VAP:  NA
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: 77 year old man with hx of hypertension, DM2, prostate
+   cancer s/p XRT, and GI bleed presents following right total hip
+   arthroplasty complicated by post-operative bleeding
+   24 Hour Events:
+   - Remained hemodynamically stable
+   - Hct trended: 34.5 -> 26.4 -> 21.4
+   - Patient currently being transfused 2 units
+   - Ortho attending this am: requesting CVL for CVP monitoring
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 02:00 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-27**] 06:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.2
+   Tcurrent: 37.1
+C (98.7
+   HR: 73 (73 - 106) bpm
+   BP: 110/42(60) {94/41(56) - 134/57(74)} mmHg
+   RR: 14 (10 - 17) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+           Total In:
+                                                                    525 mL
+                                                                  1,518 mL
+   PO:
+           TF:
+   IVF:
+                                                                    525 mL
+                                                                  1,288 mL
+   Blood products:
+   230 mL
+   Total out:
+                                                                    105 mL
+                                                                     85 mL
+   Urine:
+                                                                     55 mL
+                                                                     85 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     50 mL
+   Balance:
+                                                                    420 mL
+                                                                  1,433 mL
+   Respiratory support
+   O2 Delivery Device: Face tent
+   SpO2: 100%
+   ABG: ///24/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   222
+   1.0
+   24
+   4.6
+   19
+   105
+   138
+   21.4 %
+        [image002.jpg] Ca 7.7 Mag 1.4 Phos 3.7
+   AM Labs pending
+                             [**2178-5-27**]  03:30 AM
+   Hct
+   21.4
+   Microbiology: No new
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+    # Acute blood loss anemia: likely secondary to surgical bleeding. no
+   stool output yet to suggest GI source. Hct with acute drop overnight
+   from 34.5 to 26.4 to 21.4.  Pt currently receiving 2 units PRBCs.
+   Orthopedics aware.
+   - Post-tx Hct and cycle q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   # Osteoarthritis s/p THA: now POD#O from surgery.
+   pain control with tylenol, additional morphine
+   - ortho recs
+   - PA/lat hip films
+   - peri-op prophylactic antibiotics.
+   - hold LMWH for now
+   - monitor peripheral pulses
+   - PT consult requested for POD 2 or 3
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: H2 blocker (famotidine)
+   VAP:  NA
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old man with a history of hypertension, diabetes mellitus type 2, prostate cancer, and gastrointestinal bleed who underwent a right total hip arthroplasty complicated by post-operative bleeding. He is currently in the intensive care unit (ICU) and is being transfused with 2 units of packed red blood cells (PRBCs) due to acute blood loss anemia. His hemoglobin (Hct) level has dropped significantly from 34.5 to 21.4% overnight. The patient is hemodynamically stable, but his blood pressure is slightly elevated. He is receiving pain control with Tylenol and morphine, and his diabetes is being managed with insulin sliding scale (ISS). His hypertension is being held until his Hct level is stable.
+
+Potential Medical Complications:
+
+1. Continued bleeding: The patient's Hct level is still dropping, and he is receiving transfusions. It is essential to monitor his bleeding closely and consider further interventions if necessary.
+2. Anemia: The patient's anemia is likely to worsen if he continues to bleed, and he may require further transfusions.
+3. Hypotension: The patient's blood pressure is slightly elevated, but he may be at risk of hypotension if his bleeding is not controlled.
+4. Infection: The patient is at risk of infection due to his surgical site and the use of prophylactic antibiotics.
+5. Deep Vein Thrombosis (DVT): The patient is at risk of DVT due to his immobility and the use of prophylactic anticoagulation.
+6. Stress ulcer: The patient is at risk of stress ulcer due to his critical illness and the use of prophylactic antacids.
+7. Ventilator-associated pneumonia (VAP): The patient is at risk of VAP due to his mechanical ventilation and the use of prophylactic antibiotics.
+8. Wound complications: The patient is at risk of wound complications due to his surgical site and the use of prophylactic antibiotics.
+9. Respiratory failure: The patient is at risk of respiratory failure due to his mechanical ventilation and the use of oxygen therapy.
+10. Cardiovascular complications: The patient is at risk of cardiovascular complications due to his hypertension and the use of prophylactic anticoagulation."
+187958.0,220810,2178-05-27 09:03:00,Physician ,Physician Attending Progress Note,"Chief Complaint: Postop bleeding
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   77 yo man s/p total hip arthroplasty. H/O GIB. EBL intraop 1.5L in OR
+   got 3L LR, 2U PRBC. No known CAD. Normotensive in OR. Hct 34.5--> 24 in
+   PACU (though different techniques).
+   24 Hour Events:
+   Hemodynamically stable- no episodes of hypotension.
+   Hct 34.5--> 26.4--> 21.4.
+   Hemovac removed, site oozing.
+   RN noted apneic episodes while sleeping.
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 02:00 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No(t) Fatigue, No(t) Fever
+   Cardiovascular: No(t) Chest pain
+   Respiratory: No(t) Dyspnea
+   Neurologic: No(t) Numbness / tingling
+   Pain: [**6-16**] Moderate
+   Flowsheet Data as of  [**2178-5-27**] 09:02 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.2
+   Tcurrent: 36.8
+C (98.2
+   HR: 70 (70 - 106) bpm
+   BP: 113/53(67) {94/41(56) - 134/57(74)} mmHg
+   RR: 13 (10 - 17) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+          Total In:
+                                                                    525 mL
+                                                                  1,663 mL
+   PO:
+          TF:
+   IVF:
+                                                                    525 mL
+                                                                  1,288 mL
+   Blood products:
+   375 mL
+   Total out:
+                                                                    105 mL
+                                                                    180 mL
+   Urine:
+                                                                     55 mL
+                                                                    150 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     50 mL
+                                                                     30 mL
+   Balance:
+                                                                    420 mL
+                                                                  1,483 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///24/
+   Physical Examination
+   General Appearance: No acute distress, Overweight / Obese
+   Eyes / Conjunctiva: PERRL, Conjunctiva pale
+   Head, Ears, Nose, Throat: Normocephalic, dry mucosa
+   Cardiovascular: (S1: Normal), (S2: Distant), distant HS
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Tight and enlarged right thigh
+   Musculoskeletal: No(t) Muscle wasting
+   Skin:  Warm
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, Oriented (to): all, Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   21.4 %
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+   Hct
+   21.4
+   Assessment and Plan
+   BLOOD LOSS
+   20% Hct drop postop. Hemodynamically stable but poor urine output.
+   H/O GI bleed.
+   No known significant cardiac history.
+   Has received total of 4U PRBC and 4.6L crystalloid.
+   Pending repeat hct to check response to transfusion. Needs more fluid
+   resuscitation.
+   Will place CVC.
+   Obviously holding antihypertensive meds.
+   Guaiac all stools.
+   RISK OF COMPARTMENT SYNDROME
+   Discuss with ortho. Exam difficult to guage.
+   POSTOP PAIN MANAGEMENT
+   PO diet.
+   H2 blocker.
+   Pneumoboots.
+   FULL CODE.
+   ICU Care
+   Nutrition:
+   Comments: PO diet
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Prophylaxis:
+   DVT: Boots(Systemic anticoagulation: None)
+   Stress ulcer: H2 blocker
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition : ICU
+   Total time spent: 40
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: Postop bleeding
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   77 yo man s/p total hip arthroplasty. H/O GIB. EBL intraop 1.5L in OR
+   got 3L LR, 2U PRBC. No known CAD. Normotensive in OR. Hct 34.5--> 24 in
+   PACU (though different techniques).
+   24 Hour Events:
+   Hemodynamically stable- no episodes of hypotension.
+   Hct 34.5--> 26.4--> 21.4.
+   Hemovac removed, site oozing.
+   RN noted apneic episodes while sleeping.
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 02:00 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Constitutional: No(t) Fatigue, No(t) Fever
+   Cardiovascular: No(t) Chest pain
+   Respiratory: No(t) Dyspnea
+   Neurologic: No(t) Numbness / tingling
+   Pain: [**6-16**] Moderate
+   Flowsheet Data as of  [**2178-5-27**] 09:02 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.2
+   Tcurrent: 36.8
+C (98.2
+   HR: 70 (70 - 106) bpm
+   BP: 113/53(67) {94/41(56) - 134/57(74)} mmHg
+   RR: 13 (10 - 17) insp/min
+   SpO2: 100%
+   Heart rhythm: SR (Sinus Rhythm)
+          Total In:
+                                                                    525 mL
+                                                                  1,663 mL
+   PO:
+          TF:
+   IVF:
+                                                                    525 mL
+                                                                  1,288 mL
+   Blood products:
+   375 mL
+   Total out:
+                                                                    105 mL
+                                                                    180 mL
+   Urine:
+                                                                     55 mL
+                                                                    150 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     50 mL
+                                                                     30 mL
+   Balance:
+                                                                    420 mL
+                                                                  1,483 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///24/
+   Physical Examination
+   General Appearance: No acute distress, Overweight / Obese
+   Eyes / Conjunctiva: PERRL, Conjunctiva pale
+   Head, Ears, Nose, Throat: Normocephalic, dry mucosa
+   Cardiovascular: (S1: Normal), (S2: Distant), distant HS
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear : )
+   Abdominal: Soft, Non-tender, Bowel sounds present
+   Extremities: Right: Tight and enlarged right thigh
+   Musculoskeletal: No(t) Muscle wasting
+   Skin:  Warm
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, Oriented (to): all, Movement: Not assessed, Tone: Not assessed
+   Labs / Radiology
+   21.4 %
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+   Hct
+   21.4
+   Assessment and Plan
+   BLOOD LOSS
+   20% Hct drop postop. Hemodynamically stable but poor urine output.
+   H/O GI bleed.
+   No known significant cardiac history.
+   Has received total of 4U PRBC and 4.6L crystalloid.
+   Pending repeat hct to check response to transfusion. Needs more fluid
+   resuscitation.
+   Will place CVC.
+   Obviously holding antihypertensive meds.
+   Guaiac all stools.
+   RISK OF COMPARTMENT SYNDROME
+   Discuss with ortho. Exam difficult to guage.
+   POSTOP PAIN MANAGEMENT
+   PO diet.
+   H2 blocker.
+   Pneumoboots.
+   FULL CODE.
+   ICU Care
+   Nutrition:
+   Comments: PO diet
+   Glycemic Control:  Regular insulin sliding scale
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Prophylaxis:
+   DVT: Boots(Systemic anticoagulation: None)
+   Stress ulcer: H2 blocker
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition : ICU
+   Total time spent: 40<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old male who underwent total hip arthroplasty and experienced significant bleeding intraoperatively, requiring 3L of lactated Ringer's solution and 2U of packed red blood cells. He has a history of gastrointestinal bleeding and no known cardiac disease. Since admission, his hemoglobin level has dropped from 34.5 to 21.4, with a corresponding decrease in hematocrit. He has received a total of 4U of packed red blood cells and 4.6L of crystalloid. Despite being hemodynamically stable, he has poor urine output and is at risk for compartment syndrome. He is currently receiving oxygen via nasal cannula and has a nasogastric tube in place.
+
+Potential Medical Complications:
+
+1. Hypovolemic shock: The patient's significant blood loss and decreased urine output increase the risk of hypovolemic shock.
+2. Compartment syndrome: The patient's poor urine output and history of gastrointestinal bleeding make him at risk for compartment syndrome, particularly in the lower extremities.
+3. Respiratory complications: The patient's respiratory status is stable, but his history of gastrointestinal bleeding increases the risk of respiratory complications, such as pneumonia.
+4. Infection: The patient's history of gastrointestinal bleeding increases the risk of infection, particularly in the surgical site.
+5. Thrombosis: The patient's history of gastrointestinal bleeding increases the risk of thrombosis, particularly in the lower extremities.
+6. Pain management: The patient's postoperative pain management is a concern, as he is currently receiving a combination of medications, including opioids and nonsteroidal anti-inflammatory drugs.
+7. Gastrointestinal bleeding: The patient's history of gastrointestinal bleeding increases the risk of recurrent bleeding, particularly in the postoperative period.
+8. Cardiovascular complications: The patient's history of gastrointestinal bleeding increases the risk of cardiovascular complications, such as hypertension and cardiac arrhythmias."
+187958.0,220810,2178-05-28 07:30:00,Physician ,Physician Resident Progress Note,"Chief Complaint: 77 year old man with hx of hypertension, DM2, prostate
+   cancer s/p XRT, and GI bleed presents following right total hip
+   arthroplasty complicated by post-operative bleeding
+   24 Hour Events:
+ MULTI LUMEN - START [**2178-5-27**] 11:35 AM
+   tripple lumen central line placed successfully with normal f/u Xray
+   - Pain worsened after PT; got one dose of dilaudid 1 mg with good
+   effect, then did not require any more pain meds till midnight.  pulses
+   good.  thigh diameter mainatined at 23.75 inches
+   - Received 4 units of pRBC in 24 hr perior with only 1.5 pt increase in
+   HCT.  Ortho aware that there was no significant increase after 2 units,
+   but said it's expected after such a bloody case. will need to
+   re-address in AM
+   - Had CVL placed
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 08:04 PM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-28**] 07:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.1
+C (100.6
+   Tcurrent: 37
+C (98.6
+   HR: 82 (66 - 118) bpm
+   BP: 141/55(71) {109/43(41) - 156/69(83)} mmHg
+   RR: 12 (8 - 21) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 5 (0 - 11)mmHg
+   Total In:
+                                                                  4,421 mL
+                                                                    268 mL
+   PO:
+                                                                    480 mL
+                                                                    100 mL
+   TF:
+   IVF:
+                                                                  2,463 mL
+                                                                    168 mL
+   Blood products:
+                                                                  1,478 mL
+   Total out:
+                                                                  1,460 mL
+                                                                  1,630 mL
+   Urine:
+                                                                  1,430 mL
+                                                                  1,630 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     30 mL
+   Balance:
+                                                                  2,961 mL
+                                                                 -1,362 mL
+   Respiratory support
+   O2 Delivery Device: Aerosol-cool
+   SpO2: 99%
+   ABG: ///31/
+   Physical Examination
+   Gen:
+   CV:
+   PULM:
+   ABD:
+   EXT:
+   Labs / Radiology
+   97 K/uL
+   8.7 g/dL
+   123 mg/dL
+   0.8 mg/dL
+   31 mEq/L
+   4.1 mEq/L
+   13 mg/dL
+   104 mEq/L
+   139 mEq/L
+   24.0 %
+   9.7 K/uL
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+                             [**2178-5-27**]  11:33 AM
+                             [**2178-5-27**]  07:22 PM
+                             [**2178-5-28**]  01:38 AM
+                             [**2178-5-28**]  03:57 AM
+   WBC
+   9.7
+   Hct
+   21.4
+   22.8
+   24.6
+   24.2
+   24.0
+   Plt
+   97
+   Cr
+   0.8
+   Glucose
+   123
+   Other labs: PT / PTT / INR:12.3/29.8/1.0, Ca++:7.9 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Imaging: IMPRESSION: AP chest compared to [**5-26**]:
+   New right internal jugular central venous line ends at the superior
+   cavoatrial junction. Mild widening of the mediastinum to the right of
+   the midline is probably venous engorgement since there is no
+   contralateral displacement of
+   the trachea to suggest a hematoma. Heart size is mildly enlarged and
+   unchanged. Mild interstitial edema which was present on [**5-26**] has
+   resolved and there is no appreciable pleural effusion. Thoracic aorta
+   is generally large and tortuous but not focally dilated.
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+    # Acute blood loss anemia: Secondary to surgical bleeding. No stool
+   output yet to suggest GI source. Hct trend over 24 hours is
+   21.4->22.8->24.6->24.2->24 this morning. Patient has rec
+d a total of 6
+   units prbcs over 24 hours and is currently receiving 2 more units
+   PRBCs.  Orthopedics aware this morning.
+   - Post-tx Hct and cycle q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - Continue to monitor thigh diameter
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - Awaiting post-tx Hct to determine if futher imaging such as CT should
+   be done to rule out other areas of bleed (such as RP)
+   - IVF/blood prn volume; patient appears dry on exam
+   - As it is still not entirely clear if patient is bleeding anywhere
+   other than his thigh, will check bladder pressure to monitor abdominal
+   pressures as a measure to follow along with thigh diameter (which has
+   been stable).
+   # Thrombocytopenia: Likely in the setting of 6 units prbcs without
+   platelets.
+   - Will continue to monitor pm CBC, if platelets lower, will consider
+   platelet tx at that time
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, oxycodone and dilaudid being careful to
+   avoid sedation/somnolence
+   - Ortho recs
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT consult requested for POD 2 or 3 once acute issues resolved
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated
+   ICU Care
+   Nutrition: PO
+   Glycemic Control: ISS
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Multi Lumen - [**2178-5-27**] 11:35 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: Famotidine
+   VAP:  NA
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: 77 year old man with hx of hypertension, DM2, prostate
+   cancer s/p XRT, and GI bleed presents following right total hip
+   arthroplasty complicated by post-operative bleeding
+   24 Hour Events:
+ MULTI LUMEN - START [**2178-5-27**] 11:35 AM
+   tripple lumen central line placed successfully with normal f/u Xray
+   - Pain worsened after PT; got one dose of dilaudid 1 mg with good
+   effect, then did not require any more pain meds till midnight.  pulses
+   good.  thigh diameter mainatined at 23.75 inches
+   - Received 4 units of pRBC in 24 hr perior with only 1.5 pt increase in
+   HCT.  Ortho aware that there was no significant increase after 2 units,
+   but said it's expected after such a bloody case. will need to
+   re-address in AM
+   - Had CVL placed
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 08:04 PM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-28**] 07:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.1
+C (100.6
+   Tcurrent: 37
+C (98.6
+   HR: 82 (66 - 118) bpm
+   BP: 141/55(71) {109/43(41) - 156/69(83)} mmHg
+   RR: 12 (8 - 21) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 5 (0 - 11)mmHg
+   Total In:
+                                                                  4,421 mL
+                                                                    268 mL
+   PO:
+                                                                    480 mL
+                                                                    100 mL
+   TF:
+   IVF:
+                                                                  2,463 mL
+                                                                    168 mL
+   Blood products:
+                                                                  1,478 mL
+   Total out:
+                                                                  1,460 mL
+                                                                  1,630 mL
+   Urine:
+                                                                  1,430 mL
+                                                                  1,630 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     30 mL
+   Balance:
+                                                                  2,961 mL
+                                                                 -1,362 mL
+   Respiratory support
+   O2 Delivery Device: Aerosol-cool
+   SpO2: 99%
+   ABG: ///31/
+   Physical Examination
+   Gen:
+   CV:
+   PULM:
+   ABD:
+   EXT:
+   Labs / Radiology
+   97 K/uL
+   8.7 g/dL
+   123 mg/dL
+   0.8 mg/dL
+   31 mEq/L
+   4.1 mEq/L
+   13 mg/dL
+   104 mEq/L
+   139 mEq/L
+   24.0 %
+   9.7 K/uL
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+                             [**2178-5-27**]  11:33 AM
+                             [**2178-5-27**]  07:22 PM
+                             [**2178-5-28**]  01:38 AM
+                             [**2178-5-28**]  03:57 AM
+   WBC
+   9.7
+   Hct
+   21.4
+   22.8
+   24.6
+   24.2
+   24.0
+   Plt
+   97
+   Cr
+   0.8
+   Glucose
+   123
+   Other labs: PT / PTT / INR:12.3/29.8/1.0, Ca++:7.9 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Imaging: IMPRESSION: AP chest compared to [**5-26**]:
+   New right internal jugular central venous line ends at the superior
+   cavoatrial junction. Mild widening of the mediastinum to the right of
+   the midline is probably venous engorgement since there is no
+   contralateral displacement of
+   the trachea to suggest a hematoma. Heart size is mildly enlarged and
+   unchanged. Mild interstitial edema which was present on [**5-26**] has
+   resolved and there is no appreciable pleural effusion. Thoracic aorta
+   is generally large and tortuous but not focally dilated.
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+    # Acute blood loss anemia: Secondary to surgical bleeding. No stool
+   output yet to suggest GI source. Hct trend over 24 hours is
+   21.4->22.8->24.6->24.2->24 this morning. Patient has rec
+d a total of 6
+   units prbcs over 24 hours and is currently receiving 2 more units
+   PRBCs.  Orthopedics aware this morning.
+   - Post-tx Hct and cycle q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - Continue to monitor thigh diameter
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - Awaiting post-tx Hct to determine if futher imaging such as CT should
+   be done to rule out other areas of bleed (such as RP)
+   - IVF/blood prn volume; patient appears dry on exam
+   - As it is still not entirely clear if patient is bleeding anywhere
+   other than his thigh, will check bladder pressure to monitor abdominal
+   pressures as a measure to follow along with thigh diameter (which has
+   been stable).
+   # Thrombocytopenia: Likely in the setting of 6 units prbcs without
+   platelets.
+   - Will continue to monitor pm CBC, if platelets lower, will consider
+   platelet tx at that time
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, oxycodone and dilaudid being careful to
+   avoid sedation/somnolence
+   - Ortho recs
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT consult requested for POD 2 or 3 once acute issues resolved
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated
+   ICU Care
+   Nutrition: PO
+   Glycemic Control: ISS
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Multi Lumen - [**2178-5-27**] 11:35 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: Famotidine
+   VAP:  NA
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 77-year-old man with a history of hypertension, type 2 diabetes, prostate cancer, and gastrointestinal bleed, who underwent right total hip arthroplasty complicated by post-operative bleeding.
+
+The patient received 6 units of packed red blood cells (PRBCs) over 24 hours, with a hemoglobin (Hct) trend showing an increase from 21.4% to 24.2% over the same period. The patient's vital signs are stable, with a temperature of 37°C, heart rate of 82 beats per minute, and blood pressure of 141/55 mmHg.
+
+The patient has a central venous line (CVL) placed, and the imaging report shows mild widening of the mediastinum to the right of the midline, which is likely due to venous engorgement. The patient's platelet count is 97 K/uL, and the INR is 1.0.
+
+The patient's laboratory results show anemia, with a hemoglobin level of 8.7 g/dL. The patient's blood glucose level is 123 mg/dL, and the electrolyte levels are within normal limits.
+
+The patient's respiratory support includes oxygen delivery via aerosol-cool, with an SpO2 of 99%. The patient's abdominal and chest exams are normal, and the patient is receiving prophylaxis for deep vein thrombosis (DVT), stress ulcer, and ventilator-associated pneumonia (VAP).
+
+Potential medical complications that may arise include:
+
+1. Re-bleeding: The patient has received 6 units of PRBCs over 24 hours, and the Hct trend suggests that the patient may continue to bleed.
+2. Thrombocytopenia: The patient's platelet count is 97 K/uL, which is lower than normal. The patient may develop thrombocytopenia, which can increase the risk of bleeding.
+3. Compartment syndrome: The patient's thigh diameter has been stable, but the patient may develop compartment syndrome, which can lead to nerve and muscle damage.
+4. Hypotension: The patient's blood pressure is 141/55 mmHg, which is lower than normal. The patient may develop hypotension, which can lead to organ dysfunction.
+5. Respiratory failure: The patient's oxygen saturation is 99%, but the patient may develop respiratory failure, which can lead to hypoxia and respiratory acidosis.
+
+In conclusion, the patient is at risk for several medical complications, including re-bleeding, thrombocytopenia, compartment syndrome, hypotension, and respiratory failure. The patient's treatment plan should focus on managing these complications and ensuring the patient's overall stability."
+187958.0,220810,2178-05-28 07:30:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+ MULTI LUMEN - START [**2178-5-27**] 11:35 AM
+   tripple lumen central line placed successfully with normal f/u Xray
+   - Pain worsened after PT; got one dose of dilaudid 1 mg with good
+   effect, then did not require any more pain meds till midnight.  pulses
+   good.  thigh diameter mainatined at 23.75 inches
+   - Received 4 units of pRBC in 24 hr perior with only 1.5 pt increase in
+   HCT.  Ortho aware that there was no significant increase after 2 units,
+   but said it's expected after such a bloody case. will need to
+   re-address in AM
+   - Had CVL placed
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 08:04 PM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-28**] 07:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.1
+C (100.6
+   Tcurrent: 37
+C (98.6
+   HR: 82 (66 - 118) bpm
+   BP: 141/55(71) {109/43(41) - 156/69(83)} mmHg
+   RR: 12 (8 - 21) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 5 (0 - 11)mmHg
+   Total In:
+                                                                  4,421 mL
+                                                                    268 mL
+   PO:
+                                                                    480 mL
+                                                                    100 mL
+   TF:
+   IVF:
+                                                                  2,463 mL
+                                                                    168 mL
+   Blood products:
+                                                                  1,478 mL
+   Total out:
+                                                                  1,460 mL
+                                                                  1,630 mL
+   Urine:
+                                                                  1,430 mL
+                                                                  1,630 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     30 mL
+   Balance:
+                                                                  2,961 mL
+                                                                 -1,362 mL
+   Respiratory support
+   O2 Delivery Device: Aerosol-cool
+   SpO2: 99%
+   ABG: ///31/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   97 K/uL
+   8.7 g/dL
+   123 mg/dL
+   0.8 mg/dL
+   31 mEq/L
+   4.1 mEq/L
+   13 mg/dL
+   104 mEq/L
+   139 mEq/L
+   24.0 %
+   9.7 K/uL
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+                             [**2178-5-27**]  11:33 AM
+                             [**2178-5-27**]  07:22 PM
+                             [**2178-5-28**]  01:38 AM
+                             [**2178-5-28**]  03:57 AM
+   WBC
+   9.7
+   Hct
+   21.4
+   22.8
+   24.6
+   24.2
+   24.0
+   Plt
+   97
+   Cr
+   0.8
+   Glucose
+   123
+   Other labs: PT / PTT / INR:12.3/29.8/1.0, Ca++:7.9 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Imaging: IMPRESSION: AP chest compared to [**5-26**]:
+   New right internal jugular central venous line ends at the superior
+   cavoatrial junction. Mild widening of the mediastinum to the right of
+   the midline is probably venous engorgement since there is no
+   contralateral displacement of
+   the trachea to suggest a hematoma. Heart size is mildly enlarged and
+   unchanged. Mild interstitial edema which was present on [**5-26**] has
+   resolved and there is no appreciable pleural effusion. Thoracic aorta
+   is generally large and tortuous but not focally dilated.
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+    # Acute blood loss anemia: likely secondary to surgical bleeding. No
+   stool output yet to suggest GI source. Hct with acute drop overnight
+   from 34.5 to 26.4 to 21.4.  Pt currently receiving 2 units PRBCs.
+   Orthopedics aware this morning.
+   - Post-tx Hct and cycle q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - CVL today for more definitive access as patient with only one working
+   PIV at this time (also very hard peripheral stick).  Will also aid with
+   overall volume monitoring
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - Touch base with orthopedics later this morning to confirm they do not
+   want further imaging/? If they would like to assess pressure in right
+   thigh with probe
+   - Awaiting am labs until CVL placed as unable to draw blood
+   peripherally
+   - IVF/blood prn volume; patient appears dry on exam
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, additional morphine being careful to avoid
+   sedation/somnolence
+   - Ortho recs
+   - PA/lat hip films final read
+   - Continue peri-op prophylactic antibiotics.
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT consult requested for POD 2 or 3 once acute issues resolved
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Multi Lumen - [**2178-5-27**] 11:35 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+ MULTI LUMEN - START [**2178-5-27**] 11:35 AM
+   tripple lumen central line placed successfully with normal f/u Xray
+   - Pain worsened after PT; got one dose of dilaudid 1 mg with good
+   effect, then did not require any more pain meds till midnight.  pulses
+   good.  thigh diameter mainatined at 23.75 inches
+   - Received 4 units of pRBC in 24 hr perior with only 1.5 pt increase in
+   HCT.  Ortho aware that there was no significant increase after 2 units,
+   but said it's expected after such a bloody case. will need to
+   re-address in AM
+   - Had CVL placed
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 08:04 PM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-28**] 07:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.1
+C (100.6
+   Tcurrent: 37
+C (98.6
+   HR: 82 (66 - 118) bpm
+   BP: 141/55(71) {109/43(41) - 156/69(83)} mmHg
+   RR: 12 (8 - 21) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 5 (0 - 11)mmHg
+   Total In:
+                                                                  4,421 mL
+                                                                    268 mL
+   PO:
+                                                                    480 mL
+                                                                    100 mL
+   TF:
+   IVF:
+                                                                  2,463 mL
+                                                                    168 mL
+   Blood products:
+                                                                  1,478 mL
+   Total out:
+                                                                  1,460 mL
+                                                                  1,630 mL
+   Urine:
+                                                                  1,430 mL
+                                                                  1,630 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     30 mL
+   Balance:
+                                                                  2,961 mL
+                                                                 -1,362 mL
+   Respiratory support
+   O2 Delivery Device: Aerosol-cool
+   SpO2: 99%
+   ABG: ///31/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   97 K/uL
+   8.7 g/dL
+   123 mg/dL
+   0.8 mg/dL
+   31 mEq/L
+   4.1 mEq/L
+   13 mg/dL
+   104 mEq/L
+   139 mEq/L
+   24.0 %
+   9.7 K/uL
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+                             [**2178-5-27**]  11:33 AM
+                             [**2178-5-27**]  07:22 PM
+                             [**2178-5-28**]  01:38 AM
+                             [**2178-5-28**]  03:57 AM
+   WBC
+   9.7
+   Hct
+   21.4
+   22.8
+   24.6
+   24.2
+   24.0
+   Plt
+   97
+   Cr
+   0.8
+   Glucose
+   123
+   Other labs: PT / PTT / INR:12.3/29.8/1.0, Ca++:7.9 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Imaging: IMPRESSION: AP chest compared to [**5-26**]:
+   New right internal jugular central venous line ends at the superior
+   cavoatrial junction. Mild widening of the mediastinum to the right of
+   the midline is probably venous engorgement since there is no
+   contralateral displacement of
+   the trachea to suggest a hematoma. Heart size is mildly enlarged and
+   unchanged. Mild interstitial edema which was present on [**5-26**] has
+   resolved and there is no appreciable pleural effusion. Thoracic aorta
+   is generally large and tortuous but not focally dilated.
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+    # Acute blood loss anemia: likely secondary to surgical bleeding. No
+   stool output yet to suggest GI source. Hct with acute drop overnight
+   from 34.5 to 26.4 to 21.4.  Pt currently receiving 2 units PRBCs.
+   Orthopedics aware this morning.
+   - Post-tx Hct and cycle q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - CVL today for more definitive access as patient with only one working
+   PIV at this time (also very hard peripheral stick).  Will also aid with
+   overall volume monitoring
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - Touch base with orthopedics later this morning to confirm they do not
+   want further imaging/? If they would like to assess pressure in right
+   thigh with probe
+   - Awaiting am labs until CVL placed as unable to draw blood
+   peripherally
+   - IVF/blood prn volume; patient appears dry on exam
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, additional morphine being careful to avoid
+   sedation/somnolence
+   - Ortho recs
+   - PA/lat hip films final read
+   - Continue peri-op prophylactic antibiotics.
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT consult requested for POD 2 or 3 once acute issues resolved
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Multi Lumen - [**2178-5-27**] 11:35 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old man with a history of diabetes mellitus type 2, hypertension, and osteoarthritis who underwent right total hip arthroplasty (THA) complicated by post-operative bleeding. He was admitted to the intensive care unit (ICU) with a hemoglobin (Hb) level of 34.5 g/dL, which dropped to 26.4 g/dL overnight and is currently at 21.4 g/dL. He received 2 units of packed red blood cells (PRBCs) and is scheduled to receive more PRBCs as needed. His vital signs are stable, with a temperature of 37°C, heart rate of 82 beats per minute, and blood pressure of 141/55 mmHg. He is receiving oxygen therapy and has a central venous line (CVL) placed for more definitive access and volume monitoring.
+
+Potential Medical Complications:
+
+1. Acute blood loss anemia: The patient's Hb level has dropped significantly, and he is at risk of developing acute blood loss anemia.
+2. Compartment syndrome: The patient's right thigh is at risk of developing compartment syndrome due to bleeding and swelling.
+3. Sepsis: The patient's infection risk is increased due to the surgical procedure and the presence of a central venous line.
+4. Deep vein thrombosis (DVT): The patient is at risk of developing DVT due to immobility and the presence of a central venous line.
+5. Stress ulcer: The patient's stress ulcer risk is increased due to the surgical procedure and the presence of a central venous line.
+6. Ventilator-associated pneumonia (VAP): The patient's VAP risk is increased due to the presence of a central venous line and the risk of aspiration.
+7. Hypovolemic shock: The patient's blood loss and decreased blood volume may lead to hypovolemic shock if not managed promptly.
+8. Renal insufficiency: The patient's decreased blood volume and decreased perfusion may lead to renal insufficiency if not managed promptly.
+9. Respiratory failure: The patient's respiratory status is at risk of deterioration due to the presence of a central venous line and the risk of aspiration.
+10. Cardiovascular complications: The patient's cardiovascular status is at risk of deterioration due to the presence of a central venous line and the risk of bleeding."
+187958.0,220810,2178-05-28 07:30:00,Physician ,Physician Resident Progress Note,"Chief Complaint: 77 year old man with hx of hypertension, DM2, prostate
+   cancer s/p XRT, and GI bleed presents following right total hip
+   arthroplasty complicated by post-operative bleeding
+   24 Hour Events:
+ MULTI LUMEN - START [**2178-5-27**] 11:35 AM
+   tripple lumen central line placed successfully with normal f/u Xray
+   - Pain worsened after PT; got one dose of dilaudid 1 mg with good
+   effect, then did not require any more pain meds till midnight.  pulses
+   good.  thigh diameter mainatined at 23.75 inches
+   - Received 4 units of pRBC in 24 hr perior with only 1.5 pt increase in
+   HCT.  Ortho aware that there was no significant increase after 2 units,
+   but said it's expected after such a bloody case. will need to
+   re-address in AM
+   - Had CVL placed
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 08:04 PM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-28**] 07:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.1
+C (100.6
+   Tcurrent: 37
+C (98.6
+   HR: 82 (66 - 118) bpm
+   BP: 141/55(71) {109/43(41) - 156/69(83)} mmHg
+   RR: 12 (8 - 21) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 5 (0 - 11)mmHg
+   Total In:
+                                                                  4,421 mL
+                                                                    268 mL
+   PO:
+                                                                    480 mL
+                                                                    100 mL
+   TF:
+   IVF:
+                                                                  2,463 mL
+                                                                    168 mL
+   Blood products:
+                                                                  1,478 mL
+   Total out:
+                                                                  1,460 mL
+                                                                  1,630 mL
+   Urine:
+                                                                  1,430 mL
+                                                                  1,630 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     30 mL
+   Balance:
+                                                                  2,961 mL
+                                                                 -1,362 mL
+   Respiratory support
+   O2 Delivery Device: Aerosol-cool
+   SpO2: 99%
+   ABG: ///31/
+   Physical Examination
+   Gen:
+   CV:
+   PULM:
+   ABD:
+   EXT:
+   Labs / Radiology
+   97 K/uL
+   8.7 g/dL
+   123 mg/dL
+   0.8 mg/dL
+   31 mEq/L
+   4.1 mEq/L
+   13 mg/dL
+   104 mEq/L
+   139 mEq/L
+   24.0 %
+   9.7 K/uL
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+                             [**2178-5-27**]  11:33 AM
+                             [**2178-5-27**]  07:22 PM
+                             [**2178-5-28**]  01:38 AM
+                             [**2178-5-28**]  03:57 AM
+   WBC
+   9.7
+   Hct
+   21.4
+   22.8
+   24.6
+   24.2
+   24.0
+   Plt
+   97
+   Cr
+   0.8
+   Glucose
+   123
+   Other labs: PT / PTT / INR:12.3/29.8/1.0, Ca++:7.9 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Imaging: IMPRESSION: AP chest compared to [**5-26**]:
+   New right internal jugular central venous line ends at the superior
+   cavoatrial junction. Mild widening of the mediastinum to the right of
+   the midline is probably venous engorgement since there is no
+   contralateral displacement of
+   the trachea to suggest a hematoma. Heart size is mildly enlarged and
+   unchanged. Mild interstitial edema which was present on [**5-26**] has
+   resolved and there is no appreciable pleural effusion. Thoracic aorta
+   is generally large and tortuous but not focally dilated.
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+    # Acute blood loss anemia: likely secondary to surgical bleeding. No
+   stool output yet to suggest GI source. Hct with acute drop overnight
+   from 34.5 to 26.4 to 21.4.  Pt currently receiving 2 units PRBCs.
+   Orthopedics aware this morning.
+   - Post-tx Hct and cycle q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - CVL today for more definitive access as patient with only one working
+   PIV at this time (also very hard peripheral stick).  Will also aid with
+   overall volume monitoring
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - Touch base with orthopedics later this morning to confirm they do not
+   want further imaging/? If they would like to assess pressure in right
+   thigh with probe
+   - Awaiting am labs until CVL placed as unable to draw blood
+   peripherally
+   - IVF/blood prn volume; patient appears dry on exam
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, additional morphine being careful to avoid
+   sedation/somnolence
+   - Ortho recs
+   - PA/lat hip films final read
+   - Continue peri-op prophylactic antibiotics.
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT consult requested for POD 2 or 3 once acute issues resolved
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated
+   ICU Care
+   Nutrition: PO
+   Glycemic Control: PO
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Multi Lumen - [**2178-5-27**] 11:35 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: Famotidine
+   VAP:  NA
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: 77 year old man with hx of hypertension, DM2, prostate
+   cancer s/p XRT, and GI bleed presents following right total hip
+   arthroplasty complicated by post-operative bleeding
+   24 Hour Events:
+ MULTI LUMEN - START [**2178-5-27**] 11:35 AM
+   tripple lumen central line placed successfully with normal f/u Xray
+   - Pain worsened after PT; got one dose of dilaudid 1 mg with good
+   effect, then did not require any more pain meds till midnight.  pulses
+   good.  thigh diameter mainatined at 23.75 inches
+   - Received 4 units of pRBC in 24 hr perior with only 1.5 pt increase in
+   HCT.  Ortho aware that there was no significant increase after 2 units,
+   but said it's expected after such a bloody case. will need to
+   re-address in AM
+   - Had CVL placed
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 08:04 PM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-28**] 07:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.1
+C (100.6
+   Tcurrent: 37
+C (98.6
+   HR: 82 (66 - 118) bpm
+   BP: 141/55(71) {109/43(41) - 156/69(83)} mmHg
+   RR: 12 (8 - 21) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 5 (0 - 11)mmHg
+   Total In:
+                                                                  4,421 mL
+                                                                    268 mL
+   PO:
+                                                                    480 mL
+                                                                    100 mL
+   TF:
+   IVF:
+                                                                  2,463 mL
+                                                                    168 mL
+   Blood products:
+                                                                  1,478 mL
+   Total out:
+                                                                  1,460 mL
+                                                                  1,630 mL
+   Urine:
+                                                                  1,430 mL
+                                                                  1,630 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     30 mL
+   Balance:
+                                                                  2,961 mL
+                                                                 -1,362 mL
+   Respiratory support
+   O2 Delivery Device: Aerosol-cool
+   SpO2: 99%
+   ABG: ///31/
+   Physical Examination
+   Gen:
+   CV:
+   PULM:
+   ABD:
+   EXT:
+   Labs / Radiology
+   97 K/uL
+   8.7 g/dL
+   123 mg/dL
+   0.8 mg/dL
+   31 mEq/L
+   4.1 mEq/L
+   13 mg/dL
+   104 mEq/L
+   139 mEq/L
+   24.0 %
+   9.7 K/uL
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+                             [**2178-5-27**]  11:33 AM
+                             [**2178-5-27**]  07:22 PM
+                             [**2178-5-28**]  01:38 AM
+                             [**2178-5-28**]  03:57 AM
+   WBC
+   9.7
+   Hct
+   21.4
+   22.8
+   24.6
+   24.2
+   24.0
+   Plt
+   97
+   Cr
+   0.8
+   Glucose
+   123
+   Other labs: PT / PTT / INR:12.3/29.8/1.0, Ca++:7.9 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Imaging: IMPRESSION: AP chest compared to [**5-26**]:
+   New right internal jugular central venous line ends at the superior
+   cavoatrial junction. Mild widening of the mediastinum to the right of
+   the midline is probably venous engorgement since there is no
+   contralateral displacement of
+   the trachea to suggest a hematoma. Heart size is mildly enlarged and
+   unchanged. Mild interstitial edema which was present on [**5-26**] has
+   resolved and there is no appreciable pleural effusion. Thoracic aorta
+   is generally large and tortuous but not focally dilated.
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+    # Acute blood loss anemia: likely secondary to surgical bleeding. No
+   stool output yet to suggest GI source. Hct with acute drop overnight
+   from 34.5 to 26.4 to 21.4.  Pt currently receiving 2 units PRBCs.
+   Orthopedics aware this morning.
+   - Post-tx Hct and cycle q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - CVL today for more definitive access as patient with only one working
+   PIV at this time (also very hard peripheral stick).  Will also aid with
+   overall volume monitoring
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - Touch base with orthopedics later this morning to confirm they do not
+   want further imaging/? If they would like to assess pressure in right
+   thigh with probe
+   - Awaiting am labs until CVL placed as unable to draw blood
+   peripherally
+   - IVF/blood prn volume; patient appears dry on exam
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, additional morphine being careful to avoid
+   sedation/somnolence
+   - Ortho recs
+   - PA/lat hip films final read
+   - Continue peri-op prophylactic antibiotics.
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT consult requested for POD 2 or 3 once acute issues resolved
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated
+   ICU Care
+   Nutrition: PO
+   Glycemic Control: PO
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Multi Lumen - [**2178-5-27**] 11:35 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: Famotidine
+   VAP:  NA
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old man with a history of hypertension, diabetes mellitus type 2, prostate cancer, and gastrointestinal bleed, who underwent right total hip arthroplasty complicated by post-operative bleeding. He was admitted to the ICU with acute blood loss anemia, likely secondary to surgical bleeding. His hemoglobin level dropped significantly overnight from 34.5 to 26.4 to 21.4, and he received 2 units of packed red blood cells. He is currently receiving IV fluids and blood products as needed to manage his volume status.
+
+Potential medical complications:
+
+1. Acute blood loss anemia: The patient's hemoglobin level is dropping significantly, which can lead to inadequate oxygen delivery to tissues and organs.
+2. Hypovolemic shock: The patient's blood loss may lead to hypovolemic shock, which can cause decreased blood flow to vital organs, leading to organ dysfunction.
+3. Respiratory failure: The patient's respiratory status is stable, but he may be at risk for respiratory failure if his blood loss is not adequately managed.
+4. Sepsis: The patient's post-operative bleeding may have introduced bacteria into his bloodstream, leading to sepsis.
+5. Compartment syndrome: The patient's right thigh is at risk for compartment syndrome due to the surgical procedure and potential bleeding.
+6. Infection: The patient's surgical site is at risk for infection, which can lead to serious complications.
+7. Bleeding complications: The patient's post-operative bleeding may lead to further bleeding complications, such as gastrointestinal bleeding or bleeding into the surgical site.
+8. Renal failure: The patient's blood loss may lead to acute kidney injury or renal failure if not adequately managed.
+9. Cardiac complications: The patient's blood loss may lead to cardiac complications, such as cardiac arrhythmias or cardiac failure.
+
+Recommendations:
+
+1. Continue to monitor the patient's hemoglobin level and transfuse as necessary to maintain an adequate blood volume.
+2. Monitor the patient's blood pressure and cardiac status closely to prevent cardiac complications.
+3. Monitor the patient's respiratory status closely to prevent respiratory failure.
+4. Monitor the patient's neurological status closely to prevent compartment syndrome.
+5. Continue to monitor the patient's surgical site for signs of infection.
+6. Consider consulting a vascular surgeon to assess the patient's blood vessels and potential bleeding sites.
+7. Consider consulting a nephrologist to manage the patient's fluid status and potential renal complications.
+8. Consider consulting a cardiologist to manage the patient's cardiac status and potential cardiac complications."
+187958.0,220810,2178-05-28 07:30:00,Physician ,Physician Resident Progress Note,"Chief Complaint: 77 year old man with hx of hypertension, DM2, prostate
+   cancer s/p XRT, and GI bleed presents following right total hip
+   arthroplasty complicated by post-operative bleeding
+   24 Hour Events:
+ MULTI LUMEN - START [**2178-5-27**] 11:35 AM
+   tripple lumen central line placed successfully with normal f/u Xray
+   - Pain worsened after PT; got one dose of dilaudid 1 mg with good
+   effect, then did not require any more pain meds till midnight.  pulses
+   good.  thigh diameter mainatined at 23.75 inches
+   - Received 4 units of pRBC in 24 hr period with only 1.5 pt increase in
+   HCT.  Ortho aware that there was no significant increase after 2 units
+   - Had CVL placed
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 08:04 PM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-28**] 07:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.1
+C (100.6
+   Tcurrent: 37
+C (98.6
+   HR: 82 (66 - 118) bpm
+   BP: 141/55(71) {109/43(41) - 156/69(83)} mmHg
+   RR: 12 (8 - 21) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 5 (0 - 11)mmHg
+   Total In:
+                                                                  4,421 mL
+                                                                    268 mL
+   PO:
+                                                                    480 mL
+                                                                    100 mL
+   TF:
+   IVF:
+                                                                  2,463 mL
+                                                                    168 mL
+   Blood products:
+                                                                  1,478 mL
+   Total out:
+                                                                  1,460 mL
+                                                                  1,630 mL
+   Urine:
+                                                                  1,430 mL
+                                                                  1,630 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     30 mL
+   Balance:
+                                                                  2,961 mL
+                                                                 -1,362 mL
+   Respiratory support
+   O2 Delivery Device: Aerosol-cool
+   SpO2: 99%
+   ABG: ///31/
+   Physical Examination
+   Gen:
+   CV:
+   PULM:
+   ABD:
+   EXT:
+   Labs / Radiology
+   97 K/uL
+   8.7 g/dL
+   123 mg/dL
+   0.8 mg/dL
+   31 mEq/L
+   4.1 mEq/L
+   13 mg/dL
+   104 mEq/L
+   139 mEq/L
+   24.0 %
+   9.7 K/uL
+        [image002.jpg]
+   INR 1.0
+                             [**2178-5-27**]  03:30 AM
+                             [**2178-5-27**]  11:33 AM
+                             [**2178-5-27**]  07:22 PM
+                             [**2178-5-28**]  01:38 AM
+                             [**2178-5-28**]  03:57 AM
+   WBC
+   9.7
+   Hct
+   21.4
+   22.8
+   24.6
+   24.2
+   24.0
+   Plt
+   97
+   Cr
+   0.8
+   Glucose
+   123
+   Other labs: PT / PTT / INR:12.3/29.8/1.0, Ca++:7.9 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Imaging: IMPRESSION: AP chest compared to [**5-26**]:
+   New right internal jugular central venous line ends at the superior
+   cavoatrial junction. Mild widening of the mediastinum to the right of
+   the midline is probably venous engorgement since there is no
+   contralateral displacement of the trachea to suggest a hematoma. Heart
+   size is mildly enlarged and unchanged. Mild interstitial edema which
+   was present on [**5-26**] has resolved and there is no appreciable
+   pleural effusion. Thoracic aorta is generally large and tortuous but
+   not focally dilated.
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+    # Acute blood loss anemia: Secondary to surgical bleeding. No stool
+   output yet to suggest GI source. Hct trend over 24 hours is
+   21.4->22.8->24.6->24.2->24 this morning. Patient has rec
+d a total of 6
+   units prbcs over 24 hours and is currently receiving 2 more units
+   PRBCs.  Orthopedics aware this morning.
+   - Post-tx Hct and cycle q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - Continue to monitor thigh diameter, has been stable
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - Awaiting post-tx Hct to determine if futher imaging such as CT should
+   be done to rule out other areas of bleed (such as RP)
+   - IVF/blood prn volume; patient appears dry on exam
+   - As it is still not entirely clear if patient is bleeding anywhere
+   other than his thigh, will check bladder pressure to monitor abdominal
+   pressures as a measure to follow along with thigh diameter
+   # Thrombocytopenia: Likely in the setting of 6 units prbcs without
+   platelets.
+   - Will continue to monitor pm CBC, if platelets lower, will consider
+   platelet tx at that time
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, oxycodone and dilaudid being careful to
+   avoid sedation/somnolence
+   - Ortho recs
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT consult requested for POD 2 or 3 once acute issues resolved
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated
+   ICU Care
+   Nutrition: PO
+   Glycemic Control: ISS
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Multi Lumen - [**2178-5-27**] 11:35 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: Famotidine
+   VAP:  NA
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: ICU
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: 77 year old man with hx of hypertension, DM2, prostate
+   cancer s/p XRT, and GI bleed presents following right total hip
+   arthroplasty complicated by post-operative bleeding
+   24 Hour Events:
+ MULTI LUMEN - START [**2178-5-27**] 11:35 AM
+   tripple lumen central line placed successfully with normal f/u Xray
+   - Pain worsened after PT; got one dose of dilaudid 1 mg with good
+   effect, then did not require any more pain meds till midnight.  pulses
+   good.  thigh diameter mainatined at 23.75 inches
+   - Received 4 units of pRBC in 24 hr period with only 1.5 pt increase in
+   HCT.  Ortho aware that there was no significant increase after 2 units
+   - Had CVL placed
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 08:04 PM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-28**] 07:30 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 38.1
+C (100.6
+   Tcurrent: 37
+C (98.6
+   HR: 82 (66 - 118) bpm
+   BP: 141/55(71) {109/43(41) - 156/69(83)} mmHg
+   RR: 12 (8 - 21) insp/min
+   SpO2: 99%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 5 (0 - 11)mmHg
+   Total In:
+                                                                  4,421 mL
+                                                                    268 mL
+   PO:
+                                                                    480 mL
+                                                                    100 mL
+   TF:
+   IVF:
+                                                                  2,463 mL
+                                                                    168 mL
+   Blood products:
+                                                                  1,478 mL
+   Total out:
+                                                                  1,460 mL
+                                                                  1,630 mL
+   Urine:
+                                                                  1,430 mL
+                                                                  1,630 mL
+   NG:
+   Stool:
+   Drains:
+                                                                     30 mL
+   Balance:
+                                                                  2,961 mL
+                                                                 -1,362 mL
+   Respiratory support
+   O2 Delivery Device: Aerosol-cool
+   SpO2: 99%
+   ABG: ///31/
+   Physical Examination
+   Gen:
+   CV:
+   PULM:
+   ABD:
+   EXT:
+   Labs / Radiology
+   97 K/uL
+   8.7 g/dL
+   123 mg/dL
+   0.8 mg/dL
+   31 mEq/L
+   4.1 mEq/L
+   13 mg/dL
+   104 mEq/L
+   139 mEq/L
+   24.0 %
+   9.7 K/uL
+        [image002.jpg]
+   INR 1.0
+                             [**2178-5-27**]  03:30 AM
+                             [**2178-5-27**]  11:33 AM
+                             [**2178-5-27**]  07:22 PM
+                             [**2178-5-28**]  01:38 AM
+                             [**2178-5-28**]  03:57 AM
+   WBC
+   9.7
+   Hct
+   21.4
+   22.8
+   24.6
+   24.2
+   24.0
+   Plt
+   97
+   Cr
+   0.8
+   Glucose
+   123
+   Other labs: PT / PTT / INR:12.3/29.8/1.0, Ca++:7.9 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.3 mg/dL
+   Imaging: IMPRESSION: AP chest compared to [**5-26**]:
+   New right internal jugular central venous line ends at the superior
+   cavoatrial junction. Mild widening of the mediastinum to the right of
+   the midline is probably venous engorgement since there is no
+   contralateral displacement of the trachea to suggest a hematoma. Heart
+   size is mildly enlarged and unchanged. Mild interstitial edema which
+   was present on [**5-26**] has resolved and there is no appreciable
+   pleural effusion. Thoracic aorta is generally large and tortuous but
+   not focally dilated.
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+    # Acute blood loss anemia: Secondary to surgical bleeding. No stool
+   output yet to suggest GI source. Hct trend over 24 hours is
+   21.4->22.8->24.6->24.2->24 this morning. Patient has rec
+d a total of 6
+   units prbcs over 24 hours and is currently receiving 2 more units
+   PRBCs.  Orthopedics aware this morning.
+   - Post-tx Hct and cycle q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - Continue to monitor thigh diameter, has been stable
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - Awaiting post-tx Hct to determine if futher imaging such as CT should
+   be done to rule out other areas of bleed (such as RP)
+   - IVF/blood prn volume; patient appears dry on exam
+   - As it is still not entirely clear if patient is bleeding anywhere
+   other than his thigh, will check bladder pressure to monitor abdominal
+   pressures as a measure to follow along with thigh diameter
+   # Thrombocytopenia: Likely in the setting of 6 units prbcs without
+   platelets.
+   - Will continue to monitor pm CBC, if platelets lower, will consider
+   platelet tx at that time
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, oxycodone and dilaudid being careful to
+   avoid sedation/somnolence
+   - Ortho recs
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT consult requested for POD 2 or 3 once acute issues resolved
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated
+   ICU Care
+   Nutrition: PO
+   Glycemic Control: ISS
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Multi Lumen - [**2178-5-27**] 11:35 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: Famotidine
+   VAP:  NA
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition: ICU<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old man with a history of hypertension, DM2, prostate cancer, and GI bleed who underwent right total hip arthroplasty complicated by post-operative bleeding. He received 4 units of packed red blood cells (PRBCs) and 2 units are pending. His hemoglobin (Hct) trend over 24 hours is 21.4-22.8-24.6-24.2-24, indicating a possible acute blood loss anemia. He has a platelet count of 97 K/uL, which is likely due to the 6 units of PRBCs transfused without platelets. His vital signs are stable, with a temperature of 37°C, heart rate of 82 bpm, and blood pressure of 141/55 mmHg.
+
+Potential Medical Complications:
+
+1. Continued bleeding: The patient's Hct trend suggests ongoing bleeding, which may lead to further anemia, hypovolemic shock, and potentially life-threatening complications.
+2. Thrombocytopenia: The patient's platelet count is low, which may increase the risk of bleeding and bleeding complications.
+3. Osteoarthritis complications: The patient's osteoarthritis may worsen due to the surgical procedure, leading to pain, stiffness, and limited mobility.
+4. DM2 complications: The patient's DM2 may worsen due to the surgical stress and lack of oral medications, leading to hyperglycemia and potential complications.
+5. Hypertension complications: The patient's hypertension may worsen due to the surgical stress and lack of anti-hypertensive medications, leading to potential complications such as cardiac arrhythmias and stroke.
+6. Infection: The patient's GI bleed and surgical procedure may increase the risk of infection, which may lead to sepsis and potential life-threatening complications.
+7. Thromboembolic complications: The patient's orthopedic procedure may increase the risk of thromboembolic complications, such as deep vein thrombosis and pulmonary embolism.
+8. Respiratory complications: The patient's respiratory status may worsen due to the surgical procedure and potential lung complications, leading to respiratory failure and potential life-threatening complications.
+
+Based on the patient's condition, it is essential to closely monitor his vital signs, laboratory results, and clinical status to prevent and manage potential complications."
+187958.0,220810,2178-05-29 07:29:00,Physician ,Physician Resident Progress Note,"Chief Complaint: 77 year old man with hx of hypertension, DM2, prostate
+   cancer s/p XRT, and GI bleed presents following right total hip
+   arthroplasty complicated by post-operative bleeding
+   24 Hour Events:
+   -Post Hct check up to 27.6 from 24, a bump but not appropriate for 2
+   units, plts up too to 121, stable on next check at MN 27.8, on am labs
+   28.4
+   -Ortho recs: Hold lovenox, WBAT
+   -bladder pressure 14->7->6
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 08:04 PM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-29**] 07:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.2
+   Tcurrent: 37.2
+C (99
+   HR: 83 (83 - 114) bpm
+   BP: 153/57(81) {117/43(63) - 158/114(118)} mmHg
+   RR: 16 (13 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 14 (5 - 15)mmHg
+   Bladder pressure: 7 (6 - 14) mmHg
+   Total In:
+                                                                  2,194 mL
+                                                                     40 mL
+   PO:
+                                                                  1,060 mL
+   TF:
+   IVF:
+                                                                    384 mL
+                                                                     40 mL
+   Blood products:
+                                                                    750 mL
+   Total out:
+                                                                  5,580 mL
+                                                                  1,020 mL
+   Urine:
+                                                                  5,580 mL
+                                                                  1,020 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -3,386 mL
+                                                                   -980 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///34/
+   Physical Examination
+   Gen: NAD, AAOx3
+   CV: RRR, no m/r/g
+   Pulm: CTAB anteriorly
+   Abd: Soft, NTND, obese
+   Ext: L thigh with tense skin, larger than right, wound dressed and
+   intact, peripheral pulses full and symmetric bilat, pain on deep
+   palpation of R thigh, though improved from prior
+   Labs / Radiology
+   125 K/uL
+   9.9 g/dL
+   114 mg/dL
+   0.7 mg/dL
+   34 mEq/L
+   3.7 mEq/L
+   8 mg/dL
+   99 mEq/L
+   137 mEq/L
+   28.5 %
+   9.5 K/uL
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+                             [**2178-5-27**]  11:33 AM
+                             [**2178-5-27**]  07:22 PM
+                             [**2178-5-28**]  01:38 AM
+                             [**2178-5-28**]  03:57 AM
+                             [**2178-5-28**]  06:45 PM
+                             [**2178-5-28**]  11:54 PM
+                             [**2178-5-29**]  02:57 AM
+   WBC
+   9.7
+   9.5
+   Hct
+   21.4
+   22.8
+   24.6
+   24.2
+   24.0
+   27.6
+   27.8
+   28.5
+   Plt
+   97
+   121
+   125
+   Cr
+   0.8
+   0.7
+   Glucose
+   123
+   114
+   Other labs: PT / PTT / INR:11.9/27.9/1.0, Ca++:8.1 mg/dL, Mg++:2.2
+   mg/dL, PO4:1.6 mg/dL
+   Imaging: No new
+   Microbiology: No new
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+   # Acute blood loss anemia: Secondary to surgical bleeding. No stool
+   output yet to suggest GI source. Hct increased to 28.4 this morning
+   from 24 after 2 units. Has been stable over two measurements. Patient
+   has rec
+d a total of 8 units prbcs since admission.  Orthopedics saw
+   patient this morning, recommended continue monitoring, WBAT.
+   - Continue to cycle Hct q6 today
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - Continue to monitor thigh diameter, has been stable at 24in.
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - No need for further imaging at this point as Hct stable
+   - IVF/blood prn volume; patient is tolerating PO
+   - Bladder pressure 14->6->7. Can continue to monitor, has been stable.
+   # Thrombocytopenia: Likely in the setting of 6 units prbcs without
+   platelets.  Improved without transfusion.
+   - Will continue to monitor, if decreasing, can consider plt tx, no need
+   at this time
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, oxycodone and dilaudid being careful to
+   avoid sedation/somnolence
+   - Ortho recs
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT recommending rehab
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated, aggressive
+   bowel regimen
+   ICU Care
+   Nutrition:
+   PO, diabetic diet
+   Glycemic Control:  ISS
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Multi Lumen - [**2178-5-27**] 11:35 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: Famotidine
+   VAP:  NA
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:  c/o to ortho today
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: 77 year old man with hx of hypertension, DM2, prostate
+   cancer s/p XRT, and GI bleed presents following right total hip
+   arthroplasty complicated by post-operative bleeding
+   24 Hour Events:
+   -Post Hct check up to 27.6 from 24, a bump but not appropriate for 2
+   units, plts up too to 121, stable on next check at MN 27.8, on am labs
+   28.4
+   -Ortho recs: Hold lovenox, WBAT
+   -bladder pressure 14->7->6
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 08:04 PM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-29**] 07:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.2
+   Tcurrent: 37.2
+C (99
+   HR: 83 (83 - 114) bpm
+   BP: 153/57(81) {117/43(63) - 158/114(118)} mmHg
+   RR: 16 (13 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 14 (5 - 15)mmHg
+   Bladder pressure: 7 (6 - 14) mmHg
+   Total In:
+                                                                  2,194 mL
+                                                                     40 mL
+   PO:
+                                                                  1,060 mL
+   TF:
+   IVF:
+                                                                    384 mL
+                                                                     40 mL
+   Blood products:
+                                                                    750 mL
+   Total out:
+                                                                  5,580 mL
+                                                                  1,020 mL
+   Urine:
+                                                                  5,580 mL
+                                                                  1,020 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -3,386 mL
+                                                                   -980 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///34/
+   Physical Examination
+   Gen: NAD, AAOx3
+   CV: RRR, no m/r/g
+   Pulm: CTAB anteriorly
+   Abd: Soft, NTND, obese
+   Ext: L thigh with tense skin, larger than right, wound dressed and
+   intact, peripheral pulses full and symmetric bilat, pain on deep
+   palpation of R thigh, though improved from prior
+   Labs / Radiology
+   125 K/uL
+   9.9 g/dL
+   114 mg/dL
+   0.7 mg/dL
+   34 mEq/L
+   3.7 mEq/L
+   8 mg/dL
+   99 mEq/L
+   137 mEq/L
+   28.5 %
+   9.5 K/uL
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+                             [**2178-5-27**]  11:33 AM
+                             [**2178-5-27**]  07:22 PM
+                             [**2178-5-28**]  01:38 AM
+                             [**2178-5-28**]  03:57 AM
+                             [**2178-5-28**]  06:45 PM
+                             [**2178-5-28**]  11:54 PM
+                             [**2178-5-29**]  02:57 AM
+   WBC
+   9.7
+   9.5
+   Hct
+   21.4
+   22.8
+   24.6
+   24.2
+   24.0
+   27.6
+   27.8
+   28.5
+   Plt
+   97
+   121
+   125
+   Cr
+   0.8
+   0.7
+   Glucose
+   123
+   114
+   Other labs: PT / PTT / INR:11.9/27.9/1.0, Ca++:8.1 mg/dL, Mg++:2.2
+   mg/dL, PO4:1.6 mg/dL
+   Imaging: No new
+   Microbiology: No new
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+   # Acute blood loss anemia: Secondary to surgical bleeding. No stool
+   output yet to suggest GI source. Hct increased to 28.4 this morning
+   from 24 after 2 units. Has been stable over two measurements. Patient
+   has rec
+d a total of 8 units prbcs since admission.  Orthopedics saw
+   patient this morning, recommended continue monitoring, WBAT.
+   - Continue to cycle Hct q6 today
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - Continue to monitor thigh diameter, has been stable at 24in.
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - No need for further imaging at this point as Hct stable
+   - IVF/blood prn volume; patient is tolerating PO
+   - Bladder pressure 14->6->7. Can continue to monitor, has been stable.
+   # Thrombocytopenia: Likely in the setting of 6 units prbcs without
+   platelets.  Improved without transfusion.
+   - Will continue to monitor, if decreasing, can consider plt tx, no need
+   at this time
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, oxycodone and dilaudid being careful to
+   avoid sedation/somnolence
+   - Ortho recs
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT recommending rehab
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated, aggressive
+   bowel regimen
+   ICU Care
+   Nutrition:
+   PO, diabetic diet
+   Glycemic Control:  ISS
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Multi Lumen - [**2178-5-27**] 11:35 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: Famotidine
+   VAP:  NA
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:  c/o to ortho today<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the progress note, the patient is a 77-year-old man with a history of hypertension, diabetes mellitus type 2, prostate cancer, and gastrointestinal bleed, who underwent right total hip arthroplasty complicated by post-operative bleeding.
+
+The patient's 24-hour events include:
+
+* Post-Hct check-up showing a bump but not appropriate for 2 units, with platelet count increasing to 121 and stabilizing at 27.8.
+* Orthopedic recommendations to hold lovenox and WBAT.
+* Bladder pressure decreasing from 14 to 7.
+* Review of systems remains unchanged from admission, except for the patient's thigh pain, which has improved from prior.
+
+The patient's vital signs are:
+
+* Temperature: 37.9°C (100.2°F)
+* Heart rate: 83 beats per minute
+* Blood pressure: 153/57 mmHg
+* Respiratory rate: 16 breaths per minute
+* Oxygen saturation: 98%
+* Heart rhythm: Sinus rhythm
+
+The patient's lab results show:
+
+* Hemoglobin: 125 g/L
+* Hematocrit: 21.4%
+* Platelet count: 97, 121, 125
+* Creatinine: 0.8 mg/dL
+* Glucose: 123 mg/dL
+* Calcium: 8.1 mg/dL
+* Magnesium: 2.2 mg/dL
+* Phosphate: 1.6 mg/dL
+
+The patient's physical examination reveals:
+
+* General: Normal, alert, and awake
+* Cardiovascular: Regular rhythm, no murmurs or gallop
+* Pulmonary: Clear anteriorly
+* Abdomen: Soft, non-tender, obese
+* Extremities: L thigh with tense skin, larger than right, wound dressed and intact, peripheral pulses full and symmetric bilaterally, pain on deep palpation of R thigh, though improved from prior
+
+The patient's assessment and plan include:
+
+* Acute blood loss anemia: Secondary to surgical bleeding, with Hct increasing to 28.4 from 24 after 2 units.
+* Thrombocytopenia: Likely in the setting of 6 units of packed red blood cells without platelets, with platelet count improving without transfusion.
+* Osteoarthritis s/p THA: Pain control with tylenol, oxycodone, and dilaudid, with careful avoidance of sedation/somnolence.
+* DM2: Adequate control for now, with hold on oral meds and RISS.
+* Hypertension: Hold anti-hypertensives until Hct stable.
+* FEN: Replete lytes prn, IVF as above, PO as tolerated, aggressive bowel regimen.
+
+Potential medical complications that can arise include:
+
+* Further bleeding or re-bleeding, which could lead to hypovolemic shock and multi-organ dysfunction.
+* Thrombocytopenia, which could lead to bleeding complications if platelet count continues to decrease.
+* Osteoarthritis s/p THA, which could lead to chronic pain and limited mobility.
+* DM2, which could lead to hyperglycemia and its associated complications.
+* Hypertension, which could lead to cardiovascular complications such as myocardial infarction or stroke.
+* FEN, which could lead to electrolyte imbalances and dehydration.
+
+It is essential to closely monitor the patient's vital signs, lab results, and physical examination to prevent and address these potential complications."
+187958.0,220810,2178-05-29 07:29:00,Physician ,Physician Resident Progress Note,"Chief Complaint:
+   24 Hour Events:
+   -delay in getting second unit of PRBCs, awaiting repeat HCT/PLT,
+   transfusion goal for PLTs <50K.
+   -post Hct check is up to 27.6 from 24, a bump but not appropriate for 2
+   units, plts up too to 121, stable on next check at MN 27.8, on am labs
+   28.4
+   -ortho recs: if Hct not bumping, ok with imaging, hold lovenox, WBAT
+   -bladder pressure 14
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 08:04 PM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-29**] 07:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.2
+   Tcurrent: 37.2
+C (99
+   HR: 83 (83 - 114) bpm
+   BP: 153/57(81) {117/43(63) - 158/114(118)} mmHg
+   RR: 16 (13 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 14 (5 - 15)mmHg
+   Bladder pressure: 7 (6 - 14) mmHg
+   Total In:
+                                                                  2,194 mL
+                                                                     40 mL
+   PO:
+                                                                  1,060 mL
+   TF:
+   IVF:
+                                                                    384 mL
+                                                                     40 mL
+   Blood products:
+                                                                    750 mL
+   Total out:
+                                                                  5,580 mL
+                                                                  1,020 mL
+   Urine:
+                                                                  5,580 mL
+                                                                  1,020 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -3,386 mL
+                                                                   -980 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///34/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   125 K/uL
+   9.9 g/dL
+   114 mg/dL
+   0.7 mg/dL
+   34 mEq/L
+   3.7 mEq/L
+   8 mg/dL
+   99 mEq/L
+   137 mEq/L
+   28.5 %
+   9.5 K/uL
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+                             [**2178-5-27**]  11:33 AM
+                             [**2178-5-27**]  07:22 PM
+                             [**2178-5-28**]  01:38 AM
+                             [**2178-5-28**]  03:57 AM
+                             [**2178-5-28**]  06:45 PM
+                             [**2178-5-28**]  11:54 PM
+                             [**2178-5-29**]  02:57 AM
+   WBC
+   9.7
+   9.5
+   Hct
+   21.4
+   22.8
+   24.6
+   24.2
+   24.0
+   27.6
+   27.8
+   28.5
+   Plt
+   97
+   121
+   125
+   Cr
+   0.8
+   0.7
+   Glucose
+   123
+   114
+   Other labs: PT / PTT / INR:11.9/27.9/1.0, Ca++:8.1 mg/dL, Mg++:2.2
+   mg/dL, PO4:1.6 mg/dL
+   Imaging: No new
+   Microbiology: No new
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+   # Acute blood loss anemia: Secondary to surgical bleeding. No stool
+   output yet to suggest GI source. Hct increased to 28.4 this morning
+   from 24 after 2 units. Has been stable over two measurements. Patient
+   has rec
+d a total of 8 units prbcs since admission.  Orthopedics saw
+   patient this morning, recommended continue monitoring, WBAT.
+   - Continue to cycle Hct q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - Continue to monitor thigh diameter, has been stable at 24in.
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - No need for further imaging at this point as Hct stable.
+   - IVF/blood prn volume; patient appears dry on exam
+   - Bladder pressure 14->6->7. Can continue to monitor, has been stable.
+   # Thrombocytopenia: Likely in the setting of 6 units prbcs without
+   platelets.  Improved without transfusion.
+   - Will continue to monitor pm CBC, if decreasing, can consider plt tx,
+   no need at this time
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, oxycodone and dilaudid being careful to
+   avoid sedation/somnolence
+   - Ortho recs
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT recommending rehab
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Multi Lumen - [**2178-5-27**] 11:35 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:  Continue ICU monitoring for now, can consider c/o later
+   today
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:
+   24 Hour Events:
+   -delay in getting second unit of PRBCs, awaiting repeat HCT/PLT,
+   transfusion goal for PLTs <50K.
+   -post Hct check is up to 27.6 from 24, a bump but not appropriate for 2
+   units, plts up too to 121, stable on next check at MN 27.8, on am labs
+   28.4
+   -ortho recs: if Hct not bumping, ok with imaging, hold lovenox, WBAT
+   -bladder pressure 14
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 08:04 PM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-29**] 07:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.2
+   Tcurrent: 37.2
+C (99
+   HR: 83 (83 - 114) bpm
+   BP: 153/57(81) {117/43(63) - 158/114(118)} mmHg
+   RR: 16 (13 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 14 (5 - 15)mmHg
+   Bladder pressure: 7 (6 - 14) mmHg
+   Total In:
+                                                                  2,194 mL
+                                                                     40 mL
+   PO:
+                                                                  1,060 mL
+   TF:
+   IVF:
+                                                                    384 mL
+                                                                     40 mL
+   Blood products:
+                                                                    750 mL
+   Total out:
+                                                                  5,580 mL
+                                                                  1,020 mL
+   Urine:
+                                                                  5,580 mL
+                                                                  1,020 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -3,386 mL
+                                                                   -980 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///34/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   125 K/uL
+   9.9 g/dL
+   114 mg/dL
+   0.7 mg/dL
+   34 mEq/L
+   3.7 mEq/L
+   8 mg/dL
+   99 mEq/L
+   137 mEq/L
+   28.5 %
+   9.5 K/uL
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+                             [**2178-5-27**]  11:33 AM
+                             [**2178-5-27**]  07:22 PM
+                             [**2178-5-28**]  01:38 AM
+                             [**2178-5-28**]  03:57 AM
+                             [**2178-5-28**]  06:45 PM
+                             [**2178-5-28**]  11:54 PM
+                             [**2178-5-29**]  02:57 AM
+   WBC
+   9.7
+   9.5
+   Hct
+   21.4
+   22.8
+   24.6
+   24.2
+   24.0
+   27.6
+   27.8
+   28.5
+   Plt
+   97
+   121
+   125
+   Cr
+   0.8
+   0.7
+   Glucose
+   123
+   114
+   Other labs: PT / PTT / INR:11.9/27.9/1.0, Ca++:8.1 mg/dL, Mg++:2.2
+   mg/dL, PO4:1.6 mg/dL
+   Imaging: No new
+   Microbiology: No new
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+   # Acute blood loss anemia: Secondary to surgical bleeding. No stool
+   output yet to suggest GI source. Hct increased to 28.4 this morning
+   from 24 after 2 units. Has been stable over two measurements. Patient
+   has rec
+d a total of 8 units prbcs since admission.  Orthopedics saw
+   patient this morning, recommended continue monitoring, WBAT.
+   - Continue to cycle Hct q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - Continue to monitor thigh diameter, has been stable at 24in.
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - No need for further imaging at this point as Hct stable.
+   - IVF/blood prn volume; patient appears dry on exam
+   - Bladder pressure 14->6->7. Can continue to monitor, has been stable.
+   # Thrombocytopenia: Likely in the setting of 6 units prbcs without
+   platelets.  Improved without transfusion.
+   - Will continue to monitor pm CBC, if decreasing, can consider plt tx,
+   no need at this time
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, oxycodone and dilaudid being careful to
+   avoid sedation/somnolence
+   - Ortho recs
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT recommending rehab
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Multi Lumen - [**2178-5-27**] 11:35 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:  Continue ICU monitoring for now, can consider c/o later
+   today<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old male with a history of DM2, HTN, and osteoartitis who underwent a right total hip arthroplasty (THA) and developed post-operative bleeding. He has received a total of 8 units of packed red blood cells (PRBCs) since admission. His hemoglobin (Hb) level has increased to 28.4% after receiving 2 units of PRBCs, but is still anemic. He has also developed thrombocytopenia, but his platelet count has improved without transfusion. His blood pressure is stable, and his peripheral pulses are not assessed. He has a high bladder pressure, but it has decreased from 14 to 7 mmHg. He is receiving pain management with tylenol, oxycodone, and dilaudid, and his anticoagulation therapy has been held due to the bleeding.
+
+Potential Medical Complications:
+
+1. Continued bleeding: The patient's Hb level has increased, but he is still anemic and at risk for further bleeding.
+2. Thrombocytopenia: The patient's platelet count has improved, but he is still at risk for bleeding due to his thrombocytopenia.
+3. Compartment syndrome: The patient's thigh diameter has been stable, but he is at risk for compartment syndrome due to his bleeding and potential re-bleeding.
+4. Infection: The patient is at risk for infection due to his surgical site and potential contamination of his blood products.
+5. Organ failure: The patient is at risk for organ failure, particularly kidney failure, due to his bleeding and potential hypovolemic shock.
+6. Respiratory failure: The patient is at risk for respiratory failure due to his bleeding and potential hypovolemic shock.
+7. Cardiovascular complications: The patient is at risk for cardiovascular complications, such as cardiac arrhythmias and heart failure, due to his bleeding and potential hypovolemic shock.
+
+Recommendations:
+
+1. Continue to monitor the patient's bleeding and Hb level closely.
+2. Consider transfusing the patient for a Hb level <24% to prevent further bleeding.
+3. Continue to monitor the patient's platelet count and consider transfusing for a platelet count <50,000.
+4. Monitor the patient's thigh diameter and watch for signs of compartment syndrome.
+5. Continue to monitor the patient's bladder pressure and watch for signs of urinary retention.
+6. Consider restarting anticoagulation therapy once the patient's Hb level is stabilized.
+7. Monitor the patient's blood pressure and heart rate closely and consider adjusting his pain management regimen as needed."
+187958.0,220810,2178-05-29 07:29:00,Physician ,Physician Resident Progress Note,"Chief Complaint: 77 year old man with hx of hypertension, DM2, prostate
+   cancer s/p XRT, and GI bleed presents following right total hip
+   arthroplasty complicated by post-operative bleeding
+   24 Hour Events:
+   -delay in getting second unit of PRBCs, awaiting repeat HCT/PLT,
+   transfusion goal for PLTs <50K.
+   -post Hct check is up to 27.6 from 24, a bump but not appropriate for 2
+   units, plts up too to 121, stable on next check at MN 27.8, on am labs
+   28.4
+   -ortho recs: if Hct not bumping, ok with imaging, hold lovenox, WBAT
+   -bladder pressure 14
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 08:04 PM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-29**] 07:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.2
+   Tcurrent: 37.2
+C (99
+   HR: 83 (83 - 114) bpm
+   BP: 153/57(81) {117/43(63) - 158/114(118)} mmHg
+   RR: 16 (13 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 14 (5 - 15)mmHg
+   Bladder pressure: 7 (6 - 14) mmHg
+   Total In:
+                                                                  2,194 mL
+                                                                     40 mL
+   PO:
+                                                                  1,060 mL
+   TF:
+   IVF:
+                                                                    384 mL
+                                                                     40 mL
+   Blood products:
+                                                                    750 mL
+   Total out:
+                                                                  5,580 mL
+                                                                  1,020 mL
+   Urine:
+                                                                  5,580 mL
+                                                                  1,020 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -3,386 mL
+                                                                   -980 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///34/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   125 K/uL
+   9.9 g/dL
+   114 mg/dL
+   0.7 mg/dL
+   34 mEq/L
+   3.7 mEq/L
+   8 mg/dL
+   99 mEq/L
+   137 mEq/L
+   28.5 %
+   9.5 K/uL
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+                             [**2178-5-27**]  11:33 AM
+                             [**2178-5-27**]  07:22 PM
+                             [**2178-5-28**]  01:38 AM
+                             [**2178-5-28**]  03:57 AM
+                             [**2178-5-28**]  06:45 PM
+                             [**2178-5-28**]  11:54 PM
+                             [**2178-5-29**]  02:57 AM
+   WBC
+   9.7
+   9.5
+   Hct
+   21.4
+   22.8
+   24.6
+   24.2
+   24.0
+   27.6
+   27.8
+   28.5
+   Plt
+   97
+   121
+   125
+   Cr
+   0.8
+   0.7
+   Glucose
+   123
+   114
+   Other labs: PT / PTT / INR:11.9/27.9/1.0, Ca++:8.1 mg/dL, Mg++:2.2
+   mg/dL, PO4:1.6 mg/dL
+   Imaging: No new
+   Microbiology: No new
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+   # Acute blood loss anemia: Secondary to surgical bleeding. No stool
+   output yet to suggest GI source. Hct increased to 28.4 this morning
+   from 24 after 2 units. Has been stable over two measurements. Patient
+   has rec
+d a total of 8 units prbcs since admission.  Orthopedics saw
+   patient this morning, recommended continue monitoring, WBAT.
+   - Continue to cycle Hct q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - Continue to monitor thigh diameter, has been stable at 24in.
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - No need for further imaging at this point as Hct stable.
+   - IVF/blood prn volume; patient appears dry on exam
+   - Bladder pressure 14->6->7. Can continue to monitor, has been stable.
+   # Thrombocytopenia: Likely in the setting of 6 units prbcs without
+   platelets.  Improved without transfusion.
+   - Will continue to monitor pm CBC, if decreasing, can consider plt tx,
+   no need at this time
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, oxycodone and dilaudid being careful to
+   avoid sedation/somnolence
+   - Ortho recs
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT recommending rehab
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Multi Lumen - [**2178-5-27**] 11:35 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: Famotidine
+   VAP:  NA
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:  Continue ICU monitoring for now, can consider c/o later
+   today
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: 77 year old man with hx of hypertension, DM2, prostate
+   cancer s/p XRT, and GI bleed presents following right total hip
+   arthroplasty complicated by post-operative bleeding
+   24 Hour Events:
+   -delay in getting second unit of PRBCs, awaiting repeat HCT/PLT,
+   transfusion goal for PLTs <50K.
+   -post Hct check is up to 27.6 from 24, a bump but not appropriate for 2
+   units, plts up too to 121, stable on next check at MN 27.8, on am labs
+   28.4
+   -ortho recs: if Hct not bumping, ok with imaging, hold lovenox, WBAT
+   -bladder pressure 14
+   Allergies:
+   Lisinopril
+   Cough;
+   Aspirin
+   Anemia;
+   Last dose of Antibiotics:
+   Cefazolin - [**2178-5-27**] 08:04 PM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2178-5-29**] 07:28 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 37.9
+C (100.2
+   Tcurrent: 37.2
+C (99
+   HR: 83 (83 - 114) bpm
+   BP: 153/57(81) {117/43(63) - 158/114(118)} mmHg
+   RR: 16 (13 - 23) insp/min
+   SpO2: 98%
+   Heart rhythm: SR (Sinus Rhythm)
+    CVP: 14 (5 - 15)mmHg
+   Bladder pressure: 7 (6 - 14) mmHg
+   Total In:
+                                                                  2,194 mL
+                                                                     40 mL
+   PO:
+                                                                  1,060 mL
+   TF:
+   IVF:
+                                                                    384 mL
+                                                                     40 mL
+   Blood products:
+                                                                    750 mL
+   Total out:
+                                                                  5,580 mL
+                                                                  1,020 mL
+   Urine:
+                                                                  5,580 mL
+                                                                  1,020 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                 -3,386 mL
+                                                                   -980 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 98%
+   ABG: ///34/
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   125 K/uL
+   9.9 g/dL
+   114 mg/dL
+   0.7 mg/dL
+   34 mEq/L
+   3.7 mEq/L
+   8 mg/dL
+   99 mEq/L
+   137 mEq/L
+   28.5 %
+   9.5 K/uL
+        [image002.jpg]
+                             [**2178-5-27**]  03:30 AM
+                             [**2178-5-27**]  11:33 AM
+                             [**2178-5-27**]  07:22 PM
+                             [**2178-5-28**]  01:38 AM
+                             [**2178-5-28**]  03:57 AM
+                             [**2178-5-28**]  06:45 PM
+                             [**2178-5-28**]  11:54 PM
+                             [**2178-5-29**]  02:57 AM
+   WBC
+   9.7
+   9.5
+   Hct
+   21.4
+   22.8
+   24.6
+   24.2
+   24.0
+   27.6
+   27.8
+   28.5
+   Plt
+   97
+   121
+   125
+   Cr
+   0.8
+   0.7
+   Glucose
+   123
+   114
+   Other labs: PT / PTT / INR:11.9/27.9/1.0, Ca++:8.1 mg/dL, Mg++:2.2
+   mg/dL, PO4:1.6 mg/dL
+   Imaging: No new
+   Microbiology: No new
+   Assessment and Plan
+   77 year old man with DM2, HTN, osteoartitis s/p right THA complicated
+   post-op bleeding.
+   # Acute blood loss anemia: Secondary to surgical bleeding. No stool
+   output yet to suggest GI source. Hct increased to 28.4 this morning
+   from 24 after 2 units. Has been stable over two measurements. Patient
+   has rec
+d a total of 8 units prbcs since admission.  Orthopedics saw
+   patient this morning, recommended continue monitoring, WBAT.
+   - Continue to cycle Hct q6
+   - Transfuse for <24% as this would likely suggest significant
+   re-bleeding
+   - Guaiac all stools
+   - Continue to monitor thigh diameter, has been stable at 24in.
+   - Will continue to monitor for signs of compartment syndrome (ie pain
+   out of proportion to exam)
+   - No need for further imaging at this point as Hct stable.
+   - IVF/blood prn volume; patient appears dry on exam
+   - Bladder pressure 14->6->7. Can continue to monitor, has been stable.
+   # Thrombocytopenia: Likely in the setting of 6 units prbcs without
+   platelets.  Improved without transfusion.
+   - Will continue to monitor pm CBC, if decreasing, can consider plt tx,
+   no need at this time
+   # Osteoarthritis s/p THA: now POD#1 from surgery.
+   - Pain control with tylenol, oxycodone and dilaudid being careful to
+   avoid sedation/somnolence
+   - Ortho recs
+   - Hold LMWH for now in the setting of bleed, will discuss
+   anticoagulation with ortho once Hct stabilized
+   - Monitor peripheral pulses
+   - PT recommending rehab
+   # DM2: Adequate control for now.
+   - Hold oral meds for now (metformin, actos, glipizide)
+   - RISS
+   # Hypertension: hold anti-hypertensives until Hct stable
+   # FEN: Replete lytes prn, IVF as above, PO as tolerated
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2178-5-26**] 09:30 PM
+   Multi Lumen - [**2178-5-27**] 11:35 AM
+   Prophylaxis:
+   DVT: Boots
+   Stress ulcer: Famotidine
+   VAP:  NA
+   Comments:
+   Communication:  Comments:
+   Code status: Full code
+   Disposition:  Continue ICU monitoring for now, can consider c/o later
+   today<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 77-year-old man with a history of hypertension, diabetes mellitus type 2, prostate cancer, and gastrointestinal bleed, who underwent right total hip arthroplasty complicated by post-operative bleeding. He received 2 units of packed red blood cells (PRBCs) and his hemoglobin (Hb) level increased to 28.4 from 24. He is currently being monitored in the ICU for bleeding complications, thrombocytopenia, and potential compartment syndrome.
+
+Potential Medical Complications:
+
+1. Acute Blood Loss Anemia: The patient's Hb level is still low, and he may require further transfusions to maintain a stable hemoglobin level.
+2. Thrombocytopenia: The patient's platelet count has improved without transfusion, but it is still low, and further monitoring is necessary to determine if transfusion is required.
+3. Compartment Syndrome: The patient's thigh diameter is stable, but he needs to be monitored for signs of compartment syndrome, such as pain out of proportion to exam.
+4. Bleeding Complications: The patient's bleeding has slowed, but he needs to be monitored for further bleeding complications, especially in the setting of continued anticoagulation.
+5. Osteoarthritis: The patient's pain is being managed with pain medication, but he needs to be monitored for signs of worsening pain or decreased mobility.
+6. Diabetes Mellitus Type 2: The patient's blood sugar levels are being monitored, but he may require further management to maintain adequate control.
+7. Hypertension: The patient's blood pressure is being monitored, but he may require further management to maintain adequate control.
+8. Fluid Overload: The patient's fluid balance is being monitored, but he may require further management to prevent fluid overload.
+
+Assessment and Plan:
+
+1. Continue to monitor the patient's Hb level and transfuse as necessary.
+2. Monitor the patient's platelet count and transfuse if necessary.
+3. Continue to monitor the patient's thigh diameter for signs of compartment syndrome.
+4. Continue to manage the patient's pain with pain medication.
+5. Continue to monitor the patient's blood sugar levels and manage as necessary.
+6. Continue to monitor the patient's blood pressure and manage as necessary.
+7. Continue to monitor the patient's fluid balance and manage as necessary.
+8. Continue to follow the patient's orthopedic and urologic recommendations."

@@ -1,0 +1,3235 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+119216.0,247217,2108-07-10 06:54:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - SBPs in 90s all night, found to be in 70s in the AM, bolused 500cc
+   NS, with BP returning to 90s.
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Vancomycin - [**2108-7-9**] 11:40 PM
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Ceftriaxone - [**2108-7-10**] 12:32 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-10**] 06:39 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.2
+C (97.2
+   Tcurrent: 36.2
+C (97.2
+   HR: 61 (61 - 75) bpm
+   BP: 74/32(42) {74/32(42) - 122/52(66)} mmHg
+   RR: 24 (17 - 35) insp/min
+   SpO2: 93%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 63 Inch
+             Total In:
+                                                                     42 mL
+                                                                  1,381 mL
+   PO:
+             TF:
+   IVF:
+                                                                     42 mL
+                                                                  1,381 mL
+   Blood products:
+   Total out:
+                                                                    320 mL
+                                                                    380 mL
+   Urine:
+                                                                    320 mL
+                                                                    380 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -278 mL
+                                                                  1,001 mL
+   Respiratory support
+   SpO2: 93%
+   ABG: ///24/
+   Physical Examination
+   General Elderly woman lying in bed, no acute distress
+   HEENT Sclera anicteric, Dry MM
+   Neck JVD
+   Pulm Lungs with few bilateral rales (patient's cooperation is limited)
+   CV Irregularly irregular S1 S2 no m/r/g
+   Abd Soft +bowel sounds mild tender LLQ, guiac+ in ER
+   Extrem Warm no edema, palpable distal pulses
+   Neuro Opens eyes to voice, tracks, follows commands intermittently.
+   Wiggles toes to command.
+   Derm Mild erythema near sacrum
+   Labs / Radiology
+   310 K/uL
+   10.3 g/dL
+   123 mg/dL
+   0.4 mg/dL
+   24 mEq/L
+   3.4 mEq/L
+   6 mg/dL
+   105 mEq/L
+   136 mEq/L
+   31.8 %
+   8.6 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+   WBC
+   8.6
+   Hct
+   31.8
+   Plt
+   310
+   Cr
+   0.4
+   Glucose
+   123
+   Other labs: Mg++:2.2 mg/dL
+   Assessment and Plan
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   98 Russian speaking female presents with lethargy and fever.
+   .
+   * Lethargy
+   Probably due to infection, dehydration.
+   - Treat diarrhea and ?UTI as below
+   - Continue IVF overnight
+   - Follow neuro exam. Will hold on neuroimaging tonight, no localizing
+   deficits.
+   .
+   * Diarrhea
+   Patient with multiple presentations with diarrhea, frequently following
+   quinolones.
+   - Repeat C diff assay
+   - Empiric PO vancomycin. Family cannot verify ?allergy in OMR. Systemic
+   absorption is minimal, so I believe this is a reasonable option for her
+   especially as she has had multiple recurrences on metronidazole.
+   - HOLD on further antimotility agents
+   .
+   * Question UTI
+   Mild pyuria on urinalysis.
+   - Will treat with TMPSMX empirically, discontinue if culture negative.
+   .
+   * Pleural effusions
+   CXR shows bilateral effusions. Cause uncertain, recent echo fairily
+   unremarkable. She did have a left sided effusion on [**6-28**] CXR. With her
+   history of breast cancer, malignancy is a possibility. Think infection
+   is less likely.
+   - Consider diagnostic thoracentesis
+   .
+   * Atrial fibrillation
+   Not on anticoagulation as an outpatient.
+   - Continue ASA daily
+   .
+   * Hypertension
+   - Hold home antihypertensives for now, may reintroduce if BP remains
+   stable overnight
+   ICU Care
+   Nutrition: regular (thickened)
+   Glycemic Control: Blood sugar well controlled
+   Lines:
+   18 Gauge - [**2108-7-9**] 09:02 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: Not indicated
+   VAP: HOB elevation
+   Comments:
+   Communication: Patient discussed on interdisciplinary rounds  Comments:
+   Code status: Full code
+   Disposition: Transfer to floor
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - SBPs in 90s all night, found to be in 70s in the AM, bolused 500cc
+   NS, with BP returning to 90s.
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Vancomycin - [**2108-7-9**] 11:40 PM
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Ceftriaxone - [**2108-7-10**] 12:32 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-10**] 06:39 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.2
+C (97.2
+   Tcurrent: 36.2
+C (97.2
+   HR: 61 (61 - 75) bpm
+   BP: 74/32(42) {74/32(42) - 122/52(66)} mmHg
+   RR: 24 (17 - 35) insp/min
+   SpO2: 93%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 63 Inch
+             Total In:
+                                                                     42 mL
+                                                                  1,381 mL
+   PO:
+             TF:
+   IVF:
+                                                                     42 mL
+                                                                  1,381 mL
+   Blood products:
+   Total out:
+                                                                    320 mL
+                                                                    380 mL
+   Urine:
+                                                                    320 mL
+                                                                    380 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -278 mL
+                                                                  1,001 mL
+   Respiratory support
+   SpO2: 93%
+   ABG: ///24/
+   Physical Examination
+   General Elderly woman lying in bed, no acute distress
+   HEENT Sclera anicteric, Dry MM
+   Neck JVD
+   Pulm Lungs with few bilateral rales (patient's cooperation is limited)
+   CV Irregularly irregular S1 S2 no m/r/g
+   Abd Soft +bowel sounds mild tender LLQ, guiac+ in ER
+   Extrem Warm no edema, palpable distal pulses
+   Neuro Opens eyes to voice, tracks, follows commands intermittently.
+   Wiggles toes to command.
+   Derm Mild erythema near sacrum
+   Labs / Radiology
+   310 K/uL
+   10.3 g/dL
+   123 mg/dL
+   0.4 mg/dL
+   24 mEq/L
+   3.4 mEq/L
+   6 mg/dL
+   105 mEq/L
+   136 mEq/L
+   31.8 %
+   8.6 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+   WBC
+   8.6
+   Hct
+   31.8
+   Plt
+   310
+   Cr
+   0.4
+   Glucose
+   123
+   Other labs: Mg++:2.2 mg/dL
+   Assessment and Plan
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   98 Russian speaking female presents with lethargy and fever.
+   .
+   * Lethargy
+   Probably due to infection, dehydration.
+   - Treat diarrhea and ?UTI as below
+   - Continue IVF overnight
+   - Follow neuro exam. Will hold on neuroimaging tonight, no localizing
+   deficits.
+   .
+   * Diarrhea
+   Patient with multiple presentations with diarrhea, frequently following
+   quinolones.
+   - Repeat C diff assay
+   - Empiric PO vancomycin. Family cannot verify ?allergy in OMR. Systemic
+   absorption is minimal, so I believe this is a reasonable option for her
+   especially as she has had multiple recurrences on metronidazole.
+   - HOLD on further antimotility agents
+   .
+   * Question UTI
+   Mild pyuria on urinalysis.
+   - Will treat with TMPSMX empirically, discontinue if culture negative.
+   .
+   * Pleural effusions
+   CXR shows bilateral effusions. Cause uncertain, recent echo fairily
+   unremarkable. She did have a left sided effusion on [**6-28**] CXR. With her
+   history of breast cancer, malignancy is a possibility. Think infection
+   is less likely.
+   - Consider diagnostic thoracentesis
+   .
+   * Atrial fibrillation
+   Not on anticoagulation as an outpatient.
+   - Continue ASA daily
+   .
+   * Hypertension
+   - Hold home antihypertensives for now, may reintroduce if BP remains
+   stable overnight
+   ICU Care
+   Nutrition: regular (thickened)
+   Glycemic Control: Blood sugar well controlled
+   Lines:
+   18 Gauge - [**2108-7-9**] 09:02 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: Not indicated
+   VAP: HOB elevation
+   Comments:
+   Communication: Patient discussed on interdisciplinary rounds  Comments:
+   Code status: Full code
+   Disposition: Transfer to floor<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 98-year-old Russian-speaking female admitted to the ICU with lethargy and fever. She has a history of breast cancer and has been experiencing diarrhea, which has recurred multiple times in the past, including after taking quinolones. She has also been diagnosed with atrial fibrillation and has a history of hypertension. The patient's vital signs are stable, with a temperature of 36.2°C, heart rate of 61 bpm, and blood pressure of 74/32 mmHg. She has a SpO2 of 93% and is receiving oxygen therapy. The patient's physical examination is notable for mild erythema near the sacrum, and her laboratory results show mild anemia, hyponatremia, and hyperglycemia.
+
+Potential medical complications:
+
+1. Diarrhea: The patient's diarrhea is a significant concern, as it can lead to dehydration and electrolyte imbalances. The patient's history of recurrent diarrhea and antibiotic use may indicate a possible underlying condition such as C. difficile infection.
+2. Urinary tract infection (UTI): The patient's mild pyuria on urinalysis suggests the possibility of a UTI, which could lead to sepsis and kidney damage if left untreated.
+3. Hypotension: The patient's blood pressure is low, which could be a sign of dehydration or sepsis. Hypotension can lead to organ damage and decreased perfusion to vital organs.
+4. Atrial fibrillation: The patient's atrial fibrillation is a significant concern, as it can lead to decreased cardiac output and increased risk of stroke. The patient is not on anticoagulation therapy, which increases her risk of stroke.
+5. Pleural effusions: The patient's bilateral pleural effusions are a concern, as they could be a sign of a underlying condition such as malignancy or infection. Diagnostic thoracentesis may be necessary to determine the cause of the effusions.
+6. Dehydration: The patient's fluid balance is concerning, with a negative balance of 278 mL over the past 24 hours. Dehydration can lead to decreased perfusion to vital organs and increased risk of complications.
+7. Respiratory failure: The patient's SpO2 of 93% suggests that she may be at risk for respiratory failure. The patient's respiratory status should be closely monitored, and oxygen therapy adjusted as necessary.
+
+Overall, the patient's condition is complex, and close monitoring and management are necessary to prevent complications and improve her outcomes."
+119216.0,247217,2108-07-10 06:54:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - SBPs in 90s all night, found to be in 70s in the AM, bolused 500cc
+   NS, with BP returning to 90s.
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Vancomycin - [**2108-7-9**] 11:40 PM
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Ceftriaxone - [**2108-7-10**] 12:32 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-10**] 06:39 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.2
+C (97.2
+   Tcurrent: 36.2
+C (97.2
+   HR: 61 (61 - 75) bpm
+   BP: 74/32(42) {74/32(42) - 122/52(66)} mmHg
+   RR: 24 (17 - 35) insp/min
+   SpO2: 93%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 63 Inch
+             Total In:
+                                                                     42 mL
+                                                                  1,381 mL
+   PO:
+             TF:
+   IVF:
+                                                                     42 mL
+                                                                  1,381 mL
+   Blood products:
+   Total out:
+                                                                    320 mL
+                                                                    380 mL
+   Urine:
+                                                                    320 mL
+                                                                    380 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -278 mL
+                                                                  1,001 mL
+   Respiratory support
+   SpO2: 93%
+   ABG: ///24/
+   Physical Examination
+   General Elderly woman lying in bed, no acute distress
+   HEENT Sclera anicteric, Dry MM
+   Neck JVD
+   Pulm Lungs with few bilateral rales (patient's cooperation is limited)
+   CV Irregularly irregular S1 S2 no m/r/g
+   Abd Soft +bowel sounds mild tender LLQ, guiac+ in ER
+   Extrem Warm no edema, palpable distal pulses
+   Neuro Opens eyes to voice, tracks, follows commands intermittently.
+   Wiggles toes to command.
+   Derm Mild erythema near sacrum
+   Labs / Radiology
+   310 K/uL
+   10.3 g/dL
+   123 mg/dL
+   0.4 mg/dL
+   24 mEq/L
+   3.4 mEq/L
+   6 mg/dL
+   105 mEq/L
+   136 mEq/L
+   31.8 %
+   8.6 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+   WBC
+   8.6
+   Hct
+   31.8
+   Plt
+   310
+   Cr
+   0.4
+   Glucose
+   123
+   Other labs: Mg++:2.2 mg/dL
+   C diff
+ positive
+   UCx pending
+   BCx pending
+   Assessment and Plan
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   98 Russian speaking female presents with lethargy and fever.
+   .
+   * Lethargy
+   Probably due to infection, dehydration.
+   - Treat C diff diarrhea and ?UTI as below
+   - Continue IVF overnight
+   - Follow neuro exam. Will hold on neuroimaging tonight, no localizing
+   deficits.
+   .
+   * Diarrhea
+   Patient is positive for C diff.  Patient has had multiple other
+   occurrences of C diff colitis that recurred despite metronidazole
+   treatment, so will continue with PO vancomycin.
+   - PO vancomycin - Family cannot verify ?allergy in OMR. Systemic
+   absorption is minimal
+   - HOLD on further antimotility agents
+   .
+   * Hypotension
+ patient is clinically dry, likely secondary to losses
+   from diarrhea.  Hypotension is responsive to fluids
+   - bolus IVF as needed
+   .
+   * Question UTI
+ Mild pyuria found on on urinalysis.
+   - not cooperative with PO bactrim, will cover with IV ceftrixone for
+   now.  If UCx returns negative, ceftriaxone can be stopped
+   .
+   * Pleural effusions
+   CXR shows bilateral effusions. Cause uncertain, recent echo fairily
+   unremarkable. She did have a left sided effusion on [**6-28**] CXR. With her
+   history of breast cancer, malignancy is a possibility. Think infection
+   is less likely.
+   - Consider diagnostic thoracentesis
+   .
+   * Atrial fibrillation
+   Not on anticoagulation as an outpatient.
+   - Continue ASA daily
+   .
+   * Hypertension
+   - Hold home antihypertensives for now as patient is currently
+   hypotensive, may reintroduce if BP stabilizes
+   ICU Care
+   Nutrition: regular (thickened)
+   Glycemic Control: Blood sugar well controlled
+   Lines:
+   18 Gauge - [**2108-7-9**] 09:02 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: Not indicated
+   VAP: HOB elevation
+   Comments:
+   Communication:  Comments:  Son
+   [**Name (NI) 129**] status: Full code
+   Disposition: Transfer to floor once BP is stabilized
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - SBPs in 90s all night, found to be in 70s in the AM, bolused 500cc
+   NS, with BP returning to 90s.
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Vancomycin - [**2108-7-9**] 11:40 PM
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Ceftriaxone - [**2108-7-10**] 12:32 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-10**] 06:39 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.2
+C (97.2
+   Tcurrent: 36.2
+C (97.2
+   HR: 61 (61 - 75) bpm
+   BP: 74/32(42) {74/32(42) - 122/52(66)} mmHg
+   RR: 24 (17 - 35) insp/min
+   SpO2: 93%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 63 Inch
+             Total In:
+                                                                     42 mL
+                                                                  1,381 mL
+   PO:
+             TF:
+   IVF:
+                                                                     42 mL
+                                                                  1,381 mL
+   Blood products:
+   Total out:
+                                                                    320 mL
+                                                                    380 mL
+   Urine:
+                                                                    320 mL
+                                                                    380 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -278 mL
+                                                                  1,001 mL
+   Respiratory support
+   SpO2: 93%
+   ABG: ///24/
+   Physical Examination
+   General Elderly woman lying in bed, no acute distress
+   HEENT Sclera anicteric, Dry MM
+   Neck JVD
+   Pulm Lungs with few bilateral rales (patient's cooperation is limited)
+   CV Irregularly irregular S1 S2 no m/r/g
+   Abd Soft +bowel sounds mild tender LLQ, guiac+ in ER
+   Extrem Warm no edema, palpable distal pulses
+   Neuro Opens eyes to voice, tracks, follows commands intermittently.
+   Wiggles toes to command.
+   Derm Mild erythema near sacrum
+   Labs / Radiology
+   310 K/uL
+   10.3 g/dL
+   123 mg/dL
+   0.4 mg/dL
+   24 mEq/L
+   3.4 mEq/L
+   6 mg/dL
+   105 mEq/L
+   136 mEq/L
+   31.8 %
+   8.6 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+   WBC
+   8.6
+   Hct
+   31.8
+   Plt
+   310
+   Cr
+   0.4
+   Glucose
+   123
+   Other labs: Mg++:2.2 mg/dL
+   C diff
+ positive
+   UCx pending
+   BCx pending
+   Assessment and Plan
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   98 Russian speaking female presents with lethargy and fever.
+   .
+   * Lethargy
+   Probably due to infection, dehydration.
+   - Treat C diff diarrhea and ?UTI as below
+   - Continue IVF overnight
+   - Follow neuro exam. Will hold on neuroimaging tonight, no localizing
+   deficits.
+   .
+   * Diarrhea
+   Patient is positive for C diff.  Patient has had multiple other
+   occurrences of C diff colitis that recurred despite metronidazole
+   treatment, so will continue with PO vancomycin.
+   - PO vancomycin - Family cannot verify ?allergy in OMR. Systemic
+   absorption is minimal
+   - HOLD on further antimotility agents
+   .
+   * Hypotension
+ patient is clinically dry, likely secondary to losses
+   from diarrhea.  Hypotension is responsive to fluids
+   - bolus IVF as needed
+   .
+   * Question UTI
+ Mild pyuria found on on urinalysis.
+   - not cooperative with PO bactrim, will cover with IV ceftrixone for
+   now.  If UCx returns negative, ceftriaxone can be stopped
+   .
+   * Pleural effusions
+   CXR shows bilateral effusions. Cause uncertain, recent echo fairily
+   unremarkable. She did have a left sided effusion on [**6-28**] CXR. With her
+   history of breast cancer, malignancy is a possibility. Think infection
+   is less likely.
+   - Consider diagnostic thoracentesis
+   .
+   * Atrial fibrillation
+   Not on anticoagulation as an outpatient.
+   - Continue ASA daily
+   .
+   * Hypertension
+   - Hold home antihypertensives for now as patient is currently
+   hypotensive, may reintroduce if BP stabilizes
+   ICU Care
+   Nutrition: regular (thickened)
+   Glycemic Control: Blood sugar well controlled
+   Lines:
+   18 Gauge - [**2108-7-9**] 09:02 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: Not indicated
+   VAP: HOB elevation
+   Comments:
+   Communication:  Comments:  Son
+   [**Name (NI) 129**] status: Full code
+   Disposition: Transfer to floor once BP is stabilized<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 98-year-old Russian-speaking female admitted to the ICU with lethargy and fever. She has a history of C. difficile colitis and is currently positive for C. difficile. She has developed diarrhea, urinary tract infection (UTI), hypotension, atrial fibrillation, and pleural effusions. Her physical examination is notable for mild erythema near the sacrum, soft and tender abdomen, and warm extremities. Her laboratory results show anemia, leukocytosis, and hyponatremia. She is receiving IV fluids and antibiotics, and her respiratory support includes supplemental oxygen.
+
+Potential Medical Complications:
+
+1. Sepsis: The patient's UTI and C. difficile colitis may lead to sepsis, which can cause organ dysfunction and death.
+2. Respiratory failure: The patient's pleural effusions and atrial fibrillation may compromise her respiratory function, leading to respiratory failure.
+3. Cardiovascular complications: The patient's atrial fibrillation may increase her risk of stroke, and her hypotension may be a sign of cardiac compromise.
+4. Gastrointestinal complications: The patient's C. difficile colitis may lead to gastrointestinal bleeding, perforation, or abscesses.
+5. Neurological complications: The patient's altered mental status and leukocytosis may indicate a neurological infection or inflammation, which can lead to neurological complications such as seizures or brain edema.
+6. Infection-related kidney injury: The patient's UTI and C. difficile colitis may cause kidney injury, leading to acute kidney injury or chronic kidney disease.
+7. Malnutrition: The patient's diarrhea and anorexia may lead to malnutrition, which can exacerbate her underlying medical conditions and increase her risk of complications.
+8. Pressure ulcers: The patient's immobility and poor circulation may increase her risk of developing pressure ulcers.
+9. Deep vein thrombosis: The patient's immobility and age may increase her risk of developing deep vein thrombosis, which can lead to pulmonary embolism.
+10. Hospital-acquired infections: The patient's hospital stay may increase her risk of acquiring new infections, such as ventilator-associated pneumonia or central line-associated bloodstream infection."
+119216.0,247217,2108-07-10 10:57:00,Physician ,Physician Attending Progress Note,"Chief Complaint:  C diff colitis, hypotension, pleural effusions
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   In MICU overnight, she was hemodynamically stable, although required
+   one bolus of fluid this AM for BP 70-80's. Oxygenation good on minimal
+   supplemental oxygen.
+   Afebrile. WBC normal.
+   Urine output about 30 cc/hr
+   24 Hour Events:
+   History obtained from [**Hospital 31**] Medical records
+   Patient unable to provide history: Language barrier
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Vancomycin - [**2108-7-9**] 11:40 PM
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Ceftriaxone - [**2108-7-10**] 12:32 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-10**] 10:56 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.2
+C (97.2
+   Tcurrent: 36.1
+C (97
+   HR: 65 (61 - 75) bpm
+   BP: 101/36(53) {74/32(42) - 122/53(68)} mmHg
+   RR: 24 (17 - 35) insp/min
+   SpO2: 97%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 63 Inch
+             Total In:
+                                                                     42 mL
+                                                                  1,542 mL
+   PO:
+             TF:
+   IVF:
+                                                                     42 mL
+                                                                  1,542 mL
+   Blood products:
+   Total out:
+                                                                    320 mL
+                                                                    510 mL
+   Urine:
+                                                                    320 mL
+                                                                    510 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -278 mL
+                                                                  1,032 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ///24/
+   Physical Examination
+   General Appearance: No(t) Well nourished, No acute distress, No(t)
+   Overweight / Obese, Thin, No(t) Anxious, No(t) Diaphoretic, frail
+   Eyes / Conjunctiva: PERRL, No(t) Pupils dilated, No(t) Sclera edema
+   Head, Ears, Nose, Throat: Normocephalic, No(t) Endotracheal tube, No(t)
+   NG tube, No(t) OG tube
+   Cardiovascular: (PMI Normal, No(t) Hyperdynamic), (S1: Normal, No(t)
+   Absent), (S2: Normal, No(t) Distant, No(t) Loud, No(t) Widely split ,
+   No(t) Fixed), No(t) S3, No(t) S4, No(t) Rub, (Murmur: No(t) Systolic,
+   No(t) Diastolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric, No(t) Paradoxical), (Breath
+   Sounds: No(t) Clear : , Crackles : Scattered, No(t) Bronchial: , No(t)
+   Wheezes : , No(t) Diminished: , No(t) Absent : , No(t) Rhonchorous: )
+   Abdominal: Soft, No(t) Non-tender, Bowel sounds present, No(t)
+   Distended, Tender: diffusely, No(t) Obese
+   Extremities: Right: Trace edema, Left: Trace, No(t) Cyanosis, No(t)
+   Clubbing
+   Musculoskeletal: Muscle wasting, No(t) Unable to stand
+   Skin:  Warm, No(t) Rash: , No(t) Jaundice
+   Neurologic: Attentive, No(t) Follows simple commands, Responds to:
+   Verbal stimuli, Oriented (to): Not able to assess; language barrier,
+   Movement: Purposeful, No(t) Sedated, No(t) Paralyzed, Tone: Not
+   assessed
+   Labs / Radiology
+   10.3 g/dL
+   310 K/uL
+   123 mg/dL
+   0.4 mg/dL
+   24 mEq/L
+   3.4 mEq/L
+   6 mg/dL
+   105 mEq/L
+   136 mEq/L
+   31.8 %
+   8.6 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+   WBC
+   8.6
+   Hct
+   31.8
+   Plt
+   310
+   Cr
+   0.4
+   Glucose
+   123
+   Other labs: Mg++:2.2 mg/dL
+   Imaging: CXR: Bilateral pleural effusions. Some evidence of increased
+   interstitial edema
+   Assessment and Plan
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   ==============
+   Treatment started for c diff coliitis. Given hx of recurrent infection,
+   being treated with vanco and flagyl.
+   BP remains low. Will give additional fluid to point that urine output >
+   40 cc/hour.
+   Heart rate elevated in afib with decreased BP. Will monitor for
+   response to fluids.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2108-7-9**] 09:02 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer:
+   VAP:
+   Comments: Not applicable.
+   Communication: Patient discussed on interdisciplinary rounds , ICU
+   Code status: Full code
+   Disposition :ICU
+   Total time spent: 30 minutes
+   Patient is critically ill
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint:  C diff colitis, hypotension, pleural effusions
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   In MICU overnight, she was hemodynamically stable, although required
+   one bolus of fluid this AM for BP 70-80's. Oxygenation good on minimal
+   supplemental oxygen.
+   Afebrile. WBC normal.
+   Urine output about 30 cc/hr
+   24 Hour Events:
+   History obtained from [**Hospital 31**] Medical records
+   Patient unable to provide history: Language barrier
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Vancomycin - [**2108-7-9**] 11:40 PM
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Ceftriaxone - [**2108-7-10**] 12:32 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-10**] 10:56 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.2
+C (97.2
+   Tcurrent: 36.1
+C (97
+   HR: 65 (61 - 75) bpm
+   BP: 101/36(53) {74/32(42) - 122/53(68)} mmHg
+   RR: 24 (17 - 35) insp/min
+   SpO2: 97%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Height: 63 Inch
+             Total In:
+                                                                     42 mL
+                                                                  1,542 mL
+   PO:
+             TF:
+   IVF:
+                                                                     42 mL
+                                                                  1,542 mL
+   Blood products:
+   Total out:
+                                                                    320 mL
+                                                                    510 mL
+   Urine:
+                                                                    320 mL
+                                                                    510 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                   -278 mL
+                                                                  1,032 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 97%
+   ABG: ///24/
+   Physical Examination
+   General Appearance: No(t) Well nourished, No acute distress, No(t)
+   Overweight / Obese, Thin, No(t) Anxious, No(t) Diaphoretic, frail
+   Eyes / Conjunctiva: PERRL, No(t) Pupils dilated, No(t) Sclera edema
+   Head, Ears, Nose, Throat: Normocephalic, No(t) Endotracheal tube, No(t)
+   NG tube, No(t) OG tube
+   Cardiovascular: (PMI Normal, No(t) Hyperdynamic), (S1: Normal, No(t)
+   Absent), (S2: Normal, No(t) Distant, No(t) Loud, No(t) Widely split ,
+   No(t) Fixed), No(t) S3, No(t) S4, No(t) Rub, (Murmur: No(t) Systolic,
+   No(t) Diastolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric, No(t) Paradoxical), (Breath
+   Sounds: No(t) Clear : , Crackles : Scattered, No(t) Bronchial: , No(t)
+   Wheezes : , No(t) Diminished: , No(t) Absent : , No(t) Rhonchorous: )
+   Abdominal: Soft, No(t) Non-tender, Bowel sounds present, No(t)
+   Distended, Tender: diffusely, No(t) Obese
+   Extremities: Right: Trace edema, Left: Trace, No(t) Cyanosis, No(t)
+   Clubbing
+   Musculoskeletal: Muscle wasting, No(t) Unable to stand
+   Skin:  Warm, No(t) Rash: , No(t) Jaundice
+   Neurologic: Attentive, No(t) Follows simple commands, Responds to:
+   Verbal stimuli, Oriented (to): Not able to assess; language barrier,
+   Movement: Purposeful, No(t) Sedated, No(t) Paralyzed, Tone: Not
+   assessed
+   Labs / Radiology
+   10.3 g/dL
+   310 K/uL
+   123 mg/dL
+   0.4 mg/dL
+   24 mEq/L
+   3.4 mEq/L
+   6 mg/dL
+   105 mEq/L
+   136 mEq/L
+   31.8 %
+   8.6 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+   WBC
+   8.6
+   Hct
+   31.8
+   Plt
+   310
+   Cr
+   0.4
+   Glucose
+   123
+   Other labs: Mg++:2.2 mg/dL
+   Imaging: CXR: Bilateral pleural effusions. Some evidence of increased
+   interstitial edema
+   Assessment and Plan
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   ==============
+   Treatment started for c diff coliitis. Given hx of recurrent infection,
+   being treated with vanco and flagyl.
+   BP remains low. Will give additional fluid to point that urine output >
+   40 cc/hour.
+   Heart rate elevated in afib with decreased BP. Will monitor for
+   response to fluids.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2108-7-9**] 09:02 PM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer:
+   VAP:
+   Comments: Not applicable.
+   Communication: Patient discussed on interdisciplinary rounds , ICU
+   Code status: Full code
+   Disposition :ICU
+   Total time spent: 30 minutes
+   Patient is critically ill<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a critically ill individual admitted to the ICU with a chief complaint of C. diff colitis, hypotension, and pleural effusions. The patient has a history of recurrent infections and is being treated with vancomycin and flagyl for C. diff colitis. The patient's vital signs are stable, with a temperature of 36.2°C, heart rate of 65 beats per minute, and blood pressure of 101/36 mmHg. The patient has a normal white blood cell count and is afebrile. The patient's urine output is about 30 cc/hr, and they are receiving fluids to increase urine output to 40 cc/hour.
+
+Potential Medical Complications:
+
+1. Sepsis: The patient's C. diff colitis and UTI increase the risk of sepsis, which can lead to organ dysfunction and death.
+2. Hypotension: The patient's low blood pressure may worsen if not properly managed, leading to organ hypoperfusion and potential organ failure.
+3. Respiratory Failure: The patient's pleural effusions may compromise lung function, leading to respiratory failure and the need for mechanical ventilation.
+4. Cardiac Complications: The patient's atrial fibrillation may worsen if not properly managed, leading to cardiac complications such as stroke or heart failure.
+5. Nutritional Complications: The patient's critical illness may lead to malnutrition if not properly managed, which can worsen outcomes and increase the risk of complications.
+6. Infection-Related Complications: The patient's C. diff colitis and UTI increase the risk of infection-related complications, such as sepsis, abscesses, and organ failure.
+7. Organ Failure: The patient's critical illness may lead to organ failure, such as kidney failure, liver failure, or respiratory failure, if not properly managed.
+
+Recommendations:
+
+1. Continue treatment for C. diff colitis and UTI with vancomycin and flagyl.
+2. Monitor the patient's vital signs closely and adjust fluid management accordingly to maintain adequate urine output.
+3. Monitor the patient's respiratory status closely and consider mechanical ventilation if necessary.
+4. Manage the patient's atrial fibrillation with rate control and anticoagulation therapy as necessary.
+5. Provide nutritional support with enteral nutrition or parenteral nutrition as necessary.
+6. Monitor the patient's laboratory values closely and adjust treatment accordingly.
+7. Consider consultation with a specialist, such as a nephrologist or cardiologist, if necessary."
+119216.0,247217,2108-07-11 07:24:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - Flagyl added for C diff
+   - Pt had UOP of 15-20cc/hr in the PM, was given 500cc bolus
+ UOP 30-40
+   cc/hr
+   - started on NS maintance of BP for concerns of low BP of 80s/30s with
+   MAP 47. After receiving ~300cc fluid, pt desatted to 89% 2L NC,
+   increased to 4L NC.  Fluids stopped, but no lasix given hypotension.
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Ceftriaxone - [**2108-7-10**] 12:32 AM
+   Metronidazole - [**2108-7-11**] 12:43 AM
+   Vancomycin - [**2108-7-11**] 05:53 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-11**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 36.1
+C (96.9
+   HR: 74 (55 - 79) bpm
+   BP: 135/64(83) {77/29(40) - 135/72(83)} mmHg
+   RR: 19 (11 - 35) insp/min
+   SpO2: 96%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Wgt (current): 63 kg (admission): 56.1 kg
+   Height: 63 Inch
+             Total In:
+                                                                  3,676 mL
+                                                                    309 mL
+   PO:
+             TF:
+   IVF:
+                                                                  3,676 mL
+                                                                    309 mL
+   Blood products:
+   Total out:
+                                                                    860 mL
+                                                                    230 mL
+   Urine:
+                                                                    860 mL
+                                                                    230 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,816 mL
+                                                                     79 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 96%
+   ABG: ///21/
+   Physical Examination
+   General Elderly woman lying in bed, no acute distress
+   HEENT Sclera anicteric, Dry MM
+   Neck JVD
+   Pulm Lungs with few bilateral rales (patient's cooperation is limited)
+   CV Irregularly irregular S1 S2 no m/r/g
+   Abd Soft +bowel sounds mild tender LLQ, guiac+ in ER
+   Extrem Warm no edema, palpable distal pulses
+   Neuro Opens eyes to voice, tracks, follows commands intermittently.
+   Wiggles toes to command.
+   Derm Mild erythema near sacrum
+   Labs / Radiology
+   298 K/uL
+   9.9 g/dL
+   92 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   3.5 mEq/L
+   5 mg/dL
+   109 mEq/L
+   137 mEq/L
+   31.4 %
+   6.3 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+                             [**2108-7-11**]  05:43 AM
+   WBC
+   8.6
+   6.3
+   Hct
+   31.8
+   31.4
+   Plt
+   310
+   298
+   Cr
+   0.4
+   0.5
+   Glucose
+   123
+   92
+   Other labs: PT / PTT / INR:13.8/28.2/1.2, Ca++:7.6 mg/dL, Mg++:2.0
+   mg/dL, PO4:2.4 mg/dL
+   BCx, Ucx
+ pending
+   CXR
+ supine film, bilateral pleural effusions
+   Assessment and Plan
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   98 [**Year (4 digits) **] speaking female presents with lethargy and fever.
+   .
+   * Hypotension
+ patient was admitted clinically dry likely secondary to
+   losses from diarrhea.  Blood pressure responded to IVF boluses, was
+   placed on maintenance fluids.  Overnight patient desaturated, crackles
+   heard on lungs, CXR still shows b/l pleural effusions, may be due to
+   volume overload.  IVF stopped.  BP currently 120s, but pt has a higher
+   oxygen requirement
+   - consider gentle diuresis if pt having difficulty breathing
+   .
+   * Pleural effusions - CXR shows bilateral effusions. Cause uncertain,
+   recent echo fairily unremarkable. She did have a left sided effusion on
+   [**6-28**] CXR. With her history of breast cancer, malignancy is a
+   possibility. Think infection is less likely.
+   - Consider therapeutic and diagnostic thoracentesis if breathing
+   worsens
+   .
+   * Diarrhea
+ Pt is positive for C. diff, has had other occurrences of C
+   diff colitis that recurred despite metronidazole treatment, so will
+   continue with PO vancomycin.  Diarrhea has improved.
+   - continue PO vancomycin - Family cannot verify ?allergy in OMR.
+   Systemic absorption is minimal
+   - d/c IV flagyl
+   - flexiseal for fecal management
+   - hold any antimotility agents
+   .
+   * Lethargy
+ As per son, patient has much improved.  Much more awake
+   and cooperative with physical exams.  Lethargy likely due to C. diff
+   infection, dehydration from diarrhea.
+   - continue vancomycin for C diff diarrhea
+   - daily neuro exams, no localizing deficits, no imaging for now.
+   .
+   * Questionable UTI
+ Mild pyuria found on on urinalysis.
+   - urine culture is negative, d/c ceftiaxone
+   .
+   * Atrial fibrillation - Not on anticoagulation as an outpatient.  HR
+   has been in a good range
+   - Continue ASA daily
+   .
+   * Hypertension
+   - Hold home medication of atenolol for now as patient is currently
+   hypotensive, may reintroduce if BP stabilizes
+   .
+   # Social work
+ patient
+s son asking for [**Name (NI) **] interpreter to help in
+   discussion of what he should expect when he brings pt home.
+   - SW consult
+   - PT consult
+   ICU Care
+   Nutrition: regular, thickened
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2108-7-11**] 12:53 AM
+   20 Gauge - [**2108-7-11**] 12:54 AM
+   Prophylaxis:
+   DVT: sq heparin
+   Stress ulcer: not indicated
+   VAP:  HOB elevation
+   Comments:
+   Communication:  Comments:  Son
+   [**Name (NI) 129**] status: Full code
+   Disposition: call out to floor
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - Flagyl added for C diff
+   - Pt had UOP of 15-20cc/hr in the PM, was given 500cc bolus
+ UOP 30-40
+   cc/hr
+   - started on NS maintance of BP for concerns of low BP of 80s/30s with
+   MAP 47. After receiving ~300cc fluid, pt desatted to 89% 2L NC,
+   increased to 4L NC.  Fluids stopped, but no lasix given hypotension.
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Ceftriaxone - [**2108-7-10**] 12:32 AM
+   Metronidazole - [**2108-7-11**] 12:43 AM
+   Vancomycin - [**2108-7-11**] 05:53 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-11**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 36.1
+C (96.9
+   HR: 74 (55 - 79) bpm
+   BP: 135/64(83) {77/29(40) - 135/72(83)} mmHg
+   RR: 19 (11 - 35) insp/min
+   SpO2: 96%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Wgt (current): 63 kg (admission): 56.1 kg
+   Height: 63 Inch
+             Total In:
+                                                                  3,676 mL
+                                                                    309 mL
+   PO:
+             TF:
+   IVF:
+                                                                  3,676 mL
+                                                                    309 mL
+   Blood products:
+   Total out:
+                                                                    860 mL
+                                                                    230 mL
+   Urine:
+                                                                    860 mL
+                                                                    230 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,816 mL
+                                                                     79 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 96%
+   ABG: ///21/
+   Physical Examination
+   General Elderly woman lying in bed, no acute distress
+   HEENT Sclera anicteric, Dry MM
+   Neck JVD
+   Pulm Lungs with few bilateral rales (patient's cooperation is limited)
+   CV Irregularly irregular S1 S2 no m/r/g
+   Abd Soft +bowel sounds mild tender LLQ, guiac+ in ER
+   Extrem Warm no edema, palpable distal pulses
+   Neuro Opens eyes to voice, tracks, follows commands intermittently.
+   Wiggles toes to command.
+   Derm Mild erythema near sacrum
+   Labs / Radiology
+   298 K/uL
+   9.9 g/dL
+   92 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   3.5 mEq/L
+   5 mg/dL
+   109 mEq/L
+   137 mEq/L
+   31.4 %
+   6.3 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+                             [**2108-7-11**]  05:43 AM
+   WBC
+   8.6
+   6.3
+   Hct
+   31.8
+   31.4
+   Plt
+   310
+   298
+   Cr
+   0.4
+   0.5
+   Glucose
+   123
+   92
+   Other labs: PT / PTT / INR:13.8/28.2/1.2, Ca++:7.6 mg/dL, Mg++:2.0
+   mg/dL, PO4:2.4 mg/dL
+   BCx, Ucx
+ pending
+   CXR
+ supine film, bilateral pleural effusions
+   Assessment and Plan
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   98 [**Year (4 digits) **] speaking female presents with lethargy and fever.
+   .
+   * Hypotension
+ patient was admitted clinically dry likely secondary to
+   losses from diarrhea.  Blood pressure responded to IVF boluses, was
+   placed on maintenance fluids.  Overnight patient desaturated, crackles
+   heard on lungs, CXR still shows b/l pleural effusions, may be due to
+   volume overload.  IVF stopped.  BP currently 120s, but pt has a higher
+   oxygen requirement
+   - consider gentle diuresis if pt having difficulty breathing
+   .
+   * Pleural effusions - CXR shows bilateral effusions. Cause uncertain,
+   recent echo fairily unremarkable. She did have a left sided effusion on
+   [**6-28**] CXR. With her history of breast cancer, malignancy is a
+   possibility. Think infection is less likely.
+   - Consider therapeutic and diagnostic thoracentesis if breathing
+   worsens
+   .
+   * Diarrhea
+ Pt is positive for C. diff, has had other occurrences of C
+   diff colitis that recurred despite metronidazole treatment, so will
+   continue with PO vancomycin.  Diarrhea has improved.
+   - continue PO vancomycin - Family cannot verify ?allergy in OMR.
+   Systemic absorption is minimal
+   - d/c IV flagyl
+   - flexiseal for fecal management
+   - hold any antimotility agents
+   .
+   * Lethargy
+ As per son, patient has much improved.  Much more awake
+   and cooperative with physical exams.  Lethargy likely due to C. diff
+   infection, dehydration from diarrhea.
+   - continue vancomycin for C diff diarrhea
+   - daily neuro exams, no localizing deficits, no imaging for now.
+   .
+   * Questionable UTI
+ Mild pyuria found on on urinalysis.
+   - urine culture is negative, d/c ceftiaxone
+   .
+   * Atrial fibrillation - Not on anticoagulation as an outpatient.  HR
+   has been in a good range
+   - Continue ASA daily
+   .
+   * Hypertension
+   - Hold home medication of atenolol for now as patient is currently
+   hypotensive, may reintroduce if BP stabilizes
+   .
+   # Social work
+ patient
+s son asking for [**Name (NI) **] interpreter to help in
+   discussion of what he should expect when he brings pt home.
+   - SW consult
+   - PT consult
+   ICU Care
+   Nutrition: regular, thickened
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2108-7-11**] 12:53 AM
+   20 Gauge - [**2108-7-11**] 12:54 AM
+   Prophylaxis:
+   DVT: sq heparin
+   Stress ulcer: not indicated
+   VAP:  HOB elevation
+   Comments:
+   Communication:  Comments:  Son
+   [**Name (NI) 129**] status: Full code
+   Disposition: call out to floor<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 98-year-old female admitted to the ICU with C. difficile infection, diarrhea, urinary tract infection, hypotension, atrial fibrillation, and bilateral pleural effusions. She has a history of breast cancer and has had previous occurrences of C. difficile colitis. The patient's condition has improved with treatment, but she still requires close monitoring.
+
+Potential Medical Complications:
+
+1. Volume Overload: The patient's bilateral pleural effusions and desaturation may be due to volume overload. This could lead to further respiratory distress and potentially life-threatening complications.
+2. Infection: The patient's C. difficile infection and urinary tract infection could lead to sepsis, which could further compromise her already compromised cardiovascular and respiratory status.
+3. Dehydration: The patient's diarrhea and decreased oral intake could lead to dehydration, which could exacerbate her hypotension and potentially cause kidney injury.
+4. Respiratory Failure: The patient's bilateral pleural effusions and respiratory distress could lead to respiratory failure, which could require mechanical ventilation.
+5. Cardiovascular Complications: The patient's atrial fibrillation and hypotension could lead to cardiovascular complications such as cardiac arrhythmias, cardiac failure, or even cardiac arrest.
+6. Neurological Complications: The patient's lethargy and potential UTI could lead to neurological complications such as seizures, altered mental status, or even neurological deficits.
+7. Gastrointestinal Complications: The patient's C. difficile infection and diarrhea could lead to gastrointestinal complications such as intestinal perforation, abscesses, or hemorrhage.
+
+Recommendations:
+
+1. Continue IV fluids and electrolyte replacement to manage volume overload and dehydration.
+2. Monitor the patient's respiratory status closely and consider therapeutic and diagnostic thoracentesis if necessary.
+3. Continue PO vancomycin for C. difficile infection and consider adjusting antibiotic therapy if necessary.
+4. Monitor the patient's cardiovascular status closely and consider adjusting anticoagulation therapy if necessary.
+5. Monitor the patient's neurological status closely and consider imaging studies if necessary.
+6. Consider gentle diuresis if the patient's respiratory status worsens.
+7. Consider a multidisciplinary approach involving social work, physical therapy, and occupational therapy to address the patient's needs and plan for discharge."
+119216.0,247217,2108-07-11 07:24:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - Flagyl added for C diff
+   - Pt had UOP of 15-20cc/hr in the PM, was given 500cc bolus
+ UOP 30-40
+   cc/hr
+   - started on NS maintance of BP for concerns of low BP of 80s/30s with
+   MAP 47. After receiving ~300cc fluid, pt desatted to 89% 2L NC,
+   increased to 4L NC.  Fluids stopped, but no lasix given hypotension.
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Ceftriaxone - [**2108-7-10**] 12:32 AM
+   Metronidazole - [**2108-7-11**] 12:43 AM
+   Vancomycin - [**2108-7-11**] 05:53 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-11**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 36.1
+C (96.9
+   HR: 74 (55 - 79) bpm
+   BP: 135/64(83) {77/29(40) - 135/72(83)} mmHg
+   RR: 19 (11 - 35) insp/min
+   SpO2: 96%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Wgt (current): 63 kg (admission): 56.1 kg
+   Height: 63 Inch
+             Total In:
+                                                                  3,676 mL
+                                                                    309 mL
+   PO:
+             TF:
+   IVF:
+                                                                  3,676 mL
+                                                                    309 mL
+   Blood products:
+   Total out:
+                                                                    860 mL
+                                                                    230 mL
+   Urine:
+                                                                    860 mL
+                                                                    230 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,816 mL
+                                                                     79 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 96%
+   ABG: ///21/
+   Physical Examination
+   General Elderly woman lying in bed, no acute distress
+   HEENT Sclera anicteric, Dry MM
+   Neck JVD
+   Pulm Lungs with few bilateral rales (patient's cooperation is limited)
+   CV Irregularly irregular S1 S2 no m/r/g
+   Abd Soft +bowel sounds mild tender LLQ, guiac+ in ER
+   Extrem Warm no edema, palpable distal pulses
+   Neuro Opens eyes to voice, tracks, follows commands intermittently.
+   Wiggles toes to command.
+   Derm Mild erythema near sacrum
+   Labs / Radiology
+   298 K/uL
+   9.9 g/dL
+   92 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   3.5 mEq/L
+   5 mg/dL
+   109 mEq/L
+   137 mEq/L
+   31.4 %
+   6.3 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+                             [**2108-7-11**]  05:43 AM
+   WBC
+   8.6
+   6.3
+   Hct
+   31.8
+   31.4
+   Plt
+   310
+   298
+   Cr
+   0.4
+   0.5
+   Glucose
+   123
+   92
+   Other labs: PT / PTT / INR:13.8/28.2/1.2, Ca++:7.6 mg/dL, Mg++:2.0
+   mg/dL, PO4:2.4 mg/dL
+   BCx, Ucx
+ pending
+   CXR
+ supine film, bilateral pleural effusions
+   Assessment and Plan
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   98 Russian speaking female presents with lethargy and fever.
+   .
+   * Lethargy
+ Not at baseline as per son.  Likely due to C. diff
+   infection, dehydration from diarrhea.
+   - continue flagyl and vancomycin for C diff diarrhea and ?UTI as below
+   - hold IV fluids
+   - daily neuro exams, no localizing deficits, no imaging for now.
+   .
+   * Diarrhea
+ Pt is positive for C. diff, has had other occurrences of C
+   diff colitis that recurred despite metronidazole treatment, so will
+   continue with PO vancomycin.
+   - continue PO vancomycin - Family cannot verify ?allergy in OMR.
+   Systemic absorption is minimal
+   - continue IV flagyl
+   - hold any antimotility agents
+   .
+   * Hypotension
+ patient was admitted clinically dry likely secondary to
+   losses from diarrhea.  Blood pressure responded to IVF boluses, was
+   placed on maintenance fluids.  Overnight patient desaturated, crackles
+   heard on lungs, CXR still shows b/l pleural effusions, may be due to
+   volume overload.  IVF stopped.  BP currently 120s, but pt has a higher
+   oxygen requirement
+   - consider gentle diuresis
+   .
+   * Questionable UTI
+ Mild pyuria found on on urinalysis.
+   - not cooperative with PO bactrim, will cover with IV ceftrixone for
+   now.  If UCx returns negative, ceftriaxone can be stopped
+   .
+   * Pleural effusions
+   CXR shows bilateral effusions. Cause uncertain, recent echo fairily
+   unremarkable. She did have a left sided effusion on [**6-28**] CXR. With her
+   history of breast cancer, malignancy is a possibility. Think infection
+   is less likely.
+   - Consider diagnostic thoracentesis
+   .
+   * Atrial fibrillation
+   Not on anticoagulation as an outpatient.
+   - Continue ASA daily
+   .
+   * Hypertension
+   - Hold home antihypertensives for now as patient is currently
+   hypotensive, may reintroduce if BP stabilizes
+   ICU Care
+   Nutrition: regular, thickened
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2108-7-11**] 12:53 AM
+   20 Gauge - [**2108-7-11**] 12:54 AM
+   Prophylaxis:
+   DVT: sq heparin
+   Stress ulcer: not indicated
+   VAP:  HOB elevation
+   Comments:
+   Communication:  Comments:  Son
+   [**Name (NI) 129**] status: Full code
+   Disposition: pending BP stabilization
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+   - Flagyl added for C diff
+   - Pt had UOP of 15-20cc/hr in the PM, was given 500cc bolus
+ UOP 30-40
+   cc/hr
+   - started on NS maintance of BP for concerns of low BP of 80s/30s with
+   MAP 47. After receiving ~300cc fluid, pt desatted to 89% 2L NC,
+   increased to 4L NC.  Fluids stopped, but no lasix given hypotension.
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Ceftriaxone - [**2108-7-10**] 12:32 AM
+   Metronidazole - [**2108-7-11**] 12:43 AM
+   Vancomycin - [**2108-7-11**] 05:53 AM
+   Infusions:
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-11**] 07:08 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 36.1
+C (96.9
+   HR: 74 (55 - 79) bpm
+   BP: 135/64(83) {77/29(40) - 135/72(83)} mmHg
+   RR: 19 (11 - 35) insp/min
+   SpO2: 96%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Wgt (current): 63 kg (admission): 56.1 kg
+   Height: 63 Inch
+             Total In:
+                                                                  3,676 mL
+                                                                    309 mL
+   PO:
+             TF:
+   IVF:
+                                                                  3,676 mL
+                                                                    309 mL
+   Blood products:
+   Total out:
+                                                                    860 mL
+                                                                    230 mL
+   Urine:
+                                                                    860 mL
+                                                                    230 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,816 mL
+                                                                     79 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 96%
+   ABG: ///21/
+   Physical Examination
+   General Elderly woman lying in bed, no acute distress
+   HEENT Sclera anicteric, Dry MM
+   Neck JVD
+   Pulm Lungs with few bilateral rales (patient's cooperation is limited)
+   CV Irregularly irregular S1 S2 no m/r/g
+   Abd Soft +bowel sounds mild tender LLQ, guiac+ in ER
+   Extrem Warm no edema, palpable distal pulses
+   Neuro Opens eyes to voice, tracks, follows commands intermittently.
+   Wiggles toes to command.
+   Derm Mild erythema near sacrum
+   Labs / Radiology
+   298 K/uL
+   9.9 g/dL
+   92 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   3.5 mEq/L
+   5 mg/dL
+   109 mEq/L
+   137 mEq/L
+   31.4 %
+   6.3 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+                             [**2108-7-11**]  05:43 AM
+   WBC
+   8.6
+   6.3
+   Hct
+   31.8
+   31.4
+   Plt
+   310
+   298
+   Cr
+   0.4
+   0.5
+   Glucose
+   123
+   92
+   Other labs: PT / PTT / INR:13.8/28.2/1.2, Ca++:7.6 mg/dL, Mg++:2.0
+   mg/dL, PO4:2.4 mg/dL
+   BCx, Ucx
+ pending
+   CXR
+ supine film, bilateral pleural effusions
+   Assessment and Plan
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   98 Russian speaking female presents with lethargy and fever.
+   .
+   * Lethargy
+ Not at baseline as per son.  Likely due to C. diff
+   infection, dehydration from diarrhea.
+   - continue flagyl and vancomycin for C diff diarrhea and ?UTI as below
+   - hold IV fluids
+   - daily neuro exams, no localizing deficits, no imaging for now.
+   .
+   * Diarrhea
+ Pt is positive for C. diff, has had other occurrences of C
+   diff colitis that recurred despite metronidazole treatment, so will
+   continue with PO vancomycin.
+   - continue PO vancomycin - Family cannot verify ?allergy in OMR.
+   Systemic absorption is minimal
+   - continue IV flagyl
+   - hold any antimotility agents
+   .
+   * Hypotension
+ patient was admitted clinically dry likely secondary to
+   losses from diarrhea.  Blood pressure responded to IVF boluses, was
+   placed on maintenance fluids.  Overnight patient desaturated, crackles
+   heard on lungs, CXR still shows b/l pleural effusions, may be due to
+   volume overload.  IVF stopped.  BP currently 120s, but pt has a higher
+   oxygen requirement
+   - consider gentle diuresis
+   .
+   * Questionable UTI
+ Mild pyuria found on on urinalysis.
+   - not cooperative with PO bactrim, will cover with IV ceftrixone for
+   now.  If UCx returns negative, ceftriaxone can be stopped
+   .
+   * Pleural effusions
+   CXR shows bilateral effusions. Cause uncertain, recent echo fairily
+   unremarkable. She did have a left sided effusion on [**6-28**] CXR. With her
+   history of breast cancer, malignancy is a possibility. Think infection
+   is less likely.
+   - Consider diagnostic thoracentesis
+   .
+   * Atrial fibrillation
+   Not on anticoagulation as an outpatient.
+   - Continue ASA daily
+   .
+   * Hypertension
+   - Hold home antihypertensives for now as patient is currently
+   hypotensive, may reintroduce if BP stabilizes
+   ICU Care
+   Nutrition: regular, thickened
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2108-7-11**] 12:53 AM
+   20 Gauge - [**2108-7-11**] 12:54 AM
+   Prophylaxis:
+   DVT: sq heparin
+   Stress ulcer: not indicated
+   VAP:  HOB elevation
+   Comments:
+   Communication:  Comments:  Son
+   [**Name (NI) 129**] status: Full code
+   Disposition: pending BP stabilization<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 98-year-old Russian-speaking female admitted to the ICU with a chief complaint of lethargy and fever. She has a history of C. difficile infection, which has recurred despite metronidazole treatment, and is currently being treated with flagyl and vancomycin. She has also been diagnosed with atrial fibrillation and is being treated with ASA. The patient has been experiencing diarrhea, which has led to dehydration and hypotension. She has been placed on maintenance fluids and is being monitored closely.
+
+Potential Medical Complications:
+
+1. Sepsis: The patient's C. difficile infection and diarrhea may lead to sepsis, which could worsen her condition and increase her risk of mortality.
+2. Volume Overload: The patient's pleural effusions and recent fluid boluses may indicate volume overload, which could worsen her hypotension and respiratory status.
+3. UTI: The patient's mild pyuria and recent antibiotic use may indicate a UTI, which could worsen her condition and increase her risk of sepsis.
+4. Malignancy: The patient's history of breast cancer and bilateral pleural effusions may indicate a possible malignancy, which could worsen her condition and reduce her quality of life.
+5. Respiratory Failure: The patient's atrial fibrillation and pleural effusions may increase her risk of respiratory failure, which could worsen her condition and increase her risk of mortality.
+6. Hypotension: The patient's hypotension may worsen her condition and increase her risk of organ dysfunction and mortality.
+7. Dehydration: The patient's diarrhea and lack of oral intake may lead to dehydration, which could worsen her condition and increase her risk of mortality.
+8. Infection: The patient's recent antibiotic use and underlying medical conditions may increase her risk of infection, which could worsen her condition and increase her risk of mortality.
+
+Recommendations:
+
+1. Continue treatment for C. difficile infection with flagyl and vancomycin.
+2. Monitor the patient's volume status closely and consider gentle diuresis if necessary.
+3. Consider diagnostic thoracentesis to determine the cause of the patient's bilateral pleural effusions.
+4. Continue treatment for atrial fibrillation with ASA.
+5. Monitor the patient's respiratory status closely and consider intubation if necessary.
+6. Monitor the patient's blood pressure and consider vasopressors if necessary.
+7. Monitor the patient's hydration status closely and consider IV fluids if necessary.
+8. Consider antibiotic coverage for UTI and monitor the patient's urine output and creatinine levels closely."
+119216.0,247217,2108-07-11 11:19:00,Physician ,Physician Attending Progress Note,"Chief Complaint: C diff colitis, hypotension
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   Given fluids yesterday to support urine output. Was then put on
+   maintenance fliud but O2 sats declined. Fluids stopped. BP 105-120 this
+   AM.
+   Afebrile.
+   24 Hour Events:
+   History obtained from [**Hospital 31**] Medical records
+   Patient unable to provide history: Language barrier
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Vancomycin - [**2108-7-11**] 05:53 AM
+   Ceftriaxone - [**2108-7-11**] 07:38 AM
+   Metronidazole - [**2108-7-11**] 07:38 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2108-7-11**] 07:38 AM
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-11**] 11:17 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 35.9
+C (96.7
+   HR: 73 (58 - 79) bpm
+   BP: 123/60(73) {82/35(47) - 135/72(83)} mmHg
+   RR: 28 (11 - 35) insp/min
+   SpO2: 99%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Wgt (current): 63 kg (admission): 56.1 kg
+   Height: 63 Inch
+             Total In:
+                                                                  3,676 mL
+                                                                    476 mL
+   PO:
+             TF:
+   IVF:
+                                                                  3,676 mL
+                                                                    476 mL
+   Blood products:
+   Total out:
+                                                                    860 mL
+                                                                    320 mL
+   Urine:
+                                                                    860 mL
+                                                                    320 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,816 mL
+                                                                    156 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///21/
+   Physical Examination
+   General Appearance: Well nourished, No(t) No acute distress, No(t)
+   Overweight / Obese, Thin, No(t) Anxious, No(t) Diaphoretic, Contracted
+   Eyes / Conjunctiva: PERRL, No(t) Pupils dilated, No(t) Conjunctiva
+   pale, No(t) Sclera edema
+   Head, Ears, Nose, Throat: Normocephalic, No(t) Endotracheal tube, No(t)
+   NG tube, No(t) OG tube
+   Cardiovascular: (PMI Normal, No(t) Hyperdynamic), (S1: Normal, No(t)
+   Absent), (S2: No(t) Normal, Distant, No(t) Loud, No(t) Widely split ,
+   No(t) Fixed), No(t) S3, No(t) S4, No(t) Rub, (Murmur: No(t) Systolic,
+   No(t) Diastolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear :
+   Non dependent lungs, No(t) Crackles : , No(t) Bronchial: , No(t)
+   Wheezes : , No(t) Diminished: , No(t) Absent : , No(t) Rhonchorous: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended,
+   No(t) Tender: , No(t) Obese
+   Extremities: Right lower extremity edema: 1+ edema, Left lower
+   extremity edema: 1+, No(t) Cyanosis, No(t) Clubbing
+   Musculoskeletal: No(t) Muscle wasting, No(t) Unable to stand
+   Skin:  Warm, No(t) Rash: , No(t) Jaundice
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, No(t) Oriented (to): Not able to assess; language, Movement:
+   Purposeful, No(t) Sedated, Paralyzed, Tone: Not assessed
+   Labs / Radiology
+   9.9 g/dL
+   298 K/uL
+   92 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   3.5 mEq/L
+   5 mg/dL
+   109 mEq/L
+   137 mEq/L
+   31.4 %
+   6.3 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+                             [**2108-7-11**]  05:43 AM
+   WBC
+   8.6
+   6.3
+   Hct
+   31.8
+   31.4
+   Plt
+   310
+   298
+   Cr
+   0.4
+   0.5
+   Glucose
+   123
+   92
+   Other labs: PT / PTT / INR:13.8/28.2/1.2, Ca++:7.6 mg/dL, Mg++:2.0
+   mg/dL, PO4:2.4 mg/dL
+   Imaging: CXR: supine film. Left effusion. Interstitial and alveolar
+   infiltrates in mid and upper zones.
+   Assessment and Plan
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   ANEMIA
+   =================================
+   AFebrile. No significant diarrhea. Continues on treatment for c diff.
+   BP better thi s AM after fluids given yesterday. CXR suggests volume
+   overload, but oxygenation is good now and exam is relatively
+   unimpressive. Would keep fluid balance even.
+   Hct stable.  No evidence of active bleeding.
+   Suggest social service and rehab consults to help patient's family
+   address home care issues.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2108-7-11**] 12:53 AM
+   20 Gauge - [**2108-7-11**] 12:54 AM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: Not indicated
+   VAP:
+   Comments: Not applicable.
+   Communication: Patient discussed on interdisciplinary rounds , ICU
+   Code status: Full code
+   Disposition :Transfer to floor
+   Total time spent: 30 minutes
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: C diff colitis, hypotension
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   Given fluids yesterday to support urine output. Was then put on
+   maintenance fliud but O2 sats declined. Fluids stopped. BP 105-120 this
+   AM.
+   Afebrile.
+   24 Hour Events:
+   History obtained from [**Hospital 31**] Medical records
+   Patient unable to provide history: Language barrier
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Vancomycin - [**2108-7-11**] 05:53 AM
+   Ceftriaxone - [**2108-7-11**] 07:38 AM
+   Metronidazole - [**2108-7-11**] 07:38 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2108-7-11**] 07:38 AM
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-11**] 11:17 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 35.9
+C (96.7
+   HR: 73 (58 - 79) bpm
+   BP: 123/60(73) {82/35(47) - 135/72(83)} mmHg
+   RR: 28 (11 - 35) insp/min
+   SpO2: 99%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Wgt (current): 63 kg (admission): 56.1 kg
+   Height: 63 Inch
+             Total In:
+                                                                  3,676 mL
+                                                                    476 mL
+   PO:
+             TF:
+   IVF:
+                                                                  3,676 mL
+                                                                    476 mL
+   Blood products:
+   Total out:
+                                                                    860 mL
+                                                                    320 mL
+   Urine:
+                                                                    860 mL
+                                                                    320 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  2,816 mL
+                                                                    156 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 99%
+   ABG: ///21/
+   Physical Examination
+   General Appearance: Well nourished, No(t) No acute distress, No(t)
+   Overweight / Obese, Thin, No(t) Anxious, No(t) Diaphoretic, Contracted
+   Eyes / Conjunctiva: PERRL, No(t) Pupils dilated, No(t) Conjunctiva
+   pale, No(t) Sclera edema
+   Head, Ears, Nose, Throat: Normocephalic, No(t) Endotracheal tube, No(t)
+   NG tube, No(t) OG tube
+   Cardiovascular: (PMI Normal, No(t) Hyperdynamic), (S1: Normal, No(t)
+   Absent), (S2: No(t) Normal, Distant, No(t) Loud, No(t) Widely split ,
+   No(t) Fixed), No(t) S3, No(t) S4, No(t) Rub, (Murmur: No(t) Systolic,
+   No(t) Diastolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric), (Breath Sounds: Clear :
+   Non dependent lungs, No(t) Crackles : , No(t) Bronchial: , No(t)
+   Wheezes : , No(t) Diminished: , No(t) Absent : , No(t) Rhonchorous: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended,
+   No(t) Tender: , No(t) Obese
+   Extremities: Right lower extremity edema: 1+ edema, Left lower
+   extremity edema: 1+, No(t) Cyanosis, No(t) Clubbing
+   Musculoskeletal: No(t) Muscle wasting, No(t) Unable to stand
+   Skin:  Warm, No(t) Rash: , No(t) Jaundice
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, No(t) Oriented (to): Not able to assess; language, Movement:
+   Purposeful, No(t) Sedated, Paralyzed, Tone: Not assessed
+   Labs / Radiology
+   9.9 g/dL
+   298 K/uL
+   92 mg/dL
+   0.5 mg/dL
+   21 mEq/L
+   3.5 mEq/L
+   5 mg/dL
+   109 mEq/L
+   137 mEq/L
+   31.4 %
+   6.3 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+                             [**2108-7-11**]  05:43 AM
+   WBC
+   8.6
+   6.3
+   Hct
+   31.8
+   31.4
+   Plt
+   310
+   298
+   Cr
+   0.4
+   0.5
+   Glucose
+   123
+   92
+   Other labs: PT / PTT / INR:13.8/28.2/1.2, Ca++:7.6 mg/dL, Mg++:2.0
+   mg/dL, PO4:2.4 mg/dL
+   Imaging: CXR: supine film. Left effusion. Interstitial and alveolar
+   infiltrates in mid and upper zones.
+   Assessment and Plan
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   ANEMIA
+   =================================
+   AFebrile. No significant diarrhea. Continues on treatment for c diff.
+   BP better thi s AM after fluids given yesterday. CXR suggests volume
+   overload, but oxygenation is good now and exam is relatively
+   unimpressive. Would keep fluid balance even.
+   Hct stable.  No evidence of active bleeding.
+   Suggest social service and rehab consults to help patient's family
+   address home care issues.
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2108-7-11**] 12:53 AM
+   20 Gauge - [**2108-7-11**] 12:54 AM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer: Not indicated
+   VAP:
+   Comments: Not applicable.
+   Communication: Patient discussed on interdisciplinary rounds , ICU
+   Code status: Full code
+   Disposition :Transfer to floor
+   Total time spent: 30 minutes<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 56-year-old individual admitted to the ICU with C. difficile colitis, hypotension, and atrial fibrillation. They have a history of language barrier, and their medical history is unchanged except for the recent antibiotic treatment. The patient's vital signs are stable, with a temperature of 35.9°C, heart rate of 73 bpm, and blood pressure of 123/60 mmHg. They have a SpO2 of 99% and are receiving oxygen therapy. The patient's respiratory support includes nasal cannula oxygen and a non-invasive ventilation device.
+
+Physical examination reveals a well-nourished individual with no acute distress, no fever, and no signs of respiratory distress. The patient's cardiovascular examination is normal, with a normal pulse and blood pressure. The patient's abdomen is soft and non-tender, with bowel sounds present. They have bilateral lower extremity edema, but no signs of cyanosis or clubbing.
+
+Laboratory results show anemia, with a hemoglobin level of 9.9 g/dL. The patient's white blood cell count is 8.6 K/uL, and their platelet count is 310 K/uL. Their creatinine level is 0.4 mg/dL, and their glucose level is 123 mg/dL.
+
+Assessment and Plan:
+
+The patient is diagnosed with C. difficile infection, diarrhea, urinary tract infection, hypotension, atrial fibrillation, and anemia. The patient is afebrile, with no significant diarrhea, and is receiving treatment for C. difficile. Their blood pressure is stable, and they have no evidence of active bleeding. The patient is suggested for social service and rehab consults to address home care issues.
+
+Potential Medical Complications:
+
+1. Sepsis: The patient's urinary tract infection and C. difficile infection may lead to sepsis, which can worsen their condition.
+2. Volume Overload: The patient's CXR suggests volume overload, which may lead to respiratory distress and worsening of their condition.
+3. Bleeding: The patient's anemia and platelet count may indicate a risk of bleeding, which can worsen their condition.
+4. Respiratory Failure: The patient's atrial fibrillation and respiratory support may lead to respiratory failure, which can worsen their condition.
+5. Infection: The patient's C. difficile infection and urinary tract infection may lead to further infections, which can worsen their condition.
+6. Gastrointestinal Complications: The patient's C. difficile infection may lead to gastrointestinal complications, such as bowel obstruction or perforation.
+7. Cardiovascular Complications: The patient's atrial fibrillation may lead to cardiovascular complications, such as stroke or heart failure."
+119216.0,247217,2108-07-12 07:50:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ CALLED OUT
+   Waiting for bed.
+   Desaturates to high 80
+s on RA.
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Metronidazole - [**2108-7-11**] 07:38 AM
+   Ceftriaxone - [**2108-7-11**] 07:38 AM
+   Vancomycin - [**2108-7-12**] 06:00 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2108-7-12**] 07:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-12**] 07:43 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.7
+C (98.1
+   HR: 70 (67 - 87) bpm
+   BP: 125/44(66) {92/38(57) - 153/73(91)} mmHg
+   RR: 28 (7 - 33) insp/min
+   SpO2: 100%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Wgt (current): 63 kg (admission): 56.1 kg
+   Height: 63 Inch
+                  Total In:
+                                                                    796 mL
+                                                                    105 mL
+   PO:
+                                                                    300 mL
+                                                                    105 mL
+   TF:
+   IVF:
+                                                                    496 mL
+   Blood products:
+   Total out:
+                                                                    685 mL
+                                                                    260 mL
+   Urine:
+                                                                    685 mL
+                                                                    260 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    111 mL
+                                                                   -155 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula 2L
+   SpO2: 100%
+   ABG: ///25/
+   Physical Examination
+   General Elderly woman lying in bed, no acute distress
+   HEENT Sclera anicteric, MMM
+   Pulm Lungs with few bilateral rales (patient's cooperation is limited)
+   CV Irregularly irregular S1 S2; +S3; no murmurs
+   Abd Soft/ nt /nd +bowel sounds
+   Extrem Warm, 2+ pitting edema in LE b/l, palpable distal pulses
+   Neuro Opens eyes to voice, tracks, follows commands intermittently.
+   Labs / Radiology
+   336 K/uL
+   10.5 g/dL
+   87 mg/dL
+   0.5 mg/dL
+   25 mEq/L
+   4.0 mEq/L
+   4 mg/dL
+   108 mEq/L
+   138 mEq/L
+   33.3 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+                             [**2108-7-11**]  05:43 AM
+                             [**2108-7-12**]  06:04 AM
+   WBC
+   8.6
+   6.3
+   5.4
+   Hct
+   31.8
+   31.4
+   33.3
+   Plt
+   [**Telephone/Fax (3) 7705**]
+   Cr
+   0.4
+   0.5
+   0.5
+   Glucose
+   123
+   92
+   87
+   Other labs: PT / PTT / INR:13.9/30.8/1.2, Ca++:7.9 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.7 mg/dL
+   .
+   Ucx
+ mixed flora c/w skin contamination
+   .
+   BCx
+ NGTD
+   .
+   CXR [**2108-7-12**]: Compared to [**7-11**]; L pleural effusion has decreased;
+   Increased R fluid extending into minor fissure; b/l atelectasis.
+   Continued increased pulm venous pressure, less than prior study.
+   Assessment and Plan
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   .
+   98 [**Month/Year (2) **] speaking female presents with lethargy and fever.
+   .
+   * Hypotension
+ resolved. SBP 92-153 overnight.
+   .
+   * Hypoxia - CXR findings c/w persistent bilateral effusions + some
+   pulmonary edema. Respiratory status stable.
+   -F/u I/O
+ goal 500cc-1L negative; pt currently auto-diuresing, will
+   give lasix PRN
+   .
+   * C. diff
+ Diarrhea has improved. Flexiseal removed. Only on PO
+   Vancomycin.
+   - continue PO vancomycin - Family cannot verify ?allergy in OMR.
+   Systemic absorption is minimal
+   - hold any antimotility agents
+   .
+   * Lethargy
+ improved per son.  Much more awake and cooperative with
+   physical exams.  Lethargy likely due to C. diff infection, dehydration
+   from diarrhea.
+   - continue vancomycin for C diff diarrhea
+   - daily neuro exams, no localizing deficits, no imaging for now.
+   .
+   * Atrial fibrillation - Not on anticoagulation as an outpatient.  HR
+   67-87.
+   - Continue ASA daily
+   .
+   * Hypertension
+ BP still between 90s-150s.
+   -Monitor HR; if HR 80s-90s and BP remains 110s, will restart home
+   atenolol.
+   .
+   # Dispo after hospitalization
+ patient
+s son asking for [**Name (NI) **]
+   interpreter to help in discussion of what he should expect when he
+   brings pt home.  Pt s/p R femur fx operated on by Dr. [**Last Name (STitle) 413**] a few
+   months ago.
+   -Ortho consulted to evaluate hip 2 view to determine weight bearing
+   status.
+   - SW consult
+   - PT consult
+   ICU Care
+   Nutrition: regular, thickened
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2108-7-11**] 12:53 AM
+   20 Gauge - [**2108-7-11**] 12:54 AM
+   Prophylaxis:
+   DVT: sq heparin
+   Stress ulcer: not indicated
+   VAP:
+   Comments:
+   Communication:  Comments:  Son
+   [**Name (NI) 129**] status: Full code
+   Disposition: called out to floor
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ CALLED OUT
+   Waiting for bed.
+   Desaturates to high 80
+s on RA.
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Metronidazole - [**2108-7-11**] 07:38 AM
+   Ceftriaxone - [**2108-7-11**] 07:38 AM
+   Vancomycin - [**2108-7-12**] 06:00 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2108-7-12**] 07:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-12**] 07:43 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.7
+C (98.1
+   HR: 70 (67 - 87) bpm
+   BP: 125/44(66) {92/38(57) - 153/73(91)} mmHg
+   RR: 28 (7 - 33) insp/min
+   SpO2: 100%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Wgt (current): 63 kg (admission): 56.1 kg
+   Height: 63 Inch
+                  Total In:
+                                                                    796 mL
+                                                                    105 mL
+   PO:
+                                                                    300 mL
+                                                                    105 mL
+   TF:
+   IVF:
+                                                                    496 mL
+   Blood products:
+   Total out:
+                                                                    685 mL
+                                                                    260 mL
+   Urine:
+                                                                    685 mL
+                                                                    260 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    111 mL
+                                                                   -155 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula 2L
+   SpO2: 100%
+   ABG: ///25/
+   Physical Examination
+   General Elderly woman lying in bed, no acute distress
+   HEENT Sclera anicteric, MMM
+   Pulm Lungs with few bilateral rales (patient's cooperation is limited)
+   CV Irregularly irregular S1 S2; +S3; no murmurs
+   Abd Soft/ nt /nd +bowel sounds
+   Extrem Warm, 2+ pitting edema in LE b/l, palpable distal pulses
+   Neuro Opens eyes to voice, tracks, follows commands intermittently.
+   Labs / Radiology
+   336 K/uL
+   10.5 g/dL
+   87 mg/dL
+   0.5 mg/dL
+   25 mEq/L
+   4.0 mEq/L
+   4 mg/dL
+   108 mEq/L
+   138 mEq/L
+   33.3 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+                             [**2108-7-11**]  05:43 AM
+                             [**2108-7-12**]  06:04 AM
+   WBC
+   8.6
+   6.3
+   5.4
+   Hct
+   31.8
+   31.4
+   33.3
+   Plt
+   [**Telephone/Fax (3) 7705**]
+   Cr
+   0.4
+   0.5
+   0.5
+   Glucose
+   123
+   92
+   87
+   Other labs: PT / PTT / INR:13.9/30.8/1.2, Ca++:7.9 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.7 mg/dL
+   .
+   Ucx
+ mixed flora c/w skin contamination
+   .
+   BCx
+ NGTD
+   .
+   CXR [**2108-7-12**]: Compared to [**7-11**]; L pleural effusion has decreased;
+   Increased R fluid extending into minor fissure; b/l atelectasis.
+   Continued increased pulm venous pressure, less than prior study.
+   Assessment and Plan
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   .
+   98 [**Month/Year (2) **] speaking female presents with lethargy and fever.
+   .
+   * Hypotension
+ resolved. SBP 92-153 overnight.
+   .
+   * Hypoxia - CXR findings c/w persistent bilateral effusions + some
+   pulmonary edema. Respiratory status stable.
+   -F/u I/O
+ goal 500cc-1L negative; pt currently auto-diuresing, will
+   give lasix PRN
+   .
+   * C. diff
+ Diarrhea has improved. Flexiseal removed. Only on PO
+   Vancomycin.
+   - continue PO vancomycin - Family cannot verify ?allergy in OMR.
+   Systemic absorption is minimal
+   - hold any antimotility agents
+   .
+   * Lethargy
+ improved per son.  Much more awake and cooperative with
+   physical exams.  Lethargy likely due to C. diff infection, dehydration
+   from diarrhea.
+   - continue vancomycin for C diff diarrhea
+   - daily neuro exams, no localizing deficits, no imaging for now.
+   .
+   * Atrial fibrillation - Not on anticoagulation as an outpatient.  HR
+   67-87.
+   - Continue ASA daily
+   .
+   * Hypertension
+ BP still between 90s-150s.
+   -Monitor HR; if HR 80s-90s and BP remains 110s, will restart home
+   atenolol.
+   .
+   # Dispo after hospitalization
+ patient
+s son asking for [**Name (NI) **]
+   interpreter to help in discussion of what he should expect when he
+   brings pt home.  Pt s/p R femur fx operated on by Dr. [**Last Name (STitle) 413**] a few
+   months ago.
+   -Ortho consulted to evaluate hip 2 view to determine weight bearing
+   status.
+   - SW consult
+   - PT consult
+   ICU Care
+   Nutrition: regular, thickened
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2108-7-11**] 12:53 AM
+   20 Gauge - [**2108-7-11**] 12:54 AM
+   Prophylaxis:
+   DVT: sq heparin
+   Stress ulcer: not indicated
+   VAP:
+   Comments:
+   Communication:  Comments:  Son
+   [**Name (NI) 129**] status: Full code
+   Disposition: called out to floor<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 98-year-old female who was admitted to the ICU with a chief complaint of lethargy and fever. The patient has a history of C. difficile infection (C. diff) and is currently being treated with vancomycin.
+
+The patient's vital signs are stable, with a temperature of 36.9°C (98.4°F), heart rate of 70-87 beats per minute, and blood pressure of 125/44-153/73 mmHg. The patient is receiving oxygen therapy via nasal cannula at 2 liters per minute, and her SpO2 is 100%.
+
+The patient has a history of atrial fibrillation and is not on anticoagulation therapy. The patient's electrocardiogram (ECG) shows an irregularly irregular rhythm.
+
+The patient's laboratory results show elevated white blood cell count, hemoglobin, and platelet count, indicating an inflammatory response. The patient's blood urea nitrogen (BUN) and creatinine levels are elevated, indicating kidney dysfunction.
+
+The patient's physical examination shows bilateral rales in the lungs, which may indicate pulmonary edema. The patient's abdomen is soft and non-tender, with palpable bowel sounds.
+
+The patient's medical history includes a recent femur fracture and a history of C. difficile infection. The patient is currently being treated with vancomycin for C. difficile diarrhea and is also receiving prophylactic heparin for deep vein thrombosis (DVT) prevention.
+
+Potential medical complications that may arise include:
+
+1. C. difficile infection: The patient is already being treated with vancomycin, but there is a risk of relapse or development of antibiotic-resistant strains.
+2. Atrial fibrillation: The patient's irregularly irregular rhythm may increase the risk of stroke or thromboembolism.
+3. Kidney dysfunction: The patient's elevated BUN and creatinine levels may indicate kidney dysfunction, which may worsen if not addressed.
+4. Pulmonary edema: The patient's bilateral rales in the lungs may indicate pulmonary edema, which may worsen if not managed.
+5. Dehydration: The patient's diarrhea and decreased oral intake may lead to dehydration, which may worsen if not managed.
+6. Wound infection: The patient's recent femur fracture may increase the risk of wound infection, particularly if not properly managed.
+7. DVT: The patient's prophylactic heparin may not be sufficient to prevent DVT, particularly if the patient is not mobile.
+
+Based on the patient's current condition and medical history, it is recommended that the patient receive close monitoring and management of her C. difficile infection, atrial fibrillation, and kidney dysfunction. The patient should also receive prophylactic heparin for DVT prevention and be monitored for signs of dehydration and wound infection."
+119216.0,247217,2108-07-12 07:50:00,Physician ,Physician Resident Progress Note,"TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ CALLED OUT
+   Waiting for bed.
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Metronidazole - [**2108-7-11**] 07:38 AM
+   Ceftriaxone - [**2108-7-11**] 07:38 AM
+   Vancomycin - [**2108-7-12**] 06:00 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2108-7-12**] 07:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-12**] 07:43 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.7
+C (98.1
+   HR: 70 (67 - 87) bpm
+   BP: 125/44(66) {92/38(57) - 153/73(91)} mmHg
+   RR: 28 (7 - 33) insp/min
+   SpO2: 100%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Wgt (current): 63 kg (admission): 56.1 kg
+   Height: 63 Inch
+                  Total In:
+                                                                    796 mL
+                                                                    105 mL
+   PO:
+                                                                    300 mL
+                                                                    105 mL
+   TF:
+   IVF:
+                                                                    496 mL
+   Blood products:
+   Total out:
+                                                                    685 mL
+                                                                    260 mL
+   Urine:
+                                                                    685 mL
+                                                                    260 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    111 mL
+                                                                   -155 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///25/
+   Physical Examination
+   General Elderly woman lying in bed, no acute distress
+   HEENT Sclera anicteric, Dry MM
+   Neck JVD
+   Pulm Lungs with few bilateral rales (patient's cooperation is limited)
+   CV Irregularly irregular S1 S2 no m/r/g
+   Abd Soft +bowel sounds mild tender LLQ, guiac+ in ER
+   Extrem Warm no edema, palpable distal pulses
+   Neuro Opens eyes to voice, tracks, follows commands intermittently.
+   Wiggles toes to command.
+   Derm Mild erythema near sacrum
+   Labs / Radiology
+   336 K/uL
+   10.5 g/dL
+   87 mg/dL
+   0.5 mg/dL
+   25 mEq/L
+   4.0 mEq/L
+   4 mg/dL
+   108 mEq/L
+   138 mEq/L
+   33.3 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+                             [**2108-7-11**]  05:43 AM
+                             [**2108-7-12**]  06:04 AM
+   WBC
+   8.6
+   6.3
+   5.4
+   Hct
+   31.8
+   31.4
+   33.3
+   Plt
+   [**Telephone/Fax (3) 7705**]
+   Cr
+   0.4
+   0.5
+   0.5
+   Glucose
+   123
+   92
+   87
+   Other labs: PT / PTT / INR:13.9/30.8/1.2, Ca++:7.9 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.7 mg/dL
+   .
+   Ucx
+ mixed flora c/w skin contamination
+   .
+   BCx
+ NGTD
+   .
+   CXR [**2108-7-12**]:
+   Assessment and Plan
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   .
+   98 [**Month/Day/Year **] speaking female presents with lethargy and fever.
+   .
+   * Hypotension
+ resolved. SBP 92-153 overnight.
+   .
+   * Pleural effusions - CXR shows persistent bilateral effusions.
+   Respiratory status stable.
+   - Consider therapeutic and diagnostic thoracentesis if breathing
+   worsens
+   .
+   * C. diff
+ Diarrhea has improved. Flexiseal removed. Only on PO
+   Vancomycin.
+   - continue PO vancomycin - Family cannot verify ?allergy in OMR.
+   Systemic absorption is minimal
+   - hold any antimotility agents
+   .
+   * Lethargy
+ improved per son.  Much more awake and cooperative with
+   physical exams.  Lethargy likely due to C. diff infection, dehydration
+   from diarrhea.
+   - continue vancomycin for C diff diarrhea
+   - daily neuro exams, no localizing deficits, no imaging for now.
+   .
+   * Atrial fibrillation - Not on anticoagulation as an outpatient.  HR
+   67-87.
+   - Continue ASA daily
+   .
+   * Hypertension
+ BP still between 90s-150s.
+   - Continue to hold home medication of atenolol for now
+   .
+   # Social work
+ patient
+s son asking for [**Name (NI) **] interpreter to help in
+   discussion of what he should expect when he brings pt home.
+   - SW consult
+   - PT consult
+   ICU Care
+   Nutrition: regular, thickened
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2108-7-11**] 12:53 AM
+   20 Gauge - [**2108-7-11**] 12:54 AM
+   Prophylaxis:
+   DVT: sq heparin
+   Stress ulcer: not indicated
+   VAP:  HOB elevation
+   Comments:
+   Communication:  Comments:  Son
+   [**Name (NI) 129**] status: Full code
+   Disposition: call out to floor
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+TITLE:
+   Chief Complaint:
+   24 Hour Events:
+ CALLED OUT
+   Waiting for bed.
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Metronidazole - [**2108-7-11**] 07:38 AM
+   Ceftriaxone - [**2108-7-11**] 07:38 AM
+   Vancomycin - [**2108-7-12**] 06:00 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2108-7-12**] 07:39 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-12**] 07:43 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.7
+C (98.1
+   HR: 70 (67 - 87) bpm
+   BP: 125/44(66) {92/38(57) - 153/73(91)} mmHg
+   RR: 28 (7 - 33) insp/min
+   SpO2: 100%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Wgt (current): 63 kg (admission): 56.1 kg
+   Height: 63 Inch
+                  Total In:
+                                                                    796 mL
+                                                                    105 mL
+   PO:
+                                                                    300 mL
+                                                                    105 mL
+   TF:
+   IVF:
+                                                                    496 mL
+   Blood products:
+   Total out:
+                                                                    685 mL
+                                                                    260 mL
+   Urine:
+                                                                    685 mL
+                                                                    260 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    111 mL
+                                                                   -155 mL
+   Respiratory support
+   O2 Delivery Device: Nasal cannula
+   SpO2: 100%
+   ABG: ///25/
+   Physical Examination
+   General Elderly woman lying in bed, no acute distress
+   HEENT Sclera anicteric, Dry MM
+   Neck JVD
+   Pulm Lungs with few bilateral rales (patient's cooperation is limited)
+   CV Irregularly irregular S1 S2 no m/r/g
+   Abd Soft +bowel sounds mild tender LLQ, guiac+ in ER
+   Extrem Warm no edema, palpable distal pulses
+   Neuro Opens eyes to voice, tracks, follows commands intermittently.
+   Wiggles toes to command.
+   Derm Mild erythema near sacrum
+   Labs / Radiology
+   336 K/uL
+   10.5 g/dL
+   87 mg/dL
+   0.5 mg/dL
+   25 mEq/L
+   4.0 mEq/L
+   4 mg/dL
+   108 mEq/L
+   138 mEq/L
+   33.3 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+                             [**2108-7-11**]  05:43 AM
+                             [**2108-7-12**]  06:04 AM
+   WBC
+   8.6
+   6.3
+   5.4
+   Hct
+   31.8
+   31.4
+   33.3
+   Plt
+   [**Telephone/Fax (3) 7705**]
+   Cr
+   0.4
+   0.5
+   0.5
+   Glucose
+   123
+   92
+   87
+   Other labs: PT / PTT / INR:13.9/30.8/1.2, Ca++:7.9 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.7 mg/dL
+   .
+   Ucx
+ mixed flora c/w skin contamination
+   .
+   BCx
+ NGTD
+   .
+   CXR [**2108-7-12**]:
+   Assessment and Plan
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   .
+   98 [**Month/Day/Year **] speaking female presents with lethargy and fever.
+   .
+   * Hypotension
+ resolved. SBP 92-153 overnight.
+   .
+   * Pleural effusions - CXR shows persistent bilateral effusions.
+   Respiratory status stable.
+   - Consider therapeutic and diagnostic thoracentesis if breathing
+   worsens
+   .
+   * C. diff
+ Diarrhea has improved. Flexiseal removed. Only on PO
+   Vancomycin.
+   - continue PO vancomycin - Family cannot verify ?allergy in OMR.
+   Systemic absorption is minimal
+   - hold any antimotility agents
+   .
+   * Lethargy
+ improved per son.  Much more awake and cooperative with
+   physical exams.  Lethargy likely due to C. diff infection, dehydration
+   from diarrhea.
+   - continue vancomycin for C diff diarrhea
+   - daily neuro exams, no localizing deficits, no imaging for now.
+   .
+   * Atrial fibrillation - Not on anticoagulation as an outpatient.  HR
+   67-87.
+   - Continue ASA daily
+   .
+   * Hypertension
+ BP still between 90s-150s.
+   - Continue to hold home medication of atenolol for now
+   .
+   # Social work
+ patient
+s son asking for [**Name (NI) **] interpreter to help in
+   discussion of what he should expect when he brings pt home.
+   - SW consult
+   - PT consult
+   ICU Care
+   Nutrition: regular, thickened
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2108-7-11**] 12:53 AM
+   20 Gauge - [**2108-7-11**] 12:54 AM
+   Prophylaxis:
+   DVT: sq heparin
+   Stress ulcer: not indicated
+   VAP:  HOB elevation
+   Comments:
+   Communication:  Comments:  Son
+   [**Name (NI) 129**] status: Full code
+   Disposition: call out to floor<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's daily progress note, the following summary and potential medical complications can be identified:
+
+**Summary:**
+
+The patient is a 98-year-old female who has been admitted to the ICU due to C. difficile infection (C. diff) with diarrhea, urinary tract infection (UTI), and atrial fibrillation (AFib). She has also been experiencing lethargy, which has improved with treatment. Her vital signs are stable, with a blood pressure between 90s-150s and a heart rate of 67-87 beats per minute. She has bilateral pleural effusions, which are being monitored.
+
+**Potential Medical Complications:**
+
+1. C. diff infection: The patient's diarrhea has improved with treatment, but she may still be at risk for complications such as sepsis, electrolyte imbalances, and dehydration.
+2. UTI: The patient's UTI may progress to a more severe infection, such as pyelonephritis, if not properly treated.
+3. Atrial fibrillation: The patient's AFib may lead to complications such as stroke, heart failure, or cardiogenic shock if not properly managed.
+4. Pleural effusions: The patient's bilateral pleural effusions may continue to worsen, leading to respiratory compromise or cardiac tamponade if not properly managed.
+5. Dehydration: The patient's diarrhea and UTI may lead to dehydration, which can cause electrolyte imbalances, organ dysfunction, and even death if not properly managed.
+6. Worsening of C. diff infection: The patient's C. diff infection may worsen, leading to more severe symptoms such as sepsis, electrolyte imbalances, and dehydration.
+7. Development of new complications: The patient may develop new complications such as pneumonia, acute kidney injury, or acute respiratory distress syndrome (ARDS) due to her underlying medical conditions and treatments.
+
+**Recommendations:**
+
+1. Continue treatment for C. diff infection with vancomycin and monitor for signs of worsening infection.
+2. Continue treatment for UTI with antibiotics and monitor for signs of worsening infection.
+3. Continue management of atrial fibrillation with ASA and monitor for signs of worsening heart failure or stroke.
+4. Monitor the patient's pleural effusions and consider therapeutic and diagnostic thoracentesis if breathing worsens.
+5. Monitor the patient's electrolyte levels and hydration status to prevent dehydration and electrolyte imbalances.
+6. Consider daily neuro exams to monitor for any localizing deficits or signs of worsening neurologic status.
+7. Consult with social work and physical therapy to discuss the patient's discharge plan and provide support for her transition to home."
+119216.0,247217,2108-07-12 11:06:00,Physician ,Physician Attending Progress Note,"Chief Complaint: C diff colitis, hypotension
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   Blood pressure stable. Not requiring fluid boluses. Diarrhea improved.
+   24 Hour Events:
+ CALLED OUT
+   History obtained from [**Hospital 31**] Medical records
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Metronidazole - [**2108-7-11**] 07:38 AM
+   Ceftriaxone - [**2108-7-11**] 07:38 AM
+   Vancomycin - [**2108-7-12**] 06:00 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2108-7-12**] 07:39 AM
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-12**] 11:06 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.5
+C (97.7
+   HR: 81 (70 - 87) bpm
+   BP: 139/56(77) {92/38(57) - 153/73(91)} mmHg
+   RR: 31 (7 - 33) insp/min
+   SpO2: 96%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Wgt (current): 63 kg (admission): 56.1 kg
+   Height: 63 Inch
+                  Total In:
+                                                                    796 mL
+                                                                    105 mL
+   PO:
+                                                                    300 mL
+                                                                    105 mL
+   TF:
+   IVF:
+                                                                    496 mL
+   Blood products:
+   Total out:
+                                                                    685 mL
+                                                                    440 mL
+   Urine:
+                                                                    685 mL
+                                                                    440 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    111 mL
+                                                                   -335 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: Well nourished, No(t) No acute distress, No(t)
+   Overweight / Obese, Thin, No(t) Anxious, No(t) Diaphoretic, Tachypneic
+   Eyes / Conjunctiva: PERRL, No(t) Pupils dilated, No(t) Conjunctiva
+   pale, No(t) Sclera edema
+   Head, Ears, Nose, Throat: Normocephalic, No(t) Endotracheal tube, No(t)
+   NG tube, No(t) OG tube
+   Cardiovascular: (PMI Normal, No(t) Hyperdynamic), (S1: Normal, No(t)
+   Absent), (S2: Normal, No(t) Distant, Loud, No(t) Widely split , No(t)
+   Fixed), S3, No(t) S4, No(t) Rub, (Murmur: No(t) Systolic, No(t)
+   Diastolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric, No(t) Paradoxical), (Breath
+   Sounds: Crackles : scattered, No(t) Bronchial: , No(t) Wheezes : ,
+   No(t) Diminished: , No(t) Absent : , No(t) Rhonchorous: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended,
+   No(t) Tender: , No(t) Obese
+   Extremities: Right lower extremity edema: 2+ edema, Left lower
+   extremity edema: 2+, No(t) Cyanosis, No(t) Clubbing
+   Musculoskeletal: No(t) Muscle wasting, Unable to stand
+   Skin:  Warm, Rash: , No(t) Jaundice
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, Oriented (to): Not able to assess- language, Movement:
+   Purposeful, No(t) Sedated, Paralyzed, Tone: Not assessed
+   Labs / Radiology
+   10.5 g/dL
+   336 K/uL
+   87 mg/dL
+   0.5 mg/dL
+   25 mEq/L
+   4.0 mEq/L
+   4 mg/dL
+   108 mEq/L
+   138 mEq/L
+   33.3 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+                             [**2108-7-11**]  05:43 AM
+                             [**2108-7-12**]  06:04 AM
+   WBC
+   8.6
+   6.3
+   5.4
+   Hct
+   31.8
+   31.4
+   33.3
+   Plt
+   [**Telephone/Fax (3) 7705**]
+   Cr
+   0.4
+   0.5
+   0.5
+   Glucose
+   123
+   92
+   87
+   Other labs: PT / PTT / INR:13.9/30.8/1.2, Ca++:7.9 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.7 mg/dL
+   Assessment and Plan
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   RESPIRATORY DISTRESS
+   ===========
+   C diff responding to antibiotics. Diarrhea improving.
+   CXR shows evidence of interstitial and alveolar edema, in addition to
+   pleural effusions. She is in mild resp distress now. Would aim for
+   negative fluid balance today of 0.5-1.0 L.  In the last few hours, she
+   seems to be autodiuresing. Will follow this; if necessary, will
+   supplement with lasix.
+   Heart rate well controlled in afib.
+   ICU Care
+   Nutrition: oral
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2108-7-11**] 12:53 AM
+   20 Gauge - [**2108-7-11**] 12:54 AM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer:
+   VAP:
+   Comments: Not applicable.
+   Communication: Patient discussed on interdisciplinary rounds , ICU
+   Code status: Full code
+   Disposition :Transfer to floor
+   Total time spent: 30 minutes
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Chief Complaint: C diff colitis, hypotension
+   I saw and examined the patient, and was physically present with the ICU
+   Resident for key portions of the services provided.  I agree with his /
+   her note above, including assessment and plan.
+   HPI:
+   Blood pressure stable. Not requiring fluid boluses. Diarrhea improved.
+   24 Hour Events:
+ CALLED OUT
+   History obtained from [**Hospital 31**] Medical records
+   Allergies:
+   Vancomycin
+   Rash;
+   Last dose of Antibiotics:
+   Bactrim (SMX/TMP) - [**2108-7-9**] 11:40 PM
+   Metronidazole - [**2108-7-11**] 07:38 AM
+   Ceftriaxone - [**2108-7-11**] 07:38 AM
+   Vancomycin - [**2108-7-12**] 06:00 AM
+   Infusions:
+   Other ICU medications:
+   Heparin Sodium (Prophylaxis) - [**2108-7-12**] 07:39 AM
+   Other medications:
+   Changes to medical and family history:
+   PMH, SH, FH and ROS are unchanged from Admission except where noted
+   above and below
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2108-7-12**] 11:06 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since 12 AM
+   Tmax: 36.9
+C (98.4
+   Tcurrent: 36.5
+C (97.7
+   HR: 81 (70 - 87) bpm
+   BP: 139/56(77) {92/38(57) - 153/73(91)} mmHg
+   RR: 31 (7 - 33) insp/min
+   SpO2: 96%
+   Heart rhythm: AF (Atrial Fibrillation)
+   Wgt (current): 63 kg (admission): 56.1 kg
+   Height: 63 Inch
+                  Total In:
+                                                                    796 mL
+                                                                    105 mL
+   PO:
+                                                                    300 mL
+                                                                    105 mL
+   TF:
+   IVF:
+                                                                    496 mL
+   Blood products:
+   Total out:
+                                                                    685 mL
+                                                                    440 mL
+   Urine:
+                                                                    685 mL
+                                                                    440 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    111 mL
+                                                                   -335 mL
+   Respiratory support
+   O2 Delivery Device: None
+   SpO2: 96%
+   ABG: ///25/
+   Physical Examination
+   General Appearance: Well nourished, No(t) No acute distress, No(t)
+   Overweight / Obese, Thin, No(t) Anxious, No(t) Diaphoretic, Tachypneic
+   Eyes / Conjunctiva: PERRL, No(t) Pupils dilated, No(t) Conjunctiva
+   pale, No(t) Sclera edema
+   Head, Ears, Nose, Throat: Normocephalic, No(t) Endotracheal tube, No(t)
+   NG tube, No(t) OG tube
+   Cardiovascular: (PMI Normal, No(t) Hyperdynamic), (S1: Normal, No(t)
+   Absent), (S2: Normal, No(t) Distant, Loud, No(t) Widely split , No(t)
+   Fixed), S3, No(t) S4, No(t) Rub, (Murmur: No(t) Systolic, No(t)
+   Diastolic)
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Respiratory / Chest: (Expansion: Symmetric, No(t) Paradoxical), (Breath
+   Sounds: Crackles : scattered, No(t) Bronchial: , No(t) Wheezes : ,
+   No(t) Diminished: , No(t) Absent : , No(t) Rhonchorous: )
+   Abdominal: Soft, Non-tender, Bowel sounds present, No(t) Distended,
+   No(t) Tender: , No(t) Obese
+   Extremities: Right lower extremity edema: 2+ edema, Left lower
+   extremity edema: 2+, No(t) Cyanosis, No(t) Clubbing
+   Musculoskeletal: No(t) Muscle wasting, Unable to stand
+   Skin:  Warm, Rash: , No(t) Jaundice
+   Neurologic: Attentive, Follows simple commands, Responds to: Verbal
+   stimuli, Oriented (to): Not able to assess- language, Movement:
+   Purposeful, No(t) Sedated, Paralyzed, Tone: Not assessed
+   Labs / Radiology
+   10.5 g/dL
+   336 K/uL
+   87 mg/dL
+   0.5 mg/dL
+   25 mEq/L
+   4.0 mEq/L
+   4 mg/dL
+   108 mEq/L
+   138 mEq/L
+   33.3 %
+   5.4 K/uL
+        [image002.jpg]
+                             [**2108-7-10**]  04:54 AM
+                             [**2108-7-11**]  05:43 AM
+                             [**2108-7-12**]  06:04 AM
+   WBC
+   8.6
+   6.3
+   5.4
+   Hct
+   31.8
+   31.4
+   33.3
+   Plt
+   [**Telephone/Fax (3) 7705**]
+   Cr
+   0.4
+   0.5
+   0.5
+   Glucose
+   123
+   92
+   87
+   Other labs: PT / PTT / INR:13.9/30.8/1.2, Ca++:7.9 mg/dL, Mg++:1.9
+   mg/dL, PO4:2.7 mg/dL
+   Assessment and Plan
+ C. DIFFICILE INFECTION (C DIFF, CDIFF COLITIS, CLOSTRIDIUM DIFFICILE)
+ DIARRHEA
+ URINARY TRACT INFECTION (UTI)
+ HYPOTENSION (NOT SHOCK)
+ ATRIAL FIBRILLATION (AFIB)
+   RESPIRATORY DISTRESS
+   ===========
+   C diff responding to antibiotics. Diarrhea improving.
+   CXR shows evidence of interstitial and alveolar edema, in addition to
+   pleural effusions. She is in mild resp distress now. Would aim for
+   negative fluid balance today of 0.5-1.0 L.  In the last few hours, she
+   seems to be autodiuresing. Will follow this; if necessary, will
+   supplement with lasix.
+   Heart rate well controlled in afib.
+   ICU Care
+   Nutrition: oral
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2108-7-11**] 12:53 AM
+   20 Gauge - [**2108-7-11**] 12:54 AM
+   Prophylaxis:
+   DVT: SQ UF Heparin
+   Stress ulcer:
+   VAP:
+   Comments: Not applicable.
+   Communication: Patient discussed on interdisciplinary rounds , ICU
+   Code status: Full code
+   Disposition :Transfer to floor
+   Total time spent: 30 minutes<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient is a 56-year-old female admitted to the ICU with C. difficile colitis, hypotension, and atrial fibrillation. Her blood pressure is stable, and she is not requiring fluid boluses. Her diarrhea has improved, and she is responding to antibiotics. She has a history of allergies to vancomycin and a rash. Her current vital signs include a temperature of 36.5°C (97.7°F), heart rate of 81 bpm, and blood pressure of 139/56 mmHg. She is on oxygen therapy and has a SpO2 of 96%. Her physical examination is notable for 2+ edema in her right and left lower extremities.
+
+Potential Medical Complications:
+
+1. C. difficile colitis: The patient's C. difficile colitis is responding to antibiotics, but she is still at risk for complications such as colonic perforation, abscess formation, and sepsis.
+2. Hypotension: The patient's hypotension is not severe, but it may worsen if she develops sepsis or other complications.
+3. Atrial fibrillation: The patient's atrial fibrillation is well-controlled, but she is at risk for complications such as stroke, heart failure, and embolism.
+4. Respiratory distress: The patient's respiratory distress is mild, but she may develop more severe respiratory failure if her condition worsens.
+5. Urinary tract infection (UTI): The patient has a UTI, which may lead to sepsis, kidney damage, or other complications if not properly treated.
+6. Fluid overload: The patient is at risk for fluid overload due to her C. difficile colitis, which may lead to cardiac failure, respiratory failure, or other complications.
+7. Pressure ulcers: The patient's immobility and edema may increase her risk for pressure ulcers, which can lead to infection, pain, and disability.
+8. DVT: The patient is at risk for DVT due to her immobility and C. difficile colitis, which may lead to pulmonary embolism, stroke, or other complications if not properly treated."

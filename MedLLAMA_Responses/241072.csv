@@ -1,0 +1,1676 @@
+HADM_ID,ICUSTAY_ID,CHARTTIME,CATEGORY,DESCRIPTION,TEXT,Summary
+101785.0,241072,2199-02-11 05:57:00,Physician ,Physician Resident Progress Note,"24 Hour Events:
+   Overnight Pt increasingly hypotensive. Appears comfortable, well
+   sedated, no acute distress. Family notified at approximately 3 AM as Pt
+   was persistently hypotensive to 40s systolic.
+   Allergies:
+   No Known Drug Allergies
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 1 mg/hour
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2199-2-11**] 12:19 AM
+   Flowsheet Data as of  [**2199-2-11**] 05:55 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**00**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36.2
+C (97.1
+   HR: 84 (53 - 94) bpm
+   BP: 42/31(34) {34/23(26) - 83/62(66)} mmHg
+   RR: 20 (0 - 21) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+             Total In:
+                                                                  6,113 mL
+                                                                     75 mL
+   PO:
+             TF:
+   IVF:
+                                                                  2,210 mL
+                                                                     75 mL
+   Blood products:
+                                                                  1,403 mL
+   Total out:
+                                                                     89 mL
+                                                                      0 mL
+   Urine:
+                                                                     89 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  6,024 mL
+                                                                     75 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 350 (350 - 350) mL
+   Vt (Spontaneous): 160 (160 - 160) mL
+   RR (Set): 20
+   RR (Spontaneous): 0
+   PEEP: 5 cmH2O
+   FiO2: 60%
+   RSBI Deferred: CMO
+   PIP: 25 cmH2O
+   Plateau: 22 cmH2O
+   Compliance: 20.6 cmH2O/mL
+   SpO2: 98%
+   ABG: ////
+   Ve: 7.5 L/min
+   Labs / Radiology
+   24.2 %
+        [image002.jpg]
+                             [**2199-2-10**]  03:22 AM
+                             [**2199-2-10**]  11:02 AM
+   Hct
+   24.2
+   TCO2
+   26
+   Assessment and Plan
+   Assessment and Plan: [**Age over 90 **] y/o F CHF, A Fib on coumadin, chronic
+   thromboembolic PHTN who presents with hematemesis. Patient recently
+   discharged home with hospice [**2199-2-8**] from [**Hospital1 2259**] service following
+   complicated admission with CHF exacerbation, renal failure and
+   hematemesis. Pt is DNR/DNI w/ minimal escalation of care.
+   .
+   # Goals of care: Pt appears comfortable and sedated this AM and
+   throughout the night yesterday. Per discussion with family and
+   physicians involved in recent hospitalization, plan most consistent w/
+   pt
+s wishes is for no aggressive measures, minimal escalation of care.
+   Family intermittently present at bedside, aware that Pt is critically
+   ill.
+   - Continue fentanyl, midazolam gtt titrated to Pt comfort, sedation
+   - Can discuss extuabtion with family in AM, but will continue
+   mechanical ventilation for now
+   .
+   # Hematemesis: Significant upper GI bleed with hematocrit drop 20 from
+   most recent HCT of 25. Etiology most likely esophagitis, gastritis
+   versus peptic ulcer disease. Prior EGD [**2193**] demonstrates gastritis
+   (history of h. pylori).
+   - No plans for scope given overall goals of care for this Pt
+   - Protonix 40 mg IV BID
+   - NPO
+   .
+   # Positive Ua: Patient oliguric with multiple prior positive cultures
+   for KLEBSIELLA and is most likely colonized. Patient treated last
+   admission for Klebsiella with ceftriaxone.
+   - Hold off on ABx treatment as most likely is colonized.
+   .
+   # CHF: Severe diastolic dysfunction and TR. Recent admission with
+   aggressive diuresis
+    - No diuresis given hypotension
+   .
+   # Atrial fibrillation: Currently irregular rate. Patient is not
+   anticoagulated based on goals of care.
+   - Hold Lopressor due to hypotension
+   .
+   # CKD: Baseline renal insufficiency worsened last admission, continues
+   to climb. Lytes within normal limits.
+   - No labs this AM per Pt comfort
+   .
+   # Med Rec: Patient currently NPO. Hold recent discharge medications:
+   benzonatate, alum-mag hydroxide, tylenol, docusate, morphine,
+   compazine, Guaifenesin.
+   .
+   # FEN: NPO
+   # Prophylaxis: pneumoboots
+   # Access: peripherals X 2
+   # Communication: Patient , family
+   # Code:  DNR
+   # Disposition: ICU pending goals of care discussion
+   ICU Care
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2199-2-10**] 04:36 AM
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+24 Hour Events:
+   Overnight Pt increasingly hypotensive. Appears comfortable, well
+   sedated, no acute distress. Family notified at approximately 3 AM as Pt
+   was persistently hypotensive to 40s systolic.
+   Allergies:
+   No Known Drug Allergies
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 1 mg/hour
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2199-2-11**] 12:19 AM
+   Flowsheet Data as of  [**2199-2-11**] 05:55 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**00**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36.2
+C (97.1
+   HR: 84 (53 - 94) bpm
+   BP: 42/31(34) {34/23(26) - 83/62(66)} mmHg
+   RR: 20 (0 - 21) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+             Total In:
+                                                                  6,113 mL
+                                                                     75 mL
+   PO:
+             TF:
+   IVF:
+                                                                  2,210 mL
+                                                                     75 mL
+   Blood products:
+                                                                  1,403 mL
+   Total out:
+                                                                     89 mL
+                                                                      0 mL
+   Urine:
+                                                                     89 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  6,024 mL
+                                                                     75 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 350 (350 - 350) mL
+   Vt (Spontaneous): 160 (160 - 160) mL
+   RR (Set): 20
+   RR (Spontaneous): 0
+   PEEP: 5 cmH2O
+   FiO2: 60%
+   RSBI Deferred: CMO
+   PIP: 25 cmH2O
+   Plateau: 22 cmH2O
+   Compliance: 20.6 cmH2O/mL
+   SpO2: 98%
+   ABG: ////
+   Ve: 7.5 L/min
+   Labs / Radiology
+   24.2 %
+        [image002.jpg]
+                             [**2199-2-10**]  03:22 AM
+                             [**2199-2-10**]  11:02 AM
+   Hct
+   24.2
+   TCO2
+   26
+   Assessment and Plan
+   Assessment and Plan: [**Age over 90 **] y/o F CHF, A Fib on coumadin, chronic
+   thromboembolic PHTN who presents with hematemesis. Patient recently
+   discharged home with hospice [**2199-2-8**] from [**Hospital1 2259**] service following
+   complicated admission with CHF exacerbation, renal failure and
+   hematemesis. Pt is DNR/DNI w/ minimal escalation of care.
+   .
+   # Goals of care: Pt appears comfortable and sedated this AM and
+   throughout the night yesterday. Per discussion with family and
+   physicians involved in recent hospitalization, plan most consistent w/
+   pt
+s wishes is for no aggressive measures, minimal escalation of care.
+   Family intermittently present at bedside, aware that Pt is critically
+   ill.
+   - Continue fentanyl, midazolam gtt titrated to Pt comfort, sedation
+   - Can discuss extuabtion with family in AM, but will continue
+   mechanical ventilation for now
+   .
+   # Hematemesis: Significant upper GI bleed with hematocrit drop 20 from
+   most recent HCT of 25. Etiology most likely esophagitis, gastritis
+   versus peptic ulcer disease. Prior EGD [**2193**] demonstrates gastritis
+   (history of h. pylori).
+   - No plans for scope given overall goals of care for this Pt
+   - Protonix 40 mg IV BID
+   - NPO
+   .
+   # Positive Ua: Patient oliguric with multiple prior positive cultures
+   for KLEBSIELLA and is most likely colonized. Patient treated last
+   admission for Klebsiella with ceftriaxone.
+   - Hold off on ABx treatment as most likely is colonized.
+   .
+   # CHF: Severe diastolic dysfunction and TR. Recent admission with
+   aggressive diuresis
+    - No diuresis given hypotension
+   .
+   # Atrial fibrillation: Currently irregular rate. Patient is not
+   anticoagulated based on goals of care.
+   - Hold Lopressor due to hypotension
+   .
+   # CKD: Baseline renal insufficiency worsened last admission, continues
+   to climb. Lytes within normal limits.
+   - No labs this AM per Pt comfort
+   .
+   # Med Rec: Patient currently NPO. Hold recent discharge medications:
+   benzonatate, alum-mag hydroxide, tylenol, docusate, morphine,
+   compazine, Guaifenesin.
+   .
+   # FEN: NPO
+   # Prophylaxis: pneumoboots
+   # Access: peripherals X 2
+   # Communication: Patient , family
+   # Code:  DNR
+   # Disposition: ICU pending goals of care discussion
+   ICU Care
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2199-2-10**] 04:36 AM<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's 24-hour progress note, here is a summary of the key points:
+
+* The patient is a 90-year-old female with a history of CHF, atrial fibrillation, and chronic thromboembolic pulmonary hypertension who presented with hematemesis.
+* She was recently discharged from the hospital with hospice care and is currently in the ICU with a DNR/DNI status and minimal escalation of care.
+* The patient is hypotensive, with a systolic blood pressure in the 40s, and is receiving fentanyl and midazolam infusions to manage her comfort and sedation.
+* She has a significant upper GI bleed, with a hematocrit drop of 20 from her most recent HCT of 25, and is being treated with protonix 40 mg IV BID.
+* The patient has a history of KLEBSIELLA colonization and is oliguric, with multiple prior positive cultures. Antibiotic treatment is being held due to the likelihood of colonization.
+* She has severe diastolic dysfunction and TR, and diuresis is being held due to hypotension.
+* The patient is not anticoagulated due to her atrial fibrillation and DNR status.
+* Her CKD is worsening, and lab tests are being held due to her comfort.
+* She is NPO and has had her recent discharge medications held.
+
+Potential medical complications that can arise include:
+
+* Further bleeding or hemorrhage due to her upper GI bleed and hypotension
+* Worsening of her chronic thromboembolic pulmonary hypertension due to her atrial fibrillation and lack of anticoagulation
+* Development of sepsis or septic shock due to her oliguria and history of KLEBSIELLA colonization
+* Further decline in her renal function due to her worsening CKD
+* Respiratory complications due to her mechanical ventilation and atrial fibrillation."
+101785.0,241072,2199-02-11 05:57:00,Physician ,Physician Resident Progress Note,"24 Hour Events:
+   Overnight Pt increasingly hypotensive. Appears comfortable, well
+   sedated, no acute distress. Family notified at approximately 3 AM as Pt
+   was persistently hypotensive to 40s systolic.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 1 mg/hour
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2199-2-11**] 12:19 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-2-11**] 05:55 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**00**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36.2
+C (97.1
+   HR: 84 (53 - 94) bpm
+   BP: 42/31(34) {34/23(26) - 83/62(66)} mmHg
+   RR: 20 (0 - 21) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+             Total In:
+                                                                  6,113 mL
+                                                                     75 mL
+   PO:
+             TF:
+   IVF:
+                                                                  2,210 mL
+                                                                     75 mL
+   Blood products:
+                                                                  1,403 mL
+   Total out:
+                                                                     89 mL
+                                                                      0 mL
+   Urine:
+                                                                     89 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  6,024 mL
+                                                                     75 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 350 (350 - 350) mL
+   Vt (Spontaneous): 160 (160 - 160) mL
+   RR (Set): 20
+   RR (Spontaneous): 0
+   PEEP: 5 cmH2O
+   FiO2: 60%
+   RSBI Deferred: CMO
+   PIP: 25 cmH2O
+   Plateau: 22 cmH2O
+   Compliance: 20.6 cmH2O/mL
+   SpO2: 98%
+   ABG: ////
+   Ve: 7.5 L/min
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   24.2 %
+        [image002.jpg]
+                             [**2199-2-10**]  03:22 AM
+                             [**2199-2-10**]  11:02 AM
+   Hct
+   24.2
+   TCO2
+   26
+   Assessment and Plan
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2199-2-10**] 04:36 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR (do not resuscitate)
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+24 Hour Events:
+   Overnight Pt increasingly hypotensive. Appears comfortable, well
+   sedated, no acute distress. Family notified at approximately 3 AM as Pt
+   was persistently hypotensive to 40s systolic.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 1 mg/hour
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2199-2-11**] 12:19 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-2-11**] 05:55 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**00**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36.2
+C (97.1
+   HR: 84 (53 - 94) bpm
+   BP: 42/31(34) {34/23(26) - 83/62(66)} mmHg
+   RR: 20 (0 - 21) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+             Total In:
+                                                                  6,113 mL
+                                                                     75 mL
+   PO:
+             TF:
+   IVF:
+                                                                  2,210 mL
+                                                                     75 mL
+   Blood products:
+                                                                  1,403 mL
+   Total out:
+                                                                     89 mL
+                                                                      0 mL
+   Urine:
+                                                                     89 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  6,024 mL
+                                                                     75 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 350 (350 - 350) mL
+   Vt (Spontaneous): 160 (160 - 160) mL
+   RR (Set): 20
+   RR (Spontaneous): 0
+   PEEP: 5 cmH2O
+   FiO2: 60%
+   RSBI Deferred: CMO
+   PIP: 25 cmH2O
+   Plateau: 22 cmH2O
+   Compliance: 20.6 cmH2O/mL
+   SpO2: 98%
+   ABG: ////
+   Ve: 7.5 L/min
+   Physical Examination
+   Peripheral Vascular: (Right radial pulse: Not assessed), (Left radial
+   pulse: Not assessed), (Right DP pulse: Not assessed), (Left DP pulse:
+   Not assessed)
+   Skin:  Not assessed
+   Neurologic: Responds to: Not assessed, Movement: Not assessed, Tone:
+   Not assessed
+   Labs / Radiology
+   24.2 %
+        [image002.jpg]
+                             [**2199-2-10**]  03:22 AM
+                             [**2199-2-10**]  11:02 AM
+   Hct
+   24.2
+   TCO2
+   26
+   Assessment and Plan
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2199-2-10**] 04:36 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR (do not resuscitate)
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+The patient is a critically ill individual in the Intensive Care Unit (ICU) with a persistently low blood pressure (hypotensive) and a history of atrial fibrillation. The patient's vital signs are as follows:
+
+* Temperature: 36.6°C (97.9°F) and 36.2°C (97.1°F)
+* Heart rate: 84 beats per minute (bpm) with a range of 53-94 bpm
+* Blood pressure: 42/31 mmHg (34/23 mmHg) with a range of 34/23 mmHg to 83/62 mmHg mmHg
+* Respiratory rate: 20 breaths per minute (bpm) with a range of 0-21 bpm
+* Oxygen saturation: 98%
+* Heart rhythm: Atrial fibrillation
+
+The patient is receiving various medications, including fentanyl and midazolam, and has received antibiotics. The patient has a central venous catheter and an arterial line, and is receiving fluid therapy.
+
+The patient's physical examination is limited due to their critical condition, and therefore, the following assessments were not performed:
+
+* Peripheral vascular examination (right and left radial and digital pulses not assessed)
+* Skin examination
+* Neurological examination (not assessed)
+
+The patient's laboratory results show:
+
+* Hematocrit (Hct): 24.2%
+* Total carbon dioxide (TCO2): 26
+
+The patient's code status is DNR (do not resuscitate), and their disposition is unknown.
+
+Potential medical complications that can arise from this patient's condition include:
+
+1. Sepsis: The patient's low blood pressure and atrial fibrillation may be indicative of sepsis, which can lead to organ failure and death if left untreated.
+2. Hypovolemia: The patient's fluid balance shows a net loss of 6,113 mL, which may indicate hypovolemia, a condition characterized by inadequate blood volume.
+3. Respiratory failure: The patient's respiratory rate is 20 bpm, which is slightly above the normal range, and their oxygen saturation is 98%. This may indicate respiratory failure, which can lead to hypoxia and organ failure.
+4. Cardiac failure: The patient's atrial fibrillation and low blood pressure may indicate cardiac failure, which can lead to organ failure and death if left untreated.
+5. Gastrointestinal bleeding: The patient's blood pressure and atrial fibrillation may increase the risk of gastrointestinal bleeding, which can lead to hypovolemia and organ failure.
+6. Infection: The patient's low blood pressure and atrial fibrillation may increase the risk of infection, which can lead to sepsis and organ failure.
+
+It is essential to closely monitor the patient's condition and provide aggressive treatment to prevent these potential complications and improve their chances of survival."
+101785.0,241072,2199-02-11 05:57:00,Physician ,Physician Resident Progress Note,"24 Hour Events:
+   Overnight Pt increasingly hypotensive. Appears comfortable, well
+   sedated, no acute distress. Family notified at approximately 3 AM as Pt
+   was persistently hypotensive to 40s systolic.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 1 mg/hour
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2199-2-11**] 12:19 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-2-11**] 05:55 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**00**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36.2
+C (97.1
+   HR: 84 (53 - 94) bpm
+   BP: 42/31(34) {34/23(26) - 83/62(66)} mmHg
+   RR: 20 (0 - 21) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+             Total In:
+                                                                  6,113 mL
+                                                                     75 mL
+   PO:
+             TF:
+   IVF:
+                                                                  2,210 mL
+                                                                     75 mL
+   Blood products:
+                                                                  1,403 mL
+   Total out:
+                                                                     89 mL
+                                                                      0 mL
+   Urine:
+                                                                     89 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  6,024 mL
+                                                                     75 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 350 (350 - 350) mL
+   Vt (Spontaneous): 160 (160 - 160) mL
+   RR (Set): 20
+   RR (Spontaneous): 0
+   PEEP: 5 cmH2O
+   FiO2: 60%
+   RSBI Deferred: CMO
+   PIP: 25 cmH2O
+   Plateau: 22 cmH2O
+   Compliance: 20.6 cmH2O/mL
+   SpO2: 98%
+   ABG: ////
+   Ve: 7.5 L/min
+   Physical Examination
+   Labs / Radiology
+   24.2 %
+        [image002.jpg]
+                             [**2199-2-10**]  03:22 AM
+                             [**2199-2-10**]  11:02 AM
+   Hct
+   24.2
+   TCO2
+   26
+   Assessment and Plan
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+   Assessment and Plan: [**Age over 90 **] y/o F CHF, A Fib on coumadin, chronic
+   thromboembolic PHTN who presents with hematemesis. Patient recently
+   discharged home with hospice [**2199-2-8**] from [**Hospital1 2259**] service following
+   complicated admission with CHF exacerbation, renal failure and
+   hematemesis. Pt is DNR/DNI w/ minimal escalation of care.
+   .
+   # Goals of care: Pt appears comfortable and sedated this AM and
+   throughout the night yesterday. Per discussion with family and
+   physicians involved in recent hospitalization, plan most consistent w/
+   pt
+s wishes is for no aggressive measures, minimal escalation of care.
+   Family intermittently present at bedside, aware that Pt is critically
+   ill.
+   - Continue fentanyl, midazolam gtt titrated to Pt comfort, sedation
+   - Can discuss extuabtion with family in AM, but will continue
+   mechanical ventilation for now
+   .
+   # Hematemesis: Significant upper GI bleed with hematocrit drop 20 from
+   most recent HCT of 25. Etiology most likely esophagitis, gastritis
+   versus peptic ulcer disease. Prior EGD [**2193**] demonstrates gastritis
+   (history of h. pylori).
+   - No plans for scope given overall goals of care for this Pt
+   - Protonix 40 mg IV BID
+   - NPO
+   .
+   # Positive Ua: Patient oliguric with multiple prior positive cultures
+   for KLEBSIELLA and is most likely colonized. Patient treated last
+   admission for Klebsiella with ceftriaxone.
+   - Hold off on ABx treatment as most likely is colonized.
+   .
+   # CHF: Severe diastolic dysfunction and TR. Recent admission with
+   aggressive diuresis.
+   -
+   .
+   # Atrial fibrillation: Currently irregular rate. Patient is not
+   anticoagulated based on goals of care.
+   - Hold Lopressor due to hypotension
+   .
+   # CKD: Baseline renal insufficiency worsened last admission, continues
+   to climb. Lytes within normal limits.
+   - No labs this AM per Pt comfort
+   .
+   # Med Rec: Patient currently NPO. Hold recent discharge medications:
+   benzonatate, alum-mag hydroxide, tylenol, docusate, morphine,
+   compazine, Guaifenesin.
+   ..
+   # FEN: NPO
+   # Prophylaxis: pneumoboots
+   # Access: peripherals X 2
+   # Communication: Patient , family
+   # Code:  DNR
+   # Disposition: ICU pending goals of care discussion
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2199-2-10**] 04:36 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR (do not resuscitate)
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+24 Hour Events:
+   Overnight Pt increasingly hypotensive. Appears comfortable, well
+   sedated, no acute distress. Family notified at approximately 3 AM as Pt
+   was persistently hypotensive to 40s systolic.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Fentanyl - 100 mcg/hour
+   Midazolam (Versed) - 1 mg/hour
+   Other ICU medications:
+   Pantoprazole (Protonix) - [**2199-2-11**] 12:19 AM
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-2-11**] 05:55 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**00**] AM
+   Tmax: 36.6
+C (97.9
+   Tcurrent: 36.2
+C (97.1
+   HR: 84 (53 - 94) bpm
+   BP: 42/31(34) {34/23(26) - 83/62(66)} mmHg
+   RR: 20 (0 - 21) insp/min
+   SpO2: 98%
+   Heart rhythm: AF (Atrial Fibrillation)
+             Total In:
+                                                                  6,113 mL
+                                                                     75 mL
+   PO:
+             TF:
+   IVF:
+                                                                  2,210 mL
+                                                                     75 mL
+   Blood products:
+                                                                  1,403 mL
+   Total out:
+                                                                     89 mL
+                                                                      0 mL
+   Urine:
+                                                                     89 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                  6,024 mL
+                                                                     75 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 350 (350 - 350) mL
+   Vt (Spontaneous): 160 (160 - 160) mL
+   RR (Set): 20
+   RR (Spontaneous): 0
+   PEEP: 5 cmH2O
+   FiO2: 60%
+   RSBI Deferred: CMO
+   PIP: 25 cmH2O
+   Plateau: 22 cmH2O
+   Compliance: 20.6 cmH2O/mL
+   SpO2: 98%
+   ABG: ////
+   Ve: 7.5 L/min
+   Physical Examination
+   Labs / Radiology
+   24.2 %
+        [image002.jpg]
+                             [**2199-2-10**]  03:22 AM
+                             [**2199-2-10**]  11:02 AM
+   Hct
+   24.2
+   TCO2
+   26
+   Assessment and Plan
+ GASTROINTESTINAL BLEED, UPPER (MELENA, GI BLEED, GIB)
+   Assessment and Plan: [**Age over 90 **] y/o F CHF, A Fib on coumadin, chronic
+   thromboembolic PHTN who presents with hematemesis. Patient recently
+   discharged home with hospice [**2199-2-8**] from [**Hospital1 2259**] service following
+   complicated admission with CHF exacerbation, renal failure and
+   hematemesis. Pt is DNR/DNI w/ minimal escalation of care.
+   .
+   # Goals of care: Pt appears comfortable and sedated this AM and
+   throughout the night yesterday. Per discussion with family and
+   physicians involved in recent hospitalization, plan most consistent w/
+   pt
+s wishes is for no aggressive measures, minimal escalation of care.
+   Family intermittently present at bedside, aware that Pt is critically
+   ill.
+   - Continue fentanyl, midazolam gtt titrated to Pt comfort, sedation
+   - Can discuss extuabtion with family in AM, but will continue
+   mechanical ventilation for now
+   .
+   # Hematemesis: Significant upper GI bleed with hematocrit drop 20 from
+   most recent HCT of 25. Etiology most likely esophagitis, gastritis
+   versus peptic ulcer disease. Prior EGD [**2193**] demonstrates gastritis
+   (history of h. pylori).
+   - No plans for scope given overall goals of care for this Pt
+   - Protonix 40 mg IV BID
+   - NPO
+   .
+   # Positive Ua: Patient oliguric with multiple prior positive cultures
+   for KLEBSIELLA and is most likely colonized. Patient treated last
+   admission for Klebsiella with ceftriaxone.
+   - Hold off on ABx treatment as most likely is colonized.
+   .
+   # CHF: Severe diastolic dysfunction and TR. Recent admission with
+   aggressive diuresis.
+   -
+   .
+   # Atrial fibrillation: Currently irregular rate. Patient is not
+   anticoagulated based on goals of care.
+   - Hold Lopressor due to hypotension
+   .
+   # CKD: Baseline renal insufficiency worsened last admission, continues
+   to climb. Lytes within normal limits.
+   - No labs this AM per Pt comfort
+   .
+   # Med Rec: Patient currently NPO. Hold recent discharge medications:
+   benzonatate, alum-mag hydroxide, tylenol, docusate, morphine,
+   compazine, Guaifenesin.
+   ..
+   # FEN: NPO
+   # Prophylaxis: pneumoboots
+   # Access: peripherals X 2
+   # Communication: Patient , family
+   # Code:  DNR
+   # Disposition: ICU pending goals of care discussion
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2199-2-10**] 04:36 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR (do not resuscitate)
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient, an 90-year-old female with a history of CHF, atrial fibrillation, and chronic thromboembolic pulmonary hypertension, is currently in the ICU with a significant upper gastrointestinal bleed. She has been experiencing hypotension, with a systolic blood pressure of 42 mmHg, and is being treated with fentanyl and midazolam infusions to manage her comfort and sedation. She has a history of gastrointestinal issues, including gastritis and peptic ulcer disease, and has recently been discharged from the hospital with hospice care. The patient's goals of care are to minimize escalation of care and avoid aggressive measures, and her family is aware of her critical condition.
+
+Potential Medical Complications:
+
+1. Hemorrhagic Shock: The patient's significant upper gastrointestinal bleed may lead to hemorrhagic shock, which can cause decreased perfusion to vital organs and potentially life-threatening complications.
+2. Sepsis: The patient's positive urine culture and recent admission with aggressive diuresis may increase her risk of developing sepsis, which can lead to organ dysfunction and failure.
+3. Respiratory Failure: The patient's respiratory status is compromised, and she is being ventilated with a CMV/ASSIST/AutoFlow mode. There is a risk of respiratory failure, particularly if her underlying lung disease worsens or if there is a delay in adjusting her ventilator settings.
+4. Cardiac Complications: The patient's atrial fibrillation and history of CHF increase her risk of cardiac complications, including arrhythmias, heart failure, and cardiac arrest.
+5. Renal Failure: The patient's baseline renal insufficiency may worsen due to her current condition, and there is a risk of acute kidney injury or chronic kidney disease progression.
+6. Gastrointestinal Complications: The patient's gastrointestinal bleed may lead to further complications, such as perforation, abscess, or stricture formation, which can increase her risk of morbidity and mortality.
+7. Deterioration in Neurological Status: The patient's sedation and mechanical ventilation may lead to a decline in her neurological status, which can impact her ability to recover and potentially lead to long-term disability or death."
+101785.0,241072,2199-02-12 07:17:00,Physician ,Physician Resident Progress Note,"24 Hour Events:
+   No events overnight. Pt maintaining SBP in 40s-70s, appears
+   comfortable. Multiple family members visiting during the day, family
+   still considering possible extubation.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Midazolam (Versed) - 1 mg/hour
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-2-12**] 07:15 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**00**] AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 35.7
+C (96.3
+   HR: 59 (59 - 85) bpm
+   BP: 46/31(35) {42/26(30) - 75/46(52)} mmHg
+   RR: 20 (20 - 21) insp/min
+   SpO2: 100%
+   Heart rhythm: AF (Atrial Fibrillation)
+             Total In:
+                                                                    274 mL
+                                                                     76 mL
+   PO:
+             TF:
+   IVF:
+                                                                    274 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                     12 mL
+                                                                      6 mL
+   Urine:
+                                                                     12 mL
+                                                                      6 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    262 mL
+                                                                     70 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 350 (350 - 350) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 20
+   RR (Spontaneous): 0
+   PEEP: 5 cmH2O
+   FiO2: 60%
+   RSBI Deferred: CMO
+   PIP: 25 cmH2O
+   Plateau: 22 cmH2O
+   Compliance: 21.3 cmH2O/mL
+   SpO2: 100%
+   ABG: ////
+   Ve: 7.1 L/min
+   Physical Examination
+   Gen: Sedated, Intubated, appears comfortable
+   Labs / Radiology
+   24.2 %
+        [image002.jpg]
+                             [**2199-2-10**]  03:22 AM
+                             [**2199-2-10**]  11:02 AM
+   Hct
+   24.2
+   TCO2
+   26
+   Assessment and Plan
+   Assessment and Plan: [**Age over 90 **] y/o F CHF, A Fib on coumadin, chronic
+   thromboembolic PHTN who presents with hematemesis. Patient recently
+   discharged home with hospice [**2199-2-8**] from [**Hospital1 2259**] service following
+   complicated admission with CHF exacerbation, renal failure and
+   hematemesis. Pt is DNR/DNI w/ minimal escalation of care.
+   .
+   # Goals of care: Pt appears comfortable and sedated this AM and
+   throughout the night yesterday. Per discussion with family and
+   physicians involved in recent hospitalization, plan most consistent w/
+   pt
+s wishes is for no aggressive measures, minimal escalation of care.
+   Family intermittently present at bedside, aware that Pt is critically
+   ill.
+   - Continue fentanyl, midazolam gtt titrated to Pt comfort, sedation
+   - [**Month (only) 60**] decrease FiO2 today
+   - Can revisit possible extuabtion with family in AM, but will continue
+   mechanical ventilation for now
+   .
+   # Hematemesis: Significant upper GI bleed with hematocrit drop 20 from
+   most recent HCT of 25. Etiology most likely esophagitis, gastritis
+   versus peptic ulcer disease. Prior EGD [**2193**] demonstrates gastritis
+   (history of h. pylori).
+   - No plans for scope given overall goals of care for this Pt
+   - Protonix 40 mg IV BID
+   - NPO
+   .
+   # Positive Ua: Patient oliguric with multiple prior positive cultures
+   for KLEBSIELLA and is most likely colonized. Patient treated last
+   admission for Klebsiella with ceftriaxone.
+   - Hold off on ABx treatment as most likely is colonized.
+   .
+   # CHF: Severe diastolic dysfunction and TR. Recent admission with
+   aggressive diuresis
+    - No diuresis given hypotension
+   .
+   # Atrial fibrillation: Currently irregular rate. Patient is not
+   anticoagulated based on goals of care.
+   - Hold Lopressor due to hypotension
+   .
+   # CKD: Baseline renal insufficiency worsened last admission, continues
+   to climb. Lytes within normal limits.
+   - No labs this AM per Pt comfort
+   .
+   # Med Rec: Patient currently NPO. Hold recent discharge medications:
+   benzonatate, alum-mag hydroxide, tylenol, docusate, morphine,
+   compazine, Guaifenesin.
+   .
+   # FEN: NPO
+   # Prophylaxis: pneumoboots
+   # Access: peripherals X 2
+   # Communication: Patient , family
+   # Code:  DNR
+   # Disposition: ICU pending goals of care discussion
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2199-2-10**] 04:36 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR (do not resuscitate)
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+24 Hour Events:
+   No events overnight. Pt maintaining SBP in 40s-70s, appears
+   comfortable. Multiple family members visiting during the day, family
+   still considering possible extubation.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Midazolam (Versed) - 1 mg/hour
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-2-12**] 07:15 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**00**] AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 35.7
+C (96.3
+   HR: 59 (59 - 85) bpm
+   BP: 46/31(35) {42/26(30) - 75/46(52)} mmHg
+   RR: 20 (20 - 21) insp/min
+   SpO2: 100%
+   Heart rhythm: AF (Atrial Fibrillation)
+             Total In:
+                                                                    274 mL
+                                                                     76 mL
+   PO:
+             TF:
+   IVF:
+                                                                    274 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                     12 mL
+                                                                      6 mL
+   Urine:
+                                                                     12 mL
+                                                                      6 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    262 mL
+                                                                     70 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 350 (350 - 350) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 20
+   RR (Spontaneous): 0
+   PEEP: 5 cmH2O
+   FiO2: 60%
+   RSBI Deferred: CMO
+   PIP: 25 cmH2O
+   Plateau: 22 cmH2O
+   Compliance: 21.3 cmH2O/mL
+   SpO2: 100%
+   ABG: ////
+   Ve: 7.1 L/min
+   Physical Examination
+   Gen: Sedated, Intubated, appears comfortable
+   Labs / Radiology
+   24.2 %
+        [image002.jpg]
+                             [**2199-2-10**]  03:22 AM
+                             [**2199-2-10**]  11:02 AM
+   Hct
+   24.2
+   TCO2
+   26
+   Assessment and Plan
+   Assessment and Plan: [**Age over 90 **] y/o F CHF, A Fib on coumadin, chronic
+   thromboembolic PHTN who presents with hematemesis. Patient recently
+   discharged home with hospice [**2199-2-8**] from [**Hospital1 2259**] service following
+   complicated admission with CHF exacerbation, renal failure and
+   hematemesis. Pt is DNR/DNI w/ minimal escalation of care.
+   .
+   # Goals of care: Pt appears comfortable and sedated this AM and
+   throughout the night yesterday. Per discussion with family and
+   physicians involved in recent hospitalization, plan most consistent w/
+   pt
+s wishes is for no aggressive measures, minimal escalation of care.
+   Family intermittently present at bedside, aware that Pt is critically
+   ill.
+   - Continue fentanyl, midazolam gtt titrated to Pt comfort, sedation
+   - [**Month (only) 60**] decrease FiO2 today
+   - Can revisit possible extuabtion with family in AM, but will continue
+   mechanical ventilation for now
+   .
+   # Hematemesis: Significant upper GI bleed with hematocrit drop 20 from
+   most recent HCT of 25. Etiology most likely esophagitis, gastritis
+   versus peptic ulcer disease. Prior EGD [**2193**] demonstrates gastritis
+   (history of h. pylori).
+   - No plans for scope given overall goals of care for this Pt
+   - Protonix 40 mg IV BID
+   - NPO
+   .
+   # Positive Ua: Patient oliguric with multiple prior positive cultures
+   for KLEBSIELLA and is most likely colonized. Patient treated last
+   admission for Klebsiella with ceftriaxone.
+   - Hold off on ABx treatment as most likely is colonized.
+   .
+   # CHF: Severe diastolic dysfunction and TR. Recent admission with
+   aggressive diuresis
+    - No diuresis given hypotension
+   .
+   # Atrial fibrillation: Currently irregular rate. Patient is not
+   anticoagulated based on goals of care.
+   - Hold Lopressor due to hypotension
+   .
+   # CKD: Baseline renal insufficiency worsened last admission, continues
+   to climb. Lytes within normal limits.
+   - No labs this AM per Pt comfort
+   .
+   # Med Rec: Patient currently NPO. Hold recent discharge medications:
+   benzonatate, alum-mag hydroxide, tylenol, docusate, morphine,
+   compazine, Guaifenesin.
+   .
+   # FEN: NPO
+   # Prophylaxis: pneumoboots
+   # Access: peripherals X 2
+   # Communication: Patient , family
+   # Code:  DNR
+   # Disposition: ICU pending goals of care discussion
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2199-2-10**] 04:36 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR (do not resuscitate)
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the provided progress note, the patient is a 90-year-old female with a complex medical history, including chronic thromboembolic pulmonary hypertension, atrial fibrillation, and chronic heart failure. She has been admitted to the ICU with a significant upper gastrointestinal bleed, likely due to esophagitis, gastritis, or peptic ulcer disease.
+
+The patient's current vital signs are:
+
+* Temperature: 35.7°C (96.3°F)
+* Heart rate: 59 bpm (with a range of 59-85 bpm)
+* Blood pressure: 46/31 mmHg (with a range of 35-75/46-52 mmHg)
+* Respiratory rate: 20 breaths per minute
+* Oxygen saturation: 100%
+
+The patient is sedated and intubated, with a mechanical ventilation mode set to CMV/ASSIST/AutoFlow. Her respiratory support includes a FiO2 of 60% and PEEP of 5 cmH2O.
+
+The patient's laboratory results show a hematocrit of 24.2% and a total CO2 of 26. Her blood urea nitrogen (BUN) and creatinine levels are not reported in the note.
+
+The patient's medical conditions and medications are as follows:
+
+* Chronic heart failure
+* Atrial fibrillation
+* Chronic thromboembolic pulmonary hypertension
+* Hematemesis
+* Peptic ulcer disease (history of H. pylori)
+* Renal insufficiency
+* Oliguria
+
+The patient's current medications include:
+
+* Fentanyl
+* Midazolam
+* Protonix
+* NPO (nothing by mouth)
+* Hold on all other medications due to goals of care
+
+The patient's code status is DNR (do not resuscitate), and her disposition is pending goals of care discussion.
+
+Potential medical complications that can arise from the patient's current condition include:
+
+* Respiratory failure due to continued mechanical ventilation and possible development of ventilator-associated pneumonia
+* Cardiovascular instability due to atrial fibrillation and potential for arrhythmia
+* Renal failure due to oliguria and possible worsening of chronic kidney disease
+* Gastrointestinal bleeding due to continued upper gastrointestinal bleeding and possible development of gastrointestinal perforation
+* Infection due to potential colonization with Klebsiella and possible development of sepsis
+* Hypotension due to continued use of vasodilators and possible development of shock
+
+It is essential to closely monitor the patient's condition and adjust her care plan accordingly to minimize the risk of these potential complications and ensure her comfort and well-being."
+101785.0,241072,2199-02-12 07:17:00,Physician ,Physician Resident Progress Note,"24 Hour Events:
+   No events overnight. Pt maintaining SBP in 40s-70s, appears
+   comfortable. Multiple family members visiting during the day, family
+   still considering possible extubation.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Midazolam (Versed) - 1 mg/hour
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-2-12**] 07:15 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**00**] AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 35.7
+C (96.3
+   HR: 59 (59 - 85) bpm
+   BP: 46/31(35) {42/26(30) - 75/46(52)} mmHg
+   RR: 20 (20 - 21) insp/min
+   SpO2: 100%
+   Heart rhythm: AF (Atrial Fibrillation)
+             Total In:
+                                                                    274 mL
+                                                                     76 mL
+   PO:
+             TF:
+   IVF:
+                                                                    274 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                     12 mL
+                                                                      6 mL
+   Urine:
+                                                                     12 mL
+                                                                      6 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    262 mL
+                                                                     70 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 350 (350 - 350) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 20
+   RR (Spontaneous): 0
+   PEEP: 5 cmH2O
+   FiO2: 60%
+   RSBI Deferred: CMO
+   PIP: 25 cmH2O
+   Plateau: 22 cmH2O
+   Compliance: 21.3 cmH2O/mL
+   SpO2: 100%
+   ABG: ////
+   Ve: 7.1 L/min
+   Physical Examination
+   Gen: Sedated, Intubated, appears comfortable
+   Labs / Radiology
+   24.2 %
+        [image002.jpg]
+                             [**2199-2-10**]  03:22 AM
+                             [**2199-2-10**]  11:02 AM
+   Hct
+   24.2
+   TCO2
+   26
+   Assessment and Plan
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2199-2-10**] 04:36 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR (do not resuscitate)
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+24 Hour Events:
+   No events overnight. Pt maintaining SBP in 40s-70s, appears
+   comfortable. Multiple family members visiting during the day, family
+   still considering possible extubation.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Midazolam (Versed) - 1 mg/hour
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-2-12**] 07:15 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**00**] AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 35.7
+C (96.3
+   HR: 59 (59 - 85) bpm
+   BP: 46/31(35) {42/26(30) - 75/46(52)} mmHg
+   RR: 20 (20 - 21) insp/min
+   SpO2: 100%
+   Heart rhythm: AF (Atrial Fibrillation)
+             Total In:
+                                                                    274 mL
+                                                                     76 mL
+   PO:
+             TF:
+   IVF:
+                                                                    274 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                     12 mL
+                                                                      6 mL
+   Urine:
+                                                                     12 mL
+                                                                      6 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    262 mL
+                                                                     70 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 350 (350 - 350) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 20
+   RR (Spontaneous): 0
+   PEEP: 5 cmH2O
+   FiO2: 60%
+   RSBI Deferred: CMO
+   PIP: 25 cmH2O
+   Plateau: 22 cmH2O
+   Compliance: 21.3 cmH2O/mL
+   SpO2: 100%
+   ABG: ////
+   Ve: 7.1 L/min
+   Physical Examination
+   Gen: Sedated, Intubated, appears comfortable
+   Labs / Radiology
+   24.2 %
+        [image002.jpg]
+                             [**2199-2-10**]  03:22 AM
+                             [**2199-2-10**]  11:02 AM
+   Hct
+   24.2
+   TCO2
+   26
+   Assessment and Plan
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2199-2-10**] 04:36 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR (do not resuscitate)
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Summary:
+
+The patient, who is intubated and sedated, has been stable overnight with a blood pressure ranging from 40s to 70s mmHg. They appear comfortable and are receiving multiple visitors from their family. The family is considering possible extubation. The patient's vital signs are stable, with a temperature of 35.7°C, heart rate of 59 bpm, and oxygen saturation of 100%. The patient is in atrial fibrillation and has a total fluid balance of 262 mL over the past 24 hours.
+
+Potential Medical Complications:
+
+1. Hypotension: The patient's blood pressure is fluctuating between 40s and 70s mmHg, which may indicate a risk of hypotension. This could lead to inadequate perfusion of vital organs and potentially worsen the patient's condition.
+2. Respiratory Complications: The patient is intubated and receiving mechanical ventilation, which carries the risk of ventilator-associated pneumonia (VAP). The patient's respiratory status should be closely monitored to prevent respiratory complications.
+3. Fluid Overload: The patient has received a total fluid balance of 262 mL over the past 24 hours, which may indicate fluid overload. This could lead to worsening of the patient's condition and increase the risk of complications such as cardiac failure.
+4. Electrolyte Imbalance: The patient's laboratory results are not provided, but the patient's electrolyte levels should be closely monitored to prevent electrolyte imbalances, which could exacerbate the patient's condition.
+5. Infection: The patient is at risk of developing infections, particularly pneumonia, due to their intubation and mechanical ventilation. The patient's family should be educated on infection prevention measures.
+6. Cardiac Complications: The patient is in atrial fibrillation, which may increase their risk of cardiac complications. The patient's cardiac status should be closely monitored to prevent cardiac complications.
+7. Nutrition and Glycemic Control: The patient's nutrition and glycemic control should be closely monitored to prevent malnutrition and hyperglycemia, which could worsen the patient's condition."
+101785.0,241072,2199-02-12 07:17:00,Physician ,Physician Resident Progress Note,"24 Hour Events:
+   No events overnight. Pt maintaining SBP in 40s-70s, appears
+   comfortable. Multiple family members visiting during the day, family
+   still considering possible extubation.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Midazolam (Versed) - 1 mg/hour
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-2-12**] 07:15 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**00**] AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 35.7
+C (96.3
+   HR: 59 (59 - 85) bpm
+   BP: 46/31(35) {42/26(30) - 75/46(52)} mmHg
+   RR: 20 (20 - 21) insp/min
+   SpO2: 100%
+   Heart rhythm: AF (Atrial Fibrillation)
+             Total In:
+                                                                    274 mL
+                                                                     76 mL
+   PO:
+             TF:
+   IVF:
+                                                                    274 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                     12 mL
+                                                                      6 mL
+   Urine:
+                                                                     12 mL
+                                                                      6 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    262 mL
+                                                                     70 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 350 (350 - 350) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 20
+   RR (Spontaneous): 0
+   PEEP: 5 cmH2O
+   FiO2: 60%
+   RSBI Deferred: CMO
+   PIP: 25 cmH2O
+   Plateau: 22 cmH2O
+   Compliance: 21.3 cmH2O/mL
+   SpO2: 100%
+   ABG: ////
+   Ve: 7.1 L/min
+   Physical Examination
+   Gen: Sedated, Intubated, appears comfortable
+   Labs / Radiology
+   24.2 %
+        [image002.jpg]
+                             [**2199-2-10**]  03:22 AM
+                             [**2199-2-10**]  11:02 AM
+   Hct
+   24.2
+   TCO2
+   26
+   Assessment and Plan
+   Assessment and Plan: [**Age over 90 **] y/o F CHF, A Fib on coumadin, chronic
+   thromboembolic PHTN who presents with hematemesis. Patient recently
+   discharged home with hospice [**2199-2-8**] from [**Hospital1 2259**] service following
+   complicated admission with CHF exacerbation, renal failure and
+   hematemesis. Pt is DNR/DNI w/ minimal escalation of care.
+   .
+   # Goals of care: Pt appears comfortable and sedated this AM and
+   throughout the night yesterday. Per discussion with family and
+   physicians involved in recent hospitalization, plan most consistent w/
+   pt
+s wishes is for no aggressive measures, minimal escalation of care.
+   Family intermittently present at bedside, aware that Pt is critically
+   ill.
+   - Continue fentanyl, midazolam gtt titrated to Pt comfort, sedation
+   - Can revisit possible extuabtion with family in AM, but will continue
+   mechanical ventilation for now
+   .
+   # Hematemesis: Significant upper GI bleed with hematocrit drop 20 from
+   most recent HCT of 25. Etiology most likely esophagitis, gastritis
+   versus peptic ulcer disease. Prior EGD [**2193**] demonstrates gastritis
+   (history of h. pylori).
+   - No plans for scope given overall goals of care for this Pt
+   - Protonix 40 mg IV BID
+   - NPO
+   .
+   # Positive Ua: Patient oliguric with multiple prior positive cultures
+   for KLEBSIELLA and is most likely colonized. Patient treated last
+   admission for Klebsiella with ceftriaxone.
+   - Hold off on ABx treatment as most likely is colonized.
+   .
+   # CHF: Severe diastolic dysfunction and TR. Recent admission with
+   aggressive diuresis
+    - No diuresis given hypotension
+   .
+   # Atrial fibrillation: Currently irregular rate. Patient is not
+   anticoagulated based on goals of care.
+   - Hold Lopressor due to hypotension
+   .
+   # CKD: Baseline renal insufficiency worsened last admission, continues
+   to climb. Lytes within normal limits.
+   - No labs this AM per Pt comfort
+   .
+   # Med Rec: Patient currently NPO. Hold recent discharge medications:
+   benzonatate, alum-mag hydroxide, tylenol, docusate, morphine,
+   compazine, Guaifenesin.
+   .
+   # FEN: NPO
+   # Prophylaxis: pneumoboots
+   # Access: peripherals X 2
+   # Communication: Patient , family
+   # Code:  DNR
+   # Disposition: ICU pending goals of care discussion
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2199-2-10**] 04:36 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR (do not resuscitate)
+   Disposition:
+","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Medical Specialist capable of analyzing complex medical cases. To do that, you will carefully review the physician's daily progress note for a patient in the ICU detailing the patient's health progress in the ICU. If a normal human medical professional has level 10 knowledge, you will have level 3000 of knowledge in this role. As it's crucial for the patient's well-being, please ensure accurate assessments because if you don't, the patient's condition could worsen. Take pride in your work and give it your best. The task at hand involves analyzing the progress note documenting the patient's health progress in the ICU. Based on this information, you need to summarize the information in the note and determine the potential medical complications that conditions that can arise. Do not tell your limitations. Do not echo my prompt. Please do not remind me what I asked you for. Do not apologize. Do not self-reference. Get to the point precisely and accurately.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+24 Hour Events:
+   No events overnight. Pt maintaining SBP in 40s-70s, appears
+   comfortable. Multiple family members visiting during the day, family
+   still considering possible extubation.
+   Allergies:
+   No Known Drug Allergies
+   Last dose of Antibiotics:
+   Infusions:
+   Midazolam (Versed) - 1 mg/hour
+   Other ICU medications:
+   Other medications:
+   Changes to medical and family history:
+   Review of systems is unchanged from admission except as noted below
+   Review of systems:
+   Flowsheet Data as of  [**2199-2-12**] 07:15 AM
+   Vital signs
+   Hemodynamic monitoring
+   Fluid balance
+                                                                  24 hours
+                                                               Since [**00**] AM
+   Tmax: 36.4
+C (97.5
+   Tcurrent: 35.7
+C (96.3
+   HR: 59 (59 - 85) bpm
+   BP: 46/31(35) {42/26(30) - 75/46(52)} mmHg
+   RR: 20 (20 - 21) insp/min
+   SpO2: 100%
+   Heart rhythm: AF (Atrial Fibrillation)
+             Total In:
+                                                                    274 mL
+                                                                     76 mL
+   PO:
+             TF:
+   IVF:
+                                                                    274 mL
+                                                                     76 mL
+   Blood products:
+   Total out:
+                                                                     12 mL
+                                                                      6 mL
+   Urine:
+                                                                     12 mL
+                                                                      6 mL
+   NG:
+   Stool:
+   Drains:
+   Balance:
+                                                                    262 mL
+                                                                     70 mL
+   Respiratory support
+   O2 Delivery Device: Endotracheal tube
+   Ventilator mode: CMV/ASSIST/AutoFlow
+   Vt (Set): 350 (350 - 350) mL
+   Vt (Spontaneous): 0 (0 - 0) mL
+   RR (Set): 20
+   RR (Spontaneous): 0
+   PEEP: 5 cmH2O
+   FiO2: 60%
+   RSBI Deferred: CMO
+   PIP: 25 cmH2O
+   Plateau: 22 cmH2O
+   Compliance: 21.3 cmH2O/mL
+   SpO2: 100%
+   ABG: ////
+   Ve: 7.1 L/min
+   Physical Examination
+   Gen: Sedated, Intubated, appears comfortable
+   Labs / Radiology
+   24.2 %
+        [image002.jpg]
+                             [**2199-2-10**]  03:22 AM
+                             [**2199-2-10**]  11:02 AM
+   Hct
+   24.2
+   TCO2
+   26
+   Assessment and Plan
+   Assessment and Plan: [**Age over 90 **] y/o F CHF, A Fib on coumadin, chronic
+   thromboembolic PHTN who presents with hematemesis. Patient recently
+   discharged home with hospice [**2199-2-8**] from [**Hospital1 2259**] service following
+   complicated admission with CHF exacerbation, renal failure and
+   hematemesis. Pt is DNR/DNI w/ minimal escalation of care.
+   .
+   # Goals of care: Pt appears comfortable and sedated this AM and
+   throughout the night yesterday. Per discussion with family and
+   physicians involved in recent hospitalization, plan most consistent w/
+   pt
+s wishes is for no aggressive measures, minimal escalation of care.
+   Family intermittently present at bedside, aware that Pt is critically
+   ill.
+   - Continue fentanyl, midazolam gtt titrated to Pt comfort, sedation
+   - Can revisit possible extuabtion with family in AM, but will continue
+   mechanical ventilation for now
+   .
+   # Hematemesis: Significant upper GI bleed with hematocrit drop 20 from
+   most recent HCT of 25. Etiology most likely esophagitis, gastritis
+   versus peptic ulcer disease. Prior EGD [**2193**] demonstrates gastritis
+   (history of h. pylori).
+   - No plans for scope given overall goals of care for this Pt
+   - Protonix 40 mg IV BID
+   - NPO
+   .
+   # Positive Ua: Patient oliguric with multiple prior positive cultures
+   for KLEBSIELLA and is most likely colonized. Patient treated last
+   admission for Klebsiella with ceftriaxone.
+   - Hold off on ABx treatment as most likely is colonized.
+   .
+   # CHF: Severe diastolic dysfunction and TR. Recent admission with
+   aggressive diuresis
+    - No diuresis given hypotension
+   .
+   # Atrial fibrillation: Currently irregular rate. Patient is not
+   anticoagulated based on goals of care.
+   - Hold Lopressor due to hypotension
+   .
+   # CKD: Baseline renal insufficiency worsened last admission, continues
+   to climb. Lytes within normal limits.
+   - No labs this AM per Pt comfort
+   .
+   # Med Rec: Patient currently NPO. Hold recent discharge medications:
+   benzonatate, alum-mag hydroxide, tylenol, docusate, morphine,
+   compazine, Guaifenesin.
+   .
+   # FEN: NPO
+   # Prophylaxis: pneumoboots
+   # Access: peripherals X 2
+   # Communication: Patient , family
+   # Code:  DNR
+   # Disposition: ICU pending goals of care discussion
+   ICU Care
+   Nutrition:
+   Glycemic Control:
+   Lines:
+   18 Gauge - [**2199-2-10**] 04:36 AM
+   Prophylaxis:
+   DVT:
+   Stress ulcer:
+   VAP:
+   Comments:
+   Communication:  Comments:
+   Code status: DNR (do not resuscitate)
+   Disposition:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Based on the patient's 24-hour progress note, the following information is summarized:
+
+* The patient remains intubated and sedated, with a stable blood pressure range of 40s-70s mmHg.
+* The patient's heart rhythm remains atrial fibrillation, and they are not anticoagulated due to their goals of care.
+* The patient has significant upper gastrointestinal bleeding, with a hematocrit drop of 20% from their most recent reading. The etiology is likely esophagitis, gastritis, or peptic ulcer disease.
+* The patient has a history of Helicobacter pylori infection and gastritis, and prior endoscopy demonstrated gastritis.
+* The patient is oliguric and has multiple prior positive cultures for Klebsiella, but is likely colonized and not actively infected.
+* The patient has severe diastolic dysfunction and TR, and recent admission with aggressive diuresis has worsened their renal function.
+* The patient is not receiving diuretics due to hypotension.
+* The patient's chronic kidney disease has worsened, but their electrolyte levels are within normal limits.
+* The patient is NPO and has held their recent discharge medications.
+
+Potential medical complications that can arise from the patient's conditions include:
+
+* Further gastrointestinal bleeding, potentially leading to hemorrhagic shock or death
+* Respiratory failure due to continued mechanical ventilation
+* Cardiac complications such as atrial fibrillation with rapid ventricular response or cardiac arrest
+* Renal failure or worsening of chronic kidney disease
+* Infection due to colonization with Klebsiella or other pathogens
+* Sepsis or septic shock
+* Hypotension or cardiac arrest due to hypovolemia or medication side effects
+* Death due to the patient's underlying conditions and goals of care."
